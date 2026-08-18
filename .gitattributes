@@ -1,0 +1,9 @@
+# The refresh Action rewrites index.html and finance.json on Linux while this
+# repo is also edited on Windows. Without a fixed line ending the two platforms
+# would rewrite every line of a 267 KB file and each refresh would look like a
+# total rewrite in the diff. Normalise everything to LF in the repo.
+* text=auto eol=lf
+
+# Generated / data payloads: keep them out of diffs and language stats.
+finance.json linguist-generated=true
+index.html   linguist-detectable=true
