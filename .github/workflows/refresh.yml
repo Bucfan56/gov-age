@@ -37,6 +37,13 @@ jobs:
           restore-keys: |
             fec-bulk-
 
+      # Congress changes between elections: members die, resign, are appointed
+      # to fill vacancies, or win special elections. Re-deriving the roster each
+      # week keeps the chamber medians honest. verify.py gates the commit, so a
+      # bad upstream release fails the run rather than shipping.
+      - name: Rebuild the congressional roster
+        run: python3 build_roster.py --refresh
+
       - name: Rebuild finance.json
         run: python3 build_finance.py --roster roster_map.json --out finance.json --fresh-current
 
@@ -53,10 +60,10 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- finance.json index.html; then
-            echo "No change in FEC data — nothing to commit."
+          if git diff --quiet -- finance.json index.html roster_map.json; then
+            echo "No change in FEC data or roster — nothing to commit."
             exit 0
           fi
-          git add finance.json index.html
-          git commit -m "Refresh FEC data ($(date -u +%Y-%m-%d))"
+          git add finance.json index.html roster_map.json
+          git commit -m "Refresh FEC data and roster ($(date -u +%Y-%m-%d))"
           git push

@@ -1,50 +1,1715 @@
 {
- "Chuck Grassley":            ["S0IA00028","H6IA03037"],
- "Bernie Sanders":            ["S4VT00033","H8VT01016"],
- "Mitch McConnell":           ["S2KY00012"],
- "Jim Risch":                 ["S8ID00092"],
- "Angus King":                ["S2ME00109"],
- "Dick Durbin":               ["S6IL00151","H2IL20026"],
- "Ed Markey":                 ["S4MA00028","H6MA07101"],
- "Richard Blumenthal":        ["S0CT00177"],
- "Jeanne Shaheen":            ["S0NH00219"],
- "Chuck Schumer":             ["S8NY00082","H0NY16010"],
- "John Thune":                ["S2SD00068","H6SD00085"],
- "Ruben Gallego":             ["H4AZ07043"],
- "Katie Britt":               ["S2AL00145"],
- "Andy Kim":                  ["H8NJ03206"],
- "Tim Sheehy":                ["S4MT00183"],
- "Jon Ossoff":                ["S8GA00180"],
- "Hal Rogers":                ["H0KY05015"],
- "Maxine Waters":             ["H4CA23011"],
- "Steny Hoyer":               ["H2MD05155"],
- "Nancy Pelosi":              ["H8CA05035"],
- "James Clyburn":             ["H2SC02042"],
- "Danny Davis":               ["H4IL07037"],
- "John Carter":               ["H2TX31044"],
- "Frederica Wilson":          ["H0FL17068"],
- "Rosa DeLauro":              ["H0CT03072"],
- "Virginia Foxx":             ["H4NC05146"],
- "David Scott":               ["H2GA13012"],
- "Steve Scalise":             ["H0LA01087"],
- "Hakeem Jeffries":           ["H2NY10092"],
- "Mike Johnson":              ["H6LA04138"],
- "Sara Jacobs":               ["H8CA49074"],
- "Sarah McBride":             ["H4DE00045"],
- "Alexandria Ocasio-Cortez":  ["H8NY15148"],
- "Yassamin Ansari":           ["H4AZ03109"],
- "Maxwell Frost":             ["H2FL10259"],
- "Donald Trump":              ["P80001571"],
- "J.D. Vance":                ["S2OH00436"],
- "Marco Rubio":               ["S0FL00338"],
- "Markwayne Mullin":          ["H2OK02083"],
- "Doug Collins":              ["H2GA09150","S0GA00567"],
- "Lee Zeldin":                ["H8NY01148"],
- "Kelly Loeffler":            ["S0GA00526"],
- "Sean Duffy":                ["H0WI07051"],
- "Michael Waltz":             ["H8FL06148"],
- "Robert F. Kennedy Jr.":     ["P40011793"],
- "Doug Burgum":               ["P40013518"],
- "Mehmet Oz":                 ["S2PA00638"],
- "John Ratcliffe":            ["H4TX04153"]
+ "Aaron Bean": [
+  "H2FL04211"
+ ],
+ "Abraham J. Hamadeh": [
+  "H4AZ08108"
+ ],
+ "Adam B. Schiff": [
+  "H0CA27085",
+  "S4CA00555"
+ ],
+ "Adam Gray": [
+  "H2CA13115"
+ ],
+ "Adam Smith": [
+  "H6WA09025"
+ ],
+ "Addison P. McDowell": [
+  "H4NC06177"
+ ],
+ "Adelita S. Grijalva": [
+  "H6AZ07121"
+ ],
+ "Adrian Smith": [
+  "H6NE03115"
+ ],
+ "Adriano Espaillat": [
+  "H2NY13096"
+ ],
+ "Al Green": [
+  "H4TX09095"
+ ],
+ "Alex Padilla": [
+  "S2CA00955"
+ ],
+ "Alexandria Ocasio-Cortez": [
+  "H8NY15148"
+ ],
+ "Alma S. Adams": [
+  "H4NC12100"
+ ],
+ "Ami Bera": [
+  "H0CA03078"
+ ],
+ "Amy Klobuchar": [
+  "S6MN00267"
+ ],
+ "Analilia Mejia": [
+  "H6NJ11286"
+ ],
+ "Andrea Salinas": [
+  "H2OR06066"
+ ],
+ "Andrew Ogles": [
+  "H2TN05446"
+ ],
+ "Andrew R. Garbarino": [
+  "H0NY02234"
+ ],
+ "Andrew S. Clyde": [
+  "H0GA09246"
+ ],
+ "Andr\u00e9 Carson": [
+  "H8IN07184"
+ ],
+ "Andy Barr": [
+  "H0KY06104"
+ ],
+ "Andy Biggs": [
+  "H6AZ05083"
+ ],
+ "Andy Harris": [
+  "H8MD01094"
+ ],
+ "Andy Kim": [
+  "H8NJ03206",
+  "S4NJ00466"
+ ],
+ "Angela D. Alsobrooks": [
+  "S4MD00327"
+ ],
+ "Angie Craig": [
+  "H6MN02131"
+ ],
+ "Angus King": [
+  "S2ME00109"
+ ],
+ "Ann Wagner": [
+  "H2MO02102"
+ ],
+ "Anna Paulina Luna": [
+  "H0FL13158"
+ ],
+ "April McClain Delaney": [
+  "H4MD06340"
+ ],
+ "Ashley Hinson": [
+  "H0IA01174"
+ ],
+ "Ashley Moody": [
+  "S6FL00640"
+ ],
+ "August Pfluger": [
+  "H0TX11230"
+ ],
+ "Aumua Amata Coleman Radewagen": [
+  "H4AS00036"
+ ],
+ "Austin Scott": [
+  "H0GA08099"
+ ],
+ "Ayanna Pressley": [
+  "H8MA07032"
+ ],
+ "Barry Loudermilk": [
+  "H4GA11061"
+ ],
+ "Barry Moore": [
+  "H8AL02171"
+ ],
+ "Becca Balint": [
+  "H2VT01076"
+ ],
+ "Ben Cline": [
+  "H8VA06104"
+ ],
+ "Ben Ray Luj\u00e1n": [
+  "H8NM03196",
+  "S0NM00058"
+ ],
+ "Bennie G. Thompson": [
+  "H4MS02068"
+ ],
+ "Bernie Moreno": [
+  "S4OH00192"
+ ],
+ "Bernie Sanders": [
+  "H8VT01016",
+  "S4VT00033"
+ ],
+ "Beth Van Duyne": [
+  "H0TX24209"
+ ],
+ "Betty McCollum": [
+  "H0MN04049"
+ ],
+ "Bill Cassidy": [
+  "H8LA00017",
+  "S4LA00107"
+ ],
+ "Bill Foster": [
+  "H8IL14067",
+  "H2IL11124"
+ ],
+ "Bill Hagerty": [
+  "S0TN00169"
+ ],
+ "Bill Huizenga": [
+  "H0MI02094"
+ ],
+ "Blake D. Moore": [
+  "H0UT01205"
+ ],
+ "Bonnie Watson Coleman": [
+  "H4NJ12149"
+ ],
+ "Brad Finstad": [
+  "H2MN01223"
+ ],
+ "Brad Knott": [
+  "H4NC13116"
+ ],
+ "Brad Sherman": [
+  "H6CA24113"
+ ],
+ "Bradley Scott Schneider": [
+  "H2IL10068"
+ ],
+ "Brandon Gill": [
+  "H4TX26149"
+ ],
+ "Brendan F. Boyle": [
+  "H4PA13199"
+ ],
+ "Brett Guthrie": [
+  "H8KY02031"
+ ],
+ "Brian Babin": [
+  "H6TX02079"
+ ],
+ "Brian J. Mast": [
+  "H6FL18097"
+ ],
+ "Brian Jack": [
+  "H4GA03126"
+ ],
+ "Brian K. Fitzpatrick": [
+  "H6PA08277"
+ ],
+ "Brian Schatz": [
+  "S4HI00136",
+  "H6HI02244"
+ ],
+ "Brittany Pettersen": [
+  "H8CO07045"
+ ],
+ "Bruce Westerman": [
+  "H4AR04048"
+ ],
+ "Bryan Steil": [
+  "H8WI01156"
+ ],
+ "Burgess Owens": [
+  "H0UT04076"
+ ],
+ "Byron Donalds": [
+  "H2FL14186"
+ ],
+ "Carlos A. Gimenez": [
+  "H0FL26036"
+ ],
+ "Carol D. Miller": [
+  "H8WV03097"
+ ],
+ "Catherine Cortez Masto": [
+  "S6NV00200"
+ ],
+ "Celeste Maloy": [
+  "H4UT02296"
+ ],
+ "Charles J. \"Chuck\" Fleischmann": [
+  "H0TN03254"
+ ],
+ "Chellie Pingree": [
+  "H8ME01120",
+  "S0ME00038"
+ ],
+ "Chip Roy": [
+  "H8TX21307"
+ ],
+ "Chris Pappas": [
+  "H8NH01210"
+ ],
+ "Chris Van Hollen": [
+  "H2MD08126",
+  "S6MD03441"
+ ],
+ "Chrissy Houlahan": [
+  "H8PA06087"
+ ],
+ "Christian D. Menefee": [
+  "H6TX18232"
+ ],
+ "Christopher A. Coons": [
+  "S0DE00092"
+ ],
+ "Christopher H. Smith": [
+  "H8NJ04014"
+ ],
+ "Christopher Murphy": [
+  "H6CT05124",
+  "S2CT00132"
+ ],
+ "Christopher R. Deluzio": [
+  "H2PA17103"
+ ],
+ "Chuck Edwards": [
+  "H2NC14050"
+ ],
+ "Chuck Grassley": [
+  "S0IA00028"
+ ],
+ "Chuck Schumer": [
+  "S8NY00082",
+  "H0NY16010"
+ ],
+ "Cindy Hyde-Smith": [
+  "S8MS00261"
+ ],
+ "Claudia Tenney": [
+  "H4NY22051"
+ ],
+ "Clay Fuller": [
+  "H0GA14030"
+ ],
+ "Clay Higgins": [
+  "H6LA03148"
+ ],
+ "Cleo Fields": [
+  "H4LA06211"
+ ],
+ "Cliff Bentz": [
+  "H0OR02127"
+ ],
+ "Cory A. Booker": [
+  "S4NJ00185"
+ ],
+ "Cory Mills": [
+  "H2FL07156"
+ ],
+ "Craig A. Goldman": [
+  "H4TX12065"
+ ],
+ "Cynthia M. Lummis": [
+  "H8WY00148",
+  "S0WY00137"
+ ],
+ "Dale W. Strong": [
+  "H2AL05102"
+ ],
+ "Dan Crenshaw": [
+  "H8TX02166"
+ ],
+ "Dan Newhouse": [
+  "H4WA04104"
+ ],
+ "Dan Sullivan": [
+  "S4AK00214"
+ ],
+ "Daniel Meuser": [
+  "H8PA10147"
+ ],
+ "Daniel S. Goldman": [
+  "H2NY10308"
+ ],
+ "Daniel Webster": [
+  "H0FL08208",
+  "S4FL00256"
+ ],
+ "Danny Davis": [
+  "H4IL07037"
+ ],
+ "Darin LaHood": [
+  "H6IL18088"
+ ],
+ "Darrell Issa": [
+  "H0CA48024",
+  "S8CA00135"
+ ],
+ "Darren Soto": [
+  "H6FL09179"
+ ],
+ "Dave Min": [
+  "H4CA47085"
+ ],
+ "David G. Valadao": [
+  "H2CA20094"
+ ],
+ "David J. Taylor": [
+  "H4OH02248"
+ ],
+ "David Kustoff": [
+  "H2TN07103"
+ ],
+ "David McCormick": [
+  "S2PA00661"
+ ],
+ "David P. Joyce": [
+  "H2OH14064"
+ ],
+ "David Rouzer": [
+  "H2NC07096"
+ ],
+ "David Schweikert": [
+  "H4AZ06045",
+  "H8AZ05097"
+ ],
+ "Deb Fischer": [
+  "S2NE00094"
+ ],
+ "Debbie Dingell": [
+  "H4MI12079"
+ ],
+ "Debbie Wasserman Schultz": [
+  "H4FL20023"
+ ],
+ "Deborah K. Ross": [
+  "H0NC02125"
+ ],
+ "Delia C. Ramirez": [
+  "H2IL03162"
+ ],
+ "Derek Schmidt": [
+  "H4KS02164"
+ ],
+ "Derek Tran": [
+  "H4CA45170"
+ ],
+ "Derrick Van Orden": [
+  "H0WI03175"
+ ],
+ "Diana DeGette": [
+  "H6CO01141"
+ ],
+ "Diana Harshbarger": [
+  "H0TN01118"
+ ],
+ "Dick Durbin": [
+  "S6IL00151",
+  "H2IL20026"
+ ],
+ "Dina Titus": [
+  "H8NV03036"
+ ],
+ "Don Bacon": [
+  "H6NE02125"
+ ],
+ "Donald G. Davis": [
+  "H2NC02287"
+ ],
+ "Donald Norcross": [
+  "H4NJ01084"
+ ],
+ "Donald S. Beyer, Jr.": [
+  "H4VA08224"
+ ],
+ "Donald Trump": [
+  "P80001571"
+ ],
+ "Doris O. Matsui": [
+  "H6CA05195"
+ ],
+ "Doug Burgum": [
+  "P40013518"
+ ],
+ "Doug Collins": [
+  "H2GA09150",
+  "S0GA00567"
+ ],
+ "Dusty Johnson": [
+  "H8SD01055"
+ ],
+ "Dwight Evans": [
+  "H6PA02171"
+ ],
+ "Earl L. \"Buddy\" Carter": [
+  "H4GA01039"
+ ],
+ "Ed Case": [
+  "H2HI02128"
+ ],
+ "Ed Markey": [
+  "H6MA07101",
+  "S4MA00028"
+ ],
+ "Eleanor Holmes Norton": [
+  "H0DC00058"
+ ],
+ "Elijah Crane": [
+  "H2AZ01354"
+ ],
+ "Elise M. Stefanik": [
+  "H4NY21079"
+ ],
+ "Elissa Slotkin": [
+  "H8MI08102",
+  "S4MI00470"
+ ],
+ "Elizabeth Warren": [
+  "S2MA00170"
+ ],
+ "Emanuel Cleaver": [
+  "H4MO05234"
+ ],
+ "Emilia Strong Sykes": [
+  "H2OH13264"
+ ],
+ "Emily Randall": [
+  "H4WA06117"
+ ],
+ "Eric A. \"Rick\" Crawford": [
+  "H0AR01083"
+ ],
+ "Eric Burlison": [
+  "H2MO07143"
+ ],
+ "Eric Schmitt": [
+  "S2MO00544"
+ ],
+ "Eric Sorensen": [
+  "H2IL17147"
+ ],
+ "Erin Houchin": [
+  "H6IN09143"
+ ],
+ "Eugene Simon Vindman": [
+  "H4VA07234"
+ ],
+ "Frank D. Lucas": [
+  "H4OK06056"
+ ],
+ "Frank J. Mrvan": [
+  "H0IN01150"
+ ],
+ "Frank Pallone, Jr.": [
+  "H8NJ03073",
+  "S6NJ00263"
+ ],
+ "Frederica Wilson": [
+  "H0FL17068"
+ ],
+ "Gabe Amo": [
+  "H4RI01265"
+ ],
+ "Gabe Evans": [
+  "H4CO08034"
+ ],
+ "Gabe Vasquez": [
+  "H2NM02191"
+ ],
+ "Gary C. Peters": [
+  "H8MI09068",
+  "S4MI00355"
+ ],
+ "Gary J. Palmer": [
+  "H4AL06098"
+ ],
+ "George Latimer": [
+  "H4NY16087"
+ ],
+ "George Whitesides": [
+  "H4CA27111"
+ ],
+ "Gilbert Ray Cisneros, Jr.": [
+  "H8CA39174",
+  "H4CA31170"
+ ],
+ "Glenn Grothman": [
+  "H4WI06048"
+ ],
+ "Glenn Ivey": [
+  "H2MD04315"
+ ],
+ "Glenn Thompson": [
+  "H8PA05071"
+ ],
+ "Grace Meng": [
+  "H2NY06116"
+ ],
+ "Greg Casar": [
+  "H2TX35144"
+ ],
+ "Greg Landsman": [
+  "H2OH01194"
+ ],
+ "Greg Stanton": [
+  "H8AZ09040"
+ ],
+ "Gregory F. Murphy": [
+  "H0NC03172"
+ ],
+ "Gregory W. Meeks": [
+  "H8NY06048"
+ ],
+ "Gus M. Bilirakis": [
+  "H6FL09070"
+ ],
+ "Guy Reschenthaler": [
+  "H8PA18199"
+ ],
+ "Gwen Moore": [
+  "H4WI04183"
+ ],
+ "H. Morgan Griffith": [
+  "H0VA09055"
+ ],
+ "Hakeem Jeffries": [
+  "H2NY10092"
+ ],
+ "Hal Rogers": [
+  "H0KY05015"
+ ],
+ "Haley M. Stevens": [
+  "H8MI11254"
+ ],
+ "Harriet M. Hageman": [
+  "H2WY00166"
+ ],
+ "Henry C. \"Hank\" Johnson, Jr.": [
+  "H6GA04129"
+ ],
+ "Henry Cuellar": [
+  "H2TX23082"
+ ],
+ "Herbert C. Conaway, Jr.": [
+  "H4NJ03080"
+ ],
+ "Hillary J. Scholten": [
+  "H0MI03316"
+ ],
+ "Ilhan Omar": [
+  "H8MN05239"
+ ],
+ "J. French Hill": [
+  "H4AR02141"
+ ],
+ "J. Luis Correa": [
+  "H6CA46116"
+ ],
+ "J.D. Vance": [
+  "S2OH00436"
+ ],
+ "Jack Bergman": [
+  "H6MI01226"
+ ],
+ "Jack Reed": [
+  "S6RI00163",
+  "H0RI02071"
+ ],
+ "Jacky Rosen": [
+  "H6NV03139",
+  "S8NV00156"
+ ],
+ "Jahana Hayes": [
+  "H8CT05245"
+ ],
+ "Jake Auchincloss": [
+  "H0MA04192"
+ ],
+ "Jake Ellzey": [
+  "H8TX06266"
+ ],
+ "James A. Himes": [
+  "H8CT04172"
+ ],
+ "James C. Justice": [
+  "S4WV00332"
+ ],
+ "James C. Moylan": [
+  "H2GU01031"
+ ],
+ "James Clyburn": [
+  "H2SC02042"
+ ],
+ "James Comer": [
+  "H6KY01110"
+ ],
+ "James Gallagher": [
+  "H6CA01285"
+ ],
+ "James Lankford": [
+  "H0OK05114",
+  "S4OK00232"
+ ],
+ "James P. McGovern": [
+  "H4MA03022"
+ ],
+ "James R. Baird": [
+  "H8IN04199"
+ ],
+ "James R. Walkinshaw": [
+  "H6VA11066"
+ ],
+ "Jamie Raskin": [
+  "H6MD08457"
+ ],
+ "Janelle S. Bynum": [
+  "H4OR05304"
+ ],
+ "Janice D. Schakowsky": [
+  "H8IL09067"
+ ],
+ "Jared F. Golden": [
+  "H8ME02185"
+ ],
+ "Jared Huffman": [
+  "H2CA06259"
+ ],
+ "Jared Moskowitz": [
+  "H2FL22171"
+ ],
+ "Jasmine Crockett": [
+  "H2TX30178"
+ ],
+ "Jason Crow": [
+  "H8CO06229"
+ ],
+ "Jason Smith": [
+  "H4MO08162"
+ ],
+ "Jay Obernolte": [
+  "H0CA08135"
+ ],
+ "Jeanne Shaheen": [
+  "S0NH00219"
+ ],
+ "Jeff Crank": [
+  "H6CO05142"
+ ],
+ "Jeff Hurd": [
+  "H4CO03357"
+ ],
+ "Jeff Merkley": [
+  "S8OR00207"
+ ],
+ "Jefferson Shreve": [
+  "H4IN06185"
+ ],
+ "Jefferson Van Drew": [
+  "H8NJ02166"
+ ],
+ "Jennifer A. Kiggans": [
+  "H2VA02064"
+ ],
+ "Jennifer L. McClellan": [
+  "H4VA04066"
+ ],
+ "Jerrold Nadler": [
+  "H2NY17071"
+ ],
+ "Jerry Moran": [
+  "H6KS01096",
+  "S0KS00091"
+ ],
+ "Jes\u00fas G. \"Chuy\" Garc\u00eda": [
+  "H8IL04134"
+ ],
+ "Jill N. Tokuda": [
+  "H2HI02581"
+ ],
+ "Jim Banks": [
+  "H6IN03229",
+  "S4IN00196"
+ ],
+ "Jim Costa": [
+  "H4CA20082"
+ ],
+ "Jim Jordan": [
+  "H6OH04082"
+ ],
+ "Jim Risch": [
+  "S8ID00092"
+ ],
+ "Jimmy Gomez": [
+  "H8CA34266"
+ ],
+ "Jimmy Panetta": [
+  "H6CA20152"
+ ],
+ "Jimmy Patronis": [
+  "H6FL01390"
+ ],
+ "Joaquin Castro": [
+  "H2TX35011"
+ ],
+ "Jodey C. Arrington": [
+  "H6TX19099"
+ ],
+ "Joe Courtney": [
+  "H2CT02112"
+ ],
+ "Joe Neguse": [
+  "H8CO02160"
+ ],
+ "Joe Wilson": [
+  "H2SC02059"
+ ],
+ "John B. Larson": [
+  "H8CT01046"
+ ],
+ "John Barrasso": [
+  "S6WY00068"
+ ],
+ "John Boozman": [
+  "H2AR03176",
+  "S0AR00150"
+ ],
+ "John Carter": [
+  "H2TX31044"
+ ],
+ "John Cornyn": [
+  "S2TX00106"
+ ],
+ "John Fetterman": [
+  "S6PA00274"
+ ],
+ "John Garamendi": [
+  "H0CA10149"
+ ],
+ "John H. Rutherford": [
+  "H6FL04105"
+ ],
+ "John Hoeven": [
+  "S0ND00093"
+ ],
+ "John J. McGuire III": [
+  "H2VA07196",
+  "H0VA07133"
+ ],
+ "John James": [
+  "H2MI10150"
+ ],
+ "John Joyce": [
+  "H8PA13125"
+ ],
+ "John Kennedy": [
+  "S4LA00065"
+ ],
+ "John R. Curtis": [
+  "H8UT03238",
+  "S4UT00282"
+ ],
+ "John R. Moolenaar": [
+  "H4MI04126"
+ ],
+ "John Ratcliffe": [
+  "H4TX04153"
+ ],
+ "John Thune": [
+  "S2SD00068",
+  "H6SD00085"
+ ],
+ "John W. Hickenlooper": [
+  "S0CO00575"
+ ],
+ "John W. Mannion": [
+  "H4NY22085"
+ ],
+ "John W. Rose": [
+  "H8TN06094"
+ ],
+ "Johnny Olszewski, Jr.": [
+  "H4MD02232"
+ ],
+ "Jon Husted": [
+  "S6OH00304"
+ ],
+ "Jon Ossoff": [
+  "H8GA06195",
+  "S8GA00180"
+ ],
+ "Jonathan L. Jackson": [
+  "H2IL01349"
+ ],
+ "Joni Ernst": [
+  "S4IA00129"
+ ],
+ "Joseph D. Morelle": [
+  "H8NY25105"
+ ],
+ "Josh Brecheen": [
+  "H2OK02315"
+ ],
+ "Josh Gottheimer": [
+  "H6NJ05171"
+ ],
+ "Josh Harder": [
+  "H8CA10126"
+ ],
+ "Josh Hawley": [
+  "S8MO00160"
+ ],
+ "Josh Riley": [
+  "H8NY22177"
+ ],
+ "Joyce Beatty": [
+  "H2OH03125"
+ ],
+ "Juan Ciscomani": [
+  "H2AZ02360"
+ ],
+ "Juan Vargas": [
+  "H2CA50026"
+ ],
+ "Judy Chu": [
+  "H0CA32101"
+ ],
+ "Julia Brownley": [
+  "H2CA00120"
+ ],
+ "Julia Letlow": [
+  "H2LA05126"
+ ],
+ "Julie Fedorchak": [
+  "H4ND00061"
+ ],
+ "Julie Johnson": [
+  "H4TX32089"
+ ],
+ "Kat Cammack": [
+  "H0FL03175"
+ ],
+ "Katherine M. Clark": [
+  "H4MA05084"
+ ],
+ "Kathy Castor": [
+  "H6FL11126",
+  "H6FL11134"
+ ],
+ "Katie Britt": [
+  "S2AL00145"
+ ],
+ "Keith Self": [
+  "H2TX03290"
+ ],
+ "Kelly Loeffler": [
+  "S0GA00526"
+ ],
+ "Kelly Morrison": [
+  "H4MN03118"
+ ],
+ "Ken Calvert": [
+  "H2CA37023"
+ ],
+ "Kevin Cramer": [
+  "H0ND01026",
+  "H6ND00074",
+  "S8ND00120"
+ ],
+ "Kevin Hern": [
+  "H8OK01157"
+ ],
+ "Kevin Kiley": [
+  "H2CA03157"
+ ],
+ "Kevin Mullin": [
+  "H2CA14162"
+ ],
+ "Kim Schrier": [
+  "H8WA08189"
+ ],
+ "Kimberlyn King-Hinds": [
+  "H4MP01022"
+ ],
+ "Kirsten E. Gillibrand": [
+  "H6NY20167",
+  "S0NY00410"
+ ],
+ "Kristen McDonald Rivet": [
+  "H4MI08218"
+ ],
+ "Kweisi Mfume": [
+  "S6MD03185",
+  "H6MD07020",
+  "H0MD07114"
+ ],
+ "LaMonica McIver": [
+  "H4NJ10176"
+ ],
+ "Lance Gooden": [
+  "H8TX05144"
+ ],
+ "Lateefah Simon": [
+  "H4CA12154"
+ ],
+ "Laura Friedman": [
+  "H4CA30149"
+ ],
+ "Laura Gillen": [
+  "H4NY04158"
+ ],
+ "Laurel M. Lee": [
+  "H2FL15241"
+ ],
+ "Lauren Boebert": [
+  "H0CO03165"
+ ],
+ "Lauren Underwood": [
+  "H8IL14174"
+ ],
+ "Lee Zeldin": [
+  "H8NY01148"
+ ],
+ "Linda T. S\u00e1nchez": [
+  "H2CA39078"
+ ],
+ "Lisa Blunt Rochester": [
+  "H6DE00206",
+  "S4DE00060"
+ ],
+ "Lisa C. McClain": [
+  "H0MI10287"
+ ],
+ "Lisa Murkowski": [
+  "S4AK00099"
+ ],
+ "Lizzie Fletcher": [
+  "H8TX07140"
+ ],
+ "Lloyd Doggett": [
+  "H4TX10028"
+ ],
+ "Lloyd Smucker": [
+  "H6PA16320"
+ ],
+ "Lois Frankel": [
+  "H2FL14053",
+  "H2FL22080"
+ ],
+ "Lori Trahan": [
+  "H8MA03106"
+ ],
+ "Lucy McBath": [
+  "H8GA06393"
+ ],
+ "Luz M. Rivas": [
+  "H4CA29141"
+ ],
+ "Madeleine Dean": [
+  "H8PA04116"
+ ],
+ "Maggie Goodlander": [
+  "H4NH02399"
+ ],
+ "Marc A. Veasey": [
+  "H2TX33073"
+ ],
+ "Marco Rubio": [
+  "S0FL00338"
+ ],
+ "Marcy Kaptur": [
+  "H2OH09031"
+ ],
+ "Margaret Wood Hassan": [
+  "S6NH00091"
+ ],
+ "Maria Cantwell": [
+  "S8WA00194",
+  "H2WA01054"
+ ],
+ "Maria Elvira Salazar": [
+  "H8FL27185"
+ ],
+ "Mariannette Miller-Meeks": [
+  "H8IA02043"
+ ],
+ "Marie Gluesenkamp Perez": [
+  "H2WA03217"
+ ],
+ "Marilyn Strickland": [
+  "H0WA10034"
+ ],
+ "Mario Diaz-Balart": [
+  "H2FL25018"
+ ],
+ "Mark Alford": [
+  "H2MO04207"
+ ],
+ "Mark B. Messmer": [
+  "H4IN08249"
+ ],
+ "Mark DeSaulnier": [
+  "H0CA10073"
+ ],
+ "Mark E. Amodei": [
+  "H2NV02395",
+  "H1NV02017",
+  "S0NV00237"
+ ],
+ "Mark Harris": [
+  "H6NC09200",
+  "H4NC08066"
+ ],
+ "Mark Kelly": [
+  "S0AZ00350"
+ ],
+ "Mark Pocan": [
+  "H2WI02124"
+ ],
+ "Mark R. Warner": [
+  "S6VA00093",
+  "P80003023"
+ ],
+ "Mark Takano": [
+  "H2CA43245"
+ ],
+ "Markwayne Mullin": [
+  "H2OK02083"
+ ],
+ "Marlin A. Stutzman": [
+  "H0IN03198",
+  "S0IN00095"
+ ],
+ "Marsha Blackburn": [
+  "H2TN06030",
+  "S8TN00337"
+ ],
+ "Martin Heinrich": [
+  "H8NM01224",
+  "S2NM00088"
+ ],
+ "Mary E. Miller": [
+  "H0IL15129"
+ ],
+ "Mary Gay Scanlon": [
+  "H8PA07200"
+ ],
+ "Matt Van Epps": [
+  "H6TN07161"
+ ],
+ "Max L. Miller": [
+  "H2OH16051"
+ ],
+ "Maxine Dexter": [
+  "H4OR03192"
+ ],
+ "Maxine Waters": [
+  "H4CA23011"
+ ],
+ "Maxwell Frost": [
+  "H2FL10259"
+ ],
+ "Mazie K. Hirono": [
+  "H6HI02251",
+  "S2HI00106"
+ ],
+ "Mehmet Oz": [
+  "S2PA00638"
+ ],
+ "Melanie A. Stansbury": [
+  "H2NM01144"
+ ],
+ "Michael A. Rulli": [
+  "H4OH06165"
+ ],
+ "Michael Baumgartner": [
+  "H4WA05234"
+ ],
+ "Michael Cloud": [
+  "H8TX27049"
+ ],
+ "Michael F. Bennet": [
+  "S0CO00211"
+ ],
+ "Michael Guest": [
+  "H8MS03125"
+ ],
+ "Michael K. Simpson": [
+  "H8ID02064"
+ ],
+ "Michael Lawler": [
+  "H2NY17162"
+ ],
+ "Michael R. Turner": [
+  "H2OH03067",
+  "H2OH03091"
+ ],
+ "Michael T. McCaul": [
+  "H4TX10093"
+ ],
+ "Michael Waltz": [
+  "H8FL06148"
+ ],
+ "Michelle Fischbach": [
+  "H0MN07091"
+ ],
+ "Mike Bost": [
+  "H4IL12060"
+ ],
+ "Mike Carey": [
+  "H2OH15228"
+ ],
+ "Mike Collins": [
+  "H4GA10071"
+ ],
+ "Mike Crapo": [
+  "S8ID00027",
+  "H2ID02034"
+ ],
+ "Mike Ezell": [
+  "H2MS04258"
+ ],
+ "Mike Flood": [
+  "H2NE01118"
+ ],
+ "Mike Haridopolos": [
+  "H4FL08168"
+ ],
+ "Mike Johnson": [
+  "H6LA04138"
+ ],
+ "Mike Kelly": [
+  "H0PA03271"
+ ],
+ "Mike Kennedy": [
+  "H4UT03260"
+ ],
+ "Mike Lee": [
+  "S0UT00165"
+ ],
+ "Mike Levin": [
+  "H8CA49058"
+ ],
+ "Mike Quigley": [
+  "H0IL05096"
+ ],
+ "Mike Rogers": [
+  "H2AL03032"
+ ],
+ "Mike Rounds": [
+  "S4SD00049"
+ ],
+ "Mike Thompson": [
+  "H8CA01109"
+ ],
+ "Mitch McConnell": [
+  "S2KY00012"
+ ],
+ "Monica De La Cruz": [
+  "H0TX15124"
+ ],
+ "Morgan Luttrell": [
+  "H2TX08182"
+ ],
+ "Morgan McGarvey": [
+  "H2KY03206"
+ ],
+ "Nancy Mace": [
+  "H0SC01394"
+ ],
+ "Nancy Pelosi": [
+  "H8CA05035"
+ ],
+ "Nanette Diaz Barrag\u00e1n": [
+  "H6CA44103"
+ ],
+ "Nathaniel Moran": [
+  "H2TX01112"
+ ],
+ "Neal P. Dunn": [
+  "H6FL02208"
+ ],
+ "Nellie Pou": [
+  "H4NJ09194"
+ ],
+ "Nicholas A. Langworthy": [
+  "H2NY23228"
+ ],
+ "Nicholas J. Begich III": [
+  "H2AK01083"
+ ],
+ "Nick LaLota": [
+  "H2NY01190"
+ ],
+ "Nicole Malliotakis": [
+  "H0NY11078"
+ ],
+ "Nikema Williams": [
+  "H0GA05301"
+ ],
+ "Nikki Budzinski": [
+  "H2IL13153"
+ ],
+ "Norma J. Torres": [
+  "H4CA35031"
+ ],
+ "Nydia M. Vel\u00e1zquez": [
+  "H2NY00010"
+ ],
+ "Pablo Jos\u00e9 Hern\u00e1ndez": [
+  "H4PR01010"
+ ],
+ "Pat Fallon": [
+  "H0TX04219"
+ ],
+ "Pat Harrigan": [
+  "H2NC13243"
+ ],
+ "Patrick Ryan": [
+  "H8NY19223"
+ ],
+ "Patty Murray": [
+  "S2WA00189"
+ ],
+ "Paul A. Gosar": [
+  "H0AZ01259"
+ ],
+ "Paul Tonko": [
+  "H8NY21203"
+ ],
+ "Pete Aguilar": [
+  "H2CA31125"
+ ],
+ "Pete Ricketts": [
+  "S6NE00129"
+ ],
+ "Pete Sessions": [
+  "H2TX03126"
+ ],
+ "Pete Stauber": [
+  "H8MN08043"
+ ],
+ "Peter Welch": [
+  "H6VT00160",
+  "H8VT00034",
+  "S2VT00235"
+ ],
+ "Pramila Jayapal": [
+  "H6WA07458"
+ ],
+ "Raja Krishnamoorthi": [
+  "H6IL08147"
+ ],
+ "Ralph Norman": [
+  "H8SC05158"
+ ],
+ "Rand Paul": [
+  "S0KY00156"
+ ],
+ "Randy Feenstra": [
+  "H0IA04145"
+ ],
+ "Randy Fine": [
+  "H6FL06258"
+ ],
+ "Randy K. Weber, Sr.": [
+  "H2TX14149"
+ ],
+ "Raphael G. Warnock": [
+  "S0GA00559"
+ ],
+ "Rashida Tlaib": [
+  "H8MI13250"
+ ],
+ "Raul Ruiz": [
+  "H2CA36439"
+ ],
+ "Richard Blumenthal": [
+  "S0CT00177"
+ ],
+ "Richard E. Neal": [
+  "H8MA02041"
+ ],
+ "Richard Hudson": [
+  "H2NC08185"
+ ],
+ "Richard McCormick": [
+  "H0GA07273"
+ ],
+ "Rick Larsen": [
+  "H0WA02080"
+ ],
+ "Rick Scott": [
+  "S8FL00273"
+ ],
+ "Rick W. Allen": [
+  "H2GA12121"
+ ],
+ "Riley M. Moore": [
+  "H4WV02205"
+ ],
+ "Ritchie Torres": [
+  "H0NY15160"
+ ],
+ "Ro Khanna": [
+  "H4CA12055"
+ ],
+ "Robert B. Aderholt": [
+  "H6AL04098"
+ ],
+ "Robert C. \"Bobby\" Scott": [
+  "H6VA01117"
+ ],
+ "Robert E. Latta": [
+  "H8OH05036"
+ ],
+ "Robert F. Kennedy Jr.": [
+  "P40011793"
+ ],
+ "Robert F. Onder, Jr.": [
+  "H8MO09146",
+  "H4MO03221"
+ ],
+ "Robert Garcia": [
+  "H2CA47188"
+ ],
+ "Robert J. Wittman": [
+  "H8VA01147"
+ ],
+ "Robert Menendez": [
+  "H2NJ08232"
+ ],
+ "Robert P. Bresnahan, Jr.": [
+  "H4PA08124"
+ ],
+ "Robin L. Kelly": [
+  "H2IL02172"
+ ],
+ "Roger F. Wicker": [
+  "H4MS01078",
+  "S8MS00196"
+ ],
+ "Roger Marshall": [
+  "H6KS01179",
+  "S0KS00315"
+ ],
+ "Roger Williams": [
+  "H2TX33040",
+  "S2TX00270"
+ ],
+ "Ron Estes": [
+  "H8KS04112"
+ ],
+ "Ron Johnson": [
+  "S0WI00197"
+ ],
+ "Ron Wyden": [
+  "S6OR00110",
+  "H0OR03026"
+ ],
+ "Ronny Jackson": [
+  "H0TX13228"
+ ],
+ "Rosa DeLauro": [
+  "H0CT03072"
+ ],
+ "Ruben Gallego": [
+  "H4AZ07043",
+  "S4AZ00139"
+ ],
+ "Rudy Yakym III": [
+  "H2IN02295"
+ ],
+ "Russ Fulcher": [
+  "H8ID01124"
+ ],
+ "Russell Fry": [
+  "H2SC07280"
+ ],
+ "Ryan K. Zinke": [
+  "H4MT01041"
+ ],
+ "Ryan Mackenzie": [
+  "H8PA15195"
+ ],
+ "Salud O. Carbajal": [
+  "H6CA24303"
+ ],
+ "Sam Graves": [
+  "H0MO06073"
+ ],
+ "Sam T. Liccardo": [
+  "H4CA16197"
+ ],
+ "Sanford D. Bishop, Jr.": [
+  "H2GA02031"
+ ],
+ "Sara Jacobs": [
+  "H8CA49074"
+ ],
+ "Sarah Elfreth": [
+  "H4MD03156"
+ ],
+ "Sarah McBride": [
+  "H4DE00045"
+ ],
+ "Scott DesJarlais": [
+  "H0TN04195"
+ ],
+ "Scott Fitzgerald": [
+  "H0WI05113"
+ ],
+ "Scott Franklin": [
+  "H0FL15104"
+ ],
+ "Scott H. Peters": [
+  "H2CA52089"
+ ],
+ "Scott Perry": [
+  "H2PA04135"
+ ],
+ "Sean Casten": [
+  "H8IL06139"
+ ],
+ "Sean Duffy": [
+  "H0WI07051"
+ ],
+ "Seth Magaziner": [
+  "H2RI02184"
+ ],
+ "Seth Moulton": [
+  "H4MA06090"
+ ],
+ "Sharice Davids": [
+  "H8KS03155"
+ ],
+ "Sheldon Whitehouse": [
+  "S6RI00221"
+ ],
+ "Shelley Moore Capito": [
+  "H0WV02138",
+  "S4WV00159"
+ ],
+ "Sheri Biggs": [
+  "H4SC01313"
+ ],
+ "Shomari Figures": [
+  "H4AL02170"
+ ],
+ "Shontel M. Brown": [
+  "H2OH11169"
+ ],
+ "Shri Thanedar": [
+  "H2MI13204"
+ ],
+ "Stacey E. Plaskett": [
+  "H2VI00082"
+ ],
+ "Steny Hoyer": [
+  "H2MD05155"
+ ],
+ "Stephanie I. Bice": [
+  "H0OK05205"
+ ],
+ "Stephen F. Lynch": [
+  "H2MA09072",
+  "S0MA00083"
+ ],
+ "Steve Cohen": [
+  "H6TN09068"
+ ],
+ "Steve Daines": [
+  "H2MT01060",
+  "S2MT00096"
+ ],
+ "Steve Scalise": [
+  "H0LA01087"
+ ],
+ "Steve Womack": [
+  "H0AR03055"
+ ],
+ "Steven Horsford": [
+  "H2NV04011"
+ ],
+ "Suhas Subramanyam": [
+  "H4VA10279"
+ ],
+ "Summer L. Lee": [
+  "H2PA18200"
+ ],
+ "Susan M. Collins": [
+  "S6ME00159"
+ ],
+ "Susie Lee": [
+  "H6NV04020"
+ ],
+ "Suzan K. DelBene": [
+  "H0WA08046"
+ ],
+ "Suzanne Bonamici": [
+  "H2OR01133"
+ ],
+ "Sydney Kamlager-Dove": [
+  "H2CA37304"
+ ],
+ "Sylvia R. Garcia": [
+  "H8TX29052"
+ ],
+ "Tammy Baldwin": [
+  "H8WI00018",
+  "S2WI00219"
+ ],
+ "Tammy Duckworth": [
+  "H6IL06141",
+  "S6IL00292"
+ ],
+ "Ted Budd": [
+  "H6NC13129",
+  "S2NC00505"
+ ],
+ "Ted Cruz": [
+  "S2TX00312"
+ ],
+ "Ted Lieu": [
+  "H4CA33119"
+ ],
+ "Teresa Leger Fernandez": [
+  "H0NM03102"
+ ],
+ "Terri A. Sewell": [
+  "H0AL07086"
+ ],
+ "Thom Tillis": [
+  "S4NC00162"
+ ],
+ "Thomas H. Kean, Jr.": [
+  "H0NJ07261"
+ ],
+ "Thomas Massie": [
+  "H2KY04121"
+ ],
+ "Thomas P. Tiffany": [
+  "H0WI07101"
+ ],
+ "Thomas R. Suozzi": [
+  "H6NY03247"
+ ],
+ "Tim Burchett": [
+  "H8TN02119"
+ ],
+ "Tim Kaine": [
+  "S2VA00142"
+ ],
+ "Tim Moore": [
+  "H4NC14015"
+ ],
+ "Tim Scott": [
+  "H0SC01279",
+  "S4SC00240"
+ ],
+ "Tim Sheehy": [
+  "S4MT00183"
+ ],
+ "Tim Walberg": [
+  "H4MI07103"
+ ],
+ "Timothy M. Kennedy": [
+  "H4NY26078"
+ ],
+ "Tina Smith": [
+  "S8MN00578"
+ ],
+ "Todd Young": [
+  "H0IN09070",
+  "S6IN00191"
+ ],
+ "Tom Barrett": [
+  "H2MI07123"
+ ],
+ "Tom Cole": [
+  "H2OK04055"
+ ],
+ "Tom Cotton": [
+  "H2AR04083",
+  "S4AR00103"
+ ],
+ "Tom Emmer": [
+  "H4MN06087"
+ ],
+ "Tom McClintock": [
+  "H8CA04152",
+  "H6CA21135"
+ ],
+ "Tommy Tuberville": [
+  "S0AL00230"
+ ],
+ "Tony Wied": [
+  "H4WI08119"
+ ],
+ "Tracey Mann": [
+  "H0KS01123"
+ ],
+ "Trent Kelly": [
+  "H6MS01131"
+ ],
+ "Troy A. Carter": [
+  "H2LA02149"
+ ],
+ "Troy Balderson": [
+  "H8OH12180"
+ ],
+ "Troy Downing": [
+  "H4MT02098"
+ ],
+ "Troy E. Nehls": [
+  "H0TX22302"
+ ],
+ "Val T. Hoyle": [
+  "H2OR04095"
+ ],
+ "Valerie P. Foushee": [
+  "H2NC06114"
+ ],
+ "Vern Buchanan": [
+  "H6FL13148"
+ ],
+ "Veronica Escobar": [
+  "H8TX16109"
+ ],
+ "Vicente Gonzalez": [
+  "H6TX15162"
+ ],
+ "Victoria Spartz": [
+  "H0IN05326"
+ ],
+ "Vince Fong": [
+  "H4CA20181"
+ ],
+ "Virginia Foxx": [
+  "H4NC05146"
+ ],
+ "W. Gregory Steube": [
+  "H8FL17053"
+ ],
+ "Warren Davidson": [
+  "H6OH08315"
+ ],
+ "Wesley Bell": [
+  "H4MO01134"
+ ],
+ "Wesley Hunt": [
+  "H0TX07170"
+ ],
+ "William R. Keating": [
+  "H0MA10082"
+ ],
+ "William R. Timmons IV": [
+  "H8SC04250"
+ ],
+ "Yassamin Ansari": [
+  "H4AZ03109"
+ ],
+ "Young Kim": [
+  "H8CA39240"
+ ],
+ "Yvette D. Clarke": [
+  "H4NY11138"
+ ],
+ "Zachary Nunn": [
+  "H2IA03119"
+ ],
+ "Zoe Lofgren": [
+  "H4CA16049"
+ ]
 }

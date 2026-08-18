@@ -20,7 +20,9 @@ downloads by a Python script that needs no API key.
 | `finance.json` | The finance dataset. If it's served next to `index.html`, the page loads it and overrides the inlined copy. |
 | `build_finance.py` | Rebuilds `finance.json` from FEC bulk files. No API key. |
 | `inline_data.py` | Re-inlines `finance.json` into `index.html` after a rebuild. |
-| `roster_map.json` | Maps each tracked person to their FEC candidate ID(s). Edit this to add people. |
+| `roster_map.json` | Maps each tracked person to their FEC candidate ID(s). **Generated** for Congress — hand-edit only for people outside it. |
+| `build_roster.py` | Rebuilds the congressional roster from `congress-legislators`. Re-runnable. |
+| `roster_overrides.json` | The hand curation that survives a roster rebuild, keyed by bioguide ID. |
 | `verify.py` | Smoke test. Run after every rebuild; CI runs it before committing. |
 | `HANDOFF.md` | Brief for whoever picks this up next. |
 | `.github/workflows/refresh.yml` | Weekly GitHub Action that rebuilds, verifies and commits. |
@@ -76,19 +78,52 @@ Two caveats:
 
 ---
 
-## Adding someone to the roster
+## The roster
 
-1. Find their FEC candidate ID at https://www.fec.gov/data/candidates/
-2. Add a line to `roster_map.json`. Use a list — people who served in both chambers
-   have separate IDs and both should be included so the career arc is complete:
+**Congress is generated, not hand-maintained.** Both chambers come from the
+`@unitedstates/congress-legislators` dataset, which publishes a bioguide ID, a
+birthday, party, state, district and FEC candidate IDs for every seated member.
 
-```json
-"Jane Doe": ["S4XX00123", "H8XX01456"]
+```bash
+python3 build_roster.py            # uses the cached copy
+python3 build_roster.py --refresh  # re-downloads it
 ```
 
-3. Add a matching entry to the `PEOPLE` array inside `index.html` with their date
-   of birth, so the age and finance data join up.
-4. Rebuild.
+That rewrites `roster_map.json` and the Senate and House blocks of the `PEOPLE`
+array in `index.html`. It is idempotent — running it twice gives the same file.
+
+### The join is by FEC ID, never by name
+
+Fifteen of the originally tracked members are spelled differently in the two
+sources: *Bernie* against *Bernard* Sanders, *Hal* against *Harold* Rogers,
+*Dick* against *Richard J.* Durbin. Matching on the name string would have
+created a second copy of each of them, split their money across two rows, and
+quietly corrupted every generation figure on the page. The FEC candidate ID is
+the join key, and the hand curation in `roster_overrides.json` is keyed by
+bioguide ID for the same reason.
+
+### Changing what a member is called, or how they are labelled
+
+Edit `roster_overrides.json`, keyed by bioguide ID:
+
+```json
+"S000033": { "name": "Bernie Sanders" },
+"P000197": { "title": "Speaker Emerita", "term": "retiring" }
+```
+
+- `name` — preferred display name. It must match the `roster_map.json` key,
+  because the finance join is by name.
+- `title` — leadership role, appended after the party and state.
+- `term` — overrides the term derived from Senate class or House cycle. Only
+  needed for members leaving early; the classes derive correctly by themselves.
+
+### Adding someone outside Congress
+
+Justices, cabinet officials and governors are still maintained by hand. Add the
+FEC ID to `roster_map.json` (a list — members who served in both chambers have
+separate IDs, and both belong there so the career arc is complete), add a
+matching entry to `PEOPLE` in `index.html` with a date of birth, and rebuild.
+`build_roster.py` preserves anyone whose IDs are not in the current Congress.
 
 ---
 
@@ -98,6 +133,10 @@ Two caveats:
 individual contributions, PAC contributions, party money and self-funding for every
 cycle since 1980; itemised committee-to-candidate cheques since 2018 with the donor's
 organisation type; and independent expenditures spent supporting each candidate.
+
+**Coverage.** Congress is complete — all 100 senators, all 431 seated
+representatives and the 6 non-voting delegates. The Supreme Court, the Joint
+Chiefs and the serving cabinet are complete. The governors are a selection.
 
 **Not covered, and this matters:**
 
@@ -113,6 +152,10 @@ organisation type; and independent expenditures spent supporting each candidate.
   at 1990 for that reason.
 - **The current cycle is partial** — 2026 filings only run through the most recent
   reporting deadline.
+- **Whether an incumbent is running again** is not published in machine-readable
+  form. A badge reading "On the ballot" means the seat is up, not that the sitting
+  member is seeking it. Announced retirements are entered by hand and only a
+  handful are recorded.
 
 **On interpretation.** A high PAC share is a fact about who funds a campaign. It is
 not evidence of wrongdoing, a vote traded, or a promise made. Treat it as a question

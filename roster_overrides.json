@@ -1,0 +1,49 @@
+{
+  "_comment": [
+    "Hand curation that must survive an automated roster rebuild.",
+    "Keyed by BIOGUIDE ID, which is stable for a person's whole career — unlike names,",
+    "which vary between sources ('Bernie Sanders' vs 'Bernard Sanders') and would silently",
+    "create a duplicate person if used as the join key.",
+    "",
+    "  name  — preferred display name, when the official_full form reads worse.",
+    "          These MUST match roster_map.json keys exactly: the finance join is by name.",
+    "  title — leadership role, appended after the party/state in the role string.",
+    "  term  — overrides the term key derived from Senate class / House cycle.",
+    "          Only needed for people leaving early; classes derive correctly on their own.",
+    "",
+    "Everything not listed here is generated from congress-legislators."
+  ],
+
+  "members": {
+    "S000033": { "name": "Bernie Sanders" },
+    "R000584": { "name": "Jim Risch" },
+    "K000383": { "name": "Angus King" },
+    "D000563": { "name": "Dick Durbin",       "term": "retiring" },
+    "M000133": { "name": "Ed Markey" },
+    "S000148": { "name": "Chuck Schumer",     "title": "Minority Leader" },
+    "B001319": { "name": "Katie Britt" },
+    "R000395": { "name": "Hal Rogers" },
+    "H000874": { "name": "Steny Hoyer",       "term": "retiring" },
+    "C000537": { "name": "James Clyburn" },
+    "D000096": { "name": "Danny Davis",       "term": "retiring" },
+    "C001051": { "name": "John Carter" },
+    "W000808": { "name": "Frederica Wilson",  "term": "retiring" },
+    "D000216": { "name": "Rosa DeLauro" },
+    "J000294": { "name": "Hakeem Jeffries",   "title": "Minority Leader" },
+
+    "G000386": { "title": "President pro tempore" },
+    "T000250": { "title": "Majority Leader" },
+    "O000174": { "title": "youngest senator" },
+    "P000197": { "title": "Speaker Emerita",  "term": "retiring" },
+    "S001176": { "title": "Majority Leader" },
+    "J000299": { "title": "Speaker of the House" },
+    "F000476": { "title": "only Gen Z member" },
+
+    "M000355": { "term": "retiring" },
+    "S001181": { "term": "retiring" }
+  },
+
+  "_removed": {
+    "David Scott": "Listed on the page as a sitting Representative (D-GA), but no longer appears in congress-legislators' current roster and holds no seat in the 119th Congress. Removed 2026-08-18 during the roster expansion."
+  }
+}

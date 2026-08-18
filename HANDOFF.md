@@ -21,7 +21,7 @@ correction to get right.
 | Trend charts start at **1990**, not 1980 | FEC bulk files under-report the PAC field before 1990. Grassley showed a false 0% for 1980–84. `PAC_DATA_FROM` in `index.html`. |
 | Trend charts drop cycles under **15% of a person's peak receipts** | Senators raise almost nothing between races, so off-year cycles produce meaningless PAC-share spikes. `activeCycles()`. |
 | The current cycle renders as a **hollow dot** and is excluded from first-vs-last | 2026 filings are partial — they only run to the last reporting deadline. |
-| The roster is **not a random sample** | It deliberately tracks the oldest and youngest officials. This inflates the generation gap. |
+| ~~The roster is **not a random sample**~~ | **Resolved 2026-08-18.** Congress is now a complete census — every seated member of both chambers. The governors and the executive branch are still selections, and the caveat box says so. |
 | The **caveat box** in the money section | Directly guards against the above being over-read. It is load-bearing. Do not remove it or soften it. |
 | Some ages carry **`≈`** and dashed rings | Joint Chiefs birth dates aren't reliably published. Marked rather than guessed. |
 | Governors and justices show **"no federal filing"** rather than $0 | They genuinely don't file with the FEC. `noFecReason()` explains why per branch. |
@@ -39,8 +39,10 @@ evidence of independence any more than a high one is evidence of corruption.
 ```
 gov-age/
 ├── index.html                    the whole page, self-contained (~260 KB)
-├── finance.json                  FEC dataset, 48 people, 24 cycles (~154 KB)
-├── roster_map.json               person → FEC candidate ID(s)
+├── finance.json                  FEC dataset, 548 people, 24 cycles (~1.6 MB)
+├── roster_map.json               person → FEC candidate ID(s) — generated for Congress
+├── roster_overrides.json         hand curation that survives a roster rebuild
+├── build_roster.py               rebuilds the roster from congress-legislators
 ├── build_finance.py              rebuilds finance.json from FEC bulk downloads
 ├── inline_data.py                re-inlines finance.json into index.html
 ├── verify.py                     smoke test — run after every rebuild
@@ -111,13 +113,14 @@ curl -sI "https://api.open.fec.gov/v1/candidates/search/?q=talarico&api_key=YOUR
 
 ## 4. Backlog, roughly in value order
 
-1. **Expand the roster.** Currently 48 tracked. All 535 members of Congress is feasible:
-   pull the full candidate list from `weball26.txt`, join to birth dates from the
-   `@unitedstates/congress-legislators` YAML (public, maintained, has `bioguide_id` and
-   `birthday` for every member). That would turn the generation analysis from a
-   suggestive sample into a real one and would let you drop the selection-bias caveat.
-   **This is the single highest-value change.** It also makes the beeswarm plots honest
-   as distributions rather than selections.
+1. ~~**Expand the roster.**~~ **Done, 2026-08-18.** All 535 seats are tracked: 100
+   senators, 431 seated representatives and the 6 non-voting delegates, joined to
+   `congress-legislators` by FEC candidate ID. See `build_roster.py`. It changed the
+   headline findings substantially — the old 48-person selection had roughly doubled
+   the apparent age/PAC correlation (r = 0.64 against 0.36 across the whole chamber)
+   and put the Silent-to-Millennial PAC ratio near six times when it is closer to two.
+   The chamber medians are now computed from the data instead of quoted from published
+   analyses. **If you touch the roster, read section 7 — those numbers move with it.**
 
 2. **Individual contributions.** `indiv26.zip` is 2.1 GB but contains itemized personal
    donations with employer and occupation. That would surface the people on this page who
@@ -179,19 +182,35 @@ All public, all free, no key needed for the pipeline:
 
 Keep these accurate if you touch the data — they're what the deck is built on.
 
-- Median American **39.1**. House median **~59**, Senate **~66**, Supreme Court average
-  **65.7**, President **80**.
+- Median American **39.1**. House median **58** (431 of 435 seats filled, average 58.4),
+  Senate median **66** (average 65.2), Supreme Court average **65.7**, President **80**.
+  Congress as a whole: median **60**, oldest 92, youngest 29.
+- **35 of 100 senators are over 70.** 26 members of Congress are 80 or older, averaging 83.
+  Exactly one member of either chamber is Gen Z: Maxwell Frost.
 - Three of six bodies have **no term limit and no retirement age**: House, Senate,
   Supreme Court. The Joint Chiefs are the only body with mandatory retirement — and the
   youngest group on the page.
 - **Twelve of thirteen open Senate seats get younger** whichever way they vote. Departing
   senators average **70.5**; everyone on those ballots averages **53.4**. North Carolina
   is the exception; Oklahoma is a wash.
-- PAC share of career money by generation: **Silent 41% · Boomer 16% · Gen X 11% ·
-  Millennial 7%**. Age correlates with PAC share at **r = 0.64** — but first-cycle year
-  correlates at **−0.42** on its own, so part of this is era, not age. Say both.
-- Corporate PACs supply **42–47%** of committee money to everyone born before 1981 and
-  **20%** to Millennials.
+- PAC share of career money by generation, across all 532 members with a filing history:
+  **Silent 42% · Boomer 34% · Gen X 27% · Millennial 21% · Gen Z 8%**. Age correlates with
+  PAC share at **r = 0.36** — and first-cycle year correlates at **−0.31** on its own, so
+  part of this is era, not age. Say both.
+- Corporate PACs supply **39%** of itemised committee money to members born before 1981
+  and **25%** to Millennials.
 - Chuck Grassley, 92, is older than Social Security. His PAC share has gone *down*
   (1992: 38% → 2022: 24%), which cuts against the simple age story. Worth including —
   it's the honest version.
+
+**These figures replaced the pre-expansion ones on 2026-08-18 and the direction of the
+change matters more than any single number.** The old roster tracked only the oldest and
+youngest members, and it had inflated the generation story roughly twofold: the age/PAC
+correlation read **0.64** against a true **0.36**, and the Silent-to-Millennial PAC ratio
+read about **five times** against a true **2.1 times**. The gradient is real and it still
+runs the way you would expect. It is half as steep as the page used to imply. The old
+caveat box called this exact risk, which is why it was load-bearing.
+
+Every one of these is now computed in the page rather than typed into it, so they cannot
+silently go stale again — but that also means **they will drift as the data refreshes.**
+Re-read them off the live page before quoting them in a deck.

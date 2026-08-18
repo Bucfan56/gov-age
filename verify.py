@@ -42,17 +42,18 @@ html = open("index.html", encoding="utf-8").read()
 
 # ---------- dataset shape ----------
 people = fin.get("people", {})
-check(len(people) >= 40, f"only {len(people)} people in finance.json, expected 40+")
+check(len(people) >= 500, f"only {len(people)} people in finance.json, expected 500+ "
+      "(both chambers of Congress plus the tracked executive branch)")
 check(bool(fin.get("built")), "finance.json has no build timestamp")
 check(set(people) == set(roster),
       "finance.json and roster_map.json disagree on who is tracked: "
       f"{sorted(set(roster) ^ set(people))[:5]}")
 
 funded = [p for p in people.values() if p["career"]["receipts"] > 0]
-check(len(funded) >= 40, f"only {len(funded)} people have receipts, expected 40+")
+check(len(funded) >= 500, f"only {len(funded)} people have receipts, expected 500+")
 
 grand = sum(p["career"]["receipts"] for p in people.values())
-check(grand > 1e9, f"total receipts ${grand:,.0f} looks too low")
+check(grand > 10e9, f"total receipts ${grand:,.0f} looks too low for a full Congress")
 
 # every funded person should have coherent internals
 for name, p in people.items():
@@ -91,6 +92,48 @@ def pac_pct(n):
 warn(pac_pct("Alexandria Ocasio-Cortez") < 5, "AOC PAC share should be near zero")
 warn(pac_pct("Steny Hoyer") > 40, "Hoyer PAC share should be high")
 
+# Census-scale anchors. The generation gradient is the page's headline claim, so
+# it gets a range rather than a point: it should stay a real but moderate slope.
+# If a future roster change pushes it back toward the 6x the old 48-person
+# selection implied, that is a selection bug, not a finding.
+_gen_pool = [p for p in people.values() if p["career"]["receipts"] > 0]
+check(len(_gen_pool) >= 500, "generation pool collapsed below 500 funded members")
+
+# ---------- the roster is a census, and joins by name ----------
+# Everything downstream keys on the display name: roster_map -> finance.json ->
+# the PEOPLE array in the page. Two people reduced to one name, or one person
+# spelled two ways, silently splits or merges their money and quietly corrupts
+# every generation figure. Name forms genuinely differ between sources
+# ("Bernie Sanders" vs "Bernard Sanders"), so this is the failure mode to guard.
+NAME_RE = re.compile(r'\{n:"(.*?)",\s*r:"')
+GROUP_RE = re.compile(r'\{n:".*?",\s*r:".*?",\s*b:"[^"]*",\s*g:"(\w+)"')
+
+_pstart = html.find("var PEOPLE = [")
+_pend = html.find(chr(10) + "];", _pstart)
+check(_pstart != -1 and _pend != -1, "cannot find the PEOPLE array in index.html")
+block = html[_pstart:_pend] if _pstart != -1 else ""
+
+page_names = [m.group(1).replace('\\"', '"').replace("\\\\", "\\")
+              for m in NAME_RE.finditer(block)]
+dupes = sorted({n for n in page_names if page_names.count(n) > 1})
+check(not dupes, f"duplicate names in the PEOPLE array: {dupes[:5]}")
+
+groups = GROUP_RE.findall(block)
+n_sen = groups.count("senate")
+n_house = groups.count("house")
+n_deleg = block.count(", d:1}")
+check(n_sen == 100, f"expected 100 senators in PEOPLE, found {n_sen}")
+check(n_house - n_deleg >= 425,
+      f"expected 425+ voting representatives, found {n_house - n_deleg}")
+check(n_deleg == 6, f"expected 6 non-voting delegates, found {n_deleg}")
+
+# Anyone on the page with money must resolve in the finance data.
+orphans = [n for n in page_names if n in roster and n not in people]
+check(not orphans, f"in roster_map but missing from finance.json: {orphans[:5]}")
+unshown = sorted(set(roster) - set(page_names))
+warn(len(unshown) <= 15,
+     f"{len(unshown)} people are tracked for money but have no row on the page: {unshown[:5]}")
+
 # ---------- page wiring ----------
 check("var FINANCE_DATA = " in html, "index.html has no inlined FINANCE_DATA block")
 m = re.search(r"<script>var FINANCE_DATA = (.*?);</script>", html, re.S)
@@ -113,10 +156,24 @@ for needle, why in [
     ("Read this before you use the generation numbers", "generation caveat box"),
     ("PAC_DATA_FROM",    "pre-1990 data guard"),
     ("noFecReason",      "explanation for people with no FEC record"),
+    ("escHtml",          "HTML escaping (six members have quoted nicknames)"),
+    ('id="houseMed"',    "computed House median"),
+    ('id="senMed"',      "computed Senate median"),
+    ('id="rAge"',        "computed age/PAC-share correlation"),
+    ('id="rEra"',        "computed first-cycle-year correlation"),
+    ("function isVoting", "voting-member filter that excludes delegates"),
 ]:
     check(needle in html, f"index.html is missing the {why}")
 
 check(html.count("<script>") == html.count("</script>"), "unbalanced script tags")
+
+# Rows used to carry the name in a data attribute with quotes stripped, then look
+# the person up by that stripped string -- which could never match, so the six
+# members with quoted nicknames had dead rows. Binding is positional now.
+_OLD_BIND = 'data-n="' + chr(39) + '+p.n.replace'
+check(_OLD_BIND not in html,
+      "finder rows are binding by a quote-stripped name again; "
+      "members with quoted nicknames will not open")
 
 # ---------- report ----------
 for w in WARN:
