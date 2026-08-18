@@ -56,6 +56,45 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-08-18 — Candidate investigator fixed (every search was failing)
+
+Reported from the live site: searching any name returned *"Couldn't reach the FEC
+(HTTP 422). If you opened this file directly from disk, your browser may be blocking
+the request."*
+
+**The search asked the FEC to sort on a field that does not exist.** Every lookup sent
+`sort=-last_file_date` to `/candidates/search/`, which rejects it:
+
+> Cannot sort on value "-last_file_date". Instead choose one of: "first_file_date",
+> "candidate_id", "candidate_status", "cycles", "district", "election_years", "idx",
+> "incumbent_challenge", "load_date", "name", "office", "party", "state", "receipts"
+
+So the feature had never worked at all — not for one name, for any of them. It shipped
+that way because the DEMO_KEY rate limit was exhausted when it was written, which is
+exactly the untested path the handoff brief flagged as the one thing it could not
+check. Now sorts on `-election_years`, which puts current candidates above people who
+last ran decades ago.
+
+**The error message sent the diagnosis in the wrong direction.** Any failure printed the
+"opened from disk / browser may be blocking" hint, so a plain parameter rejection read
+like a CORS or file-protocol problem. An HTTP status means the FEC answered and refused;
+it now says so and quotes the FEC's own message. The disk hint is kept only for requests
+that genuinely never complete.
+
+**Made this class of failure self-healing.** Which fields are sortable varies per
+endpoint and is not part of any published contract, so a 422 on a sorted request now
+retries once without the sort rather than failing the lookup. Results are still useful
+unsorted. *Verified against the live API: the unsorted request returns 200.*
+
+**Verification extended.** `verify.py` now fails if the dead sort field returns or if
+the 422 fallback is removed. Both negative-tested.
+
+*Audited the investigator's other two calls while here:
+`/candidate/{id}/totals/?sort=-cycle` returns 200. `/candidate/{id}/committees/` could
+not be re-tested — the shared DEMO_KEY hourly limit was exhausted by the audit itself.
+It takes no sort parameter, and the 422 fallback covers it if it ever needs one.*
+
+
 ### 2026-08-18 — Congress became a census
 
 Expanded the roster from 48 tracked people to every seated member of Congress: 100

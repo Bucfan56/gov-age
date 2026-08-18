@@ -2490,16 +2490,45 @@ window.openMoney = openMoney;
   function api(path, params){
     var k = keyEl.value.trim();
     if(!k) return Promise.reject(new Error("NOKEY"));
-    var q = Object.keys(params).map(function(p){
-      return encodeURIComponent(p) + "=" + encodeURIComponent(params[p]);
-    }).join("&");
-    return fetch("https://api.open.fec.gov/v1" + path + "?api_key=" + encodeURIComponent(k) + "&" + q)
-      .then(function(r){
-        if(r.status === 429) throw new Error("RATE");
-        if(r.status === 403) throw new Error("BADKEY");
-        if(!r.ok) throw new Error("HTTP " + r.status);
-        return r.json();
-      });
+
+    function call(p){
+      var q = Object.keys(p).map(function(name){
+        return encodeURIComponent(name) + "=" + encodeURIComponent(p[name]);
+      }).join("&");
+      return fetch("https://api.open.fec.gov/v1" + path + "?api_key="
+                   + encodeURIComponent(k) + "&" + q)
+        .then(function(r){
+          if(r.status === 429) throw new Error("RATE");
+          if(r.status === 403) throw new Error("BADKEY");
+          if(!r.ok){
+            /* Keep whatever the FEC said. Reporting only the status code is what
+               made the last failure look like a browser problem for months. */
+            return r.json().catch(function(){ return null; }).then(function(body){
+              var e = new Error("HTTP " + r.status);
+              e.status = r.status;
+              e.detail = body && (body.message
+                         || (body.error && body.error.message));
+              throw e;
+            });
+          }
+          return r.json();
+        });
+    }
+
+    /* A rejected sort field is the one failure worth recovering from. Which
+       fields are sortable differs per endpoint and is not part of any contract
+       -- this search shipped asking for "-last_file_date", which the candidate
+       endpoint does not accept, and every search returned 422. The results are
+       perfectly useful unsorted, so drop the sort and try once more rather than
+       failing the whole lookup. */
+    return call(params).catch(function(e){
+      if(e && e.status === 422 && params.sort){
+        var bare = {};
+        for(var name in params){ if(name !== "sort") bare[name] = params[name]; }
+        return call(bare);
+      }
+      throw e;
+    });
   }
 
   function err(e){
@@ -2507,14 +2536,25 @@ window.openMoney = openMoney;
     if(m === "NOKEY")  return "Add your free FEC key above first — api.data.gov/signup, takes about thirty seconds.";
     if(m === "BADKEY") return "The FEC rejected that key. Check it was pasted whole.";
     if(m === "RATE")   return "You've hit the FEC's hourly rate limit. It resets on the hour.";
-    return "Couldn't reach the FEC (" + (m || "unknown") + "). If you opened this file directly from disk, your browser may be blocking the request — serve the folder over http instead.";
+    /* An HTTP status means the FEC answered and refused. Saying "your browser may
+       be blocking this" there sends people to debug the wrong thing entirely. */
+    if(e && e.status){
+      return "The FEC refused that request (" + m + ")."
+             + (e.detail ? " It said: " + e.detail : "");
+    }
+    return "Couldn't reach the FEC. The request never completed — check your "
+         + "connection, or if you opened this file directly from disk, serve the "
+         + "folder over http instead.";
   }
 
   function search(){
     var q = qEl.value.trim();
     if(!q) return;
     out.innerHTML = '<div class="spin">Searching FEC filings…</div>';
-    api("/candidates/search/", {q:q, per_page:12, sort:"-last_file_date"})
+    /* "-last_file_date" is not a sortable field on this endpoint; it returned 422
+       on every search. -election_years puts current candidates above people who
+       last ran decades ago, which is what a name search wants. */
+    api("/candidates/search/", {q:q, per_page:12, sort:"-election_years"})
       .then(function(d){
         var res = (d.results || []);
         if(!res.length){ out.innerHTML = '<p class="invnote">No federal candidate matches that name. State and local candidates do not file with the FEC.</p>'; return; }

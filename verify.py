@@ -167,6 +167,18 @@ for needle, why in [
 
 check(html.count("<script>") == html.count("</script>"), "unbalanced script tags")
 
+# The investigator asked the FEC to sort candidates by "last_file_date", which is
+# not a sortable field on that endpoint, so every search returned 422 -- and the
+# error text blamed the browser, so it read as a CORS problem rather than a bad
+# parameter. The code falls back to an unsorted request on 422 now; this keeps the
+# dead field itself from creeping back in.
+_DEAD_SORT = 'sort:"-last_file_date"'
+check(_DEAD_SORT not in html,
+      'investigator is sorting on "last_file_date" again; the FEC rejects that '
+      "field on /candidates/search/ and every lookup will fail with 422")
+check("e.status === 422" in html,
+      "investigator lost its fallback for a rejected sort field")
+
 # Rows used to carry the name in a data attribute with quotes stripped, then look
 # the person up by that stripped string -- which could never match, so the six
 # members with quoted nicknames had dead rows. Binding is positional now.
