@@ -60,10 +60,10 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- finance.json index.html roster_map.json; then
+          if git diff --quiet -- finance.json finance-detail.json index.html roster_map.json; then
             echo "No change in FEC data or roster — nothing to commit."
             exit 0
           fi
-          git add finance.json index.html roster_map.json
+          git add finance.json finance-detail.json index.html roster_map.json
           git commit -m "Refresh FEC data and roster ($(date -u +%Y-%m-%d))"
           git push

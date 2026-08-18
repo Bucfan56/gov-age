@@ -56,6 +56,57 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-08-18 — Money over time, and three members who showed $0 but had not
+
+**You can now filter a member's money by date.** Open a profile and there is a
+month-by-month chart of every itemised committee cheque with preset buttons per election
+cycle and free from/to month pickers. The total recalculates for whatever window is
+selected and out-of-window months grey out.
+
+The dates were always there. `pas2` carries `TRANSACTION_DT` in field 13, the pipeline
+already downloaded the file, and it simply never read the column — so this cost no new
+data at all.
+
+**Scope limit, stated in the UI rather than buried here:** these are itemised *committee*
+cheques (PACs, party committees, other campaigns) from 2018 onward. They are not a
+member's whole income — individual donations are the larger share for most of them and
+are not in this view. The caption says so on every profile, so a windowed total can never
+be misread as everything they raised in that period.
+
+**The data file split in two.** Month buckets roughly doubled the core dataset
+(1.6 MB → 2.5 MB), and it is inlined into `index.html` so the page works from disk. So
+month data now ships as `finance-detail.json` and is fetched once, on the first profile
+opened. The drawer renders immediately with a loading line and fills in when the data
+lands — it never waits on the network to open. Core stays 1.6 MB inlined; detail is
+851 KB (199 KB gzipped) and only downloads if someone actually opens a profile. **Anything
+large and per-person added later — named donors above all — belongs in the detail file.**
+
+**Three sitting members were showing $0 raised while plainly taking PAC money.** The new
+coherence check caught it: month buckets exceeded career receipts, which should be
+impossible.
+
+| Member | Was | Actually |
+|---|---|---|
+| Laura Gillen (D-NY-4) | $0 | **$6,929,605** |
+| Glenn Ivey (D-MD-4) | $0 | **$1,904,178** |
+| Keith Self (R-TX-3) | $0 | **$713,057** |
+
+The cause is a genuine trap in the FEC's own data: **a member can hold more than one
+candidate ID, and the two bulk files disagree about which is current.** The summary file
+filed Laura Gillen under `H2NY04244` while the transaction file recorded her cheques
+under `H4NY04158`, and `congress-legislators` publishes only the latter. Carrying one ID
+means the summary lookup finds nothing and the member reads as having raised nothing.
+Confirmed by matching state and district, not by name.
+
+Fixed by recording the second ID in `roster_overrides.json` under a new `fec` key that is
+unioned with what `congress-legislators` publishes. `build_finance.py` now reports anyone
+with committee cheques but zero summary receipts — silent $0 was the failure mode, so it
+is loud now — and `verify.py` fails the build on it. All 548 tracked people have filings;
+previously 545 did.
+
+*Every figure above verified in a browser against the served page.*
+
+
 ### 2026-08-18 — Candidate investigator fixed (every search was failing)
 
 Reported from the live site: searching any name returned *"Couldn't reach the FEC

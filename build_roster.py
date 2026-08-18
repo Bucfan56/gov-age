@@ -102,7 +102,11 @@ def build(refresh=False):
             rec["d"] = 1          # non-voting; excluded from chamber medians
         people.append((rec, t, typ, delegate))
 
-        fec = p["id"].get("fec") or []
+        # congress-legislators does not always list every FEC id a member holds,
+        # and the FEC's own files disagree with each other about which one is
+        # current -- weball can summarise under one id while pas2 records the
+        # cheques under another. Missing one makes a member read as $0 raised.
+        fec = list(dict.fromkeys((p["id"].get("fec") or []) + (o.get("fec") or [])))
         if fec:
             roster[name] = fec
         else:

@@ -167,6 +167,34 @@ for needle, why in [
 
 check(html.count("<script>") == html.count("</script>"), "unbalanced script tags")
 
+# ---------- month-by-month detail ----------
+# Ships as its own file because it roughly doubles the core data and is only read
+# when a money profile is open. It is fetched, never inlined, so a stale or absent
+# copy is invisible on the page until someone clicks a name.
+check(os.path.exists("finance-detail.json"), "missing file: finance-detail.json")
+if os.path.exists("finance-detail.json"):
+    det = json.load(open("finance-detail.json", encoding="utf-8"))
+    check(det.get("built") == fin.get("built"),
+          "finance-detail.json is stale — it was built at "
+          f"{det.get('built')} but finance.json at {fin.get('built')}")
+    dpeople = det.get("people", {})
+    check(len(dpeople) >= 400,
+          f"only {len(dpeople)} people have dated transactions, expected 400+")
+    stray = sorted(set(dpeople) - set(people))
+    check(not stray, f"detail file has people the core file does not: {stray[:5]}")
+    # Months must never exceed the cycle totals they are drawn from.
+    for name, rec in list(dpeople.items())[:400]:
+        msum = sum(rec.get("months", {}).values())
+        if msum:
+            check(msum <= people[name]["career"]["receipts"] * 1.05,
+                  f"{name}: month buckets ${msum:,.0f} exceed career receipts")
+    warn(all(len(k) == 7 and k[4] == "-" for r in list(dpeople.values())[:50]
+             for k in r.get("months", {})),
+         "month keys are not all YYYY-MM")
+
+check("finance-detail.json" in html, "page never fetches the month-by-month detail file")
+check("renderTimeline" in html, "page is missing the money-over-time view")
+
 # The investigator asked the FEC to sort candidates by "last_file_date", which is
 # not a sortable field on that endpoint, so every search returned 422 -- and the
 # error text blamed the browser, so it read as a CORS problem rather than a bad

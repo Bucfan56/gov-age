@@ -69,6 +69,23 @@ def f(v):
         return 0.0
 
 
+def month_of(raw):
+    """FEC transaction dates are MMDDYYYY with no separators.
+
+    Returned as YYYY-MM so the page can filter and chart by period. Blank and
+    malformed dates are common in bulk data -- they are dropped rather than
+    guessed, so a month bucket is always a real reported date. Amounts still
+    count toward the career and per-cycle totals either way, which is why the
+    sum of the months can come in under the cycle total."""
+    raw = (raw or "").strip()
+    if len(raw) != 8 or not raw.isdigit():
+        return None
+    mm, yyyy = raw[:2], raw[4:]
+    if not ("01" <= mm <= "12") or not (1980 <= int(yyyy) <= 2100):
+        return None
+    return f"{yyyy}-{mm}"
+
+
 def build(roster_path, out_path, force=False):
     roster = json.load(open(roster_path, encoding="utf-8"))
     owner = {cid: person for person, ids in roster.items() for cid in ids}
@@ -124,6 +141,8 @@ def build(roster_path, out_path, force=False):
     direct  = defaultdict(lambda: defaultdict(float))          # person -> cmte -> $
     dircyc  = defaultdict(lambda: defaultdict(float))          # person -> cycle -> $
     outside = defaultdict(lambda: defaultdict(float))          # person -> cmte -> $
+    months  = defaultdict(lambda: defaultdict(float))          # person -> YYYY-MM -> $
+    outmon  = defaultdict(lambda: defaultdict(float))          # person -> YYYY-MM -> $
     print("itemized transactions:")
     for cy in DETAIL_CYCLES:
         path = fetch(cy, "pas2", force=force)
@@ -138,11 +157,16 @@ def build(roster_path, out_path, force=False):
             if not who:
                 continue
             tp, amt, cmte = p[5].strip(), f(p[14]), p[0].strip()
+            when = month_of(p[13])
             if tp in ("24K", "24Z"):
                 direct[who][cmte] += amt
                 dircyc[who][cy]   += amt
+                if when:
+                    months[who][when] += amt
             elif tp == "24E":
                 outside[who][cmte] += amt
+                if when:
+                    outmon[who][when] += amt
             else:
                 continue
             n += 1
@@ -202,6 +226,43 @@ def build(roster_path, out_path, force=False):
     }
     json.dump(payload, open(out_path, "w", encoding="utf-8", newline=""), separators=(",", ":"))
     print(f"\nwrote {out_path}  ({os.path.getsize(out_path)/1024:.0f} KB, {len(people)} people)")
+
+    # ---------- month-by-month detail, kept out of the core file ----------
+    # The core file is inlined into index.html so the page works from disk. Month
+    # buckets roughly double its size and are only read when someone opens a money
+    # profile, so they ship separately and load on the first drawer open. Anything
+    # added later that is large and per-person -- named donors above all -- belongs
+    # in here, not in the core file.
+    detail_path = os.path.splitext(out_path)[0] + "-detail.json"
+    detail = {
+        "built": payload["built"],
+        "people": {
+            name: {
+                "months": {m: round(v) for m, v in sorted(months[name].items())},
+                "outMonths": {m: round(v) for m, v in sorted(outmon[name].items())},
+            }
+            for name in people
+            if months[name] or outmon[name]
+        },
+    }
+    json.dump(detail, open(detail_path, "w", encoding="utf-8", newline=""),
+              separators=(",", ":"))
+    # A person with itemised cheques but no summary receipts almost always means a
+    # missing FEC candidate id, not a candidate who raised nothing -- the two bulk
+    # files can file the same person under different ids. Silent $0 is the failure
+    # mode, so say it loudly and let verify.py fail the build.
+    ghosts = [n for n, r in people.items()
+              if r["career"]["receipts"] == 0 and r.get("directTotal", 0) > 0]
+    if ghosts:
+        print("")
+        print("  !! %d tracked people have committee cheques but $0 in summary "
+              "receipts -- they are probably missing a second FEC candidate id:"
+              % len(ghosts))
+        for n in ghosts:
+            print(f"     {n}  ${people[n]['directTotal']:,.0f} itemised, ids={roster[n]}")
+
+    print(f"wrote {detail_path}  ({os.path.getsize(detail_path)/1024:.0f} KB, "
+          f"{len(detail['people'])} people with dated transactions)")
 
 
 if __name__ == "__main__":
