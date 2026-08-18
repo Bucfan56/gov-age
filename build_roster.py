@@ -97,6 +97,11 @@ def build(refresh=False):
             # First year in either chamber -- terms are ordered, so terms[0] is
             # the start of their service, not of the current term.
             "sy": int(p["terms"][0]["start"][:4]),
+            # State and district as their own fields. The page needs to answer
+            # "who represents this district", and parsing it back out of the
+            # role string would break the first time the wording changes.
+            "st": state,
+            "di": str(t.get("district", "")) if typ == "rep" and not delegate else "",
         }
         if delegate:
             rec["d"] = 1          # non-voting; excluded from chamber medians
@@ -147,6 +152,9 @@ def build(refresh=False):
             line = f'  {{n:"{esc(r["n"])}",'.ljust(w + 6)
             line += f' r:"{esc(r["r"])}",'.ljust(max(len(x["r"]) for x in recs) + 8)
             line += f' b:"{r["b"]}", g:"{r["g"]}", t:"{r["t"]}", sy:{r["sy"]}'
+            line += f', st:"{r["st"]}"'
+            if r["di"] != "":
+                line += f', di:"{r["di"]}"'
             if r.get("d"):
                 line += ", d:1"
             out.append(line + "},")

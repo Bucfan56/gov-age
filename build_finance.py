@@ -92,6 +92,8 @@ def build(roster_path, out_path, force=False):
 
     # ---------- 1. career summaries, every cycle ----------
     series = defaultdict(dict)
+    all_names = {}
+    per_id = {}
     print("candidate summaries:")
     for cy in SUMMARY_CYCLES:
         path = fetch(cy, "weball", force=force)
@@ -104,6 +106,11 @@ def build(roster_path, out_path, force=False):
                 continue
             r = dict(zip(WEBALL, p))
             cid = r["CAND_ID"].strip()
+            # Every candidate's name, not just tracked ones: outbound money goes
+            # to people who are mostly not on this page, and "gave $5,000 to
+            # H8CA05035" is not an answer to anybody's question.
+            if cid:
+                all_names.setdefault(cid, r["CAND_NAME"].strip())
             who = owner.get(cid)
             if not who:
                 continue
@@ -116,8 +123,41 @@ def build(roster_path, out_path, force=False):
             d["self"]     += f(r["CAND_CONTRIB"]) + f(r["CAND_LOANS"])
             d["ici"]       = r["CAND_ICI"].strip() or d["ici"]
             d["office"]    = cid[0]
+            # Per-id detail, so the page can say what each candidacy WAS instead
+            # of printing a bare FEC id. Someone who served in both chambers
+            # holds separate ids, and that career shape is the interesting part.
+            ri = per_id.setdefault(cid, {"office": cid[0], "st": "", "dist": "",
+                                         "first": cy, "last": cy, "receipts": 0.0})
+            ri["st"] = r["CAND_OFFICE_ST"].strip() or ri["st"]
+            ri["dist"] = r["CAND_OFFICE_DISTRICT"].strip() or ri["dist"]
+            ri["first"] = min(ri["first"], cy)
+            ri["last"] = max(ri["last"], cy)
+            ri["receipts"] += f(r["TTL_RECEIPTS"])
             hit += 1
         print(f"  {cy}: {hit}")
+
+    # ---------- 1b. their own committees ----------
+    # Needed to read the transaction file in the other direction. A candidate's
+    # committee also GIVES money -- to party committees, to other candidates --
+    # and that side of pas2 was being thrown away. Designations P (principal)
+    # and A (authorized) are the campaign itself; anything else is a leadership
+    # PAC or a joint fundraiser and is a different question.
+    mine = {}
+    print("candidate committees:")
+    for cy in DETAIL_CYCLES:
+        path = fetch(cy, "ccl", force=force)
+        if not path:
+            continue
+        k = 0
+        for line in open(path, encoding="latin-1"):
+            q = line.rstrip(chr(10)).split("|")
+            if len(q) < 6:
+                continue
+            who = owner.get(q[0].strip())
+            if who and q[5].strip() in ("P", "A") and q[3].strip():
+                mine[q[3].strip()] = who
+                k += 1
+        print(f"  {cy}: {k}")
 
     # ---------- 2. committee master ----------
     cm = {}
@@ -143,6 +183,17 @@ def build(roster_path, out_path, force=False):
     outside = defaultdict(lambda: defaultdict(float))          # person -> cmte -> $
     months  = defaultdict(lambda: defaultdict(float))          # person -> YYYY-MM -> $
     outmon  = defaultdict(lambda: defaultdict(float))          # person -> YYYY-MM -> $
+    gave    = defaultdict(lambda: defaultdict(float))          # person -> recipient cand -> $
+    gaven   = defaultdict(lambda: defaultdict(int))            # person -> recipient cand -> count
+
+    # A campaign moving money to ANOTHER COMMITTEE OF ITS OWN is not a donation
+    # to anyone. Elizabeth Warren's Senate committee transferred $2.1M to her
+    # presidential committee, which read as her largest gift to a candidate --
+    # herself. roster_map does not always hold every id a person has run under,
+    # so the guard matches on the candidate NAME as filed, not just the id.
+    own_names = {person: {all_names.get(cid, "").upper()
+                          for cid in ids if all_names.get(cid)}
+                 for person, ids in roster.items()}
     print("itemized transactions:")
     for cy in DETAIL_CYCLES:
         path = fetch(cy, "pas2", force=force)
@@ -153,6 +204,20 @@ def build(roster_path, out_path, force=False):
             p = line.rstrip("\n").split("|")
             if len(p) < 22:
                 continue
+            # The giving side: our person's own committee writing the cheque.
+            giver = mine.get(p[0].strip())
+            if giver:
+                to = p[16].strip()
+                if (to and to not in roster.get(giver, [])
+                        and all_names.get(to, "").upper() not in own_names.get(giver, set())):
+                    try:
+                        amt_out = float(p[14] or 0)
+                    except ValueError:
+                        amt_out = 0.0
+                    if amt_out and p[5].strip() in ("24K", "24Z"):
+                        gave[giver][to] += amt_out
+                        gaven[giver][to] += 1
+
             who = owner.get(p[16].strip())
             if not who:
                 continue
@@ -204,6 +269,7 @@ def build(roster_path, out_path, force=False):
 
         people[who] = {
             "ids": roster[who],
+            "races": [dict(per_id[c], id=c) for c in roster[who] if c in per_id],
             "career": {k: round(v) for k, v in career.items()},
             "cycles": {str(y): {k: round(v) if isinstance(v, float) else v
                                 for k, v in d.items()} for y, d in sorted(cyc.items())},
@@ -259,6 +325,17 @@ def build(roster_path, out_path, force=False):
             if months[name] or outmon[name]
         },
     }
+    for name in people:
+        rows = sorted(gave[name].items(), key=lambda kv: -kv[1])[:20]
+        if not rows:
+            continue
+        rec = detail["people"].setdefault(name, {})
+        rec["gave"] = [{"id": cid, "n": all_names.get(cid, cid),
+                        "amt": round(v), "gifts": gaven[name][cid]}
+                       for cid, v in rows]
+        rec["gaveTotal"] = round(sum(gave[name].values()))
+        rec["gaveCount"] = len(gave[name])
+
     carried = 0
     for name, old_rec in prior_people.items():
         if not old_rec.get("donors"):

@@ -56,6 +56,73 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-08-18 — Five borrowings from a competitor review
+
+Reviewed iVoterGuide (a division of AFA Action) and took the structure, not the stance.
+Their product grades candidates ideologically and buckets donors into conservative and
+liberal columns; this page reports who wrote the cheques and stops there. Six
+ideology-neutral ideas were worth having, five of which shipped.
+
+**1 - A profile now says when it has nothing.** Sections that used to vanish when empty
+state the absence instead: "No itemised committee cheques on file. Itemised committee data
+runs from 2018 onward." A missing section reads as *we did not look*; an explicit line
+reads as *we looked, and there is nothing*, which is both true and more useful. Borrowed
+directly from their "Candidate did not provide".
+
+**2 - A jump nav inside the profile.** Profiles now run to twelve sections. The nav is
+built from whatever actually rendered rather than a fixed list, because sections vary by
+person and offering a link to a section that is not there is worse than no nav.
+
+**3 - Money they gave to others, the sleeper.** The page only ever showed money coming
+*in*. A campaign committee also writes cheques, and that side of the transaction file was
+being parsed and discarded. Reading it costs nothing new, and it is the more revealing
+number for anyone in leadership:
+
+| | Gave out, 2018-2026 | To how many candidates |
+|---|---|---|
+| Steve Scalise | **$3.0M** | 515 |
+| Jim Jordan | $1.5M | 314 |
+| Nancy Pelosi | $1.4M | 303 |
+| Alexandria Ocasio-Cortez | $34k | 13 |
+
+*A bug caught on the way:* Elizabeth Warren's Senate committee transferred $2.1M to her
+own presidential committee, which read as her largest gift to a candidate, herself.
+`roster_map` does not hold every ID a person has run under, so self-transfers are now
+excluded by matching the candidate **name** as filed, not just the ID. Her real figure is
+$147,717 across 126 candidates.
+
+**4 - Races they have run, instead of bare FEC IDs.** Each ID is a distinct candidacy: an
+office, a state, a district, a span of years, a total. Bernie Sanders now reads
+"U.S. Representative, VT, 1988-2006, $6.0M" above "U.S. Senator, VT, 2006-2026, $87.8M".
+58 tracked people have more than one candidacy.
+
+**5 - A coverage panel that counts itself.** Which parts of the page are a census and
+which are a selection, with the years each one spans, computed on every load rather than
+written in prose that goes stale. The two lazily-loaded files fill their own rows when
+they arrive, so the panel never claims coverage it has not confirmed.
+
+**6 - Who represents me.** Pick a state, and a district if you know it, and get your
+governor, both senators and your representative as clickable profiles.
+
+**This deliberately does not ask for an address.** The obvious version geocodes a street
+address to a district, and the Census Bureau geocoder returns exactly the right answer,
+verified including the CD119 district field. But it sends no Access-Control-Allow-Origin
+header, so a browser cannot call it from a static page. That was confirmed from a real
+browser, not inferred. Routing it through a proxy would mean this page stops being a static
+file and starts being a service that sees people's home addresses. Since both chambers are
+now tracked in full, a picker gives the same answer with nothing about the visitor leaving
+their browser. **The address version remains possible and needs a decision about hosting,
+not more code.**
+
+*Not taken:* the ideological grade, the conservative/liberal bucketing, the questionnaire.
+All editorial, and all incompatible with this page's framing rule.
+
+*Worth recording:* on campaign finance their product is weaker than this one. Their
+"Selected Contributions" lists a source name and a year with no amounts, no dates and no
+totals. This page has exact figures, transaction dates, filterable monthly timelines,
+named individual donors with occupation, and now outbound giving.
+
+
 ### 2026-08-18 — A profile opens from anywhere, and a lookup tool
 
 **Every place the page names a person now opens their full profile.** It used to work

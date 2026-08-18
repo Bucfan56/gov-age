@@ -63,6 +63,18 @@ Other options that work the same way:
 
 ---
 
+## Who represents me
+
+Pick a state and optionally a district to get the governor, both senators and the
+representative for that district, each a clickable profile.
+
+**This asks for a state, not an address, on purpose.** The Census Bureau geocoder resolves
+a street address to a congressional district correctly, but sends no CORS header, so a
+static page cannot call it. Proxying it would turn this into a service that receives
+people's home addresses. Both chambers are tracked in full here, so a picker is equally
+exact and nothing about the visitor leaves their browser. Adding address lookup is a
+hosting decision, not a coding problem.
+
 ## The candidate investigator
 
 The pre-built roster covers the people on the page. The investigator searches the

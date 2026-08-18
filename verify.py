@@ -197,6 +197,41 @@ check("renderTimeline" in html, "page is missing the money-over-time view")
 check("renderDonors" in html, "page is missing the named-donor view")
 check("renderStateMoney" in html, "page is missing the state-money view")
 check("bindOpenablePeople" in html, "page is missing the click-anywhere profile wiring")
+
+# ---------- sections added from the iVoterGuide review ----------
+for needle, why in [
+    ("addSectionNav",     "jump nav inside the profile"),
+    ("notprovided",       "explicit 'nothing on file' states"),
+    ("renderGiving",      "money-given-to-others view"),
+    ("Races they have run", "candidacy history instead of bare FEC ids"),
+    ('id="coverage"',     "coverage panel"),
+    ('id="repState"',     "who-represents-me state picker"),
+    ('id="repDist"',      "who-represents-me district picker"),
+]:
+    check(needle in html, f"index.html is missing the {why}")
+
+# Every congressional entry needs a state, or the representation picker cannot
+# place them; House members outside the delegations need a district too.
+_st = len(re.findall(r'st:"[A-Z]{2}"', block))
+check(_st >= 530, f"only {_st} congressional entries carry a state code, expected 530+")
+_di = len(re.findall(r'di:"\d+"', block))
+check(_di >= 425, f"only {_di} House entries carry a district, expected 425+")
+
+# Outbound giving must never include a transfer to the person's own committee --
+# Warren's Senate committee moved $2.1M to her presidential committee and it read
+# as her largest gift to a candidate, which was herself.
+if os.path.exists("finance-detail.json"):
+    for name, rec in list(det.get("people", {}).items())[:400]:
+        for g in rec.get("gave", []):
+            surname = name.split()[-1].upper()
+            filed = g["n"].split(",")[0].strip().upper()
+            if filed == surname:
+                warn(False, f"{name} appears to have 'given' to {g['n']} — check this is "
+                            f"a different person and not a transfer between their own committees")
+        if rec.get("gave"):
+            amts = [g["amt"] for g in rec["gave"]]
+            check(amts == sorted(amts, reverse=True),
+                  f"{name}: outbound giving is not sorted largest first")
 # Matching a display name to a person is the dangerous part. A surname-only
 # fallback once linked "Charles Booker" (Kentucky candidate) to Cory Booker of
 # New Jersey and "Scott Brown" of New Hampshire to Shontel Brown of Ohio --
