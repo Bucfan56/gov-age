@@ -194,6 +194,29 @@ if os.path.exists("finance-detail.json"):
 
 check("finance-detail.json" in html, "page never fetches the month-by-month detail file")
 check("renderTimeline" in html, "page is missing the money-over-time view")
+check("renderDonors" in html, "page is missing the named-donor view")
+
+# ---------- named individual donors ----------
+if os.path.exists("finance-detail.json"):
+    withdonors = [r for r in det.get("people", {}).values() if r.get("donors")]
+    check(len(withdonors) >= 450,
+          f"only {len(withdonors)} people have named donors, expected 450+")
+    check(det.get("donorFloor"), "detail file does not record its donor floor")
+    # A donor list must be sorted largest first -- the page shows it as a
+    # ranking and draws its bars against the first entry.
+    for r in withdonors[:200]:
+        amts = [d["amt"] for d in r["donors"]]
+        check(amts == sorted(amts, reverse=True),
+              "donor lists are not sorted largest first")
+        check(all(a >= det["donorFloor"] for a in amts),
+              f"a donor total falls below the stated floor of ${det['donorFloor']:,}")
+        check(all(d.get("n") for d in r["donors"]), "a donor has no name")
+    # Committees must not leak into the individual list -- they are a different
+    # question and have their own section.
+    blob = " ".join(d["n"].upper() for r in withdonors[:150] for d in r["donors"])
+    for banned in ("ACT BLUE", "WINRED", " PAC ", "COMMITTEE"):
+        warn(banned not in blob,
+             f"a committee-looking name ({banned.strip()}) appears in the individual donor list")
 
 # The investigator asked the FEC to sort candidates by "last_file_date", which is
 # not a sortable field on that endpoint, so every search returned 422 -- and the

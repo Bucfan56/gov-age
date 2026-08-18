@@ -56,6 +56,44 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-08-18 — Named individual donors
+
+Every profile now lists the **people** who gave the most, not just the organisations.
+Name, amount, number of gifts, occupation and home city, largest first.
+
+Source is `indiv{cycle}.zip`, the biggest file the FEC publishes — 5.7 GB of text for
+2026 and 8 GB for 2024. It streams straight out of the zip and is never extracted or
+held in memory. 88.8 million rows scanned in about a minute, 869,576 contributions kept,
+named donors for 542 of the 548 tracked people. The six without are executive-branch
+officials who no longer run for federal office, which is correct.
+
+**Two joins were needed and the second is imperfect.** Individual contributions carry a
+*committee* id and never a candidate id, so `ccl{cycle}.zip` maps committee → candidate;
+only the candidate's own committees count (designations P and A), which deliberately
+excludes leadership PACs and joint fundraising committees, because money there is not
+money to the campaign. The second join is donor identity, and it does not fully work:
+donor names are free text, `SMITH, JOHN` and `SMITH, JOHN A.` are one person to a reader
+and two strings to a computer, and nothing in the data resolves them. Totals are per
+name-as-filed, so anyone who filed inconsistently is split across entries. The page says
+this rather than implying the ranking is exact.
+
+**Three limits stated in the UI, because each would otherwise read as a fact about the
+candidate rather than about the data:** federal law only requires itemisation above $200,
+so small-dollar donors are invisible *by law* and a short list is not a small donor base;
+this build additionally ignores anything under $500; and the name-splitting above.
+
+Performance came from rejecting rows before parsing them — the committee id is the first
+field and always nine characters, so one slice and one set lookup discards the ~99% of
+rows that are irrelevant before any splitting or decoding happens.
+
+`verify.py` now checks donor lists are sorted largest-first, that every total clears the
+stated floor, that no donor is nameless, and warns if a committee-shaped name leaks into
+the individual list.
+
+*Verified in a browser: 15 named donors render per profile with occupation and city, and
+the state code casing fix means "Lancaster, PA" rather than "Lancaster, Pa".*
+
+
 ### 2026-08-18 — Money over time, and three members who showed $0 but had not
 
 **You can now filter a member's money by date.** Open a profile and there is a

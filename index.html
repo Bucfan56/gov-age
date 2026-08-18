@@ -479,6 +479,17 @@ td.st{white-space:nowrap;width:1%}
 .tlbars rect.bar{fill:var(--over)}
 .tlbars rect.bar.dim{fill:var(--rule-hard)}
 .tlempty{font-size:.9rem;color:var(--ink-faint);padding:10px 0}
+/* named individual donors */
+.dnrlist{list-style:none;margin:2px 0 0;padding:0}
+.dnr{position:relative;display:flex;align-items:center;gap:12px;padding:7px 0;border-bottom:1px solid var(--rule)}
+.dnr:last-child{border-bottom:0}
+.dnrbar{position:absolute;left:0;right:0;top:0;bottom:0;pointer-events:none}
+.dnrbar i{display:block;height:100%;background:var(--over-soft);opacity:.16}
+.dnrname{position:relative;flex:1;min-width:0}
+.dnrname b{display:block;font-size:.92rem;font-weight:600;line-height:1.25}
+.dnrname small{display:block;font-family:"IBM Plex Mono",monospace;font-size:.58rem;letter-spacing:.04em;color:var(--ink-faint);text-transform:uppercase;margin-top:2px}
+.dnramt{position:relative;font-family:"IBM Plex Mono",monospace;font-size:.86rem;font-weight:600;text-align:right;white-space:nowrap}
+.dnramt small{display:block;font-size:.56rem;font-weight:400;color:var(--ink-faint);letter-spacing:.04em}
 .tlload{font-family:"IBM Plex Mono",monospace;font-size:.62rem;color:var(--ink-faint);padding:10px 0}
 
 @media (max-width:820px){
@@ -2346,6 +2357,61 @@ function renderTimeline(host, months){
   draw();
 }
 
+/* ---------------- named individual donors ----------------
+   People, not committees. The two are different questions and the page keeps
+   them apart: the committee list above answers "which organisations wrote
+   cheques", this answers "which individuals did".
+
+   Three limits, all stated in the UI because each one would otherwise be read
+   as a fact about the candidate rather than about the data:
+     - Federal law only requires itemisation above $200, so small-dollar donors
+       are invisible by law. A short list does not mean few donors.
+     - The builder additionally ignores anything under its floor.
+     - Donor names are free text. "SMITH, JOHN" and "SMITH, JOHN A." are one
+       person to a reader and two strings to a computer, and nothing in the
+       data resolves them, so a split name undercounts. */
+function titleCaseName(s){
+  return String(s || "").toLowerCase().replace(/\b([a-z])/g, function(m){
+    return m.toUpperCase();
+  }).replace(/\bIi\b/g, "II").replace(/\bIii\b/g, "III").replace(/\bIv\b/g, "IV");
+}
+/* "LANCASTER, PA" title-cases to "Lancaster, Pa", which reads as a typo. Put
+   the two-letter state code back into capitals. */
+function titleCasePlace(s){
+  return titleCaseName(s).replace(/,\s*([A-Za-z]{2})\s*$/, function(_m, st){
+    return ", " + st.toUpperCase();
+  });
+}
+
+
+function renderDonors(host, donors, floor, cycles){
+  if(!donors || !donors.length){
+    host.innerHTML = '<div class="tlempty">No itemised individual contributions '
+      + 'on file for this person in the cycles covered.</div>';
+    return;
+  }
+  var max = donors[0].amt || 1;
+  var rows = donors.map(function(d){
+    var who = titleCaseName(d.n);
+    var meta = [d.occ ? titleCaseName(d.occ) : "", d.where ? titleCasePlace(d.where) : ""]
+                 .filter(Boolean).join(" · ");
+    return '<li class="dnr">'
+      + '<div class="dnrbar"><i style="width:' + (100*d.amt/max).toFixed(1) + '%"></i></div>'
+      + '<div class="dnrname"><b>' + escHtml(who) + '</b>'
+      + (meta ? '<small>' + escHtml(meta) + '</small>' : '') + '</div>'
+      + '<div class="dnramt">' + usd(d.amt)
+      + '<small>' + d.gifts + (d.gifts === 1 ? " gift" : " gifts") + '</small></div>'
+      + '</li>';
+  }).join("");
+  host.innerHTML = '<ul class="dnrlist">' + rows + '</ul>'
+    + '<div class="dsub">Individual people giving ' + usd(floor) + ' or more across the '
+    + (cycles || []).slice().sort().join(" and ") + ' cycles, largest first. '
+    + 'Federal law only requires a campaign to name donors above $200, so smaller '
+    + 'gifts are invisible here by law rather than by omission — a short list is not '
+    + 'a small donor base. Names are counted exactly as filed, so anyone who appears '
+    + 'under more than one spelling is split across entries.</div>';
+}
+
 function openMoney(p){
   lastFocus = document.activeElement;
   var f = p.fin, h = "";
@@ -2389,9 +2455,12 @@ function openMoney(p){
 
   /* Placeholder now, data when it arrives -- the drawer must not wait on a
      network round trip to open. */
-  var tlId = "tl" + (++tlSeq);
+  var tlId = "tl" + (++tlSeq), dnId = "dn" + tlSeq;
   h += '<div class="dsec"><h4>When the money came in</h4>'
      + '<div id="' + tlId + '"><div class="tlload">Loading month-by-month figures…</div></div>'
+     + '</div>'
+     + '<div class="dsec"><h4>Largest individual donors</h4>'
+     + '<div id="' + dnId + '"><div class="tlload">Loading named donors…</div></div>'
      + '</div>';
 
   var pts = activeCycles(f.cycles);
@@ -2475,11 +2544,16 @@ function openMoney(p){
       if(!document.getElementById(tlId)) return;
       var rec = (d.people || {})[p.n];
       renderTimeline(tlHost, (rec && rec.months) || {});
+      var dnHost = document.getElementById(dnId);
+      if(dnHost) renderDonors(dnHost, rec && rec.donors, d.donorFloor, d.donorCycles);
     }).catch(function(){
       if(!document.getElementById(tlId)) return;
-      tlHost.innerHTML = '<div class="tlempty">Month-by-month figures could not be '
-        + 'loaded. They live in a separate file, so this view needs the page to be '
-        + 'served over http rather than opened from disk.</div>';
+      var msg = '<div class="tlempty">This view could not be loaded. It lives in a '
+        + 'separate file, so it needs the page to be served over http rather than '
+        + 'opened from disk.</div>';
+      tlHost.innerHTML = msg;
+      var dnHost = document.getElementById(dnId);
+      if(dnHost) dnHost.innerHTML = msg;
     });
   }
 }
