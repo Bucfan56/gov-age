@@ -23,6 +23,10 @@ downloads by a Python script that needs no API key.
 | `roster_map.json` | Maps each tracked person to their FEC candidate ID(s). **Generated** for Congress — hand-edit only for people outside it. |
 | `build_roster.py` | Rebuilds the congressional roster from `congress-legislators`. Re-runnable. |
 | `roster_overrides.json` | The hand curation that survives a roster rebuild, keyed by bioguide ID. |
+| `build_donors.py` | Adds named individual donors from the FEC's itemised contribution files. |
+| `build_state.py` | Pulls state-level campaign finance. One adapter per state. |
+| `finance-detail.json` | Month-by-month figures and named donors. Fetched on demand, not inlined. |
+| `state-fl.json` | Florida campaign finance, all offices. Fetched on demand. |
 | `verify.py` | Smoke test. Run after every rebuild; CI runs it before committing. |
 | `HANDOFF.md` | Brief for whoever picks this up next. |
 | `.github/workflows/refresh.yml` | Weekly GitHub Action that rebuilds, verifies and commits. |
@@ -143,8 +147,10 @@ Chiefs and the serving cabinet are complete. The governors are a selection.
 - **Dark money.** 501(c)(4) groups spend heavily and never disclose donors. None of
   it appears here.
 - **Bundling.** One person collecting fifty capped cheques shows up as fifty donors.
-- **State and local money.** Governors file with their states. There are fifty
-  separate systems and no unified feed, so no governor finance appears here.
+- **State and local money, except Florida.** Governors file with their states.
+  There are fifty separate systems and no unified feed. Florida is covered —
+  all 37 offices it reports on, from Governor down to fire and water districts —
+  and other states need an adapter each. Everywhere else still shows nothing.
 - **Appointed officials.** Supreme Court justices, the Joint Chiefs and most cabinet
   secretaries have never run for federal office and file nothing with the FEC.
 - **Employer fields** on individual contributions are self-reported and inconsistent.
@@ -172,3 +178,58 @@ worth asking, not an answer.
 - Wikipedia and Wikidata — 2026 election status and candidate birth dates
 
 All source data is public. Verify anything that matters at fec.gov before you publish it.
+
+---
+
+## State-level money
+
+Governors and state legislators file with their own state, never the FEC, so
+none of their money is in the federal pipeline. There is no national feed —
+fifty states, fifty systems, no shared format. So each state gets an **adapter**
+behind one interface:
+
+```bash
+python3 build_state.py --state FL          # every office, current + last cycle
+python3 build_state.py --state FL --offices GOV,STS,STR
+```
+
+**Florida** is the reference implementation, covering all 37 offices its
+Division of Elections reports on — Governor, Cabinet, legislature, judges,
+State Attorney, Public Defender, and about twenty special districts (fire
+control, water, soil and water conservation, bridge and airport authorities).
+
+Adding another state means writing an adapter class with two methods —
+`candidates()` and `contributions()` — registering it in `ADAPTERS`, and adding
+one line to `STATE_FILES` in `index.html`. Nothing else changes.
+
+### Two things Florida's data will catch you out on
+
+**Loans are not contributions.** Type `LOA` is borrowed money and repayable.
+One state house candidate loaned his own campaign $5,000,000; counted as a
+donation it made his donor list nonsense and his monthly totals ten times his
+reported receipts. Loans are tracked separately. `INT` is bank interest on the
+campaign account and is not a donation either.
+
+**The two views disagree, legitimately.** The state's "contribution total" and
+the sum of its own itemised contribution list are different measures — the
+total excludes loans, and the itemised list is floored at the donor threshold.
+Expect them to differ per candidate, and do not "fix" it by making one equal
+the other.
+
+## Named individual donors
+
+```bash
+python3 build_donors.py --cycles 2026,2024 --floor 500 --keep 15
+```
+
+Reads `indiv{cycle}.zip`, the largest file the FEC publishes — 5.7 GB of text
+for 2026 alone. It streams out of the zip and is never extracted.
+
+Individual contributions carry a **committee** id and never a candidate id, so
+`ccl{cycle}.zip` maps committee to candidate. Only the candidate's own
+committees count (designations `P` and `A`), which excludes leadership PACs and
+joint fundraising committees.
+
+Donor names are free text and nothing in the data resolves them, so
+`SMITH, JOHN` and `SMITH, JOHN A.` are counted as two people. Totals are per
+name-as-filed. The page says so.

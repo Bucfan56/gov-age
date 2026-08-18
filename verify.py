@@ -195,6 +195,48 @@ if os.path.exists("finance-detail.json"):
 check("finance-detail.json" in html, "page never fetches the month-by-month detail file")
 check("renderTimeline" in html, "page is missing the money-over-time view")
 check("renderDonors" in html, "page is missing the named-donor view")
+check("renderStateMoney" in html, "page is missing the state-money view")
+
+# ---------- state-level money ----------
+# Governors file with their state, never the FEC, so without this they show only
+# "no federal filing" -- true, and useless. Each state file is fetched on demand;
+# a missing or stale one is invisible until someone opens a governor.
+import re as _re
+_declared = _re.search(r"var STATE_FILES = \{([^}]*)\}", html)
+check(bool(_declared), "page does not declare STATE_FILES")
+if _declared:
+    for code, fname in _re.findall(r"(\w+)\s*:\s*[\"']([^\"']+)[\"']", _declared.group(1)):
+        check(os.path.exists(fname),
+              f"page offers state {code} but {fname} is missing")
+        if os.path.exists(fname):
+            st = json.load(open(fname, encoding="utf-8"))
+            check(len(st.get("people", {})) >= 100,
+                  f"{fname}: only {len(st.get('people', {}))} candidates, expected 100+")
+            check(st.get("donorFloor"), f"{fname} does not record its donor floor")
+            check(st.get("authority"), f"{fname} does not name the reporting authority")
+            tot = sum(r["total"] for r in st["people"].values())
+            check(tot > 1e6, f"{fname}: only ${tot:,.0f} tracked, looks broken")
+            for r in list(st["people"].values())[:300]:
+                ds = r.get("donors", [])
+                amts = [d["amt"] for d in ds]
+                check(amts == sorted(amts, reverse=True),
+                      f"{fname}: donor list not sorted largest first ({r['name']})")
+                # The state's "contribution total" and the sum of its own
+                # itemised contributions are different measures -- the total
+                # excludes loans, and the itemised list is floored at the donor
+                # threshold, so the two legitimately disagree per candidate.
+                # Loans are held separately; anything wildly above the reported
+                # total means they have leaked back in.
+                msum = sum(r.get("months", {}).values())
+                check(msum <= max(r["total"], 1) * 3 + 25000,
+                      f"{fname}: {r['name']} month buckets (${msum:,.0f}) far exceed "
+                      f"their reported total (${r['total']:,}) — loans may be "
+                      f"counted as contributions again")
+            # Name matching between the two state lists is imperfect; what matters
+            # is how much money it drops, not how many names.
+            lost = st.get("unmatchedAmount", 0)
+            warn(lost <= tot * 0.02,
+                 f"{fname}: ${lost:,.0f} unattributed, over 2% of ${tot:,.0f}")
 
 # ---------- named individual donors ----------
 if os.path.exists("finance-detail.json"):

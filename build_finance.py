@@ -234,6 +234,20 @@ def build(roster_path, out_path, force=False):
     # added later that is large and per-person -- named donors above all -- belongs
     # in here, not in the core file.
     detail_path = os.path.splitext(out_path)[0] + "-detail.json"
+
+    # Named donors are written into this same file by build_donors.py, which
+    # runs on its own much slower schedule because it reads ~6 GB of FEC bulk
+    # data. Rebuilding this file from scratch every week would delete them
+    # silently -- the page would simply stop showing donors and nothing would
+    # fail -- so the donor keys are carried across.
+    prior = {}
+    if os.path.exists(detail_path):
+        try:
+            prior = json.load(open(detail_path, encoding="utf-8"))
+        except (ValueError, OSError):
+            prior = {}
+    prior_people = prior.get("people", {})
+
     detail = {
         "built": payload["built"],
         "people": {
@@ -245,6 +259,17 @@ def build(roster_path, out_path, force=False):
             if months[name] or outmon[name]
         },
     }
+    carried = 0
+    for name, old_rec in prior_people.items():
+        if not old_rec.get("donors"):
+            continue
+        detail["people"].setdefault(name, {})["donors"] = old_rec["donors"]
+        carried += 1
+    for key in ("donorFloor", "donorCycles"):
+        if key in prior:
+            detail[key] = prior[key]
+    if carried:
+        print(f"  carried {carried} people's named donors through from the previous build")
     json.dump(detail, open(detail_path, "w", encoding="utf-8", newline=""),
               separators=(",", ":"))
     # A person with itemised cheques but no summary receipts almost always means a

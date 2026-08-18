@@ -45,6 +45,37 @@ def norm(name):
     return re.sub(r"[^A-Z0-9]+", " ", (name or "").upper()).strip()
 
 
+def token_key(name):
+    """Order-independent key: the set of name tokens, sorted.
+
+    The totals list names a candidate first-last and the contributions list
+    names them last-first, which is fine until the surname has two words --
+    "Joey Mendoza Atkins" against "Mendoza Atkins, Joey". Taking the last word
+    as the surname gets those backwards and silently drops the candidate's
+    money. Comparing the token set instead does not care about order.
+    """
+    return " ".join(sorted(norm(name).split()))
+
+
+def subset_match(cand_name, by_tokens):
+    """Last resort: the contributions list sometimes carries a nickname the
+    totals list omits -- "Griffitts Philip Wayne Griff" against "Philip Wayne
+    Griffitts". Accept a recipient whose tokens are a superset of the
+    candidate's, provided the surname is among them and at least two tokens
+    agree, which is tight enough not to merge two different people.
+    """
+    want = set(norm(cand_name).split())
+    if len(want) < 2:
+        return None
+    parts = norm(cand_name).split()
+    surname = parts[-1]
+    for key, gifts in by_tokens.items():
+        have = set(key.split())
+        if surname in have and want <= have and len(want & have) >= 2:
+            return gifts
+    return None
+
+
 def as_last_first(name):
     """'Frank J. Russo' -> 'RUSSO FRANK J'. Totals list names first-last, the
     contributions list names last-first, so one side has to be turned around."""
@@ -193,6 +224,17 @@ class Florida:
         return out
 
 
+# Florida's transaction types. Only some of these are money somebody GAVE:
+#   CHE cheque · INK in-kind · CAS cash · MO money order · COF candidate's own funds
+#   LOA loan  -- borrowed and repayable, not a donation
+#   INT interest -- the bank paying the campaign account, not a donation
+# This distinction is not cosmetic. One state house candidate loaned his own
+# campaign $5,000,000; counted as a contribution it made his "donors" list
+# nonsense and his monthly totals ten times his reported receipts. The state's
+# own contribution totals exclude loans, which is how the discrepancy surfaced.
+GIFT_TYPES = {"CHE", "INK", "CAS", "MO", "COF", ""}
+LOAN_TYPES = {"LOA"}
+
 ADAPTERS = {"FL": Florida}
 
 
@@ -235,8 +277,11 @@ def build(state, elections, min_amount, top_n, offices=None, out=None):
             # party and office -- "DeSantis, Ron  (REP)(GOV)" -- so match on the
             # leading name only.
             by_person = defaultdict(list)
+            by_tokens = defaultdict(list)
             for g in gifts:
-                by_person[norm(SUFFIX.sub("", g["to"]))].append(g)
+                clean = SUFFIX.sub("", g["to"])
+                by_person[norm(clean)].append(g)
+                by_tokens[token_key(clean)].append(g)
 
             for c in cands:
                 pid = f'{c["name"]}|{code}|{c["district"]}'
@@ -246,12 +291,22 @@ def build(state, elections, min_amount, top_n, offices=None, out=None):
                     "district": c["district"],
                     "statewide": code in A.STATEWIDE,
                     "elections": {}, "months": defaultdict(float), "donors": {},
+                    "loans": 0.0, "other": 0.0,
                 })
                 rec["elections"][election] = round(c["total"])
 
                 hits = (by_person.get(as_last_first(c["name"]))
-                        or by_person.get(norm(c["name"])) or [])
+                        or by_person.get(norm(c["name"]))
+                        or by_tokens.get(token_key(c["name"]))
+                        or subset_match(c["name"], by_tokens) or [])
                 for g in hits:
+                    kind = (g.get("type") or "").strip().upper()
+                    if kind in LOAN_TYPES:
+                        rec["loans"] += g["amount"]
+                        continue
+                    if kind not in GIFT_TYPES:
+                        rec["other"] += g["amount"]     # interest and the like
+                        continue
                     iso = iso_date(g["date"])
                     if iso:
                         rec["months"][iso[:7]] += g["amount"]
@@ -268,12 +323,20 @@ def build(state, elections, min_amount, top_n, offices=None, out=None):
                     if k in by_person:
                         matched.add(k)
                         break
+                else:
+                    tk = token_key(c["name"])
+                    got = by_tokens.get(tk) or subset_match(c["name"], by_tokens)
+                    if got:
+                        matched.update(norm(SUFFIX.sub("", g["to"])) for g in got)
             orphan = sorted(set(by_person) - matched)
             print(f"  {election} {code:4s} {label[:36]:36s} "
                   f"{len(cands):5d} candidates  {n_g:6d} contributions"
                   + (f"  !! {len(orphan)} unmatched" if orphan else ""))
             if orphan:
-                unmatched.extend((election, code, o) for o in orphan[:20])
+                for o in orphan:
+                    unmatched.append((election, code, o,
+                                      sum(g["amount"] for g in by_tokens.get(
+                                          " ".join(sorted(o.split())), []))))
 
     # ---------- shape for the page ----------
     final = {}
@@ -286,6 +349,7 @@ def build(state, elections, min_amount, top_n, offices=None, out=None):
             "elections": r["elections"],
             "total": round(sum(r["elections"].values())),
             "months": {m: round(v) for m, v in sorted(r["months"].items())},
+            "loans": round(r["loans"]),
             "donors": [{"n": d["n"], "amt": round(d["amt"]), "gifts": d["gifts"],
                         "where": d["where"], "occ": d["occ"]} for d in donors],
         }
@@ -304,6 +368,10 @@ def build(state, elections, min_amount, top_n, offices=None, out=None):
         "offices": {k: v for k, v in A.OFFICES.items() if k in offices},
         "people": final,
     }
+    # Recorded in the file itself so the page can disclose the gap rather than
+    # quietly presenting a total that is known to be slightly short.
+    payload["unmatchedCount"] = len(unmatched)
+    payload["unmatchedAmount"] = round(sum(x[3] for x in unmatched))
     json.dump(payload, open(out, "w", encoding="utf-8", newline=""),
               separators=(",", ":"))
 
@@ -319,10 +387,16 @@ def build(state, elections, min_amount, top_n, offices=None, out=None):
     # Contributions whose recipient matched no candidate mean money is being
     # dropped on the floor. Loud, because the symptom is a candidate who looks
     # like they raised nothing from anyone.
+    # Quantify rather than just count. Name matching between the two lists is
+    # not perfectly solvable -- the contributions list sometimes carries a
+    # nickname or an extra initial the totals list does not -- so what matters
+    # is how much money falls through, not how many names do.
     if unmatched:
-        print(f"  !! {len(unmatched)} contribution recipients matched no candidate:")
-        for e, c, o in unmatched[:12]:
-            print(f"     {e} {c}: {o[:70]}")
+        lost = sum(x[3] for x in unmatched)
+        print(f"  !! {len(unmatched)} contribution recipients matched no candidate, "
+              f"${lost:,.0f} unattributed ({100*lost/max(grand,1):.2f}% of the total)")
+        for e, c, o, amt in sorted(unmatched, key=lambda x: -x[3])[:10]:
+            print(f"     {e} {c}: {o[:56]:56s} ${amt:,.0f}")
 
 
 if __name__ == "__main__":

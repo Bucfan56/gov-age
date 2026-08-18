@@ -122,7 +122,8 @@ curl -sI "https://api.open.fec.gov/v1/candidates/search/?q=talarico&api_key=YOUR
    The chamber medians are now computed from the data instead of quoted from published
    analyses. **If you touch the roster, read section 7 — those numbers move with it.**
 
-2. **Individual contributions.** `indiv26.zip` is 2.1 GB but contains itemized personal
+2. ~~**Individual contributions.**~~ **Done, 2026-08-18.** See `build_donors.py`.
+   Original note follows. **Individual contributions.** `indiv26.zip` is 2.1 GB but contains itemized personal
    donations with employer and occupation. That would surface the people on this page who
    appear as *donors* rather than candidates — Linda McMahon, Howard Lutnick, Scott
    Bessent. Needs streaming parse, not `read()`.
@@ -130,7 +131,9 @@ curl -sI "https://api.open.fec.gov/v1/candidates/search/?q=talarico&api_key=YOUR
 3. **Leadership PACs.** Separate from principal campaign committees and currently
    invisible. `cm.txt` marks them with `CMTE_DSGN = D`. Worth splitting out.
 
-4. **State-level governor money.** Fifty separate systems. The National Institute on
+4. ~~**State-level governor money.**~~ **Florida done, 2026-08-18.** See
+   `build_state.py` — one adapter per state, all 37 Florida offices. The other
+   49 still need adapters. Original note follows. **State-level governor money.** Fifty separate systems. The National Institute on
    Money in Politics / FollowTheMoney has an API that covers it. This is the biggest
    real coverage gap and probably a project of its own.
 

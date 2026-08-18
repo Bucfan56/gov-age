@@ -1,0 +1,80 @@
+name: Refresh donors and state money
+
+# Deliberately separate from the weekly refresh, and much less frequent.
+#
+# These two pipelines are heavy in ways the weekly job is not. The individual
+# contribution files are the largest the FEC publishes -- about 6 GB of zips
+# per run, well past what is comfortable to cache -- and the state pipeline
+# makes a few hundred requests to a single government server that is not
+# obliged to serve us at all.
+#
+# Neither needs to run weekly. Campaign finance moves on quarterly filing
+# deadlines, and named-donor rankings barely shift between them. Monthly is
+# already generous.
+on:
+  schedule:
+    - cron: "23 7 3 * *"    # the 3rd of each month, 07:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-deep
+  cancel-in-progress: false
+
+jobs:
+  deep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # State money first: it is the cheaper half and does not need the FEC
+      # bulk files, so a failure there is not worth a 6 GB download.
+      - name: Rebuild Florida
+        run: python3 build_state.py --state FL --min-amount 1000 --top 25
+
+      # The candidate-committee linkage is tiny and the individual files are
+      # enormous; build_donors.py streams the latter straight out of the zip.
+      - name: Fetch FEC individual contributions
+        run: |
+          mkdir -p raw
+          for cy in 2026 2024; do
+            yy=${cy:2:2}
+            for stem in ccl indiv; do
+              echo "fetching ${stem}${yy}.zip"
+              curl -sL --retry 2 --max-time 3600 \
+                -A "gov-age-finance/1.0 (public data research)" \
+                -o "raw/${stem}${yy}.zip" \
+                "https://www.fec.gov/files/bulk-downloads/${cy}/${stem}${yy}.zip"
+            done
+          done
+          du -sh raw
+
+      - name: Rebuild named donors
+        run: python3 build_donors.py --cycles 2026,2024 --floor 500 --keep 15
+
+      # The donor pass rewrites finance-detail.json, so the page has to be
+      # re-inlined and the whole set re-checked before any of it is committed.
+      - name: Re-inline and verify
+        run: |
+          python3 inline_data.py
+          python3 verify.py
+
+      - name: Commit if anything moved
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- finance-detail.json state-fl.json index.html; then
+            echo "No change in donors or state money — nothing to commit."
+            exit 0
+          fi
+          git add finance-detail.json state-fl.json index.html
+          git commit -m "Refresh named donors and state money ($(date -u +%Y-%m-%d))"
+          git push

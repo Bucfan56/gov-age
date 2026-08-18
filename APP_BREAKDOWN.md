@@ -56,6 +56,61 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-08-18 — Florida state money, and the whole state pipeline
+
+Governors file with their state, never the FEC. Until now a governor's profile said only
+"no federal filing" — true, and useless. **Ron DeSantis now shows $34.6M**, with a
+month-by-month chart and his largest named contributors.
+
+**Built as a per-state adapter, not a Florida script.** `build_state.py` defines an
+adapter with two methods — `candidates()` and `contributions()` — and Florida is the
+reference implementation. Adding a state means writing an adapter, registering it in
+`ADAPTERS`, and adding one line to `STATE_FILES` in the page. Fifty states run fifty
+systems with no shared format, so this is the only shape that scales.
+
+**Coverage: all 36 offices Florida reports on**, across the 2026 and 2022 elections —
+Governor, Cabinet, US Senate and House, legislature, Supreme Court, appeal and circuit
+judges, State Attorney, Public Defender, and about twenty special districts down to fire
+control and soil-and-water conservation. **1,342 candidates, $221.1M.**
+
+**Three real defects found in building it**, each of which silently produced wrong
+numbers rather than an error:
+
+- **Loans were being counted as donations.** Florida's type `LOA` is borrowed and
+  repayable. One state house candidate loaned his own campaign **$5,000,000**; counted as
+  a contribution it made him his own largest "donor" and pushed his monthly totals to ten
+  times his reported receipts. Loans are now separated and disclosed on their own line;
+  `INT` (bank interest on the campaign account) is excluded too. This is also *why*
+  Florida's own contribution totals disagreed with the sum of its itemised list — the
+  totals exclude loans. The two measures legitimately differ and the checks allow for it.
+- **Compound surnames were dropping candidates' money.** The totals list names people
+  first-last and the contributions list last-first, which works until the surname has two
+  words — "Joey Mendoza Atkins" against "Mendoza Atkins, Joey". Matching now compares the
+  *token set*, so word order cannot break it. Unmatched recipients fell from 55 to 32.
+- **A one-space separator.** Recipients are labelled "Donalds, Byron  (REP)(GOV)" with two
+  spaces — except after a name ending in an initial, "Russo, Frank J. (NPA)(GOV)", which
+  has one. Splitting on the separator silently dropped those candidates entirely. Stripped
+  by shape now.
+
+**What is still unattributed is measured, not hidden.** 32 recipients worth $3,250,342
+(1.47%) cannot be matched to a candidate record, mostly judicial candidates filed under a
+nickname the totals list omits. The figure ships in the data file and `verify.py` warns if
+it ever exceeds 2%.
+
+### 2026-08-18 — A silent data-loss bug in the weekly refresh
+
+`build_donors.py` writes named donors into `finance-detail.json`, but the weekly refresh
+rebuilt that file from scratch — so **every Monday it would have deleted all 542 donor
+lists**, with nothing failing and no error anywhere. The page would simply have stopped
+showing donors. The weekly build now carries them across, and it says how many it carried.
+*Verified by running the weekly rebuild and confirming all 542 survived.*
+
+The two heavy pipelines also moved to their own monthly workflow. The individual
+contribution files are ~6 GB per run and the state pipeline makes a few hundred requests
+to one government server; neither belongs in a weekly job, and neither changes faster than
+quarterly filing deadlines.
+
+
 ### 2026-08-18 — Named individual donors
 
 Every profile now lists the **people** who gave the most, not just the organisations.
