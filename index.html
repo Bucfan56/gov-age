@@ -491,6 +491,12 @@ td.st{white-space:nowrap;width:1%}
 .dnramt{position:relative;font-family:"IBM Plex Mono",monospace;font-size:.86rem;font-weight:600;text-align:right;white-space:nowrap}
 .dnramt small{display:block;font-size:.56rem;font-weight:400;color:var(--ink-faint);letter-spacing:.04em}
 .tlload{font-family:"IBM Plex Mono",monospace;font-size:.62rem;color:var(--ink-faint);padding:10px 0}
+/* anything that names a person and opens their profile */
+.openable{cursor:pointer;transition:background .12s,color .12s}
+.openable:hover,.openable:focus-visible{background:var(--over-soft);outline:none}
+li.openable:hover b,li.openable:focus-visible b{color:var(--over)}
+.swap .cand.openable:hover,.swap .out .n.openable:hover{color:var(--over)}
+.eracard.openable:hover .yr{color:var(--over)}
 
 @media (max-width:820px){
   body{font-size:16px}
@@ -2689,6 +2695,103 @@ function openMoney(p){
   }
 }
 window.openMoney = openMoney;
+
+/* ---------------- one profile, reachable from anywhere ----------------
+   The money drawer started life as something only the finder table could open.
+   Every other place the page names a person -- the oldest/youngest lists, the
+   turnover ledger, the birth-year cards -- was a dead end, which meant the same
+   name was clickable in one section and inert three sections down.
+
+   These helpers make any element that names someone open their profile, with
+   the same affordance and the same keyboard behaviour everywhere. */
+var PERSON_INDEX = null;
+function nameTokens(s){
+  return String(s || "").toUpperCase().replace(/[^A-Z0-9]+/g, " ").trim().split(" ").filter(Boolean);
+}
+
+/* MATCHING A NAME TO A PERSON IS THE DANGEROUS PART OF THIS.
+   An earlier version fell back to the surname when the full name did not
+   match, which linked "Charles Booker" (a Kentucky candidate) to Cory Booker
+   of New Jersey, and "Scott Brown" of New Hampshire to Shontel Brown of Ohio.
+   Opening the wrong person's money under someone's name is worse than not
+   linking at all, so the rule is strict: either every token matches, or the
+   shorter name is contained in the longer AND the first and last names agree.
+   That still catches "Cory Booker" -> "Cory A. Booker" while refusing both of
+   the collisions above. Anything ambiguous stays plain text. */
+function personByName(name){
+  if(!PERSON_INDEX){
+    PERSON_INDEX = PEOPLE.map(function(p){ return {p: p, t: nameTokens(p.n)}; });
+  }
+  var want = nameTokens(name);
+  if(want.length < 2) return null;
+  var first = want[0], last = want[want.length - 1];
+  var hits = PERSON_INDEX.filter(function(e){
+    var t = e.t;
+    if(t.length < 2) return false;
+    if(t[0] !== first || t[t.length - 1] !== last) return false;
+    var shorter = want.length <= t.length ? want : t;
+    var longer  = want.length <= t.length ? t : want;
+    return shorter.every(function(tok){ return longer.indexOf(tok) > -1; });
+  });
+  /* Two people who match equally well is not a match. */
+  return hits.length === 1 ? hits[0].p : null;
+}
+
+function makeOpenable(el, p){
+  if(!el || !p || el.__openable) return;
+  el.__openable = true;
+  el.classList.add("openable");
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+  el.setAttribute("aria-label", "Money profile for " + p.n);
+  var go = function(e){
+    if(e) e.stopPropagation();
+    openMoney(p);
+  };
+  el.addEventListener("click", go);
+  el.addEventListener("keydown", function(e){
+    if(e.key === "Enter" || e.key === " "){ e.preventDefault(); go(e); }
+  });
+}
+
+/* Wire up every section that names people. Called after the page has rendered,
+   and again whenever a section redraws. */
+function bindOpenablePeople(){
+  /* oldest / youngest lists */
+  Array.prototype.forEach.call(document.querySelectorAll("[data-extreme] li"), function(li){
+    var b = li.querySelector("b");
+    makeOpenable(li, personByName(b && b.textContent));
+  });
+
+  /* turnover ledger: the departing incumbent, and any candidate the page
+     already tracks. Most challengers are not in the roster, so they stay
+     plain rather than pretending to be clickable. */
+  Array.prototype.forEach.call(document.querySelectorAll(".swap .out .n"), function(n){
+    makeOpenable(n, personByName(n.textContent));
+  });
+  Array.prototype.forEach.call(document.querySelectorAll(".swap .cand"), function(c){
+    var em = c.querySelector("em");
+    var nm = c.textContent.replace(em ? em.textContent : "", "")
+              .replace(/\d+$/, "").trim();
+    makeOpenable(c, personByName(nm));
+  });
+
+  /* birth-year cards name the oldest member of Congress */
+  var oldNote = document.getElementById("eraOldNote");
+  if(oldNote){
+    var cong = PEOPLE.filter(isVoting).sort(function(a,b){ return b.age - a.age; })[0];
+    if(cong) makeOpenable(oldNote.parentElement, cong);
+  }
+
+  /* the Supreme Court and cabinet callouts name a single person each */
+  ["scotusMaxName", "scotusMinName"].forEach(function(id){
+    var el = document.getElementById(id);
+    makeOpenable(el, personByName(el && el.textContent));
+  });
+}
+
+bindOpenablePeople();
+
 
 /* ---------------- generation analysis ---------------- */
 (function(){

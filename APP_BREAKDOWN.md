@@ -56,6 +56,40 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-08-18 — A profile opens from anywhere, and a lookup tool
+
+**Every place the page names a person now opens their full profile.** It used to work
+only in the Age finder table and on the beeswarm dots; the oldest/youngest lists, the
+turnover ledger, the birth-year cards and the Supreme Court callouts were dead ends, so
+the same name was clickable in one section and inert three sections down. 33 elements
+across four sections are now openable, with a consistent hover state, keyboard access and
+an aria-label.
+
+**One thing this nearly got badly wrong.** The first version fell back to matching on
+surname when the full name did not match. That linked *Charles Booker*, a Kentucky Senate
+candidate, to **Cory Booker of New Jersey**, and *Scott Brown* of New Hampshire to
+**Shontel Brown of Ohio** — opening the wrong person's money under someone else's name,
+silently and plausibly. Matching now requires the first *and* last name to agree, allows a
+shorter name inside a longer one so "Cory Booker" still reaches "Cory A. Booker", and
+refuses any name that matches two people. Anything ambiguous stays plain text, because not
+linking is far better than linking to the wrong person. `verify.py` fails if either rule is
+weakened; both were negative-tested.
+
+**Added `lookup.py`** — a deep drill-down on any candidate, run against the bulk files
+already on disk, with no API key and no rate limit:
+
+```bash
+python3 lookup.py --name gleason
+python3 lookup.py --id S6FL00848 --min 1000
+```
+
+It prints the per-cycle summary, every itemised committee cheque with the donor
+committee's type and connected organisation, every itemised individual contribution with
+employer and occupation, the largest single gifts, and a month-by-month histogram. It
+states which cycles are actually cached rather than reporting missing files as an absence
+of money.
+
+
 ### 2026-08-18 — Florida state money, and the whole state pipeline
 
 Governors file with their state, never the FEC. Until now a governor's profile said only

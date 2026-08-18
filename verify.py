@@ -196,6 +196,17 @@ check("finance-detail.json" in html, "page never fetches the month-by-month deta
 check("renderTimeline" in html, "page is missing the money-over-time view")
 check("renderDonors" in html, "page is missing the named-donor view")
 check("renderStateMoney" in html, "page is missing the state-money view")
+check("bindOpenablePeople" in html, "page is missing the click-anywhere profile wiring")
+# Matching a display name to a person is the dangerous part. A surname-only
+# fallback once linked "Charles Booker" (Kentucky candidate) to Cory Booker of
+# New Jersey and "Scott Brown" of New Hampshire to Shontel Brown of Ohio --
+# opening the wrong person's money under someone else's name. Matching now
+# requires first AND last to agree and refuses ambiguous hits.
+check("hits.length === 1 ? hits[0].p : null" in html,
+      "name matching no longer refuses ambiguous hits; it can open the wrong "
+      "person's money profile")
+check("t[0] !== first || t[t.length - 1] !== last" in html,
+      "name matching no longer requires both first and last name to agree")
 
 # ---------- state-level money ----------
 # Governors file with their state, never the FEC, so without this they show only
