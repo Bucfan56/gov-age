@@ -214,6 +214,31 @@ for needle, why in [
 
 # Every congressional entry needs a state, or the representation picker cannot
 # place them; House members outside the delegations need a district too.
+# ---------- the findings deck ----------
+# A deck shown in a room has a failure mode a web page does not: content that is
+# cut off, or a chart that renders empty because an animation never fired.
+check(os.path.exists("presentation.html"), "missing file: presentation.html")
+if os.path.exists("presentation.html"):
+    deck = open("presentation.html", encoding="utf-8").read()
+    check(deck.count("<script") == deck.count("</script>"),
+          "presentation.html has unbalanced script tags")
+    n_slides = deck.count('class="slide"')
+    check(6 <= n_slides <= 12, f"deck has {n_slides} slides, expected 6-12")
+    # Bars must carry their real width in the markup, so a viewer whose browser
+    # never fires the observer still sees the chart rather than empty tracks.
+    baked = len(re.findall(r'data-w="\d+" style="width:\d+%"', deck))
+    check(baked >= 8,
+          f"only {baked} deck bars carry a baked-in width; an animation failure "
+          "would render them empty")
+    check("fitSlides" in deck, "deck lost its measure-and-scale viewport fit")
+    for needle, why in [("prevBtn", "previous control"), ("nextBtn", "next control"),
+                        ("fsBtn", "full-screen toggle"), ("ArrowRight", "keyboard nav")]:
+        check(needle in deck, f"deck is missing its {why}")
+    # Figures the deck states must match what the data actually says.
+    for claim in ["2.1", "0.35", "42%", "21%", "70.5", "53.4"]:
+        check(claim in deck, f"deck no longer states the figure {claim}")
+check("presentation.html" in html, "the page does not link to the deck")
+
 _st = len(re.findall(r'st:"[A-Z]{2}"', block))
 check(_st >= 530, f"only {_st} congressional entries carry a state code, expected 530+")
 _di = len(re.findall(r'di:"\d+"', block))

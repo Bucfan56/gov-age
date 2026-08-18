@@ -56,6 +56,46 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-08-18 — The findings deck
+
+**presentation.html** — *The Aging Government and What That Means for the Next Generation*,
+nine slides, linked from the page. This was the original point of the whole project and had
+never been built.
+
+Every figure was read off the **live page** immediately before writing rather than from the
+notes. The age/PAC correlation had already drifted from 0.36 to 0.35 since the morning's
+rebuild, which is exactly why the board said to re-read before quoting.
+
+**The deck leads on the correction instead of burying it.** Slide six sets the original
+48-person sample against all 531 seated members: 5.9× becomes 2.1×, r = 0.64 becomes 0.35.
+The direction held; the magnitude was an artifact of who was picked. A finding that survived
+being checked and came out smaller is worth more than one never re-measured, and the deck
+says so out loud.
+
+**The fragility it exposed matters more than the deck.** Bars were drawn by an
+IntersectionObserver. That observer does not fire in a non-compositing context — a
+background tab, some remote-display setups — and when it does not fire, every chart renders
+as five empty tracks, with no error anywhere. That is a silent failure in front of a room.
+Real widths are baked into the markup now, so **the correct state requires no JavaScript at
+all**; the animation zeroes them and replays as decoration on top, with a three-second
+timeout that cannot leave a bar at zero. Card fade-ins got the same treatment.
+
+**Viewport fit took three attempts, and the first two were both wrong.** Capping the inner
+height made flexbox shrink the box below its own content — reporting a 20px overflow while
+the slide still had 200px free. Removing the cap let the slide clip instead. It measures and
+scales now: nothing is cut off on any screen, and on a roomy one the scale is exactly 1 and
+nothing is touched.
+
+*Verified with content-only measurement at 1920×1080, 1366×768 and 1280×620 — nothing
+clipped, and no scaling needed at any of them.* An earlier "clipped" reading turned out to be
+the decorative glow blobs, which sit at `bottom:-140px` and are clipped by `overflow:hidden`;
+the overflow figures matched those offsets exactly.
+
+Controls per the house standard: full-screen toggle, on-screen previous/next, arrow keys,
+space, PageUp/PageDown, Home/End and <kbd>F</kbd>. Reduced-motion viewers get the final state
+with no animation.
+
+
 ### 2026-08-18 — Leadership PACs, and a disclosure gap worth naming
 
 A leadership PAC is a member's second pot of money. It takes its own contributions and
