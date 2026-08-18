@@ -1,0 +1,17 @@
+# FEC bulk download cache — ~600 MB, rebuildable, never commit
+raw/
+
+# local backups taken before edits
+*.bak
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editors / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
