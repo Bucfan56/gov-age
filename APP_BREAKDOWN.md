@@ -56,6 +56,43 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-08-18 — Leadership PACs, and a disclosure gap worth naming
+
+A leadership PAC is a member's second pot of money. It takes its own contributions and
+spends them on other people's races, and it is how seniority turns into influence. The
+page had never shown one — the "what this does not show" note simply listed it as missing.
+
+It does now, for everyone it can be proven for.
+
+**The finding is the limitation.** Of **1,386** leadership PACs in the cached FEC data,
+only **43 — about 3% — record which candidate they belong to.** The other 97% name nobody.
+So leadership PACs cannot be attributed to members from bulk data at all, except for that
+3%. Matching PAC names to member names would close the gap on paper and would be guessing;
+that is exactly the class of inference that linked Charles Booker to Cory Booker earlier
+today, and it is not worth repeating for a nicer-looking section.
+
+So the section shows the 14 tracked people whose PAC identifies them, and states the
+disclosure rate on every profile — because a blank section otherwise reads as *this person
+has no leadership PAC*, which is a completely different claim from *no PAC says it is
+theirs*. The "what this does not show" note was rewritten to match, since it had been
+lumping leadership PACs in with state money, and state money is no longer missing.
+
+**Two bugs found while building it:**
+
+- **A leadership PAC funding its own sponsor.** Roger Marshall's PAC sent $13,600 to
+  Marshall's own Senate committee, which ranked among his gifts to other candidates. Same
+  trap as the Warren transfer earlier: money moving between pots one person controls is not
+  a gift to anybody. His real figure is **$554k**, not $570k. `verify.py` now fails on it.
+- **A raw FEC id printed as a person's name.** One recipient is in no cached summary file,
+  so the builder fell back to the id and the page rendered "S4NE00173" as though it were
+  someone's name. It now says the committee is not named in the data held.
+
+**The disclosure rate was also being computed wrongly on the first pass** — it divided the
+count of PACs naming a *tracked* sponsor by the total, which understated how much the FEC
+discloses and overstated our own coverage. It compares like with like now: PACs naming any
+candidate, against all of them.
+
+
 ### 2026-08-18 — Five borrowings from a competitor review
 
 Reviewed iVoterGuide (a division of AFA Action) and took the structure, not the stance.

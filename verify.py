@@ -203,6 +203,8 @@ for needle, why in [
     ("addSectionNav",     "jump nav inside the profile"),
     ("notprovided",       "explicit 'nothing on file' states"),
     ("renderGiving",      "money-given-to-others view"),
+    ("renderLeadPac",     "leadership PAC view"),
+    ("candLabel",         "guard against printing a bare FEC id as a person's name"),
     ("Races they have run", "candidacy history instead of bare FEC ids"),
     ('id="coverage"',     "coverage panel"),
     ('id="repState"',     "who-represents-me state picker"),
@@ -232,6 +234,23 @@ if os.path.exists("finance-detail.json"):
             amts = [g["amt"] for g in rec["gave"]]
             check(amts == sorted(amts, reverse=True),
                   f"{name}: outbound giving is not sorted largest first")
+        # A leadership PAC funding its own sponsor's campaign is not giving to
+        # anyone else. Marshall's PAC sent $13,600 to Marshall's Senate committee
+        # and it ranked among his gifts to other candidates.
+        for g in rec.get("leadGave", []):
+            check(g["id"] not in roster.get(name, []),
+                  f"{name}: leadership PAC giving includes their own candidate id "
+                  f"{g['id']} — that is a transfer, not a gift")
+
+_lp = det.get("leadershipPacs") if os.path.exists("finance-detail.json") else None
+if _lp:
+    check(_lp.get("seen", 0) > 500,
+          f"only {_lp.get('seen')} leadership PACs seen, expected hundreds")
+    # The disclosure rate must compare committees that name ANY candidate against
+    # all of them. Comparing our tracked subset instead would misreport it.
+    check(_lp.get("named", 0) >= _lp.get("linked", 0),
+          "leadership PAC coverage numbers are inconsistent: fewer name any "
+          "candidate than name a tracked one")
 # Matching a display name to a person is the dangerous part. A surname-only
 # fallback once linked "Charles Booker" (Kentucky candidate) to Cory Booker of
 # New Jersey and "Scott Brown" of New Hampshire to Shontel Brown of Ohio --

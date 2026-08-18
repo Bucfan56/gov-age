@@ -161,6 +161,7 @@ def build(roster_path, out_path, force=False):
 
     # ---------- 2. committee master ----------
     cm = {}
+    lead, lead_names, lead_seen, lead_any = {}, {}, set(), set()
     print("committee master:")
     for cy in DETAIL_CYCLES:
         path = fetch(cy, "cm", force=force)
@@ -173,6 +174,24 @@ def build(roster_path, out_path, force=False):
                 continue
             cm[p[0]] = {"nm": p[1].strip(), "tp": p[9].strip(),
                         "org": p[12].strip(), "conn": p[13].strip()}
+            # Leadership PACs -- designation D. A separate pot from the campaign:
+            # it takes its own contributions and spends them on other people's
+            # races, which is how seniority turns into influence. Never shown here
+            # before.
+            #
+            # THE CATCH, AND IT IS A BIG ONE: only about 3% of leadership PACs
+            # fill in the candidate id saying whose PAC it is. The other 97% name
+            # nobody in the bulk data. So only the ones that identify their
+            # sponsor can ever appear, and the page must say so -- otherwise an
+            # empty section reads as "they do not have one".
+            if len(p) > 14 and p[8].strip() == "D":
+                lead_seen.add(p[0])
+                if p[14].strip():
+                    lead_any.add(p[0])
+                lo = owner.get(p[14].strip())
+                if lo:
+                    lead[p[0]] = lo
+                    lead_names.setdefault(lo, set()).add(p[1].strip())
             n += 1
         print(f"  {cy}: {n}")
 
@@ -183,6 +202,8 @@ def build(roster_path, out_path, force=False):
     outside = defaultdict(lambda: defaultdict(float))          # person -> cmte -> $
     months  = defaultdict(lambda: defaultdict(float))          # person -> YYYY-MM -> $
     outmon  = defaultdict(lambda: defaultdict(float))          # person -> YYYY-MM -> $
+    ldgave  = defaultdict(lambda: defaultdict(float))          # leadership PAC -> recipient -> $
+    ldgaven = defaultdict(lambda: defaultdict(int))
     gave    = defaultdict(lambda: defaultdict(float))          # person -> recipient cand -> $
     gaven   = defaultdict(lambda: defaultdict(int))            # person -> recipient cand -> count
 
@@ -204,6 +225,26 @@ def build(roster_path, out_path, force=False):
             p = line.rstrip("\n").split("|")
             if len(p) < 22:
                 continue
+            # Their leadership PAC writing a cheque. Deliberately kept apart
+            # from the campaign committee: different pot, different rules,
+            # different question.
+            lgiver = lead.get(p[0].strip())
+            if lgiver and p[5].strip() in ("24K", "24Z"):
+                lto = p[16].strip()
+                # Marshall's leadership PAC sent $13,600 to Marshall's own Senate
+                # campaign. Same trap as the committee transfers: money moving
+                # between pots one person controls is not a gift to anybody.
+                if (lto and lto not in roster.get(lgiver, [])
+                        and all_names.get(lto, "").upper()
+                            not in own_names.get(lgiver, set())):
+                    try:
+                        lamt = float(p[14] or 0)
+                    except ValueError:
+                        lamt = 0.0
+                    if lamt:
+                        ldgave[lgiver][lto] += lamt
+                        ldgaven[lgiver][lto] += 1
+
             # The giving side: our person's own committee writing the cheque.
             giver = mine.get(p[0].strip())
             if giver:
@@ -335,6 +376,21 @@ def build(roster_path, out_path, force=False):
                        for cid, v in rows]
         rec["gaveTotal"] = round(sum(gave[name].values()))
         rec["gaveCount"] = len(gave[name])
+
+    for name in people:
+        rows = sorted(ldgave[name].items(), key=lambda kv: -kv[1])[:15]
+        if not rows and name not in lead_names:
+            continue
+        rec = detail["people"].setdefault(name, {})
+        rec["leadPacs"] = sorted(lead_names.get(name, []))
+        rec["leadGave"] = [{"id": cid, "n": all_names.get(cid, cid),
+                            "amt": round(v), "gifts": ldgaven[name][cid]}
+                           for cid, v in rows]
+        rec["leadTotal"] = round(sum(ldgave[name].values()))
+    detail["leadershipPacs"] = {"linked": len(lead), "seen": len(lead_seen),
+                                "named": len(lead_any), "people": len(lead_names)}
+    print(f"leadership PACs: {len(lead_seen)} seen, {len(lead_any)} name any "
+          f"candidate, {len(lead)} name a tracked sponsor ({len(lead_names)} people)")
 
     carried = 0
     for name, old_rec in prior_people.items():
