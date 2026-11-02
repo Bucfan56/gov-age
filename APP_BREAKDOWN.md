@@ -25,6 +25,8 @@ key. The page opens in a browser as a file, or serves as static hosting.
 | `roster_overrides.json` | Hand curation that survives a rebuild, keyed by bioguide ID. |
 | `build_finance.py` | Rebuilds `finance.json` from FEC bulk downloads. |
 | `inline_data.py` | Re-inlines `finance.json` into `index.html`. |
+| `build_ballot.py` | Renders a local ballot report (`ballot-<zip>.json` → `.html`). |
+| `ballot-34221.html` | Palmetto, FL 34221 ballot report for the Nov 3, 2026 general election. |
 | `verify.py` | Smoke test. Gates the CI commit. |
 | `.github/workflows/refresh.yml` | Weekly rebuild → verify → commit. |
 
@@ -55,6 +57,53 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 ---
 
 ## Changelog
+
+### 2026-11-02 — A full ballot report for one zip code (Palmetto, FL 34221)
+
+**Live:** https://bucfan56.github.io/gov-age/ballot-34221.html, linked from "Who represents me".
+
+Every race on the official Manatee County sample ballot that a 34221 voter can see, in
+ballot order: U.S. Senate, U.S. House 16, Governor/Lt. Governor (8 tickets), Attorney
+General, CFO, Agriculture, State Senate 20, State House 70/71, five judicial retentions,
+County Commission 6/1/2, School Board 2, Mosquito Control, Palmetto Ward 2, three state
+amendments, the county land bond and the Palmetto charter question. 40 candidate cards.
+
+**Money, pulled fresh on Nov 2:** federal from FEC bulk files + 24/48-hour
+independent-expenditure reports; state from the Florida Division of Elections (candidate
+accounts AND the candidate-controlled political committees, where the large money is —
+Friends of Byron Donalds PAC $155.8M, $15M of it from one donor); county/city from the
+Supervisor of Elections' VoterFocus export. Per candidate: share from Manatee, from
+Florida, from out of state, from businesses/PACs, building/land-tagged donors, largest
+givers, outside spending for/against, and **several companies giving from one address**
+(e.g. 12 Schroeder-Manatee Ranch / Lakewood Ranch entities giving a school board candidate
+$14k — limits apply per entity, so this multiplies the limit).
+
+**Record, cases, foreign ties, endorsements** from four parallel research passes, every
+item linked and labelled allegation / established / dismissed / fact-checked. Newspaper
+editorials are split out as opinion. **Owner-designated sources** (Owen Shroyer, Alex
+Jones, Stew Peters — Tyler's choice) were searched for every candidate and appear in a
+separate amber box, reported as they say it and not checked against records. They had
+items on two candidates (Donalds, Uthmeier); nothing on the other 38.
+
+**No recommendation.** Per the framing rule the report shows who paid and what the record
+says, and tells the reader so in a box at the top.
+
+**Traps found while building — each produced wrong numbers silently:**
+1. Florida's contrib.exe **caps at 32,000 rows and overflows above ~32,767** (returns an
+   HTML error page as if it were data). The two governor campaign accounts lost ~$2.6M and
+   ~$3.9M of small gifts. Fixed by slicing by dollar band; now within 1% of the state's
+   official totals (Jolly: three bands still hit the cap, ~$72k / 0.5% short).
+2. **Compound surname** again: "Mendoza Atkins" queried as "Atkins" returned nothing — the
+   Agriculture nominee showed no donors. Queried by full surname.
+3. FEC **itemized donor detail lags** — processed only through ~July 2026 while totals run
+   to Oct 14. Stated on every federal card.
+4. The Hope Florida grand-jury report was labelled "established" by one research pass;
+   the 1st DCA ordered it expunged on Oct 7, 2026 and no one was charged. Corrected to
+   allegation with that status on both affected candidates.
+
+**Not verified:** the exact State House 70/71 line inside 34221 (sampled at ~8 points);
+commission-district shares come from county GIS address points. Readers are sent to
+their personal sample ballot to confirm.
 
 ### 2026-08-18 — The findings deck
 
