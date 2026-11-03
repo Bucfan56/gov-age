@@ -2,8 +2,8 @@
  "sites": [
   "stewpeters.com",
   "rumble.com/c/StewPeters",
-  "rumble.com/TheAlexJonesShowLive",
-  "rumble.com/Owen",
+  "rumble.com/c/TheAlexJonesShowLive",
+  "rumble.com/c/Owen",
   "ryandawson.org",
   "rumble.com/c/RyanDawson",
   "rumble.com/c/RealCandaceO",
@@ -610,6 +610,13 @@
     "says": "",
     "date": "2026-01-09",
     "url": "https://x.com/TuckerCarlson/status/2009686610133319736"
+   },
+   {
+    "source": "Owen Shroyer (Rumble)",
+    "title": "Melania Trump Asks For Congressional Hearings With Epstein Victims In Attempt To Clear Her Name",
+    "says": "Owen Shroyer video on Rumble. Fine is named in the video's tags, not its title.",
+    "date": "2026-04-09",
+    "url": "https://rumble.com/v78abaq-melania-trump-asks-for-congressional-hearings-with-epstein-victims-in-attem.html"
    }
   ],
   "James Uthmeier": [
@@ -1014,19 +1021,19 @@
    "All 3,796 videos on the channel (Feb 2022 to Oct 31, 2026): titles and tags matched to every name"
   ],
   [
-   "rumble.com/TheAlexJonesShowLive",
-   "partial",
-   "Rumble search for every name, plus the channel's latest 100 videos"
+   "rumble.com/c/TheAlexJonesShowLive",
+   "full",
+   "All 826 videos on the channel (2026-05 to 2026-11-03): titles and tags matched to every name, plus a Rumble search for every name"
   ],
   [
-   "rumble.com/Owen",
-   "partial",
-   "Rumble search for every name"
+   "rumble.com/c/Owen",
+   "full",
+   "All 417 videos on the channel (2023-01 to 2026-11-02): titles and tags matched to every name, plus a Rumble search for every name"
   ],
   [
    "alexjoneslive.com",
    "blocked",
-   "The site blocks automated searches. Use the one-tap 'search this source' links on each profile"
+   "The site blocks automated reading for everyone. Alex Jones is covered through his full Rumble channel and @RealAlexJones on X"
   ],
   [
    "ryandawson.org",

@@ -62,6 +62,15 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-03 (late): no buttons, everything searched ahead of time
+
+Tyler's ask (Kosmos chat, seq 408): no one-tap search buttons. Everything should already be searched, so his mom just opens the page and reads.
+
+- **Search buttons removed.** The 🔎 "Check your sources yourself" panel is gone from every profile. What the sources say is already on the card, or the card says they were searched and had nothing.
+- **Rumble, full reads.** Every video on Owen Shroyer's channel (417, Jan 2023 to Nov 2) and The Alex Jones Show Live (826, May 2026 to today) was matched to all 437 names. Before, these had only a name search. New: Randy Fine, named in the tags of an Owen Shroyer video (Apr 9).
+- **Clean quotes.** Curly quotes that earlier reads had turned into "�" are fixed in every source title.
+- **alexjoneslive.com** still blocks automated reading for everyone, so Alex Jones is covered through his full Rumble channel and @RealAlexJones on X.
+
 ### 2026-11-03 (evening): 18 more sources, and the Donalds "investors" video
 
 Tyler's asks (Kosmos chat, seq 405): use the video he sent; add X in general and 13 X accounts, ryandawson.org, and 4 Rumble channels to his sources and work them in.
