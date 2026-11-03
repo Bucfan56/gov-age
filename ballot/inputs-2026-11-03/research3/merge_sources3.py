@@ -54,6 +54,14 @@ aj = json.loads((SP / "aj_hits.json").read_text(encoding="utf-8"))
 for n, v in aj["hits"].items():
     add(n, [{"source": "Alex Jones Live (alexjoneslive.com)", "title": html.unescape(x["title"]), "says": html.unescape(x["desc"]),
              "date": x["date"], "url": x["url"]} for x in v], None)
+# the full text of every article, read through the site's public WordPress feed; Curtis Gibson's hit was a Kansas namesake
+ajt = json.loads((SP / "aj_text_hits.json").read_text(encoding="utf-8"))
+for n, v in ajt["hits"].items():
+    if n in ("Curtis Gibson",):
+        continue
+    add(n, [{"source": "Alex Jones Live (alexjoneslive.com)", "title": x["title"], "says": x["desc"], "date": x["date"], "url": x["url"]} for x in v], None)
+aj["status"] = "full"
+aj["text"] = f"All {ajt['posts']:,} articles ({ajt['range'][0]} to {ajt['range'][1]}): the full text of every article searched for every candidate name, through the site's public article feed"
 for v in sw["hits"].values():
     for x in v:
         if x["url"] in RETRACTED:

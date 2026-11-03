@@ -314,6 +314,19 @@ details.today .vote .vh{display:none}
 .rtop .sc{font-size:13px;font-weight:800;min-width:24px;text-align:right}
 .rtop .tag{font-size:11px}
 .chev{flex:none;color:var(--sub);font-size:20px;line-height:1}
+.rs .mypk{color:var(--good);font-weight:800}
+.pickbar{margin:14px 0 4px;background:var(--card);border:2px solid var(--good);border-radius:16px;padding:12px;box-shadow:var(--shadow)}
+.pickbar h4,.mcard .pkh{margin:0 0 8px;font-size:14px;font-weight:800}
+.pks{display:flex;flex-wrap:wrap;gap:8px}
+.pk{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:10px 14px;font-size:15px;font-weight:800;cursor:pointer}
+.pk[aria-pressed=true]{background:var(--good);border-color:var(--good);color:#fff}
+.mine{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:4px 14px;box-shadow:var(--shadow)}
+.mine .mrow{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line);cursor:pointer}
+.mine .mrow:last-child{border-bottom:0}
+.mine .mq{flex:1;min-width:0;font-size:13.5px;color:var(--sub);font-weight:700;line-height:1.3}
+.mine .ma{font-size:18px;font-weight:800;text-align:right;max-width:55%}
+.mine .ma.none{color:var(--amber);font-size:14px}
+@media print{.navbar{display:none!important}}
 .navbar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;justify-content:space-around;background:var(--card);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom));box-shadow:0 -6px 20px rgba(0,0,0,.08)}
 .navbar button{flex:1;border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11px;font-weight:700;color:var(--sub);padding:4px 0;cursor:pointer}
 .navbar button b{font-size:20px;line-height:1.1}
@@ -338,7 +351,7 @@ details.today .vote .vh{display:none}
 </head>
 <body>
 <div class="wrap" id="app"></div>
-<nav class="navbar" aria-label="Main"><button data-go="" data-nav="home"><b>🗳️</b>Ballot</button><button data-sheet="today" data-nav="today"><b>⏰</b>Vote today</button><button data-sheet="how" data-nav="how"><b>📊</b>How it works</button><button data-sheet="src" data-nav="src"><b>📣</b>Sources</button></nav>
+<nav class="navbar" aria-label="Main"><button data-go="" data-nav="home"><b>🗳️</b>Ballot</button><button data-go="mine" data-nav="mine"><b>📝</b>My ballot</button><button data-sheet="today" data-nav="today"><b>⏰</b>Vote today</button><button data-sheet="how" data-nav="how"><b>📊</b>How it works</button><button data-sheet="src" data-nav="src"><b>📣</b>Sources</button></nav>
 <div class="sheet" id="sheet" aria-hidden="true"><div class="sc" data-close></div><div class="pn" role="dialog" aria-modal="true" aria-labelledby="shT"><div class="ph"><h2 id="shT"></h2><button class="x" data-close aria-label="Close">✕</button></div><div id="shB"></div></div></div>
 <script>
 const D = __DATA__;
@@ -360,6 +373,21 @@ function firstSentence(s, max = 170) {
   return out.length < s.length && !/[.;]$/.test(out) ? out.replace(/\s+\S*$/, "") + "…" : out;
 }
 const raceById = id => ALL.find(r => r.id === id);
+// My ballot: the voter's own picks, kept on this phone only
+let PICKS = {};
+try { PICKS = JSON.parse(localStorage.getItem("ballot-picks") || "{}") || {}; } catch (e) {}
+function setPick(k, v) {
+  if (PICKS[k] === v) delete PICKS[k]; else PICKS[k] = v;
+  try { localStorage.setItem("ballot-picks", JSON.stringify(PICKS)); } catch (e) {}
+}
+const pickBtns = (k, opts) => `<div class="pks">${opts.map(o => `<button class="pk" data-pick="${esc(k)}" data-val="${esc(o)}" aria-pressed="${PICKS[k] === o}">${PICKS[k] === o ? "✓ " : ""}${esc(o)}</button>`).join("")}</div>`;
+// each line on the paper ballot: [pick key, question, choices]
+function lines(r) {
+  if (r.kind === "race") return [[r.id, r.title, r.cands.map(c => c.name)]];
+  if (r.kind === "judges") return r.judges.map((j, i) => [r.id + "|" + i, `Keep ${j.name}?`, ["Yes", "No"]]);
+  const nm = (r.m && r.m.name) || r.sub || "";
+  return [[r.id, r.short + ": " + (nm.split(" - ").slice(1).join(" - ") || nm), ["Yes", "No"]]];
+}
 const partyName = p => esc(String(p || "").replace(/^REP$/, "Republican").replace(/^DEM$/, "Democrat").replace(/^NPA$/, "No party").replace(/^NP$/, "Nonpartisan").replace(/^NP \(/, "Nonpartisan ("));
 const flags = c => (c.controversies || []).filter(x => x.status !== "dismissed" && x.status !== "resolved");
 const srcHits = c => (c.owner_sources || []).length;
@@ -634,7 +662,8 @@ function raceRow(r, n) {
     top = `<span class="ava ${b}"${c.photo ? ` style="background-image:url('${esc(CROP(c))}')"` : ""}>${c.photo ? "" : esc(initials(c.name))}</span><span class="sc">${c.score.overall ?? "—"}</span>`;
   } else top = `<span class="tag">${r.kind === "judges" ? "Keep / remove" : "Yes / no"}</span>`;
   const maybe = applies(r, ctx) === null;
-  const lead = r.kind === "race" && r.cands[0].score.overall != null ? `Top rated: ${esc(r.cands[0].name.split(" ").slice(-1)[0])} · ` : "";
+  const ls = lines(r), got = ls.filter(l => PICKS[l[0]]);
+  const lead = got.length ? `<span class="mypk">✓ ${ls.length === 1 ? esc(PICKS[ls[0][0]]) : got.length + " of " + ls.length + " picked"}</span> · ` : r.kind === "race" && r.cands[0].score.overall != null ? `Top rated: ${esc(r.cands[0].name.split(" ").slice(-1)[0])} · ` : "";
   return `<button class="rrow" data-go="${r.id}"><span class="rnum">${n}</span><span class="rmain"><span class="rt">${esc(r.short)}</span><span class="rs">${lead}${esc(r.sub)}${maybe ? ` · <span class="chk">check your address</span>` : ""}</span></span><span class="rtop">${top}</span><span class="chev">›</span></button>`;
 }
 function tiles(rs, start) {
@@ -658,7 +687,8 @@ function home() {
     h = `<header class="appbar"><div class="ab-l">🗳️ Your ballot</div><button class="loc" data-change aria-label="Change address">📍 ${esc(where)} ✎</button></header>
       ${ctx.how === "zip" ? `<div class="panel" style="margin-top:0">ZIP ${esc(ctx.zip)} gives approximate districts. <button class="btn ghost" style="padding:6px 10px" data-change>Add your street</button></div>` : ""}
       ${todayStrip()}
-      <p class="count">${list.length} races and questions on your ballot · tap one to see the candidates</p>`;
+      <p class="count">${list.length} races and questions on your ballot · tap one to see the candidates</p>
+      <div class="rlist" style="margin-bottom:6px"><button class="rrow" data-go="mine"><span class="rnum">📝</span><span class="rmain"><span class="rt">My ballot</span><span class="rs">${(() => { const L = list.flatMap(lines), d = L.filter(l => PICKS[l[0]]).length; return d ? d + " of " + L.length + " picked · your list for the voting booth" : "Pick in each race, then see all your choices here in ballot order"; })()}</span></span><span class="chev">›</span></button></div>`;
     let n = 0;
     for (const g of D.groups) {
       const rs = list.filter(r => r.group === g.id);
@@ -696,14 +726,14 @@ function racePage(r) {
   let h = `<div class="bar"><button class="backbtn" data-go="" aria-label="All races">←</button><div class="bt"><h1>${esc(r.kind === "measure" ? r.short + ": " + r.sub : r.title)}</h1>${pos >= 0 ? `<span>${pos + 1} of ${list.length} on your ballot</span>` : ""}</div></div>`;
   const scope = applies(r, ctx) === null ? `<span class="tag addr">Only some addresses${r.scope_note ? ": " + esc(r.scope_note) : ""}</span><br>` : "";
   if (r.kind === "race") {
-    h += `<p class="lead">${scope}${esc(r.note || "")} Ranked by score. Tap a card to flip it.</p><div class="cards">${r.cands.map((c, i) => card(r, c, i)).join("")}</div>${r.cands.length > 1 ? `<div class="cdots">${r.cands.map((c, i) => `<i${i ? "" : ' class="on"'}></i>`).join("")}</div><p class="swipehint">Swipe for the other ${r.cands.length - 1 === 1 ? "candidate" : r.cands.length - 1 + " candidates"} →</p>` : ""}${compareVotes(r)}`;
+    h += `<p class="lead">${scope}${esc(r.note || "")} Ranked by score. Tap a card to flip it.</p><div class="cards">${r.cands.map((c, i) => card(r, c, i)).join("")}</div><div class="pickbar"><h4>📝 My pick</h4>${pickBtns(r.id, r.cands.map(c => c.name))}</div>${r.cands.length > 1 ? `<div class="cdots">${r.cands.map((c, i) => `<i${i ? "" : ' class="on"'}></i>`).join("")}</div><p class="swipehint">Swipe for the other ${r.cands.length - 1 === 1 ? "candidate" : r.cands.length - 1 + " candidates"} →</p>` : ""}${compareVotes(r)}`;
   } else if (r.kind === "judges") {
     h += `<p class="lead">${esc(r.note || "")} Not scored: judges raise no campaign money.</p>`;
-    h += r.judges.map(j => `<div class="mcard"><h3>⚖️ ${esc(j.name)}</h3><p class="mini">${esc(j.text)}</p>${(j.items || []).length ? `<details><summary>Rulings & record (${j.items.length})</summary><ul>${j.items.map(x => `<li>${esc(x.text)}${link(x.url)}</li>`).join("")}</ul></details>` : ""}${ownBox(j.owner_sources, j.owner_sources_searched)}</div>`).join("");
+    h += r.judges.map((j, ji) => `<div class="mcard"><h3>⚖️ ${esc(j.name)}</h3><p class="pkh">📝 My pick: keep this judge?</p>${pickBtns(r.id + "|" + ji, ["Yes", "No"])}<p class="mini">${esc(j.text)}</p>${(j.items || []).length ? `<details><summary>Rulings & record (${j.items.length})</summary><ul>${j.items.map(x => `<li>${esc(x.text)}${link(x.url)}</li>`).join("")}</ul></details>` : ""}${ownBox(j.owner_sources, j.owner_sources_searched)}</div>`).join("");
   } else {
     const m = r.m;
     const L = a => (a || []).map(x => `<div>${esc(x.text)}${link(x.url)}</div>`).join("") || "<div>None found.</div>";
-    h += `<p class="lead">${scope}Not scored: ballot questions have no candidate.</p><div class="mcard"><h3>${esc(m.name)}</h3><p>${esc(m.summary)}</p>
+    h += `<p class="lead">${scope}Not scored: ballot questions have no candidate.</p><div class="mcard"><h3>${esc(m.name)}</h3><p>${esc(m.summary)}</p><p class="pkh">📝 My pick</p>${pickBtns(r.id, ["Yes", "No"])}
       <div class="sides"><div class="side"><h4>👍 Supporters</h4>${L(m.supporters)}<h4 style="margin-top:10px">💵 Money for</h4>${L(m.who_funds_yes)}</div><div class="side"><h4>👎 Opponents</h4>${L(m.opponents)}<h4 style="margin-top:10px">💵 Money against</h4>${L(m.who_funds_no)}</div></div>
       ${(m.fiscal || []).length ? `<details><summary>Cost & effect</summary>${L(m.fiscal)}</details>` : ""}${ownBox(m.owner_sources, m.owner_sources_searched)}
       ${(m.urls || []).length ? `<p class="mini muted">Sources: ${m.urls.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${i + 1}</a>`).join(" · ")}</p>` : ""}</div>`;
@@ -794,12 +824,31 @@ function openSheet(title, body) {
 }
 function closeSheet() { $("#sheet").classList.remove("open"); $("#sheet").setAttribute("aria-hidden", "true"); document.body.classList.remove("locked"); }
 
+function myBallot() {
+  document.title = "My ballot · " + D.title;
+  const list = ctx ? ordered() : ALL.filter(r => (r.where || {}).all);
+  const L = list.flatMap(r => lines(r).map(l => [r, ...l]));
+  const done = L.filter(l => PICKS[l[1]]).length;
+  let h = `<header class="appbar"><div class="ab-l">📝 My ballot</div></header>
+    <p class="count">${done} of ${L.length} picked. Same order as the paper ballot. Tap a line to pick or change it.</p>`, g0 = null;
+  for (const [r, k, q] of L) {
+    if (r.group !== g0) {
+      if (g0 !== null) h += `</div>`;
+      g0 = r.group; const g = D.groups.find(x => x.id === g0);
+      h += `<h2 class="grp">${g ? g.icon + " " + esc(g.label) : ""}</h2><div class="mine">`;
+    }
+    h += `<div class="mrow" data-go="${r.id}"><span class="mq">${esc(q)}</span><span class="ma${PICKS[k] ? "" : " none"}">${PICKS[k] ? "✓ " + esc(PICKS[k]) : "Not picked"}</span></div>`;
+  }
+  if (g0 !== null) h += `</div>`;
+  if (!ctx) h += `<p class="deckhint" style="margin-top:12px">Add your address on the Ballot tab to see your district races here too.</p>`;
+  $("#app").innerHTML = h;
+}
 let shownPage = null;
 function route() {
   const [page, sub] = decodeURIComponent(location.hash.slice(1)).split("/");
   const r = raceById(page);
-  if (page !== shownPage) { r ? racePage(r) : home(); shownPage = r ? page : ""; window.scrollTo(0, 0); }
-  document.querySelectorAll(".navbar button").forEach(b => b.classList.toggle("on", (b.dataset.nav === "home" && !sub) || b.dataset.nav === sub));
+  if (page !== shownPage) { page === "mine" ? myBallot() : r ? racePage(r) : home(); shownPage = page === "mine" || r ? page : ""; window.scrollTo(0, 0); }
+  document.querySelectorAll(".navbar button").forEach(b => b.classList.toggle("on", (b.dataset.nav === "home" && !sub && page !== "mine") || (b.dataset.nav === "mine" && page === "mine" && !sub) || b.dataset.nav === sub));
   if (sub === "today") openSheet("Voting today", voteBox());
   else if (sub === "how") openSheet("How scores work", howSheet());
   else if (sub === "src") openSheet("Your sources", srcSheet());
@@ -812,6 +861,8 @@ function route() {
 const curPage = () => decodeURIComponent(location.hash.slice(1)).split("/")[0];
 document.addEventListener("click", e => {
   const t = e.target;
+  const pk = t.closest("[data-pick]");
+  if (pk) { const k = pk.dataset.pick, grp = pk.parentElement, opts = [...grp.children].map(b => b.dataset.val); setPick(k, pk.dataset.val); grp.outerHTML = pickBtns(k, opts); return; }
   const go = t.closest("[data-go]");
   if (go) { location.hash = go.dataset.go; return; }
   const sh = t.closest("[data-sheet]");

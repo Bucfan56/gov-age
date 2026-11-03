@@ -62,6 +62,10 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-03 (evening): My ballot, and the full text of every Alex Jones article
+- **My ballot (seq 435).** Every race page now has a "📝 My pick" row: tap a candidate, or Yes/No on a judge or amendment; tap again to clear. A new "My ballot" tab, plus a row at the top of the ballot list, shows every pick in the same order as the paper ballot, with "Not picked" in amber where none has been made yet. Tap a line to go back and change it. Picks are saved on that phone only. The race list shows "✓ Name" next to each race once it's picked.
+- **alexjoneslive.com, full article text (seq 435).** The site's public WordPress feed hands out each article's full text without a login or a bot check. All 4,514 posts (March 9 to today) were downloaded at a slow pace, 100 at a time, and every candidate name was matched against the text of articles that mention Florida. New finds: Uthmeier ×19, Anna Paulina Luna ×10, Angie Nixon ×2, Ashley Moody ×2, and one each for Steube, Brodeur, Marshall Rawson (HD 10), Jennifer Jonsson, Jose Javier Rodriguez, David Jolly, Carlos Gimenez. A Curtis Gibson match was a Kansas man with the same name and was dropped. The coverage row now reads "Fully searched". Scripts: research3/aj_text_match.py, merge_sources3.py.
+
 ### 2026-11-03 (late): no buttons, everything searched ahead of time
 
 Tyler's ask (Kosmos chat, seq 408): no one-tap search buttons. Everything should already be searched, so his mom just opens the page and reads.
