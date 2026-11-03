@@ -425,7 +425,7 @@ for _c in (PRIO.get("candidates") or {}).values():
 
 ROOTS = load(S / "research3" / "roots.json", {}) or {}
 LAND_HIT = 40          # points off 🌾 Land per documented pro-data-center / pro-development position
-INVESTORS_HIT = 15     # points off 💵 Independent for calling donors "investors" (sourced only)
+INVESTORS_HIT = 15     # points off 💵 Independent when donors are pitched as "investors" at the candidate's event (sourced video only)
 
 
 def apply_evidence(c):
@@ -462,8 +462,8 @@ def apply_evidence(c):
         ind = sc.get("indep")
         if ind and ind.get("v") is not None:
             ind["v"] = max(0, ind["v"] - INVESTORS_HIT)
-            ind["parts"] = ind.get("parts", []) + [f"−{INVESTORS_HIT} for calling donors “investors” in his campaign ({inv.get('reported_by') or 'report'}, {inv.get('date') or ''})"]
-        c.setdefault("controversies", []).insert(0, {"text": f"Called his donors “investors” in his campaign: “{inv.get('words', '')}” ({inv.get('reported_by', '')}, {inv.get('date', '')}).", "status": "established", "url": inv["url"]})
+            ind["parts"] = ind.get("parts", []) + [f"−{INVESTORS_HIT}: at his private event donors were pitched as “investors… shareholders” who “help steer” Florida ({inv.get('reported_by') or 'report'}, {inv.get('date') or ''})"]
+        c.setdefault("controversies", []).insert(0, {"text": f"Donors pitched as “investors” at a private Donalds event. Said by {inv.get('speaker') or 'a speaker'}: “{inv.get('words', '')}” ({inv.get('reported_by', '')}, {inv.get('date', '')}).", "status": "established", "url": inv["url"]})
 
 
 def finalize(races):
@@ -535,6 +535,7 @@ def main():
         for r in part["races"]:
             for c in r.get("candidates") or []:
                 add_land(c)
+                owner_sweep(c)      # statewide + Manatee races get the scripted source sweep too, not only district races
     base = B.build(d, shares)
     WHERE = {"senate": {"all": 1}, "governor": {"all": 1}, "ag": {"all": 1}, "cfo": {"all": 1}, "agriculture": {"all": 1},
              "m0": {"all": 1}, "m1": {"all": 1}, "m2": {"all": 1},

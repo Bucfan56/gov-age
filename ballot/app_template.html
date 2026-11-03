@@ -184,7 +184,7 @@ body.locked{overflow:hidden}
 .ctx{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}
 .cchip{font-size:13px;font-weight:700;padding:7px 11px;border-radius:999px;background:var(--chip);border:0}
 .cchip.change{background:transparent;border:1.5px solid var(--line);cursor:pointer;color:var(--accent)}
-.srcl{display:flex;flex-wrap:wrap;gap:6px}.srcl a{font-size:13px;font-weight:700;text-decoration:none;background:var(--chip);color:var(--ink);padding:8px 11px;border-radius:999px}
+.srcg{margin-top:10px;display:flex;flex-wrap:wrap;gap:5px;align-items:center}.srcg b{width:100%;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--sub)}.srcg .chip{font-size:12px;font-weight:700;background:var(--chip);padding:5px 9px;border-radius:999px}.srcl{display:flex;flex-wrap:wrap;gap:6px}.srcl a{font-size:13px;font-weight:700;text-decoration:none;background:var(--chip);color:var(--ink);padding:8px 11px;border-radius:999px}
 .cov{padding:8px 0;border-bottom:1px solid var(--line)}.cov:last-child{border:0}
 .covl{display:inline-block;font-size:11px;font-weight:800;padding:2px 7px;border-radius:6px;margin-right:6px}
 .covl.full{background:var(--good-bg);color:var(--good)}.covl.partial{background:var(--mid-bg);color:var(--mid)}.covl.blocked{background:var(--bad-bg);color:var(--bad)}
@@ -679,12 +679,18 @@ function home() {
   $("#app").innerHTML = h;
 }
 
+const X_HANDLES = ["jamesfishback", "RealAlexJones", "alexstein99", "OwenShroyer1776", "OldWorldFL", "IanCarrollShow", "RealCandaceO", "realstewpeters", "StewPetersNet", "RyLiberty", "rexjonesnewz", "jakeshieldsajj", "MyronGainesX"];
+const SOURCE_LIST = [["Websites", ["alexjoneslive.com", "stewpeters.com", "ryandawson.org"]],
+  ["Rumble", ["Owen", "TheAlexJonesShowLive", "StewPeters", "RyanDawson", "RealCandaceO", "FightBackPodcast", "OldWorldFlorida"]],
+  ["X", X_HANDLES.map(h => "@" + h).concat(["X in general"])]];
 // One tap opens each of the owner's sources searching for this name, in the viewer's own browser.
 function checkLinks(name) {
   const q = name.replace(/"[^"]*"/g, " ").replace(/\b(Jr|Sr|III|II)\b\.?/g, " ").replace(/\s+/g, " ").trim();
   const L = [["alexjoneslive.com", "https://www.alexjoneslive.com/?s=" + encodeURIComponent(q)], ["stewpeters.com", "https://stewpeters.com/?s=" + encodeURIComponent(q)],
     ["Stew Peters on Rumble", "https://rumble.com/search/video?q=" + encodeURIComponent(q + " Stew Peters")], ["Alex Jones on Rumble", "https://rumble.com/search/video?q=" + encodeURIComponent(q + " Alex Jones")],
-    ["Owen Shroyer on Rumble", "https://rumble.com/search/video?q=" + encodeURIComponent(q + " Owen Shroyer")]];
+    ["Owen Shroyer on Rumble", "https://rumble.com/search/video?q=" + encodeURIComponent(q + " Owen Shroyer")],
+    ["Your other Rumble channels", "https://rumble.com/search/video?q=" + encodeURIComponent(q)], ["ryandawson.org", "https://www.ryandawson.org/archive?sort=search&search=" + encodeURIComponent(q)],
+    ["Your X accounts", "https://x.com/search?f=live&q=" + encodeURIComponent(`"${q}" (${X_HANDLES.map(h => "from:" + h).join(" OR ")})`)], ["All of X", "https://x.com/search?f=top&q=" + encodeURIComponent(`"${q}"`)]];
   return `<div class="panel"><h4>🔎 Check your sources yourself</h4><div class="srcl">${L.map(([t, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)} ↗</a>`).join("")}</div></div>`;
 }
 function ownBox(items, searched) {
@@ -779,7 +785,8 @@ function srcSheet() {
   const hits = [], none = [], unchecked = [];
   for (const r of myRaces()) for (const c of (r.cands || [])) (srcHits(c) ? hits : (c.owner_sources_searched || []).length ? none : unchecked).push([r, c]);
   const mHits = ALL.filter(r => r.kind === "measure" && (r.m.owner_sources || []).length);
-  return `<div class="panel">Your five sources (<b>rumble.com/Owen</b>, <b>alexjoneslive.com</b>, <b>rumble.com/TheAlexJonesShowLive</b>, <b>rumble.com/c/StewPeters</b>, <b>stewpeters.com</b>) are checked for the candidates and ballot questions on your ballot. What they say appears in an amber 📣 box on that candidate's card, credited to them and reported as they say it. Only headlines and descriptions could be read; videos can't be watched. They don't change the scores.</div>
+  return `<div class="panel">Your ${SOURCE_LIST.reduce((n, [, l]) => n + l.length, 0)} sources are checked for the candidates and ballot questions on your ballot. What they say appears in an amber 📣 box on that candidate's card, credited to them and reported as they say it. Headlines, descriptions and posts are read; long videos can't be watched. They don't change the scores, except where a source produced a checkable video or record (then the card says so).
+      ${SOURCE_LIST.map(([g, l]) => `<div class="srcg"><b>${g}</b> ${l.map(x => `<span class="chip">${esc(x)}</span>`).join("")}</div>`).join("")}</div>
     ${(D.coverage || []).length ? `<div class="panel"><h4>What was searched, source by source</h4>${D.coverage.map(([src, lvl, how]) => `<div class="cov"><span class="covl ${esc(lvl)}">${lvl === "full" ? "✓ Fully searched" : lvl === "partial" ? "◐ Partly searched" : "✕ Blocked"}</span><b>${esc(src)}</b><div class="mini muted">${esc(how)}</div></div>`).join("")}</div>` : ""}
     <h3 style="margin:18px 2px 6px">Found something (${hits.length + mHits.length})</h3>
     ${hits.map(([r, c]) => `<div class="panel"><div style="display:flex;align-items:center;gap:8px"><b style="flex:1">${esc(c.name)} · ${esc(r.short)}</b><button class="btn ghost" style="padding:7px 12px" data-prof="${r.id}|${r.cands.indexOf(c)}">Open card</button></div>${ownBox(c.owner_sources)}</div>`).join("")}

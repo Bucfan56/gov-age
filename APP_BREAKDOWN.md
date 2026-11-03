@@ -62,6 +62,17 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-03 (evening): 18 more sources, and the Donalds "investors" video
+
+Tyler's asks (Kosmos chat, seq 405): use the video he sent; add X in general and 13 X accounts, ryandawson.org, and 4 Rumble channels to his sources and work them in.
+
+- **The video.** An 18-second clip of a private Donalds event (posted on X by Evan Kilgore, Apr 28 2026), transcribed on this machine. The host, introducing Donalds with Donalds standing beside him, tells guests they are "investors… shareholders" who "get to spend some time with the CEO and… help steer the direction that this great state is going." It takes 15 off his 💵 Independent score and leads his record, worded as the host's words at his event, not his own. Overall 42 → 41.
+- **Rumble.** Every video title and tag on RyanDawson (244), RealCandaceO (70), FightBackPodcast (310) and OldWorldFlorida (87) was matched to all 437 names: 3 matches (Uthmeier, Randy Fine ×2).
+- **ryandawson.org.** All 1,434 posts (May 2020 to today) matched: 7 matches (Randy Fine ×6, Uthmeier).
+- **X.** X won't let outside tools read whole timelines without an account, so posts were found by searching for the statewide, Senate and FL-16 candidates and the Florida members of Congress these accounts talk about. 66 posts, every one checked against X's own embed service. @jamesfishback is the only one of the 13 accounts with posts about these candidates. The rest come from X in general (candidates, news outlets, commentators). At most 8 per candidate, the owner's accounts first.
+- **Statewide fix.** The scripted source sweep only reached district races. It now covers statewide and Manatee races too.
+- **On every profile.** New one-tap searches: your other Rumble channels, ryandawson.org, "Your X accounts" (all 13 at once) and all of X. The Sources sheet lists all 24 sources by group.
+
 ### 2026-11-03 (afternoon): mobile rework, real holo, face-centered photos, roots
 
 Tyler's asks (Kosmos chat, seq 394 and 396): whole face centered in every photo with no placeholders; holo that looks like the rarest Pokémon cards (foil on accents only, not over text, no nonstop animation, moves with the phone); check that the data is right, with Byron Donalds' land score near zero and native roots counting heavily; rework the mobile layout so it is easy to navigate.

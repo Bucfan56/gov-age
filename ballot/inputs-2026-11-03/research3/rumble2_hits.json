@@ -1,0 +1,51 @@
+{
+ "hits": {
+  "James Uthmeier": [
+   {
+    "source": "Ryan Dawson (Rumble)",
+    "title": "DeSantis and Uthmeier in hot water",
+    "says": "Hope Florida",
+    "date": "2025-05-25",
+    "url": "https://rumble.com/v6tty4f-desantis-and-uthmeier-in-hot-water.html"
+   }
+  ],
+  "Randy Fine": [
+   {
+    "source": "Fight Back Podcast (Rumble)",
+    "title": "Randy Fine is a FAT KOSHER PIG - Jake Shields and Ryan Dawson React!",
+    "says": "Jake Shields and Ryan Dawson react to the infamous Randy Fine! Support Dan Bilzerian's campaign at BilzerianForCongress.com",
+    "date": "2026-07-24",
+    "url": "https://rumble.com/v7d7f4g-randy-fine-is-a-fat-kosher-pig-jake-shields-and-ryan-dawson-react.html"
+   },
+   {
+    "source": "Fight Back Podcast (Rumble)",
+    "title": "Randy Fine is a Disgusting Pig",
+    "says": "Jake Shields and Hassan Shibly react to Randy Fine clips",
+    "date": "2026-04-26",
+    "url": "https://rumble.com/v7912xc-randy-fine-is-a-disgusting-pig.html"
+   }
+  ]
+ },
+ "range": {
+  "RyanDawson": [
+   244,
+   "2020-11-20",
+   "2026-09-24"
+  ],
+  "RealCandaceO": [
+   70,
+   "2024-06-12",
+   "2026-05-28"
+  ],
+  "FightBackPodcast": [
+   310,
+   "2024-07-24",
+   "2026-11-01"
+  ],
+  "OldWorldFlorida": [
+   87,
+   "2023-05-07",
+   "2026-10-09"
+  ]
+ }
+}

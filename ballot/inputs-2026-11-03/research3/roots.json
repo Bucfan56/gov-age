@@ -4099,11 +4099,13 @@
   ]
  },
  "donalds_investors": {
-  "found": false,
-  "words": "NOT FOUND as 'investors'. Only a secondhand claim: a Reddit post (via the scraper site reddit.sentinel-team.org) says James Fishback, Donalds' primary rival, obtained video of a private Donalds event in Pensacola where guests were told to become 'shareholders' in Byron's company, to 'help steer the direction of Florida'; Fishback: \"Unlike Byron, I don't have shareholders. I only work for you.\" The word 'investors' does not appear.",
-  "date": "undated (Reddit snapshot Apr 29 2026)",
-  "reported_by": "Reddit post paraphrasing James Fishback; no news outlet found; video not linked",
-  "url": "https://reddit.sentinel-team.org/posts/1sygohd/snapshots/2026-04-29T11%3A32%3A01.85537Z"
+  "found": true,
+  "words": "Everybody here in the room, I hope you're investors in this company, okay? Because if you're investors, you're shareholders. If you're shareholders, you get to spend some time with the CEO and you get to help steer the direction that this great state is going.",
+  "speaker": "the event's host, introducing Donalds, with Donalds standing beside him",
+  "date": "2026-04-28",
+  "reported_by": "video posted by Evan Kilgore on X",
+  "url": "https://x.com/EvanAKilgore/status/2049254969254019186",
+  "note": "18-second clip of a private Donalds event, transcribed locally on 2026-11-03. Also described by James Fishback (Pensacola event)."
  },
  "notes": [
   "STANCE CODING: 0 = mixed/context (not +1/-1).",
