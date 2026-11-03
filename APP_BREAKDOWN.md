@@ -27,6 +27,7 @@ key. The page opens in a browser as a file, or serves as static hosting.
 | `inline_data.py` | Re-inlines `finance.json` into `index.html`. |
 | `build_ballot.py` | Scores every candidate and renders the ballot as flip cards (`ballot-<zip>.json` + `ballot/cards_template.html` → `.html`). |
 | `ballot-34221.html` | Palmetto, FL 34221 ballot report for the Nov 3, 2026 general election. |
+| `ballot/crop_photos.py` | Crops every candidate photo to the card's 3:2 window around the face (OpenCV YuNet, `ballot/models/`). Run after new photos arrive, then rebuild. |
 | `ballot.html` + `fl/*.json` | **Any-address Florida ballot.** Statewide races inline; U.S. House, State Senate/House and county races load per district. Built by `build_florida.py` from `ballot/app_template.html`. |
 | `build_florida.py` | Assembles the any-address ballot from the day's pulls and research (see its docstring), reconciles every district race against the Division of Elections candidate list, adds the 🌾 / 🎓 / 🎯 meters. |
 | `ballot/fed_money_all.py`, `ballot/fl_money_all.py` | Money for every Florida federal candidate (FEC bulk) and every Legislature district (DOE filings). |
@@ -60,6 +61,18 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 ---
 
 ## Changelog
+
+### 2026-11-03 (afternoon): mobile rework, real holo, face-centered photos, roots
+
+Tyler's asks (Kosmos chat, seq 394 and 396): whole face centered in every photo with no placeholders; holo that looks like the rarest Pokémon cards (foil on accents only, not over text, no nonstop animation, moves with the phone); check that the data is right, with Byron Donalds' land score near zero and native roots counting heavily; rework the mobile layout so it is easy to navigate.
+
+- **Mobile.** A sticky top bar, and a fold-out "voting today" strip with hours and the polling-place link. The home screen is a numbered list of your races. Each race is a swipe carousel with dots and "2 of 5" plus previous/next buttons. A fixed bottom bar holds Ballot, Vote today, How it works and Sources.
+- **Holo.** The foil covers only the border, seal, stripe and tier chip, never the text. It sweeps once when a card appears, then follows the pointer or the phone's tilt (iPhone asks for motion permission on the first tap).
+- **Photos.** 345 of 437 candidates have a real photo (it was 265), from campaign sites, official pages and BallotReady. A BallotReady photo is only used when its page names the same 2026 office. Every photo is cropped around the detected face. The other 92 have no public portrait anywhere we could reach, and they show initials.
+- **Roots.** 153 candidates have a roots score (born and raised here 100, moved as a child 80, adult 25+ years 55, 10–25 years 40, under 10 years 20), blended half and half into 🏠 Local. Unknown is left blank, never guessed.
+- **Land positions.** 33 candidates have sourced public statements on data centers or development, listed on their profile. Each statement for them takes 40 off 🌾 Land, and each protective one adds 20. Byron Donalds: 0 (Economic Club of Miami 2025 "embrace" data centers, opposing a statewide moratorium, "There ain't no bans coming", "wide open", permitting speed).
+- **Scoring fix.** For candidates with no money data, roots and land positions now count toward the overall score. Before, the land meter showed on the card but was left out of the overall. Money defaults still never count.
+- **Not applied.** The claim that Donalds called donors "investors" at a donor dinner was searched and not found. The only trace is a secondhand Reddit post quoting a rival about "shareholders", with no video or date, so it does not change his score.
 
 ### 2026-11-03 (Election Day): any Florida address, trading cards, six meters
 
