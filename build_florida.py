@@ -223,6 +223,25 @@ SWEEP = load(S / "sweep_owner.json", {}) or {}
 OWN_SITES = {"alexjoneslive.com", "stewpeters.com", "ryandawson.org"}
 OWN_X = {h.lower() for h in "jamesfishback RealAlexJones alexstein99 OwenShroyer1776 OldWorldFL IanCarrollShow RealCandaceO realstewpeters StewPetersNet RyLiberty rexjonesnewz jakeshieldsajj MyronGainesX".split()}
 OWN_RUMBLE = ("owen shroyer", "alex jones", "stew peters", "ryan dawson", "candace", "fight back", "old world")   # his 7 Rumble channels, by label
+# owner, 11-03 (chat_379 seq 469): infowars.com stays only for what Jones published there, never The Onion's.
+# Jones's last official show was the week the receiver shut him out ("out of the building by midnight on the 30th",
+# KUT 2026-05-04); the site went dark in May and The Onion relaunched it on 2026-07-02.
+INFOWARS_UNTIL = "2026-04-30"
+# items with no confirmed date: the Internet Archive's first copy proves the article was up by then
+INFOWARS_SEEN = {"as-expected-a-hearing-on-kids-online-safety-becomes-a-blueprint-for-digital-id": "2025-12-06",
+                 "watch-rep-anna-paulina-luna-demands-the-appointment-of-a-special-counsel-to-expose-the-dojs-role-in-hiding-epstein-files": "2025-07-11",
+                 "158-democrats-vote-against-deporting-illegal-immigrants-accused-of-sex-crimes": "2024-09-19",
+                 "fema-officials-directive-to-ignore-homes-with-trump-flags-not-isolated-incident-came-from-top-of-fema-says-gop-lawmaker": "2024-11-21",
+                 "hysterical-debbie-wasserman-schultz-declares-trump-larger-threat-than-islamic-terrorism": "2025-12-29",
+                 "rep-debbie-wasserman-schultz-calls-trump-dni-nominee-tulsi-gabbard-a-russian-asset": "2024-11-15"}
+
+
+def infowars_ok(x):
+    seen = INFOWARS_SEEN.get((x.get("url") or "").rstrip("/").rsplit("/", 1)[-1])
+    if seen:
+        x["date"] = "online by " + seen
+    d = seen or (x.get("date") if re.match(r"\d{4}-\d{2}-\d{2}$", x.get("date") or "") else None)
+    return bool(d) and d <= INFOWARS_UNTIL      # an undated item can't be shown to be Jones's, so it stays out
 
 
 def owners_own(x):
@@ -232,6 +251,8 @@ def owners_own(x):
     host, first = u.group(1).lower(), u.group(2).lower()
     if host in OWN_SITES:
         return True
+    if host == "infowars.com":
+        return infowars_ok(x)
     if host in ("x.com", "twitter.com"):
         return first in OWN_X
     if host == "rumble.com":

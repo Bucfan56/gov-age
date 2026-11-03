@@ -62,6 +62,15 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-03 (night, later): Infowars back in "Your sources", Jones-era posts only
+
+- **infowars.com is allowed again, but only for what Alex Jones published there** (Tyler, chat_379 seq 469: nothing from after The Onion took it over).
+  - The cutoff is April 30, 2026. That was the week the court-appointed receiver shut Jones out (KUT, May 4, 2026). The site was dark through May and June, and The Onion relaunched it as a parody on July 2, 2026. Tyler remembered it as early 2025, but the handover actually happened this spring.
+  - All 7 Infowars items fall before the cutoff. Each now shows "online by <date>", taken from the Internet Archive's first copy, which runs from Sept 2024 to Dec 2025.
+  - An Infowars item with no provable date stays out.
+- The Sources list now shows "infowars.com (Alex Jones's posts through Apr 30, 2026, before The Onion)", making 24 sources in all.
+- Enforced in `build_florida.py` by `infowars_ok()`, using `INFOWARS_UNTIL` and `INFOWARS_SEEN`.
+
 ### 2026-11-03 (night): "Your sources" holds only the sources Tyler listed
 
 - **The 📣 box now shows only items from Tyler's list.** That list is 3 websites (alexjoneslive.com, stewpeters.com, ryandawson.org), 7 Rumble channels and 13 X accounts. Tyler's ask: "Only what I gave you for sources should be used there."
