@@ -501,7 +501,10 @@ def finalize(races):
                              "label": f"Matches {pos} of {n} priorities with a record" + ("" if n >= 2 else " (needs 2 to score)")}
             apply_evidence(c)
             sc = c["score"]
-            money = [x["v"] for x in (sc.get("local"), sc.get("indep"), sc.get("foreign"), sc.get("land")) if x and x.get("v") is not None] if (sc.get("indep") or sc.get("local")) else []
+            if (sc.get("indep") or {}).get("v") is not None:
+                money = [x["v"] for x in (sc.get("local"), sc.get("indep"), sc.get("foreign"), sc.get("land")) if x and x.get("v") is not None]
+            else:   # no money data: only what rests on evidence counts (roots, documented land positions), never a money default
+                money = [x["v"] for x, ok in ((sc.get("local"), c.get("roots")), (sc.get("land"), c.get("land_positions"))) if ok and x and x.get("v") is not None]
             extra = [x["v"] for x in (c.get("qual"), c.get("prio")) if x and x.get("v") is not None]
             vals = money + extra
             sc["overall"] = round(sum(vals) / len(vals)) if vals else None
