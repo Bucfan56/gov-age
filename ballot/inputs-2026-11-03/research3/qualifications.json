@@ -54,24 +54,27 @@
    "sources": []
   },
   "Keith J. Green": {
-   "qual": 58,
+   "qual": 40,
    "background": "Property management career; four years on Bradenton Planning Commission and other local boards; organizes annual First Responders Mass.",
-   "why": "Planning-commission service is directly relevant to zoning/land use; no elected or budget role.",
-   "sources": []
+   "why": "His career in property management bears on city land use. His years on the planning commission and other boards don't count as qualifications.",
+   "sources": [],
+   "qual_was": 58
   },
   "Lisa Gonzalez Moore": {
-   "qual": 68,
+   "qual": 64,
    "background": "Real estate and business attorney; UF J.D.; incumbent council member; past president/treasurer of women lawyers group, Legal Aid of Manasota board.",
-   "why": "Real-estate and municipal-adjacent law plus current council experience and nonprofit board finance roles.",
-   "sources": []
+   "why": "Real-estate and business attorney, and has held this council seat. Nonprofit board roles don't count.",
+   "sources": [],
+   "qual_was": 68
   },
   "Reggie Bellamy": {
-   "qual": 68,
+   "qual": 64,
    "background": "County commissioner 2018-22 and Port Authority chair; Army veteran; Bethune-Cookman business degree; coach, school dean, youth-center director.",
-   "why": "Prior county commissioner with budget and land-use votes; career otherwise education/youth work.",
+   "why": "Was a county commissioner (2018-22) and has worked in schools and youth programs. His Port Authority chair seat came with that office and isn't counted on its own.",
    "sources": [
     "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2499"
-   ]
+   ],
+   "qual_was": 68
   },
   "Tara Poulton": {
    "qual": 72,
@@ -80,10 +83,11 @@
    "sources": []
   },
   "Annette Taddeo": {
-   "qual": 46,
+   "qual": 38,
    "background": "Founded translation company LanguageSpeak (1995); state senator 2017-22 serving on Banking and Insurance committee; no CPA or financial-industry career.",
-   "why": "Business owner and banking/insurance committee member, but no accounting, finance or insurance-regulation career.",
-   "sources": []
+   "why": "Founded and ran a translation company. She has no accounting, finance or insurance career, and her seat on a Senate committee doesn't count.",
+   "sources": [],
+   "qual_was": 46
   },
   "Blaise Ingoglia": {
    "qual": 66,
@@ -184,22 +188,24 @@
    ]
   },
   "Rodney O'Quinn": {
-   "qual": 85,
+   "qual": 88,
    "background": "Joined Keller's Pest Control (Bradenton) as service technician in 1997; vice president 2000; owner and president since 2002 per company profile.",
-   "why": "About 30 years in licensed pest control, directly relevant.",
+   "why": "The only candidate with real pest-control work: technician in 1997, vice president in 2000, owner and president of Keller's Pest Control since 2002.",
    "sources": [
     "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2546",
     "https://www.salary.com/research/company/keller-s-pest-control-overview"
-   ]
+   ],
+   "qual_was": 85
   },
   "Charles \"Rick\" Richards": {
-   "qual": 72,
+   "qual": 55,
    "background": "Owner of Rick Richards Inc.: ecological management, native-plant restoration and land management since 1984 (per his campaign site). Not a land broker.",
-   "why": "Wetland/environmental management and nuisance-vegetation work fit mosquito control; not a pest-control or entomology license holder.",
+   "why": "Ecological and land-management business since 1984 is a neighboring field (wetlands, vegetation), but he has no pest-control, mosquito or entomology work. His seat on a county advisory committee doesn't count.",
    "sources": [
     "https://voterickrichards.com/",
     "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2516"
-   ]
+   ],
+   "qual_was": 72
   },
   "Gerald Baldi": {
    "qual": 34,
@@ -240,12 +246,13 @@
    ]
   },
   "Derrick Warner": {
-   "qual": 48,
+   "qual": 35,
    "background": "Sitting West Manatee fire commissioner (Seat 2); retired, Bradenton. Prior career not found.",
-   "why": "Current board experience helps; earlier career unknown.",
+   "why": "Holds this fire-board seat now. No fire, EMS or public-safety career was found, and the board seat alone isn't real-world experience.",
    "sources": [
     "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2547"
-   ]
+   ],
+   "qual_was": 48
   },
   "John Agnelli": {
    "qual": 38,
@@ -254,10 +261,11 @@
    "sources": []
   },
   "Dana Tindall": {
-   "qual": 48,
+   "qual": 35,
    "background": "Fire commissioner and Secretary-Treasurer, appointed March 2025; retired, Bradenton. Prior career not found.",
-   "why": "Board experience including treasurer duties; earlier career unknown.",
-   "sources": []
+   "why": "Appointed to this fire board in March 2025. No fire, EMS or public-safety career was found, and the board seat alone isn't real-world experience.",
+   "sources": [],
+   "qual_was": 48
   },
   "Keith D. Miller": {
    "qual": null,
@@ -268,10 +276,11 @@
    ]
   },
   "Billy Burke": {
-   "qual": 48,
+   "qual": 35,
    "background": "Sitting West Manatee fire commissioner (Seat 4); Bradenton. Prior career not found.",
-   "why": "Current board experience; earlier career unknown.",
-   "sources": []
+   "why": "Holds this fire-board seat now. No fire, EMS or public-safety career was found, and the board seat alone isn't real-world experience.",
+   "sources": [],
+   "qual_was": 48
   },
   "Sari Lindroos-Valimaki": {
    "qual": 50,
@@ -685,9 +694,10 @@
   },
   "Jonathan Mullis": {
    "sources": [],
-   "qual": 62,
+   "qual": 55,
    "background": "Physical therapist; owner/CEO of Physical Therapy Doctors of Florida (about 17 years); Bradenton Kiwanis president; Tiger Bay Club board.",
-   "why": "Runs a business with payroll and budget responsibility and civic boards; no education career."
+   "why": "Has run a physical-therapy practice with payroll and a budget for about 17 years. He has no education career, and his civic-club boards don't count.",
+   "qual_was": 62
   },
   "Michelle Salzman": {
    "qual": 58,
@@ -2657,6 +2667,7 @@
   "Whether O'Quinn still owns Keller's (the owner said 'formerly') is unconfirmed; no sale found in news; Sunbiz and FDACS lookups were blocked by bot protection from this environment.",
   "Scores are advice on job fit only (never party/views). null = background not found, not a low score.",
   "METHOD/LIMITS: Priority 1 and 2 plus mosquito, Bradenton, Holmes Beach, school board and fire/CDD filings used Manatee Supervisor of Elections campaign-finance pages (voterfocus), campaign sites and the roster bios. Congress, state legislature and Governor/Cabinet scores come from the roster bios (not re-verified against primary sources) and the rubric. Scanned Form 1 financial-disclosure PDFs for the mosquito candidates could not be read (image-only). Sunbiz and FDACS lookups are behind bot protection and were not bypassed. About 100 CDD and fire-district candidates have no public bio found and are null, not low.",
-  "Scale: 85+ = direct career or prior office in this exact job; 60-80 = strong transferable or adjacent experience; 40-55 = partial; 10-35 = unrelated or minimal; null = unknown."
+  "Scale: 85+ = direct career or prior office in this exact job; 60-80 = strong transferable or adjacent experience; 40-55 = partial; 10-35 = unrelated or minimal; null = unknown.",
+  "2026-11-03 owner's rule: Qualified = real-world work experience in the field; committee, advisory, civic and nonprofit board seats don't count. Re-rated for the 34209 ballot: Charles \"Rick\" Richards, Rodney O'Quinn, Keith J. Green, Lisa Gonzalez Moore, Annette Taddeo, Jonathan Mullis, Reggie Bellamy, Derrick Warner, Dana Tindall, Billy Burke"
  ]
 }

@@ -62,6 +62,12 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-03 (night, last): Qualified means real-world experience, not board seats
+
+- **Owner's rule (Tyler):** a seat on a committee, an advisory or civic board, or a nonprofit board is not a qualification. Only real work in the job's field counts. The How-it-works page now says so.
+- **Mosquito Control:** Rodney O'Quinn, the only candidate with an actual pest-control career (owner of Keller's Pest Control since 2002), now ranks first at 88. Rick Richards drops to 55: environmental land management is a neighboring field, and his county advisory-committee seat no longer counts as a qualification or as a land-protection "record."
+- Re-rated on the 34209 ballot for leaning on board seats: Keith J. Green, Lisa Gonzalez Moore, Annette Taddeo, Jonathan Mullis, Reggie Bellamy, and the three sitting West Manatee Fire commissioners (no fire or EMS career found). Record checks now also drop "serves on a committee" items.
+
 ### 2026-11-03 (late night): Ballot Buddy, an app on your phone with accounts; candidates' records checked
 
 - **The app is now Ballot Buddy.** Tyler picked the Star Buddy logo from five options (buddy/logos/). It has its own address, https://ballotbuddy.appolis.app (Worker `ballot-buddy`, code in buddy/worker), and the GitHub Pages link keeps working.
