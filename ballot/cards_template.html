@@ -149,6 +149,7 @@ table.t td.r{text-align:right;white-space:nowrap;font-weight:700}
 .side div{margin:4px 0}
 footer{color:var(--sub);font-size:12.5px;margin-top:36px;text-align:center}
 body.locked{overflow:hidden}
+.newpage{display:block;text-decoration:none;color:var(--ink);background:var(--amber-bg);border:2px solid var(--amber);border-radius:14px;padding:12px 14px;margin:0 0 12px;font-size:14.5px}
 /* ---------- Voting today ---------- */
 .vote{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:14px 16px;margin:4px 0 14px;border-left:6px solid #b22234}
 .vh{display:flex;gap:12px;align-items:center}
@@ -381,6 +382,7 @@ function home() {
   document.title = D.title;
   let h = `<header class="top"><div class="logo">🗳️</div><div><h1>Your ballot · Palmetto 34221</h1><p>${esc(D.kicker.replace(/^General election · /, ""))}</p></div></header>
     <div class="pills"><button class="pill" data-sheet="how">📊 How scores work</button><button class="pill" data-sheet="src">📣 Your sources</button><button class="pill" data-sheet="about">ℹ️ About</button></div>
+    <a class="newpage" href="ballot.html">🆕 <b>Not in Palmetto?</b> Type any Florida address and see your own ballot →</a>
     ${voteBox()}
     <h2 class="grp" style="margin-top:6px">🎨 Card style</h2>${deckPicker()}<p class="deckhint">Same facts and scores in every style. Pick the one that's easiest for you to read.</p>`;
   for (const g of D.groups) {
