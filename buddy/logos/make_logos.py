@@ -1,0 +1,89 @@
+"""Ballot Buddy: five logo concepts as full-bleed square app icons (the phone rounds the corners itself),
+plus logos.html, the page Tyler picks from. Run: python make_logos.py"""
+from pathlib import Path
+
+HERE = Path(__file__).parent
+
+ICONS = {
+    "check-smile": ("Check Smile", "A friendly ballot whose checkmark is its smile. Navy and white, with a green check.",
+        """<defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a3161"/><stop offset="1" stop-color="#1f5fae"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g1)"/>
+<g transform="rotate(-7 256 266)">
+<rect x="128" y="96" width="256" height="328" rx="34" fill="#0a1f3d" opacity=".35" transform="translate(10 14)"/>
+<rect x="128" y="96" width="256" height="328" rx="34" fill="#ffffff"/>
+<rect x="160" y="132" width="120" height="14" rx="7" fill="#c9d6ea"/><rect x="160" y="160" width="80" height="14" rx="7" fill="#c9d6ea"/>
+<circle cx="205" cy="228" r="17" fill="#0a3161"/><circle cx="307" cy="228" r="17" fill="#0a3161"/>
+<path d="M172 296 L226 350 L344 262" fill="none" stroke="#16a34a" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/>
+</g>"""),
+    "box-pal": ("Ballot Box Pal", "A smiling ballot box with a vote dropping in. Bold red, white and blue.",
+        """<defs><linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e11d48"/><stop offset="1" stop-color="#9f1239"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g2)"/>
+<g transform="rotate(8 256 150)"><rect x="196" y="58" width="132" height="168" rx="16" fill="#ffffff"/>
+<rect x="216" y="86" width="70" height="12" rx="6" fill="#bfd0ea"/><rect x="216" y="110" width="50" height="12" rx="6" fill="#bfd0ea"/>
+<path d="M228 160 l18 18 l38 -40" fill="none" stroke="#1d4ed8" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/></g>
+<rect x="92" y="214" width="328" height="232" rx="38" fill="#ffffff"/>
+<rect x="92" y="214" width="328" height="58" rx="29" fill="#1e3a8a"/>
+<rect x="176" y="234" width="160" height="18" rx="9" fill="#0b1b45"/>
+<circle cx="206" cy="336" r="16" fill="#1e3a8a"/><circle cx="306" cy="336" r="16" fill="#1e3a8a"/>
+<path d="M200 384 Q256 426 312 384" fill="none" stroke="#1e3a8a" stroke-width="16" stroke-linecap="round"/>
+"""),
+    "speech-b": ("Talking B", "A bold B in a speech bubble: your buddy that explains the ballot. Florida sunshine orange.",
+        """<defs><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff7a00"/><stop offset="1" stop-color="#ffc233"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g3)"/>
+<path d="M120 112 h272 a46 46 0 0 1 46 46 v168 a46 46 0 0 1 -46 46 h-130 l-74 64 v-64 h-68 a46 46 0 0 1 -46 -46 v-168 a46 46 0 0 1 46 -46z" fill="#ffffff"/>
+<text x="248" y="320" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="210" text-anchor="middle" fill="#0a3161">B</text>
+<circle cx="384" cy="118" r="62" fill="#16a34a" stroke="#ffffff" stroke-width="14"/>
+<path d="M356 118 l20 20 l36 -40" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>"""),
+    "pin-check": ("Map Pin Check", "A map pin with a check inside, under a Florida sun: the ballot for exactly where you live.",
+        """<defs><linearGradient id="g4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0e7490"/><stop offset="1" stop-color="#0f766e"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g4)"/>
+<circle cx="370" cy="132" r="62" fill="#fde047"/>
+<g stroke="#fde047" stroke-width="12" stroke-linecap="round"><path d="M370 40 v22"/><path d="M370 202 v22"/><path d="M278 132 h22"/><path d="M440 132 h22"/><path d="M305 67 l15 15"/><path d="M420 182 l15 15"/><path d="M435 67 l-15 15"/></g>
+<path d="M0 420 Q128 384 256 420 T512 420 V512 H0z" fill="#14b8a6" opacity=".55"/>
+<path d="M0 452 Q128 416 256 452 T512 452 V512 H0z" fill="#5eead4" opacity=".45"/>
+<path d="M226 92 c-74 0 -130 56 -130 128 c0 96 130 216 130 216 s130 -120 130 -216 c0 -72 -56 -128 -130 -128z" fill="#ffffff"/>
+<circle cx="226" cy="220" r="78" fill="#0a3161"/>
+<path d="M188 222 l26 26 l52 -56" fill="none" stroke="#4ade80" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>"""),
+    "star-buddy": ("Star Buddy", "A cheerful star with a face, riding red and white stripes. Classic American, friendly.",
+        """<defs><linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3a8a"/><stop offset="1" stop-color="#2563eb"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g5)"/>
+<path d="M0 372 Q128 344 256 372 T512 372 V512 H0z" fill="#ef4444"/>
+<path d="M0 404 Q128 376 256 404 T512 404 V512 H0z" fill="#ffffff"/>
+<path d="M0 436 Q128 408 256 436 T512 436 V512 H0z" fill="#ef4444"/>
+<path d="M0 468 Q128 440 256 468 T512 468 V512 H0z" fill="#ffffff"/>
+<path d="M256 58 L301 178 L428 184 L328 262 L363 386 L256 316 L149 386 L184 262 L84 184 L211 178 Z" fill="#ffffff" stroke="#ffffff" stroke-width="22" stroke-linejoin="round"/>
+<circle cx="224" cy="222" r="15" fill="#1e3a8a"/><circle cx="288" cy="222" r="15" fill="#1e3a8a"/>
+<path d="M222 262 Q256 292 290 262" fill="none" stroke="#1e3a8a" stroke-width="13" stroke-linecap="round"/>
+<circle cx="203" cy="258" r="11" fill="#fca5a5"/><circle cx="309" cy="258" r="11" fill="#fca5a5"/>"""),
+}
+
+
+def svg(body):
+    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">{body}</svg>'
+
+
+for slug, (_, _, body) in ICONS.items():
+    (HERE / f"{slug}.svg").write_text(svg(body), encoding="utf-8")
+
+cards = "".join(f"""<section class="opt"><div class="num">{i}</div>
+  <div class="row"><div class="ico big">{svg(b)}</div>
+  <div class="home"><div class="ico sm">{svg(b)}</div><span>Ballot Buddy</span></div></div>
+  <div class="lock"><div class="ico xs">{svg(b)}</div><b>Ballot Buddy</b></div>
+  <h2>{i}. {name}</h2><p>{why}</p></section>""" for i, (slug, (name, why, b)) in enumerate(ICONS.items(), 1))
+
+(HERE / "index.html").write_text(f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ballot Buddy logos</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&display=swap" rel="stylesheet">
+<style>:root{{--bg:#f4f6fb;--card:#fff;--ink:#0f172a;--sub:#5b6476}}
+@media (prefers-color-scheme:dark){{:root{{--bg:#0b1020;--card:#151b2e;--ink:#eef2ff;--sub:#a3acc2}}}}
+body{{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}}
+main{{max-width:760px;margin:0 auto;padding:20px 16px 60px}}h1{{font:900 28px Nunito,system-ui;margin:6px 0}}.lead{{color:var(--sub);margin:0 0 18px}}
+.opt{{position:relative;background:var(--card);border-radius:22px;padding:18px;margin:0 0 16px;box-shadow:0 6px 24px rgba(0,0,0,.08)}}
+.num{{position:absolute;top:14px;right:16px;font:900 15px Nunito;color:var(--sub)}}
+.row{{display:flex;gap:18px;align-items:center;flex-wrap:wrap}}.ico svg{{display:block;width:100%;height:100%}}.ico{{overflow:hidden;border-radius:22.5%;flex:none}}
+.big{{width:148px;height:148px;box-shadow:0 8px 22px rgba(0,0,0,.18)}}
+.home{{display:flex;flex-direction:column;align-items:center;gap:6px;background:linear-gradient(160deg,#3b5998,#8b5cf6);padding:16px 20px;border-radius:18px}}
+.home span{{color:#fff;font-size:12px;text-shadow:0 1px 2px rgba(0,0,0,.4)}}.sm{{width:64px;height:64px}}
+.lock{{display:flex;align-items:center;gap:10px;margin:14px 0 0}}.xs{{width:40px;height:40px}}.lock b{{font:900 26px Nunito,system-ui;letter-spacing:-.01em}}
+h2{{font:900 19px Nunito,system-ui;margin:14px 0 2px}}p{{margin:0;color:var(--sub)}}</style></head>
+<body><main><h1>Ballot Buddy: pick a logo</h1><p class="lead">Five directions. Each one is shown as the app icon, on a phone home screen, and next to the name. Your pick becomes the home-screen icon and the App Store icon.</p>{cards}</main></body></html>""", encoding="utf-8")
+print("wrote", len(ICONS), "icons + index.html")
