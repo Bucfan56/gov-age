@@ -326,6 +326,13 @@ details.today .vote .vh{display:none}
 .mine .mq{flex:1;min-width:0;font-size:13.5px;color:var(--sub);font-weight:700;line-height:1.3}
 .mine .ma{font-size:18px;font-weight:800;text-align:right;max-width:55%}
 .mine .ma.none{color:var(--amber);font-size:14px}
+.trade .tq{border-top:1px solid var(--line);padding:10px 0 4px}
+.trade .th{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-weight:800;font-size:15px}
+.trade .th .sv{font-size:12.5px;color:var(--sub);font-weight:700}
+.trade .vd{margin-left:auto;font-size:12px;font-weight:800;padding:3px 10px;border-radius:999px;white-space:nowrap}
+.trade .vd.up{background:var(--good-bg);color:var(--good)}.trade .vd.dn{background:var(--bad-bg);color:var(--bad)}.trade .vd.ev{background:var(--chip);color:var(--sub)}
+.trade ul{margin:6px 0 0;padding:0;list-style:none;font-size:13.5px;line-height:1.45}
+.trade li.u::before{content:"▲ ";color:var(--good)}.trade li.d::before{content:"▼ ";color:var(--bad)}
 @media print{.navbar{display:none!important}}
 .navbar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;justify-content:space-around;background:var(--card);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom));box-shadow:0 -6px 20px rgba(0,0,0,.08)}
 .navbar button{flex:1;border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11px;font-weight:700;color:var(--sub);padding:4px 0;cursor:pointer}
@@ -391,6 +398,33 @@ function lines(r) {
 const partyName = p => esc(String(p || "").replace(/^REP$/, "Republican").replace(/^DEM$/, "Democrat").replace(/^NPA$/, "No party").replace(/^NP$/, "Nonpartisan").replace(/^NP \(/, "Nonpartisan ("));
 const flags = c => (c.controversies || []).filter(x => x.status !== "dismissed" && x.status !== "resolved");
 const srcHits = c => (c.owner_sources || []).length;
+// Trade check: every other candidate weighed against the voter's pick (the top-rated one until she picks)
+const mv = m => m && m.v != null ? m.v : null;
+const TRADE = [["🏠", c => c.score.local, "more of their money from home", "less of their money from home"],
+  ["🗽", c => c.score.foreign, "fewer foreign ties", "more foreign ties"],
+  ["💵", c => c.score.indep, "less tied to big donors", "more tied to big donors"],
+  ["🌾", c => c.score.land, "protects land more", "protects land less"],
+  ["🎯", c => c.prio, "closer to your priorities", "further from your priorities"],
+  ["🎓", c => c.qual, "more qualified", "less qualified"],
+  ["🌴", c => c.roots, "deeper Florida roots", "shallower Florida roots"]];
+function tradeCheck(r) {
+  if (r.kind !== "race" || r.cands.length < 2) return "";
+  const pick = r.cands.find(c => c.name === PICKS[r.id]), base = pick || r.cands[0], last = n => n.split(" ").slice(-1)[0];
+  const rows = r.cands.filter(c => c !== base).map(c => {
+    const up = [], dn = [];
+    for (const [ic, get, more, less] of TRADE) {
+      const a = mv(get(base)), v = mv(get(c));
+      if (a == null || v == null) continue;
+      if (v - a >= 5) up.push(`${ic} ${more} (+${v - a})`); else if (a - v >= 5) dn.push(`${ic} ${less} (−${a - v})`);
+    }
+    const fa = flags(base).length, fc = flags(c).length;
+    if (fc < fa) up.push(`⚠ ${fa - fc} fewer problem${fa - fc > 1 ? "s" : ""} on record`); else if (fc > fa) dn.push(`⚠ ${fc - fa} more problem${fc - fa > 1 ? "s" : ""} on record`);
+    const oa = base.score.overall, oc = c.score.overall;
+    const [cls, word] = oa == null || oc == null ? ["ev", "Can't score this trade"] : oc - oa >= 5 ? ["up", "Better trade"] : oa - oc >= 5 ? ["dn", "Worse trade"] : ["ev", "About even"];
+    return `<div class="tq"><div class="th">${esc(c.name)} ${PARTY(c.party)}<span class="sv">${oc ?? "—"} vs ${oa ?? "—"}${(c.score.indep == null) !== (base.score.indep == null) ? " · ◔ " + esc(last((c.score.indep == null ? c : base).name)) + " partly rated: no money data" : ""}</span><span class="vd ${cls}">${word}</span></div><ul>${up.map(x => `<li class="u">${esc(x)}</li>`).join("")}${dn.map(x => `<li class="d">${esc(x)}</li>`).join("")}${up.length || dn.length ? "" : `<li>About the same as ${esc(last(base.name))} on everything we measured.</li>`}</ul></div>`;
+  });
+  return `<div class="mcard trade" id="trade"><h3>⚖️ Trade check</h3><p class="mini muted">${pick ? `Every other candidate weighed against your pick, <b>${esc(base.name)}</b>: ▲ what they'd bring, ▼ what you'd give up.` : `Weighed against #1 on the list, <b>${esc(base.name)}</b>. Pick someone above and this weighs everyone against your pick.`} Small differences (under 5 points) are left out.</p>${rows.join("")}</div>`;
+}
 
 function meter(icon, label, m) {
   const v = m && m.v != null ? m.v : null;
@@ -726,7 +760,7 @@ function racePage(r) {
   let h = `<div class="bar"><button class="backbtn" data-go="" aria-label="All races">←</button><div class="bt"><h1>${esc(r.kind === "measure" ? r.short + ": " + r.sub : r.title)}</h1>${pos >= 0 ? `<span>${pos + 1} of ${list.length} on your ballot</span>` : ""}</div></div>`;
   const scope = applies(r, ctx) === null ? `<span class="tag addr">Only some addresses${r.scope_note ? ": " + esc(r.scope_note) : ""}</span><br>` : "";
   if (r.kind === "race") {
-    h += `<p class="lead">${scope}${esc(r.note || "")} Ranked by score. Tap a card to flip it.</p><div class="cards">${r.cands.map((c, i) => card(r, c, i)).join("")}</div><div class="pickbar"><h4>📝 My pick</h4>${pickBtns(r.id, r.cands.map(c => c.name))}</div>${r.cands.length > 1 ? `<div class="cdots">${r.cands.map((c, i) => `<i${i ? "" : ' class="on"'}></i>`).join("")}</div><p class="swipehint">Swipe for the other ${r.cands.length - 1 === 1 ? "candidate" : r.cands.length - 1 + " candidates"} →</p>` : ""}${compareVotes(r)}`;
+    h += `<p class="lead">${scope}${esc(r.note || "")} Ranked by score. Tap a card to flip it.</p><div class="cards">${r.cands.map((c, i) => card(r, c, i)).join("")}</div><div class="pickbar"><h4>📝 My pick</h4>${pickBtns(r.id, r.cands.map(c => c.name))}</div>${r.cands.length > 1 ? `<div class="cdots">${r.cands.map((c, i) => `<i${i ? "" : ' class="on"'}></i>`).join("")}</div><p class="swipehint">Swipe for the other ${r.cands.length - 1 === 1 ? "candidate" : r.cands.length - 1 + " candidates"} →</p>` : ""}${tradeCheck(r)}${compareVotes(r)}`;
   } else if (r.kind === "judges") {
     h += `<p class="lead">${esc(r.note || "")} Not scored: judges raise no campaign money.</p>`;
     h += r.judges.map((j, ji) => `<div class="mcard"><h3>⚖️ ${esc(j.name)}</h3><p class="pkh">📝 My pick: keep this judge?</p>${pickBtns(r.id + "|" + ji, ["Yes", "No"])}<p class="mini">${esc(j.text)}</p>${(j.items || []).length ? `<details><summary>Rulings & record (${j.items.length})</summary><ul>${j.items.map(x => `<li>${esc(x.text)}${link(x.url)}</li>`).join("")}</ul></details>` : ""}${ownBox(j.owner_sources, j.owner_sources_searched)}</div>`).join("");
@@ -862,7 +896,7 @@ const curPage = () => decodeURIComponent(location.hash.slice(1)).split("/")[0];
 document.addEventListener("click", e => {
   const t = e.target;
   const pk = t.closest("[data-pick]");
-  if (pk) { const k = pk.dataset.pick, grp = pk.parentElement, opts = [...grp.children].map(b => b.dataset.val); setPick(k, pk.dataset.val); grp.outerHTML = pickBtns(k, opts); return; }
+  if (pk) { const k = pk.dataset.pick, grp = pk.parentElement, opts = [...grp.children].map(b => b.dataset.val); setPick(k, pk.dataset.val); grp.outerHTML = pickBtns(k, opts); const tr = $("#trade"), rr = raceById(k); if (tr && rr) tr.outerHTML = tradeCheck(rr); return; }
   const go = t.closest("[data-go]");
   if (go) { location.hash = go.dataset.go; return; }
   const sh = t.closest("[data-sheet]");
