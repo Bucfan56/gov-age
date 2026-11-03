@@ -1,0 +1,2827 @@
+{
+ "slice": "manatee-county-all-races",
+ "done": true,
+ "zip34209": {
+  "method": "ZIP 34209 address points (19,593 from Manatee County GIS General/FeatureServer/5) were sampled (~1,400 addresses spread over every street) and each run through the Supervisor of Elections precinct finder (voterfocus.com PrecinctFinder, county FL-MAN). The personalized sample-ballot PDF for every precinct split found was then downloaded (https://www.voterfocus.com/SampleBallots/WHSampleBallot.php?county=manatee&precinct=<split>&party=GEN&election=245&city=&ward=) and its contest list read. About 170 sampled addresses (mostly long or arterial streets such as Manatee Ave W, 33rd Ave Dr W, Perico Bay Blvd, 59th/60th St W) could not be matched by the lookup and are unresolved, so a few other splits may exist.",
+  "precincts": [
+   {
+    "precinct": "311",
+    "splits": [
+     "311.1"
+    ],
+    "polling_place": "Redeemer Lutheran Church, 6311 3rd Ave W, Bradenton, FL 34209",
+    "city_of_bradenton": false,
+    "west_manatee_fire": true
+   },
+   {
+    "precinct": "313",
+    "splits": [
+     "313.2"
+    ],
+    "polling_place": "Mount Vernon Rec Hall, 4701 Independence Dr, Bradenton, FL 34210",
+    "city_of_bradenton": false,
+    "west_manatee_fire": true,
+    "note": "only 3 sampled 34209 addresses; mostly a 34210 precinct"
+   },
+   {
+    "precinct": "315",
+    "splits": [
+     "315.1",
+     "315.2"
+    ],
+    "polling_place": "American Legion Post #24, 2000 75th St W, Bradenton, FL 34209",
+    "city_of_bradenton": "315.2 yes, 315.1 no",
+    "west_manatee_fire": "315.1 yes, 315.2 no"
+   },
+   {
+    "precinct": "317",
+    "splits": [
+     "317.1"
+    ],
+    "polling_place": "Manatee River Garden Center, 3120 1st Ave W, Bradenton, FL 34205",
+    "city_of_bradenton": false,
+    "west_manatee_fire": true,
+    "note": "polling place is in 34205 but 34209 addresses are assigned to it"
+   },
+   {
+    "precinct": "323",
+    "splits": [
+     "323.1",
+     "323.2",
+     "323.3",
+     "323.5"
+    ],
+    "polling_place": "Elks Lodge #1511, 2511 75th St W, Bradenton, FL 34209",
+    "city_of_bradenton": "323.3 and 323.5 yes; 323.1 and 323.2 no",
+    "west_manatee_fire": "323.2 only (323.1 has no fire-district race; 323.3/323.5 are inside the city)"
+   },
+   {
+    "precinct": "325",
+    "splits": [
+     "325.1",
+     "325.2",
+     "325.3",
+     "325.4"
+    ],
+    "polling_place": "G T Bray Park, 5502 33rd Avenue Dr W, Bradenton, FL 34209",
+    "city_of_bradenton": "325.3 and 325.4 yes; 325.1 and 325.2 no",
+    "west_manatee_fire": "325.2 only"
+   },
+   {
+    "precinct": "327",
+    "splits": [
+     "327.2"
+    ],
+    "polling_place": "Lakeside South Clubhouse, 3817 40th Ave W, Bradenton, FL 34205",
+    "city_of_bradenton": true,
+    "west_manatee_fire": false,
+    "note": "1 sampled 34209 address"
+   },
+   {
+    "precinct": "333",
+    "splits": [
+     "333.1",
+     "333.3"
+    ],
+    "polling_place": "West Bradenton Baptist Church, 1305 43rd St W, Bradenton, FL 34209",
+    "city_of_bradenton": "333.3 yes; 333.1 no",
+    "west_manatee_fire": "333.1 only"
+   }
+  ],
+  "common_to_every_34209_ballot": [
+   "U.S. Senator (Moody REP / Nixon DEM / Gillespie NPA)",
+   "U.S. Representative, District 16 (Gruters REP / Kirschner DEM / Davis NPA)",
+   "Governor & Lt Governor (16 tickets)",
+   "Attorney General",
+   "Chief Financial Officer",
+   "Commissioner of Agriculture",
+   "State Senator, District 20 (Jim Boyd REP / Gerald Baldi DEM)",
+   "State Representative, District 71 (Varnadore REP / Fitts DEM / Hoolihan NPA)",
+   "County Commissioner, District 6 At-Large (Tara Poulton REP / Reggie Bellamy DEM)",
+   "Florida Supreme Court retention: Carlos G. Muniz",
+   "2nd District Court of Appeal retention: Drew Atkinson, Morris Silberman, Daniel H. Sleet, Andrea Teves Smith",
+   "Mosquito Control District, Group 1 (Scott Johnson / Rodney O'Quinn / Charles 'Rick' Richards)",
+   "Constitutional Amendments 1, 2, 3",
+   "Manatee County Referendum: Water Quality Protection ... General Obligation Bond (0.16 mill, up to $75M)"
+  ],
+  "only_on_some_34209_ballots": [
+   "West Manatee Fire and Rescue Seats 2, 3, 4: on splits 311.1, 313.2, 315.1, 317.1, 323.2, 325.2, 333.1 (NOT on 323.1, 325.1 or any in-city split)",
+   "Bradenton City Council Ward 3 and Ward 4, plus City of Bradenton Referendums No. 1 and No. 2: on in-city splits 315.2, 323.3, 323.5, 325.3, 325.4, 327.2, 333.3 (council seats are residency-ward seats voted citywide: every city voter sees both)"
+  ],
+  "NOT_on_any_34209_ballot": [
+   "School Board (Districts 2 and 5 only; no 34209 split has one)",
+   "County Commission Districts 1 and 2 (34209 is District 3, not up in 2026)",
+   "State House 70/72",
+   "State Senate 22",
+   "Holmes Beach, Palmetto, Anna Maria, Longboat Key, Bradenton Beach contests",
+   "East Manatee / Parrish fire",
+   "any CDD or Stewardship District seat (Palma Sola Trace CDD overlaps 34209 but has no seat up)"
+  ],
+  "contests": [
+   {
+    "id": "man-cd16",
+    "contest": "U.S. Representative, District 16",
+    "where": {
+     "county": "Manatee"
+    },
+    "ballot_splits": "all"
+   },
+   {
+    "id": "man-sd20",
+    "contest": "State Senator, District 20",
+    "where": {
+     "county": "Manatee",
+     "sd": 20
+    },
+    "ballot_splits": "all"
+   },
+   {
+    "id": "man-hd71",
+    "contest": "State Representative, District 71",
+    "where": {
+     "county": "Manatee",
+     "hd": 71
+    },
+    "ballot_splits": "all"
+   },
+   {
+    "id": "man-cc6",
+    "contest": "County Commissioner, District 6 (At-Large)",
+    "where": {
+     "county": "Manatee"
+    },
+    "ballot_splits": "all"
+   },
+   {
+    "id": "man-mosq1",
+    "contest": "Mosquito Control District, Group 1",
+    "where": {
+     "county": "Manatee"
+    },
+    "ballot_splits": "all"
+   },
+   {
+    "id": "man-ref-1",
+    "contest": "Manatee County Water Quality / Natural Lands GO Bond referendum (0.16 mill, $75M)",
+    "where": {
+     "county": "Manatee"
+    },
+    "ballot_splits": "all"
+   },
+   {
+    "id": "wmfr-seat2",
+    "contest": "West Manatee Fire and Rescue, Seat 2",
+    "where": {
+     "special": "West Manatee Fire and Rescue"
+    },
+    "ballot_splits": [
+     "311.1",
+     "313.2",
+     "315.1",
+     "317.1",
+     "323.2",
+     "325.2",
+     "333.1"
+    ]
+   },
+   {
+    "id": "wmfr-seat3",
+    "contest": "West Manatee Fire and Rescue, Seat 3",
+    "where": {
+     "special": "West Manatee Fire and Rescue"
+    },
+    "ballot_splits": [
+     "311.1",
+     "313.2",
+     "315.1",
+     "317.1",
+     "323.2",
+     "325.2",
+     "333.1"
+    ]
+   },
+   {
+    "id": "wmfr-seat4",
+    "contest": "West Manatee Fire and Rescue, Seat 4",
+    "where": {
+     "special": "West Manatee Fire and Rescue"
+    },
+    "ballot_splits": [
+     "311.1",
+     "313.2",
+     "315.1",
+     "317.1",
+     "323.2",
+     "325.2",
+     "333.1"
+    ]
+   },
+   {
+    "id": "brd-council-3",
+    "contest": "Bradenton City Council, Ward 3",
+    "where": {
+     "city": "Bradenton"
+    },
+    "ballot_splits": [
+     "315.2",
+     "323.3",
+     "323.5",
+     "325.3",
+     "325.4",
+     "327.2",
+     "333.3"
+    ]
+   },
+   {
+    "id": "brd-council-4",
+    "contest": "Bradenton City Council, Ward 4",
+    "where": {
+     "city": "Bradenton"
+    },
+    "ballot_splits": [
+     "315.2",
+     "323.3",
+     "323.5",
+     "325.3",
+     "325.4",
+     "327.2",
+     "333.3"
+    ]
+   },
+   {
+    "id": "brd-ref-1",
+    "contest": "City of Bradenton Referendum No. 1",
+    "where": {
+     "city": "Bradenton"
+    },
+    "ballot_splits": [
+     "315.2",
+     "323.3",
+     "323.5",
+     "325.3",
+     "325.4",
+     "327.2",
+     "333.3"
+    ]
+   },
+   {
+    "id": "brd-ref-2",
+    "contest": "City of Bradenton Referendum No. 2",
+    "where": {
+     "city": "Bradenton"
+    },
+    "ballot_splits": [
+     "315.2",
+     "323.3",
+     "323.5",
+     "325.3",
+     "325.4",
+     "327.2",
+     "333.3"
+    ]
+   }
+  ],
+  "statewide_and_judicial": "U.S. Senator, Governor/Lt Governor, Attorney General, CFO, Agriculture Commissioner, Supreme Court retention (Muniz), 2nd DCA retention x4, Amendments 1-3 (already researched in ballot-34221.json)"
+ },
+ "gis": {
+  "note": "Verified live 2026-11-03 with the curl in the task (Origin https://bucfan56.github.io). Layers below return Access-Control-Allow-Origin unless marked untested. Query by point: <layer>/query?geometry=<lon>,<lat>&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=false&f=json. NO public Manatee precinct or school-board polygon layer was found (county GIS gisits/gishost/gisbads, PAO GIS, ArcGIS Online search); see precincts.note for the working address->precinct route.",
+  "commission": {
+   "url": "https://www.mymanatee.org/gisits/rest/services/opendata/General/FeatureServer/7",
+   "query_example": "https://www.mymanatee.org/gisits/rest/services/opendata/General/FeatureServer/7/query?geometry=-82.5682,27.4694&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=false&f=json",
+   "fields": [
+    "COMMDIST (1-7 integer)",
+    "COMMNAME (current commissioner name)"
+   ],
+   "cors": "Access-Control-Allow-Origin echoed (https://bucfan56.github.io), Allow-Credentials true",
+   "tested": "point -82.5682,27.4694 -> COMMDIST 2 (Amanda Ballard)"
+  },
+  "cities": {
+   "url": "https://www.mymanatee.org/gishost/rest/services/Hosted/IncorporatedAreas_CityBoundaries/FeatureServer/0",
+   "fields": [
+    "name (Bradenton Beach, Longboat Key, Holmes Beach, Anna Maria, Palmetto, Bradenton)",
+    "special_de (BB, LK, HB, AM, PL, BR)"
+   ],
+   "cors": "Access-Control-Allow-Origin echoed (https://bucfan56.github.io)",
+   "alt": "https://www.mymanatee.org/gisits/rest/services/opendata/General/FeatureServer/1 (Municipal Boundaries; also has an unincorporated filler polygon NAME='South County'; CORS echoed)",
+   "note": "point outside every city -> empty features -> unincorporated"
+  },
+  "bradenton_wards": {
+   "url": "https://services6.arcgis.com/wl0q8tN2gn8MMx1p/arcgis/rest/services/WardsCityCouncil_CoB/FeatureServer/0",
+   "fields": [
+    "WARD (1-5)"
+   ],
+   "cors": "Access-Control-Allow-Origin: *",
+   "note": "City of Bradenton. Not needed for 2026 ballot content because Ward 3/4 seats are citywide, but gives the voter's ward."
+  },
+  "zip": {
+   "url": "https://www.mymanatee.org/gisits/rest/services/opendata/General/FeatureServer/15",
+   "fields": [
+    "ZIP",
+    "CITY"
+   ],
+   "cors": "echoed"
+  },
+  "fire_districts": {
+   "url": "https://gis.manateepao.com/arcgis/rest/services/Website/DistrictPLSSLayers/MapServer/2",
+   "fields": [
+    "CODE",
+    "NAME"
+   ],
+   "note": "West Manatee Fire & Rescue = CODE FD01; Cedar Hammock FCD = FD02. Layer 3 = CDDs, 14 = Stewardship districts, 13 = cities. CORS not tested."
+  },
+  "state_legislature_and_congress": {
+   "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer",
+   "layers": {
+    "0": "120th Congressional Districts (field CD120)",
+    "1": "2026 State Legislative Districts - Upper (BASENAME)",
+    "2": "2026 State Legislative Districts - Lower (BASENAME)"
+   },
+   "note": "Census TIGERweb; the 34209 ZIP polygon intersects only CD16, SD20, HD71. CORS not tested."
+  },
+  "precincts": {
+   "url": null,
+   "fields": null,
+   "cors": null,
+   "note": "None public. Working route for a lookup page: SOE precinct finder JSON https://www.voterfocus.com/PrecinctFinder/addressSearchProcessing?searchJSON={\"streetNumber\":\"6311\",\"streetName\":\"3rd\",\"county\":\"FL-MAN\"} returns [{partialLine1,streetName,streetType,streetDirectionAsSuffix,city,zipCode,precinct:\"311.1\"}] (the street number must exist on that street). CORS NOT tested; treat as server-side or link-out. Personal sample ballot per split (PDF): https://www.voterfocus.com/SampleBallots/WHSampleBallot.php?county=manatee&precinct=311.1&party=GEN&election=245&city=&ward= . Voter-facing lookup: https://www.voterfocus.com/PrecinctFinder/addressSearch?county=FL-MAN and https://www.votemanatee.gov/precinct-finder/"
+  },
+  "school": {
+   "url": null,
+   "fields": null,
+   "cors": null,
+   "note": "No public school-board-district polygon layer found. SOE publishes a PDF map: https://www.votemanatee.gov/download/32/manatee-county-election-district-maps/8231/school-board-11x17 . Only Districts 2 and 5 are on the 2026 ballot; the personalized sample ballot is authoritative."
+  },
+  "special": {
+   "West Manatee Fire and Rescue": {
+    "url": "https://gis.manateepao.com/arcgis/rest/services/Website/DistrictPLSSLayers/MapServer/2",
+    "filter": "NAME = 'WEST MANATEE FIRE & RESCUE DISTRICT' (CODE FD01); the layer returns whichever fire district the point is in",
+    "query_example": "https://gis.manateepao.com/arcgis/rest/services/Website/DistrictPLSSLayers/MapServer/2/query?geometry=-82.6253,27.4974&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=CODE,NAME&returnGeometry=false&f=json",
+    "fields": [
+     "CODE",
+     "NAME"
+    ],
+    "cors": "Access-Control-Allow-Origin echoed (https://bucfan56.github.io), tested 2026-11-03",
+    "tested": "6311 3rd Ave W (-82.6253,27.4974) -> FD01 WEST MANATEE FIRE & RESCUE DISTRICT; same point: city layer empty (unincorporated), commission district 3"
+   },
+   "East Manatee Fire Rescue": {
+    "url": "https://gis.manateepao.com/arcgis/rest/services/Website/DistrictPLSSLayers/MapServer/2",
+    "filter": "NAME = 'EAST MANATEE FIRE RESCUE DISTRICT'",
+    "cors": "same layer, echoed"
+   },
+   "Parrish Fire District": {
+    "url": "https://gis.manateepao.com/arcgis/rest/services/Website/DistrictPLSSLayers/MapServer/2",
+    "filter": "NAME = 'PARRISH FIRE DISTRICT'",
+    "cors": "same layer, echoed"
+   },
+   "ALL CDDs": {
+    "url": "https://gis.manateepao.com/arcgis/rest/services/Website/DistrictPLSSLayers/MapServer/3",
+    "filter": "NAME like '<DISTRICT> CDD' e.g. 'HARRISON RANCH CDD', 'LAKEWOOD RANCH II CDD', 'HERITAGE HARBOUR NORTH CDD'",
+    "fields": [
+     "CODE",
+     "NAME"
+    ],
+    "cors": "layer reached with Origin header; same server as above, echoed on layer 2 (layer 3 header not separately logged)"
+   },
+   "Lakewood Ranch Stewardship District": {
+    "url": "https://gis.manateepao.com/arcgis/rest/services/Website/DistrictPLSSLayers/MapServer/14",
+    "filter": "NAME = 'LAKEWOOD RANCH STEWARDSHIP DISTRICT'",
+    "fields": [
+     "CODE",
+     "NAME"
+    ],
+    "cors": "same server, echoed"
+   },
+   "state_legislative_and_congress": {
+    "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer",
+    "layers": {
+     "0": "CD120 (U.S. House)",
+     "1": "2026 State Senate (BASENAME)",
+     "2": "2026 State House (BASENAME)"
+    },
+    "cors": "Access-Control-Allow-Origin echoed (https://bucfan56.github.io), tested 2026-11-03"
+   }
+  }
+ },
+ "updated": "2026-11-03T09:25:21-05:00",
+ "polling_places": [
+  {
+   "precinct": "101",
+   "name": "Piney Point MHP",
+   "address": "8600 29th Ave E, Palmetto, FL 34221"
+  },
+  {
+   "precinct": "103",
+   "name": "Family of God United Methodist Church",
+   "address": "5601 16th Ave E, Palmetto, FL 34221"
+  },
+  {
+   "precinct": "105",
+   "name": "Bayside North River Campus",
+   "address": "9505 Moccasin Wallow Rd, Parrish, FL 34219"
+  },
+  {
+   "precinct": "107",
+   "name": "Imperial Lakes Clubhouse",
+   "address": "8565 Crowns Ct, Palmetto, FL 34221"
+  },
+  {
+   "precinct": "109",
+   "name": "New Hope Baptist Church",
+   "address": "9422 Old Tampa Rd, Parrish, FL 34219"
+  },
+  {
+   "precinct": "111",
+   "name": "Rocky Bluff Library",
+   "address": "6750 US 301 N, Ellenton, FL 34222"
+  },
+  {
+   "precinct": "113",
+   "name": "River Life Church",
+   "address": "1012 57th St E, Bradenton, FL 34208"
+  },
+  {
+   "precinct": "115",
+   "name": "New Hope Baptist Church",
+   "address": "9422 Old Tampa Rd, Parrish, FL 34219"
+  },
+  {
+   "precinct": "117",
+   "name": "North River Church",
+   "address": "5525 Fort Hamer Rd, Parrish, FL 34219"
+  },
+  {
+   "precinct": "119",
+   "name": "Parrish United Methodist Church",
+   "address": "12180 US 301 N, Parrish, FL 34219"
+  },
+  {
+   "precinct": "121",
+   "name": "Christian Retreat, ITC Bldg",
+   "address": "1200 Glory Way Blvd, Bradenton, FL 34212"
+  },
+  {
+   "precinct": "123",
+   "name": "Duette Fire & Rescue District",
+   "address": "35800 State Road 62, Duette, FL 34219"
+  },
+  {
+   "precinct": "125",
+   "name": "Bethany Baptist Church",
+   "address": "26604 State Road 64 E, Myakka City, FL 34251"
+  },
+  {
+   "precinct": "127",
+   "name": "Myakka City United Methodist Church",
+   "address": "10525 Lebanon St, Myakka City, FL 34251"
+  },
+  {
+   "precinct": "201",
+   "name": "Palmetto Point Civic Association",
+   "address": "637 43rd Street Blvd W, Palmetto, FL 34221"
+  },
+  {
+   "precinct": "203",
+   "name": "Palmetto Library",
+   "address": "923 6th St W, Palmetto, FL 34221"
+  },
+  {
+   "precinct": "205",
+   "name": "Palmetto Youth Center",
+   "address": "501 17th St W, Palmetto, FL 34221"
+  },
+  {
+   "precinct": "207",
+   "name": "Bradenton Area Convention Center",
+   "address": "1 Haben Blvd, Palmetto, FL 34221"
+  },
+  {
+   "precinct": "209",
+   "name": "Mt Raymond Baptist Church",
+   "address": "2410 4th Ave E, Palmetto, FL 34221"
+  },
+  {
+   "precinct": "211",
+   "name": "The Source Church",
+   "address": "3607 US 301, Ellenton, FL 34222"
+  },
+  {
+   "precinct": "213",
+   "name": "Teamsters Local #173",
+   "address": "824 26th Ave E, Bradenton, FL 34208"
+  },
+  {
+   "precinct": "215",
+   "name": "Samoset Baptist Church",
+   "address": "3200 15th St E, Bradenton, FL 34208"
+  },
+  {
+   "precinct": "217",
+   "name": "Wakeland Support Center",
+   "address": "1812 27th St E, Bradenton, FL 34208"
+  },
+  {
+   "precinct": "219",
+   "name": "River Life Church",
+   "address": "1012 57th St E, Bradenton, FL 34208"
+  },
+  {
+   "precinct": "221",
+   "name": "River Life Church",
+   "address": "1012 57th St E, Bradenton, FL 34208"
+  },
+  {
+   "precinct": "223",
+   "name": "Rogers Community United Meth Ch",
+   "address": "1100 15th St E, Bradenton, FL 34208"
+  },
+  {
+   "precinct": "225",
+   "name": "Oneco Hope Global Methodist Church",
+   "address": "2112 53rd Ave E, Bradenton, FL 34203"
+  },
+  {
+   "precinct": "227",
+   "name": "Oneco Hope Global Methodist Church",
+   "address": "2112 53rd Ave E, Bradenton, FL 34203"
+  },
+  {
+   "precinct": "301",
+   "name": "Roser Memorial Community Church",
+   "address": "512 Pine Ave, Anna Maria, FL 34216"
+  },
+  {
+   "precinct": "303",
+   "name": "Terra Ceia VIA Club",
+   "address": "1505 Center Rd, Terra Ceia, FL 34221"
+  },
+  {
+   "precinct": "305",
+   "name": "Manatee County Island Branch Library",
+   "address": "5701 Marina Dr, Holmes Beach, FL 34217"
+  },
+  {
+   "precinct": "307",
+   "name": "Annie Silver Community Center",
+   "address": "103 23rd St N, Bradenton Beach, FL 34217"
+  },
+  {
+   "precinct": "309",
+   "name": "Longboat Island Chapel",
+   "address": "6200 Gulf of Mexico Dr, Longboat Key, FL 34228"
+  },
+  {
+   "precinct": "311",
+   "name": "Redeemer Lutheran Church",
+   "address": "6311 3rd Ave W, Bradenton, FL 34209"
+  },
+  {
+   "precinct": "313",
+   "name": "Mount Vernon Rec Hall",
+   "address": "4701 Independence Dr, Bradenton, FL 34210"
+  },
+  {
+   "precinct": "315",
+   "name": "American Legion Post #24",
+   "address": "2000 75th St W, Bradenton, FL 34209"
+  },
+  {
+   "precinct": "317",
+   "name": "Manatee River Garden Center",
+   "address": "3120 1st Ave W, Bradenton, FL 34205"
+  },
+  {
+   "precinct": "319",
+   "name": "Palmetto Library",
+   "address": "923 6th St W, Palmetto, FL 34221"
+  },
+  {
+   "precinct": "321",
+   "name": "Central Library",
+   "address": "1301 Barcarrota Ave, Bradenton, FL 34205"
+  },
+  {
+   "precinct": "323",
+   "name": "Elks Lodge #1511",
+   "address": "2511 75th St W, Bradenton, FL 34209"
+  },
+  {
+   "precinct": "325",
+   "name": "G T Bray Park",
+   "address": "5502 33rd Avenue Dr W, Bradenton, FL 34209"
+  },
+  {
+   "precinct": "327",
+   "name": "Lakeside South Clubhouse",
+   "address": "3817 40th Ave W, Bradenton, FL 34205"
+  },
+  {
+   "precinct": "329",
+   "name": "Bethel Baptist Church",
+   "address": "1805 30th Ave W, Bradenton, FL 34205"
+  },
+  {
+   "precinct": "333",
+   "name": "West Bradenton Baptist Church",
+   "address": "1305 43rd St W, Bradenton, FL 34209"
+  },
+  {
+   "precinct": "401",
+   "name": "Bayside Community Church, Bayshore",
+   "address": "5051 26th St W, Bradenton, FL 34207"
+  },
+  {
+   "precinct": "403",
+   "name": "South Manatee Library",
+   "address": "6081 26th St W, Bradenton, FL 34207"
+  },
+  {
+   "precinct": "405",
+   "name": "Trailer Estates Auditorium",
+   "address": "1903 69th Ave W, Bradenton, FL 34207"
+  },
+  {
+   "precinct": "407",
+   "name": "Midway Church of Christ",
+   "address": "7226 Tamiami Trl N, Sarasota, FL 34243"
+  },
+  {
+   "precinct": "409",
+   "name": "Golf Lakes MHP, Rec Hall",
+   "address": "5050 5th St E, Bradenton, FL 34203"
+  },
+  {
+   "precinct": "411",
+   "name": "Emmanuel United Methodist Church",
+   "address": "5115 Cortez Rd W, Bradenton, FL 34210"
+  },
+  {
+   "precinct": "413",
+   "name": "Legacy Baptist Church",
+   "address": "415 67th Ave W, Bradenton, FL 34207"
+  },
+  {
+   "precinct": "415",
+   "name": "Our Lady Queen of Martyrs Rec Hall",
+   "address": "6600 Pennsylvania Ave, Sarasota, FL 34243"
+  },
+  {
+   "precinct": "417",
+   "name": "Beautiful Savior Lutheran Church",
+   "address": "7461 Prospect Rd, Sarasota, FL 34243"
+  },
+  {
+   "precinct": "419",
+   "name": "Beautiful Savior Lutheran Church",
+   "address": "7461 Prospect Rd, Sarasota, FL 34243"
+  },
+  {
+   "precinct": "421",
+   "name": "Bayshore Gardens Rec Center",
+   "address": "6919 26th St W, Bradenton, FL 34207"
+  },
+  {
+   "precinct": "423",
+   "name": "SCF Rm 107 26 West Bldg",
+   "address": "5840 26th St W, Bradenton, FL 34207"
+  },
+  {
+   "precinct": "425",
+   "name": "Palm Aire Country Club",
+   "address": "5601 Country Club Way, Sarasota, FL 34243"
+  },
+  {
+   "precinct": "427",
+   "name": "St Barbara Greek Orthodox Church",
+   "address": "7671 Lockwood Ridge Rd, Sarasota, FL 34243"
+  },
+  {
+   "precinct": "429",
+   "name": "University Park Country Club",
+   "address": "7671 The Park Blvd, University Park, FL 34201"
+  },
+  {
+   "precinct": "501",
+   "name": "Heritage Harbour Golf & Eatery",
+   "address": "8000 Stone Harbour Loop, Bradenton, FL 34212"
+  },
+  {
+   "precinct": "503",
+   "name": "Braden River Library",
+   "address": "4915 53rd Ave E, Bradenton, FL 34203"
+  },
+  {
+   "precinct": "505",
+   "name": "Christ Presbyterian Church",
+   "address": "515 Upper Manatee River Rd, Bradenton, FL 34212"
+  },
+  {
+   "precinct": "507",
+   "name": "Oasis Church",
+   "address": "5215 Lorraine Rd, Bradenton, FL 34211"
+  },
+  {
+   "precinct": "509",
+   "name": "Bible Baptist Church",
+   "address": "2113 57th St E, Bradenton, FL 34208"
+  },
+  {
+   "precinct": "511",
+   "name": "The Preserve at Tara",
+   "address": "7340 Tara Preserve Ln, Bradenton, FL 34203"
+  },
+  {
+   "precinct": "513",
+   "name": "The Catholic Chapel",
+   "address": "7704 CR 675, Lakewood Ranch, FL 34211"
+  },
+  {
+   "precinct": "515",
+   "name": "LWR-Sarasota Elks Lodge #2855",
+   "address": "4602 Lena rd, Lakewood Ranch, FL 34202"
+  },
+  {
+   "precinct": "517",
+   "name": "Lakewood Ranch Town Hall",
+   "address": "8175 Lakewood Ranch Blvd, Lakewood Ranch, FL 34202"
+  },
+  {
+   "precinct": "519",
+   "name": "Bayside Community Church",
+   "address": "15800 State Road 64 E, Bradenton, FL 34212"
+  },
+  {
+   "precinct": "521",
+   "name": "Lakewood Ranch Library",
+   "address": "16410 Rangeland Pkwy, Lakewood Ranch, FL 34211"
+  },
+  {
+   "precinct": "523",
+   "name": "St Mary Magdalene Episcopal Church",
+   "address": "11315 Palmbrush Trl, Lakewood Ranch, FL 34202"
+  }
+ ],
+ "races": [
+  {
+   "id": "brd-council-3",
+   "office": "Bradenton City Council, Ward 3 (nonpartisan; seat is voted citywide by every Bradenton voter)",
+   "district": 3,
+   "kind": "city",
+   "sample_ballot_url": "https://www.votemanatee.gov/download/64/2026-general-election/9497/2026-generic-general-sample-ballot",
+   "note": "Residency-ward seat, elected at-large: every City of Bradenton voter sees both Ward 3 and Ward 4. Council votes for the incumbents were not retrievable today (city minutes not reachable, web-search quota exhausted).",
+   "candidates": [
+    {
+     "name": "Kemp Schuessler",
+     "party": "NP",
+     "incumbent": true,
+     "bio": "Appointed to Ward 3 on July 23, 2025 after Josh Cramer left the council to become police chief; term runs through January 2027. 30+ years in financial services (Wall Street adviser, then Florida insurance executive); now an independent insurance agent.",
+     "local_ties": "Longtime resident of the Wares Creek neighborhood (city profile).",
+     "record": [
+      {
+       "text": "Appointed to the council July 23, 2025 to fill the Ward 3 vacancy created when Josh Cramer became chief of police.",
+       "url": "https://cityofbradenton.com/schuessler"
+      },
+      {
+       "text": "Campaign site lists priorities: safe neighborhoods, dependable city services, smart growth and planning, reliable infrastructure, accountable leadership (campaign's own words).",
+       "url": "https://kempschuessler.com/"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "Campaign filings to 10/29/2026: $33,086.61 monetary + $495 in-kind contributions; $31,099.95 spent. Itemized receipts (county campaign-finance export) include $1,000 each from Lyteworks Inc. (Bradenton; gave $3,000, $2,000 refunded), Ellada Homes Inc. (home builder, Siesta Key), Dxcell Inc. (Battle Ground WA), Robert Spencer (farming), ZNS Engineering L.C. (Bradenton), Marshall Gobuty (sustainable developer, Sarasota), Galvano Grimes PL (legal, Bradenton), and a $1,000 political committee 'Firefighters & Paramedics for ...' (Venice; name truncated in the record). About $20,300 came from individuals, $10,700 from businesses, $2,500 from committees.",
+       "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2490&committee=N&e=219&op=cv&rellevel=4"
+      }
+     ],
+     "controversies": [
+      {
+       "text": "The Bradenton Times editorial (opinion) says he is supported by a PAC and by developer-funded special interests, and that he withdrew from a scheduled interview with the paper. The editorial gives no supporting detail; the filing above shows developer/builder-sector donors among his $1,000 givers.",
+       "status": "allegation",
+       "url": "https://thebradentontimes.com/stories/for-bradenton-city-council-ward-3-tbt-recommends-thomas-schwarz,214847"
+      }
+     ],
+     "endorsements": [
+      {
+       "text": "The campaign website has an 'Endorsed By' section with logos but no named endorsers in the page text.",
+       "url": "https://kempschuessler.com/"
+      }
+     ],
+     "social": {
+      "website": "https://kempschuessler.com/"
+     },
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com/?s=Bradenton (site search: no results); web-search quota exhausted so rumble/alexjoneslive were not searched"
+     ],
+     "gaps": "No council voting record retrieved; no photo; residence beyond neighborhood; owner-source search incomplete (see owner_sources_searched)."
+    },
+    {
+     "name": "Thomas Schwarz",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "Political newcomer. Bradenton resident for 22 years, Manatee High School graduate, A.A. State College of Florida, B.A. professional and technical communication (University of South Florida). 15 years in hospitality, 9 years as a freelance editor and researcher; 500+ volunteer hours.",
+     "local_ties": "Grew up in Bradenton, Little League at G.T. Bray Park; Manatee High (campaign site).",
+     "record": [
+      {
+       "text": "No prior office. Campaign priorities (his words): small business, community engagement, local arts, transparent government, responsible growth, preserving Ward 3's historic character, environmental protection, housing stability.",
+       "url": "https://schwarzforward3.com/"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "Campaign filings to 10/29/2026: $6,147.41 monetary + $5,823.42 in-kind contributions; $5,717.42 spent. Itemized receipts are small; no political committee appears in the export; largest business donors listed are about $300 each. Roughly $1,366 is recorded as the candidate's own money.",
+       "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2495&committee=N&e=219&op=cv&rellevel=4"
+      }
+     ],
+     "endorsements": [
+      {
+       "text": "The Bradenton Times editorial board recommends him (opinion piece, Oct 1, 2026).",
+       "url": "https://thebradentontimes.com/stories/for-bradenton-city-council-ward-3-tbt-recommends-thomas-schwarz,214847"
+      },
+      {
+       "text": "Campaign site lists a letter from Brian Kelly, former Venice City Council member (dated Oct 28, 2026), plus local business and veteran testimonials (not independently verified).",
+       "url": "https://schwarzforward3.com/"
+      }
+     ],
+     "social": {
+      "website": "https://schwarzforward3.com/"
+     },
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com/?s=Bradenton (site search: no results); web-search quota exhausted so rumble/alexjoneslive were not searched"
+     ],
+     "gaps": "No photo; no position statements beyond the campaign priorities; owner-source search incomplete."
+    }
+   ],
+   "where": {
+    "city": "Bradenton"
+   },
+   "short": "Bradenton Cncl 3",
+   "kind_machine": "race"
+  },
+  {
+   "id": "brd-council-4",
+   "office": "Bradenton City Council, Ward 4 (nonpartisan; seat is voted citywide by every Bradenton voter)",
+   "district": 4,
+   "kind": "city",
+   "sample_ballot_url": "https://www.votemanatee.gov/download/64/2026-general-election/9497/2026-generic-general-sample-ballot",
+   "note": "Residency-ward seat, elected at-large. Council votes were not retrievable today.",
+   "candidates": [
+    {
+     "name": "Keith J. Green",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "Works in property management; served four years on the Bradenton Planning Commission and other local boards; organizes an annual First Responders Mass. Moved to Manatee County from Virginia in 2020 (Bradenton Times).",
+     "local_ties": "Moved from Virginia to Manatee County in 2020 (per The Bradenton Times); campaign site gives no address.",
+     "record": [
+      {
+       "text": "Appointed to the Bradenton Planning Commission (four years per campaign site).",
+       "url": "https://www.votekeithgreen.com/"
+      },
+      {
+       "text": "Filed twice to run for Manatee County Commission in 2024 but did not qualify for the ballot (reported by The Bradenton Times).",
+       "url": "https://thebradentontimes.com/stories/for-bradenton-city-council-ward-4-tbt-recommends-lisa-gonzalez-moore,213925"
+      },
+      {
+       "text": "Campaign priorities (his words): public-private partnerships, 'Face It and Fix It', roads/stormwater/drainage, support for police and fire chief budgets.",
+       "url": "https://www.votekeithgreen.com/"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "Campaign filings to 10/29/2026: $3,139.70 raised, $3,139.70 spent. Largest: $1,000 from Christian Family Coalition Manatee (political committee, Bradenton); $500 from Republican Club of Manatee County; the rest are individuals of $300 or less.",
+       "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2541&committee=N&e=219&op=cv&rellevel=4"
+      }
+     ],
+     "controversies": [
+      {
+       "text": "The Bradenton Times (editorial and an Oct 24 opinion column) says Green and Ward 3's Schuessler are backed by developer-aligned groups and that his positions on developer influence 'seemed quite malleable'; the column names Christian Family Coalition Manatee PAC (which gave him $1,000 per the filing) among groups sending mailers against Gonzalez Moore. Opinion, not findings.",
+       "status": "allegation",
+       "url": "https://thebradentontimes.com/stories/whos-afraid-of-lisa-gonzalez-moore,217625"
+      }
+     ],
+     "endorsements": [
+      {
+       "text": "Fraternal Order of Police Lodge 70 (listed on his campaign site).",
+       "url": "https://www.votekeithgreen.com/"
+      }
+     ],
+     "social": {
+      "website": "https://www.votekeithgreen.com/"
+     },
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com/?s=Bradenton (site search: no results); web-search quota exhausted so rumble/alexjoneslive were not searched"
+     ],
+     "gaps": "No photo; no council votes (not an officeholder); did not answer Patch's candidate questionnaire; owner-source search incomplete."
+    },
+    {
+     "name": "Lisa Gonzalez Moore",
+     "party": "NP",
+     "incumbent": true,
+     "bio": "Ward 4 council member in her first term. Local real estate and business attorney, raised in Tampa, political science degree and J.D. from the University of Florida; former board member of Legal Aid of Manasota and Manatee County Library Foundation.",
+     "local_ties": "Manatee County resident 20+ years, Ward 4 resident 12+ years (city profile).",
+     "record": [
+      {
+       "text": "First-term council member; on a Sept 16, 2026 podcast she discussed infrastructure, relocating City Hall and attracting a Pittsburgh-based arts school downtown.",
+       "url": "https://thebradentontimes.com/stories/episode-255-lisa-gonzalez-moore,212763"
+      },
+      {
+       "text": "City profile lists her roles: past president and treasurer of the Manatee Florida Association for Women Lawyers, real estate section chair of the Manatee County Bar Association.",
+       "url": "https://cityofbradenton.com/moore"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "Campaign filings to 10/29/2026: $39,053.23 monetary + $1,515 in-kind; $10,465.07 spent. $5,000 is her own money. $1,000 each from Firefighters & Paramedics for ... (firefighters' political committee, Venice), ZNS Engineering L.C. (Bradenton), Kilsheimer & Associates (public relations, Apopka), Realtors Political Advocacy Committee (Orlando), Rebecca Herrman (Bradenton), Phyllis Moore (retired, Bradenton); $1,100 from Fred Moore (attorney, Bradenton). Two of those givers (firefighters' committee, ZNS Engineering) also gave $1,000 to Schuessler.",
+       "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2481&committee=N&e=219&op=cv&rellevel=4"
+      }
+     ],
+     "controversies": [
+      {
+       "text": "Targeted by outside PAC mailers/texts (Christian Family Coalition Manatee PAC, America Only PAC) that The Bradenton Times columnist says tried to mislead voters about her party/ideology. The column alleges no misconduct by her.",
+       "status": "allegation",
+       "url": "https://thebradentontimes.com/stories/whos-afraid-of-lisa-gonzalez-moore,217625"
+      }
+     ],
+     "endorsements": [
+      {
+       "text": "The Bradenton Times editorial board recommends her (opinion, Sept 25, 2026).",
+       "url": "https://thebradentontimes.com/stories/for-bradenton-city-council-ward-4-tbt-recommends-lisa-gonzalez-moore,213925"
+      }
+     ],
+     "social": {
+      "website": "https://lisagonzalezmoore4bradenton.com/"
+     },
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com/?s=Bradenton (site search: no results); web-search quota exhausted so rumble/alexjoneslive were not searched"
+     ],
+     "gaps": "No council voting record retrieved (city minutes not reachable); no photo; owner-source search incomplete."
+    }
+   ],
+   "where": {
+    "city": "Bradenton"
+   },
+   "short": "Bradenton Cncl 4",
+   "kind_machine": "race"
+  },
+  {
+   "id": "wmfr-seat2",
+   "office": "West Manatee Fire and Rescue District, Seat 2 (nonpartisan)",
+   "district": 2,
+   "kind": "special",
+   "note": "West Manatee Fire & Rescue District covers parts of 34209 (not the City of Bradenton splits). Seat labels: the district's own commissioners page lists Warner as Seat 2, Burke as Seat 3 and Tindall (appointed March 2025) as Seat 4, but the ballot and campaign-finance records place Tindall in the Seat 3 race and Burke in the Seat 4 race. All three incumbents' terms expire Nov 2026. No news coverage of any of these six candidates was found.",
+   "candidates": [
+    {
+     "name": "Jacob R. Kyser",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "Aviation consultant, Bradenton (occupation as filed).",
+     "local_ties": "Bradenton resident per campaign-finance filing.",
+     "money_notes": [
+      {
+       "text": "Raised $17,855.96 (to 10/29/2026), about $13,500 of it recorded under his own name; spent $4,222.69. $1,000 each from IAFF Local 2546 Suncoast Professional Firefighters (Palmetto), Universal Flight Training (Sarasota) and JLS Aviation LLC (aircraft leasing, Sarasota); $500 from Charles Richards (environmental specialist).",
+       "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2637&committee=N&e=212&op=cv&rellevel=4"
+      }
+     ],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "not searched (web-search quota exhausted)"
+     ],
+     "gaps": "No bio, platform, endorsements, photo found."
+    },
+    {
+     "name": "Derrick Warner",
+     "party": "NP",
+     "incumbent": true,
+     "bio": "Sitting West Manatee fire commissioner (district site lists him as Seat 2, four-year term expiring Nov 2026); retired, Bradenton (occupation as filed).",
+     "local_ties": "Bradenton resident per filing.",
+     "record": [
+      {
+       "text": "Listed as Commissioner, Seat 2, term expires November 2026.",
+       "url": "https://www.wmfr.org/commissioners"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "Raised $4,325.00, all of it recorded under his own name; spent $3,180.86.",
+       "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2547&committee=N&e=212&op=cv&rellevel=4"
+      }
+     ],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "not searched (web-search quota exhausted)"
+     ],
+     "gaps": "No votes (fire-board minutes not retrieved), bio, endorsements, photo."
+    }
+   ],
+   "where": {
+    "special": "West Manatee Fire and Rescue"
+   },
+   "short": "W. Manatee Fire 2",
+   "kind_machine": "race"
+  },
+  {
+   "id": "wmfr-seat3",
+   "office": "West Manatee Fire and Rescue District, Seat 3 (nonpartisan)",
+   "district": 3,
+   "kind": "special",
+   "note": "See wmfr-seat2 note about seat labels.",
+   "candidates": [
+    {
+     "name": "John Agnelli",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "Contractor (Agnelli Construction, Sarasota/Myakka area per filing).",
+     "local_ties": "Donor records show Sarasota/Myakka/Cortez-area ties; no address given.",
+     "money_notes": [
+      {
+       "text": "Raised $14,175.00 (to 10/28/2026); spent $12,791.42. $1,000 each from Agnelli Construction, John Frank Agnelli Jr (contractor), Frank F Agnelli Hauling, Marshall Gobuty (real estate, Sarasota), Cortez Cove Inc, Linda Carrol (real estate agent), and Linda and Michael Morris (Northville). Several donors share his surname.",
+       "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2544&committee=N&e=212&op=cv&rellevel=4"
+      }
+     ],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "not searched (web-search quota exhausted)"
+     ],
+     "gaps": "No bio, platform, endorsements, photo found. Candidate filed late (first receipts 9/9/2026)."
+    },
+    {
+     "name": "Dana Tindall",
+     "party": "NP",
+     "incumbent": true,
+     "bio": "Fire commissioner and Secretary-Treasurer, appointed in March 2025 to a seat whose term expires Nov 2026; retired, Bradenton (occupation as filed).",
+     "local_ties": "Bradenton resident per filing.",
+     "record": [
+      {
+       "text": "Appointed March 2025; Secretary-Treasurer of the district board.",
+       "url": "https://www.wmfr.org/commissioners"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "Raised $3,650.00; spent $1,943.14. $1,000 from IAFF Local 2546 (firefighters' union), $1,000 from Ellis Hornsby (retired), $950 under her own name.",
+       "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2571&committee=N&e=212&op=cv&rellevel=4"
+      }
+     ],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "not searched (web-search quota exhausted)"
+     ],
+     "gaps": "No votes, bio, endorsements beyond union donation, photo."
+    }
+   ],
+   "where": {
+    "special": "West Manatee Fire and Rescue"
+   },
+   "short": "W. Manatee Fire 3",
+   "kind_machine": "race"
+  },
+  {
+   "id": "wmfr-seat4",
+   "office": "West Manatee Fire and Rescue District, Seat 4 (nonpartisan)",
+   "district": 4,
+   "kind": "special",
+   "note": "See wmfr-seat2 note about seat labels.",
+   "candidates": [
+    {
+     "name": "Billy Burke",
+     "party": "NP",
+     "incumbent": true,
+     "bio": "Sitting West Manatee fire commissioner (four-year term expiring Nov 2026).",
+     "local_ties": "Bradenton resident per filing.",
+     "record": [
+      {
+       "text": "Listed as Commissioner; term expires November 2026.",
+       "url": "https://www.wmfr.org/billy-burke"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "Raised $1,146.17 (to 9/30/2026), of which $1,000 from IAFF Local Suncoast 2546 (firefighters' union) and $146.17 his own; spent $1,071.93.",
+       "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2551&committee=N&e=212&op=cv&rellevel=4"
+      }
+     ],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "not searched (web-search quota exhausted)"
+     ],
+     "gaps": "No votes, bio, other endorsements, photo."
+    },
+    {
+     "name": "Keith D. Miller",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "Candidate; no biography found.",
+     "local_ties": "Donors are largely Cortez / Holmes Beach waterfront businesses; no address given.",
+     "money_notes": [
+      {
+       "text": "Raised $6,850.00; spent $5,012.20. $1,000 each from Carol Miller (retired, Bradenton) and Cortez Bait & Seafood; $500 each from Cortez Cove Marina, Karen Bell, Bell Net Assets LLC (seafood dealer), Staff-Broker-R-US Inc, A.F. Robinson, Cedar Cove Resort & Cottages (Holmes Beach).",
+       "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2564&committee=N&e=212&op=cv&rellevel=4"
+      }
+     ],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "not searched (web-search quota exhausted)"
+     ],
+     "gaps": "No bio, platform, endorsements, photo found."
+    }
+   ],
+   "where": {
+    "special": "West Manatee Fire and Rescue"
+   },
+   "short": "W. Manatee Fire 4",
+   "kind_machine": "race"
+  },
+  {
+   "id": "man-sd22",
+   "office": "State Senator, District 22",
+   "district": 22,
+   "kind": "STS",
+   "candidates": [
+    {
+     "name": "James Buchanan",
+     "party": "REP",
+     "incumbent": false,
+     "current_office": "Sitting Florida House member, District 74 (since 2018), running for the OPEN Senate seat (incumbent Sen. Joe Gruters is term-limited).",
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/State_Representative_James_Buchanan.jpg",
+      "credit": "Wikimedia Commons"
+     },
+     "bio": "Republican Florida House member for District 74 (Sarasota) since Nov. 2018. Lost a Feb. 2018 special election for HD 72 to Margaret Good. FSU finance degree (2004), USF MBA (2009); listed as real estate agent/broker; describes running a family company. Son of U.S. Rep. Vern Buchanan.",
+     "bio_urls": [
+      "https://en.wikipedia.org/wiki/James_Buchanan_(Florida_politician)",
+      "https://www.ballotready.org/people/james-buchanan-9481aa9f-0939-4139-a0c0-fe05233107da",
+      "https://www.flchamber.com/florida-chamber-of-commerce-endorses-james-buchanan-in-senate-district-22-election/"
+     ],
+     "local_ties": "Described as a Sarasota Republican; his House district covers part of Sarasota County and SD 22 covers Sarasota County and part of Manatee County. Home residence not found in sources read. Father is Longboat Key congressman Vern Buchanan.",
+     "local_ties_urls": [
+      "https://floridianpress.com/2025/09/senate-republican-leaders-endorse-james-buchanan-in-sd-22-race/",
+      "https://srqmagazine.com/srq-daily/2025-01-11/25849_can-buchanan-clear-senate-field-early"
+     ],
+     "votes": [
+      {
+       "bill": "CS/CS/SB 180 (2025) \"Emergencies\"",
+       "what": "Post-hurricane emergency preparedness and recovery bill; critics and the SD22 candidates cite its limits on local government growth regulation.",
+       "vote": "Yea",
+       "date": "2025-04-29",
+       "chamber": "FL House",
+       "result": "passed House 115-1 (concurrence 106-0 on 2025-05-02)",
+       "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2025/180/?Tab=VoteHistory"
+      },
+      {
+       "bill": "SB 2500 (2025) General Appropriations Act 2025-26",
+       "what": "State budget for fiscal year 2025-26.",
+       "vote": "Yea",
+       "date": "2025-06-16",
+       "chamber": "FL House",
+       "result": "passed House 103-2",
+       "url": "https://www.flsenate.gov/Session/Bill/2025/2500/Vote/HouseVote_s02500__443.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2025/2500/?Tab=VoteHistory"
+      },
+      {
+       "bill": "HB 7031 (2025) Taxation",
+       "what": "2025 state tax package.",
+       "vote": "Yea",
+       "date": "2025-06-16",
+       "chamber": "FL House",
+       "result": "passed House 93-7",
+       "url": "https://www.flsenate.gov/Session/Bill/2025/7031/Vote/HouseVote_h07031__432.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2025/7031/?Tab=VoteHistory"
+      },
+      {
+       "bill": "CS/CS/HB 913 (2025) Condominium and Cooperative Associations",
+       "what": "Condominium and cooperative association rules (condo safety and governance).",
+       "vote": "Yea",
+       "date": "2025-04-30",
+       "chamber": "FL House",
+       "result": "passed House 112-0",
+       "url": "https://www.flsenate.gov/Session/Bill/2025/913/Vote/HouseVote_h00913c2377.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2025/913/?Tab=VoteHistory"
+      },
+      {
+       "bill": "SB 2-C (2025 Special Session C) Immigration",
+       "what": "Immigration bill from the January-February 2025 special session.",
+       "vote": "Yea",
+       "date": "2025-02-13",
+       "chamber": "FL House",
+       "result": "passed House 85-30",
+       "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2025C/2C/?Tab=VoteHistory"
+      },
+      {
+       "bill": "HB 133 (2026) Minimum Age for Firearm Purchase or Transfer",
+       "what": "Lowers the minimum age to buy long guns from 21 to 18 (passed the House; stalled in the Senate).",
+       "vote": "Yea",
+       "date": "2026-01-15",
+       "chamber": "FL House",
+       "result": "passed House 74-37",
+       "url": "https://www.flsenate.gov/Session/Bill/2026/133/Vote/HouseVote_h00133__451.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2026/133/?Tab=VoteHistory"
+      },
+      {
+       "bill": "CS/HJR 1-F (2026 Special Session F) Save our Homes from Excessive Property Taxes",
+       "what": "Joint resolution placing the homestead property-tax amendment on the Nov. 3, 2026 ballot as Amendment 3 (needs 60% of voters).",
+       "vote": "Yea",
+       "date": "2026-06-02",
+       "chamber": "FL House",
+       "result": "passed House 75-26",
+       "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2026F/1F/?Tab=VoteHistory"
+      },
+      {
+       "bill": "CS/CS/SB 264 (2023) Interests of Foreign Countries",
+       "what": "Restricts land purchases by certain foreign-country-linked buyers (the Chinese land law).",
+       "vote": "Yea",
+       "date": "2023-05-04",
+       "chamber": "FL House",
+       "result": "passed House 95-17 (same tally also recorded 2023-05-03)",
+       "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2023/264/?Tab=VoteHistory"
+      },
+      {
+       "bill": "SB 300 (2023) Pregnancy and Parenting Support",
+       "what": "Prohibits most abortions after six weeks of pregnancy (with exceptions) and funds pregnancy/parenting support.",
+       "vote": "Yea",
+       "date": "2023-04-13",
+       "chamber": "FL House",
+       "result": "passed House 70-40",
+       "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2023/300/?Tab=VoteHistory"
+      },
+      {
+       "bill": "CS/CS/CS/CS/HB 1 (2023) Education",
+       "what": "Expands the state school-voucher program to all K-12 students regardless of income.",
+       "vote": "Yea",
+       "date": "2023-03-17",
+       "chamber": "FL House",
+       "result": "passed House 83-27",
+       "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2023/1/?Tab=VoteHistory"
+      }
+     ],
+     "vote_note": "Each vote is a House floor roll call (flsenate.gov House vote PDF), opened and read for the line \"Buchanan-74\". Votes shown are his own, not inferred from party.",
+     "record": [
+      {
+       "text": "Florida House member since 2018; four-term member per SRQ Daily (Jan. 2025), which also said his role on Speaker Danny Perez's leadership team would grow.",
+       "url": "https://srqmagazine.com/srq-daily/2025-01-11/25849_can-buchanan-clear-senate-field-early"
+      },
+      {
+       "text": "Per Wikipedia, has chaired the Agriculture, Conservation & Resiliency Subcommittee and been vice chair of Ways & Means (committee list not re-checked against the House site).",
+       "url": "https://en.wikipedia.org/wiki/James_Buchanan_(Florida_politician)"
+      },
+      {
+       "text": "Florida Chamber of Commerce reports he holds a lifetime A rating on its Legislative Report Card.",
+       "url": "https://www.flchamber.com/florida-chamber-of-commerce-endorses-james-buchanan-in-senate-district-22-election/"
+      },
+      {
+       "text": "Told a Lakewood Ranch Republican Club event (Sept. 2026) he backs Amendment 3 (homestead property-tax exemption). He did not respond to eight WGCU interview requests.",
+       "url": "https://www.wgcu.org/government-politics/2026-10-22/three-candidates-bid-for-senate-district-22-in-sarasota-and-manatee-incumbent-gruters-term-limited"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "SRQ Daily (Jan. 2025) reported his father's status in Congress gives him a donor network in Tallahassee and Washington. No contribution totals or political-committee names were retrieved.",
+       "url": "https://srqmagazine.com/srq-daily/2025-01-11/25849_can-buchanan-clear-senate-field-early"
+      }
+     ],
+     "controversies": [],
+     "endorsements": [
+      {
+       "text": "Sen. Joe Gruters (the retiring incumbent), Senate President Ben Albritton, Sens. Jim Boyd and Jay Trumbull (Sept. 2025 reporting).",
+       "url": "https://floridianpress.com/2025/09/senate-republican-leaders-endorse-james-buchanan-in-sd-22-race/"
+      },
+      {
+       "text": "Florida Chamber of Commerce (Feb. 12, 2026).",
+       "url": "https://www.flchamber.com/florida-chamber-of-commerce-endorses-james-buchanan-in-senate-district-22-election/"
+      },
+      {
+       "text": "Florida Politics headline reports Florida Realtors backing his SD 22 bid (article text was behind a paywall and not read).",
+       "url": "https://floridapolitics.com/archives/755725-florida-realtors-sold-on-james-buchanans-sd-22-bid"
+      }
+     ],
+     "social": {
+      "website": "https://buchananforflorida.com (per Wikipedia; not re-checked)"
+     },
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "owner_sources_note": "stewpeters.com site search for \"James Buchanan\": no results. rumble.com video search \"James Buchanan\" Florida Senate: no videos from StewPeters, TheAlexJonesShowLive or Owen channels. alexjoneslive.com and the other rumble channels were not searched for this name. No mention found.",
+     "gaps": "FL Division of Elections contribution data could not be reached (server error), so no donor totals or political-committee names. Residence not found. No controversies found in sources read (not an exhaustive search; web search quota ran out). Florida Politics articles were paywalled."
+    },
+    {
+     "name": "Lew Wasserman",
+     "party": "DEM",
+     "incumbent": false,
+     "photo": {
+      "url": "https://assets.civicengine.com/uploads/candidate/headshot/957192/957192.jpg",
+      "credit": "BallotReady"
+     },
+     "bio": "Attorney and member of the Manatee County Democratic Executive Committee (WGCU). BallotReady lists a doctorate in psychology (Hofstra), a JD (St. John's), and past work as University of Texas faculty and an assistant superintendent of schools, with no dates.",
+     "bio_urls": [
+      "https://www.wgcu.org/government-politics/2026-10-22/three-candidates-bid-for-senate-district-22-in-sarasota-and-manatee-incumbent-gruters-term-limited",
+      "https://www.ballotready.org/people/lew-wasserman"
+     ],
+     "local_ties": "Member of the Manatee County Democratic Executive Committee. Residence not found.",
+     "local_ties_urls": [
+      "https://www.wgcu.org/government-politics/2026-10-22/three-candidates-bid-for-senate-district-22-in-sarasota-and-manatee-incumbent-gruters-term-limited"
+     ],
+     "record": [
+      {
+       "text": "Stated positions: says property-insurance costs overwhelm about half the community; opposes Amendment 3 (says lost revenue would strain roads, infrastructure and schools); says SB 180 hurts affordability.",
+       "url": "https://www.wgcu.org/government-politics/2026-10-22/three-candidates-bid-for-senate-district-22-in-sarasota-and-manatee-incumbent-gruters-term-limited"
+      },
+      {
+       "text": "BallotReady issue statements: property-insurance stabilization via home hardening, building codes, oversight and a public catastrophe layer; clean water and responsible growth planning; transparent healthcare pricing and support for universal healthcare; mail voting for every eligible voter who requests it.",
+       "url": "https://www.ballotready.org/people/lew-wasserman"
+      }
+     ],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "owner_sources_note": "stewpeters.com site search for \"Wasserman\": no results. Other owner sources not searched for this name. No mention found.",
+     "gaps": "No campaign-finance data retrieved (FL DOE site unreachable). No endorsements, website, or residence found. Never held voting office, so no votes."
+    },
+    {
+     "name": "Martin Hyde",
+     "party": "NPA",
+     "incumbent": false,
+     "bio": "Non-party-affiliated candidate; born in the United Kingdom; has lived in Sarasota 27 years (Bradenton Times). Former candidate for state House and Sarasota City Commission (WGCU); challenged U.S. Rep. Vern Buchanan in the 2022 CD 16 Republican primary (Bradenton Times).",
+     "bio_urls": [
+      "https://thebradentontimes.com/stories/satcher-to-join-cd-16-race-hyde-to-join-senate-d22-race,200325",
+      "https://www.wgcu.org/government-politics/2026-10-22/three-candidates-bid-for-senate-district-22-in-sarasota-and-manatee-incumbent-gruters-term-limited"
+     ],
+     "local_ties": "Sarasota resident for 27 years (Bradenton Times article; date of the article not confirmed). Has not held elected office.",
+     "local_ties_urls": [
+      "https://thebradentontimes.com/stories/satcher-to-join-cd-16-race-hyde-to-join-senate-d22-race,200325"
+     ],
+     "record": [
+      {
+       "text": "Stated positions (WGCU): opposes SB 180, saying it favors developers by limiting local regulation and weakening home rule; supports Amendment 3 as a way for homeowners and businesses to save money.",
+       "url": "https://www.wgcu.org/government-politics/2026-10-22/three-candidates-bid-for-senate-district-22-in-sarasota-and-manatee-incumbent-gruters-term-limited"
+      }
+     ],
+     "controversies": [
+      {
+       "text": "Feb. 2022: police bodycam video of a traffic stop showed a verbal confrontation with a female Sarasota police officer; the Bradenton Times describes him, cited for speeding and texting, threatening the officer's career.",
+       "status": "established",
+       "url": "https://www.wgcu.org/government-politics/2026-10-22/three-candidates-bid-for-senate-district-22-in-sarasota-and-manatee-incumbent-gruters-term-limited",
+       "urls": [
+        "https://www.wgcu.org/government-politics/2026-10-22/three-candidates-bid-for-senate-district-22-in-sarasota-and-manatee-incumbent-gruters-term-limited",
+        "https://thebradentontimes.com/stories/satcher-to-join-cd-16-race-hyde-to-join-senate-d22-race,200325"
+       ]
+      },
+      {
+       "text": "2022: reportedly said he would have killed the FBI agents who searched Mar-a-Lago (WGCU's wording: \"reportedly\"; original recording not located).",
+       "status": "allegation",
+       "url": "https://www.wgcu.org/government-politics/2026-10-22/three-candidates-bid-for-senate-district-22-in-sarasota-and-manatee-incumbent-gruters-term-limited"
+      },
+      {
+       "text": "2019: racially charged argument with two Puerto Rican tennis players at the Bath & Racquet Club in Sarasota (as reported by WGCU).",
+       "status": "allegation",
+       "url": "https://www.wgcu.org/government-politics/2026-10-22/three-candidates-bid-for-senate-district-22-in-sarasota-and-manatee-incumbent-gruters-term-limited"
+      },
+      {
+       "text": "Asked about these incidents, WGCU reports he said he has owned his mistakes and that critics focus on old comments.",
+       "status": "resolved",
+       "url": "https://www.wgcu.org/government-politics/2026-10-22/three-candidates-bid-for-senate-district-22-in-sarasota-and-manatee-incumbent-gruters-term-limited"
+      }
+     ],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "owner_sources_note": "stewpeters.com site search for \"Martin Hyde\": no results. rumble.com search \"Martin Hyde\" Sarasota: only The Mel K Show and MG Show (2021) interviews, neither one of the five owner channels. alexjoneslive.com search returned one unrelated ATF article. No mention found in the five designated sources.",
+     "gaps": "No campaign-finance data retrieved. No endorsements, website, or occupation found. Never held elected office, so no votes. The 2022 Mar-a-Lago remark and 2019 incident are as reported by WGCU; primary recordings not viewed."
+    }
+   ],
+   "note": "Open seat: Sen. Joe Gruters is term-limited (WGCU). Buchanan is NOT an incumbent senator; he is the sitting Florida House member for HD 74 and the son of U.S. Rep. Vern Buchanan. SD 22 covers Sarasota County and part of Manatee County. Florida Chamber rates it Solid Republican (Trump 59-40 in 2024). A Republican primary challenger, Vic Rohe, was mentioned in earlier reporting; primary result not verified here. Voting records are House floor roll calls opened from flsenate.gov.",
+   "where": {
+    "county": "Manatee",
+    "sd": 22
+   },
+   "short": "State Senate 22",
+   "kind_machine": "race"
+  },
+  {
+   "id": "man-hd72",
+   "office": "State Representative, District 72",
+   "district": 72,
+   "kind": "STR",
+   "candidates": [
+    {
+     "name": "William \"Bill\" Conerly",
+     "party": "REP",
+     "incumbent": true,
+     "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Bill_Conerly.jpg",
+      "credit": "Wikimedia Commons"
+     },
+     "bio": "Republican state representative for HD 72 since Nov. 2024. Vice President and Senior Project Manager at engineering/planning firm Kimley-Horn since 2013; previously senior project manager at other engineering firms. U.S. Navy veteran; served on the Manatee County planning commission.",
+     "bio_urls": [
+      "https://www.ballotready.org/people/william-conerly",
+      "https://en.wikipedia.org/wiki/Bill_Conerly"
+     ],
+     "local_ties": "Lakewood Ranch resident (Wikipedia); House district office is in Lakewood Ranch (flhouse.gov). Served on the Manatee County planning commission (Wikipedia).",
+     "local_ties_urls": [
+      "https://en.wikipedia.org/wiki/Bill_Conerly",
+      "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4920&LegislativeTermId=91"
+     ],
+     "votes": [
+      {
+       "bill": "CS/CS/SB 180 (2025) \"Emergencies\"",
+       "what": "Post-hurricane emergency preparedness and recovery bill; critics and the SD22 candidates cite its limits on local government growth regulation.",
+       "vote": "Yea",
+       "date": "2025-04-29",
+       "chamber": "FL House",
+       "result": "passed House 115-1 (concurrence 106-0 on 2025-05-02)",
+       "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2025/180/?Tab=VoteHistory"
+      },
+      {
+       "bill": "SB 2500 (2025) General Appropriations Act 2025-26",
+       "what": "State budget for fiscal year 2025-26.",
+       "vote": "Yea",
+       "date": "2025-06-16",
+       "chamber": "FL House",
+       "result": "passed House 103-2",
+       "url": "https://www.flsenate.gov/Session/Bill/2025/2500/Vote/HouseVote_s02500__443.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2025/2500/?Tab=VoteHistory"
+      },
+      {
+       "bill": "HB 7031 (2025) Taxation",
+       "what": "2025 state tax package.",
+       "vote": "Yea",
+       "date": "2025-06-16",
+       "chamber": "FL House",
+       "result": "passed House 93-7",
+       "url": "https://www.flsenate.gov/Session/Bill/2025/7031/Vote/HouseVote_h07031__432.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2025/7031/?Tab=VoteHistory"
+      },
+      {
+       "bill": "CS/CS/HB 913 (2025) Condominium and Cooperative Associations",
+       "what": "Condominium and cooperative association rules (condo safety and governance).",
+       "vote": "Yea",
+       "date": "2025-04-30",
+       "chamber": "FL House",
+       "result": "passed House 112-0",
+       "url": "https://www.flsenate.gov/Session/Bill/2025/913/Vote/HouseVote_h00913c2377.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2025/913/?Tab=VoteHistory"
+      },
+      {
+       "bill": "SB 2-C (2025 Special Session C) Immigration",
+       "what": "Immigration bill from the January-February 2025 special session.",
+       "vote": "Yea",
+       "date": "2025-02-13",
+       "chamber": "FL House",
+       "result": "passed House 85-30",
+       "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2025C/2C/?Tab=VoteHistory"
+      },
+      {
+       "bill": "HB 133 (2026) Minimum Age for Firearm Purchase or Transfer",
+       "what": "Lowers the minimum age to buy long guns from 21 to 18 (passed the House; stalled in the Senate).",
+       "vote": "Yea",
+       "date": "2026-01-15",
+       "chamber": "FL House",
+       "result": "passed House 74-37",
+       "url": "https://www.flsenate.gov/Session/Bill/2026/133/Vote/HouseVote_h00133__451.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2026/133/?Tab=VoteHistory"
+      },
+      {
+       "bill": "CS/CS/HJR 203 (2026) Elimination of Non-school Property Taxes for Homesteads",
+       "what": "Proposed constitutional amendment to eliminate non-school property taxes on homesteads (House version; not taken up by the Senate).",
+       "vote": "Yea",
+       "date": "2026-02-19",
+       "chamber": "FL House",
+       "result": "passed House 80-30",
+       "url": "https://www.flsenate.gov/Session/Bill/2026/203/Vote/HouseVote_h00203c2523.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2026/203/?Tab=VoteHistory"
+      },
+      {
+       "bill": "CS/HJR 1-F (2026 Special Session F) Save our Homes from Excessive Property Taxes",
+       "what": "Joint resolution placing the homestead property-tax amendment on the Nov. 3, 2026 ballot as Amendment 3 (needs 60% of voters).",
+       "vote": "Yea",
+       "date": "2026-06-02",
+       "chamber": "FL House",
+       "result": "passed House 75-26",
+       "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2026F/1F/?Tab=VoteHistory"
+      },
+      {
+       "bill": "CS/CS/HB 991 (2026) Elections",
+       "what": "Elections bill; per WUSF it requires state citizenship verification for voters and removes student and retirement-home IDs as accepted at polls.",
+       "vote": "Yea",
+       "date": "2026-03-12",
+       "chamber": "FL House",
+       "result": "passed House 77-28",
+       "url": "https://www.flsenate.gov/Session/Bill/2026/991/Vote/HouseVote_h00991e1847.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2026/991/?Tab=VoteHistory"
+      },
+      {
+       "bill": "CS/CS/SB 1296 (2026) Public Employees Relations Commission",
+       "what": "Per WUSF: tightens union certification and limits paid union activity for public employees (public safety workers exempt).",
+       "vote": "Yea",
+       "date": "2026-03-11",
+       "chamber": "FL House",
+       "result": "passed House 73-37",
+       "url": "https://www.flsenate.gov/Session/Bill/2026/1296/Vote/HouseVote_s01296e1798.PDF",
+       "history_url": "https://www.flsenate.gov/Session/Bill/2026/1296/?Tab=VoteHistory"
+      }
+     ],
+     "vote_note": "Each vote is a House floor roll call (flsenate.gov House vote PDF), opened and read for the line \"Conerly-72\". Votes shown are his own, not inferred from party.",
+     "record": [
+      {
+       "text": "House committee assignments: Joint Administrative Procedures; Select Committee on Property Taxes; Ways & Means; Economic Infrastructure, Government Operations, Natural Resources & Disasters, and Transportation & Economic Development Budget subcommittees.",
+       "url": "https://www.flhouse.gov/Sections/Representatives/custom/details.aspx?MemberId=4920&LegislativeTermId=91"
+      },
+      {
+       "text": "Bradenton Times editorial (opinion, Oct. 16, 2026) says he voted for SB 180 and for other bills limiting local government authority (it names SB 399), and did not file a House companion to a Senate bill meant to partly fix SB 180's effects. It also says he acknowledged \"unintended consequences\" of SB 180 when Manatee residents pressed him before the 2026 session. Roll call for SB 180 confirms his Yea; the other claims are the editorial's.",
+       "url": "https://thebradentontimes.com/stories/for-florida-house-district-72-we-recommend-harvey-shifrin,216733"
+      },
+      {
+       "text": "BallotReady campaign messages: \"Reduced government regulations,\" \"Safeguarded our local environment,\" \"Billions in tax cuts.\"",
+       "url": "https://www.ballotready.org/people/william-conerly"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "Bradenton Times editorial (opinion) says development interests supported his 2024 campaign. No contribution records were retrieved to confirm donors or amounts. Separately, his employer Kimley-Horn is a planning, surveying and engineering consulting firm.",
+       "url": "https://thebradentontimes.com/stories/for-florida-house-district-72-we-recommend-harvey-shifrin,216733"
+      }
+     ],
+     "social": {
+      "website": "https://www.electconerly.com (per Wikipedia; not re-checked)"
+     },
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "owner_sources_note": "stewpeters.com site search for \"Conerly\": no results. Other owner sources not searched for this name. No mention found.",
+     "gaps": "FL DOE campaign-finance data unreachable (server error): no donor totals, no political-committee names. Wikipedia lists his education as Valencia College while BallotReady lists a 1997 University of Florida degree; left out as unresolved. No endorsements found. No controversies found in sources read."
+    },
+    {
+     "name": "Harvey Shifrin",
+     "party": "DEM",
+     "incumbent": false,
+     "photo": {
+      "url": "https://assets.civicengine.com/uploads/candidate/headshot/952484/952484.jpg",
+      "credit": "BallotReady"
+     },
+     "bio": "Democratic candidate; accountant (CPA) and attorney who spent most of his career working for pension funds, and volunteers in schools through Odyssey of the Mind (Bradenton Times).",
+     "bio_urls": [
+      "https://thebradentontimes.com/stories/for-florida-house-district-72-we-recommend-harvey-shifrin,216733",
+      "https://www.ballotready.org/people/harvey-shifrin"
+     ],
+     "local_ties": "Residence not found in sources read. Interviewed by The Bradenton Times (podcast episode 261).",
+     "local_ties_urls": [
+      "https://thebradentontimes.com/stories/for-florida-house-district-72-we-recommend-harvey-shifrin,216733"
+     ],
+     "record": [
+      {
+       "text": "Says he is running to restore local control so local governments can pass ordinances suited to their communities (Bradenton Times).",
+       "url": "https://thebradentontimes.com/stories/for-florida-house-district-72-we-recommend-harvey-shifrin,216733"
+      },
+      {
+       "text": "BallotReady issue statements: fair funding via voucher-system reform; improve teacher retention.",
+       "url": "https://www.ballotready.org/people/harvey-shifrin"
+      },
+      {
+       "text": "Entered the race as a Democrat (Florida Politics headline: his entry set up a Democratic primary against Luther Wilkins).",
+       "url": "https://ground.news/article/harvey-shifrin-jumps-into-hd-72-contest-setting-up-democratic-primary-against-luther-wilkins"
+      }
+     ],
+     "endorsements": [
+      {
+       "text": "The Bradenton Times editorial board recommended him (Oct. 16, 2026; opinion).",
+       "url": "https://thebradentontimes.com/stories/for-florida-house-district-72-we-recommend-harvey-shifrin,216733"
+      }
+     ],
+     "social": {
+      "website": "https://electshifrin.com/"
+     },
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "owner_sources_note": "stewpeters.com site search for \"Shifrin\": no results. Other owner sources not searched for this name. No mention found.",
+     "gaps": "No campaign-finance data retrieved. Residence not found. Never held voting office, so no votes."
+    }
+   ],
+   "note": "Conerly is the incumbent (since Nov. 2024). Ballotpedia snippets in search results listed a different challenger (John Phillips) but the sample ballot given for this task lists Conerly vs Shifrin; ballot names were taken as given. The roll calls shown are the same House floor votes for both Buchanan (race 1) and Conerly, so voters can compare directly. HD 72 is in Manatee County (Lakewood Ranch area).",
+   "where": {
+    "county": "Manatee",
+    "hd": 72
+   },
+   "short": "State House 72",
+   "kind_machine": "race"
+  },
+  {
+   "id": "man-sb5",
+   "office": "School Board Member, District 5 (Manatee County, nonpartisan)",
+   "district": 5,
+   "kind": "school",
+   "candidates": [
+    {
+     "name": "Camden \"Cam\" Bedinghaus",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "23-year-old Manatee County native and district alumnus; USF economics degree (May 2026); served on the USF Campus Council. Director of Turning Point USA Manatee County; journalist at Conservative Coastal News; previously youth coordinator at Bayside Community Church.",
+     "bio_urls": [
+      "https://www.wusf.org/local-state/2026-07-27/turning-point-usa-director-volunteer-businessman-compete-manatee-school-board-district-5",
+      "https://www.tampabaybeacons.com/2026/07/14/three-vie-for-open-district-5-school-board-seat/"
+     ],
+     "local_ties": "Manatee County native who attended Manatee County schools (Bradenton Times; WUSF). Home address not published in sources read. District 5 covers parts of East Manatee including Lakewood Ranch.",
+     "local_ties_urls": [
+      "https://thebradentontimes.com/stories/for-manatee-county-school-board-district-5-we-recommend-jonathan-mullis,214564",
+      "https://www.wusf.org/local-state/2026-07-27/turning-point-usa-director-volunteer-businessman-compete-manatee-school-board-district-5"
+     ],
+     "record": [
+      {
+       "text": "Only District 5 candidate to qualify by petition (signatures) instead of paying the fee.",
+       "url": "https://www.yourobserver.com/news/2026/aug/18/manatee-school-board-election-runoffs/"
+      },
+      {
+       "text": "Primary Aug. 18, 2026: 34.07% (preliminary), second behind Mullis 35.31%; Chantal Wilford 30.62% did not advance.",
+       "url": "https://www.yourobserver.com/news/2026/aug/18/manatee-school-board-election-runoffs/"
+      },
+      {
+       "text": "Platform: declare a reading emergency on day one; early-intervention reading grants; parent portal; financial-literacy program; cut district programs serving fewer than 80% of students and redirect money to progress-based teacher bonuses; on books, says the district should avoid materials he believes could raise student suicide rates.",
+       "url": "https://www.wusf.org/local-state/2026-07-27/turning-point-usa-director-volunteer-businessman-compete-manatee-school-board-district-5"
+      },
+      {
+       "text": "Has posted on social media about his admiration for Charlie Kirk; says his personal beliefs are conservative but his campaign goals are apolitical.",
+       "url": "https://www.wusf.org/local-state/2026-07-27/turning-point-usa-director-volunteer-businessman-compete-manatee-school-board-district-5"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "About $5,800 raised as of late July 2026 (second among three candidates), mostly individual contributions; contributors include the Tea Party of Manatee County and Vision Source (a business).",
+       "url": "https://www.wusf.org/local-state/2026-07-27/turning-point-usa-director-volunteer-businessman-compete-manatee-school-board-district-5"
+      }
+     ],
+     "controversies": [
+      {
+       "text": "Bradenton Times editorial (opinion) describes him as a \"social media influencer\" with \"political/culture-war baggage\" that some readers found troubling, and notes his stated commitment to keeping politics and policy separate. No ethics or legal matters found.",
+       "status": "allegation",
+       "url": "https://thebradentontimes.com/stories/for-manatee-county-school-board-district-5-we-recommend-jonathan-mullis,214564"
+      }
+     ],
+     "endorsements": [
+      {
+       "text": "Manatee Patriots; America First Party of Florida; Stand for Health Freedom (WUSF).",
+       "url": "https://www.wusf.org/local-state/2026-07-27/turning-point-usa-director-volunteer-businessman-compete-manatee-school-board-district-5"
+      }
+     ],
+     "social": {
+      "website": "https://camforschoolboard.com (per Bradenton Times; not re-checked)"
+     },
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "owner_sources_note": "stewpeters.com site search for \"Bedinghaus\": no results. rumble.com video search \"Bedinghaus\" Manatee: no videos found. alexjoneslive.com and the other rumble channels not searched. No mention found.",
+     "gaps": "No photo found. Fundraising figure is from before the primary; later totals not retrieved. Not an incumbent and has held no voting office, so no votes."
+    },
+    {
+     "name": "Jonathan Mullis",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "49; physical therapist, owner and CEO (with his wife Sonia) of Physical Therapy Doctors of Florida in Bradenton; business owner for about 17 years. Northeastern undergraduate degree and Simmons University doctorate in physical therapy. President of the Bradenton Kiwanis Club; board member of the Manatee Tiger Bay Club.",
+     "bio_urls": [
+      "https://www.yourobserver.com/news/2026/jun/09/jonathan-mullis-school-board-candidate/",
+      "https://www.tampabaybeacons.com/2026/07/14/three-vie-for-open-district-5-school-board-seat/",
+      "https://www.wusf.org/local-state/2026-07-27/turning-point-usa-director-volunteer-businessman-compete-manatee-school-board-district-5"
+     ],
+     "local_ties": "Bridgewater/Lakewood Ranch resident; moved to Manatee County in 2017 (about nine years) from the Boston area, where he had a practice (Your Observer; Bradenton Times). Daughters attend or attended Manatee School for the Arts, a public charter school in the district. Involved with the Manatee Chamber of Commerce, Lakewood Ranch Business Alliance, and Leadership Manatee.",
+     "local_ties_urls": [
+      "https://www.yourobserver.com/news/2026/jun/09/jonathan-mullis-school-board-candidate/",
+      "https://thebradentontimes.com/stories/for-manatee-county-school-board-district-5-we-recommend-jonathan-mullis,214564"
+     ],
+     "record": [
+      {
+       "text": "Primary Aug. 18, 2026: 35.31% (preliminary), first place.",
+       "url": "https://www.yourobserver.com/news/2026/aug/18/manatee-school-board-election-runoffs/"
+      },
+      {
+       "text": "Platform: expand career and technical education and dual enrollment; volunteer reading mentors/tutors for K-2; pre-K readiness; expand partner-school arrangements; on books, says the district should follow existing state guidelines and its own policies.",
+       "url": "https://www.wusf.org/local-state/2026-07-27/turning-point-usa-director-volunteer-businessman-compete-manatee-school-board-district-5"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "Raised almost $28,000 as of late July 2026 (most of the three candidates). Contributors include Knowledge is Power PAC and several registered businesses such as Ford Drywall & Stucco, Inc.; $150 from Manatee County Commissioner Tal Siddique; $500 from Neil Unruh, identified by WUSF as the county's Chief of Finance.",
+       "url": "https://www.wusf.org/local-state/2026-07-27/turning-point-usa-director-volunteer-businessman-compete-manatee-school-board-district-5"
+      }
+     ],
+     "endorsements": [
+      {
+       "text": "The Bradenton Times editorial board recommended him (Sept. 29, 2026; opinion).",
+       "url": "https://thebradentontimes.com/stories/for-manatee-county-school-board-district-5-we-recommend-jonathan-mullis,214564"
+      }
+     ],
+     "social": {
+      "website": "https://votemullis.com (per Bradenton Times; not re-checked)"
+     },
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "owner_sources_note": "stewpeters.com site search for \"Mullis\": no results. Other owner sources not searched for this name. No mention found.",
+     "gaps": "No photo found. Fundraising figure is from before the primary. Not an incumbent and has held no voting office, so no votes. Residence street/neighborhood not confirmed beyond Bridgewater/Lakewood Ranch."
+    }
+   ],
+   "note": "Open seat: current District 5 member Richard Tatem (spelled Tatum in one source) is not running (WUSF). Neither candidate is an incumbent, so there are no School Board votes to report. November matchup follows the Aug. 18 primary (Your Observer; MySuncoast). District budget is nearly $1.7 billion (Bradenton Times).",
+   "where": {
+    "sb": 5
+   },
+   "short": "School Board 5",
+   "kind_machine": "race"
+  },
+  {
+   "id": "hb-mayor",
+   "office": "City of Holmes Beach Mayor (vote for one)",
+   "district": "City of Holmes Beach",
+   "kind": "city",
+   "candidates": [
+    {
+     "name": "Dan Diggins",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "Current Holmes Beach city commissioner (first elected 2022, re-elected 2024); commission chair 2024-25 and vice-chair 2025-26. Holds an engineering degree from the University of Massachusetts and describes a prior career as an aviation transportation expert.",
+     "local_ties": "Residency and years in Holmes Beach not stated in sources reviewed (charter requires 2 years residency to qualify).",
+     "record": [
+      {
+       "text": "First elected to the Holmes Beach commission without opposition in 2022; re-elected in 2024.",
+       "url": "https://www.islander.org/2026/05/titsworth-bows-out-in-holmes-beach/"
+      },
+      {
+       "text": "Serves as commission liaison to the Island Transportation Planning Organization and as city liaison to the Tourist Development Council.",
+       "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-holmes-beach-mayor"
+      },
+      {
+       "text": "Stated priority: traffic congestion, via new procedures and structural roadway changes to match capacity with demand.",
+       "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-holmes-beach-mayor"
+      },
+      {
+       "text": "Absent from the June 23, 2026 commission vote (4-0) placing the 2902 Avenue E alley vacation on the ballot.",
+       "url": "https://amisun.com/request-to-vacate-city-property-to-be-placed-on-fall-ballot/"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "Through the Aug. 21, 2026 report: $2,525 contributions raised, $2,287.10 spent; no loans mentioned. A recent $75 donor was retired resident Gerald Newbrough. Spending included $1,070 on campaign signs.",
+       "url": "https://www.islander.org/2026/09/2-hb-candidates-ramp-up-spending/"
+      }
+     ],
+     "social": {},
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "gaps": "No roll-call/vote record from commission minutes opened. No endorsements found. Residency length not stated. Owner sources: One combined WebSearch per race (names + \"Holmes Beach\" with site:stewpeters.com OR site:rumble.com OR site:alexjoneslive.com OR site:infowars.com). The search returned no results from any of the five owner sources; \"no mention found\". Site-internal search pages were not fetched."
+    },
+    {
+     "name": "David L. Zaccagnino",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "Former Holmes Beach city commissioner. Reported in 2011 coverage as re-elected to the commission that year; one report says he served nine years and won five elections.",
+     "local_ties": "Holmes Beach city commissioner for roughly nine years per past reporting; current residency and occupation not stated in sources reviewed.",
+     "record": [
+      {
+       "text": "Former Holmes Beach city commissioner; ran for mayor in 2014 (outcome not verified here).",
+       "url": "https://amisun.com/?p=64404"
+      },
+      {
+       "text": "No 2026 platform statement or questionnaire response found (Tampa Bay 28 mayoral questionnaire has no response for him).",
+       "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-holmes-beach-mayor"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "No totals reported in the Sept. 1, 2026 campaign-finance article: it states no new financial activity since the July report and gives no amounts raised, spent or loaned.",
+       "url": "https://www.islander.org/2026/09/2-hb-candidates-ramp-up-spending/"
+      }
+     ],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "gaps": "No 2026 platform, occupation, residency or fundraising totals found. Dates of his commission service not verified from primary records. (A 2022 Sun item about a different person, Mauri Zaccagnino, appeared in search and is not attributed to him.) Owner sources: One combined WebSearch per race (names + \"Holmes Beach\" with site:stewpeters.com OR site:rumble.com OR site:alexjoneslive.com OR site:infowars.com). The search returned no results from any of the five owner sources; \"no mention found\". Site-internal search pages were not fetched."
+    }
+   ],
+   "note": "Open seat: Mayor Judy Titsworth (mayor since 2018) is not running. Nonpartisan. Mayor pay $28,680/yr per The Islander.",
+   "where": {
+    "city": "Holmes Beach"
+   },
+   "short": "HB Mayor",
+   "kind_machine": "race"
+  },
+  {
+   "id": "hb-commission",
+   "office": "City of Holmes Beach Commissioner (vote for up to two)",
+   "district": "City of Holmes Beach",
+   "kind": "city",
+   "candidates": [
+    {
+     "name": "John J. Azzata",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "Retired after a 34-year law enforcement career; education includes St. John's University and the FBI National Academy; volunteer work in hostage negotiation and peer support. First-time candidate.",
+     "local_ties": "Lives in Holmes Beach with his wife, Karen; moved from Long Island, NY (move date not given).",
+     "record": [
+      {
+       "text": "Stated top priority: stormwater infrastructure, with local, state and federal governments coordinating on best practices.",
+       "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-city-of-holmes-beach-commissioner"
+      },
+      {
+       "text": "Growth/development: not addressed beyond infrastructure's effect on the local economy.",
+       "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-city-of-holmes-beach-commissioner"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "Through the Aug. 21, 2026 report: $2,050 contributions raised, $1,810.52 spent (largest item $1,078.42 printed materials); no loans mentioned. A recent $200 donor was retired resident Cory Andrews.",
+       "url": "https://www.islander.org/2026/09/2-hb-candidates-ramp-up-spending/"
+      }
+     ],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "gaps": "No endorsements found; no vote record (has not held office). Owner sources: One combined WebSearch per race (names + \"Holmes Beach\" with site:stewpeters.com OR site:rumble.com OR site:alexjoneslive.com OR site:infowars.com). The search returned no results from any of the five owner sources; \"no mention found\". Site-internal search pages were not fetched."
+    },
+    {
+     "name": "Mark Hebden",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "Filed as Steven Mark Hebden. Architect for about 40 years and former president of a large national design firm; University of Virginia graduate. First-time candidate.",
+     "local_ties": "Grew up near Philadelphia and raised his family in Cherry Hill, NJ; vacationed on Anna Maria Island for five years and has lived full-time in Holmes Beach since retiring in 2020.",
+     "record": [
+      {
+       "text": "Stated priorities: balancing residents' quality of life with tourism, encouraging more full-time residents, a citywide traffic management plan, and a multi-year stormwater upgrade with a county funding plan.",
+       "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-city-of-holmes-beach-commissioner"
+      },
+      {
+       "text": "Growth/development: says his architecture, planning and code experience will help evaluate future development; wants to preserve the island's low-density, low-rise character.",
+       "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-city-of-holmes-beach-commissioner"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "No totals reported in the Sept. 1, 2026 campaign-finance article (no new activity since the July report; amounts not stated).",
+       "url": "https://www.islander.org/2026/09/2-hb-candidates-ramp-up-spending/"
+      }
+     ],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "gaps": "Fundraising totals and donors not found; no endorsements found; no vote record. Owner sources: One combined WebSearch per race (names + \"Holmes Beach\" with site:stewpeters.com OR site:rumble.com OR site:alexjoneslive.com OR site:infowars.com). The search returned no results from any of the five owner sources; \"no mention found\". Site-internal search pages were not fetched."
+    },
+    {
+     "name": "Carol Whitmore",
+     "party": "NP",
+     "incumbent": true,
+     "bio": "Incumbent Holmes Beach commissioner and current commission chair (chosen 2025). Held offices: Holmes Beach commissioner 1991-98, mayor 1998-2006, Manatee County commissioner (at-large District 6) 2006-2022; elected to the city commission again in 2024.",
+     "local_ties": "Said in 2024 that she has lived on the island for 55 years.",
+     "votes": [
+      {
+       "bill": "Aqua by the Bay stipulation (2020)",
+       "what": "County board voted 6-1 to remove a 2017 stipulation requiring board approval of the preliminary site plan once 750 units were completed; Whitmore urged a continuance so staff and applicant could agree on clearer language.",
+       "vote": "Nay",
+       "date": "2020-02-06",
+       "chamber": "County Commission",
+       "result": "passed 6-1 (Whitmore the lone no)",
+       "url": "https://thebradentontimes.com/stories/commissioners-give-up-key-oversight-for-aqua-by-the-bay,28022"
+      }
+     ],
+     "record": [
+      {
+       "text": "Manatee County commissioner 2006-2022 (chaired the board in 2011); lost the 2022 at-large District 6 Republican primary to Jason Bearden.",
+       "url": "https://www.yourobserver.com/article/constant-attacks-on-manatee-commissioner-backfired-during-election"
+      },
+      {
+       "text": "Re-elected to Holmes Beach city commission in Nov. 2024 with 1,087 votes (per Anna Maria Island Sun); chosen commission chair in 2025.",
+       "url": "https://www.islander.org/2026/05/titsworth-bows-out-in-holmes-beach/"
+      },
+      {
+       "text": "Positions stated in Aug. 2024: opposes consolidating the three island city governments; opposes demolishing existing Manatee Beach structures for a three-story parking garage.",
+       "url": "https://amisun.com/whitmore-seeks-return-to-city-commission/"
+      },
+      {
+       "text": "2026 questionnaire: main concern is preserving small-town character amid tourism growth; wants better communication between city administration, residents and the commission after the 2024 hurricanes.",
+       "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-city-of-holmes-beach-commissioner"
+      },
+      {
+       "text": "In a 2018 county Q&A she said raising millage should be a last resort and that she had never proposed a property tax increase as city mayor.",
+       "url": "https://www.yourobserver.com/article/manatee-county-commission-district-6-carol-whitmore"
+      }
+     ],
+     "money_notes": [
+      {
+       "text": "2024 city race: $3,355.80 raised as of July 22, 2024 (the most in the commission race then), including a $1,200 self-loan; named backers included Michael Bennett, Cheri Coryea, Tal Siddique, Darcie Duncan and Bob Carter.",
+       "url": "https://amisun.com/candidates-report-campaign-contributions/"
+      },
+      {
+       "text": "2022 county primary: reported $139,576.03 on hand vs. Bearden $108,303.09 (donors not named in the source).",
+       "url": "https://www.yourobserver.com/article/constant-attacks-on-manatee-commissioner-backfired-during-election"
+      },
+      {
+       "text": "2026: no new financial activity reported since the July report; no totals stated in the Sept. 1, 2026 article.",
+       "url": "https://www.islander.org/2026/09/2-hb-candidates-ramp-up-spending/"
+      }
+     ],
+     "controversies": [
+      {
+       "text": "June 2022 (county campaign): accused of petit theft over removing an opponent's campaign signs. On Aug. 19, 2022 the State Attorney declined to file charges, stating the State could not prove criminal intent and that Whitmore mistakenly believed two signs were on private property.",
+       "status": "dismissed",
+       "url": "https://thebradentontimes.com/stories/state-attorney-will-not-bring-charges-in-sign-theft-case,31500"
+      }
+     ],
+     "endorsements": [],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "gaps": "Only ONE county roll-call-style vote verified (Aqua by the Bay, 2020, via Bradenton Times reporting, not official minutes); county minutes were not opened. Her votes on the 2021 Savanna commercial rezone and the 2022 coastal seawall/fill amendment were not stated in the reports found. No 2026 fundraising totals. Owner sources: One combined WebSearch per race (names + \"Holmes Beach\" with site:stewpeters.com OR site:rumble.com OR site:alexjoneslive.com OR site:infowars.com). The search returned no results from any of the five owner sources; \"no mention found\". Site-internal search pages were not fetched."
+    }
+   ],
+   "note": "Top two vote-getters win. Whitmore is a former Manatee County Commissioner (2006-2022). Commissioner pay $8,210.04/yr per The Islander.",
+   "where": {
+    "city": "Holmes Beach"
+   },
+   "short": "HB Commission",
+   "kind_machine": "race"
+  },
+  {
+   "id": "emfr-seat3",
+   "office": "East Manatee Fire Rescue District, Seat 3",
+   "district": "East Manatee Fire Rescue District",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "William Bjork",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "gaps": "Name confirmed on the Nov. 3, 2026 ballot listing (Patch). No bio, occupation, residency, fundraising or endorsements found in the searches run. One combined WebSearch (district names with site:stewpeters.com OR site:rumble.com OR site:alexjoneslive.com). No results from any of the five owner sources; \"no mention found\" (district-level search, individual candidate names not searched)."
+    },
+    {
+     "name": "Larry Luh",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "A Larry Luh is described in 2020-2023 reporting as a Manatee County EMS official (Assistant Chief of EMS Operations; retired after 36+ years with county EMS per a 2023 report). The sources do not confirm this is the same person as the Seat 3 candidate.",
+     "record": [
+      {
+       "text": "Reporting identifies a Larry Luh of Manatee County EMS working with East Manatee Fire Rescue's deputy chief on COVID-19 risk monitoring (2020). Identity match to the candidate NOT confirmed.",
+       "url": "https://www.yourobserver.com/article/manatee-county-fire-and-ems-forces-face-covid-19-with-unified-plan"
+      },
+      {
+       "text": "EMS assistant chief retirement after 36+ years with Manatee County (2023); identity match to the candidate NOT confirmed.",
+       "url": "https://baynews9.com/fl/tampa/news/2023/03/17/ems-assistant-chief-retires-after-more-than-36-years-with-manatee-county"
+      }
+     ],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "gaps": "Name confirmed on the Nov. 3, 2026 ballot listing (Patch). No bio, occupation, residency, fundraising or endorsements found in the searches run. One combined WebSearch (district names with site:stewpeters.com OR site:rumble.com OR site:alexjoneslive.com). No results from any of the five owner sources; \"no mention found\" (district-level search, individual candidate names not searched)."
+    }
+   ],
+   "note": "Nonpartisan special district board. Ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates",
+   "where": {
+    "special": "East Manatee Fire Rescue"
+   },
+   "short": "E. Manatee Fire 3",
+   "kind_machine": "race"
+  },
+  {
+   "id": "emfr-seat5",
+   "office": "East Manatee Fire Rescue District, Seat 5",
+   "district": "East Manatee Fire Rescue District",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Joseph Houlihan",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "gaps": "Name confirmed on the Nov. 3, 2026 ballot listing (Patch). No bio, occupation, residency, fundraising or endorsements found in the searches run. One combined WebSearch (district names with site:stewpeters.com OR site:rumble.com OR site:alexjoneslive.com). No results from any of the five owner sources; \"no mention found\" (district-level search, individual candidate names not searched)."
+    },
+    {
+     "name": "Richard Jacobs",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "A Richard \"Dick\" Jacobs was appointed East Manatee Fire Rescue commissioner in 2009, elected in 2010 and re-elected in 2014, per Observer profiles (listed then as Seat 3). The sources reviewed do not confirm this is the same person or whether he currently holds a seat.",
+     "record": [
+      {
+       "text": "Observer 2018 profile: Dick Jacobs elected East Manatee Fire Rescue commissioner in 2010, re-elected 2014 (Seat 3 at that time). Identity match to the 2026 candidate NOT confirmed.",
+       "url": "https://www.yourobserver.com/news/2018/oct/19/east-manatee-fire-rescue-district-seat-3-dick-jacobs"
+      }
+     ],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "gaps": "Name confirmed on the Nov. 3, 2026 ballot listing (Patch). No bio, occupation, residency, fundraising or endorsements found in the searches run. One combined WebSearch (district names with site:stewpeters.com OR site:rumble.com OR site:alexjoneslive.com). No results from any of the five owner sources; \"no mention found\" (district-level search, individual candidate names not searched)."
+    }
+   ],
+   "note": "Nonpartisan special district board. Ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates",
+   "where": {
+    "special": "East Manatee Fire Rescue"
+   },
+   "short": "E. Manatee Fire 5",
+   "kind_machine": "race"
+  },
+  {
+   "id": "pfd-seat1",
+   "office": "Parrish Fire District, Seat 1",
+   "district": "Parrish Fire District",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Kyle L. Moore",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "gaps": "Name confirmed on the Nov. 3, 2026 ballot listing (Patch early-voting/election-day guides). A name search returned nothing about this candidate: no bio, residency, fundraising or endorsements found. One combined WebSearch (district names with site:stewpeters.com OR site:rumble.com OR site:alexjoneslive.com). No results from any of the five owner sources; \"no mention found\" (district-level search, individual candidate names not searched)."
+    },
+    {
+     "name": "Edward W. Stevens",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [
+      "stewpeters.com",
+      "rumble.com/c/StewPeters",
+      "alexjoneslive.com",
+      "rumble.com/TheAlexJonesShowLive",
+      "rumble.com/Owen"
+     ],
+     "gaps": "Name confirmed on the Nov. 3, 2026 ballot listing (Patch early-voting/election-day guides). A name search returned nothing about this candidate: no bio, residency, fundraising or endorsements found. One combined WebSearch (district names with site:stewpeters.com OR site:rumble.com OR site:alexjoneslive.com). No results from any of the five owner sources; \"no mention found\" (district-level search, individual candidate names not searched)."
+    }
+   ],
+   "note": "Nonpartisan. The same ballot carries the Parrish Fire District assessment referendum (see measures file). Ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates",
+   "where": {
+    "special": "Parrish Fire District"
+   },
+   "short": "Parrish Fire 1",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-copperstone-cdd-seat1",
+   "office": "Copperstone CDD, Seat 1",
+   "district": "Copperstone CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Adam Bailey",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Kyle Baber",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Copperstone CDD"
+   },
+   "short": "Copperstone 1",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-cross-creek-cdd-seat2",
+   "office": "Cross Creek CDD, Seat 2",
+   "district": "Cross Creek CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Frank Sacca",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Bruce R. Stolarz",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Cross Creek CDD"
+   },
+   "short": "Cross Creek 2",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-eagle-pointe-cdd-seat1",
+   "office": "Eagle Pointe CDD, Seat 1",
+   "district": "Eagle Pointe CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "William John Hathaway",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Leah Ogren",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Eagle Pointe CDD"
+   },
+   "short": "Eagle Pointe 1",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-eagle-pointe-cdd-seat3",
+   "office": "Eagle Pointe CDD, Seat 3",
+   "district": "Eagle Pointe CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "James P. Casement",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Kevin G. Gagne",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Eagle Pointe CDD"
+   },
+   "short": "Eagle Pointe 3",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-harrison-ranch-cdd-seat1",
+   "office": "Harrison Ranch CDD, Seat 1",
+   "district": "Harrison Ranch CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Joyce Lynn Calderon",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Marko Krstic",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Harrison Ranch CDD"
+   },
+   "short": "Harrison Ranch 1",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-harrison-ranch-cdd-seat2",
+   "office": "Harrison Ranch CDD, Seat 2",
+   "district": "Harrison Ranch CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Tracy Joniec",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Mike Lamb",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Harrison Ranch CDD"
+   },
+   "short": "Harrison Ranch 2",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-harrison-ranch-cdd-seat3",
+   "office": "Harrison Ranch CDD, Seat 3",
+   "district": "Harrison Ranch CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Tony Beazley",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Victor G. Colombo",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Harrison Ranch CDD"
+   },
+   "short": "Harrison Ranch 3",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-heritage-harbour-north-cdd-seat1",
+   "office": "Heritage Harbour North CDD, Seat 1",
+   "district": "Heritage Harbour North CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Nancy Quinn",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Grace Russolillo",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Heritage Harbour North CDD"
+   },
+   "short": "Heritage Hbr N 1",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-lakewood-ranch-cdd-2-seat5",
+   "office": "Lakewood Ranch CDD 2, Seat 5",
+   "district": "Lakewood Ranch CDD 2",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Jonathan Dayton",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Bill Mariotti",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Arthur Taber",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Lakewood Ranch CDD 2"
+   },
+   "short": "LWR2 5",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-lakewood-ranch-stewardship-district-seat3",
+   "office": "Lakewood Ranch Stewardship District, Seat 3",
+   "district": "Lakewood Ranch Stewardship District",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Tryn Stimart",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Henry N. White Jr",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Lakewood Ranch Stewardship District"
+   },
+   "short": "LWR Steward. 3",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-legends-bay-cdd-seat3",
+   "office": "Legends Bay CDD, Seat 3",
+   "district": "Legends Bay CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Angela Albrecht",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Michael A. Conner",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Legends Bay CDD"
+   },
+   "short": "Legends Bay 3",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-legends-bay-cdd-seat5",
+   "office": "Legends Bay CDD, Seat 5",
+   "district": "Legends Bay CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Sandra K. Freas",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Jack A. Knisley Jr",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Legends Bay CDD"
+   },
+   "short": "Legends Bay 5",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-silverleaf-cdd-seat1",
+   "office": "Silverleaf CDD, Seat 1",
+   "district": "Silverleaf CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Frank John Loviglio",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Jackie Petrovich",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Joe Stanczyk",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Silverleaf CDD"
+   },
+   "short": "Silverleaf 1",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-silverleaf-cdd-seat4",
+   "office": "Silverleaf CDD, Seat 4",
+   "district": "Silverleaf CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Timothy Abramski",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Judy Cummings",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Silverleaf CDD"
+   },
+   "short": "Silverleaf 4",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-tara-cdd-seat1",
+   "office": "Tara CDD, Seat 1",
+   "district": "Tara CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Joseph Di Bartolomeo",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs. Patch's listing spells it \"Joseph Bartolomeo\"; the spelling here follows the assignment brief, verify against the official sample ballot."
+    },
+    {
+     "name": "Karin Murphy",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Tara CDD"
+   },
+   "short": "Tara 1",
+   "kind_machine": "race"
+  },
+  {
+   "id": "cdd-tara-cdd-seat5",
+   "office": "Tara CDD, Seat 5",
+   "district": "Tara CDD",
+   "kind": "special",
+   "candidates": [
+    {
+     "name": "Eugene J. Rado",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    },
+    {
+     "name": "Carl Teisch",
+     "party": "NP",
+     "incumbent": false,
+     "bio": "",
+     "record": [],
+     "owner_sources": [],
+     "owner_sources_searched": [],
+     "gaps": "Candidate name taken from the Nov. 3, 2026 ballot listing (Patch). No bio or other research done for this district seat (minimal-effort tier); owner sources not searched for CDDs."
+    }
+   ],
+   "note": "CDD / special district seat, ballot listing: https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates. Candidate list verified against Patch; seat/district not independently checked against the Supervisor of Elections.",
+   "where": {
+    "special": "Tara CDD"
+   },
+   "short": "Tara 5",
+   "kind_machine": "race"
+  }
+ ],
+ "measures": [
+  {
+   "id": "brd-ref-1",
+   "name": "City of Bradenton Referendum No. 1 - Remove Mayor's tie vote and ex officio council president role; state Mayor is not a council member",
+   "summary": "Amends the Bradenton City Charter to (1) remove the mayor's right to cast a vote when the council ties, and (2) remove the mayor's designation as 'ex officio president of the Council' and add language that the Mayor is not a member of the City Council. Yes = amend; No = keep current charter.",
+   "supporters": "None found in sources reachable today.",
+   "opponents": "None found in sources reachable today.",
+   "who_funds_yes": "No committee found.",
+   "who_funds_no": "No committee found.",
+   "fiscal": "No fiscal impact stated on the ballot.",
+   "urls": [
+    "https://www.votemanatee.gov/download/64/2026-general-election/9497/2026-generic-general-sample-ballot",
+    "https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates"
+   ],
+   "gaps": "Who proposed it, the council vote that placed it on the ballot, and any campaign for or against were not found (web-search quota exhausted; city and newspaper pages unreachable).",
+   "where": {
+    "city": "Bradenton"
+   },
+   "short": "Bradenton Ref 1",
+   "kind": "measure"
+  },
+  {
+   "id": "brd-ref-2",
+   "name": "City of Bradenton Referendum No. 2 - Term limits for Mayor and City Council",
+   "summary": "Limits the mayor and council members to three full consecutive terms in the same office, beginning January 2028; after three terms a person must sit out at least two years before running for the same office again.",
+   "supporters": "None found in sources reachable today.",
+   "opponents": "None found in sources reachable today.",
+   "who_funds_yes": "No committee found.",
+   "who_funds_no": "No committee found.",
+   "fiscal": "No fiscal impact stated on the ballot.",
+   "urls": [
+    "https://www.votemanatee.gov/download/64/2026-general-election/9497/2026-generic-general-sample-ballot",
+    "https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates"
+   ],
+   "gaps": "Origin of the proposal and any organized support/opposition not found.",
+   "where": {
+    "city": "Bradenton"
+   },
+   "short": "Bradenton Ref 2",
+   "kind": "measure"
+  },
+  {
+   "id": "hb-ref-alley",
+   "name": "City of Holmes Beach Referendum: vacating a 10-foot alleyway at 2902 Avenue East",
+   "summary": "Ballot asks whether the City should vacate an unused, inaccessible 10-foot-wide alleyway bisecting the beachfront property at 2902 Avenue E in favor of that property's owner. Yes = vacate, No = deny. A Holmes Beach charter provision requires voter approval for vacations of this kind. The article reports the alley is about 150 feet long and no payment to the city was reported.",
+   "who_funds_yes": "Not found (no campaign committee reported in sources reviewed). The property owner, Blowfish Island Inc. (managed by Benjamin ten Haff), is the beneficiary and is represented by attorney Garret Barnes.",
+   "who_funds_no": "Not found",
+   "supporters": [
+    "Property owner Blowfish Island Inc. via attorney Garret Barnes (bought the lot in 2024 for $7.25 million and plans two homes instead of three)",
+    "City Attorney Randy Mora called it a housekeeping action",
+    "Holmes Beach commission voted 4-0 on June 23, 2026 (Dan Diggins absent) to adopt Resolution 26-06 placing it on the ballot; the supporting ordinance passed unanimously at two hearings in 2025"
+   ],
+   "opponents": [
+    "Resident Nancy Deal, the only public commenter, questioned giving up public land; Commissioner Jessica Patel asked whether the city was getting paid. No organized opposition reported in sources reviewed."
+   ],
+   "urls": [
+    "https://amisun.com/request-to-vacate-city-property-to-be-placed-on-fall-ballot/",
+    "https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates",
+    "https://www.islander.org/?p=81905"
+   ],
+   "gaps": "Who funds yes/no not found. Charter basis (supermajority + referendum requirement) not confirmed for this specific alley. An Islander correction states the alley is NOT a beach access path and runs north-south between six privately owned plats; the Sun article reports no payment to the city.",
+   "where": {
+    "city": "Holmes Beach"
+   },
+   "short": "HB alley vacate",
+   "kind": "measure"
+  },
+  {
+   "id": "pfd-ref",
+   "name": "Parrish Fire District Referendum: Authorization to Increase Annual Special Assessments for Fire Protection Services",
+   "summary": "Ballot asks \"Shall the Parrish Fire District be authorized to increase its base rate of assessment\" by an additional flat $68.00 per developed residential, commercial and industrial parcel per year (vacant, acreage and golf course parcels excluded). Stated purpose: fund additional personnel to move the standard firefighter schedule from 56 to 42 hours per week, consistent with Florida Statutes s. 633.508(7)(c). The assessment is a flat per-parcel charge, not a percentage of property value. Fire Chief Stacey Bailey said shorter schedules support firefighters' mental health and that Florida law encourages the 42-hour policy. Expected total revenue and number of firefighters to be added were not stated in the sources reviewed. Background: the district's 5-year plan says a 2020 referendum to raise the assessment by $80 was approved by voters.",
+   "who_funds_yes": "Not found (no campaign committee reported in sources reviewed).",
+   "who_funds_no": "Not found",
+   "supporters": [
+    "Fire Chief Stacey Bailey (district chief) is quoted supporting the schedule change"
+   ],
+   "opponents": [
+    "None identified in the sources reviewed (no organized opposition found; not verified that none exists)"
+   ],
+   "gaps": "Total revenue, firefighters to be added, and any organized opposition not found. One district Nextdoor post claims an earlier assessment referendum was not approved, conflicting with the 5-year plan's statement that the 2020 $80 measure passed; unresolved.",
+   "urls": [
+    "https://www.tampabaybeacons.com/2026/10/26/parrish-fire-district-referendum-on-nov-3-ballot/",
+    "https://patch.com/florida/bradenton/bradenton-election-day-2026-voting-guide-where-how-vote-candidates",
+    "https://www.parrishfd.org/files/e03dc351a/Parrish+5-year+plan+2025+update.pdf"
+   ],
+   "where": {
+    "special": "Parrish Fire District"
+   },
+   "short": "Parrish fire $68",
+   "kind": "measure"
+  }
+ ],
+ "notes": [
+  "SCHOOL BOARD vs COMMISSION: the assumption holds for the two districts on the ballot. I took 400 random county address points, got each one's commission district from the county layer (FeatureServer/7) and its real sample ballot from the Supervisor of Elections: of 324 resolvable addresses every commission-District-2 address got School Board District 2 (plus CC2), every commission-District-5 address got School Board District 5, and no address in commission districts 1, 3 or 4 had any school-board race (commission-district-1 addresses saw the CC1 race and no school-board race; districts 3 and 4 saw only the at-large CC6 race; district 2 saw CC2 + SB2; district 5 saw SB5 + CC6). So SB2 = CC2 voters and SB5 = CC5 voters. Only SB2 and SB5 are on the 2026 ballot; I did not test districts 1, 3, 4 (not on ballot). No public school-board polygon layer exists, so use COMMDIST.",
+  "ALREADY IN ballot-34221.json (not duplicated): cc1, cc2, cc6, sb2, mosquito, palmetto ward 2, SD20, HD70, HD71, CD16, statewide, retention, Amendments 1-3 and the county GO-bond measure (man-ref-1) and Palmetto charter measure. Of these, a 34209 ballot carries: CD16, SD20, HD71, cc6, mosquito, retention, Amendments 1-3, the county bond measure. cc6 and the mosquito district are countywide (every Manatee ballot).",
+  "NEW in this file: man-sd22 (Buchanan/Wasserman/Hyde; not on any 34209 ballot), man-hd72 (Conerly/Shifrin), man-sb5, Holmes Beach mayor/commission/alley referendum, East Manatee Fire Seats 3 and 5, Parrish Fire Seat 1 + referendum, West Manatee Fire Seats 2-4 (ON 34209 ballots), Bradenton Council Wards 3 and 4 + Referenda 1 and 2 (ON 34209 ballots if the voter lives inside the City of Bradenton), 17 CDD/Stewardship seats (names only).",
+  "MACHINE FILTER: every race and measure has a 'where' object. For state legislative races I added keys 'sd' and 'hd' (not in your list) with value = the district number; get the voter's SD/HD from TIGERweb layers 1/2 (gis.special.state_legislative_and_congress, CORS tested) or ignore them and show by district. Bradenton Ward 3/4: where={'city':'Bradenton'} only, because every city voter sees both seats (residency wards, citywide vote); the race objects carry 'district':3/4 as the ward. 'kind_machine' = 'race'; the descriptive 'kind' (city/special/STS/STR/school) is kept from the schema; measures carry kind 'measure'. Short labels are <=18 chars.",
+  "WEST MANATEE FIRE: the PAO fire layer (gis.special) says which fire district a point is in, but on the actual sample ballots the in-city splits (315.2, 323.3, 323.5, 325.3, 325.4, 327.2, 333.3) had no fire-district race on their sample ballots. Trust the voter's own sample ballot over any inferred layer join.",
+  "PRECINCT SPLITS: the personal sample ballot is keyed by precinct split such as 315.2 (not just 315). Precinct finder JSON and the SOE sample ballot PDF URLs are in gis.precincts.note; CORS was not tested and is expected to fail (coordinator already decided to link out).",
+  "WEB SEARCH QUOTA: the shared WebSearch budget ran out partway through. Candidate data therefore rests on WebFetch of specific pages: Bradenton Times (opinion pieces labelled as such), city and WMFR sites, county campaign-finance exports (itemized donors, computed by me from voterfocus export.php CSV), Patch ballot guide. Owner-source (Stew Peters / Alex Jones / Rumble Owen) searching is thin: only stewpeters.com/?s=Bradenton was fetched by me (no results); the delegated subagents checked stewpeters.com site search for the SD22/HD72/SB5 names, and rumble/alexjoneslive for a few. Treat 'no mention found' as 'not found in the limited search', not as a clean negative.",
+  "SUBAGENT WORK (not independently re-verified by me): races B1 (SD22, HD72, SB5: 10 House roll-call votes each for Buchanan and Conerly from flsenate.gov roll-call PDFs; FL DOE finance site returned 502 so no donor data) and B2 (Holmes Beach, East Manatee/Parrish fire, CDDs; fire candidates are names only, two East Manatee entries flagged unconfirmed identity). Spot-check before relying.",
+  "POLLING PLACES: 71 precincts from the SOE directory (https://www.voterfocus.com/PrecinctFinder/precinctDirectory?county=manatee), one place per precinct (not per split). Several churches/buildings host more than one precinct (e.g. River Life Church hosts 113, 219, 221). Voters should confirm with the SOE look-up before going; some elections use a different place.",
+  "UNRESOLVED for 34209: about 170 of ~1,570 sampled address-lookups did not match (Manatee Ave W, 33rd Ave Dr W, Perico Bay Blvd, 59th/60th St W areas). The 8 precincts found (311, 313, 315, 317, 323, 325, 327, 333) are consistent in contest content (all carry the same statewide/county/DCA ballot and differ only by city and fire district), so a missed split would only change whether the voter sees West Manatee Fire or the Bradenton contests; a few addresses (Palma Sola Trace, Perico Island, Pointe West) may belong to precinct splits not seen."
+ ]
+}

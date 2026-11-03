@@ -1,0 +1,2662 @@
+{
+ "updated": "2026-11-03T14:51:35.914Z",
+ "done": true,
+ "rubrics": {
+  "U.S. Senate / U.S. House": "Job is lawmaking, oversight, budgeting and constituent service in Washington. High (75-95): prior legislative or executive office, law/judicial/prosecutorial background, deep policy or budget experience. Middle (45-70): state legislators, senior congressional or agency staff, local elected office, executive or business management. Low (10-40): no governing experience, unrelated occupation, first-time candidate with a thin record. Missing bio = null.",
+  "Governor": "Chief executive of a $120B+ state government: management of large organizations, budgets, emergency response (hurricanes), appointments, vetoes. High: prior executive office (governor, big-city mayor, agency head, Cabinet), long legislative leadership, large-organization management. Middle: legislators, lawyers, entrepreneurs with real payroll and budget experience. Low: no governing or managerial experience. Party and policy views are not scored.",
+  "Attorney General": "Chief legal officer: litigation, consumer protection, criminal appeals, opinions. High: years as a prosecutor, judge, state/federal litigator or senior government counsel plus Florida Bar standing. Middle: licensed lawyer with transferable government or legislative legal work. Low: no law license or legal practice.",
+  "Chief Financial Officer": "State CFO oversees accounting, payments, unclaimed property, insurance regulation (fraud), fire marshal. High: CPA/finance/insurance-industry leadership, public-finance or regulatory experience, running a financial institution. Middle: business owners, legislators on banking/insurance committees. Low: unrelated careers.",
+  "Commissioner of Agriculture": "Runs FDACS: farming policy, food safety, consumer protection, concealed-weapon licensing, state forests. High: working farmer/rancher or agribusiness operator, ag-agency or food-safety career, ag policy leadership. Middle: legislators or lawyers with consumer-protection or farm-law work. Low: no agriculture, food-safety or regulatory background.",
+  "State Legislature (House / Senate)": "Job is writing law and the state budget. High (75-95): prior legislative service especially leadership or committee chair, plus law/policy/budget careers. Middle (45-70): local elected office, lawyers, policy staff, business owners and managers, long civic leadership. Low (10-40): student/first-time with no civic record, unrelated occupation. Missing info = null.",
+  "County Commission": "Land use and growth management, county budget (~$1B in Manatee), infrastructure, public safety funding. High: prior commissioner or city-manager/planner/public-administration career, plus budget and land-use experience. Middle: municipal/regional agency staff, real-estate or construction professionals with approval process knowledge, business owners. Low: unrelated occupation without public-sector exposure.",
+  "School Board": "Oversees district budget, superintendent, policy for students. High: career educator/administrator, school finance or education law, prior board service. Middle: parents with PTA/volunteer leadership, business managers, nonprofit leaders. Low: no education or governance link.",
+  "Mosquito Control District": "Independent special district: contracts and runs mosquito/vector control (adulticide, larvicide, Integrated Pest Management), budget set by tax levy, must follow state (FDACS) rules. High (80-95): pest-control/entomology/public-health/vector-control career or licensed pest-control business ownership. Middle-high (60-75): environmental/wetland/land-management professionals, public-health or biology. Middle (40-55): general public administration, small-business management. Low: unrelated. Unknown = null.",
+  "Fire District boards": "Elected commissioners oversee a fire/EMS district budget, millage, chief, stations, equipment. High: career firefighter/paramedic/fire officer or fire-service administrator, prior fire commissioner with a record. Middle: public-safety, emergency management, engineering/construction, municipal finance, business management. Low: unrelated. Unknown = null.",
+  "CDD boards": "Community Development District boards run neighborhood infrastructure (roads, ponds, amenities), assessments and a modest budget; residents sit on them. High: engineering, construction, public finance, accounting, property/facility management, prior CDD/HOA board service. Middle: business owners/managers, lawyers, retired executives. Low: unrelated. Most candidates have no public bio = null.",
+  "City Council / City Commission / Mayor": "City budget, zoning/land use, utilities, police/fire contracts. High: prior council/mayor/planning-board service, city administration, planning, public finance, municipal law. Middle: business owners, real estate/property management, nonprofit leadership, lawyers. Low: no civic experience.",
+  "Fire district (general)": "See Fire District boards."
+ },
+ "candidates": {
+  "Jose Javier Rodriguez": {
+   "qual": 68,
+   "background": "Miami attorney (Harvard Law 2006); Florida House 2012-16, Senate 2016-20; Assistant Secretary of Labor 2024-25. No prosecutor or judge record found.",
+   "why": "Licensed lawyer and long lawmaker with executive-branch service, but no prosecutorial or large-litigation role found.",
+   "sources": []
+  },
+  "James Uthmeier": {
+   "qual": 74,
+   "background": "Georgetown Law 2014; Jones Day; Commerce Dept counsel; DeSantis general counsel then chief of staff; appointed AG Feb 2025.",
+   "why": "Deep government-legal experience and 20 months as sitting AG; little courtroom trial or prosecutor history.",
+   "sources": []
+  },
+  "Joey Mendoza Atkins": {
+   "qual": 28,
+   "background": "Miami trial attorney and former sports agent; says he gave legal aid to farmworkers; no farming, ag-agency or food-safety career found.",
+   "why": "Lawyer with consumer-law exposure but no agriculture, food-safety or regulatory background found.",
+   "sources": []
+  },
+  "Wilton Simpson": {
+   "qual": 95,
+   "background": "Fifth-generation farmer; ran a large egg operation (Simpson Farms, Trilby); state senator 2012-22 and Senate President; Ag Commissioner since 2023.",
+   "why": "Direct farming/agribusiness career plus nearly four years running the agency.",
+   "sources": []
+  },
+  "Thomas Schwarz": {
+   "qual": 38,
+   "background": "15 years in hospitality, 9 years freelance editor/researcher; A.A. and USF B.A.; 500+ volunteer hours; no prior office.",
+   "why": "Small-business and communications skills transfer modestly; no government, planning or budget experience.",
+   "sources": []
+  },
+  "Kemp Schuessler": {
+   "qual": 62,
+   "background": "30+ years in financial services and Florida insurance; independent insurance agent; appointed to Ward 3 seat July 2025.",
+   "why": "Financial and risk background plus about 16 months on this council; no planning or land-use career.",
+   "sources": []
+  },
+  "Keith J. Green": {
+   "qual": 58,
+   "background": "Property management career; four years on Bradenton Planning Commission and other local boards; organizes annual First Responders Mass.",
+   "why": "Planning-commission service is directly relevant to zoning/land use; no elected or budget role.",
+   "sources": []
+  },
+  "Lisa Gonzalez Moore": {
+   "qual": 68,
+   "background": "Real estate and business attorney; UF J.D.; incumbent council member; past president/treasurer of women lawyers group, Legal Aid of Manasota board.",
+   "why": "Real-estate and municipal-adjacent law plus current council experience and nonprofit board finance roles.",
+   "sources": []
+  },
+  "Reggie Bellamy": {
+   "qual": 68,
+   "background": "County commissioner 2018-22 and Port Authority chair; Army veteran; Bethune-Cookman business degree; coach, school dean, youth-center director.",
+   "why": "Prior county commissioner with budget and land-use votes; career otherwise education/youth work.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2499"
+   ]
+  },
+  "Tara Poulton": {
+   "qual": 72,
+   "background": "Chief of staff to Rep. Buchanan district office; SWFWMD government affairs; Manatee Chamber VP; DeSoto County division director; MPA (FSU).",
+   "why": "Long public-administration and water/land-policy staff career; no elected office yet.",
+   "sources": []
+  },
+  "Annette Taddeo": {
+   "qual": 46,
+   "background": "Founded translation company LanguageSpeak (1995); state senator 2017-22 serving on Banking and Insurance committee; no CPA or financial-industry career.",
+   "why": "Business owner and banking/insurance committee member, but no accounting, finance or insurance-regulation career.",
+   "sources": []
+  },
+  "Blaise Ingoglia": {
+   "qual": 66,
+   "background": "Founded America One Mortgage and Hartland Homes; Hernando commissioner, Florida House/Senate 2014-25; appointed CFO July 2025; ran state local-government audits.",
+   "why": "Mortgage and homebuilding business owner, legislative finance experience, and 15 months as sitting CFO.",
+   "sources": []
+  },
+  "David Jolly": {
+   "qual": 54,
+   "background": "Attorney; U.S. Representative 2014-17; congressional staffer; lobbyist 2007-14; television commentator. No executive office held.",
+   "why": "Federal lawmaker and lawyer, but no governor/mayor/agency executive or large budget management.",
+   "sources": []
+  },
+  "Byron Donalds": {
+   "qual": 54,
+   "background": "U.S. Representative since 2021; Florida House 2016-20; earlier bank credit analyst, surety portfolio manager and financial advisor.",
+   "why": "Legislative and finance background; never ran an executive office or large organization.",
+   "sources": []
+  },
+  "Scott Eckhard Jewett": {
+   "qual": 30,
+   "background": "Age 67, Boca Raton entrepreneur and inventor; first run for office.",
+   "why": "Business founder but no governing or large-organization management found.",
+   "sources": []
+  },
+  "Charles Burkett": {
+   "qual": 66,
+   "background": "Four-term mayor of Surfside since 2006, led the town through the 2021 Champlain Towers collapse; real estate investor.",
+   "why": "Only candidate with an executive office and crisis leadership, though in a very small town.",
+   "sources": []
+  },
+  "Frank J. Russo": {
+   "qual": 32,
+   "background": "Boca Raton entrepreneur with 30+ years in insurance; no office held.",
+   "why": "Relevant to insurance policy, but no governing or large-scale management record found.",
+   "sources": []
+  },
+  "Moliere \"Moe\" Dimanche": {
+   "qual": 12,
+   "background": "Age 38, FedEx delivery driver in Orlando; ran for Orlando mayor 2023 (disqualified for unpaid fees).",
+   "why": "No executive, legislative or management experience found.",
+   "sources": []
+  },
+  "Dean Ocean Abrams": {
+   "qual": 36,
+   "background": "Sarasota enterprise technology and management consultant per his website; no office held.",
+   "why": "Consulting and management background; no public-sector or executive experience found.",
+   "sources": []
+  },
+  "Jeffrey Peter \"Dr. Jeff\" Datto": {
+   "qual": null,
+   "background": "Hialeah resident, no website; occupation not found; records show many self-represented federal lawsuits.",
+   "why": "Occupation and \"Dr.\" credential unverified; not scored.",
+   "sources": []
+  },
+  "Ocean Fitts": {
+   "qual": 20,
+   "background": "27-year-old studying public policy at St. Petersburg College; no office held.",
+   "why": "Policy student only; no work, civic or governing record found.",
+   "sources": []
+  },
+  "Jordan Varnadore": {
+   "qual": 36,
+   "background": "VP of Marketing at GarrettRichard (Palmetto commercial insurance/PEO brokerage); dueling pianist; appointed secretary of county GOP committee.",
+   "why": "Local business marketing executive; no legislative, legal or policy record.",
+   "sources": []
+  },
+  "Joseph Hoolihan": {
+   "qual": 28,
+   "background": "Works in real estate; self-described political newcomer; no office held.",
+   "why": "Real-estate knowledge relevant to growth issues, but no governing record found.",
+   "sources": []
+  },
+  "Mark Davis": {
+   "qual": 26,
+   "background": "Air Force veteran 2005-2013 and small-business owner; never held office. Identity beyond that not confirmed.",
+   "why": "Military service and small business transfer modestly; no governing or policy record.",
+   "sources": []
+  },
+  "Kelly Kirschner": {
+   "qual": 72,
+   "background": "Sarasota city commissioner (2007) and mayor (2010); Peace Corps; founding director UnidosNow; Eckerd College vice president/dean.",
+   "why": "Elected executive experience, education administration and nonprofit leadership; no congressional service.",
+   "sources": []
+  },
+  "Sydney Gruters": {
+   "qual": 48,
+   "background": "Staffer to Rep. Buchanan; district director for Rep. Steube; executive director of New College Foundation 2023-26; first run for office.",
+   "why": "Congressional district-office staff experience and nonprofit foundation leadership; no elected role.",
+   "sources": []
+  },
+  "Scott Johnson": {
+   "qual": null,
+   "background": "Palmetto resident (5207 15th St W); candidate email is at North River Church (Parrish). Occupation not found in filings read; scanned Form 1 not read.",
+   "why": "No evidence of pest-control, banking or brokerage career found either way; background unknown.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2635"
+   ]
+  },
+  "Rodney O'Quinn": {
+   "qual": 85,
+   "background": "Joined Keller's Pest Control (Bradenton) as service technician in 1997; vice president 2000; owner and president since 2002 per company profile.",
+   "why": "About 30 years in licensed pest control, directly relevant; candidate email uses the company domain.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2546",
+    "https://www.salary.com/research/company/keller-s-pest-control-overview"
+   ]
+  },
+  "Charles \"Rick\" Richards": {
+   "qual": 72,
+   "background": "Owner of Rick Richards Inc.: ecological management, native-plant restoration and land management since 1984 (per his campaign site). Not a land broker.",
+   "why": "Wetland/environmental management and nuisance-vegetation work fit mosquito control; not a pest-control or entomology license holder.",
+   "sources": [
+    "https://voterickrichards.com/",
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2516"
+   ]
+  },
+  "Gerald Baldi": {
+   "qual": 34,
+   "background": "Age 70; former advertising executive, then real estate, financial services and banking; Indivisible Manatee organizer; first run for office.",
+   "why": "Business career; no legislative, legal or policy-office experience.",
+   "sources": []
+  },
+  "Jim Boyd": {
+   "qual": 86,
+   "background": "Owns Boyd Insurance & Investments; Palmetto city council, North River Fire commissioner, Florida House 2010-18, Senate since 2020; Senate Majority Leader.",
+   "why": "Decades of legislative service and leadership plus insurance business ownership.",
+   "sources": []
+  },
+  "Angie Nixon": {
+   "qual": 58,
+   "background": "Florida House since 2020; former executive director of Florida for All; Jacksonville native.",
+   "why": "Six years as a legislator and nonprofit executive; no federal, executive or legal career.",
+   "sources": []
+  },
+  "Ashley Moody": {
+   "qual": 84,
+   "background": "Former Florida AG 2019-25, Hillsborough circuit judge 2007-17, former assistant U.S. attorney; appointed U.S. Senator Jan 2025.",
+   "why": "Judicial, prosecutorial and statewide executive experience plus 20 months in the Senate.",
+   "sources": []
+  },
+  "Neil J. Gillespie": {
+   "qual": null,
+   "background": "Likely the Ocala pro se litigant and blogger (identity not confirmed); occupation not verified; ran for Ocala mayor per his blog.",
+   "why": "Identity and career not confirmed; not scored.",
+   "sources": []
+  },
+  "Jacob R. Kyser": {
+   "qual": 24,
+   "background": "Aviation consultant, Bradenton (filing); candidate email at flyuft.biz.",
+   "why": "No fire, EMS or public-safety background found; business consulting only.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2637"
+   ]
+  },
+  "Derrick Warner": {
+   "qual": 48,
+   "background": "Sitting West Manatee fire commissioner (Seat 2); retired, Bradenton. Prior career not found.",
+   "why": "Current board experience helps; earlier career unknown.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2547"
+   ]
+  },
+  "John Agnelli": {
+   "qual": 38,
+   "background": "Contractor, Agnelli Construction (Sarasota/Myakka area per filing).",
+   "why": "Construction experience useful for station/equipment oversight; no fire-service link found.",
+   "sources": []
+  },
+  "Dana Tindall": {
+   "qual": 48,
+   "background": "Fire commissioner and Secretary-Treasurer, appointed March 2025; retired, Bradenton. Prior career not found.",
+   "why": "Board experience including treasurer duties; earlier career unknown.",
+   "sources": []
+  },
+  "Keith D. Miller": {
+   "qual": null,
+   "background": "Bradenton resident (7520 2nd Ave W); campaign email \"keithmillerforfirecommissioner\"; no occupation found.",
+   "why": "Background not found; not scored.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2564"
+   ]
+  },
+  "Billy Burke": {
+   "qual": 48,
+   "background": "Sitting West Manatee fire commissioner (Seat 4); Bradenton. Prior career not found.",
+   "why": "Current board experience; earlier career unknown.",
+   "sources": []
+  },
+  "Sari Lindroos-Valimaki": {
+   "qual": 50,
+   "background": "Cybersecurity/IT professional with MBA, 30-40 years; Substack writer; lost 2024 countywide race; never held office.",
+   "why": "Management and technical career; engaged in zoning issues but no public office, planning or budget oversight record.",
+   "sources": []
+  },
+  "Elizabeth \"Liz\" Arnold": {
+   "qual": 66,
+   "background": "Retired corporate treasury executive (23 years Florida Power/Duke Energy, 7 years City of St. Petersburg); decade of county meeting activism.",
+   "why": "Public-finance and treasury experience fits a county budget; deep land-use meeting knowledge; no office held.",
+   "sources": []
+  },
+  "Charles B. Smith Sr": {
+   "qual": 72,
+   "background": "Palmetto city commissioner from 1990, county commissioner 2014-18; runs family business Manatee Harvesting Co.; UCF criminal justice.",
+   "why": "Prior county and city commissioner with budget experience; business owner.",
+   "sources": []
+  },
+  "Amanda Ballard": {
+   "qual": 72,
+   "background": "Child-welfare attorney (Children's Legal Services, ~8 years); county commissioner since 2022; Port Authority member, Tourist Development Council chair.",
+   "why": "Law degree plus nearly four years as sitting commissioner on budget and land-use votes.",
+   "sources": []
+  },
+  "Michael Owen": {
+   "qual": 80,
+   "background": "Civil-litigation and real-estate attorney (Owen & Dunivan); Hillsborough County commissioner 2022-24 (vice chair); Port Tampa Bay board; House member since 2024.",
+   "why": "Lawyer with local-government and legislative experience, directly on land-use and real-estate law.",
+   "sources": []
+  },
+  "Luther Keith Wilkins": {
+   "qual": 46,
+   "background": "Army sergeant 1984-96; sales manager; Black Chamber publisher; NAACP Manatee president; insurance producer; logistics specialist 2020-25.",
+   "why": "Military service, civic leadership and business roles; never held elected office.",
+   "sources": []
+  },
+  "Sunshine Joiner": {
+   "qual": 58,
+   "background": "Incumbent Palmetto Ward 2 commissioner (since ~2022, possibly vice-mayor); occupation not found.",
+   "why": "Current city commissioner with budget and zoning votes; outside career not found.",
+   "sources": []
+  },
+  "Sheldon \"Mailman\" Jones": {
+   "qual": 62,
+   "background": "Army sergeant, 17-21 years U.S. Postal Service (union steward), small-business owner, former Palmetto at-large commissioner.",
+   "why": "Prior city commissioner term plus military, union and business experience.",
+   "sources": []
+  },
+  "Sharon Jefferson": {
+   "qual": 76,
+   "background": "27-year Manatee educator, National Board-Certified Teacher, former Title I instructional specialist, founder of an education nonprofit.",
+   "why": "Career classroom educator with district knowledge; no board or budget experience.",
+   "sources": []
+  },
+  "Cindy Spray": {
+   "qual": 66,
+   "background": "Board chair, elected 2022; 20 years at PepsiCo/Frito-Lay (logistics, maintenance); child-abuse author; foster-care nonprofit boards.",
+   "why": "Four years on the school board including chair; non-education career in operations.",
+   "sources": []
+  },
+  "Adam Bailey": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a th St E Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2632"
+   ]
+  },
+  "Kyle Baber": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a th Ter E Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2641"
+   ]
+  },
+  "Frank Sacca": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Rainwashed Loop Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2651"
+   ]
+  },
+  "Bruce R. Stolarz": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Manorwood Loop Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2609"
+   ]
+  },
+  "William John Hathaway": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Reefbay Cove Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2654"
+   ]
+  },
+  "Leah Ogren": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Moonsail Dr Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2648"
+   ]
+  },
+  "James P. Casement": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Mercator Ct Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2655"
+   ]
+  },
+  "Kevin G. Gagne": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Mercator Ct Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2626"
+   ]
+  },
+  "Joyce Lynn Calderon": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a th Ct E Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2631"
+   ]
+  },
+  "Marko Krstic": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a th Ave E Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2645"
+   ]
+  },
+  "Tracy Joniec": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a nd Ct E Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2590"
+   ]
+  },
+  "Mike Lamb": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a th Street Cir E Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2644"
+   ]
+  },
+  "Tony Beazley": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a th Street Cir E Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2630"
+   ]
+  },
+  "Victor G. Colombo": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a th Ter E Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2633"
+   ]
+  },
+  "Nancy Quinn": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a River Preserve Dr Bradenton address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2625"
+   ]
+  },
+  "Grace Russolillo": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Winding River Trl Bradenton address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2634"
+   ]
+  },
+  "Jonathan Dayton": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a The Masters Ave Lakewood Ranch address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2560"
+   ]
+  },
+  "Bill Mariotti": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Boardwalk Loop Lakewood Ranch address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2598"
+   ]
+  },
+  "Arthur Taber": {
+   "qual": null,
+   "background": "No public bio or occupation found.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": []
+  },
+  "Tryn Stimart": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Foremast Pl Lakewood Ranch address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2629"
+   ]
+  },
+  "Henry N. White Jr": {
+   "qual": null,
+   "background": "No public bio or occupation found.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": []
+  },
+  "Angela Albrecht": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Inspiration Ter Bradenton address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2652"
+   ]
+  },
+  "Michael A. Conner": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Champions Row St Bradenton address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2533"
+   ]
+  },
+  "Sandra K. Freas": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Inspiration Ter Bradenton address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2653"
+   ]
+  },
+  "Jack A. Knisley Jr": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Trophy Ln Bradenton address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2536"
+   ]
+  },
+  "Frank John Loviglio": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Rustling Pines Ter Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2612"
+   ]
+  },
+  "Jackie Petrovich": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Rustling Pines Ter Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2576"
+   ]
+  },
+  "Joe Stanczyk": {
+   "qual": null,
+   "background": "No public bio or occupation found.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": []
+  },
+  "Timothy Abramski": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Cottage Hill Ave Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2611"
+   ]
+  },
+  "Judy Cummings": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Sand Pine Ln Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2591"
+   ]
+  },
+  "Joseph Di Bartolomeo": {
+   "qual": null,
+   "background": "No public bio or occupation found.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2616"
+   ]
+  },
+  "Karin Murphy": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Wingspan Way Bradenton address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2658"
+   ]
+  },
+  "Eugene J. Rado": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Tailfeather Way Bradenton address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2619"
+   ]
+  },
+  "Carl Teisch": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Wingspan Way Bradenton address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2574"
+   ]
+  },
+  "William Bjork": {
+   "qual": null,
+   "background": "No public bio or occupation found; address protected.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2627"
+   ]
+  },
+  "Larry Luh": {
+   "qual": 85,
+   "background": "Likely retired Manatee County EMS assistant chief of operations (36+ years); his filing email is \"mcems1986\". Same-name match not independently confirmed.",
+   "why": "If confirmed, three-plus decades of EMS leadership is direct experience for a fire/EMS district board.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2597"
+   ]
+  },
+  "Joseph Houlihan": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Skip Jack Loop Lakewood Ranch address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2559"
+   ]
+  },
+  "Richard Jacobs": {
+   "qual": 60,
+   "background": "A Richard \"Dick\" Jacobs served as East Manatee Fire Rescue commissioner 2009-2018 per Observer profiles; identity not confirmed as this candidate.",
+   "why": "If the same person, prior fire-commissioner experience; career background not found.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2555"
+   ]
+  },
+  "Kyle L. Moore": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2615"
+   ]
+  },
+  "Edward W. Stevens": {
+   "qual": null,
+   "background": "No public bio or occupation found; filing lists a Kingsfield Dr Parrish address.",
+   "why": "Background not found, so not scored; absence of research is not a lack of qualification.",
+   "sources": [
+    "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2602"
+   ]
+  },
+  "Carol Whitmore": {
+   "sources": [],
+   "qual": 92,
+   "background": "Holmes Beach commissioner 1991-98 and mayor 1998-2006; Manatee County commissioner 2006-22; commission chair since 2025.",
+   "why": "Longest local-government record in the race: city executive, county commissioner and current commissioner."
+  },
+  "John J. Azzata": {
+   "sources": [],
+   "qual": 62,
+   "background": "Retired after 34-year law enforcement career; FBI National Academy graduate; hostage-negotiation and peer-support volunteer; first-time candidate.",
+   "why": "Public-safety management background useful for a small city; no budget or zoning office held."
+  },
+  "Mark Hebden": {
+   "sources": [],
+   "qual": 66,
+   "background": "Architect about 40 years; former president of a large national design firm; University of Virginia graduate; first-time candidate.",
+   "why": "Building, zoning and large-organization management skills; no elected experience."
+  },
+  "David L. Zaccagnino": {
+   "sources": [],
+   "qual": 64,
+   "background": "Former Holmes Beach city commissioner (reported nine years, five elections); occupation not found.",
+   "why": "Prior commission experience; has not been mayor."
+  },
+  "Dan Diggins": {
+   "sources": [],
+   "qual": 68,
+   "background": "Current Holmes Beach commissioner since 2022, chair 2024-25; engineering degree (UMass); former aviation transportation professional.",
+   "why": "Sitting commissioner with leadership role and engineering training; has not been mayor."
+  },
+  "Camden \"Cam\" Bedinghaus": {
+   "sources": [],
+   "qual": 28,
+   "background": "23-year-old USF economics graduate (2026); Turning Point USA Manatee director, journalist at Conservative Coastal News, church youth coordinator.",
+   "why": "No education, school-finance or board experience; civic and youth involvement only."
+  },
+  "Jonathan Mullis": {
+   "sources": [],
+   "qual": 62,
+   "background": "Physical therapist; owner/CEO of Physical Therapy Doctors of Florida (about 17 years); Bradenton Kiwanis president; Tiger Bay Club board.",
+   "why": "Runs a business with payroll and budget responsibility and civic boards; no education career."
+  },
+  "Michelle Salzman": {
+   "qual": 58,
+   "background": "State representative since 2020; Army veteran and businesswoman.",
+   "why": "Three terms in the House; business and military background.",
+   "sources": []
+  },
+  "Francesca Yabraian": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Johnny Thompson": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Jon Fay": {
+   "qual": 68,
+   "background": "Naval Academy graduate; retired Navy naval flight officer (24 years); former Blue Angels executive officer; Navy legislative fellow in U.S. House.",
+   "why": "Senior military leadership and legislative-liaison experience; no elected office.",
+   "sources": []
+  },
+  "Ingrid Wadsworth": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Nathan Boyles": {
+   "qual": 76,
+   "background": "State representative since 2025; FSU civil engineering degree and J.D.; practiced law in Crestview; owns Adams Sanitation.",
+   "why": "Engineer, lawyer and business owner with legislative service.",
+   "sources": []
+  },
+  "Patt Maney": {
+   "qual": 86,
+   "background": "Retired Army brigadier general; county judge 1989-2018; state representative since 2020.",
+   "why": "Judge, senior military leader and legislator.",
+   "sources": []
+  },
+  "John Emerling": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Shane Abbott": {
+   "qual": 58,
+   "background": "State representative since 2022 (Walton County area); prior career not found in roster.",
+   "why": "Two terms in the House; outside career unknown.",
+   "sources": []
+  },
+  "Alex Finney": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Stephanie Leonard": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Tricia Berry": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Jason Shoaf": {
+   "qual": 62,
+   "background": "State representative since 2019 special election; covers ten rural counties.",
+   "why": "Seven years in the House; outside career not in roster.",
+   "sources": []
+  },
+  "Gallop Franklin": {
+   "qual": 68,
+   "background": "State representative since 2022; pharmacist.",
+   "why": "Health-care professional with legislative service.",
+   "sources": []
+  },
+  "Allison Tant": {
+   "qual": 66,
+   "background": "State representative since 2020; former lobbyist and former Democratic Party of Florida chair.",
+   "why": "Legislator with policy-advocacy and organizational leadership.",
+   "sources": []
+  },
+  "Tracy Robinson": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Merrillee Malwitz Jipson": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Marshall Rawson": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Sam Garrison": {
+   "qual": 82,
+   "background": "State representative since 2020; chosen Speaker for 2026-28.",
+   "why": "Chamber leadership role after three terms.",
+   "sources": []
+  },
+  "Terrance Freeman": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Benjamin Sandlin": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Audrey Gibson": {
+   "qual": 84,
+   "background": "Former state senator (2016-22, earlier Senate seats) and state representative 2002-10; unopposed.",
+   "why": "Over two decades of legislative service.",
+   "sources": []
+  },
+  "Kimberly Daniels": {
+   "qual": 60,
+   "background": "Minister and author; Jacksonville City Council from 2011; House 2016-20 and since 2022.",
+   "why": "Local and state legislative service.",
+   "sources": []
+  },
+  "Chadd Charland": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Dean Black": {
+   "qual": 66,
+   "background": "State representative; Duval County Republican chair since 2018; business owner and rancher; Air Force veteran.",
+   "why": "Legislator with business ownership and military service.",
+   "sources": []
+  },
+  "Kiyan Michael": {
+   "qual": 56,
+   "background": "State representative since 2022; unopposed; prior career not in roster.",
+   "why": "Two terms in the House; outside career unknown.",
+   "sources": []
+  },
+  "Jessica Baker": {
+   "qual": 66,
+   "background": "State representative since 2022; attorney.",
+   "why": "Lawyer with legislative service.",
+   "sources": []
+  },
+  "Jacob Guerrero": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Art Stresing": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Kim Kendall": {
+   "qual": 54,
+   "background": "State representative since 2024 (St. Johns County); prior career not in roster.",
+   "why": "One term in the House; outside career unknown.",
+   "sources": []
+  },
+  "Suzanna Pavelle": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Sam Greco": {
+   "qual": 64,
+   "background": "State representative since 2024; attorney and naval officer, born 1992.",
+   "why": "Lawyer and military officer with one House term.",
+   "sources": []
+  },
+  "Judson Sapp": {
+   "qual": 54,
+   "background": "State representative since 2024; ran for Congress 2018 and 2020; prior career not in roster.",
+   "why": "One term in the House.",
+   "sources": []
+  },
+  "Lee Butler": {
+   "qual": null,
+   "background": "No biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Jackie Randall": {
+   "qual": 66,
+   "background": "Respiratory therapist and professor; mayor of Hawthorne 2021-26, earlier city commissioner; unopposed in general.",
+   "why": "Local executive and commission experience plus health-care education career.",
+   "sources": []
+  },
+  "Amy Trask": {
+   "qual": 24,
+   "background": "Age 33, homeschooling parent with freelance editing and civic work; lost 2024 primary.",
+   "why": "No governing or policy career found.",
+   "sources": []
+  },
+  "Chad Johnson": {
+   "qual": 74,
+   "background": "Auctioneer and sales manager; Levy County commissioner 2009-14; former Levy Farm Bureau president; UF ag-economics B.S.; House since 2024.",
+   "why": "County commissioner and farm-bureau leadership plus legislative service.",
+   "sources": []
+  },
+  "Mark Baker": {
+   "qual": 28,
+   "background": "Age 69, printer by trade; president of Citrus County Coffee Coalition (civic nonprofit); no office held.",
+   "why": "Civic activism; no governing experience.",
+   "sources": []
+  },
+  "J.J. Grow": {
+   "qual": 58,
+   "background": "Businessman with UF agriculture degree; House since 2024; Health & Human Services committee.",
+   "why": "One term in the House and business experience.",
+   "sources": []
+  },
+  "Ryan Chamberlin": {
+   "qual": 54,
+   "background": "Author and consultant; House since 2023 special election; unopposed.",
+   "why": "Three years in the House.",
+   "sources": []
+  },
+  "Farmer Helfrich": {
+   "qual": 32,
+   "background": "Age 63, regenerative farmer (The Giving Farm); ran in 2022; no office held.",
+   "why": "Farming expertise for agriculture issues; no governing experience.",
+   "sources": []
+  },
+  "Taylor Yarkosky": {
+   "qual": 62,
+   "background": "Clermont business owner; House since 2022, second term.",
+   "why": "Business owner with four years in the House.",
+   "sources": []
+  },
+  "Robyn Lawrence": {
+   "qual": null,
+   "background": "Age 60; occupation not stated in sources found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Nan Cobb": {
+   "qual": 66,
+   "background": "Co-owner of Cobb's Triangle Tractor since 1997 and owner of Classic Tents & Events; Eustis commissioner 2021-24; House since 2024.",
+   "why": "Business owner with local office and House service.",
+   "sources": []
+  },
+  "Richard Gentry": {
+   "qual": 80,
+   "background": "Attorney, former lobbyist and former Florida Public Counsel; UM B.A. and J.D.; House since 2024.",
+   "why": "Lawyer with consumer-advocacy and legislative roles.",
+   "sources": []
+  },
+  "Andy Ferrari": {
+   "qual": null,
+   "background": "Very little public information; did not answer the voter-guide questionnaire.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Bill Partington": {
+   "qual": 82,
+   "background": "Assistant State Attorney since 2007; Ormond Beach commissioner 2004-16 and mayor 2016-24; House since 2024.",
+   "why": "Prosecutor, mayor and legislator.",
+   "sources": []
+  },
+  "Joe Hannoush": {
+   "qual": null,
+   "background": "Age 46, self-employed (field not stated); Libertarian candidate.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Sammy Jackson": {
+   "qual": 34,
+   "background": "Age 69, president of a nonprofit ministry foundation; no office found.",
+   "why": "Nonprofit and ministry leadership; no governing record found.",
+   "sources": []
+  },
+  "Don Kanfer": {
+   "qual": 46,
+   "background": "Age 76, veterinarian, Rotarian and DeLand community leader.",
+   "why": "Professional and civic leader; no governing record found.",
+   "sources": []
+  },
+  "Webster Barnaby": {
+   "qual": 66,
+   "background": "Pastor and business owner; Deltona City Council 2012-20; House since 2020.",
+   "why": "Local council and legislative service.",
+   "sources": []
+  },
+  "Chase Tramont": {
+   "qual": 64,
+   "background": "Baptist pastor and marketing manager; former history teacher; Port Orange council 2016-22; House since 2022.",
+   "why": "Teaching background, local office and House service.",
+   "sources": []
+  },
+  "Edwin Munoz": {
+   "qual": 44,
+   "background": "Age 34, project coordinator with 10+ years in permitting offices.",
+   "why": "Permitting experience useful on growth issues; no office.",
+   "sources": []
+  },
+  "Daniel Cicirelli": {
+   "qual": 30,
+   "background": "Age 29, small-business owner and handyman; former design consultant for life-safety systems at Johnson Controls.",
+   "why": "Early career; no governing experience.",
+   "sources": []
+  },
+  "Matt Woodside": {
+   "qual": 48,
+   "background": "Age 44, educator, coach and athletic director in Brevard schools since 2006.",
+   "why": "Education career; no elected office.",
+   "sources": []
+  },
+  "Brian Hodgers": {
+   "qual": 58,
+   "background": "Owner of Complete Choice Insurance and Realty; pilot; House since 2025.",
+   "why": "Business owner with about one year in the House.",
+   "sources": []
+  },
+  "Juan Hinojosa": {
+   "qual": 54,
+   "background": "Age 73, retired Army lieutenant colonel (three combat tours); Northrop Grumman security officer; ran in 2024 and 2025.",
+   "why": "Senior military service; no elected office.",
+   "sources": []
+  },
+  "Daniel McDow": {
+   "qual": 56,
+   "background": "Age 66, small-business owner; former West Melbourne city council member.",
+   "why": "Business owner with prior local office.",
+   "sources": []
+  },
+  "Monique Miller": {
+   "qual": 60,
+   "background": "Cybersecurity and IT executive; Emory MBA; House since 2024; Ways & Means.",
+   "why": "Executive career plus one term in the House.",
+   "sources": []
+  },
+  "Jordyn Balderas": {
+   "qual": 20,
+   "background": "Age 21, self-described community organizer in Indian River County.",
+   "why": "Limited work history found.",
+   "sources": []
+  },
+  "Robert Brackett": {
+   "qual": 72,
+   "background": "Former Vero Beach mayor and corporate managing partner; House since 2022.",
+   "why": "Mayor and business partner plus House service.",
+   "sources": []
+  },
+  "Eric Gray": {
+   "qual": 74,
+   "background": "Executive Director of Christian Service Center for Central Florida; Orange County Planning & Zoning Commission; former East Orlando Chamber chair.",
+   "why": "Nonprofit CEO with planning-commission service.",
+   "sources": []
+  },
+  "Erika Booth": {
+   "qual": 62,
+   "background": "About 20 years as elementary teacher; Osceola School Board 2022-23; House since 2024.",
+   "why": "Teacher with school board and legislative service.",
+   "sources": []
+  },
+  "Darryl Block": {
+   "qual": 58,
+   "background": "Senior attorney at a family law firm; certified mediator and social worker; youth basketball coach.",
+   "why": "Lawyer; no elected office.",
+   "sources": []
+  },
+  "Rachel Plakon": {
+   "qual": 58,
+   "background": "Real-estate investor; former community liaison to Gov. Bush; Commission on Status of Women member; House since 2022.",
+   "why": "Legislator with business and state-staff experience.",
+   "sources": []
+  },
+  "Jane Aman": {
+   "qual": 38,
+   "background": "Age 33, full-time UCF lecturer in American literature; previously taught at Crooms Academy.",
+   "why": "Educator; political newcomer.",
+   "sources": []
+  },
+  "Robert Prater": {
+   "qual": 48,
+   "background": "Orange County Public Schools teacher and former Dean of Students (20+ years); carpentry training.",
+   "why": "Education career; no elected office.",
+   "sources": []
+  },
+  "Nik Dean": {
+   "qual": 52,
+   "background": "Age 31, civil defense attorney (medical malpractice); Tufts and University of Miami Law.",
+   "why": "Young attorney; no elected office.",
+   "sources": []
+  },
+  "Emily Duda Buckley": {
+   "qual": 66,
+   "background": "External affairs at A. Duda & Sons; former House Appropriations staff and Agriculture Dept. legislative affairs director; Guardian ad Litem.",
+   "why": "Direct legislative-staff and agency-liaison experience.",
+   "sources": []
+  },
+  "Jarod Fox": {
+   "qual": 46,
+   "background": "Infectious disease physician at Orlando Health; political newcomer.",
+   "why": "Medical expertise; no governing experience.",
+   "sources": []
+  },
+  "Doug Bankson": {
+   "qual": 60,
+   "background": "Founder and senior pastor of Victory Church; Apopka city commissioner; 19 years at a local Chamber; House since 2022.",
+   "why": "Local office and House service.",
+   "sources": []
+  },
+  "Ra'Shon Young": {
+   "qual": 48,
+   "background": "Former chief of staff to a state representative; Bethune-Cookman 2021 graduate; House since Sept 2025.",
+   "why": "Legislative staff experience and under a year in office.",
+   "sources": []
+  },
+  "Tuan Le": {
+   "qual": 34,
+   "background": "Apopka engineer and former restaurateur (CEO of LeNgineer, Lennovation); never held office.",
+   "why": "Business and engineering; no governing experience.",
+   "sources": []
+  },
+  "Bruce Antone": {
+   "qual": 78,
+   "background": "Electrical engineering degree; House member 2002-06, 2012-20 and since 2022; former legislative aide and chief of staff.",
+   "why": "Long legislative service plus staff experience.",
+   "sources": []
+  },
+  "Felipe Sousa Lazaballet": {
+   "qual": 50,
+   "background": "Age 40, executive director of HOPE CommUnity Center; business degree; political newcomer.",
+   "why": "Nonprofit executive; no elected office.",
+   "sources": []
+  },
+  "Bonnie Jackson": {
+   "qual": 66,
+   "background": "Attorney, former Houston assistant district attorney, founder of Jackson Law Firm; lost 2022 race.",
+   "why": "Prosecutor and law-firm owner; no elected office.",
+   "sources": []
+  },
+  "Samuel Vilchez Santiago": {
+   "qual": 42,
+   "background": "Age 29, Orange County Democratic Party chair; senior nonprofit manager at ActBlue; Princeton and Oxford degrees.",
+   "why": "Party and nonprofit-sector experience; early career.",
+   "sources": []
+  },
+  "Jorge Malavet": {
+   "qual": 72,
+   "background": "Retired Navy Supply Corps officer (20 years); former USCIS Southeast region manager and chief of staff; J.D. and MPA.",
+   "why": "Military and federal-agency management with law and public-administration degrees.",
+   "sources": []
+  },
+  "Rita Harris": {
+   "qual": 54,
+   "background": "House member since 2022; attended Valencia College; unopposed.",
+   "why": "Two terms in the House; outside career not in roster.",
+   "sources": []
+  },
+  "Leonard Spencer": {
+   "qual": 66,
+   "background": "Former Disney executive 2005-21, now Amazon; Tuskegee B.S., Alabama MBA; House since 2024.",
+   "why": "Corporate executive with one term in the House.",
+   "sources": []
+  },
+  "Erin Huntley": {
+   "qual": 44,
+   "background": "Orange County Republican Party chair; worked for Disney Parks, JetBlue and DECA; Florida Virtual School trustee.",
+   "why": "Party leadership and corporate experience; no elected office.",
+   "sources": []
+  },
+  "Michael Cruz": {
+   "qual": 38,
+   "background": "Age 65, small business owner (voter guide).",
+   "why": "Business owner; no governing record found.",
+   "sources": []
+  },
+  "Jose Alvarez": {
+   "qual": 70,
+   "background": "Former mayor of Kissimmee 2016-20 and city commissioner; real estate and business consultant; House since 2024.",
+   "why": "Mayor and legislator.",
+   "sources": []
+  },
+  "Ivan Rivera": {
+   "qual": 48,
+   "background": "Physician per voter guide; no-party candidate.",
+   "why": "Medical career; no governing record found.",
+   "sources": []
+  },
+  "Anthony Nieves": {
+   "qual": 46,
+   "background": "Former Florida financial-crimes investigator and NYC fraud investigator.",
+   "why": "Investigative career; no elected office.",
+   "sources": []
+  },
+  "Alethea Pugh": {
+   "qual": null,
+   "background": "Little public biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Jonathan Albert": {
+   "qual": 72,
+   "background": "Nearly 10 years in Marine Corps; MBA; business owner; mayor of Frostproof 2020-24; House since 2024.",
+   "why": "Mayor with military and business background.",
+   "sources": []
+  },
+  "Jennifer Jonsson": {
+   "qual": 54,
+   "background": "University of Florida public-health degrees (B.S. 2000, master's 2001); House since 2024.",
+   "why": "Public-health training with one House term.",
+   "sources": []
+  },
+  "Robert Anzalone": {
+   "qual": null,
+   "background": "Campaign site lists cost of living and community safety; occupation not stated.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Ricky Santiago": {
+   "qual": null,
+   "background": "Campaign site emphasizes cost of living and housing; occupation not stated.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Jennifer Canady": {
+   "qual": 72,
+   "background": "Former teacher; FSU and USF degrees; House since 2022; chairs Education and Employment Committee.",
+   "why": "Teacher and committee chair with two terms.",
+   "sources": []
+  },
+  "Jarvis Washington": {
+   "qual": null,
+   "background": "Very little public information found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Hilary Holley": {
+   "qual": 62,
+   "background": "UF ag-education graduate; Florida FFA Foundation executive director since 2021; former aide to Grimsley, Putnam and Patronis; House since March 2026.",
+   "why": "Nonprofit leader and Capitol aide in agriculture.",
+   "sources": []
+  },
+  "Octavio Hernandez": {
+   "qual": 44,
+   "background": "Polk County algebra teacher and union member; UCF political science.",
+   "why": "Educator; no elected office.",
+   "sources": []
+  },
+  "Pamala Bivins": {
+   "qual": 62,
+   "background": "Age 71, pastor of Mount Moriah AME Church; Wildwood city commissioner (25 years per campaign).",
+   "why": "Long local elected service and pastoral leadership.",
+   "sources": []
+  },
+  "Samantha Scott": {
+   "qual": 48,
+   "background": "Age 45; Sumter County Republican chair; marketing director at Mike Scott Plumbing; House since March 2026.",
+   "why": "Business marketing and party leadership; months in office.",
+   "sources": []
+  },
+  "Brian Hawkins": {
+   "qual": 74,
+   "background": "Hernando County commissioner 2022-26 (past chair); Navy veteran; business owner/CEO.",
+   "why": "County commissioner with budget experience and business leadership.",
+   "sources": []
+  },
+  "Christopher Anger": {
+   "qual": null,
+   "background": "Constitution Party candidate; occupation not stated.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Tony Claude": {
+   "qual": 48,
+   "background": "Air Force veteran; Democratic candidate; occupation not stated.",
+   "why": "Military service; further career not found.",
+   "sources": []
+  },
+  "Randy Maggard": {
+   "qual": 60,
+   "background": "Dade City Republican; House since 2019; chaired Pasco GOP 2006-12; unopposed.",
+   "why": "Seven years in the House.",
+   "sources": []
+  },
+  "Zach Funkhouser": {
+   "qual": 44,
+   "background": "Adapted physical-education teacher in Pasco County; no office found.",
+   "why": "Educator; no governing experience.",
+   "sources": []
+  },
+  "Walter Price": {
+   "qual": 58,
+   "background": "Captain with Pasco County Fire Rescue (10+ years); Land O' Lakes resident.",
+   "why": "Public-safety management; no elected office.",
+   "sources": []
+  },
+  "Brad Yeager": {
+   "qual": 58,
+   "background": "General manager of vehicle-auctions company; small business owner; House since 2022.",
+   "why": "Business manager with two terms.",
+   "sources": []
+  },
+  "Jose Freites": {
+   "qual": null,
+   "background": "Activist and community organizer per campaign site; occupation not stated.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Wendy Hoy": {
+   "qual": 62,
+   "background": "Former assisted-living administrator and Head Start director (three centers); guardian ad litem; foster-care charity board.",
+   "why": "Program administrator and child-advocacy volunteer; no elected office.",
+   "sources": []
+  },
+  "Adam Anderson": {
+   "qual": 68,
+   "background": "Managing Partner and CEO of MRA Capital Partners; FSU real estate and finance B.S.; House since 2022.",
+   "why": "Finance executive with two terms and committee chair.",
+   "sources": []
+  },
+  "Bryan Beckman": {
+   "qual": null,
+   "background": "Democratic challenger; no biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Kim Berfield": {
+   "qual": 82,
+   "background": "House 2000-06 and since 2022; former Florida Dept. of Health deputy secretary; hospital lobbyist; Northwestern MBA.",
+   "why": "Veteran legislator and senior state-agency executive.",
+   "sources": []
+  },
+  "Susan Leff": {
+   "qual": null,
+   "background": "Democratic challenger; no biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Berny Jacques": {
+   "qual": 70,
+   "background": "Former assistant state attorney 2012-16 and civil litigator; Stetson J.D.; House since 2022.",
+   "why": "Prosecutor and lawyer with two terms.",
+   "sources": []
+  },
+  "Lindsay Polega-Quigley": {
+   "qual": null,
+   "background": "Democratic nominee for open seat; no biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Melissa Rutland": {
+   "qual": null,
+   "background": "Republican nominee for open seat; no biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "May Thach": {
+   "qual": null,
+   "background": "Democratic challenger; no biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Linda Chaney": {
+   "qual": 64,
+   "background": "Marketing and business development; co-founded mammography business later acquired by AdventHealth; St. Pete Beach commissioner 2007-09; House since 2020.",
+   "why": "Business founder with local and House service.",
+   "sources": []
+  },
+  "Kyandra Darling": {
+   "qual": 58,
+   "background": "Worked in Rep. Crist's office and as aide to St. Petersburg council members; fourth-generation St. Petersburg native.",
+   "why": "Legislative and council staff experience; no elected office.",
+   "sources": []
+  },
+  "Jacqueline Coffie-Leeks": {
+   "qual": 66,
+   "background": "Executive director of Sulphur Springs Neighborhood of Promise Initiative; 45+ years working with Hillsborough residents; unopposed.",
+   "why": "Nonprofit executive with state funding management experience.",
+   "sources": []
+  },
+  "Luis Salazar": {
+   "qual": 40,
+   "background": "Navy veteran, community organizer, media and communications background; former LGBTQ+ caucus president.",
+   "why": "Military and organizing experience; no office.",
+   "sources": []
+  },
+  "Dan Weldon": {
+   "qual": 66,
+   "background": "Tampa litigation lawyer and former prosecutor; UF Law; chaired Florida College Republicans.",
+   "why": "Lawyer with prosecutor experience; no elected office.",
+   "sources": []
+  },
+  "Ben Braver": {
+   "qual": 42,
+   "background": "Former Title I school teacher; Young Democrats policy director; lost 2024 state Senate race.",
+   "why": "Teaching and activism; no elected office.",
+   "sources": []
+  },
+  "Karen Gonzalez Pittman": {
+   "qual": 64,
+   "background": "Former educator (testing and evaluation); VP of Public Affairs at Vein911; House since 2022; vice chair Health Care Budget Subcommittee.",
+   "why": "Legislator with education and health-industry background.",
+   "sources": []
+  },
+  "Dante Sanchez Sanchez": {
+   "qual": 52,
+   "background": "Air Force Reserve veteran; founder of Trypower Electrical Services (water and wastewater infrastructure); first run.",
+   "why": "Contractor and business owner in infrastructure; no governing record.",
+   "sources": []
+  },
+  "Traci Koster": {
+   "qual": 76,
+   "background": "Family lawyer; House since 2020; chairs Civil Justice & Claims Subcommittee; helped found Tampa Bay Pro Bono Partners.",
+   "why": "Attorney with subcommittee chair role.",
+   "sources": []
+  },
+  "Lisette Bonano": {
+   "qual": 58,
+   "background": "Retired Army lieutenant colonel (28 years, Pentagon, Iraq, Afghanistan); educator; third run.",
+   "why": "Senior military and teaching experience; no elected office.",
+   "sources": []
+  },
+  "Luis Viera": {
+   "qual": 72,
+   "background": "Tampa lawyer; Tampa City Council member; former HART board chair; founder of Lawyers Autism Awareness Foundation.",
+   "why": "Council member and attorney with transit-board leadership.",
+   "sources": []
+  },
+  "Tony Smith": {
+   "qual": null,
+   "background": "Democratic nominee; no verified biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Ryan Gill": {
+   "qual": 62,
+   "background": "Sixth-generation cattle rancher; 2022 Farm Credit Agriculturalist of the Year; former chair of Hillsborough Soil and Water Conservation District.",
+   "why": "Rancher with natural-resource board chair experience.",
+   "sources": []
+  },
+  "Ashley Herrmann": {
+   "qual": 38,
+   "background": "Community organizer; says she worked at FDOT and in schools; first-generation college student.",
+   "why": "Organizing and some public-agency experience; no office.",
+   "sources": []
+  },
+  "Danny Alvarez": {
+   "qual": 76,
+   "background": "Family-law attorney; Army infantry officer; general counsel to Tampa Police Benevolent Association; House since 2022; chairs Criminal Justice Subcommittee.",
+   "why": "Lawyer, military officer and subcommittee chair.",
+   "sources": []
+  },
+  "Bill Conerly": {
+   "qual": 78,
+   "background": "Navy veteran and civil engineer; former Manatee County planning commission member; House since 2024.",
+   "why": "Engineer with land-use board experience and legislative service.",
+   "sources": []
+  },
+  "Harvey Shifrin": {
+   "qual": 64,
+   "background": "Lawyer and CPA; former adjunct law professor; 27 years coaching Odyssey of the Mind; withdrew from school board race.",
+   "why": "Dual law and accounting credentials; no elected office.",
+   "sources": []
+  },
+  "Lisa Klein": {
+   "qual": 50,
+   "background": "Licensed mental health counselor and small business owner in Sarasota; former educator.",
+   "why": "Counseling and education background; no elected office.",
+   "sources": []
+  },
+  "Fiona McFarland": {
+   "qual": 76,
+   "background": "Naval Academy graduate; eight years active-duty Navy surface warfare officer; former McKinsey consultant; House since 2020.",
+   "why": "Military officer, consultant and three-term legislator.",
+   "sources": []
+  },
+  "Ryan Neill": {
+   "qual": null,
+   "background": "Sarasota homeowner; occupation not stated; unopposed in primary.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Nick Pachota": {
+   "qual": 80,
+   "background": "Venice mayor since 2022, council since 2019; former EMT, paramedic, firefighter, SWAT medic; EMS instructor; co-owner of Venice Pier Group.",
+   "why": "Mayor with public-safety career and business ownership.",
+   "sources": []
+  },
+  "Cynthia Butler": {
+   "qual": 54,
+   "background": "Registered nurse and nurse union leader; former EMT and paramedic.",
+   "why": "Health-care and union leadership; no elected office.",
+   "sources": []
+  },
+  "Danny Nix Jr.": {
+   "qual": 66,
+   "background": "Realtor; past chair and trustee of Florida SouthWestern State College; past president of Charlotte County Economic Development Partnership; House since 2024.",
+   "why": "Business, education-board and economic-development leadership.",
+   "sources": []
+  },
+  "Vanessa Oliver": {
+   "qual": 68,
+   "background": "Lawyer and CEO of a medical transportation company; House since 2024.",
+   "why": "Attorney and business CEO.",
+   "sources": []
+  },
+  "Phillip Carter": {
+   "qual": 40,
+   "background": "Air Force veteran; occupation not stated.",
+   "why": "Military service; further career not found.",
+   "sources": []
+  },
+  "Cornelius Fowler": {
+   "qual": null,
+   "background": "Lost the 2024 race for this seat; no occupation found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Tiffany Esposito": {
+   "qual": 72,
+   "background": "FGCU MBA; SWFL Inc. (regional chamber) president and CEO 2016-22; House since 2022.",
+   "why": "Chamber CEO with two-plus terms in the House.",
+   "sources": []
+  },
+  "Cindy Banyai": {
+   "qual": 52,
+   "background": "Former FGCU professor; small business owner; about 20 years in nonprofit community development; ran for Congress 2020 and 2022.",
+   "why": "Educator and nonprofit development; no office.",
+   "sources": []
+  },
+  "Susan Frantz": {
+   "qual": 52,
+   "background": "Founder and CEO of Frantz Marketing Solutions (15+ years); FGCU adjunct professor; first-time candidate.",
+   "why": "Small-business owner; no governing experience.",
+   "sources": []
+  },
+  "Mike Giallombardo": {
+   "qual": 66,
+   "background": "Army Iraq veteran, National Guard chief warrant officer; founded cybersecurity firm Total Intelligence Group; House since 2020.",
+   "why": "Business founder and veteran with three terms.",
+   "sources": []
+  },
+  "William Moskal": {
+   "qual": 52,
+   "background": "Ed.D.; healthcare consultant to 30+ hospital systems; former Peace Corps business adviser; first-time candidate.",
+   "why": "Consulting and teaching; no elected office.",
+   "sources": []
+  },
+  "Adam Botana": {
+   "qual": 58,
+   "background": "VP of family boat club; prior food-service and carnival work; House since 2020; former Majority Chief Floor Whip.",
+   "why": "Business and legislative leadership role.",
+   "sources": []
+  },
+  "Kim Finer": {
+   "qual": 50,
+   "background": "Retired Kent State biology professor (35 years); Ph.D. veterinary microbiology; president of Friends of Delnor-Wiggins Pass State Park.",
+   "why": "Scientist and conservation volunteer; no office.",
+   "sources": []
+  },
+  "Yvette Benarroch": {
+   "qual": 54,
+   "background": "Air Force 1990-92; co-owns landscaping company; licensed Realtor; former county GOP vice chair; House since 2024.",
+   "why": "Business owner with one House term.",
+   "sources": []
+  },
+  "Arthur Boyer": {
+   "qual": 56,
+   "background": "Educator and leadership coach; Ed.D., MPA; CEO of consulting firm; former English teacher and adjunct professor.",
+   "why": "Education and public-administration credentials; no elected office.",
+   "sources": []
+  },
+  "Liesa Priddy": {
+   "qual": 66,
+   "background": "Third-generation rancher operating JB Ranch; began in banking and law-firm administration; appointed to Fish and Wildlife Conservation Commission.",
+   "why": "Ranch operator with state commission service.",
+   "sources": []
+  },
+  "Kaylee Tuck": {
+   "qual": 72,
+   "background": "Land-use and real estate attorney; FSU economics, Stetson law; House since 2020.",
+   "why": "Land-use lawyer with three terms.",
+   "sources": []
+  },
+  "Leigh Estes": {
+   "qual": 60,
+   "background": "Retired CPA; 28 years in accounting and grants management for Commonwealth of Virginia; first-time candidate.",
+   "why": "Public accounting and grants management fits budget work; no elected office.",
+   "sources": []
+  },
+  "Jennifer Massey": {
+   "qual": null,
+   "background": "Describes herself as mother and advocate; occupation not stated.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Dana Trabulsy": {
+   "qual": 52,
+   "background": "House member since 2020; prior career details not found.",
+   "why": "Three terms in the House; outside career unknown.",
+   "sources": []
+  },
+  "Wayne Richter": {
+   "qual": 58,
+   "background": "Criminal defense attorney, founding partner of law firm (15+ years); Treasurer of Florida Association of Criminal Defense Lawyers; past Martin County Bar president.",
+   "why": "Experienced lawyer with bar leadership; no elected office.",
+   "sources": []
+  },
+  "Anthony Bonna": {
+   "qual": 74,
+   "background": "Port St. Lucie City Council member since 2021; appointed St. Lucie County commissioner 2018; Realtor; Georgetown finance degree.",
+   "why": "County and city office experience.",
+   "sources": []
+  },
+  "Amr Metwally": {
+   "qual": 32,
+   "background": "Owns Egyptian Shawarma and Metwally Web Services; founder of MGTOW.TV.",
+   "why": "Small business owner; no governing record.",
+   "sources": []
+  },
+  "John Snyder": {
+   "qual": 56,
+   "background": "Marine Corps veteran 2007-12 (Operation Enduring Freedom); House since 2020.",
+   "why": "Military service and three terms.",
+   "sources": []
+  },
+  "Elizabeth Pandich": {
+   "qual": 30,
+   "background": "Professional equestrian; founder of Limelight Farm (2012); Cornell communications degree.",
+   "why": "Small-business owner; no governing experience.",
+   "sources": []
+  },
+  "Emily Gregory": {
+   "qual": 62,
+   "background": "Public health professional (Columbia MPH); former founder of fitness community; House since March 2026.",
+   "why": "Public-health training with months in office.",
+   "sources": []
+  },
+  "Jon Maples": {
+   "qual": 60,
+   "background": "Financial planner and Northwestern Mutual advisor; former Lake Clarke Shores council member.",
+   "why": "Financial professional with local office.",
+   "sources": []
+  },
+  "William Joseph": {
+   "qual": 40,
+   "background": "Age 55, small-business owner and licensed investigator; says he served on three boards.",
+   "why": "Business owner with board service claimed; not verified.",
+   "sources": []
+  },
+  "Tae Edmonds": {
+   "qual": 54,
+   "background": "House since 2022 special election; FAU bachelor's degree 2015.",
+   "why": "Several terms; limited outside career.",
+   "sources": []
+  },
+  "Debra Tendrich": {
+   "qual": 58,
+   "background": "Founded nonprofit Eat Better Live Better in 2016; House since 2024.",
+   "why": "Nonprofit founder with one term.",
+   "sources": []
+  },
+  "Cathy Higgins": {
+   "qual": 72,
+   "background": "Former Atlantis mayor and 12 years on city council; owner of East Coast Protection; director of dance arts at The King's Academy.",
+   "why": "Mayor and council member with small-business ownership.",
+   "sources": []
+  },
+  "Rob Long": {
+   "qual": 48,
+   "background": "House since December 2025 special election; Delray Beach.",
+   "why": "Brief tenure; outside career not found.",
+   "sources": []
+  },
+  "Ionel Roiban": {
+   "qual": 50,
+   "background": "Software and AI engineer and consultant; president of National Committee of Romanian-American Republicans.",
+   "why": "Technical career; no elected office.",
+   "sources": []
+  },
+  "Peggy Gossett-Seidman": {
+   "qual": 66,
+   "background": "Former sports journalist and WTA press director; Highland Beach commissioner 2018-22; House since 2022.",
+   "why": "Communications career with local and House service.",
+   "sources": []
+  },
+  "Luis Garcia": {
+   "qual": 54,
+   "background": "Retired 28-year firefighter/paramedic; former business owner; licensed claims adjuster; Marine veteran; Narcan nonprofit founder.",
+   "why": "Public-safety career and nonprofit leadership; no elected office.",
+   "sources": []
+  },
+  "Steve Byers": {
+   "qual": 34,
+   "background": "Serial entrepreneur in technology consulting, aviation, real estate, insurance; first-time candidate.",
+   "why": "Business owner; no governing experience.",
+   "sources": []
+  },
+  "Kelly Skidmore": {
+   "qual": 72,
+   "background": "House 2006-10 and since 2020; former legislative aide to Sen. Ron Klein; Arthritis Foundation advocacy executive.",
+   "why": "Veteran legislator with advocacy background.",
+   "sources": []
+  },
+  "August Mangeney": {
+   "qual": 58,
+   "background": "Lawyer (auto insurance litigation); former legislative aide to Sen. Maria Sachs; Fair Districts campaign.",
+   "why": "Attorney with legislative staff experience; no office.",
+   "sources": []
+  },
+  "Anne Gerwig": {
+   "qual": 74,
+   "background": "Wellington council 2010-16 and mayor 2016-24; House since 2024.",
+   "why": "Mayor of a large village with one House term.",
+   "sources": []
+  },
+  "Elizabeth Holmes": {
+   "qual": 44,
+   "background": "English and special-education teacher at Dwyer High; Palm Beach schools since 2011.",
+   "why": "Educator; no elected office.",
+   "sources": []
+  },
+  "Doug Barrow": {
+   "qual": 54,
+   "background": "Founder and CEO of HP Hospitality Group; former hotel association political committee director.",
+   "why": "Business CEO; no elected office.",
+   "sources": []
+  },
+  "Megan Weinberger": {
+   "qual": 50,
+   "background": "Runs animal sanctuary Rescue Life; Moms for Liberty district lead; House since 2024.",
+   "why": "Nonprofit founder with one term.",
+   "sources": []
+  },
+  "Christine Hunschofsky": {
+   "qual": 80,
+   "background": "Parkland commissioner 2013 and mayor 2017-20; House since 2020; Boston University, Babson MBA.",
+   "why": "Mayor during a crisis and four-plus years in the House.",
+   "sources": []
+  },
+  "Dan Daley": {
+   "qual": 78,
+   "background": "Lawyer; Coral Springs commissioner 2012-19; House since 2019.",
+   "why": "Attorney with local and House service.",
+   "sources": []
+  },
+  "Lisa Dunkley": {
+   "qual": 66,
+   "background": "Retired Army veteran (Iraq tour); worked for Florida DOT and nonprofits; House since 2022.",
+   "why": "Military and public-agency career with legislative service.",
+   "sources": []
+  },
+  "Mitch Rosenwald": {
+   "qual": 74,
+   "background": "Licensed clinical social worker and professor; Oakland Park mayor 2023-24 and commissioner 2020-24; House since 2024.",
+   "why": "Mayor and professional social worker.",
+   "sources": []
+  },
+  "Daryl Campbell": {
+   "qual": 62,
+   "background": "House since 2022; social work degrees from Jacksonville and Barry universities.",
+   "why": "Several years in House; social-work training.",
+   "sources": []
+  },
+  "Michael Ferguson": {
+   "qual": 72,
+   "background": "Lawyer; former Air Force captain, prosecutor, defense lawyer and special trial counsel.",
+   "why": "Prosecutor and defense attorney; no elected office.",
+   "sources": []
+  },
+  "Yoni Anijar": {
+   "qual": 60,
+   "background": "Age 35, corporate lawyer and Army Reserve JAG captain; interned in House and Congress.",
+   "why": "Young attorney and military lawyer; no elected office.",
+   "sources": []
+  },
+  "Todd Delmay": {
+   "qual": 58,
+   "background": "Hollywood businessman; executive director of SAVE (LGBTQ civil-rights organization); marriage-equality plaintiff.",
+   "why": "Nonprofit executive; no elected office.",
+   "sources": []
+  },
+  "Hillary Cassel": {
+   "qual": 72,
+   "background": "Attorney, founder of Cassel & Cassel; former assistant state attorney; House since 2022.",
+   "why": "Prosecutor, lawyer and legislator.",
+   "sources": []
+  },
+  "Mike Friend": {
+   "qual": 56,
+   "background": "Dentist; lobbied through Florida Dental Association; first-time candidate.",
+   "why": "Health professional with some legislative lobbying exposure.",
+   "sources": []
+  },
+  "Mery Lopez-Palma": {
+   "qual": 58,
+   "background": "Lawyer and entrepreneur, age 56; lost 2024 race.",
+   "why": "Attorney and business owner; no elected office.",
+   "sources": []
+  },
+  "Robin Bartleman": {
+   "qual": 78,
+   "background": "Educator; Weston commissioner 2000-04; Broward School Board 2004-20; House since 2020.",
+   "why": "Education career with local, school board and House service.",
+   "sources": []
+  },
+  "Imtiaz Mohammad": {
+   "qual": 38,
+   "background": "Runs multi-site salon business with wife; several prior losing runs.",
+   "why": "Small-business owner; no elected office.",
+   "sources": []
+  },
+  "Felicia Robinson": {
+   "qual": 76,
+   "background": "Educator with 25+ years in Miami-Dade schools; Miami Gardens council 2010-18; House since 2020.",
+   "why": "Educator, council member and legislator.",
+   "sources": []
+  },
+  "Marie Woodson": {
+   "qual": 64,
+   "background": "Former Miami-Dade County public administrator; House since 2020.",
+   "why": "Public administration career with legislative service.",
+   "sources": []
+  },
+  "Lucia Baez-Geller": {
+   "qual": 68,
+   "background": "Taught English 15 years; Miami-Dade School Board 2020-24; lost 2024 congressional race.",
+   "why": "Teacher with four years on a school board.",
+   "sources": []
+  },
+  "Fabian Basabe": {
+   "qual": 48,
+   "background": "Businessman and former reality-TV personality; House since 2022; passed 15 bills in 2025-26.",
+   "why": "Business owner with three years in House.",
+   "sources": []
+  },
+  "Wallace Aristide": {
+   "qual": 66,
+   "background": "Principal of Miami Northwestern High since 2011; House since 2024.",
+   "why": "School principal with one House term.",
+   "sources": []
+  },
+  "Wancito Francius": {
+   "qual": null,
+   "background": "Lifelong district resident and community advocate per campaign; career not found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Daphne Campbell": {
+   "qual": 66,
+   "background": "Registered nurse (BSN); House 2010-16 and Senate 2016-18.",
+   "why": "Nurse and former legislator.",
+   "sources": []
+  },
+  "James Bush III": {
+   "qual": 64,
+   "background": "Retired Miami teacher; House 1992-2000, 2008-10, 2018-22.",
+   "why": "Long legislative record and teaching career.",
+   "sources": []
+  },
+  "Tom Fabricio": {
+   "qual": 72,
+   "background": "Attorney, managing partner of Fabricio Law Firm and owner of True Freedom Title; House since 2020.",
+   "why": "Lawyer and business owner with several terms.",
+   "sources": []
+  },
+  "David Borrero": {
+   "qual": 68,
+   "background": "Former Sweetwater grants manager and city commissioner; construction account executive; FIU and St. Thomas law graduate; House since 2020.",
+   "why": "Grants management and local office experience.",
+   "sources": []
+  },
+  "Alex Rizo": {
+   "qual": 68,
+   "background": "Former teacher, coach and Miami-Dade school administrator 1998-2006; education consultant; House since 2020.",
+   "why": "Education administrator with legislative service.",
+   "sources": []
+  },
+  "Gloria Romero Roses": {
+   "qual": 54,
+   "background": "Principal of NEXUS Living LLC since 2008; owns assisted living facility; former communications director; MBA; first run.",
+   "why": "Business owner; no elected office.",
+   "sources": []
+  },
+  "Bruno Barreiro": {
+   "qual": 88,
+   "background": "House 1992-98; Miami-Dade commissioner 1998-2018; owner of BABJ Investment Corp.",
+   "why": "Two decades as county commissioner plus legislator.",
+   "sources": []
+  },
+  "Demi Busatta": {
+   "qual": 66,
+   "background": "Former nonprofit development director; chief of staff to Sen. Anitere Flores; House since 2020.",
+   "why": "Staff chief and legislator.",
+   "sources": []
+  },
+  "Omar Blanco": {
+   "qual": 66,
+   "background": "Fire rescue captain; House since 2024.",
+   "why": "Public-safety career with one term.",
+   "sources": []
+  },
+  "Marcos Reyes": {
+   "qual": 34,
+   "background": "Real estate specialist and operational specialist; Miami Dade College associate degree; ran in 2024.",
+   "why": "Early career work; no governing experience.",
+   "sources": []
+  },
+  "Ashley Perez-Biliskov": {
+   "qual": 44,
+   "background": "Medical speech-language pathologist; FSU and USF degrees; no prior office.",
+   "why": "Health professional; no governing record.",
+   "sources": []
+  },
+  "Nicolas Ramos": {
+   "qual": null,
+   "background": "Democratic candidate; no biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Kevin Chambliss": {
+   "qual": 62,
+   "background": "Former Democratic Party field organizer and congressional liaison; Jackson State psychology; House since 2020.",
+   "why": "Congressional liaison experience and several terms.",
+   "sources": []
+  },
+  "Miguel Granda": {
+   "qual": 54,
+   "background": "Miami-Dade County Community Council member since 2024; House district aide since 2020; FIU political science.",
+   "why": "Legislative staff and local council experience.",
+   "sources": []
+  },
+  "Mike Redondo": {
+   "qual": 70,
+   "background": "Attorney (Holland & Knight, then Redondo Law PA); House since December 2023.",
+   "why": "Lawyer with about two years in House.",
+   "sources": []
+  },
+  "A.C. Castillo": {
+   "qual": null,
+   "background": "Democratic candidate; no biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Rey Sordo": {
+   "qual": 24,
+   "background": "Restaurant bartender; only experience listed on BallotReady.",
+   "why": "No related experience found.",
+   "sources": []
+  },
+  "Juan Porras": {
+   "qual": 58,
+   "background": "Former staffer to Sen. Rubio, Gov. Scott and two state representatives; FIU; House since 2022.",
+   "why": "Political staff career with several terms.",
+   "sources": []
+  },
+  "Jim Mooney Jr.": {
+   "qual": 74,
+   "background": "Islamorada council member and mayor 1998-2002; council again from 2014; House since 2020; unopposed.",
+   "why": "Local mayor and legislator.",
+   "sources": []
+  },
+  "John Lowndes": {
+   "qual": 76,
+   "background": "Maitland mayor since 2021, council member 2013-21; attorney in Orange County Attorney's Office; American University J.D.",
+   "why": "Local executive office plus government legal work.",
+   "sources": []
+  },
+  "Jason Brodeur": {
+   "qual": 78,
+   "background": "State senator, President Pro Tempore; Florida House 2010-18; former P&G employee, health consultant, Seminole Chamber CEO; MBA, Dartmouth MPH.",
+   "why": "Long legislative service and business and public-health training.",
+   "sources": []
+  },
+  "Colleen Burton": {
+   "qual": 76,
+   "background": "State senator since 2022, Florida House 2014-22; former nonprofit leader; founded Polk Vision.",
+   "why": "Twelve years in legislature plus nonprofit management.",
+   "sources": []
+  },
+  "Alfred Reynolds": {
+   "qual": null,
+   "background": "Listed as a law studies professor in state data; little else found.",
+   "why": "Background not verified; not scored.",
+   "sources": []
+  },
+  "Brian Nathan": {
+   "qual": 54,
+   "background": "State senator since March 2026 special election; Navy veteran; IBEW electrician/foreman and organizer.",
+   "why": "Skilled-trade and military background; months in office.",
+   "sources": []
+  },
+  "Josie Tomkow": {
+   "qual": 76,
+   "background": "Former state representative 2018-26 (chaired Health and Human Services); third-generation cattle rancher; UF graduate.",
+   "why": "Eight years in the House with committee chair role plus ranching.",
+   "sources": []
+  },
+  "Fentrice Driskell": {
+   "qual": 84,
+   "background": "House Democratic Leader since 2022; House since 2018; Harvard, Georgetown J.D.; federal court clerk; Carlton Fields attorney.",
+   "why": "Legislative leader and trained litigator.",
+   "sources": []
+  },
+  "Karla Kemp": {
+   "qual": 40,
+   "background": "Sustainability consultant; previously ran for Congress; no public office.",
+   "why": "Consulting experience; no governing record.",
+   "sources": []
+  },
+  "Nick DiCeglie": {
+   "qual": 76,
+   "background": "State senator since 2022, House 2018-22; small-business owner in family sanitation business.",
+   "why": "Eight years in legislature and business owner.",
+   "sources": []
+  },
+  "Jay Trumbull": {
+   "qual": 78,
+   "background": "State senator since 2022; House 2014-22, Appropriations chair; management at family water-conditioning business.",
+   "why": "Budget-chair experience and business management.",
+   "sources": []
+  },
+  "Lauren Donahoo": {
+   "qual": 50,
+   "background": "Licensed practical nurse and public health professional (~20 years); nursing-home unit manager; contact tracer; MPH.",
+   "why": "Health-care and public-health experience; no legislative record.",
+   "sources": []
+  },
+  "Jordan Hensley": {
+   "qual": 18,
+   "background": "Bartender at the Fenway Hotel in Dunedin; political newcomer.",
+   "why": "No related experience found.",
+   "sources": []
+  },
+  "Chris Nocco": {
+   "qual": 72,
+   "background": "Pasco County Sheriff since 2011 (runs large agency and budget); former Rubio staffer; Homeland Security Advisory Council.",
+   "why": "Executive leadership of a large public agency; no legislative office.",
+   "sources": []
+  },
+  "Lew Wasserman": {
+   "qual": null,
+   "background": "Democratic nominee; no biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "James Buchanan": {
+   "qual": 70,
+   "background": "State representative since 2018 (vice-chair Ways & Means); FSU B.S., USF MBA; family business ties.",
+   "why": "Eight years in the House with budget committee role.",
+   "sources": []
+  },
+  "Martin Hyde": {
+   "qual": null,
+   "background": "Independent; ran as Republican in 2022 FL-16; occupation not found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Jackie Green": {
+   "qual": null,
+   "background": "Republican nominee; no biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Mack Bernard": {
+   "qual": 76,
+   "background": "State senator since 2024; Florida House 2009-12; Palm Beach County commissioner 2016-24; lawyer and business executive.",
+   "why": "County and state office plus law degree.",
+   "sources": []
+  },
+  "Rick Roth": {
+   "qual": 70,
+   "background": "Former House member 2016-24; Roth Farms (Belle Glade) family agribusiness.",
+   "why": "Eight years in the House plus farm-business ownership.",
+   "sources": []
+  },
+  "David Silvers": {
+   "qual": 66,
+   "background": "Former House member 2016-24; University of Florida and Miami; occupation not found.",
+   "why": "Eight years in the House.",
+   "sources": []
+  },
+  "David Silverberg": {
+   "qual": null,
+   "background": "Journalist per Wikipedia; little else found.",
+   "why": "Background not verified; not scored.",
+   "sources": []
+  },
+  "Lauren Melo": {
+   "qual": 74,
+   "background": "State representative since 2020; founded trucking company (1991, ~100 trucks); real estate broker; Naples realtor board president.",
+   "why": "Business founder and legislator.",
+   "sources": []
+  },
+  "Hector Rivera": {
+   "qual": null,
+   "background": "Republican nominee; no biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Lauren Book": {
+   "qual": 82,
+   "background": "Senator 2016-24, Senate minority leader 2021-24; founder of Lauren's Kids; former teacher.",
+   "why": "Eight years in the Senate with leadership role; nonprofit founder.",
+   "sources": []
+  },
+  "Rosalind Osgood": {
+   "qual": 78,
+   "background": "State senator since 2022; Broward school board 2012-22; CEO Mount Olive Development Corp.; associate pastor.",
+   "why": "School board and Senate experience plus nonprofit CEO.",
+   "sources": []
+  },
+  "Crescente Furnaguera": {
+   "qual": null,
+   "background": "No-party candidate; no biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Ashley Gantt": {
+   "qual": 72,
+   "background": "State representative since 2022; lawyer; former Miami-Dade teacher; Teach For America alum.",
+   "why": "Legislator, attorney and teacher.",
+   "sources": []
+  },
+  "Elizabeth Jeanty": {
+   "qual": 42,
+   "background": "Realtor; owner of Eliza Financial since 2012; founder of The Power of Women Foundation; ran for North Miami clerk 2019.",
+   "why": "Small-business owner; no legislative office.",
+   "sources": []
+  },
+  "George Lavin": {
+   "qual": 48,
+   "background": "Legal consultant; director of eDiscovery at Lawgical Insight; Cardozo J.D.",
+   "why": "Legal professional; no public office.",
+   "sources": []
+  },
+  "Ileana Garcia": {
+   "qual": 62,
+   "background": "State senator since 2020; former DHS deputy press secretary; founder of Latinas for Trump; media career.",
+   "why": "Six years in the Senate; communications background.",
+   "sources": []
+  },
+  "Doc Solomon": {
+   "qual": 44,
+   "background": "Chiropractor; staff chiropractor for U.S. Olympics 2006; vice chair Miami-Dade Sports Commission; ran for House 2018.",
+   "why": "Health professional and commission service; no elected office.",
+   "sources": []
+  },
+  "Richard Lamondin Jr.": {
+   "qual": 46,
+   "background": "Co-founder and CEO of ecofi since 2012; USC graduate; previously ran for Congress.",
+   "why": "Startup CEO; no public office.",
+   "sources": []
+  },
+  "Alexis Calatayud": {
+   "qual": 66,
+   "background": "State senator since 2022; FIU graduate; former aide and Florida Education Department legislative affairs director.",
+   "why": "Legislative-affairs and Senate experience.",
+   "sources": []
+  },
+  "Clay Yarborough": {
+   "qual": 80,
+   "background": "State senator since 2022; Florida House 2016-22; Jacksonville City Council 2007-15.",
+   "why": "Fifteen years of local and state legislative service.",
+   "sources": []
+  },
+  "Jose Stoute": {
+   "qual": 58,
+   "background": "Retired Army colonel, physician, infectious-disease specialist and professor.",
+   "why": "Medical and senior military leadership; no elected office.",
+   "sources": []
+  },
+  "Ana Rodriguez": {
+   "qual": 74,
+   "background": "State senator since 2020; House 2018-20; Doral council; former lobbyist for Baptist Health and Realtors.",
+   "why": "Local and state legislative service.",
+   "sources": []
+  },
+  "Ramiro Orta": {
+   "qual": 34,
+   "background": "Small Business Specialist at TD since 2021; earlier insurance consultant and Northwestern Mutual representative; associate degree.",
+   "why": "Banking and finance sales; no governing record.",
+   "sources": []
+  },
+  "Jason Bellamy-Fults": {
+   "qual": 38,
+   "background": "Union official or UF educator and former electrical worker (sources differ); no office.",
+   "why": "Labor and education roles; no governing record.",
+   "sources": []
+  },
+  "Jennifer Bradley": {
+   "qual": 76,
+   "background": "State senator since 2020; UF criminology, FSU law degree.",
+   "why": "Six years in the Senate and legal training.",
+   "sources": []
+  },
+  "Joseph Thornton": {
+   "qual": null,
+   "background": "American Solidarity Party nominee; no biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Judy Ngying": {
+   "qual": 46,
+   "background": "Public school teacher since 1997 (28 years).",
+   "why": "Education career; no governing record.",
+   "sources": []
+  },
+  "Jake Johansson": {
+   "qual": 86,
+   "background": "Volusia County Council at-large since 2023; retired Navy captain (35 years); Port Orange city manager 2015-20; leadership consultant.",
+   "why": "Senior military leadership and city manager and county council experience.",
+   "sources": []
+  },
+  "Gabriel Wozniak": {
+   "qual": 26,
+   "background": "Salesperson at Cavalier Distributing; former bar manager and journalist for a Japan tourism association.",
+   "why": "Sales and hospitality background; no governing record.",
+   "sources": []
+  },
+  "Gay Valimont": {
+   "qual": 30,
+   "background": "Pensacola former athletic trainer, then gun-violence-prevention organizer (Moms Demand Action chapter lead); no public office.",
+   "why": "Advocacy leadership; no governing, legal or legislative experience.",
+   "sources": []
+  },
+  "Jimmy Patronis": {
+   "qual": 86,
+   "background": "Florida House 2006-14, Public Service Commission, state CFO 2017-25, U.S. Rep. since April 2025.",
+   "why": "Long record in legislature, statewide finance office and now Congress.",
+   "sources": []
+  },
+  "Tyler L. Davis": {
+   "qual": null,
+   "background": "No-party candidate; very little public biography found; no office history.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Maxwell Alejandro Frost": {
+   "qual": 52,
+   "background": "U.S. Rep. since 2023; former national organizing director at March for Our Lives; unopposed.",
+   "why": "Two-plus terms in office with committee role; short career before Congress.",
+   "sources": []
+  },
+  "James Pericola": {
+   "qual": 64,
+   "background": "Attorney, founder of Seward Square Group policy consulting; Clinton administration NTSB aide; congressional staffer starting with Sen. Graham.",
+   "why": "Legal and Capitol Hill policy experience; never elected.",
+   "sources": []
+  },
+  "Joe Strada": {
+   "qual": 50,
+   "background": "Founder of Strada Services (HVAC/electrical/plumbing), reported 4,000+ employees in 13 states; no office held.",
+   "why": "Proven business management at scale; no legislative or policy record.",
+   "sources": []
+  },
+  "Ralph Groves": {
+   "qual": 52,
+   "background": "Retired Army Reserve major; Defense Department analyst in UK and Pentagon (1999-2018); Libertarian county chair.",
+   "why": "National-security analysis and military service; no elected office.",
+   "sources": []
+  },
+  "Kimberly Overman": {
+   "qual": 70,
+   "background": "Certified financial planner, small-business owner and former Hillsborough County commissioner.",
+   "why": "Local elected office with budget responsibility plus finance career.",
+   "sources": []
+  },
+  "Gus Michael Bilirakis": {
+   "qual": 80,
+   "background": "U.S. Rep. since 2007; former probate and estate lawyer; Florida House 1998-2006; Energy and Commerce member.",
+   "why": "Two decades in Congress and eight years in the legislature plus legal practice.",
+   "sources": []
+  },
+  "Branden Scrivener": {
+   "qual": 20,
+   "background": "Case manager assistant at AdventHealth since 2022; human-services bachelor's 2024; first-time candidate.",
+   "why": "Entry-level health-care job and no governing or policy record.",
+   "sources": []
+  },
+  "Anna Paulina Luna": {
+   "qual": 60,
+   "background": "U.S. Rep. since 2023; Air Force/Air National Guard veteran 2009-14; biology B.S.",
+   "why": "Military service and two terms in Congress; short prior career.",
+   "sources": []
+  },
+  "Leela Gray": {
+   "qual": 74,
+   "background": "Retired Army brigadier general, 30+ years; Army War College; Stetson J.D.; first run for office.",
+   "why": "Senior military leadership and a law degree; no elected experience.",
+   "sources": []
+  },
+  "Tony D'Arrigo": {
+   "qual": 28,
+   "background": "Small-business owner, hospitality-management consultant and author; first-time candidate.",
+   "why": "Business and consulting experience; no governing or policy background.",
+   "sources": []
+  },
+  "Mike Beltran": {
+   "qual": 66,
+   "background": "Attorney (Harvard J.D.); Florida House 2018-24.",
+   "why": "Six years in the legislature and legal training; no federal experience.",
+   "sources": []
+  },
+  "Kathy Castor": {
+   "qual": 84,
+   "background": "U.S. Rep. since 2007; land-use attorney; Hillsborough commissioner 2002-06; chaired House climate committee.",
+   "why": "Nearly two decades in Congress plus local government and law.",
+   "sources": []
+  },
+  "Brian Lambert": {
+   "qual": 32,
+   "background": "Retired 20-year U.S. Navy veteran per his website; no office held.",
+   "why": "Military career; no policy or governing record found.",
+   "sources": []
+  },
+  "Robert People": {
+   "qual": 36,
+   "background": "Retired Army veteran (1997-2018), writer, recent proposal writer; first run for office.",
+   "why": "Military and writing background; no governing experience.",
+   "sources": []
+  },
+  "Laurel Lee": {
+   "qual": 82,
+   "background": "U.S. Rep. since 2023; former Florida Secretary of State, Hillsborough circuit judge, federal prosecutor, public defender.",
+   "why": "Judicial, prosecutorial and statewide executive experience.",
+   "sources": []
+  },
+  "Matthew Montavon": {
+   "qual": 58,
+   "background": "Retired U.N. Food and Agriculture Organization senior programme coordinator (2009-17); MBA; second run for this seat.",
+   "why": "International program management; never held elected office.",
+   "sources": []
+  },
+  "Greg Steube": {
+   "qual": 78,
+   "background": "U.S. Rep. since 2019; Army JAG captain with Iraq deployment; Florida House 2010-16, Senate 2016-18; Ways and Means.",
+   "why": "Legal military service, state legislature and Congress.",
+   "sources": []
+  },
+  "Michael J. Quirk": {
+   "qual": 34,
+   "background": "Cybersecurity professional with 30 years in the field; recently started a small business; never held office.",
+   "why": "Technical career relevant to data-privacy issues; no governing record.",
+   "sources": []
+  },
+  "Scott Franklin": {
+   "qual": 78,
+   "background": "U.S. Rep. since 2021; retired Navy commander (naval aviator); former CEO of a Lakeland insurance agency; Lakeland city commissioner 2017-21.",
+   "why": "Military leadership, business CEO, local office and Congress.",
+   "sources": []
+  },
+  "Curtis Gibson": {
+   "qual": 52,
+   "background": "Lake Wales city commissioner 2017-21; mall manager and claims adjuster; former postal carrier.",
+   "why": "Brief local office; practical management career.",
+   "sources": []
+  },
+  "Deva Simmons": {
+   "qual": 38,
+   "background": "Career educator, 20+ years as teacher, mentor and advocate; no elective office.",
+   "why": "Education expertise for related policy; no governing experience.",
+   "sources": []
+  },
+  "Jim Schwartzel": {
+   "qual": 56,
+   "background": "President of Sun Broadcasting (radio, TV, Gulfshore Life magazines) in Fort Myers; never held office.",
+   "why": "Runs a media company with payroll; no legislative or policy record.",
+   "sources": []
+  },
+  "Victor Arias": {
+   "qual": 60,
+   "background": "Cape Coral attorney, owner of Arias Law Firm since 2003; earlier Lee County school district attorney.",
+   "why": "Law practice and public-sector legal work; no elected office.",
+   "sources": []
+  },
+  "Seth Haskin": {
+   "qual": 18,
+   "background": "Age 26, manages family coffee shop business; neuroscience bachelor's; prior write-in run in Wisconsin.",
+   "why": "Limited experience and no governing record.",
+   "sources": []
+  },
+  "Amanda Marie Green": {
+   "qual": 46,
+   "background": "Decade as operations director and pricing expert on U.S. government contracts, including a USAID partner; FSU.",
+   "why": "Federal contracting and operations experience; never held office.",
+   "sources": []
+  },
+  "Austin Rogers": {
+   "qual": 66,
+   "background": "Attorney; former general counsel to U.S. Sen. Rick Scott; never held office.",
+   "why": "Legal training and Senate-office staff experience.",
+   "sources": []
+  },
+  "Kedner Maxime": {
+   "qual": null,
+   "background": "Independent; little published biography found.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Brent Andersen": {
+   "qual": 42,
+   "background": "Pompano Beach insurance broker and businessman, moved to Florida in 2021; no office held.",
+   "why": "Small-business management; no governing record.",
+   "sources": []
+  },
+  "Debbie Wasserman Schultz": {
+   "qual": 84,
+   "background": "U.S. Rep. since 2005; Florida House 1992-2000 and Senate 2000-04; DNC chair 2011-16; Appropriations.",
+   "why": "Three decades of legislative service and senior committee role.",
+   "sources": []
+  },
+  "James T. Martin": {
+   "qual": 60,
+   "background": "Coast Guard Academy graduate, captain, commanded a cutter; chief of staff for national security affairs to VP Harris 2021-25.",
+   "why": "Military command and senior White House staff; never elected.",
+   "sources": []
+  },
+  "Brian Mast": {
+   "qual": 78,
+   "background": "U.S. Rep. since 2017; Army bomb-disposal veteran (Bronze Star); chairs House Foreign Affairs Committee.",
+   "why": "Military service and committee chairmanship after nearly ten years in Congress.",
+   "sources": []
+  },
+  "Alexander Cooke": {
+   "qual": 60,
+   "background": "Investment adviser and founder of Optimist Capital; Juno Beach councilmember from 2022 and two years as mayor.",
+   "why": "Finance career plus local elected executive experience.",
+   "sources": []
+  },
+  "Pia Dandiya": {
+   "qual": 64,
+   "background": "Teacher, Harlem high-school principal, White House Fellow at Education Department, public-sector lead at Apple.",
+   "why": "School leadership and federal fellowship experience; never held office.",
+   "sources": []
+  },
+  "Casey Askar": {
+   "qual": 54,
+   "background": "Chairman/CEO of Askar Family Office (franchising, real estate, energy, construction); Marine veteran; never held office.",
+   "why": "Large business leadership; no legislative record.",
+   "sources": []
+  },
+  "Deborah Adeimy": {
+   "qual": 38,
+   "background": "Financial advisor; ran for the old FL-22 in 2022 and 2024; no public office.",
+   "why": "Finance career; no governing record.",
+   "sources": []
+  },
+  "Lois Frankel": {
+   "qual": 84,
+   "background": "U.S. Rep. since 2013; West Palm Beach mayor 2003-11; 14 years in Florida House and first woman House Minority Leader.",
+   "why": "Mayor, legislative leader and long congressional service.",
+   "sources": []
+  },
+  "Te Mayonna Brown": {
+   "qual": null,
+   "background": "Described as an entrepreneur; also listed as a 2026 candidate in Illinois; identity and background unverified.",
+   "why": "Background not confirmed; not scored.",
+   "sources": []
+  },
+  "Oliver G. Gilbert III": {
+   "qual": 78,
+   "background": "Attorney; Miami Gardens mayor 2012-20; Miami-Dade commissioner 2020-26, chaired commission 2023.",
+   "why": "Mayor and county commissioner with budget experience plus law degree.",
+   "sources": []
+  },
+  "Scott Singer": {
+   "qual": 74,
+   "background": "Lawyer (Harvard, Georgetown Law); Boca Raton council member then mayor 2018-26.",
+   "why": "Eight years as city executive plus legal training.",
+   "sources": []
+  },
+  "Jared Moskowitz": {
+   "qual": 82,
+   "background": "Lawyer; Parkland commissioner, Florida House 2012-19, state emergency management director 2019-21, Broward commissioner; U.S. Rep. since 2023.",
+   "why": "Emergency-management executive plus legislative and local office.",
+   "sources": []
+  },
+  "Peter Jassenoff": {
+   "qual": null,
+   "background": "Libertarian nominee; no public biography or occupation verified.",
+   "why": "Background not found; not scored.",
+   "sources": []
+  },
+  "Nicole Locklin": {
+   "qual": 48,
+   "background": "Lead Counsel at Databricks; former Nextdoor in-house and litigation associate; Santa Clara Law 2015; first run.",
+   "why": "Attorney with tech-sector counsel work; no public office.",
+   "sources": []
+  },
+  "Mario Diaz-Balart": {
+   "qual": 84,
+   "background": "U.S. Rep. since 2003; Florida House 1988-92 and 2000-02; state senator 1992-2000; Appropriations subcommittee chair.",
+   "why": "More than 30 years of legislative service.",
+   "sources": []
+  },
+  "Deborah Ann Meidinger Hosey": {
+   "qual": 52,
+   "background": "Assistant Director for Elderly and Veterans Services, Broward County; former children's-services administrator, school administrator, teacher, NYC EMT.",
+   "why": "County-government administration and education; never elected.",
+   "sources": []
+  },
+  "Eliott Rodriguez": {
+   "qual": 30,
+   "background": "Miami TV news anchor (WFOR 1999-2025, earlier WPLG, WTVJ); three Emmys.",
+   "why": "Public communicator with civic coverage experience; no governing record.",
+   "sources": []
+  },
+  "Maria Elvira Salazar": {
+   "qual": 60,
+   "background": "U.S. Rep. since 2021; longtime Spanish-language TV journalist; Harvard Kennedy School.",
+   "why": "Three terms in Congress; media career before.",
+   "sources": []
+  },
+  "Phil \"Felipe\" Ehr": {
+   "qual": 52,
+   "background": "Nonprofit executive and retired Navy commander; prior congressional candidate; never elected.",
+   "why": "Military and nonprofit leadership; no elected experience.",
+   "sources": []
+  },
+  "Carlos A. Gimenez": {
+   "qual": 90,
+   "background": "Miami firefighter and fire chief, Miami city manager, Miami-Dade commissioner and county mayor 2011-20; U.S. Rep. since 2021.",
+   "why": "Extensive executive government experience and budgets.",
+   "sources": []
+  },
+  "Eddy Rojas": {
+   "qual": 38,
+   "background": "Cuban-born; says he built a service company over 20 years; no office listed.",
+   "why": "Business owner (self-reported); no governing record.",
+   "sources": []
+  },
+  "Seth Harp": {
+   "qual": 40,
+   "background": "Gainesville civics teacher; 20+ years radio and station operations manager; UF journalism adjunct; never elected.",
+   "why": "Teaching and media management; no governing experience.",
+   "sources": []
+  },
+  "Mike Klein": {
+   "qual": 50,
+   "background": "West Point graduate, Army combat veteran, chairman of Warrior Centric Health, campaign manager over 30 years; never elected.",
+   "why": "Military and campaign-management experience; no public office.",
+   "sources": []
+  },
+  "Kat Cammack": {
+   "qual": 64,
+   "background": "U.S. Rep. since 2020; deputy chief of staff to Rep. Yoho 2013-19; raised on cattle ranch.",
+   "why": "Congressional staff career plus three terms in office.",
+   "sources": []
+  },
+  "LaShonda \"L.J.\" Holloway": {
+   "qual": 60,
+   "background": "Supreme Court mediator/arbitrator; UF J.D.; worked for Rep. Carrie Meek, EPA, LexisNexis, D.C. mayor's office.",
+   "why": "Legal dispute-resolution and federal and Hill staff experience; never won office.",
+   "sources": []
+  },
+  "Aaron Bean": {
+   "qual": 78,
+   "background": "U.S. Rep. since 2023; Florida House 2000-08, Senate 2012-22; Fernandina Beach commissioner and mayor; finance degree.",
+   "why": "Mayor, legislator and Congress member.",
+   "sources": []
+  },
+  "Todd Schaefer": {
+   "qual": 30,
+   "background": "Retired U.S. Navy; ran as independent in 2024; no political experience.",
+   "why": "Military service only; no governing record.",
+   "sources": []
+  },
+  "Mike Sell": {
+   "qual": 40,
+   "background": "Six Sigma Black Belt with 20+ years improving health-care systems; led local Indivisible chapter; never elected.",
+   "why": "Operations expertise for health policy; no governing experience.",
+   "sources": []
+  },
+  "Rachel Grage": {
+   "qual": 48,
+   "background": "Biomedical engineer (Tulane); former elected HOA president; lost 2024 House race.",
+   "why": "Technical career and HOA board leadership; no public office.",
+   "sources": []
+  },
+  "John H. Rutherford": {
+   "qual": 82,
+   "background": "Jacksonville sheriff 2003-15 and 29 years with the sheriff's office; U.S. Rep. since 2017; Appropriations.",
+   "why": "Law-enforcement executive running a large agency and a decade in Congress.",
+   "sources": []
+  },
+  "Eric Yonce": {
+   "qual": 28,
+   "background": "Small business owner renovating vintage trailers; 22 years in retail store management; no public office.",
+   "why": "Management of retail operations; no policy record.",
+   "sources": []
+  },
+  "Randy Fine": {
+   "qual": 66,
+   "background": "Harvard graduate; former casino executive and CEO; Florida House 2016-24, Senate; U.S. Rep. since April 2025.",
+   "why": "Business executive plus eight years in the legislature and Congress.",
+   "sources": []
+  },
+  "Andrew Parrott": {
+   "qual": 30,
+   "background": "Libertarian candidate, age 54; background limited to interview statements; no public office.",
+   "why": "Limited verifiable experience.",
+   "sources": []
+  },
+  "Ryan Elijah": {
+   "qual": 32,
+   "background": "Former Orlando TV news anchor and reporter (Emmy winner); no elected service.",
+   "why": "Media career; no governing record.",
+   "sources": []
+  },
+  "Bale Dalton": {
+   "qual": 66,
+   "background": "Naval Academy graduate, Navy helicopter pilot 24 years, State Department, aide to Sen. Nelson, NASA chief of staff.",
+   "why": "Military leadership and federal executive-branch staff roles; never elected.",
+   "sources": []
+  },
+  "Christopher Dennison": {
+   "qual": 30,
+   "background": "Former U.S. Air Force; worked at Chase Bank, Angi and Yelp; age 43.",
+   "why": "Military and private-sector jobs; no governing record.",
+   "sources": []
+  },
+  "Mike Haridopolos": {
+   "qual": 82,
+   "background": "U.S. Rep. since 2025; Florida Senate President 2010-12, state senator 2003-12; history instructor.",
+   "why": "Long legislative leadership.",
+   "sources": []
+  },
+  "Jennifer Jenkins": {
+   "qual": 54,
+   "background": "Brevard County school board member 2020-24; former teacher; founder of Educated We Stand.",
+   "why": "Four years in elected local office and teaching background.",
+   "sources": []
+  },
+  "Dan Green": {
+   "qual": 60,
+   "background": "Navy Reserve captain; Deputy Assistant Secretary of Defense for strategy 2019-21; earlier Defense and State roles.",
+   "why": "Senior defense policy and military leadership; never elected.",
+   "sources": []
+  },
+  "Darren Soto": {
+   "qual": 76,
+   "background": "U.S. Rep. since 2017; attorney; Florida House 2007-12 and Senate 2012-16.",
+   "why": "Two-term legislature plus nearly ten years in Congress.",
+   "sources": []
+  }
+ },
+ "notes": [
+  "MOSQUITO CONTROL GROUP 1 (owner's hypothesis checked): Rodney O'Quinn = owner/president of Keller's Pest Control, Bradenton, since 2002 (technician 1997, VP 2000) per company profile on Salary.com; his filing email is at kellerspestcontrol.com and he lives in Palmetto. Charles 'Rick' Richards = owner of Rick Richards Inc., ecological management/native-plant restoration/land management since 1984 (his own campaign site) - NOT described as a land broker. Scott Johnson = no occupation found; his filing email is at North River Church (Parrish) but no banker/broker background was found. The 'banker / land broker' guesses were NOT confirmed for either other candidate.",
+  "Whether O'Quinn still owns Keller's (the owner said 'formerly') is unconfirmed; no sale found in news; Sunbiz and FDACS lookups were blocked by bot protection from this environment.",
+  "Scores are advice on job fit only (never party/views). null = background not found, not a low score.",
+  "METHOD/LIMITS: Priority 1 and 2 plus mosquito, Bradenton, Holmes Beach, school board and fire/CDD filings used Manatee Supervisor of Elections campaign-finance pages (voterfocus), campaign sites and the roster bios. Congress, state legislature and Governor/Cabinet scores come from the roster bios (not re-verified against primary sources) and the rubric. Scanned Form 1 financial-disclosure PDFs for the mosquito candidates could not be read (image-only). Sunbiz and FDACS lookups are behind bot protection and were not bypassed. About 100 CDD and fire-district candidates have no public bio found and are null, not low.",
+  "Scale: 85+ = direct career or prior office in this exact job; 60-80 = strong transferable or adjacent experience; 40-55 = partial; 10-35 = unrelated or minimal; null = unknown."
+ ]
+}

@@ -1,0 +1,2062 @@
+{
+ "slice": "votes40",
+ "updated": "2026-11-03T14:51:50.351Z",
+ "done": true,
+ "candidates": {
+  "Ashley Moody": {
+   "votes": [
+    {
+     "bill": "H.R. 1 (2025) One Big Beautiful Bill Act",
+     "what": "Budget-reconciliation law that extends the 2017 tax cuts and changes Medicaid, SNAP, border and defense funding and the debt limit.",
+     "vote": "Yea",
+     "date": "2025-07-01",
+     "chamber": "U.S. Senate",
+     "result": "passed 50-50, Vice President broke the tie",
+     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+     "verified_via": "https://voteview.com/rollcall/RS1190372",
+     "note": "Roll-call tallies and Moody's vote read from the Voteview.com copy of the official Senate record because senate.gov blocks automated access; the url is the official senate.gov roll call."
+    },
+    {
+     "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026",
+     "what": "Stopgap funding bill that ended the October-November 2025 government shutdown.",
+     "vote": "Yea",
+     "date": "2025-11-10",
+     "chamber": "U.S. Senate",
+     "result": "passed 60-40",
+     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00618.htm",
+     "verified_via": "https://voteview.com/rollcall/RS1190618",
+     "note": "Roll-call tallies and Moody's vote read from the Voteview.com copy of the official Senate record because senate.gov blocks automated access; the url is the official senate.gov roll call."
+    },
+    {
+     "bill": "H.R. 5371 (2025) stopgap funding bill, first Senate attempt",
+     "what": "Stopgap funding bill that fell short of the 60 votes needed during the shutdown.",
+     "vote": "Yea",
+     "date": "2025-09-30",
+     "chamber": "U.S. Senate",
+     "result": "failed 55-45 (60 needed)",
+     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00535.htm",
+     "verified_via": "https://voteview.com/rollcall/RS1190535",
+     "note": "Roll-call tallies and Moody's vote read from the Voteview.com copy of the official Senate record because senate.gov blocks automated access; the url is the official senate.gov roll call."
+    },
+    {
+     "bill": "S. 2882 (2025) alternative continuing appropriations bill",
+     "what": "Alternative stopgap funding bill considered the same day; fell short of 60 votes.",
+     "vote": "Nay",
+     "date": "2025-09-30",
+     "chamber": "U.S. Senate",
+     "result": "failed 47-53",
+     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00534.htm",
+     "verified_via": "https://voteview.com/rollcall/RS1190534",
+     "note": "Roll-call tallies and Moody's vote read from the Voteview.com copy of the official Senate record because senate.gov blocks automated access; the url is the official senate.gov roll call."
+    },
+    {
+     "bill": "S. 2296 (2025) National Defense Authorization Act, FY2026",
+     "what": "Annual bill setting Pentagon policy and authorizing military spending.",
+     "vote": "Yea",
+     "date": "2025-10-09",
+     "chamber": "U.S. Senate",
+     "result": "passed 77-20",
+     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00570.htm",
+     "verified_via": "https://voteview.com/rollcall/RS1190570",
+     "note": "Roll-call tallies and Moody's vote read from the Voteview.com copy of the official Senate record because senate.gov blocks automated access; the url is the official senate.gov roll call."
+    },
+    {
+     "bill": "S.J.Res. 37 (2025) end Canada tariff emergency",
+     "what": "Resolution terminating the national emergency used to impose tariffs on goods from Canada.",
+     "vote": "Nay",
+     "date": "2025-04-02",
+     "chamber": "U.S. Senate",
+     "result": "passed 51-48",
+     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00160.htm",
+     "verified_via": "https://voteview.com/rollcall/RS1190160",
+     "note": "Roll-call tallies and Moody's vote read from the Voteview.com copy of the official Senate record because senate.gov blocks automated access; the url is the official senate.gov roll call."
+    },
+    {
+     "bill": "S.J.Res. 88 (2025) end global tariff emergency",
+     "what": "Resolution terminating the national emergency used to impose global tariffs.",
+     "vote": "Nay",
+     "date": "2025-10-30",
+     "chamber": "U.S. Senate",
+     "result": "passed 51-47",
+     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00600.htm",
+     "verified_via": "https://voteview.com/rollcall/RS1190600",
+     "note": "Roll-call tallies and Moody's vote read from the Voteview.com copy of the official Senate record because senate.gov blocks automated access; the url is the official senate.gov roll call."
+    },
+    {
+     "bill": "PN117 Pete Hegseth, Secretary of Defense",
+     "what": "Confirmation of Pete Hegseth as Secretary of Defense.",
+     "vote": "Yea",
+     "date": "2025-01-24",
+     "chamber": "U.S. Senate",
+     "result": "confirmed 50-50, Vice President broke the tie",
+     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00015.htm",
+     "verified_via": "https://voteview.com/rollcall/RS1190015",
+     "note": "Roll-call tallies and Moody's vote read from the Voteview.com copy of the official Senate record because senate.gov blocks automated access; the url is the official senate.gov roll call."
+    },
+    {
+     "bill": "PN118 Robert F. Kennedy Jr., Secretary of Health and Human Services",
+     "what": "Confirmation of Robert F. Kennedy Jr. as HHS Secretary.",
+     "vote": "Yea",
+     "date": "2025-02-13",
+     "chamber": "U.S. Senate",
+     "result": "confirmed 52-48",
+     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00052.htm",
+     "verified_via": "https://voteview.com/rollcall/RS1190052",
+     "note": "Roll-call tallies and Moody's vote read from the Voteview.com copy of the official Senate record because senate.gov blocks automated access; the url is the official senate.gov roll call."
+    },
+    {
+     "bill": "H.R. 4 (2025) Rescissions Act",
+     "what": "Cancels roughly $9 billion of previously approved spending proposed by the President (foreign aid and public broadcasting).",
+     "vote": "Yea",
+     "date": "2025-07-17",
+     "chamber": "U.S. Senate",
+     "result": "passed 51-48",
+     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00411.htm",
+     "verified_via": "https://voteview.com/rollcall/RS1190411",
+     "note": "Roll-call tallies and Moody's vote read from the Voteview.com copy of the official Senate record because senate.gov blocks automated access; the url is the official senate.gov roll call."
+    },
+    {
+     "bill": "S. 2296 (2025) motion to table the Epstein-documents amendment",
+     "what": "Motion to set aside (table) an amendment to the defense bill that would have directed the Attorney General to make Jeffrey Epstein-related documents public. \"Yea\" means voting to table.",
+     "vote": "Yea",
+     "date": "2025-09-10",
+     "chamber": "U.S. Senate",
+     "result": "tabling agreed to 51-49",
+     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00512.htm",
+     "verified_via": "https://voteview.com/rollcall/RS1190512",
+     "note": "Roll-call tallies and Moody's vote read from the Voteview.com copy of the official Senate record because senate.gov blocks automated access; the url is the official senate.gov roll call."
+    }
+   ],
+   "gaps": "Appointed to the Senate in January 2025 (sworn in Jan. 21), so she has no votes before that. The Senate passed the Laken Riley Act (S. 5) on Jan. 20, 2025, the day before she was sworn in, so she has no recorded vote on it. Not voting on H.R. 6938 (Jan. 15, 2026 appropriations; roll call 11 of the 2nd session). Prior offices (Hillsborough judge, Florida Attorney General) are not voting offices. senate.gov blocks automated access, so tallies were read from Voteview.com (a university-run copy of the official record); open the senate.gov URLs to confirm. Voteview data ran through Sept. 30, 2026 when read."
+  },
+  "Angie Nixon": {
+   "votes": [
+    {
+     "bill": "HB 1 (2021) Combating Public Disorder",
+     "what": "The \"anti-riot\" law: creates new riot-related crimes and penalties and lets state review local-government cuts to police budgets.",
+     "vote": "Nay",
+     "date": "2021-03-26",
+     "chamber": "FL House",
+     "result": "passed 76-39",
+     "url": "https://www.flsenate.gov/Session/Bill/2021/1/Vote/HouseVote_h00001e1020.PDF"
+    },
+    {
+     "bill": "SB 90 (2021) Elections",
+     "what": "Restricts ballot drop boxes, limits who may collect and return other people's ballots, and adds ID and renewal rules for vote-by-mail requests.",
+     "vote": "Nay",
+     "date": "2021-04-29",
+     "chamber": "FL House",
+     "result": "passed 77-40",
+     "url": "https://www.flsenate.gov/Session/Bill/2021/90/Vote/HouseVote_s00090e1440.PDF"
+    },
+    {
+     "bill": "HB 5 (2022) Reducing Fetal and Infant Mortality",
+     "what": "Bans most abortions after 15 weeks of pregnancy (exceptions for health risk and fatal fetal abnormality; none for rape or incest).",
+     "vote": "Nay",
+     "date": "2022-02-17",
+     "chamber": "FL House",
+     "result": "passed 78-39",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/5/Vote/HouseVote_h00005c1542.PDF"
+    },
+    {
+     "bill": "HB 1557 (2022) Parental Rights in Education",
+     "what": "Bars classroom instruction on sexual orientation or gender identity in kindergarten through grade 3 or in a way not age-appropriate; expands parental-notification rules.",
+     "vote": "Nay",
+     "date": "2022-02-24",
+     "chamber": "FL House",
+     "result": "passed 69-47",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/1557/Vote/HouseVote_h01557e1564.PDF"
+    },
+    {
+     "bill": "SB 2-D (2022 special session) Property Insurance",
+     "what": "May 2022 special-session insurance bill creating a state-backed reinsurance program for property insurers and other market changes.",
+     "vote": "Nay",
+     "date": "2022-05-25",
+     "chamber": "FL House",
+     "result": "passed 95-14",
+     "url": "https://www.flsenate.gov/Session/Bill/2022D/2D/Vote/HouseVote_s00002De1916.PDF"
+    },
+    {
+     "bill": "SB 4-D (2022 special session) Building Safety",
+     "what": "Condominium safety after the Surfside collapse: milestone inspections of older buildings, structural-integrity reserve studies and reserve-funding rules.",
+     "vote": "Yea",
+     "date": "2022-05-25",
+     "chamber": "FL House",
+     "result": "passed 110-0",
+     "url": "https://www.flsenate.gov/Session/Bill/2022D/4D/Vote/HouseVote_s00004De1917.PDF"
+    },
+    {
+     "bill": "SB 2-A (Dec. 2022 special session) Property Insurance",
+     "what": "Property-insurance overhaul: ends one-way attorney fees in policyholder lawsuits, changes claims-handling and filing deadlines, and sets up a state reinsurance program for insurers.",
+     "vote": "Nay",
+     "date": "2022-12-14",
+     "chamber": "FL House",
+     "result": "passed 84-33",
+     "url": "https://www.flsenate.gov/Session/Bill/2022A/2A/Vote/HouseVote_s00002A__009.PDF"
+    },
+    {
+     "bill": "HB 1 (2023) Education (universal vouchers)",
+     "what": "Makes every Florida K-12 student eligible for a state-funded private-school or home-education scholarship regardless of family income.",
+     "vote": "Nay",
+     "date": "2023-03-17",
+     "chamber": "FL House",
+     "result": "passed 83-27",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    {
+     "bill": "SB 264 (2023) Interests of Foreign Countries",
+     "what": "Restricts land purchases by people and companies tied to \"foreign countries of concern\" (including China) near military sites and critical infrastructure and bars certain foreign-linked contracts.",
+     "vote": "Not voting",
+     "date": "2023-05-04",
+     "chamber": "FL House",
+     "result": "passed 95-17",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF",
+     "note": "Not voting on both House roll calls (May 3 and May 4, 2023); the 95-17 passage vote. No vote recorded for this member on the official roll call."
+    },
+    {
+     "bill": "SB 300 (2023) Pregnancy and Parenting Support (6-week abortion ban)",
+     "what": "Bans most abortions after about six weeks of pregnancy, with limited exceptions, and funds pregnancy and parenting support.",
+     "vote": "Nay",
+     "date": "2023-04-13",
+     "chamber": "FL House",
+     "result": "passed 70-40",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    {
+     "bill": "HB 543 (2023) Public Safety (permitless carry)",
+     "what": "Lets adults who may legally own a gun carry a concealed firearm in public without a state permit.",
+     "vote": "Nay",
+     "date": "2023-03-24",
+     "chamber": "FL House",
+     "result": "passed 76-32",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    },
+    {
+     "bill": "SB 2-C (2025 special session) Immigration",
+     "what": "State immigration-enforcement package for 2025, including a new State Board of Immigration Enforcement and money for local enforcement.",
+     "vote": "Nay",
+     "date": "2025-02-13",
+     "chamber": "FL House",
+     "result": "passed 85-30",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    {
+     "bill": "SB 180 (2025) Emergencies",
+     "what": "Emergency-management bill: bars certain local governments from adopting stricter rebuilding (\"substantial improvement\") rules after storms, restricts impact fees on replacement structures and revises hurricane-shelter funding priorities.",
+     "vote": "Yea",
+     "date": "2025-04-29",
+     "chamber": "FL House",
+     "result": "passed 115-1",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF",
+     "note": "Voted Yea on the April 29 passage vote; not voting on the May 2 final concurrence."
+    },
+    {
+     "bill": "HJR 1-F (2026 special session) Save Our Homes from Excessive Property Taxes",
+     "what": "Joint resolution that put Amendment 3 on today's ballot: bigger homestead exemption, lower cap on non-homestead assessment growth, limits on local property-tax spending.",
+     "vote": "Nay",
+     "date": "2026-06-02",
+     "chamber": "FL House",
+     "result": "passed 75-26",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    }
+   ],
+   "gaps": "Florida House since Nov. 2020 (HD 14, then HD 13). Verified against flsenate.gov floor-vote PDFs. Final-passage votes shown; many amendment votes omitted. Vote of \"Not voting\" means no vote recorded on the roll call."
+  },
+  "Neil J. Gillespie": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Sydney Gruters": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Kelly Kirschner": {
+   "votes": [],
+   "gaps": "No votes recorded. Could not reach any official or news record of his 2007-2011 City of Sarasota Commission votes: sarasotafl.gov pages for minutes/agendas expose no archive links and block direct fetches; the old records portal (edocs.sarasotagov.com) was replaced on 2025-12-29 and the new portal URL is not published on the pages I could read; Herald-Tribune is blocked (fetch refused/402); Ballotpedia returned empty; Wikipedia has no vote detail (his name redirects to the 2026 US House elections in Florida article, which lists him as a Democratic candidate in CD-16 and a former Sarasota Mayor). Nothing was guessed or inferred."
+  },
+  "Mark Davis": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Byron Donalds": {
+   "votes": [
+    {
+     "bill": "H.R. 1 (2025) One Big Beautiful Bill Act (final passage)",
+     "what": "Budget-reconciliation law that extends the 2017 tax cuts and changes Medicaid, SNAP, border and defense funding and the debt limit.",
+     "vote": "Yea",
+     "date": "2025-07-03",
+     "chamber": "U.S. House",
+     "result": "passed 218-214 (concurring in Senate amendment)",
+     "url": "https://clerk.house.gov/Votes/2025190",
+     "verified_via": "https://clerk.house.gov/evs/2025/roll190.xml"
+    },
+    {
+     "bill": "H.R. 29 (2025) Laken Riley Act",
+     "what": "Requires federal detention of immigrants charged with theft-type crimes and lets states sue over immigration enforcement.",
+     "vote": "Yea",
+     "date": "2025-01-07",
+     "chamber": "U.S. House",
+     "result": "passed 264-159",
+     "url": "https://clerk.house.gov/Votes/2025006",
+     "verified_via": "https://clerk.house.gov/evs/2025/roll006.xml"
+    },
+    {
+     "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026",
+     "what": "Stopgap funding bill that ended the 2025 government shutdown.",
+     "vote": "Yea",
+     "date": "2025-11-12",
+     "chamber": "U.S. House",
+     "result": "passed 222-209",
+     "url": "https://clerk.house.gov/Votes/2025285",
+     "verified_via": "https://clerk.house.gov/evs/2025/roll285.xml"
+    },
+    {
+     "bill": "H.R. 4405 (2025) Epstein Files Transparency Act",
+     "what": "Requires the Justice Department to release files related to Jeffrey Epstein.",
+     "vote": "Yea",
+     "date": "2025-11-18",
+     "chamber": "U.S. House",
+     "result": "passed 427-1",
+     "url": "https://clerk.house.gov/Votes/2025289",
+     "verified_via": "https://clerk.house.gov/evs/2025/roll289.xml"
+    },
+    {
+     "bill": "H.R. 7148 (2026) Consolidated Appropriations Act, 2026",
+     "what": "Package of full-year federal spending bills for fiscal 2026.",
+     "vote": "Nay",
+     "date": "2026-02-03",
+     "chamber": "U.S. House",
+     "result": "passed 217-214 (concurring in Senate amendment)",
+     "url": "https://clerk.house.gov/Votes/2026053",
+     "verified_via": "https://clerk.house.gov/evs/2026/roll053.xml"
+    },
+    {
+     "bill": "Objection to Arizona electoral votes (Jan. 6, 2021)",
+     "what": "House vote on whether to sustain an objection to counting Arizona's 2020 presidential electoral votes.",
+     "vote": "Yea",
+     "date": "2021-01-06",
+     "chamber": "U.S. House",
+     "result": "objection failed 121-303",
+     "url": "https://clerk.house.gov/Votes/2021010",
+     "verified_via": "https://clerk.house.gov/evs/2021/roll010.xml"
+    },
+    {
+     "bill": "Objection to Pennsylvania electoral votes (Jan. 7, 2021)",
+     "what": "House vote on whether to sustain an objection to counting Pennsylvania's 2020 presidential electoral votes.",
+     "vote": "Yea",
+     "date": "2021-01-07",
+     "chamber": "U.S. House",
+     "result": "objection failed 138-282",
+     "url": "https://clerk.house.gov/Votes/2021011",
+     "verified_via": "https://clerk.house.gov/evs/2021/roll011.xml"
+    },
+    {
+     "bill": "H.R. 3684 (2021) Infrastructure Investment and Jobs Act",
+     "what": "Bipartisan five-year infrastructure law funding roads, bridges, transit, broadband and water systems.",
+     "vote": "Nay",
+     "date": "2021-11-05",
+     "chamber": "U.S. House",
+     "result": "passed 228-206",
+     "url": "https://clerk.house.gov/Votes/2021369",
+     "verified_via": "https://clerk.house.gov/evs/2021/roll369.xml"
+    },
+    {
+     "bill": "H.R. 5376 (2022) Inflation Reduction Act",
+     "what": "Reconciliation law on climate and energy spending, health-care price changes and a corporate minimum tax.",
+     "vote": "Nay",
+     "date": "2022-08-12",
+     "chamber": "U.S. House",
+     "result": "passed 220-207",
+     "url": "https://clerk.house.gov/Votes/2022420",
+     "verified_via": "https://clerk.house.gov/evs/2022/roll420.xml"
+    },
+    {
+     "bill": "H.R. 3746 (2023) Fiscal Responsibility Act",
+     "what": "Debt-limit suspension deal with spending caps.",
+     "vote": "Nay",
+     "date": "2023-05-31",
+     "chamber": "U.S. House",
+     "result": "passed 314-117",
+     "url": "https://clerk.house.gov/Votes/2023243",
+     "verified_via": "https://clerk.house.gov/evs/2023/roll243.xml"
+    },
+    {
+     "bill": "SB 7026 (2018) Public Safety (Marjory Stoneman Douglas Act)",
+     "what": "School-shooting response law: raised the minimum age to buy any firearm to 21, added a 3-day waiting period, created the armed school \"guardian\" program and risk-protection orders, and funded school safety.",
+     "vote": "Nay",
+     "date": "2018-03-07",
+     "chamber": "FL House",
+     "result": "passed 67-50",
+     "url": "https://www.flsenate.gov/Session/Bill/2018/7026/Vote/HouseVote_s07026e2859.PDF"
+    },
+    {
+     "bill": "SB 7066 (2019) Election Administration",
+     "what": "Implements Amendment 4 (voting rights for people with felony convictions): requires fines, fees and restitution to be paid before voting rights are restored.",
+     "vote": "Yea",
+     "date": "2019-05-03",
+     "chamber": "FL House",
+     "result": "passed 67-42",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/7066/Vote/HouseVote_s07066e1372.PDF"
+    },
+    {
+     "bill": "HB 7069 (2017) Education",
+     "what": "Large education package: expanded charter-school opportunities (Schools of Hope), required daily recess in elementary schools, changed testing and teacher-bonus rules.",
+     "vote": "Yea",
+     "date": "2017-05-08",
+     "chamber": "FL House",
+     "result": "passed 73-36",
+     "url": "https://www.flsenate.gov/Session/Bill/2017/7069/Vote/HouseVote_h07069c1462.PDF"
+    }
+   ],
+   "gaps": "Verified against clerk.house.gov roll-call XML (U.S. House) and flsenate.gov floor-vote PDFs (Florida House 2016-2020, District 80). Many more votes exist; these are headline picks. The Jan. 6 votes are the objections to the Arizona and Pennsylvania electoral votes (clerk roll calls 10 and 11 of 2021)."
+  },
+  "David Jolly": {
+   "votes": [
+    {
+     "bill": "H.R. 83 (2014) Consolidated and Further Continuing Appropriations Act, 2015 (\"Cromnibus\")",
+     "what": "Year-end spending package funding most of the government through Sept. 2015.",
+     "vote": "Yea",
+     "date": "2014-12-11",
+     "chamber": "U.S. House",
+     "result": "passed 219-206",
+     "url": "https://clerk.house.gov/Votes/2014563",
+     "verified_via": "https://clerk.house.gov/evs/2014/roll563.xml"
+    },
+    {
+     "bill": "H.R. 5682 (2014) Keystone XL Pipeline approval",
+     "what": "Bill approving construction of the Keystone XL oil pipeline.",
+     "vote": "Yea",
+     "date": "2014-11-14",
+     "chamber": "U.S. House",
+     "result": "passed 252-161",
+     "url": "https://clerk.house.gov/Votes/2014519",
+     "verified_via": "https://clerk.house.gov/evs/2014/roll519.xml"
+    },
+    {
+     "bill": "H.R. 596 (2015) Repeal the Affordable Care Act",
+     "what": "Bill to repeal the Affordable Care Act and related health-care provisions.",
+     "vote": "Yea",
+     "date": "2015-02-03",
+     "chamber": "U.S. House",
+     "result": "passed 239-186",
+     "url": "https://clerk.house.gov/Votes/2015058",
+     "verified_via": "https://clerk.house.gov/evs/2015/roll058.xml"
+    },
+    {
+     "bill": "H.R. 2 (2015) Medicare Access and CHIP Reauthorization Act",
+     "what": "Permanent fix to Medicare physician payments plus children's health insurance extension.",
+     "vote": "Nay",
+     "date": "2015-03-26",
+     "chamber": "U.S. House",
+     "result": "passed 392-37",
+     "url": "https://clerk.house.gov/Votes/2015144",
+     "verified_via": "https://clerk.house.gov/evs/2015/roll144.xml"
+    },
+    {
+     "bill": "H.R. 2048 (2015) USA FREEDOM Act",
+     "what": "Ends the NSA's bulk collection of phone records and reforms surveillance programs.",
+     "vote": "Yea",
+     "date": "2015-05-13",
+     "chamber": "U.S. House",
+     "result": "passed 338-88",
+     "url": "https://clerk.house.gov/Votes/2015224",
+     "verified_via": "https://clerk.house.gov/evs/2015/roll224.xml"
+    },
+    {
+     "bill": "H.R. 1314 (2015) Trade Act of 2015 (trade promotion authority portion)",
+     "what": "House vote concurring in the part of the Senate trade package that gave the President fast-track trade-negotiating authority.",
+     "vote": "Nay",
+     "date": "2015-06-12",
+     "chamber": "U.S. House",
+     "result": "passed 219-211",
+     "url": "https://clerk.house.gov/Votes/2015362",
+     "verified_via": "https://clerk.house.gov/evs/2015/roll362.xml"
+    },
+    {
+     "bill": "H.R. 3461 (2015) Approve the Iran nuclear agreement (JCPOA)",
+     "what": "Resolution approving the Joint Comprehensive Plan of Action with Iran.",
+     "vote": "Nay",
+     "date": "2015-09-11",
+     "chamber": "U.S. House",
+     "result": "failed 162-269",
+     "url": "https://clerk.house.gov/Votes/2015493",
+     "verified_via": "https://clerk.house.gov/evs/2015/roll493.xml"
+    },
+    {
+     "bill": "H.R. 3134 (2015) Defund Planned Parenthood Act",
+     "what": "Bars federal funds to Planned Parenthood for one year.",
+     "vote": "Yea",
+     "date": "2015-09-18",
+     "chamber": "U.S. House",
+     "result": "passed 241-187",
+     "url": "https://clerk.house.gov/Votes/2015505",
+     "verified_via": "https://clerk.house.gov/evs/2015/roll505.xml"
+    },
+    {
+     "bill": "H.R. 4038 (2015) American SAFE Act (Syrian and Iraqi refugee screening)",
+     "what": "Adds certification requirements before Syrian and Iraqi refugees may be admitted.",
+     "vote": "Yea",
+     "date": "2015-11-19",
+     "chamber": "U.S. House",
+     "result": "passed 289-137",
+     "url": "https://clerk.house.gov/Votes/2015643",
+     "verified_via": "https://clerk.house.gov/evs/2015/roll643.xml"
+    },
+    {
+     "bill": "H.R. 2029 (2015) Consolidated Appropriations Act, 2016",
+     "what": "Year-end spending package funding the government through Sept. 2016.",
+     "vote": "Yea",
+     "date": "2015-12-18",
+     "chamber": "U.S. House",
+     "result": "passed 316-113",
+     "url": "https://clerk.house.gov/Votes/2015705",
+     "verified_via": "https://clerk.house.gov/evs/2015/roll705.xml"
+    },
+    {
+     "bill": "H.R. 4909 (2016) National Defense Authorization Act for FY2017",
+     "what": "Annual bill setting Pentagon policy and authorizing military spending.",
+     "vote": "Yea",
+     "date": "2016-05-18",
+     "chamber": "U.S. House",
+     "result": "passed 277-147",
+     "url": "https://clerk.house.gov/Votes/2016216",
+     "verified_via": "https://clerk.house.gov/evs/2016/roll216.xml"
+    }
+   ],
+   "gaps": "Verified against clerk.house.gov roll-call XML. Served March 2014 to January 2017 (FL-13). He was not yet sworn in for earlier 2014 votes. These are headline picks, not a complete record."
+  },
+  "Scott Eckhard Jewett": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Charles Burkett": {
+   "votes": [
+    {
+     "bill": "Local state of emergency after Champlain Towers South collapse",
+     "what": "Resolution declaring a local state of emergency due to the collapse of Champlain Towers South at 8777 Collins Avenue.",
+     "vote": "Yea",
+     "date": "2021-06-25",
+     "chamber": "Town Commission",
+     "result": "passed 4-0",
+     "url": "https://www.townofsurfsidefl.gov/docs/default-source/default-document-library/town-clerk-documents/commission-minutes/2021-commission-minutes/2021-06-25-emergency-town-commission-meeting-minutes.pdf?sfvrsn=acf41594_2",
+     "note": "Minutes list Mayor Burkett present and presiding and record a 4-0 vote with Commissioner Kesl absent for the vote; no named roll call, so his Yea is read from the unanimous tally. Minutes are a scanned PDF (text layer is OCR)."
+    },
+    {
+     "bill": "FY2022 proposed millage (4.3499 mills) and tentative budget",
+     "what": "First budget hearing: resolutions setting the proposed FY2022 millage rate of 4.3499 mills (5.98% above the rolled-back rate) and adopting the tentative FY2022 budget.",
+     "vote": "Yea",
+     "date": "2021-09-13",
+     "chamber": "Town Commission",
+     "result": "both motions passed 4-0",
+     "url": "https://www.townofsurfsidefl.gov/docs/default-source/default-document-library/town-clerk-documents/commission-minutes/2021-commission-minutes/2021-09-13-first-budget-hearing-miinutes.pdf?sfvrsn=25f51594_2",
+     "note": "Mayor present per roll call; Commissioner Kesl absent; Burkett's Yea is read from the unanimous tally (no named roll call). Two motions, both recorded 4-0."
+    },
+    {
+     "bill": "FY2022 final millage resolution (4.2 mills), first motion",
+     "what": "Motion to approve the resolution adopting the final FY2022 millage rate (the resolution title in the minutes states 4.2 mills, above the 4.1046-mill rolled-back rate).",
+     "vote": "Nay",
+     "date": "2021-09-23",
+     "chamber": "Town Commission",
+     "result": "failed (minutes record a 2-1 vote with Burkett and Velasquez in opposition; Kesl and Salzhauer absent)",
+     "url": "https://www.townofsurfsidefl.gov/docs/default-source/default-document-library/town-clerk-documents/commission-minutes/2021-commission-minutes/2021-09-23-final-budget-hearing-minutes.pdf?sfvrsn=24f51594_2",
+     "note": "Only three members present. A later motion that day to set the rate at 4.2 carried with a 2-1 vote with Burkett in opposition. Tally wording is quoted as the minutes state it (scanned PDF, OCR text)."
+    },
+    {
+     "bill": "FY2022 final millage at 4.3499 mills (as stated in resolution)",
+     "what": "Motion to adopt the final millage rate as stated in the resolution (4.3499 mills, 5.98% above the rolled-back rate).",
+     "vote": "Nay",
+     "date": "2021-09-30",
+     "chamber": "Town Commission",
+     "result": "carried 2-1 (Burkett opposed; Kesl and Salzhauer absent)",
+     "url": "https://www.townofsurfsidefl.gov/docs/default-source/default-document-library/town-clerk-documents/commission-minutes/2021-commission-minutes/2021-09-30-final-budget-hearing-minutes.pdf?sfvrsn=22f51594_2",
+     "note": "Minutes record Burkett saying he would not vote to increase the rate. The commission later that night set the rate at 4.2 mills by 3-0 (next entry)."
+    },
+    {
+     "bill": "FY2022 final millage set at 4.2 mills",
+     "what": "Motion to set the final FY2022 millage rate at 4.2 mills (2.32% above the rolled-back rate).",
+     "vote": "Yea",
+     "date": "2021-09-30",
+     "chamber": "Town Commission",
+     "result": "carried 3-0 (Kesl and Salzhauer absent)",
+     "url": "https://www.townofsurfsidefl.gov/docs/default-source/default-document-library/town-clerk-documents/commission-minutes/2021-commission-minutes/2021-09-30-final-budget-hearing-minutes.pdf?sfvrsn=22f51594_2",
+     "note": "Final millage action of the night; Burkett's Yea read from the unanimous 3-0 tally of the three members present. Same meeting also had two earlier 2-1 votes with Burkett opposed on this item."
+    },
+    {
+     "bill": "FY2022 final budget adoption",
+     "what": "Resolution adopting the town's final budget for the fiscal year starting October 1, 2021.",
+     "vote": "Yea",
+     "date": "2021-09-30",
+     "chamber": "Town Commission",
+     "result": "passed 3-0 (Kesl and Salzhauer absent)",
+     "url": "https://www.townofsurfsidefl.gov/docs/default-source/default-document-library/town-clerk-documents/commission-minutes/2021-commission-minutes/2021-09-30-final-budget-hearing-minutes.pdf?sfvrsn=22f51594_2",
+     "note": "Burkett's Yea read from the unanimous 3-0 tally of three members present."
+    },
+    {
+     "bill": "COVID-19 self-service testing kiosk at Town Hall",
+     "what": "Motion to add to the agenda and approve a resolution for a self-service COVID-19 testing kiosk at Town Hall.",
+     "vote": "Nay",
+     "date": "2021-10-12",
+     "chamber": "Town Commission",
+     "result": "carried 3-2 (Burkett and Velasquez opposed)",
+     "url": "https://www.townofsurfsidefl.gov/docs/default-source/default-document-library/town-clerk-documents/commission-minutes/2021-commission-minutes/2021-10-12-regular-town-commission-meeting-minutes.pdf?sfvrsn=23f51594_2",
+     "note": "Minutes name Burkett among the two in opposition. Earlier at the same meeting a motion to add the kiosk for reconsideration failed 2-2 with Burkett and Velasquez opposed (Salzhauer absent then)."
+    },
+    {
+     "bill": "Town Attorney investigation, not to exceed $15,000",
+     "what": "Motion authorizing the Town Attorney to spend up to $15,000 on an investigation.",
+     "vote": "Yea",
+     "date": "2021-10-12",
+     "chamber": "Town Commission",
+     "result": "carried 5-0",
+     "url": "https://www.townofsurfsidefl.gov/docs/default-source/default-document-library/town-clerk-documents/commission-minutes/2021-commission-minutes/2021-10-12-regular-town-commission-meeting-minutes.pdf?sfvrsn=23f51594_2",
+     "note": "All five members present per roll call; Yea read from the unanimous 5-0 tally. The OCR excerpt I read does not name the subject of the investigation."
+    }
+   ],
+   "gaps": "Only eight votes, all from June-October 2021, the only Burkett-era minutes with a text layer. Minutes for Jan-May 2021, Aug 2021, Nov 2021 onward and all of 2022 are scanned images with no text layer and no OCR tool was available, so the post-collapse structural/recertification ordinance, zoning/height and short-term-rental votes were not verified and are left out. Tenure not verified: minutes show Burkett presiding as Mayor from at least 2021-05-26 through 2021-10-12; by 2022-11-15 Shlomo Danzinger was Mayor and the 2023-01-10 minutes refer to Mayor Burkett who is in the crowd, so the premise Mayor since 2006 did not hold in the records I opened. No earlier commission seat verified (2010-2020 minutes not opened). Archive index: https://www.townofsurfsidefl.gov/departments-services/town-clerk/public-records/commission-agendas"
+  },
+  "Frank J. Russo": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Moliere \"Moe\" Dimanche": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Dean Ocean Abrams": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Jeffrey Peter \"Dr. Jeff\" Datto": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "James Uthmeier": {
+   "votes": [],
+   "gaps": "Has not held a voting office (appointed Attorney General Feb. 2025; earlier posts were appointed executive-branch jobs)."
+  },
+  "Jose Javier Rodriguez": {
+   "votes": [
+    {
+     "bill": "HB 7069 (2017) Education",
+     "what": "Large education package: expanded charter-school opportunities (Schools of Hope), required daily recess in elementary schools, changed testing and teacher-bonus rules.",
+     "vote": "Nay",
+     "date": "2017-05-08",
+     "chamber": "FL Senate",
+     "result": "passed 20-18",
+     "url": "https://www.flsenate.gov/Session/Bill/2017/7069/Vote/SenateVote_h07069c1017.PDF"
+    },
+    {
+     "bill": "SB 7026 (2018) Public Safety (Marjory Stoneman Douglas Act)",
+     "what": "School-shooting response law: raised the minimum age to buy any firearm to 21, added a 3-day waiting period, created the armed school \"guardian\" program and risk-protection orders, and funded school safety.",
+     "vote": "Nay",
+     "date": "2018-03-05",
+     "chamber": "FL Senate",
+     "result": "passed 20-18",
+     "url": "https://www.flsenate.gov/Session/Bill/2018/7026/Vote/SenateVote_s07026e1018.PDF"
+    },
+    {
+     "bill": "SB 7066 (2019) Election Administration",
+     "what": "Implements Amendment 4 (voting rights for people with felony convictions): requires fines, fees and restitution to be paid before voting rights are restored.",
+     "vote": "Nay",
+     "date": "2019-05-02",
+     "chamber": "FL Senate",
+     "result": "passed 22-17",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/7066/Vote/SenateVote_s07066e1031.PDF",
+     "note": "Voted Yea (39-1) when the Senate first passed its version on April 26, 2019; voted Nay on the final version on May 2."
+    },
+    {
+     "bill": "SB 7030 (2019) Marjory Stoneman Douglas Commission recommendations",
+     "what": "Follow-up school-safety law that, among other things, let classroom teachers who volunteer take part in the armed school \"guardian\" program.",
+     "vote": "Nay",
+     "date": "2019-04-23",
+     "chamber": "FL Senate",
+     "result": "passed 22-17",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/7030/Vote/SenateVote_s07030e1005.PDF"
+    },
+    {
+     "bill": "SB 2500 (2019) General Appropriations Act",
+     "what": "The 2019-20 state budget.",
+     "vote": "Yea",
+     "date": "2019-05-04",
+     "chamber": "FL Senate",
+     "result": "passed 38-0",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/2500/Vote/SenateVote_s02500e1002.PDF"
+    }
+   ],
+   "gaps": "Florida Senate 2016-2020 (District 37) verified against flsenate.gov floor-vote PDFs. His 2012-2016 Florida House votes and 2016 Senate session votes were not compiled. His votes as U.S. Assistant Secretary of Labor are executive actions, not votes."
+  },
+  "Blaise Ingoglia": {
+   "votes": [
+    {
+     "bill": "SB 7026 (2018) Public Safety (Marjory Stoneman Douglas Act)",
+     "what": "School-shooting response law: raised the minimum age to buy any firearm to 21, added a 3-day waiting period, created the armed school \"guardian\" program and risk-protection orders, and funded school safety.",
+     "vote": "Nay",
+     "date": "2018-03-07",
+     "chamber": "FL House",
+     "result": "passed 67-50",
+     "url": "https://www.flsenate.gov/Session/Bill/2018/7026/Vote/HouseVote_s07026e2859.PDF"
+    },
+    {
+     "bill": "SB 7066 (2019) Election Administration",
+     "what": "Implements Amendment 4 (voting rights for people with felony convictions): requires fines, fees and restitution to be paid before voting rights are restored.",
+     "vote": "Yea",
+     "date": "2019-05-03",
+     "chamber": "FL House",
+     "result": "passed 67-42",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/7066/Vote/HouseVote_s07066e1372.PDF"
+    },
+    {
+     "bill": "HB 1 (2021) Combating Public Disorder",
+     "what": "The \"anti-riot\" law: creates new riot-related crimes and penalties and lets state review local-government cuts to police budgets.",
+     "vote": "Yea",
+     "date": "2021-03-26",
+     "chamber": "FL House",
+     "result": "passed 76-39",
+     "url": "https://www.flsenate.gov/Session/Bill/2021/1/Vote/HouseVote_h00001e1020.PDF"
+    },
+    {
+     "bill": "HB 5 (2022) Reducing Fetal and Infant Mortality",
+     "what": "Bans most abortions after 15 weeks of pregnancy (exceptions for health risk and fatal fetal abnormality; none for rape or incest).",
+     "vote": "Yea",
+     "date": "2022-02-17",
+     "chamber": "FL House",
+     "result": "passed 78-39",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/5/Vote/HouseVote_h00005c1542.PDF"
+    },
+    {
+     "bill": "HB 1557 (2022) Parental Rights in Education",
+     "what": "Bars classroom instruction on sexual orientation or gender identity in kindergarten through grade 3 or in a way not age-appropriate; expands parental-notification rules.",
+     "vote": "Yea",
+     "date": "2022-02-24",
+     "chamber": "FL House",
+     "result": "passed 69-47",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/1557/Vote/HouseVote_h01557e1564.PDF"
+    },
+    {
+     "bill": "SB 4-D (2022 special session) Building Safety",
+     "what": "Condominium safety after the Surfside collapse: milestone inspections of older buildings, structural-integrity reserve studies and reserve-funding rules.",
+     "vote": "Not voting",
+     "date": "2022-05-25",
+     "chamber": "FL House",
+     "result": "passed 110-0",
+     "url": "https://www.flsenate.gov/Session/Bill/2022D/4D/Vote/HouseVote_s00004De1917.PDF",
+     "note": "No vote recorded for this member on the official roll call."
+    },
+    {
+     "bill": "SB 2-A (Dec. 2022 special session) Property Insurance",
+     "what": "Property-insurance overhaul: ends one-way attorney fees in policyholder lawsuits, changes claims-handling and filing deadlines, and sets up a state reinsurance program for insurers.",
+     "vote": "Yea",
+     "date": "2022-12-13",
+     "chamber": "FL Senate",
+     "result": "passed 27-13",
+     "url": "https://www.flsenate.gov/Session/Bill/2022A/2A/Vote/SenateVote_s00002A__008.PDF"
+    },
+    {
+     "bill": "HB 1 (2023) Education (universal vouchers)",
+     "what": "Makes every Florida K-12 student eligible for a state-funded private-school or home-education scholarship regardless of family income.",
+     "vote": "Yea",
+     "date": "2023-03-23",
+     "chamber": "FL Senate",
+     "result": "passed 26-12",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/SenateVote_h00001c4002.PDF"
+    },
+    {
+     "bill": "SB 264 (2023) Interests of Foreign Countries",
+     "what": "Restricts land purchases by people and companies tied to \"foreign countries of concern\" (including China) near military sites and critical infrastructure and bars certain foreign-linked contracts.",
+     "vote": "Yea",
+     "date": "2023-05-04",
+     "chamber": "FL Senate",
+     "result": "passed 31-8",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264e1056.PDF"
+    },
+    {
+     "bill": "SB 300 (2023) Pregnancy and Parenting Support (6-week abortion ban)",
+     "what": "Bans most abortions after about six weeks of pregnancy, with limited exceptions, and funds pregnancy and parenting support.",
+     "vote": "Yea",
+     "date": "2023-04-03",
+     "chamber": "FL Senate",
+     "result": "passed 26-13",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    {
+     "bill": "SB 1718 (2023) Immigration",
+     "what": "Requires larger employers to use E-Verify, adds penalties for transporting undocumented people into Florida, and requires hospitals to ask patients' immigration status.",
+     "vote": "Yea",
+     "date": "2023-04-28",
+     "chamber": "FL Senate",
+     "result": "passed 27-10",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1718/Vote/SenateVote_s01718c2037.PDF",
+     "note": "Senate sponsor of the bill."
+    },
+    {
+     "bill": "SB 180 (2025) Emergencies",
+     "what": "Emergency-management bill: bars certain local governments from adopting stricter rebuilding (\"substantial improvement\") rules after storms, restricts impact fees on replacement structures and revises hurricane-shelter funding priorities.",
+     "vote": "Yea",
+     "date": "2025-05-02",
+     "chamber": "FL Senate",
+     "result": "passed 34-1",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF"
+    }
+   ],
+   "gaps": "Florida House 2014-2022 (District 35) and Senate 2022-2025 (District 11), verified against flsenate.gov floor-vote PDFs. His bio mentions a Hernando County commission term (2008), but no county votes could be located: Hernando records did not expose them and Wikipedia does not list a commission seat. He was appointed CFO July 2025, so he has no legislative votes after that. | No local votes: the premise did not verify. Wikipedia (https://en.wikipedia.org/wiki/Blaise_Ingoglia) lists his public offices as Florida House District 35 (Nov 2014-Nov 2022), Florida Senate District 11 (Nov 2022-Jul 2025) and Florida CFO (since Jul 21 2025), and says he spent money in 2008 to unseat county commissioners; it does not say he was ever a Hernando County Commissioner. The Hernando County Legistar person list has no Ingoglia entry, and its API holds no recorded votes for the 2008-2013 BOCC meetings (agenda items show adopted with no roll call or minutes files). The Hernando Clerk Minutes & Agendas link just points to that Legistar. His state-legislative votes would be a different slice."
+  },
+  "Annette Taddeo": {
+   "votes": [
+    {
+     "bill": "SB 7026 (2018) Public Safety (Marjory Stoneman Douglas Act)",
+     "what": "School-shooting response law: raised the minimum age to buy any firearm to 21, added a 3-day waiting period, created the armed school \"guardian\" program and risk-protection orders, and funded school safety.",
+     "vote": "Nay",
+     "date": "2018-03-05",
+     "chamber": "FL Senate",
+     "result": "passed 20-18",
+     "url": "https://www.flsenate.gov/Session/Bill/2018/7026/Vote/SenateVote_s07026e1018.PDF"
+    },
+    {
+     "bill": "SB 7066 (2019) Election Administration",
+     "what": "Implements Amendment 4 (voting rights for people with felony convictions): requires fines, fees and restitution to be paid before voting rights are restored.",
+     "vote": "Nay",
+     "date": "2019-05-02",
+     "chamber": "FL Senate",
+     "result": "passed 22-17",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/7066/Vote/SenateVote_s07066e1031.PDF"
+    },
+    {
+     "bill": "SB 2500 (2019) General Appropriations Act",
+     "what": "The 2019-20 state budget.",
+     "vote": "Yea",
+     "date": "2019-05-04",
+     "chamber": "FL Senate",
+     "result": "passed 38-0",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/2500/Vote/SenateVote_s02500e1002.PDF"
+    },
+    {
+     "bill": "HB 1 (2021) Combating Public Disorder",
+     "what": "The \"anti-riot\" law: creates new riot-related crimes and penalties and lets state review local-government cuts to police budgets.",
+     "vote": "Nay",
+     "date": "2021-04-15",
+     "chamber": "FL Senate",
+     "result": "passed 23-17",
+     "url": "https://www.flsenate.gov/Session/Bill/2021/1/Vote/SenateVote_h00001e1002.PDF"
+    },
+    {
+     "bill": "SB 90 (2021) Elections",
+     "what": "Restricts ballot drop boxes, limits who may collect and return other people's ballots, and adds ID and renewal rules for vote-by-mail requests.",
+     "vote": "Nay",
+     "date": "2021-04-29",
+     "chamber": "FL Senate",
+     "result": "passed 23-17",
+     "url": "https://www.flsenate.gov/Session/Bill/2021/90/Vote/SenateVote_s00090e1042.PDF"
+    },
+    {
+     "bill": "HB 5 (2022) Reducing Fetal and Infant Mortality",
+     "what": "Bans most abortions after 15 weeks of pregnancy (exceptions for health risk and fatal fetal abnormality; none for rape or incest).",
+     "vote": "Nay",
+     "date": "2022-03-03",
+     "chamber": "FL Senate",
+     "result": "passed 23-15",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/5/Vote/SenateVote_h00005c1028.PDF"
+    },
+    {
+     "bill": "HB 1557 (2022) Parental Rights in Education",
+     "what": "Bars classroom instruction on sexual orientation or gender identity in kindergarten through grade 3 or in a way not age-appropriate; expands parental-notification rules.",
+     "vote": "Nay",
+     "date": "2022-03-08",
+     "chamber": "FL Senate",
+     "result": "passed 22-17",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/1557/Vote/SenateVote_h01557e1003.PDF"
+    },
+    {
+     "bill": "HB 7 (2022) Individual Freedom (\"Stop WOKE Act\")",
+     "what": "Limits how race- and sex-related concepts may be taught in schools and workplace trainings.",
+     "vote": "Nay",
+     "date": "2022-03-10",
+     "chamber": "FL Senate",
+     "result": "passed 24-15",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/7/Vote/SenateVote_h00007e2003.PDF"
+    },
+    {
+     "bill": "SB 2-D (2022 special session) Property Insurance",
+     "what": "May 2022 special-session insurance bill creating a state-backed reinsurance program for property insurers and other market changes.",
+     "vote": "Nay",
+     "date": "2022-05-24",
+     "chamber": "FL Senate",
+     "result": "passed 30-9",
+     "url": "https://www.flsenate.gov/Session/Bill/2022D/2D/Vote/SenateVote_s00002Dc1009.PDF"
+    },
+    {
+     "bill": "SB 4-D (2022 special session) Building Safety",
+     "what": "Condominium safety after the Surfside collapse: milestone inspections of older buildings, structural-integrity reserve studies and reserve-funding rules.",
+     "vote": "Yea",
+     "date": "2022-05-24",
+     "chamber": "FL Senate",
+     "result": "passed 38-0",
+     "url": "https://www.flsenate.gov/Session/Bill/2022D/4D/Vote/SenateVote_s00004D__010.PDF"
+    }
+   ],
+   "gaps": "Florida Senate 2017-2022 (District 40) verified against flsenate.gov floor-vote PDFs. She left office before the Dec. 2022 special session and 2023 bills. Her 2022 U.S. House and other races are not voting offices."
+  },
+  "Wilton Simpson": {
+   "votes": [
+    {
+     "bill": "HB 7069 (2017) Education",
+     "what": "Large education package: expanded charter-school opportunities (Schools of Hope), required daily recess in elementary schools, changed testing and teacher-bonus rules.",
+     "vote": "Yea",
+     "date": "2017-05-08",
+     "chamber": "FL Senate",
+     "result": "passed 20-18",
+     "url": "https://www.flsenate.gov/Session/Bill/2017/7069/Vote/SenateVote_h07069c1017.PDF"
+    },
+    {
+     "bill": "SB 7026 (2018) Public Safety (Marjory Stoneman Douglas Act)",
+     "what": "School-shooting response law: raised the minimum age to buy any firearm to 21, added a 3-day waiting period, created the armed school \"guardian\" program and risk-protection orders, and funded school safety.",
+     "vote": "Yea",
+     "date": "2018-03-05",
+     "chamber": "FL Senate",
+     "result": "passed 20-18",
+     "url": "https://www.flsenate.gov/Session/Bill/2018/7026/Vote/SenateVote_s07026e1018.PDF"
+    },
+    {
+     "bill": "SB 7066 (2019) Election Administration",
+     "what": "Implements Amendment 4 (voting rights for people with felony convictions): requires fines, fees and restitution to be paid before voting rights are restored.",
+     "vote": "Yea",
+     "date": "2019-05-02",
+     "chamber": "FL Senate",
+     "result": "passed 22-17",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/7066/Vote/SenateVote_s07066e1031.PDF"
+    },
+    {
+     "bill": "SB 2500 (2019) General Appropriations Act",
+     "what": "The 2019-20 state budget.",
+     "vote": "Yea",
+     "date": "2019-05-04",
+     "chamber": "FL Senate",
+     "result": "passed 38-0",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/2500/Vote/SenateVote_s02500e1002.PDF"
+    },
+    {
+     "bill": "HB 1 (2021) Combating Public Disorder",
+     "what": "The \"anti-riot\" law: creates new riot-related crimes and penalties and lets state review local-government cuts to police budgets.",
+     "vote": "Yea",
+     "date": "2021-04-15",
+     "chamber": "FL Senate",
+     "result": "passed 23-17",
+     "url": "https://www.flsenate.gov/Session/Bill/2021/1/Vote/SenateVote_h00001e1002.PDF"
+    },
+    {
+     "bill": "SB 90 (2021) Elections",
+     "what": "Restricts ballot drop boxes, limits who may collect and return other people's ballots, and adds ID and renewal rules for vote-by-mail requests.",
+     "vote": "Yea",
+     "date": "2021-04-29",
+     "chamber": "FL Senate",
+     "result": "passed 23-17",
+     "url": "https://www.flsenate.gov/Session/Bill/2021/90/Vote/SenateVote_s00090e1042.PDF"
+    },
+    {
+     "bill": "HB 5 (2022) Reducing Fetal and Infant Mortality",
+     "what": "Bans most abortions after 15 weeks of pregnancy (exceptions for health risk and fatal fetal abnormality; none for rape or incest).",
+     "vote": "Yea",
+     "date": "2022-03-03",
+     "chamber": "FL Senate",
+     "result": "passed 23-15",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/5/Vote/SenateVote_h00005c1028.PDF"
+    },
+    {
+     "bill": "HB 1557 (2022) Parental Rights in Education",
+     "what": "Bars classroom instruction on sexual orientation or gender identity in kindergarten through grade 3 or in a way not age-appropriate; expands parental-notification rules.",
+     "vote": "Yea",
+     "date": "2022-03-08",
+     "chamber": "FL Senate",
+     "result": "passed 22-17",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/1557/Vote/SenateVote_h01557e1003.PDF"
+    },
+    {
+     "bill": "SB 2-D (2022 special session) Property Insurance",
+     "what": "May 2022 special-session insurance bill creating a state-backed reinsurance program for property insurers and other market changes.",
+     "vote": "Yea",
+     "date": "2022-05-24",
+     "chamber": "FL Senate",
+     "result": "passed 30-9",
+     "url": "https://www.flsenate.gov/Session/Bill/2022D/2D/Vote/SenateVote_s00002Dc1009.PDF"
+    },
+    {
+     "bill": "SB 4-D (2022 special session) Building Safety",
+     "what": "Condominium safety after the Surfside collapse: milestone inspections of older buildings, structural-integrity reserve studies and reserve-funding rules.",
+     "vote": "Yea",
+     "date": "2022-05-24",
+     "chamber": "FL Senate",
+     "result": "passed 38-0",
+     "url": "https://www.flsenate.gov/Session/Bill/2022D/4D/Vote/SenateVote_s00004D__010.PDF"
+    }
+   ],
+   "gaps": "Florida Senate 2012-2022 (District 10 at the end) verified against flsenate.gov floor-vote PDFs; he was Senate President 2020-2022 and is listed as voting on these roll calls. 2012-2016 votes were not compiled. Since Jan. 2023 he is Agriculture Commissioner (executive office, no legislative votes)."
+  },
+  "Joey Mendoza Atkins": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Jim Boyd": {
+   "votes": [
+    {
+     "bill": "SB 7026 (2018) Public Safety (Marjory Stoneman Douglas Act)",
+     "what": "School-shooting response law: raised the minimum age to buy any firearm to 21, added a 3-day waiting period, created the armed school \"guardian\" program and risk-protection orders, and funded school safety.",
+     "vote": "Yea",
+     "date": "2018-03-07",
+     "chamber": "FL House",
+     "result": "passed 67-50",
+     "url": "https://www.flsenate.gov/Session/Bill/2018/7026/Vote/HouseVote_s07026e2859.PDF"
+    },
+    {
+     "bill": "HB 1 (2021) Combating Public Disorder",
+     "what": "The \"anti-riot\" law: creates new riot-related crimes and penalties and lets state review local-government cuts to police budgets.",
+     "vote": "Yea",
+     "date": "2021-04-15",
+     "chamber": "FL Senate",
+     "result": "passed 23-17",
+     "url": "https://www.flsenate.gov/Session/Bill/2021/1/Vote/SenateVote_h00001e1002.PDF"
+    },
+    {
+     "bill": "SB 2-D (2022 special session) Property Insurance",
+     "what": "May 2022 special-session insurance bill creating a state-backed reinsurance program for property insurers and other market changes.",
+     "vote": "Yea",
+     "date": "2022-05-24",
+     "chamber": "FL Senate",
+     "result": "passed 30-9",
+     "url": "https://www.flsenate.gov/Session/Bill/2022D/2D/Vote/SenateVote_s00002Dc1009.PDF"
+    },
+    {
+     "bill": "SB 4-D (2022 special session) Building Safety",
+     "what": "Condominium safety after the Surfside collapse: milestone inspections of older buildings, structural-integrity reserve studies and reserve-funding rules.",
+     "vote": "Yea",
+     "date": "2022-05-24",
+     "chamber": "FL Senate",
+     "result": "passed 38-0",
+     "url": "https://www.flsenate.gov/Session/Bill/2022D/4D/Vote/SenateVote_s00004D__010.PDF",
+     "note": "Senate sponsor of the bill."
+    },
+    {
+     "bill": "SB 2-A (Dec. 2022 special session) Property Insurance",
+     "what": "Property-insurance overhaul: ends one-way attorney fees in policyholder lawsuits, changes claims-handling and filing deadlines, and sets up a state reinsurance program for insurers.",
+     "vote": "Yea",
+     "date": "2022-12-13",
+     "chamber": "FL Senate",
+     "result": "passed 27-13",
+     "url": "https://www.flsenate.gov/Session/Bill/2022A/2A/Vote/SenateVote_s00002A__008.PDF",
+     "note": "Senate sponsor of the bill."
+    },
+    {
+     "bill": "HB 1 (2023) Education (universal vouchers)",
+     "what": "Makes every Florida K-12 student eligible for a state-funded private-school or home-education scholarship regardless of family income.",
+     "vote": "Yea",
+     "date": "2023-03-23",
+     "chamber": "FL Senate",
+     "result": "passed 26-12",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/SenateVote_h00001c4002.PDF"
+    },
+    {
+     "bill": "SB 264 (2023) Interests of Foreign Countries",
+     "what": "Restricts land purchases by people and companies tied to \"foreign countries of concern\" (including China) near military sites and critical infrastructure and bars certain foreign-linked contracts.",
+     "vote": "Yea",
+     "date": "2023-05-04",
+     "chamber": "FL Senate",
+     "result": "passed 31-8",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264e1056.PDF"
+    },
+    {
+     "bill": "SB 300 (2023) Pregnancy and Parenting Support (6-week abortion ban)",
+     "what": "Bans most abortions after about six weeks of pregnancy, with limited exceptions, and funds pregnancy and parenting support.",
+     "vote": "Yea",
+     "date": "2023-04-03",
+     "chamber": "FL Senate",
+     "result": "passed 26-13",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    {
+     "bill": "HB 543 (2023) Public Safety (permitless carry)",
+     "what": "Lets adults who may legally own a gun carry a concealed firearm in public without a state permit.",
+     "vote": "Yea",
+     "date": "2023-03-30",
+     "chamber": "FL Senate",
+     "result": "passed 27-13",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    },
+    {
+     "bill": "SB 2-C (2025 special session) Immigration",
+     "what": "State immigration-enforcement package for 2025, including a new State Board of Immigration Enforcement and money for local enforcement.",
+     "vote": "Yea",
+     "date": "2025-02-13",
+     "chamber": "FL Senate",
+     "result": "passed 27-10",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/SenateVote_s00002C__004.PDF"
+    },
+    {
+     "bill": "SB 180 (2025) Emergencies",
+     "what": "Emergency-management bill: bars certain local governments from adopting stricter rebuilding (\"substantial improvement\") rules after storms, restricts impact fees on replacement structures and revises hurricane-shelter funding priorities.",
+     "vote": "Yea",
+     "date": "2025-05-02",
+     "chamber": "FL Senate",
+     "result": "passed 34-1",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF",
+     "note": "Recorded in \"votes after roll call\" on the official record."
+    },
+    {
+     "bill": "HJR 1-F (2026 special session) Save Our Homes from Excessive Property Taxes",
+     "what": "Joint resolution that put Amendment 3 on today's ballot: bigger homestead exemption, lower cap on non-homestead assessment growth, limits on local property-tax spending.",
+     "vote": "Yea",
+     "date": "2026-06-02",
+     "chamber": "FL Senate",
+     "result": "passed 30-9",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    }
+   ],
+   "gaps": "Florida House 2010-2018 (District 71) and Senate 2020-present verified against flsenate.gov floor-vote PDFs. Palmetto City Council (1988-91) and North River Fire District votes were not found. 2010-2017 House votes beyond SB 7026 were not compiled. Some votes shown are on the final passage in his chamber; amendment votes omitted."
+  },
+  "Gerald Baldi": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Jordan Varnadore": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Ocean Fitts": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Joseph Hoolihan": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Michael Owen": {
+   "votes": [
+    {
+     "bill": "SB 2-C (2025 special session) Immigration",
+     "what": "State immigration-enforcement package for 2025, including a new State Board of Immigration Enforcement and money for local enforcement.",
+     "vote": "Yea",
+     "date": "2025-02-13",
+     "chamber": "FL House",
+     "result": "passed 85-30",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    {
+     "bill": "SB 180 (2025) Emergencies",
+     "what": "Emergency-management bill: bars certain local governments from adopting stricter rebuilding (\"substantial improvement\") rules after storms, restricts impact fees on replacement structures and revises hurricane-shelter funding priorities.",
+     "vote": "Yea",
+     "date": "2025-04-29",
+     "chamber": "FL House",
+     "result": "passed 115-1",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    {
+     "bill": "HB 913 (2025) Condominium and Cooperative Associations",
+     "what": "Condo reforms covering reserve funding, inspections and association governance after the Surfside collapse.",
+     "vote": "Yea",
+     "date": "2025-04-30",
+     "chamber": "FL House",
+     "result": "passed 112-0",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/913/Vote/HouseVote_h00913c2377.PDF"
+    },
+    {
+     "bill": "SB 2500 (2025) General Appropriations Act",
+     "what": "The 2025-26 state budget (final vote June 16, 2025).",
+     "vote": "Yea",
+     "date": "2025-06-16",
+     "chamber": "FL House",
+     "result": "passed 103-2",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/2500/Vote/HouseVote_s02500__443.PDF"
+    },
+    {
+     "bill": "SB 1730 (2025) Affordable Housing",
+     "what": "Revises Florida's affordable-housing programs and local-government housing rules.",
+     "vote": "Nay",
+     "date": "2025-04-29",
+     "chamber": "FL House",
+     "result": "passed 109-3",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/1730/Vote/HouseVote_s01730e1285.PDF",
+     "note": "Voted Nay on the April 29 passage vote (109-3); not voting on the May 1 final concurrence."
+    },
+    {
+     "bill": "HJR 1-F (2026 special session) Save Our Homes from Excessive Property Taxes",
+     "what": "Joint resolution that put Amendment 3 on today's ballot: bigger homestead exemption, lower cap on non-homestead assessment growth, limits on local property-tax spending.",
+     "vote": "Yea",
+     "date": "2026-06-02",
+     "chamber": "FL House",
+     "result": "passed 75-26",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    {
+     "bill": "FY2024 proposed millage for TRIM notices",
+     "what": "Motion setting the proposed FY2024 operating and debt-service millage for TRIM notices and the date of the first budget hearing.",
+     "vote": "Yea",
+     "date": "2023-07-27",
+     "chamber": "County Commission",
+     "result": "passed 6-1 (Kemp No)",
+     "url": "https://commissionvotes.hillsclerk.com/html/searchVoters.html",
+     "note": "Source: Hillsborough Clerk of Court BOCC vote database (official record, Clerk's Vote Date 2023-07-27); search the page by date range. Two earlier substitute millage motions that day failed (Owen: Yea on one, Nay on the other)."
+    },
+    {
+     "bill": "FY2024 millage rates adopted",
+     "what": "Item VII: adopt the final FY2024 millage resolution as presented by staff.",
+     "vote": "Yea",
+     "date": "2023-09-21",
+     "chamber": "County Commission",
+     "result": "passed 6-0 (Cepeda: no vote registered)",
+     "url": "https://commissionvotes.hillsclerk.com/html/searchVoters.html",
+     "note": "Source: Hillsborough Clerk of Court BOCC vote database (official record, Clerk's Vote Date 2023-09-21); search the page by date range. "
+    },
+    {
+     "bill": "FY2024 county budget adopted",
+     "what": "Item IX: adopt the FY2024 budget resolution as presented by staff, including the Board's changes that night.",
+     "vote": "Yea",
+     "date": "2023-09-21",
+     "chamber": "County Commission",
+     "result": "passed 5-1 (Kemp No; Cepeda: no vote registered)",
+     "url": "https://commissionvotes.hillsclerk.com/html/searchVoters.html",
+     "note": "Source: Hillsborough Clerk of Court BOCC vote database (official record, Clerk's Vote Date 2023-09-21); search the page by date range. "
+    },
+    {
+     "bill": "Transportation surtax spending plan (Plan A)",
+     "what": "Item B-2: approve the County Transportation Plan for use of the $569,782,845 collected under the 2018 citizen-led transportation surtax; motion to support Plan A.",
+     "vote": "Nay",
+     "date": "2023-02-15",
+     "chamber": "County Commission",
+     "result": "passed 4-2 with 1 abstention (Cohen, Hagan, Kemp, Myers Yea; Owen and Cepeda Nay; Wostal Abstain)",
+     "url": "https://commissionvotes.hillsclerk.com/html/searchVoters.html",
+     "note": "Source: Hillsborough Clerk of Court BOCC vote database (official record, Clerk's Vote Date 2023-02-15); search the page by date range. "
+    },
+    {
+     "bill": "Repeal impact-fee relief for affordable housing (Ordinance 24-2)",
+     "what": "Item D-1: public hearing and adoption of an ordinance removing text on affordable-housing relief from impact fees in the Consolidated Impact Assessment Program Ordinance.",
+     "vote": "Yea",
+     "date": "2024-02-07",
+     "chamber": "County Commission",
+     "result": "passed 4-3 (Hagan, Owen, Wostal, Cepeda Yea; Cohen, Kemp, Myers Nay)",
+     "url": "https://commissionvotes.hillsclerk.com/html/searchVoters.html",
+     "note": "Source: Hillsborough Clerk of Court BOCC vote database (official record, Clerk's Vote Date 2024-02-07); search the page by date range. "
+    },
+    {
+     "bill": "Rescind mobility-fee relief policy for affordable housing",
+     "what": "Item B-1: rescind Board Policy 03.04.01.07 on affordable-housing relief from mobility fees.",
+     "vote": "Yea",
+     "date": "2024-02-07",
+     "chamber": "County Commission",
+     "result": "passed 4-3 (Hagan, Owen, Wostal, Cepeda Yea; Cohen, Kemp, Myers Nay)",
+     "url": "https://commissionvotes.hillsclerk.com/html/searchVoters.html",
+     "note": "Source: Hillsborough Clerk of Court BOCC vote database (official record, Clerk's Vote Date 2024-02-07); search the page by date range. "
+    },
+    {
+     "bill": "State legislative program: strike energy-savings support",
+     "what": "Item B-3 (2024 State Legislative Program): motion to strike the program's support for the $347 million in federal energy-savings funding.",
+     "vote": "Yea",
+     "date": "2023-10-18",
+     "chamber": "County Commission",
+     "result": "passed 4-3 (Hagan, Owen, Wostal, Cepeda Yea; Cohen, Kemp, Myers Nay)",
+     "url": "https://commissionvotes.hillsclerk.com/html/searchVoters.html",
+     "note": "Source: Hillsborough Clerk of Court BOCC vote database (official record, Clerk's Vote Date 2023-10-18); search the page by date range. "
+    },
+    {
+     "bill": "Set Nov 5, 2024 referendum on renewing the CIT levy",
+     "what": "Item B-1: motion that November 5, 2024 be the referendum date for renewal of the levy referred to in the record as the CIT, with its uses (infrastructure, transportation and public works, public safety...).",
+     "vote": "Yea",
+     "date": "2024-04-03",
+     "chamber": "County Commission",
+     "result": "passed 5-2 (Hagan, Myers Nay)",
+     "url": "https://commissionvotes.hillsclerk.com/html/searchVoters.html",
+     "note": "Source: Hillsborough Clerk of Court BOCC vote database (official record, Clerk's Vote Date 2024-04-03); search the page by date range. The record's subject text is truncated and abbreviates the levy as CIT."
+    },
+    {
+     "bill": "Enact ordinance renewing the CIT levy and referendum (Ordinance 24-3)",
+     "what": "Item D-1: enact the ordinance for the renewal of the levy and referendum, moving the original motion from the prior week with Commissioner Myers' addition.",
+     "vote": "Yea",
+     "date": "2024-04-17",
+     "chamber": "County Commission",
+     "result": "passed 5-2 (Hagan, Kemp Nay)",
+     "url": "https://commissionvotes.hillsclerk.com/html/searchVoters.html",
+     "note": "Source: Hillsborough Clerk of Court BOCC vote database (official record, Clerk's Vote Date 2024-04-17); search the page by date range. "
+    }
+   ],
+   "gaps": "Florida House (HD 70) since Nov. 2024 verified against flsenate.gov floor-vote PDFs; Hillsborough County Commission votes (Dec. 2022-June 2024) come from the Hillsborough Clerk's BOCC vote database and are not cross-checked against minutes. Source is the Clerk's official BOCC vote database (https://commissionvotes.hillsclerk.com/html/searchVoters.html); its backend returns JSON, which I pulled for 2022-12-01 to 2024-06-30 (795 vote records; first Owen vote 2022-12-07, last 2024-06-06). Individual votes have no permanent per-vote URL, so each entry cites the search page plus the Vote Date. Not cross-checked against minutes or a news report (WebFetch of Tampa Bay Times and Hillsborough Legistar returned no usable text). No vote registered (NVR) is the Clerk's label and is not necessarily an absence. Vote dates are the Clerk's timestamps. Bill descriptions are condensed from the Clerk's subject text and I did not read the underlying agenda items, so the FY2024 millage rates and amounts are not stated."
+  },
+  "Luther Keith Wilkins": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Tara Poulton": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Reggie Bellamy": {
+   "votes": [
+    {
+     "bill": "Stormwater utility fee: direct County Attorney to prepare non-ad valorem assessment",
+     "what": "Directed the County Attorney's Office to begin drafting documents to set up a non-ad valorem stormwater utility fee for unincorporated Manatee County.",
+     "vote": "Yea",
+     "date": "2019-09-24",
+     "chamber": "County Commission",
+     "result": "passed 6-1",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2019/BC20190924DOC001.pdf",
+     "note": "Minutes: 'carried 6-1 with Commissioner Baugh voting nay'; all seven present. Same minutes list Bellamy among commissioners preferring fee 'Option 2' in earlier discussion."
+    },
+    {
+     "bill": "FY 2020-21 tentative millage and budget (Resolutions B-21-001, B-21-002, B-21-003)",
+     "what": "Adopted tentative millage rates and tentative budgets at the first budget public hearing (no change to millage rates; aggregate 6.8813 mills).",
+     "vote": "Yea",
+     "date": "2020-09-14",
+     "chamber": "County Commission",
+     "result": "passed 7-0",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2020/BC20200914DOC001.pdf",
+     "note": "Minutes record 7-0 on each; Bellamy is listed as having entered during the meeting. No individual roll call printed, so Yea comes from the unanimous count."
+    },
+    {
+     "bill": "Letter to Florida Attorney General on county authority to regulate abortion",
+     "what": "Approved a letter and directed the County Attorney to request a formal Attorney General opinion on whether state law preempts a county ordinance regulating abortion.",
+     "vote": "Nay",
+     "date": "2021-09-14",
+     "chamber": "County Commission",
+     "result": "passed 4-3",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2021/BC20210914DOC001.pdf",
+     "note": "Minutes name Bellamy, Servia and Whitmore as voting nay. Minutes also record Bellamy stating that he did not want his name on the letter."
+    },
+    {
+     "bill": "Send same letter to Senate President, House Speaker and Governor",
+     "what": "Motion (Van Ostenbridge) to send the same abortion-preemption letter to state legislative leaders and the Governor.",
+     "vote": "Nay",
+     "date": "2021-09-14",
+     "chamber": "County Commission",
+     "result": "passed 6-1",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2021/BC20210914DOC001.pdf",
+     "note": "Minutes: 'carried 6-1, with Commissioner Bellamy voting nay.'"
+    },
+    {
+     "bill": "FY 2022-23 tentative millage (Resolution B-23-001; reduced general-fund millage)",
+     "what": "Adopted the tentative FY22/23 millage rates with the general fund set at 7.7942 mills and total countywide operating millage at 6.2326 (a further cut that day).",
+     "vote": "Yea",
+     "date": "2022-09-07",
+     "chamber": "County Commission",
+     "result": "passed 5-1",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2022/BC20220907DOC001.pdf",
+     "note": "Minutes: 'carried 5-1, with Commissioner Whitmore voting nay and Commissioner Servia absent.' Bellamy is listed present; Yea comes from the count, not a printed roll call."
+    },
+    {
+     "bill": "Rename Kinnan Park to Governor Ron DeSantis Park (Resolution R-22-149)",
+     "what": "Adopted a resolution naming the county's Kinnan Park as Governor Ron DeSantis Park.",
+     "vote": "Nay",
+     "date": "2022-09-13",
+     "chamber": "County Commission",
+     "result": "passed 4-3",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2022/BC20220913DOC001.pdf",
+     "note": "First vote 4-2 with Bellamy and Servia nay and Whitmore abstaining; after the County Attorney advised Whitmore to vote or recuse, re-vote carried 4-3 with Bellamy, Servia and Whitmore nay."
+    },
+    {
+     "bill": "Fare-free MCAT 18-month pilot program",
+     "what": "Directed staff to prepare a resolution for an 18-month fare-free pilot on the county bus system starting Oct 1, 2022.",
+     "vote": "Yea",
+     "date": "2022-09-13",
+     "chamber": "County Commission",
+     "result": "passed 5-2",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2022/BC20220913DOC001.pdf",
+     "note": "Bellamy seconded the motion (Kruse moved); minutes record 'carried 5-2, with Commissioners Satcher and Van Ostenbridge voting nay.'"
+    },
+    {
+     "bill": "Project Innovation: county-owned 98.6-acre plan amendment and 159-acre rezone (PA-22-02 / Ordinance 22-20; PDMU-22-02(Z)(G))",
+     "what": "Changed future land use from UF-3 to Mixed Use and rezoned county-owned land near the Lena Road landfill area to a planned mixed-use district with a general development plan.",
+     "vote": "Yea",
+     "date": "2022-09-22",
+     "chamber": "County Commission",
+     "result": "passed 6-1",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2022/BC20220922DOC001.pdf",
+     "note": "Both motions 'carried 6-1 with Commissioner Servia voting nay'; all seven listed present (no absence listed). Yea comes from the count, not a printed roll call."
+    }
+   ],
+   "gaps": "Did not open the 2022-09-13 evening final-budget-hearing minutes (separate record not found in the folder listing), nor 2019, 2020 or 2021 final-budget-hearing minutes (2021-09-28 file opened is a cancelled meeting). No Port Manatee items or 2018-19 votes opened. The 2021-09-14 first (hostile-amendment) vote failed 2-5 with Bellamy among the nays; omitted as procedurally confusing. Where Bellamy is not named among dissenters, the Yea is from the minutes' counts, not an individual roll call; Manatee minutes do not print roll calls."
+  },
+  "Elizabeth \"Liz\" Arnold": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Sari Lindroos-Valimaki": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Amanda Ballard": {
+   "votes": [
+    {
+     "bill": "Revert 50-foot wetland buffer (Comprehensive Plan amendment)",
+     "what": "Directed staff to bring back a Comprehensive Plan amendment putting the wetland buffer back to the 50-foot standard it had before the earlier change.",
+     "vote": "Yea",
+     "date": "2024-09-10",
+     "chamber": "County Commission",
+     "result": "passed 6-0",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2024/BC20240910DOC001.pdf",
+     "note": "Official minutes record 'carried 6-0' with all six sitting commissioners present (District 1 vacant); no individual roll call is printed, so Ballard's Yea comes from the unanimous count. Motion by Bearden, second Kruse."
+    },
+    {
+     "bill": "Do not pursue attorney fees from Joe McClash (wetland-policy lawsuit)",
+     "what": "Motion directing the County Attorney not to pursue attorney's fees (about $250,000) from former Commissioner Joe McClash after his lawsuit over the wetland buffer policy.",
+     "vote": "Nay",
+     "date": "2024-09-10",
+     "chamber": "County Commission",
+     "result": "failed 2-4",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2024/BC20240910DOC001.pdf",
+     "note": "Minutes name Ballard, Rahn, Turner and Van Ostenbridge as voting nay. Minutes also record Ballard saying she was not ready to ask the County Attorney's office to stop collecting fees that day."
+    },
+    {
+     "bill": "Sorella small-scale Comprehensive Plan map and text amendment (PA-23-18 / Ordinance 24-29)",
+     "what": "Adopted a future-land-use change on 5.25 acres from UF-3 to Retail/Office/Residential with a cap of 3 homes per acre (9 if 25 percent affordable).",
+     "vote": "Nay",
+     "date": "2024-09-05",
+     "chamber": "County Commission",
+     "result": "passed 5-1",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2024/BC20240905DOC001.pdf",
+     "note": "Minutes: 'carried 5-1, with Commissioner Ballard voting nay.'"
+    },
+    {
+     "bill": "FY 2024-25 tentative millage: reduce by 0.3 mills",
+     "what": "Motion (Bearden) to cut the tentative countywide millage by 0.3 mills at the first budget hearing.",
+     "vote": "Nay",
+     "date": "2024-09-12",
+     "chamber": "County Commission",
+     "result": "failed 2-4",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2024/BC20240912DOC001.pdf",
+     "note": "Minutes name Chairman Rahn and Commissioners Ballard, Kruse and Turner as voting nay."
+    },
+    {
+     "bill": "FY 2024-25 tentative millage: reduce by 0.2 mills",
+     "what": "Motion (Van Ostenbridge) to cut the tentative millage by 0.2 mills.",
+     "vote": "Nay",
+     "date": "2024-09-12",
+     "chamber": "County Commission",
+     "result": "failed 3-3",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2024/BC20240912DOC001.pdf",
+     "note": "Minutes name Commissioners Ballard, Kruse and Turner as voting nay."
+    },
+    {
+     "bill": "FY 2024-25 tentative millage: reduce by 0.15 mills",
+     "what": "Motion (Van Ostenbridge) to lower the tentative millage by 0.15 mills; this reduction carried and set the tentative rate.",
+     "vote": "Yea",
+     "date": "2024-09-12",
+     "chamber": "County Commission",
+     "result": "passed 4-2",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2024/BC20240912DOC001.pdf",
+     "note": "Minutes: 'carried 4-2, with Commissioners Kruse and Turner voting nay'; Ballard not among the nays, all six present. No individual roll call printed, so Yea is from the count."
+    },
+    {
+     "bill": "FY 2024-25 final millage rates and annual budget (Resolutions B-25-005 and B-25-006)",
+     "what": "Adopted the final countywide millage rates (aggregate 6.5415 mills) and the FY 2024-25 annual budget.",
+     "vote": "Yea",
+     "date": "2024-09-24",
+     "chamber": "County Commission",
+     "result": "passed 6-0",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2024/BC20240924DOC002.pdf",
+     "note": "Minutes record 'carried 6-0' for each with all six sitting commissioners present; no individual roll call printed. Ballard also seconded the motion adopting the dependent special districts budget (B-25-007, 6-0) that night."
+    },
+    {
+     "bill": "FY 2024-25 Supervisor of Elections budget (Resolution B-25-008)",
+     "what": "Adopted the final budget for the Supervisor of Elections; Ballard abstained and filed a Form 8B Memorandum of Voting Conflict (same on the tentative version, B-25-004, on 2024-09-12).",
+     "vote": "Not voting",
+     "date": "2024-09-24",
+     "chamber": "County Commission",
+     "result": "passed 5-0",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2024/BC20240924DOC002.pdf",
+     "note": "Abstained, per minutes ('Commissioner Ballard abstaining (Form 8B, Memorandum of Voting Conflict filed)')."
+    },
+    {
+     "bill": "FY 2025-26 Children's Services nonprofit funding agreements (immigration language)",
+     "what": "Approved the FY25/26 nonprofit funding agreements using the prior-year form and without added immigration-related language; the board voted on the language and the agreements in three motions, each 4-3.",
+     "vote": "Nay",
+     "date": "2025-09-16",
+     "chamber": "County Commission",
+     "result": "passed 4-3",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2025/BC20250916DOC001.pdf",
+     "note": "Minutes name Ballard, Bearden and Rahn as voting nay on all three motions (deny the language changes; use FY24/25 form; approve agreements minus the immigration language)."
+    },
+    {
+     "bill": "FY 2025-26 Economic Development Corporation reimbursement agreement: let existing agreement expire",
+     "what": "Motion to let the existing EDC agreement expire; it failed, and a following motion to approve the new $336,900 agreement also failed 3-4, leaving the board with no action.",
+     "vote": "Nay",
+     "date": "2025-09-16",
+     "chamber": "County Commission",
+     "result": "failed 3-4",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2025/BC20250916DOC001.pdf",
+     "note": "Minutes: failed 3-4 'with Commissioners Ballard, Felts, Rahn, and Chairman Kruse voting to retain the agreement.' Ballard also moved to extend the contract through Dec 31, 2025; the minutes say that motion was withdrawn later in the meeting."
+    },
+    {
+     "bill": "FY 2025-26 final millage and annual budget (Resolutions B-26-004 and B-26-005)",
+     "what": "Adopted the final millage rates (aggregate 6.5033 mills, a 3.7393 percent cut from the rolled-back rate) and the FY25-26 annual budget.",
+     "vote": "Yea",
+     "date": "2025-09-22",
+     "chamber": "County Commission",
+     "result": "passed 6-1",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2025/BC20250922DOC001.pdf",
+     "note": "Minutes: 'carried 6-1, with Commissioner McCann voting nay' on each; all seven commissioners listed present. No individual roll call printed, so Ballard's Yea is from the count."
+    }
+   ],
+   "gaps": "Could not find the original adoption vote that created the 50-foot-to-SWFWMD wetland buffer change (checked 2023-12-07 and 2024-10-03 minutes, no wetland items); only the Sept 10, 2024 vote to revert it is verified. Did not open the 2023 or 2025 first-hearing (tentative budget) minutes, 2023 final budget, or other 2024-2025 rezoning minutes (Oct 3, 2024 had no large items for her). A Ballard absence from several rezoning continuances on 2025-09-04 (5-0) was seen in minutes but not recorded here. Where Ballard is not named among dissenters, the Yea is from the minutes' counts, not an individual roll call; the Manatee minutes do not print roll calls."
+  },
+  "Charles B. Smith Sr": {
+   "votes": [
+    {
+     "bill": "FY 2016-17 tentative millage and budget (Resolutions B-17-001, B-17-002, B-17-003)",
+     "what": "Adopted tentative ad valorem millage rates, tentative budget, and dependent special districts budget at the first budget hearing.",
+     "vote": "Yea",
+     "date": "2016-09-08",
+     "chamber": "County Commission",
+     "result": "passed 7-0",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2016/BC20160908DOC001.pdf",
+     "note": "All three carried 7-0 with all seven present; Smith seconded the dependent special districts motion (B-17-003). Other two Yeas are from the unanimous count."
+    },
+    {
+     "bill": "FY 2016-17 final millage, annual budget and 5-year Capital Improvement Program (B-17-004, B-17-005, B-17-006, R-16-144)",
+     "what": "Adopted final millage rates, annual budget, special districts budget and the five-year capital plan.",
+     "vote": "Not voting",
+     "date": "2016-09-15",
+     "chamber": "County Commission",
+     "result": "passed 6-0",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2016/BC20160915DOC001.pdf",
+     "note": "Smith was absent (listed 'excused'); each motion 'carried 6-0, with Commissioner Smith absent.' A stray 'April 8, 2014' footer appears in this file; the cover date is Sept 15, 2016."
+    },
+    {
+     "bill": "Urban Corridors Comprehensive Plan text amendment (PA-16-01 / Ordinance 16-07): call the question",
+     "what": "Motion (Whitmore) to end debate on the Urban Corridors amendment during a fight over removing the 53rd Avenue West/S.R. 70 section from Map M; the motion died on a tie.",
+     "vote": "Nay",
+     "date": "2016-09-19",
+     "chamber": "County Commission",
+     "result": "failed (tie 3-3; Commissioner Benac absent)",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2016/BC20160919DOC001.pdf",
+     "note": "Minutes: 'died due to a tie vote with Commissioners Baugh, Chappie, and Smith voting nay.' Smith also seconded Commissioner Chappie's amendments to remove the 53rd Avenue West corridor segment from Map M; those amendments died on 3-3 ties."
+    },
+    {
+     "bill": "Urban Corridors Comprehensive Plan text amendment (PA-16-01 / Ordinance 16-07), as amended",
+     "what": "Adopted the Urban Corridors amendment with the 36th-to-75th Street West section of the 53rd Avenue West/S.R. 70 corridor removed from Map M.",
+     "vote": "Yea",
+     "date": "2016-09-19",
+     "chamber": "County Commission",
+     "result": "passed 5-1",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2016/BC20160919DOC001.pdf",
+     "note": "Minutes: 'carried 5-1, with Chairman Baugh voting nay and Commissioner Benac absent.' Smith present and not named a dissenter, so Yea is from the count, not a printed roll call."
+    },
+    {
+     "bill": "FY 2017-18 final millage and annual budget (Resolutions B-18-004, B-18-005, B-18-006)",
+     "what": "Adopted final millage rates (countywide rates unchanged since 2008; aggregate 6.8745 mills) and the FY17/18 annual budget.",
+     "vote": "Yea",
+     "date": "2017-09-25",
+     "chamber": "County Commission",
+     "result": "passed 7-0",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2017/BC20170925DOC001.pdf",
+     "note": "All seven listed present; each motion 'carried 7-0'. Yea is from the unanimous count. Page footers in this file read 'March 7, 2017' (a clerk footer error); the cover date and file name are Sept 25, 2017."
+    },
+    {
+     "bill": "FY 2018-19 tentative millage and budget (Resolutions B-19-001, B-19-002, B-19-003)",
+     "what": "Adopted tentative millage rates (aggregate 6.8779 mills) and tentative budgets at the first budget hearing.",
+     "vote": "Yea",
+     "date": "2018-09-11",
+     "chamber": "County Commission",
+     "result": "passed 6-0",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2018/BC20180911DOC002.pdf",
+     "note": "Commissioner Baugh absent; Smith seconded the tentative millage motion and the special districts budget motion (the minutes print 'Commissioner Johnson' as the mover of the millage motion, an apparent clerk error). The record opened is 2018/BC20180911DOC002.pdf."
+    },
+    {
+     "bill": "FY 2018-19 final millage, annual budget, special districts budget and 5-year Capital Improvement Program",
+     "what": "Adopted final millage rates (Resolution B-19-004), the annual budget (B-19-005), dependent districts budget (B-19-006) and the five-year capital program (R-18-152).",
+     "vote": "Yea",
+     "date": "2018-09-18",
+     "chamber": "County Commission",
+     "result": "passed 5-2",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2018/BC20180918DOC002.pdf",
+     "note": "Minutes: 'carried 5-2, with Commissioners Baugh and DiSabatino voting nay' on each. Smith is listed 'entered during meeting' (during the presentation, before the adoption motions); Yea comes from the count, not a printed roll call."
+    },
+    {
+     "bill": "Traffic signal at Florida Boulevard and 26th Street West (Bayshore Gardens)",
+     "what": "Directed staff to put a traffic light at the intersection, report back in 60 to 90 days, and let staff pick the funding (including Southwest TIF funds).",
+     "vote": "Yea",
+     "date": "2018-09-25",
+     "chamber": "County Commission",
+     "result": "passed 5-2",
+     "url": "https://records.manateeclerk.com/BoardRecords/Browse/Minutes/Board-of-County-Commissioners/2018/BC20180925DOC001.pdf",
+     "note": "Motion by Whitmore, seconded by Smith; minutes: 'carried 5 to 2, with Commissioner Benac and Chairman Trace voting nay.'"
+    }
+   ],
+   "gaps": "No 2014 or 2015 budget-hearing minutes were opened (only 2016-2018 reviewed), so nothing verified for his first two years. No major rezonings or other major votes from 2014-2015 opened. Most Yea entries come from the minutes' vote counts with named dissenters and attendance lists, not an individual roll call (Manatee minutes do not print roll calls); only the votes where Smith moved, seconded or was named in the minutes are individually attributed."
+  },
+  "Cindy Spray": {
+   "votes": [
+    {
+     "bill": "Terminate Superintendent Wysong's contract without cause",
+     "what": "The board voted to end Superintendent Jason Wysong's contract without cause, effective May 20, 2025, with a 90-day notice period and 20 weeks of pay per his contract.",
+     "vote": "Yea",
+     "date": "2025-05-20",
+     "chamber": "School Board",
+     "result": "passed 3-2",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=277&doc_id=03421a81-5286-11f0-b7f5-005056a89546",
+     "note": "Spray seconded the motion (Kennedy moved). Ayes: Choate, Spray, Kennedy. Nays: Felton, Tatem. Spray was Vice-Chair at the time; minutes record her citing lapses in communication."
+    },
+    {
+     "bill": "Offer superintendent job to Dr. Laurie Breslin",
+     "what": "The board offered the superintendent position to Dr. Laurie Breslin and authorized contract negotiations.",
+     "vote": "Yea",
+     "date": "2025-08-26",
+     "chamber": "School Board",
+     "result": "passed 5-0",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=296&doc_id=d87dd48f-aa8f-11f0-8df7-005056a89546",
+     "note": "Spray made the motion; Felton seconded."
+    },
+    {
+     "bill": "Breslin superintendent contract approved",
+     "what": "The board accepted the superintendent contract drafted by the Chair and Board Attorney for Dr. Breslin.",
+     "vote": "Yea",
+     "date": "2025-09-09",
+     "chamber": "School Board",
+     "result": "passed 5-0",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=299&doc_id=3726fb83-aa90-11f0-8df7-005056a89546",
+     "note": "Spray made the motion; Felton seconded. Meeting of Sept 9, 2025 (regular meeting, 5:45 PM)."
+    },
+    {
+     "bill": "Motion to strike performance-bonus paragraph 7.7 from superintendent contract",
+     "what": "Tatem moved to remove paragraph 7.7 (a bonus tied to district grade/graduation rate) from the Breslin contract.",
+     "vote": "Yea",
+     "date": "2025-09-09",
+     "chamber": "School Board",
+     "result": "failed 2-3",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=299&doc_id=3726fb83-aa90-11f0-8df7-005056a89546",
+     "note": "Spray seconded. Ayes: Spray, Tatem. Nays: Felton, Kennedy, Choate."
+    },
+    {
+     "bill": "Motion to move superintendent contract item to Sept 16 meeting",
+     "what": "Spray moved to delay the contract item to the September 16 meeting, citing the timing of when the contract was posted.",
+     "vote": "Yea",
+     "date": "2025-09-09",
+     "chamber": "School Board",
+     "result": "failed 1-4",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=299&doc_id=3726fb83-aa90-11f0-8df7-005056a89546",
+     "note": "Spray moved; Tatem seconded; only Spray voted yes."
+    },
+    {
+     "bill": "Library Media Materials Reconsideration Procedure",
+     "what": "The board adopted the district procedure for reconsidering challenged library/media materials, as amended to require notifying the school advisory council.",
+     "vote": "Yea",
+     "date": "2023-02-14",
+     "chamber": "School Board",
+     "result": "passed 5-0",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=143&doc_id=e1fd6dd6-bf61-11ed-acbc-0050569183fa",
+     "note": "Final vote on item 13.3C (as amended in 13.3B, also 5-0). Minutes also record Vice-Chair Spray asking that challenged books be removed until review is complete rather than requiring parental consent; that request was not a separate recorded vote."
+    },
+    {
+     "bill": "Amend Policy 2520, Selection and Adoption of Instructional Materials",
+     "what": "The board approved amendments to the policy governing how instructional materials are selected and adopted.",
+     "vote": "Yea",
+     "date": "2024-01-16",
+     "chamber": "School Board",
+     "result": "passed 4-1",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=219&doc_id=5aeacf63-c20e-11ee-8fe8-0050569183fa",
+     "note": "Spray seconded (Messenger moved). Nay: Foreman, who had asked to re-workshop the item first."
+    },
+    {
+     "bill": "Amend Bylaw 0163, Presiding Officer",
+     "what": "The board adopted a new policy and amendments to Bylaw 0163 on the role of the presiding officer.",
+     "vote": "Yea",
+     "date": "2023-11-14",
+     "chamber": "School Board",
+     "result": "passed 4-1",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=214&doc_id=09bd40f7-99f0-11ee-a93d-0050569183fa",
+     "note": "Spray made the motion; Foreman seconded. Nay: Messenger, who said the change took away a chair's ability to run a meeting as they see fit, including virtually."
+    },
+    {
+     "bill": "Election of board chair (nominating Chad Choate)",
+     "what": "The board voted on the nomination of Chad Choate as Chairman; Spray had nominated herself.",
+     "vote": "Nay",
+     "date": "2023-11-14",
+     "chamber": "School Board",
+     "result": "passed 4-1",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=215&doc_id=36e2e95f-99f0-11ee-a93d-0050569183fa",
+     "note": "Spray voted nay; Messenger, Foreman, Choate and Tatem voted yea. Spray was then elected Vice-Chair 4-1 (Messenger nay)."
+    },
+    {
+     "bill": "Election of board chair (Spray appointed Chairman)",
+     "what": "The board appointed Board Member Spray as Chairman of the School Board.",
+     "vote": "Yea",
+     "date": "2025-11-18",
+     "chamber": "School Board",
+     "result": "passed 5-0",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=311&doc_id=b1c2559c-d6b3-11f0-bb28-005056a89546",
+     "note": "Tatem nominated Spray; Felton nominated Tatem; the recorded vote was 5-0 for Spray as Chairman (ayes list includes Spray)."
+    },
+    {
+     "bill": "Approve Parrish Classical Preparatory Academy charter application",
+     "what": "The board approved a charter school application (sponsored by Charter Schools USA) for the 2027-2028 school year.",
+     "vote": "Yea",
+     "date": "2025-07-22",
+     "chamber": "School Board",
+     "result": "passed 4-1",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=287&doc_id=fef88efd-8369-11f0-a766-005056a89546",
+     "note": "Spray made the motion; Felton seconded. Nay: Kennedy."
+    },
+    {
+     "bill": "New high school: Schenkel & Shultz (Amendment 1) and Gilbane contracts",
+     "what": "The board approved two capital-funded agreements for the new high school: Schenkel & Shultz amendment ($1,176,648) and Gilbane Building Company ($522,340).",
+     "vote": "Yea",
+     "date": "2025-08-26",
+     "chamber": "School Board",
+     "result": "both passed 4-1",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=296&doc_id=d87dd48f-aa8f-11f0-8df7-005056a89546",
+     "note": "Two separate votes (14.1 and 14.2), each 4-1; Spray seconded 14.1 and moved 14.2. Nay on both: Tatem."
+    },
+    {
+     "bill": "FY2025-26 final millage (6.304 mills) and budget ($1,747,977,849)",
+     "what": "The board adopted the 2025-26 total millage of 6.304 mills and the final 2025-26 budget.",
+     "vote": "Yea",
+     "date": "2025-09-09",
+     "chamber": "School Board",
+     "result": "passed 5-0 (each)",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=298&doc_id=1ebac69c-aa90-11f0-8df7-005056a89546",
+     "note": "Separate unanimous votes on millage resolution 2025-005 and final budget resolution 2025-006 at the Sept 9, 2025 special meeting and public hearing."
+    },
+    {
+     "bill": "FY2026-27 final millage (6.275 mills) and budget ($1,661,179,073)",
+     "what": "The board adopted the 2026-27 total millage of 6.275 mills and the final 2026-27 budget.",
+     "vote": "Yea",
+     "date": "2026-09-08",
+     "chamber": "School Board",
+     "result": "passed 5-0 (each)",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=346&doc_id=4990be46-d2cf-11f1-89ef-005056a84798",
+     "note": "Separate unanimous votes on millage resolution 2026-003 and final budget resolution 2026-005; Spray listed among ayes as Chair."
+    },
+    {
+     "bill": "Resignation of employee while under investigation",
+     "what": "The board approved a resignation from an employee who was under investigation (an item pulled from the consent agenda).",
+     "vote": "Nay",
+     "date": "2025-04-29",
+     "chamber": "School Board",
+     "result": "passed 4-1",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=275&doc_id=b05b020f-5285-11f0-b7f5-005056a89546",
+     "note": "Tatem moved, Felton seconded. Spray was the lone nay. Employee not named here."
+    },
+    {
+     "bill": "Black History Month proclamation",
+     "what": "The board approved the annual Black History Month proclamation.",
+     "vote": "Yea",
+     "date": "2026-02-24",
+     "chamber": "School Board",
+     "result": "passed 4-1",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=323&doc_id=cad9b26f-32a3-11f1-bb28-005056a89546",
+     "note": "Felton moved, Kennedy seconded. Nay: Tatem, who proposed instead celebrating \"American History Month\"; that amendment failed for lack of a second."
+    },
+    {
+     "bill": "Legal services contract (Rob Robinson Attorney, PA) for 2023-24, $90,000",
+     "what": "The board approved purchase of outside legal services for FY2023-24 at an estimated $90,000.",
+     "vote": "Nay",
+     "date": "2023-05-09",
+     "chamber": "School Board",
+     "result": "passed 4-1",
+     "url": "https://manateeschools.granicus.com/MinutesViewer.php?view_id=1&clip_id=166&doc_id=5b440a03-fb18-11ed-95dd-0050569183fa",
+     "note": "Spray was the lone nay. She also moved to amend the amount from $90,000 to $50,000 (Tatem seconded); that amendment failed 1-4."
+    }
+   ],
+   "gaps": "Source: School Board of Manatee County minutes on the district Granicus portal (manateeschools.granicus.com), Nov 2022 through Oct 2026, filtered for non-unanimous votes plus budget/millage, superintendent, library/instructional-materials and policy items. Not found/not included: the 2023 library-book removal decisions themselves (only the Feb 14, 2023 reconsideration procedure vote was opened; later book-specific votes, if any, were not located), school closures/boundary votes, teacher contract/pay votes (an AFSCME agreement was approved 4-0 on 2025-04-29 with Choate absent; not itemized), pronoun/DEI policy votes, and the Oct 27, 2026 meeting minutes (agenda only on portal; Bradenton Times/LWV notes report all items 5-0). Votes are recorded in the minutes as ayes/nays by name, so every vote above is as recorded. News coverage (Bradenton Herald, Tampa Bay Times, WWSB) was not opened because web search was unavailable; no motives or reasons beyond what minutes state are reported."
+  },
+  "Sharon Jefferson": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Scott Johnson": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Rodney O'Quinn": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Charles \"Rick\" Richards": {
+   "votes": [],
+   "gaps": "Has not held a voting office."
+  },
+  "Sunshine Joiner": {
+   "votes": [
+    {
+     "bill": "FY2025 final millage (Res 2024-23) and final budget (Res 2024-24)",
+     "what": "The commission adopted the FY2025 final millage and the FY2025 final budget.",
+     "vote": "Yea",
+     "date": "2024-09-23",
+     "chamber": "City Commission",
+     "result": "passed 5-0 (each)",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2024/09232024%20html%20files/09232024%20City%20Commission%20Meeting%20Minutes_exphtml_wmp.html",
+     "note": "Williams moved, Joiner seconded both. Rate not stated in the motion text."
+    },
+    {
+     "bill": "Altier purchase agreement (sales contract with Bradford Baker)",
+     "what": "The commission approved a sales contract with developer Bradford Baker; staff said approval covered the contract only, with rezoning and General Development Plan still to come.",
+     "vote": "Yea",
+     "date": "2024-10-21",
+     "chamber": "City Commission",
+     "result": "passed 3-2",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2024/10212024%20html%20files/10212024%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Williams moved, Joiner seconded. Nays: Smith and Jones."
+    },
+    {
+     "bill": "Unsolicited proposal from Gray Property Group (move forward under s. 255.065)",
+     "what": "Williams moved to proceed with Gray Property Group's unsolicited proposal; the motion failed, and the commission then voted 5-0 to defer it for further individual discussions.",
+     "vote": "Yea",
+     "date": "2024-09-09",
+     "chamber": "City Commission",
+     "result": "failed 2-3",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2024/09092024%20html%20files/09092024%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Joiner seconded. Nays: Smith, Cornwell, Jones."
+    },
+    {
+     "bill": "CRA Director salary adjustment (motion by Jones)",
+     "what": "Jones moved to raise the new CRA Director's salary to match other department heads; the motion failed.",
+     "vote": "Nay",
+     "date": "2024-09-09",
+     "chamber": "City Commission",
+     "result": "failed 2-3",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2024/09092024%20html%20files/09092024%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Nays: Joiner, Cornwell, Williams (named in minutes)."
+    },
+    {
+     "bill": "Ordinance 2023-05: planned development code amendments (Chapters 8, 9, 10)",
+     "what": "The commission adopted zoning code changes for development plans and planned developments after a contentious public hearing.",
+     "vote": "Yea",
+     "date": "2024-03-04",
+     "chamber": "City Commission",
+     "result": "passed 3-2",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2024/03042024%20html%20files/03042024%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Joiner moved, Cornwell seconded. Nays: Smith and Jones."
+    },
+    {
+     "bill": "Gray Property Group unsolicited proposal for 320 10th Ave West (public-interest finding)",
+     "what": "The commission approved the Gray proposal at 320 10th Ave W and directed staff to bring agreements back for review.",
+     "vote": "Yea",
+     "date": "2025-01-06",
+     "chamber": "City Commission",
+     "result": "passed 4-1",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2025/01062025%20html%20files/01062025%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Williams moved, Joiner seconded. Nay: Smith."
+    },
+    {
+     "bill": "Surplus 320 10th Ave West and approve purchase and sale agreement with Gray Property Group",
+     "what": "The commission declared the city property at 320 10th Ave W surplus and authorized the Mayor to sign the amended purchase and sale agreement.",
+     "vote": "Yea",
+     "date": "2025-03-10",
+     "chamber": "City Commission",
+     "result": "passed 4-1",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2025/03102025%20html%20files/03102025%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Williams moved, Joiner seconded. Nay: Smith."
+    },
+    {
+     "bill": "Proposed FY2026 aggregate millage rate of 6.2171",
+     "what": "The commission set the proposed FY2026 aggregate millage at 6.2171 and scheduled tentative and final budget hearings.",
+     "vote": "Yea",
+     "date": "2025-07-21",
+     "chamber": "City Commission",
+     "result": "passed 3-1",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2025/07212025%20html%20files/07212025%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Williams moved, Joiner seconded. Nay: Cornwell. Smith was not present."
+    },
+    {
+     "bill": "Purchase of parcels from G&L Alliance LLC (1620 8th Ave W and 725 17th St W), $800,000 budget transfer",
+     "what": "The commission approved the purchase contract and a budget resolution moving $800,000 to the CRA land account.",
+     "vote": "Yea",
+     "date": "2025-08-25",
+     "chamber": "City Commission",
+     "result": "passed 4-1",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2025/08252025%20html%20files/08252025%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Joiner moved, Williams seconded. Nay: Smith."
+    },
+    {
+     "bill": "Ordinance 2025-13: Juvenile curfew",
+     "what": "The commission adopted a local juvenile curfew ordinance incorporating Florida Statutes 877.20-877.25.",
+     "vote": "Yea",
+     "date": "2026-02-23",
+     "chamber": "City Commission",
+     "result": "passed 4-1",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2026/02232026%20html%20files/02232026%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Whitaker moved, Williams seconded. Nay: Smith. Joiner presided as Vice-Mayor (Mayor not present); minutes name only Smith as nay with all five commissioners present, so Joiner's yea is by the minutes' count rather than named."
+    },
+    {
+     "bill": "Ordinance 2026-02: Charter amendment, city boundary map (first reading)",
+     "what": "The commission approved first reading of the proposed charter amendment adding a city boundary map to go to voters in November 2026.",
+     "vote": "Yea",
+     "date": "2026-03-09",
+     "chamber": "City Commission",
+     "result": "passed 5-0",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2026/03092026%20html%20files/03092026%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Joiner moved, Whitaker seconded."
+    },
+    {
+     "bill": "Ordinance 2026-02: Charter amendment, city boundary map (adoption for Nov 2026 ballot)",
+     "what": "The commission adopted the ordinance placing the boundary-map charter amendment on the November 2026 ballot.",
+     "vote": "Yea",
+     "date": "2026-04-20",
+     "chamber": "City Commission",
+     "result": "passed 4-1",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2026/04202026%20html%20files/04202026%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Cornwell moved, Whitaker seconded. Nay: Smith. Joiner attended by Zoom; minutes name only Smith as nay, so Joiner's yea is by the minutes' count."
+    },
+    {
+     "bill": "Ordinance 2026-03: Charter amendment on term limits (decision not to move forward)",
+     "what": "The commission voted not to move forward with a proposed charter amendment on term limits for the Mayor and commissioners.",
+     "vote": "Yea",
+     "date": "2026-03-23",
+     "chamber": "City Commission",
+     "result": "passed 4-1",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2026/03232026%20html%20files/03232026%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Cornwell moved, Joiner seconded the motion to not move forward. Nay: Williams."
+    },
+    {
+     "bill": "Terminate purchase contract for the Tower property ($5,650,000)",
+     "what": "The commission terminated the city's Feb 19, 2026 contract to buy 710 5th St W, 515 7th St W and 417 7th Ave W from Palmetto Tower TYJ LLC.",
+     "vote": "Nay",
+     "date": "2026-06-01",
+     "chamber": "City Commission",
+     "result": "passed 4-1",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2026/06012026%20html%20files/06012026%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Cornwell moved, Williams seconded. Joiner was the lone nay."
+    },
+    {
+     "bill": "Proposed FY2027 aggregate millage rate of 5.9671",
+     "what": "Joiner moved to set the proposed FY2027 millage at 5.9671 and schedule budget hearings; the motion did not pass. A lower proposed rate of 5.8445 was approved 4-1 on Aug 3, 2026 (Williams nay).",
+     "vote": "Yea",
+     "date": "2026-07-20",
+     "chamber": "City Commission",
+     "result": "failed (minutes say \"3-2\")",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2026/07202026%20html%20files/07202026%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Joiner moved, Williams seconded. Minutes say it \"failed 3-2\" but name only Cornwell and Smith as nays, an internal inconsistency; treat the count with caution."
+    },
+    {
+     "bill": "FY2027 final millage (Res 2026-16) and final budget (Res 2026-17)",
+     "what": "The commission adopted the FY2027 final millage and the FY2027 final budget.",
+     "vote": "Yea",
+     "date": "2026-09-28",
+     "chamber": "City Commission",
+     "result": "passed 5-0 (each)",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2026/09282026%20html%20files/09282026%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Joiner moved both (Whitaker seconded millage; Williams seconded budget). Rate not stated in motion text."
+    }
+   ],
+   "gaps": "Reviewed City of Palmetto commission minutes (docsonline.palmettofl.org) from Sept 2024 through Sept 28, 2026 for split votes and key items; did not open news coverage. Minutes before 2024 list her as \"Sunshine Mathews, Ward 2,\" so no pre-2024 votes are included. Minutes record only the vote count and who dissented, so for \"carried 4-1\" style items without a roll call, her yea is by the minutes' own count; entries where she moved, seconded or was named as a nay are explicit and are marked as such in notes. Not covered: police/fire specifics, utilities/WWTP privatization votes (Resolution 2026-20 was 5-0 on 2026-09-14 but not itemized here), CRA board votes (separate body), and the July 20, 2026 millage motion is recorded with an internal inconsistency (see note)."
+  },
+  "Sheldon \"Mailman\" Jones": {
+   "votes": [
+    {
+     "bill": "834 Riverside Drive: select Apogee Real Estate Partners as top-ranked developer",
+     "what": "The commission (acting with the CRA) approved the Riverside Review Committee's top-ranked developer, Apogee Real Estate Partners, and authorized negotiating the sale and development of the property.",
+     "vote": "Yea",
+     "date": "2023-05-15",
+     "chamber": "City Commission",
+     "result": "passed 4-1",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2023/05152023%20html%20files/05152023%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Jones moved, Williams seconded. Nay: Smith."
+    },
+    {
+     "bill": "Palmetto Sports Complex: proceed to design and ITB/RFP (14th Ave W & 9th St W)",
+     "what": "The commission approved moving ahead with engineering and construction plans and an ITB/RFP for a sports complex with courts, trail, parking and restrooms, with final design to return to the commission first.",
+     "vote": "Yea",
+     "date": "2023-05-15",
+     "chamber": "City Commission",
+     "result": "passed 4-1",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2023/05152023%20html%20files/05152023%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Jones moved, Williams seconded. Nay: Smith."
+    },
+    {
+     "bill": "Ordinance 2023-04: Comprehensive Plan text amendments on density/intensity calculation",
+     "what": "The commission adopted comprehensive plan text amendments clarifying how maximum density and intensity are calculated for future land use categories.",
+     "vote": "Nay",
+     "date": "2023-08-21",
+     "chamber": "City Commission",
+     "result": "passed 3-2",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2023/08212023%20html%20files/08212023%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Williams moved, Cornwell seconded. Nays: Smith and Jones."
+    },
+    {
+     "bill": "Resolution 2023-18: rescind 1943 resolution on use of property as a cemetery",
+     "what": "The commission adopted a resolution rescinding an unnamed October 5, 1943 resolution on use of property as a cemetery (pulled from the consent agenda).",
+     "vote": "Nay",
+     "date": "2023-08-21",
+     "chamber": "City Commission",
+     "result": "passed 3-2",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2023/08212023%20html%20files/08212023%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Williams moved, Cornwell seconded. Nays: Jones and Smith."
+    },
+    {
+     "bill": "Shorten agenda delivery from 10 days to 5 days before meetings",
+     "what": "The commission voted to have agendas in commissioners' hands 5 days instead of 10 before a meeting.",
+     "vote": "Nay",
+     "date": "2023-11-06",
+     "chamber": "City Commission",
+     "result": "passed 3-2",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2023/11062023%20html%20files/11062023%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Williams moved, Cornwell seconded. Nays: Jones and Smith. Minutes record Jones saying 10 days gives the commission and public ample time to review. Jones was Vice-Mayor at this meeting."
+    },
+    {
+     "bill": "Ordinance 2023-05: planned development code amendments (Chapters 8, 9, 10)",
+     "what": "The commission adopted zoning code changes for development plans and planned developments.",
+     "vote": "Nay",
+     "date": "2024-03-04",
+     "chamber": "City Commission",
+     "result": "passed 3-2",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2024/03042024%20html%20files/03042024%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Joiner moved, Cornwell seconded. Nays: Smith and Jones."
+    },
+    {
+     "bill": "Remove November 4, 2024 meeting from the schedule",
+     "what": "The commission voted to cancel the November 4, 2024 regular meeting (the day before the general election).",
+     "vote": "Yea",
+     "date": "2024-08-12",
+     "chamber": "City Commission",
+     "result": "passed 4-1",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2024/08122024%20html%20files/08122024%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Smith moved, Jones seconded. Nay: Williams."
+    },
+    {
+     "bill": "Appoint Rowena Young-Gopie as CRA Director and approve consultant agreement with Edward Johnson",
+     "what": "The commission appointed a new CRA Director for a term ending January 2025 and approved a consultant agreement keeping the interim director as consultant.",
+     "vote": "Yea",
+     "date": "2024-09-09",
+     "chamber": "City Commission",
+     "result": "passed 3-2",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2024/09092024%20html%20files/09092024%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Jones made the main motion, Williams seconded. Nays: Smith and Cornwell."
+    },
+    {
+     "bill": "Raise CRA Director salary to match other department heads (secondary motion)",
+     "what": "Jones moved to adjust the new CRA Director's salary to match other department heads; the motion failed.",
+     "vote": "Yea",
+     "date": "2024-09-09",
+     "chamber": "City Commission",
+     "result": "failed 2-3",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2024/09092024%20html%20files/09092024%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Jones moved, Smith seconded. Nays: Joiner, Cornwell, Williams."
+    },
+    {
+     "bill": "Unsolicited proposal from Gray Property Group (move forward under s. 255.065)",
+     "what": "Williams moved to proceed with Gray Property Group's unsolicited proposal; the motion failed. Jones then moved to defer it, which passed 5-0.",
+     "vote": "Nay",
+     "date": "2024-09-09",
+     "chamber": "City Commission",
+     "result": "failed 2-3",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2024/09092024%20html%20files/09092024%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Nays: Smith, Cornwell, Jones. Jones moved (Cornwell seconded) the follow-up motion to defer, passed 5-0."
+    },
+    {
+     "bill": "Altier purchase agreement (sales contract with Bradford Baker)",
+     "what": "The commission approved a sales contract with developer Bradford Baker; staff said approval covered the contract only.",
+     "vote": "Nay",
+     "date": "2024-10-21",
+     "chamber": "City Commission",
+     "result": "passed 3-2",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2024/10212024%20html%20files/10212024%20City%20Commission%20Meeting%20Minutes_exphtml.html",
+     "note": "Nays: Smith and Jones."
+    },
+    {
+     "bill": "FY2025 final millage (Res 2024-23) and final budget (Res 2024-24)",
+     "what": "The commission adopted the FY2025 final millage and final budget.",
+     "vote": "Yea",
+     "date": "2024-09-23",
+     "chamber": "City Commission",
+     "result": "passed 5-0 (each)",
+     "url": "http://docsonline.palmettofl.org/palmetto//audio/commission/2024/09232024%20html%20files/09232024%20City%20Commission%20Meeting%20Minutes_exphtml_wmp.html",
+     "note": "Unanimous 5-0 with Jones present and listed as Commissioner-at-Large 1."
+    }
+   ],
+   "gaps": "Reviewed City of Palmetto commission minutes (docsonline.palmettofl.org) for 2023 and 2024 only; did not open 2021-2022 minutes, so any votes before 2023 are not included, and the exact start/end dates of his term were not verified from a source (minutes show him as Vice-Mayor, Commissioner-at-Large 1, in Nov 2023 and as Commissioner-at-Large 1 in Sept 2024; Scott Whitaker holds At-Large 1 by Jan 2025). No news coverage was opened. Several items were 3-2 or 4-1 votes where his vote is named or he moved/seconded; unanimous votes are listed only for the FY2025 budget."
+  }
+ }
+}

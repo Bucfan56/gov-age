@@ -1,0 +1,337 @@
+{
+ "Alachua": {
+  "web": "https://www.votealachua.gov",
+  "phone": "352-374-5252",
+  "addr": "515 N. Main St., Suite 300 Gainesville, FL 32601"
+ },
+ "Baker": {
+  "web": "https://votebakerfl.gov",
+  "phone": "904-259-6339",
+  "addr": "32 North 5th Street, Suite A"
+ },
+ "Bay": {
+  "web": "https://www.bayvotesfl.gov",
+  "phone": "850-784-6100",
+  "addr": "830 West 11th Street Panama City, FL 32401"
+ },
+ "Bradford": {
+  "web": "https://www.votebradfordfl.gov",
+  "phone": "904-966-6266",
+  "addr": "945 N. Temple Ave. Suite C"
+ },
+ "Brevard": {
+  "web": "https://www.votebrevard.gov",
+  "phone": "321-290-8683",
+  "addr": "2725 Judge Fran Jamieson Way, Bldg C Melbourne, FL 32940"
+ },
+ "Broward": {
+  "web": "https://www.browardvotes.gov",
+  "phone": "954-357-7050",
+  "addr": "4650 NW 21st Avenue Fort Lauderdale, FL 33309"
+ },
+ "Calhoun": {
+  "web": "https://www.votecalhounfl.gov",
+  "phone": "850-674-8568",
+  "addr": "20859 Central Avenue E., Room 117 Blountstown, FL 32424"
+ },
+ "Charlotte": {
+  "web": "https://www.soecharlottecountyfl.gov",
+  "phone": "941-833-5400",
+  "addr": "226 Taylor Street, Unit 120 Punta Gorda, FL 33950"
+ },
+ "Citrus": {
+  "web": "https://www.votecitrus.gov",
+  "phone": "352-564-7120",
+  "addr": "1500 N. Meadowcrest Blvd., Crystal River, FL Lecanto, FL 34429"
+ },
+ "Clay": {
+  "web": "https://www.clayelections.gov",
+  "phone": "904-269-6350",
+  "addr": "500 N. Orange Ave."
+ },
+ "Collier": {
+  "web": "https://www.CollierVotes.gov",
+  "phone": "239-252-8683",
+  "addr": "3750 Enterprise Avenue Naples, FL 34104"
+ },
+ "Columbia": {
+  "web": "https://www.votecolumbiafl.gov",
+  "phone": "386-758-1026",
+  "addr": "971 W. Duval Street, Suite 102 Lake City, FL 32055"
+ },
+ "Miami-Dade": {
+  "web": "https://www.votemiamidade.gov/",
+  "phone": "305-499-8683",
+  "addr": "2700 NW 87th Avenue Miami, FL 33172"
+ },
+ "DeSoto": {
+  "web": "https://www.votedesotofl.gov",
+  "phone": "863-993-4871",
+  "addr": "201 E. Oak Street, Suite 104 Arcadia, FL 34266"
+ },
+ "Dixie": {
+  "web": "https://www.dixievotes.com",
+  "phone": "352-498-1216",
+  "addr": "229 NE 351 Hwy., Suite A"
+ },
+ "Duval": {
+  "web": "https://www.duvalelections.com",
+  "phone": "904-255-8683",
+  "addr": "105 E. Monroe Street Jacksonville, FL 32202"
+ },
+ "Escambia": {
+  "web": "https://escambiavotes.gov",
+  "phone": "850-595-3900",
+  "addr": "213 Palafox Place, 2nd Floor Pensacola, FL 32502"
+ },
+ "Flagler": {
+  "web": "https://www.flaglerelections.gov",
+  "phone": "386-313-4170",
+  "addr": "1769 E. Moody Blvd., Bldg. 2, Suite 101"
+ },
+ "Franklin": {
+  "web": "https://www.votefranklinfl.gov",
+  "phone": "850-653-9520",
+  "addr": "47 Avenue F Apalachicola, FL 32320"
+ },
+ "Gadsden": {
+  "web": "https://www.gadsdensoefl.gov",
+  "phone": "850-627-9910",
+  "addr": "16 S. Madison Street Quincy, FL 32351"
+ },
+ "Gilchrist": {
+  "web": "https://www.votegilchrist.com",
+  "phone": "352-463-3194",
+  "addr": "112 S. Main Street, Room 137 Trenton, FL 32693"
+ },
+ "Glades": {
+  "web": "https://www.voteglades.gov",
+  "phone": "863-946-6005",
+  "addr": "998 S. U.S. Hwy. 27"
+ },
+ "Gulf": {
+  "web": "https://www.votegulf.gov",
+  "phone": "850-229-6117",
+  "addr": "401 Long Avenue Port St. Joe, FL 32456"
+ },
+ "Hamilton": {
+  "web": "https://www.hamiltonvotesFL.gov",
+  "phone": "386-792-1426",
+  "addr": "1153 US Hwy 41 NW, Suite 1 Jasper, FL 32052"
+ },
+ "Hardee": {
+  "web": "https://hardeeflvotes.gov",
+  "phone": "863-773-6061",
+  "addr": "131 K.D. Revell Road Wauchula, FL 33873"
+ },
+ "Hendry": {
+  "web": "https://www.hendryelections.gov",
+  "phone": "863-675-5230",
+  "addr": "25 E. Hickpochee Avenue LaBelle, FL 33935"
+ },
+ "Hernando": {
+  "web": "https://www.hernandovotes.gov",
+  "phone": "352-754-4125",
+  "addr": "16264 Spring Hill Drive Brooksville, FL 34604"
+ },
+ "Highlands": {
+  "web": "https://www.votehighlands.gov/",
+  "phone": "863-402-6655",
+  "addr": "580 S. Commerce Ave, Room A201 Sebring, FL 33870 PO Drawer 3448 Sebring, FL 33871 -3448"
+ },
+ "Hillsborough": {
+  "web": "https://www.votehillsborough.gov",
+  "phone": "813-744-5900",
+  "addr": "2514 N. Falkenburg Rd. Tampa, FL 33619"
+ },
+ "Holmes": {
+  "web": "https://www.holmeselectionsfl.gov",
+  "phone": "850-547-1107",
+  "addr": "201 N. Oklahoma Street, Ste 102 Bonifay, FL 32425"
+ },
+ "Indian River": {
+  "web": "https://www.voteindianriver.gov",
+  "phone": "772-226-4700",
+  "addr": "4375 43rd Avenue Vero Beach, FL 32967"
+ },
+ "Jackson": {
+  "web": "https://www.votejacksonfl.gov",
+  "phone": "850-482-9652",
+  "addr": "2851 Jefferson Street Marianna, FL 32448"
+ },
+ "Jefferson": {
+  "web": "https://www.jeffersonvotesfl.gov",
+  "phone": "850-997-3348",
+  "addr": "1175 W. Washington Street Monticello, FL 32344"
+ },
+ "Lafayette": {
+  "web": "https://www.lafayettevotes.net",
+  "phone": "386-294-1261",
+  "addr": "120 W. Main Street, Room 129"
+ },
+ "Lake": {
+  "web": "https://www.lakevotes.gov",
+  "phone": "352-343-9734",
+  "addr": "1898 E. Burleigh Blvd."
+ },
+ "Lee": {
+  "web": "https://www.lee.vote",
+  "phone": "239-533-8683",
+  "addr": "2480 Thompson Street Fort Myers, FL 33901"
+ },
+ "Leon": {
+  "web": "https://www.leonvotes.gov",
+  "phone": "850-606-8683",
+  "addr": "2990-1 Apalachee Parkway Tallahassee, FL 32301"
+ },
+ "Levy": {
+  "web": "https://www.votelevy.com",
+  "phone": "352-486-5163",
+  "addr": "421 S. Court Street Bronson, FL 32621"
+ },
+ "Liberty": {
+  "web": "https://libertycountyflsoe.gov/",
+  "phone": "850-643-5226",
+  "addr": "10818 NW SR 20"
+ },
+ "Madison": {
+  "web": "https://www.votemadison.com",
+  "phone": "850-973-6507",
+  "addr": "239 SW Pinckney St. Madison, FL 32340"
+ },
+ "Manatee": {
+  "web": "https://www.votemanatee.gov",
+  "phone": "941-741-3823",
+  "addr": "600 301 Blvd. W., Ste 108 Bradenton, FL 34205"
+ },
+ "Monroe": {
+  "web": "https://votemonroeflkeys.gov",
+  "phone": "305-292-3416",
+  "addr": "5200 College Road Key West, FL 33040"
+ },
+ "Marion": {
+  "web": "https://votemarion.gov",
+  "phone": "352-620-3290",
+  "addr": "981 NE 16th Street Ocala, FL 34470"
+ },
+ "Martin": {
+  "web": "https://www.martinvotes.gov",
+  "phone": "772-288-5637",
+  "addr": "135 SE Martin Luther King, Jr. Blvd. Stuart, FL 34994"
+ },
+ "Nassau": {
+  "web": "https://www.votenassaufl.gov/",
+  "phone": "904-491-7500",
+  "addr": "96135 Nassau Place, Ste 3 Yulee, FL 32097"
+ },
+ "Okaloosa": {
+  "web": "https://www.voteokaloosa.gov",
+  "phone": "850-689-5600",
+  "addr": "302 N. Wilson St., Ste 102 Crestview, FL 32536"
+ },
+ "Okeechobee": {
+  "web": "https://www.voteokeechobee.gov",
+  "phone": "863-763-4014",
+  "addr": "307 NW 5th Ave Okeechobee, FL 34972"
+ },
+ "Orange": {
+  "web": "https://www.voteorangefl.gov",
+  "phone": "407-836-2070",
+  "addr": "119 West Kaley Street Orlando, FL 32806"
+ },
+ "Osceola": {
+  "web": "https://www.voteosceola.gov",
+  "phone": "407-742-6000",
+  "addr": "2509 E. Irlo Bronson Memorial Hwy Kissimmee, FL 34744"
+ },
+ "Palm Beach": {
+  "web": "https://www.votepalmbeach.gov",
+  "phone": "561-656-6200",
+  "addr": "4301 Cherry Road West Palm Beach, FL 33409"
+ },
+ "Pasco": {
+  "web": "https://www.pascovotes.gov",
+  "phone": "800-851-8754",
+  "addr": "14236 6th Street, Ste 200 Dade City, FL 33523"
+ },
+ "Pinellas": {
+  "web": "https://www.votepinellas.gov",
+  "phone": "727-464-8683",
+  "addr": "13001 Starkey Road Largo, FL 33773"
+ },
+ "Polk": {
+  "web": "https://www.polkelections.gov",
+  "phone": "863-534-5888",
+  "addr": "250 S. Broadway Avenue Bartow, FL 33830"
+ },
+ "Putnam": {
+  "web": "https://www.voteputnamflorida.gov/",
+  "phone": "386-329-0224",
+  "addr": "2509 Crill Ave, Ste 900 Palatka, FL 32177"
+ },
+ "Santa Rosa": {
+  "web": "https://www.votesantarosa.gov",
+  "phone": "850-983-1900",
+  "addr": "6495 Caroline Street, Ste F Milton, FL 32570"
+ },
+ "Sarasota": {
+  "web": "https://www.sarasotavotes.gov",
+  "phone": "941-861-8600",
+  "addr": "101 S. Washington Blvd. Sarasota, FL 34236"
+ },
+ "Seminole": {
+  "web": "https://www.voteseminole.gov",
+  "phone": "407-585-8683",
+  "addr": "1500 E. Airport Blvd. Sanford, FL 32773"
+ },
+ "St. Johns": {
+  "web": "https://www.votesjc.gov",
+  "phone": "904-823-2238",
+  "addr": "4455 Avenue A, Ste 101 St. Augustine, FL 32095"
+ },
+ "St. Lucie": {
+  "web": "https://www.stlucievotes.gov",
+  "phone": "772-462-1500",
+  "addr": "4132 Okeechobee Rd. Fort Pierce, FL 34947"
+ },
+ "Sumter": {
+  "web": "https://elections.sumtercountyfl.gov",
+  "phone": "352-569-1540",
+  "addr": "7375 Powell Road, Ste 125 Wildwood, FL 34785"
+ },
+ "Suwannee": {
+  "web": "https://www.suwanneevotes.com",
+  "phone": "386-362-2616",
+  "addr": "302 Pine Avenue, SW Live Oak, FL 32064"
+ },
+ "Taylor": {
+  "web": "https://www.taylorelectionsfl.gov",
+  "phone": "850-838-3515",
+  "addr": "433 U.S. 19 N. Perry, FL 32347"
+ },
+ "Union": {
+  "web": "https://www.unionflvotes.com",
+  "phone": "386-496-2236",
+  "addr": "175 W. Main Street Lake Butler, FL 32054"
+ },
+ "Volusia": {
+  "web": "https://VolusiaElections.gov",
+  "phone": "386-736-5930",
+  "addr": "1588 N Woodland Blvd. DeLand, FL 32720"
+ },
+ "Wakulla": {
+  "web": "https://www.wakullavotes.gov/",
+  "phone": "850-926-7575",
+  "addr": "3115-B Crawfordville Hwy Crawfordville, FL 32327"
+ },
+ "Walton": {
+  "web": "https://www.votewalton.gov",
+  "phone": "850-892-8112",
+  "addr": "571 US Hwy 90 E., Ste. 102 DeFuniak Springs, FL 32433"
+ },
+ "Washington": {
+  "web": "https://www.wcsoe.gov",
+  "phone": "850-638-6230",
+  "addr": "1424 Jackson Ave., Ste C Chipley, FL 32428"
+ }
+}

@@ -1,0 +1,5700 @@
+{
+ "updated": "2026-11-03T14:54:32.960Z",
+ "done": true,
+ "platform": {
+  "who": "James Fishback",
+  "summary": "Fishback ran in the 2026 Republican primary for Florida governor on a 'Florida is full / Florida first' affordability and land-protection message: ban data centers statewide, abolish homestead property taxes for residents, keep Wall Street and out-of-state money from buying Florida homes, and end the H-1B 'scam'. He also ran as the anti-donor, anti-developer candidate (he refuses foreign-affiliated money and says rivals want to 'pave over every inch' of Florida) on top of a conventional conservative base (pro-life, Second Amendment, backing police, school choice).",
+  "planks": [
+   {
+    "id": "stop-data-centers",
+    "title": "Ban data centers statewide",
+    "promise": "Ban AI/hyperscale data centers in all 67 counties through statewide preemption of county approvals, to protect farmland, water and electric bills.",
+    "tells_for": "Votes or stated positions to ban, put a moratorium on, or preempt data-center approvals; opposing data-center rezonings on farmland/ag land; refusing data-center-industry money.",
+    "tells_against": "Votes to approve or fast-track a data center, rezone ag land for one, or give it tax breaks; campaigning on attracting data centers/AI infrastructure.",
+    "sources": [
+     "https://fishback2026.com/platform/",
+     "https://www.semafor.com/article/11/24/2025/james-fishbacks-running-pitch-for-governor-florida-is-full"
+    ]
+   },
+   {
+    "id": "end-homestead-tax",
+    "title": "Eliminate homestead property taxes",
+    "promise": "Eliminate property taxes on Florida residents' homesteads (not snowbirds, Airbnb owners or mega-estates), paid for by rolling local government spending back to 2021 levels.",
+    "tells_for": "Votes for homestead exemption increases, assessment caps or abolition (e.g. the 2026 Save Our Homes amendment); pledges to cut or end homestead taxes; pledges to cut local spending/millage.",
+    "tells_against": "Votes or statements for raising millage or property taxes; opposing homestead tax relief; defending local government revenue growth.",
+    "sources": [
+     "https://fishback2026.com/platform/",
+     "https://www.wptv.com/news/politics/james-fishback-launches-2026-bid-to-become-floridas-next-governor"
+    ]
+   },
+   {
+    "id": "land-for-floridians",
+    "title": "Florida homes and land for Floridians",
+    "promise": "Ban private equity/Wall Street firms from buying single-family homes (and force divestment of the 117,000 they own), tax out-of-state vacation-home buyers $50,000, and keep foreign adversaries from owning Florida land.",
+    "tells_for": "Supporting limits on institutional or foreign buyers of homes and land (e.g. SB 264 foreign-land limits); proposing taxes or caps on out-of-state/investor purchases.",
+    "tells_against": "Opposing limits on corporate/foreign land buying; courting institutional or foreign real-estate capital.",
+    "sources": [
+     "https://fishback2026.com/platform/",
+     "https://wrenews.com/investor-james-fishback-announces-bid-for-governor-of-florida-with-pledge-to-end-property-taxes/"
+    ]
+   },
+   {
+    "id": "slow-growth-protect-land",
+    "title": "Slow growth, protect land and water",
+    "promise": "Develop 'slower and smarter', stop overdevelopment that 'paves over every inch' of Florida, continue Everglades restoration and conserve state parks and waterways ('Florida is full').",
+    "tells_for": "Votes or statements to hold or tighten the urban growth boundary, require approvals for large developments, deny rezonings of farmland/open space, fund conservation/Everglades; refusing developer money.",
+    "tells_against": "Votes to expand the urban boundary, waive development oversight, preempt local growth limits, approve large developer land deals over resident objections; heavy developer funding.",
+    "sources": [
+     "https://fishback2026.com/platform/",
+     "https://www.semafor.com/article/11/24/2025/james-fishbacks-running-pitch-for-governor-florida-is-full",
+     "https://wrenews.com/investor-james-fishback-announces-bid-for-governor-of-florida-with-pledge-to-end-property-taxes/"
+    ]
+   },
+   {
+    "id": "workers-first",
+    "title": "Florida workers first: end H-1B",
+    "promise": "End the H-1B 'scam' with fines that wipe out any savings from replacing a Florida worker, keep H-1B workers off state contracts, raise foreign-student tuition, and back strong immigration enforcement and deportations.",
+    "tells_for": "Votes or statements for state cooperation with federal immigration enforcement, E-Verify, detention of criminal illegal immigrants, limiting H-1B/guest-worker displacement of Americans.",
+    "tells_against": "Votes or statements against immigration-enforcement bills; defending H-1B/guest-worker expansion or sanctuary-style policies.",
+    "sources": [
+     "https://fishback2026.com/platform/",
+     "https://www.semafor.com/article/11/24/2025/james-fishbacks-running-pitch-for-governor-florida-is-full"
+    ]
+   },
+   {
+    "id": "clean-money",
+    "title": "No foreign or big-donor money",
+    "promise": "Refuse contributions from foreign-affiliated groups (naming AIPAC) and run against donor capture: calls frontrunner Byron Donalds a 'slave' to donors and says he does not need $100 million to run.",
+    "tells_for": "Stated pledges to refuse foreign-linked, corporate-PAC, developer or out-of-state big-donor money; small-dollar funded campaigns.",
+    "tells_against": "Documented reliance on developer, foreign-linked or mega-donor/PAC money; stated openness to it.",
+    "sources": [
+     "https://floridaphoenix.com/2025/12/03/gop-gubernatorial-candidate-james-fishback-campaigns-on-the-message-that-florida-is-our-home/",
+     "https://www.wflx.com/2025/11/24/james-fishback-launches-run-florida-governor-calls-byron-donalds-slave-donors/"
+    ]
+   },
+   {
+    "id": "back-police-order",
+    "title": "Back police, restore order",
+    "promise": "Raise pay and restore a pension COLA (and 20-year retirement) for law enforcement and corrections officers, end teen takeovers with felony charges, surge state resources on homelessness, and remove prosecutors who refuse to prosecute.",
+    "tells_for": "Votes or positions raising penalties for rioting/disorder, funding or improving pay/pensions for officers, supporting police, tough-on-crime prosecution.",
+    "tells_against": "Votes cutting officer pensions/benefits; opposing penalties for public disorder; defund-style positions.",
+    "sources": [
+     "https://fishback2026.com/platform/"
+    ]
+   },
+   {
+    "id": "second-amendment",
+    "title": "Defend the Second Amendment",
+    "promise": "Eliminate Red Flag laws, end the war on suppressors/bump stocks/FRTs, and repeal the 2018 law that raised the long-gun purchase age to 21; also pull Flock cameras and stop Palantir contracts.",
+    "tells_for": "Votes for permitless carry, stand-your-ground, against the 2018 post-Parkland gun law, against red-flag laws; pledges to oppose new gun restrictions.",
+    "tells_against": "Votes for the 2018 age-21/waiting-period law, red-flag laws, assault-weapon or magazine limits.",
+    "sources": [
+     "https://fishback2026.com/platform/"
+    ]
+   },
+   {
+    "id": "pro-life",
+    "title": "Pro-life, no exceptions",
+    "promise": "Life begins at conception; shut down Florida's abortion clinics and replace them with crisis pregnancy centers, plus paid maternity leave.",
+    "tells_for": "Votes or statements for the 6-week or 15-week bans, waiting periods or other abortion restrictions; support for pregnancy centers.",
+    "tells_against": "Votes or statements against abortion restrictions; support for abortion-access measures.",
+    "sources": [
+     "https://fishback2026.com/platform/"
+    ]
+   },
+   {
+    "id": "school-choice-teachers",
+    "title": "School choice and teacher pay",
+    "promise": "Universal school choice (fund Step Up toward dollar-for-dollar parity with public schools), a Homeschool Commissioner, and a 25% raise for teachers.",
+    "tells_for": "Votes or statements for vouchers/charters/universal choice and for raising teacher pay.",
+    "tells_against": "Votes or statements against voucher/charter expansion or school-choice funding.",
+    "sources": [
+     "https://fishback2026.com/platform/"
+    ]
+   }
+  ]
+ },
+ "bill_map": {
+  "HJR 1-F (2026F)": {
+   "plank": "end-homestead-tax",
+   "yea_means": 1,
+   "why": "Amendment 3 raises the homestead exemption and lowers assessment-increase caps: a homestead property-tax cut, in the direction of Fishback's plank (though short of elimination)."
+  },
+  "SB 180 (2025)": {
+   "plank": "slow-growth-protect-land",
+   "yea_means": -1,
+   "why": "Bars local governments in storm-hit areas from adopting stricter development rules, i.e. preempts local growth limits; Fishback runs against overdevelopment. Caveat: the bill also contains legitimate emergency-management provisions."
+  },
+  "SB 2-C (2025C)": {
+   "plank": "workers-first",
+   "yea_means": 1,
+   "why": "State cooperation with federal immigration enforcement."
+  },
+  "SB 1718 (2023)": {
+   "plank": "workers-first",
+   "yea_means": 1,
+   "why": "E-Verify for larger employers plus immigration-enforcement measures."
+  },
+  "HB 675 (2016)": {
+   "plank": "workers-first",
+   "yea_means": 1,
+   "why": "Requires state/local compliance with federal immigration law; bans sanctuary policies."
+  },
+  "H.R. 29 (2025) Laken Riley Act": {
+   "plank": "workers-first",
+   "yea_means": 1,
+   "why": "Mandatory detention of undocumented immigrants charged with theft/burglary/assault of an officer; state suits over enforcement."
+  },
+  "SB 264 (2023)": {
+   "plank": "land-for-floridians",
+   "yea_means": 1,
+   "why": "Restricts land purchases near military sites and infrastructure by people from China and other countries of concern."
+  },
+  "HB 1 (2021)": {
+   "plank": "back-police-order",
+   "yea_means": 1,
+   "why": "Combating Public Disorder: raises penalties for riot-related offenses (Fishback: felony rioting for teen takeovers and mobs)."
+  },
+  "SB 2100 (2011)": {
+   "plank": "back-police-order",
+   "yea_means": -1,
+   "why": "2011 Florida Retirement System overhaul that ended the cost-of-living adjustment for service after July 1, 2011; Fishback promises to restore a COLA for officers. Medium confidence: roster text says only 'FRS changes'."
+  },
+  "SB 7026 (2018)": {
+   "plank": "second-amendment",
+   "yea_means": -1,
+   "why": "Parkland law raised the long-gun age to 21 and created a waiting period; Fishback pledges to repeal it."
+  },
+  "CS/SB 7026 (2018) Marjory Stoneman Douglas High School Public Safety Act": {
+   "plank": "second-amendment",
+   "yea_means": -1,
+   "why": "Same 2018 law Fishback pledges to repeal (age 21, waiting period)."
+  },
+  "HB 543 (2023)": {
+   "plank": "second-amendment",
+   "yea_means": 1,
+   "why": "Permitless concealed carry."
+  },
+  "SB 128 (2017)": {
+   "plank": "second-amendment",
+   "yea_means": 1,
+   "why": "Stand Your Ground burden-of-proof shift to prosecutors."
+  },
+  "CS/CS/SB 436 (2005)": {
+   "plank": "second-amendment",
+   "yea_means": 1,
+   "why": "Original Stand Your Ground law."
+  },
+  "CS/CS/HB 89 (2014)": {
+   "plank": "second-amendment",
+   "yea_means": 1,
+   "why": "Threatened-use-of-force / warning-shot self-defense law."
+  },
+  "SB 300 (2023)": {
+   "plank": "pro-life",
+   "yea_means": 1,
+   "why": "Six-week abortion ban."
+  },
+  "HB 5 (2022)": {
+   "plank": "pro-life",
+   "yea_means": 1,
+   "why": "15-week abortion ban (Fishback wants more, same direction)."
+  },
+  "HB 633 (2015) Informed Patient Consent": {
+   "plank": "pro-life",
+   "yea_means": 1,
+   "why": "Adds a 24-hour waiting period before an abortion."
+  },
+  "HB 1 (2023)": {
+   "plank": "school-choice-teachers",
+   "yea_means": 1,
+   "why": "Universal school-voucher eligibility."
+  },
+  "CS/HB 1331 (2011)": {
+   "plank": "school-choice-teachers",
+   "yea_means": 1,
+   "why": "School Choice bill."
+  },
+  "CS/HB 7069 (2017) Education": {
+   "plank": "school-choice-teachers",
+   "yea_means": 1,
+   "why": "Expands charter-school capital funding and options; Fishback backs charter and choice expansion."
+  },
+  "Aqua by the Bay stipulation (2020)": {
+   "plank": "slow-growth-protect-land",
+   "yea_means": -1,
+   "why": "Yea removed a county-board approval requirement on a large development once 750 units were built, i.e. waived development oversight."
+  },
+  "Override of Mayor Levine Cava's veto of the South Dade Logistics and Technology District (Nov 2022)": {
+   "plank": "slow-growth-protect-land",
+   "yea_means": -1,
+   "why": "Yea let a 378-acre industrial project outside the Urban Development Boundary proceed, over the mayor's veto."
+  },
+  "Introduction of the 99-year Terra/Frisbie 'City Center' downtown lease contract (Jan 2026)": {
+   "plank": "slow-growth-protect-land",
+   "yea_means": -1,
+   "why": "Yea advanced a 99-year developer lease of public land over residents' objections (voters later rejected it about 74% to 26%)."
+  }
+ },
+ "candidates": {
+  "Jose Javier Rodriguez": {
+   "score": null,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Campaign platform says to protect public and conservation land.",
+     "url": ""
+    }
+   }
+  },
+  "James Uthmeier": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Credited as architect of the Alligator Alcatraz immigration detention site and enforces state immigration law as Attorney General.",
+     "url": ""
+    }
+   }
+  },
+  "Joey Mendoza Atkins": {
+   "score": 67,
+   "planks": {
+    "stop-data-centers": {
+     "match": 1,
+     "evidence": "Calls for a statewide moratorium and says he will fight to block and ban data centers.",
+     "url": "https://www.wlrn.org/government-politics/2026-10-27/what-to-know-florida-agriculture-commissioner-race"
+    },
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Pledges to protect farmland from predatory developers and to close the 'rent-a-cow' Greenbelt tax loophole.",
+     "url": "https://www.wlrn.org/government-politics/2026-10-27/what-to-know-florida-agriculture-commissioner-race"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Criticizes the effect of federal immigration raids on farm communities and has done legal aid for migrant farmworkers and DACA recipients.",
+     "url": "https://www.wlrn.org/government-politics/2026-10-27/what-to-know-florida-agriculture-commissioner-race"
+    }
+   }
+  },
+  "Wilton Simpson": {
+   "score": 100,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Cabinet approved easements protecting nearly 175,000 acres of working land from development, including a 1,042-acre Manatee County ranch in June 2026; Wildlife Corridor Act; Everglades funding.",
+     "url": "https://wiltonsimpson.com/environment/"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Record lists a law banning China and other hostile foreign nations from purchasing Florida land.",
+     "url": "https://wiltonsimpson.com/record/"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Calls himself 100% pro-life and fought for the 15-week abortion ban and parental consent.",
+     "url": "https://wiltonsimpson.com/families/"
+    },
+    "back-police-order": {
+     "match": 1,
+     "evidence": "Record: strengthened penalties for violent riots, backed by sheriffs and the Florida PBA.",
+     "url": "https://wiltonsimpson.com/public-safety/"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Record: worked to ban sanctuary cities and visited the border with DeSantis.",
+     "url": "https://wiltonsimpson.com/public-safety/"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Record: fought to pass the 2023 Florida Arms and Ammo Act protecting Second Amendment financial privacy.",
+     "url": "https://wiltonsimpson.com/free-florida/"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Record: ensured passage of the historic expansion of school choice as Senate President.",
+     "url": "https://wiltonsimpson.com/education/"
+    }
+   }
+  },
+  "Thomas Schwarz": {
+   "score": null,
+   "planks": {}
+  },
+  "Kemp Schuessler": {
+   "score": null,
+   "planks": {}
+  },
+  "Keith J. Green": {
+   "score": null,
+   "planks": {
+    "back-police-order": {
+     "match": 1,
+     "evidence": "Pledges to support the Police and Fire Chiefs' budgets; endorsed by Fraternal Order of Police Lodge 70.",
+     "url": "https://www.votekeithgreen.com/"
+    }
+   }
+  },
+  "Lisa Gonzalez Moore": {
+   "score": null,
+   "planks": {}
+  },
+  "Reggie Bellamy": {
+   "score": null,
+   "planks": {}
+  },
+  "Tara Poulton": {
+   "score": 100,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Supports the November homestead property-tax measure (Amendment 3), saying the county would have to do more with less.",
+     "url": "https://www.tampabaybeacons.com/2026/07/02/republican-candidates-vie-for-manatee-county-commission-district-6/"
+    },
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Said 'we really need to hit the brakes on growth and slow it down,' while holding developers accountable and maintaining wetland buffers.",
+     "url": "https://www.tampabaybeacons.com/2026/07/02/republican-candidates-vie-for-manatee-county-commission-district-6/"
+    }
+   }
+  },
+  "Annette Taddeo": {
+   "score": null,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Opposes the 2026 property-tax Amendment 3 (homestead exemption increase), citing lack of guardrails.",
+     "url": ""
+    }
+   }
+  },
+  "Blaise Ingoglia": {
+   "score": 100,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Supports the 2026 homestead property-tax amendment, says the goal is eventually eliminating homestead taxes, and runs Florida DOGE audits of local government spending.",
+     "url": "https://www.wcjb.com/2025/09/02/ingoglia-announces-run-florida-cfo-campaigns-florida-doge-property-tax-reform"
+    },
+    "back-police-order": {
+     "match": 1,
+     "evidence": "As a state senator sponsored a 2024 bill to abolish local civilian police review boards (research record).",
+     "url": ""
+    }
+   }
+  },
+  "David Jolly": {
+   "score": 38,
+   "planks": {
+    "stop-data-centers": {
+     "match": 1,
+     "evidence": "Proposes a day-one statewide moratorium on hyperscale data centers over water, power and community impacts.",
+     "url": "https://davidjolly.com/issues/data-centers"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Platform calls for banning assault-weapon sales, universal background checks, licensing exploration, and expanding red flag laws.",
+     "url": "https://davidjolly.com/issues"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Platform says Florida should codify the Roe/Casey abortion framework.",
+     "url": "https://davidjolly.com/issues"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Wants vouchers means-tested and held to public-school standards and dramatically more public-school funding (does back higher teacher pay).",
+     "url": "https://davidjolly.com/issues"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Platform says Florida should embrace its immigrant community and promote local control of community policing 'fighting crime, not communities' rather than state immigration enforcement.",
+     "url": "https://davidjolly.com/issues"
+    },
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Platform pledges to protect state parks and beaches, a conservation/sustainability agenda, and investment in a renewed agriculture economy.",
+     "url": "https://davidjolly.com/issues"
+    },
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Platform opposes eliminating property taxes (per the research record's reading of his platform); also pushes home rule over state preemption.",
+     "url": ""
+    },
+    "clean-money": {
+     "match": 1,
+     "evidence": "As a congressman he introduced the STOP Act to bar officials from soliciting campaign funds; his platform calls for sweeping campaign-finance and ethics reform.",
+     "url": "https://davidjolly.com/issues"
+    }
+   }
+  },
+  "Byron Donalds": {
+   "score": 67,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Platform: mandatory E-Verify for every Florida business, cut off state benefits that encourage illegal immigration, coordinate state and local police with federal authorities to deport noncitizen criminals.",
+     "url": "https://byrondonalds.com/issues/law-and-order"
+    },
+    "stop-data-centers": {
+     "match": -1,
+     "evidence": "Opposes a statewide data-center moratorium (he favors slowing new construction and says local governments can reject them), i.e. not Fishback's statewide ban.",
+     "url": ""
+    },
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Pledges to push to eliminate homestead property taxes through the Tax and Budget Reform Commission if the November amendment fails.",
+     "url": ""
+    }
+   }
+  },
+  "Scott Eckhard Jewett": {
+   "score": null,
+   "planks": {}
+  },
+  "Charles Burkett": {
+   "score": 100,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Platform: limit population growth and overdevelopment ('stop Manhattanization').",
+     "url": ""
+    },
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Platform: cut homestead taxes 10% a year for 10 years for long-term residents and renters.",
+     "url": ""
+    }
+   }
+  },
+  "Frank J. Russo": {
+   "score": 50,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Supports the property-tax amendment paired with efficiency.",
+     "url": ""
+    },
+    "stop-data-centers": {
+     "match": -1,
+     "evidence": "Supports state investment in AI/data centers (wants them to pay their own infrastructure costs).",
+     "url": ""
+    }
+   }
+  },
+  "Moliere \"Moe\" Dimanche": {
+   "score": null,
+   "planks": {}
+  },
+  "Dean Ocean Abrams": {
+   "score": 100,
+   "planks": {
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Platform: end Flock license-plate cameras (a Fishback plank item).",
+     "url": ""
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Platform: school choice and higher teacher pay.",
+     "url": ""
+    }
+   }
+  },
+  "Jeffrey Peter \"Dr. Jeff\" Datto": {
+   "score": null,
+   "planks": {}
+  },
+  "Ocean Fitts": {
+   "score": 50,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "BallotReady: wants DEP and water districts given staff and authority to enforce existing protections; opposes an 'anything, anywhere' approach to housing development.",
+     "url": "https://www.ballotready.org/people/ocean-fitts"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "BallotReady: opposes expanding private school vouchers with public tax dollars.",
+     "url": "https://www.ballotready.org/people/ocean-fitts"
+    }
+   }
+  },
+  "Jordan Varnadore": {
+   "score": null,
+   "planks": {
+    "second-amendment": {
+     "match": 1,
+     "evidence": "BallotReady: staunch supporter of the Second Amendment.",
+     "url": "https://www.ballotready.org/people/jordan-varnadore"
+    }
+   }
+  },
+  "Joseph Hoolihan": {
+   "score": 100,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "BallotReady platform: bring down the cost of keeping a home by attacking property taxes and insurance premiums.",
+     "url": "https://www.ballotready.org/people/joseph-hoolihan"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "BallotReady platform: open the door for qualified local buyers instead of out-of-state investors.",
+     "url": "https://www.ballotready.org/people/joseph-hoolihan"
+    }
+   }
+  },
+  "Mark Davis": {
+   "score": null,
+   "planks": {}
+  },
+  "Kelly Kirschner": {
+   "score": 100,
+   "planks": {
+    "stop-data-centers": {
+     "match": 1,
+     "evidence": "Platform opposes hyperscale data centers proposed in Arcadia and Fort Meade.",
+     "url": ""
+    },
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Says he blocked a developer's 10-story condo plan in a single-family neighborhood and took on developers as mayor and commissioner (his statements).",
+     "url": ""
+    },
+    "clean-money": {
+     "match": 1,
+     "evidence": "Led the 2009 Sarasota municipal campaign-finance reform described as the strongest in Florida.",
+     "url": ""
+    }
+   }
+  },
+  "Sydney Gruters": {
+   "score": 100,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Platform: tougher immigration enforcement with ICE.",
+     "url": ""
+    },
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Platform: limits on overdevelopment.",
+     "url": ""
+    }
+   }
+  },
+  "Scott Johnson": {
+   "score": null,
+   "planks": {}
+  },
+  "Rodney O'Quinn": {
+   "score": null,
+   "planks": {}
+  },
+  "Charles \"Rick\" Richards": {
+   "score": null,
+   "planks": {}
+  },
+  "Gerald Baldi": {
+   "score": null,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Platform: infrastructure first with impact studies and district approval before new home building; opposes overdevelopment and state preemption.",
+     "url": ""
+    }
+   }
+  },
+  "Jim Boyd": {
+   "score": 67,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Voted Yea on SB 180 (2025, bars stricter local development rules after storms) and Yea on HB 399 (2026 land-use preemption: administrative approval of large destination resorts).",
+     "url": ""
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Voted Yea on SB 264 (2023) restricting foreign-adversary land purchases.",
+     "url": ""
+    },
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Voted Yea on CS/HJR 1-F (June 2, 2026) raising the homestead exemption (Nov 2026 Amendment 3).",
+     "url": ""
+    }
+   }
+  },
+  "Angie Nixon": {
+   "score": null,
+   "planks": {}
+  },
+  "Ashley Moody": {
+   "score": null,
+   "planks": {
+    "pro-life": {
+     "match": 1,
+     "evidence": "As Attorney General petitioned to disqualify the 2024 abortion-rights ballot measure.",
+     "url": ""
+    }
+   }
+  },
+  "Neil J. Gillespie": {
+   "score": null,
+   "planks": {}
+  },
+  "Jacob R. Kyser": {
+   "score": null,
+   "planks": {}
+  },
+  "Derrick Warner": {
+   "score": null,
+   "planks": {}
+  },
+  "John Agnelli": {
+   "score": null,
+   "planks": {}
+  },
+  "Dana Tindall": {
+   "score": null,
+   "planks": {}
+  },
+  "Keith D. Miller": {
+   "score": null,
+   "planks": {}
+  },
+  "Billy Burke": {
+   "score": null,
+   "planks": {}
+  },
+  "Sari Lindroos-Valimaki": {
+   "score": 100,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "At a July 2026 forum said food security and farmland must be protected ('Once the land is gone, it's gone'); priorities include safeguarding wetlands and holding projects accountable.",
+     "url": "https://www.tampabaybeacons.com/2026/07/13/manatee-county-commission-district-1-candidates-discuss-traffic-growth-jobs/"
+    },
+    "stop-data-centers": {
+     "match": 1,
+     "evidence": "Opposes opening the county comprehensive plan to hyperscale AI data centers; says she does not believe Florida is the place to build one (water, grid and job concerns).",
+     "url": "https://www.tampabaybeacons.com/2026/07/13/manatee-county-commission-district-1-candidates-discuss-traffic-growth-jobs/"
+    },
+    "clean-money": {
+     "match": 1,
+     "evidence": "Said at the forum she has not knowingly accepted money from developers and that many donations are small.",
+     "url": "https://www.tampabaybeacons.com/2026/07/13/manatee-county-commission-district-1-candidates-discuss-traffic-growth-jobs/"
+    }
+   }
+  },
+  "Elizabeth \"Liz\" Arnold": {
+   "score": 100,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Said the county has 'a lot of overdevelopment' with 65,000 homes in the pipeline and suggested pausing new projects; her advocacy helped stop subdivisions and save a canopy road.",
+     "url": "https://www.tampabaybeacons.com/2026/07/13/manatee-county-commission-district-1-candidates-discuss-traffic-growth-jobs/"
+    },
+    "clean-money": {
+     "match": 1,
+     "evidence": "Funded her campaign with $12,000 of her own money, returned a check from a political action committee, and took one $50 out-of-state contribution.",
+     "url": "https://www.tampabaybeacons.com/2026/07/13/manatee-county-commission-district-1-candidates-discuss-traffic-growth-jobs/"
+    }
+   }
+  },
+  "Charles B. Smith Sr": {
+   "score": 100,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Said the current commission is 'set up for building, building, building' and 'destroying the environment' and accused Ballard of siding with Mosaic against the environment.",
+     "url": "https://www.tampabaybeacons.com/2026/07/13/candidates-clash-over-homelessness-environment-port-then-over-one-another/"
+    },
+    "clean-money": {
+     "match": 1,
+     "evidence": "Said he put $6,000 of his own money in and is not accepting 'any money from anyone at all.'",
+     "url": "https://www.tampabaybeacons.com/2026/07/13/candidates-clash-over-homelessness-environment-port-then-over-one-another/"
+    }
+   }
+  },
+  "Amanda Ballard": {
+   "score": 0,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Net negative record: voted Oct 2023 to cut wetland buffers to state minimums (restored in 2025) and Feb 2026 for a 14-year Mosaic mine plan extension, offset partly by leading the Mixon Fruit Farms land purchase (per research record).",
+     "url": "https://www.tampabaybeacons.com/2026/07/13/candidates-clash-over-homelessness-environment-port-then-over-one-another/"
+    },
+    "clean-money": {
+     "match": -1,
+     "evidence": "Said her donors include two affordable-housing developers (she says contributions do not control her votes).",
+     "url": "https://www.tampabaybeacons.com/2026/07/13/candidates-clash-over-homelessness-environment-port-then-over-one-another/"
+    }
+   }
+  },
+  "Michael Owen": {
+   "score": 50,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Voted Yea on SB 180 (2025) and Yea on HB 399 (2026 land-use and development preemption).",
+     "url": ""
+    },
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Voted Yea on CS/HJR 1-F (June 2026), putting the homestead exemption increase on the Nov 2026 ballot.",
+     "url": ""
+    }
+   }
+  },
+  "Luther Keith Wilkins": {
+   "score": null,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Chamber questionnaire: supports strengthening land-use rules and protecting habitats.",
+     "url": ""
+    }
+   }
+  },
+  "Sunshine Joiner": {
+   "score": null,
+   "planks": {}
+  },
+  "Sheldon \"Mailman\" Jones": {
+   "score": null,
+   "planks": {}
+  },
+  "Sharon Jefferson": {
+   "score": null,
+   "planks": {}
+  },
+  "Cindy Spray": {
+   "score": null,
+   "planks": {
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Supports charter schools (11,267 charter students in the county).",
+     "url": ""
+    }
+   }
+  },
+  "Adam Bailey": {
+   "score": null,
+   "planks": {}
+  },
+  "Kyle Baber": {
+   "score": null,
+   "planks": {}
+  },
+  "Frank Sacca": {
+   "score": null,
+   "planks": {}
+  },
+  "Bruce R. Stolarz": {
+   "score": null,
+   "planks": {}
+  },
+  "William John Hathaway": {
+   "score": null,
+   "planks": {}
+  },
+  "Leah Ogren": {
+   "score": null,
+   "planks": {}
+  },
+  "James P. Casement": {
+   "score": null,
+   "planks": {}
+  },
+  "Kevin G. Gagne": {
+   "score": null,
+   "planks": {}
+  },
+  "Joyce Lynn Calderon": {
+   "score": null,
+   "planks": {}
+  },
+  "Marko Krstic": {
+   "score": null,
+   "planks": {}
+  },
+  "Tracy Joniec": {
+   "score": null,
+   "planks": {}
+  },
+  "Mike Lamb": {
+   "score": null,
+   "planks": {}
+  },
+  "Tony Beazley": {
+   "score": null,
+   "planks": {}
+  },
+  "Victor G. Colombo": {
+   "score": null,
+   "planks": {}
+  },
+  "Nancy Quinn": {
+   "score": null,
+   "planks": {}
+  },
+  "Grace Russolillo": {
+   "score": null,
+   "planks": {}
+  },
+  "Jonathan Dayton": {
+   "score": null,
+   "planks": {}
+  },
+  "Bill Mariotti": {
+   "score": null,
+   "planks": {}
+  },
+  "Arthur Taber": {
+   "score": null,
+   "planks": {}
+  },
+  "Tryn Stimart": {
+   "score": null,
+   "planks": {}
+  },
+  "Henry N. White Jr": {
+   "score": null,
+   "planks": {}
+  },
+  "Angela Albrecht": {
+   "score": null,
+   "planks": {}
+  },
+  "Michael A. Conner": {
+   "score": null,
+   "planks": {}
+  },
+  "Sandra K. Freas": {
+   "score": null,
+   "planks": {}
+  },
+  "Jack A. Knisley Jr": {
+   "score": null,
+   "planks": {}
+  },
+  "Frank John Loviglio": {
+   "score": null,
+   "planks": {}
+  },
+  "Jackie Petrovich": {
+   "score": null,
+   "planks": {}
+  },
+  "Joe Stanczyk": {
+   "score": null,
+   "planks": {}
+  },
+  "Timothy Abramski": {
+   "score": null,
+   "planks": {}
+  },
+  "Judy Cummings": {
+   "score": null,
+   "planks": {}
+  },
+  "Joseph Di Bartolomeo": {
+   "score": null,
+   "planks": {}
+  },
+  "Karin Murphy": {
+   "score": null,
+   "planks": {}
+  },
+  "Eugene J. Rado": {
+   "score": null,
+   "planks": {}
+  },
+  "Carl Teisch": {
+   "score": null,
+   "planks": {}
+  },
+  "William Bjork": {
+   "score": null,
+   "planks": {}
+  },
+  "Larry Luh": {
+   "score": null,
+   "planks": {}
+  },
+  "Joseph Houlihan": {
+   "score": null,
+   "planks": {}
+  },
+  "Richard Jacobs": {
+   "score": null,
+   "planks": {}
+  },
+  "Carol Whitmore": {
+   "score": null,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Roll-call: Nay on Aqua by the Bay stipulation (2020).",
+     "url": "https://thebradentontimes.com/stories/commissioners-give-up-key-oversight-for-aqua-by-the-bay,28022"
+    }
+   }
+  },
+  "John J. Azzata": {
+   "score": null,
+   "planks": {}
+  },
+  "Mark Hebden": {
+   "score": null,
+   "planks": {}
+  },
+  "David L. Zaccagnino": {
+   "score": null,
+   "planks": {}
+  },
+  "Dan Diggins": {
+   "score": null,
+   "planks": {}
+  },
+  "Camden \"Cam\" Bedinghaus": {
+   "score": null,
+   "planks": {}
+  },
+  "Jonathan Mullis": {
+   "score": null,
+   "planks": {}
+  },
+  "Kyle L. Moore": {
+   "score": null,
+   "planks": {}
+  },
+  "Edward W. Stevens": {
+   "score": null,
+   "planks": {}
+  },
+  "Michelle Salzman": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Co-sponsored HB 543 (2023) permitless carry, signed April 3, 2023 (she was recorded Not voting on final passage).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Francesca Yabraian": {
+   "score": null,
+   "planks": {}
+  },
+  "Merrillee Malwitz Jipson": {
+   "score": null,
+   "planks": {}
+  },
+  "Marshall Rawson": {
+   "score": null,
+   "planks": {}
+  },
+  "Michael Ferguson": {
+   "score": null,
+   "planks": {}
+  },
+  "Yoni Anijar": {
+   "score": null,
+   "planks": {}
+  },
+  "Todd Delmay": {
+   "score": null,
+   "planks": {}
+  },
+  "Hillary Cassel": {
+   "score": 43,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Mike Friend": {
+   "score": null,
+   "planks": {
+    "pro-life": {
+     "match": -1,
+     "evidence": "Priorities include abortion access.",
+     "url": ""
+    }
+   }
+  },
+  "Mery Lopez-Palma": {
+   "score": null,
+   "planks": {}
+  },
+  "Robin Bartleman": {
+   "score": 0,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Imtiaz Mohammad": {
+   "score": null,
+   "planks": {}
+  },
+  "Felicia Robinson": {
+   "score": 14,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Marie Woodson": {
+   "score": 14,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Lucia Baez-Geller": {
+   "score": null,
+   "planks": {}
+  },
+  "Fabian Basabe": {
+   "score": 83,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Wallace Aristide": {
+   "score": 0,
+   "planks": {
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Wancito Francius": {
+   "score": null,
+   "planks": {}
+  },
+  "Daphne Campbell": {
+   "score": null,
+   "planks": {}
+  },
+  "James Bush III": {
+   "score": null,
+   "planks": {}
+  },
+  "Sam Garrison": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Tom Fabricio": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "David Borrero": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Alex Rizo": {
+   "score": 88,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    },
+    "back-police-order": {
+     "match": 1,
+     "evidence": "In 2021 proposed making filming police officers within 30 feet a crime.",
+     "url": ""
+    }
+   }
+  },
+  "Gloria Romero Roses": {
+   "score": null,
+   "planks": {}
+  },
+  "Bruno Barreiro": {
+   "score": null,
+   "planks": {}
+  },
+  "Demi Busatta": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Omar Blanco": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Marcos Reyes": {
+   "score": null,
+   "planks": {}
+  },
+  "Ashley Perez-Biliskov": {
+   "score": null,
+   "planks": {}
+  },
+  "Nicolas Ramos": {
+   "score": null,
+   "planks": {}
+  },
+  "Kevin Chambliss": {
+   "score": 0,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    }
+   }
+  },
+  "Miguel Granda": {
+   "score": null,
+   "planks": {}
+  },
+  "Mike Redondo": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "A.C. Castillo": {
+   "score": null,
+   "planks": {}
+  },
+  "Rey Sordo": {
+   "score": null,
+   "planks": {}
+  },
+  "Juan Porras": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Terrance Freeman": {
+   "score": null,
+   "planks": {}
+  },
+  "Benjamin Sandlin": {
+   "score": null,
+   "planks": {}
+  },
+  "Jim Mooney Jr.": {
+   "score": 83,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Audrey Gibson": {
+   "score": null,
+   "planks": {}
+  },
+  "Kimberly Daniels": {
+   "score": 0,
+   "planks": {
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Chadd Charland": {
+   "score": null,
+   "planks": {}
+  },
+  "Dean Black": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Kiyan Michael": {
+   "score": 100,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Jessica Baker": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Jacob Guerrero": {
+   "score": null,
+   "planks": {}
+  },
+  "Art Stresing": {
+   "score": null,
+   "planks": {}
+  },
+  "Kim Kendall": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Suzanna Pavelle": {
+   "score": null,
+   "planks": {}
+  },
+  "Sam Greco": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Johnny Thompson": {
+   "score": null,
+   "planks": {}
+  },
+  "Jon Fay": {
+   "score": null,
+   "planks": {}
+  },
+  "Judson Sapp": {
+   "score": 50,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Lee Butler": {
+   "score": null,
+   "planks": {}
+  },
+  "Jackie Randall": {
+   "score": null,
+   "planks": {}
+  },
+  "Amy Trask": {
+   "score": null,
+   "planks": {}
+  },
+  "Chad Johnson": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Mark Baker": {
+   "score": null,
+   "planks": {}
+  },
+  "J.J. Grow": {
+   "score": 50,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Ryan Chamberlin": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Farmer Helfrich": {
+   "score": null,
+   "planks": {}
+  },
+  "Taylor Yarkosky": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Robyn Lawrence": {
+   "score": null,
+   "planks": {}
+  },
+  "Nan Cobb": {
+   "score": 75,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Voted for HB 1517 (2025) and HB 289 (2026) allowing wrongful-death suits over abortions.",
+     "url": ""
+    }
+   }
+  },
+  "Richard Gentry": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Andy Ferrari": {
+   "score": null,
+   "planks": {}
+  },
+  "Bill Partington": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Joe Hannoush": {
+   "score": 100,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Platform: replace property tax with sales tax.",
+     "url": ""
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Platform: school funding that follows the student.",
+     "url": ""
+    }
+   }
+  },
+  "Sammy Jackson": {
+   "score": null,
+   "planks": {}
+  },
+  "Don Kanfer": {
+   "score": 33,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "News 6 questionnaire: opposes property tax elimination.",
+     "url": ""
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "News 6 questionnaire: opposes school vouchers.",
+     "url": ""
+    },
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Supports limits on sprawl.",
+     "url": ""
+    }
+   }
+  },
+  "Webster Barnaby": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Ingrid Wadsworth": {
+   "score": null,
+   "planks": {}
+  },
+  "Nathan Boyles": {
+   "score": null,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    }
+   }
+  },
+  "Chase Tramont": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Edwin Munoz": {
+   "score": 50,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Opposes eliminating property taxes.",
+     "url": ""
+    },
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Priorities: infrastructure before development; opposes blanket state preemption.",
+     "url": ""
+    }
+   }
+  },
+  "Daniel Cicirelli": {
+   "score": null,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Supports home rule and repeal of SB 180.",
+     "url": ""
+    }
+   }
+  },
+  "Matt Woodside": {
+   "score": 100,
+   "planks": {
+    "second-amendment": {
+     "match": 1,
+     "evidence": "NRA lifetime member; supports constitutional carry.",
+     "url": ""
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Supports school choice and teacher pay.",
+     "url": ""
+    }
+   }
+  },
+  "Brian Hodgers": {
+   "score": null,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    }
+   }
+  },
+  "Juan Hinojosa": {
+   "score": null,
+   "planks": {}
+  },
+  "Daniel McDow": {
+   "score": 50,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Says he voted four years in a row on West Melbourne council to lower property taxes.",
+     "url": ""
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Priorities include abortion rights.",
+     "url": ""
+    }
+   }
+  },
+  "Monique Miller": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Jordyn Balderas": {
+   "score": null,
+   "planks": {}
+  },
+  "Robert Brackett": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Eric Gray": {
+   "score": null,
+   "planks": {}
+  },
+  "Erika Booth": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Darryl Block": {
+   "score": null,
+   "planks": {}
+  },
+  "Rachel Plakon": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Jane Aman": {
+   "score": 50,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Opposes Amendment 3.",
+     "url": ""
+    },
+    "stop-data-centers": {
+     "match": 1,
+     "evidence": "Supports a data-center moratorium.",
+     "url": ""
+    }
+   }
+  },
+  "Robert Prater": {
+   "score": null,
+   "planks": {}
+  },
+  "Nik Dean": {
+   "score": null,
+   "planks": {}
+  },
+  "Emily Duda Buckley": {
+   "score": null,
+   "planks": {}
+  },
+  "Jarod Fox": {
+   "score": null,
+   "planks": {}
+  },
+  "Doug Bankson": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Patt Maney": {
+   "score": 71,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "John Emerling": {
+   "score": null,
+   "planks": {}
+  },
+  "Ra'Shon Young": {
+   "score": null,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    }
+   }
+  },
+  "Tuan Le": {
+   "score": null,
+   "planks": {}
+  },
+  "Bruce Antone": {
+   "score": 0,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Felipe Sousa Lazaballet": {
+   "score": null,
+   "planks": {}
+  },
+  "Bonnie Jackson": {
+   "score": null,
+   "planks": {}
+  },
+  "Samuel Vilchez Santiago": {
+   "score": null,
+   "planks": {}
+  },
+  "Jorge Malavet": {
+   "score": null,
+   "planks": {}
+  },
+  "Rita Harris": {
+   "score": 0,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Leonard Spencer": {
+   "score": 0,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Erin Huntley": {
+   "score": null,
+   "planks": {}
+  },
+  "Michael Cruz": {
+   "score": null,
+   "planks": {}
+  },
+  "Jose Alvarez": {
+   "score": 0,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Ivan Rivera": {
+   "score": null,
+   "planks": {}
+  },
+  "Anthony Nieves": {
+   "score": null,
+   "planks": {}
+  },
+  "Alethea Pugh": {
+   "score": null,
+   "planks": {}
+  },
+  "Jonathan Albert": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Jennifer Jonsson": {
+   "score": 50,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Robert Anzalone": {
+   "score": null,
+   "planks": {}
+  },
+  "Shane Abbott": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Alex Finney": {
+   "score": null,
+   "planks": {}
+  },
+  "Ricky Santiago": {
+   "score": null,
+   "planks": {}
+  },
+  "Jennifer Canady": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Jarvis Washington": {
+   "score": null,
+   "planks": {}
+  },
+  "Hilary Holley": {
+   "score": null,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    }
+   }
+  },
+  "Octavio Hernandez": {
+   "score": null,
+   "planks": {}
+  },
+  "Pamala Bivins": {
+   "score": null,
+   "planks": {}
+  },
+  "Samantha Scott": {
+   "score": null,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    }
+   }
+  },
+  "Brian Hawkins": {
+   "score": null,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Campaign site says he delivered the largest property-tax reduction in the state as chairman (self-reported).",
+     "url": ""
+    }
+   }
+  },
+  "Christopher Anger": {
+   "score": null,
+   "planks": {}
+  },
+  "Tony Claude": {
+   "score": null,
+   "planks": {}
+  },
+  "Randy Maggard": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Zach Funkhouser": {
+   "score": null,
+   "planks": {
+    "stop-data-centers": {
+     "match": 1,
+     "evidence": "Campaign platform includes banning AI data centers.",
+     "url": ""
+    }
+   }
+  },
+  "Walter Price": {
+   "score": 100,
+   "planks": {
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Platform: school choice.",
+     "url": ""
+    },
+    "back-police-order": {
+     "match": 1,
+     "evidence": "Platform: law enforcement.",
+     "url": ""
+    }
+   }
+  },
+  "Brad Yeager": {
+   "score": 83,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Jose Freites": {
+   "score": null,
+   "planks": {}
+  },
+  "Wendy Hoy": {
+   "score": null,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Questionnaire: worried property tax exemptions reduce revenue for cities, counties and libraries.",
+     "url": ""
+    }
+   }
+  },
+  "Adam Anderson": {
+   "score": 83,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Bryan Beckman": {
+   "score": null,
+   "planks": {}
+  },
+  "Kim Berfield": {
+   "score": 100,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Roll-call: Nay on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Susan Leff": {
+   "score": null,
+   "planks": {}
+  },
+  "Berny Jacques": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Stephanie Leonard": {
+   "score": null,
+   "planks": {}
+  },
+  "Tricia Berry": {
+   "score": null,
+   "planks": {}
+  },
+  "Lindsay Polega-Quigley": {
+   "score": null,
+   "planks": {}
+  },
+  "Melissa Rutland": {
+   "score": null,
+   "planks": {}
+  },
+  "May Thach": {
+   "score": null,
+   "planks": {}
+  },
+  "Linda Chaney": {
+   "score": 83,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    }
+   }
+  },
+  "Kyandra Darling": {
+   "score": null,
+   "planks": {}
+  },
+  "Jacqueline Coffie-Leeks": {
+   "score": null,
+   "planks": {}
+  },
+  "Luis Salazar": {
+   "score": null,
+   "planks": {}
+  },
+  "Dan Weldon": {
+   "score": null,
+   "planks": {}
+  },
+  "Ben Braver": {
+   "score": 100,
+   "planks": {
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Platform: cap on corporate ownership of single-family homes.",
+     "url": ""
+    },
+    "stop-data-centers": {
+     "match": 1,
+     "evidence": "Platform: statewide ban on new data centers.",
+     "url": ""
+    }
+   }
+  },
+  "Karen Gonzalez Pittman": {
+   "score": 71,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Dante Sanchez Sanchez": {
+   "score": null,
+   "planks": {}
+  },
+  "Traci Koster": {
+   "score": 83,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Lisette Bonano": {
+   "score": null,
+   "planks": {}
+  },
+  "Luis Viera": {
+   "score": null,
+   "planks": {}
+  },
+  "Tony Smith": {
+   "score": null,
+   "planks": {}
+  },
+  "Ryan Gill": {
+   "score": null,
+   "planks": {}
+  },
+  "Ashley Herrmann": {
+   "score": null,
+   "planks": {}
+  },
+  "Danny Alvarez": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Jason Shoaf": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Bill Conerly": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Harvey Shifrin": {
+   "score": null,
+   "planks": {}
+  },
+  "Lisa Klein": {
+   "score": null,
+   "planks": {}
+  },
+  "Fiona McFarland": {
+   "score": 83,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Ryan Neill": {
+   "score": null,
+   "planks": {}
+  },
+  "Nick Pachota": {
+   "score": null,
+   "planks": {}
+  },
+  "Cynthia Butler": {
+   "score": null,
+   "planks": {}
+  },
+  "Danny Nix Jr.": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Vanessa Oliver": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Phillip Carter": {
+   "score": null,
+   "planks": {}
+  },
+  "Cornelius Fowler": {
+   "score": null,
+   "planks": {}
+  },
+  "Tiffany Esposito": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Cindy Banyai": {
+   "score": null,
+   "planks": {}
+  },
+  "Susan Frantz": {
+   "score": null,
+   "planks": {}
+  },
+  "Mike Giallombardo": {
+   "score": 83,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Gallop Franklin": {
+   "score": 40,
+   "planks": {
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    }
+   }
+  },
+  "William Moskal": {
+   "score": null,
+   "planks": {}
+  },
+  "Adam Botana": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Kim Finer": {
+   "score": null,
+   "planks": {}
+  },
+  "Yvette Benarroch": {
+   "score": 75,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Campaign priority: Second Amendment.",
+     "url": ""
+    }
+   }
+  },
+  "Arthur Boyer": {
+   "score": null,
+   "planks": {}
+  },
+  "Liesa Priddy": {
+   "score": null,
+   "planks": {
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Priority: Second Amendment.",
+     "url": ""
+    }
+   }
+  },
+  "Kaylee Tuck": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Leigh Estes": {
+   "score": null,
+   "planks": {
+    "stop-data-centers": {
+     "match": 1,
+     "evidence": "Platform: pausing new data centers pending water and environmental rules.",
+     "url": ""
+    }
+   }
+  },
+  "Jennifer Massey": {
+   "score": null,
+   "planks": {}
+  },
+  "Dana Trabulsy": {
+   "score": 83,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Wayne Richter": {
+   "score": null,
+   "planks": {}
+  },
+  "Anthony Bonna": {
+   "score": null,
+   "planks": {}
+  },
+  "Amr Metwally": {
+   "score": null,
+   "planks": {}
+  },
+  "John Snyder": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Elizabeth Pandich": {
+   "score": null,
+   "planks": {}
+  },
+  "Emily Gregory": {
+   "score": null,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    }
+   }
+  },
+  "Jon Maples": {
+   "score": null,
+   "planks": {}
+  },
+  "William Joseph": {
+   "score": null,
+   "planks": {}
+  },
+  "Tae Edmonds": {
+   "score": 20,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Debra Tendrich": {
+   "score": 0,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Cathy Higgins": {
+   "score": 100,
+   "planks": {
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Platform: school choice and teacher pay.",
+     "url": ""
+    },
+    "back-police-order": {
+     "match": 1,
+     "evidence": "Platform: police pay.",
+     "url": ""
+    },
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Platform: steering development away from infrastructure strain.",
+     "url": ""
+    }
+   }
+  },
+  "Allison Tant": {
+   "score": 0,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Tracy Robinson": {
+   "score": null,
+   "planks": {}
+  },
+  "Rob Long": {
+   "score": null,
+   "planks": {}
+  },
+  "Ionel Roiban": {
+   "score": null,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "His site attacks incumbent Rob Long for voting no on HJR 203, the property-tax amendment (campaign claim).",
+     "url": ""
+    }
+   }
+  },
+  "Peggy Gossett-Seidman": {
+   "score": 71,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Luis Garcia": {
+   "score": null,
+   "planks": {}
+  },
+  "Steve Byers": {
+   "score": null,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Campaign site calls for pause, review and community input on a proposed development in the Palm Beach County Agricultural Preserve.",
+     "url": ""
+    }
+   }
+  },
+  "Kelly Skidmore": {
+   "score": 14,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "August Mangeney": {
+   "score": null,
+   "planks": {}
+  },
+  "Anne Gerwig": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Elizabeth Holmes": {
+   "score": 100,
+   "planks": {
+    "stop-data-centers": {
+     "match": 1,
+     "evidence": "Platform: protections against data centers.",
+     "url": ""
+    },
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Platform: protections against overdevelopment.",
+     "url": ""
+    }
+   }
+  },
+  "Doug Barrow": {
+   "score": null,
+   "planks": {}
+  },
+  "Megan Weinberger": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Christine Hunschofsky": {
+   "score": 0,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Dan Daley": {
+   "score": 14,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Lisa Dunkley": {
+   "score": 17,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "land-for-floridians": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Mitch Rosenwald": {
+   "score": null,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    }
+   }
+  },
+  "Daryl Campbell": {
+   "score": 14,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "John Lowndes": {
+   "score": null,
+   "planks": {}
+  },
+  "Jason Brodeur": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/SenateVote_s00002C__004.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264e1056.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/SenateVote_h00001c4002.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    }
+   }
+  },
+  "Colleen Burton": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/SenateVote_s00002C__004.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264e1056.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/SenateVote_h00001c4002.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    }
+   }
+  },
+  "Alfred Reynolds": {
+   "score": null,
+   "planks": {}
+  },
+  "Brian Nathan": {
+   "score": null,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    }
+   }
+  },
+  "Josie Tomkow": {
+   "score": 83,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Fentrice Driskell": {
+   "score": 0,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Karla Kemp": {
+   "score": null,
+   "planks": {}
+  },
+  "Nick DiCeglie": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/SenateVote_s00002C__004.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264e1056.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/SenateVote_h00001c4002.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    }
+   }
+  },
+  "Jay Trumbull": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/SenateVote_s00002C__004.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264e1056.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/SenateVote_h00001c4002.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    }
+   }
+  },
+  "Lauren Donahoo": {
+   "score": null,
+   "planks": {}
+  },
+  "Jordan Hensley": {
+   "score": null,
+   "planks": {}
+  },
+  "Chris Nocco": {
+   "score": null,
+   "planks": {}
+  },
+  "Lew Wasserman": {
+   "score": null,
+   "planks": {}
+  },
+  "James Buchanan": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Martin Hyde": {
+   "score": null,
+   "planks": {}
+  },
+  "Jackie Green": {
+   "score": null,
+   "planks": {}
+  },
+  "Mack Bernard": {
+   "score": 33,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/SenateVote_s00002C__004.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF"
+    }
+   }
+  },
+  "Rick Roth": {
+   "score": 67,
+   "planks": {
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    }
+   }
+  },
+  "David Silvers": {
+   "score": 33,
+   "planks": {
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    }
+   }
+  },
+  "David Silverberg": {
+   "score": null,
+   "planks": {}
+  },
+  "Lauren Melo": {
+   "score": 80,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    }
+   }
+  },
+  "Hector Rivera": {
+   "score": null,
+   "planks": {}
+  },
+  "Lauren Book": {
+   "score": 0,
+   "planks": {
+    "land-for-floridians": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264e1056.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/SenateVote_h00001c4002.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    }
+   }
+  },
+  "Rosalind Osgood": {
+   "score": 14,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/SenateVote_s00002C__004.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264e1056.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/SenateVote_h00001c4002.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    }
+   }
+  },
+  "Crescente Furnaguera": {
+   "score": null,
+   "planks": {}
+  },
+  "Ashley Gantt": {
+   "score": 14,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    },
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/HouseVote_s00002C__013.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/HouseVote_s00180e1312.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    }
+   }
+  },
+  "Elizabeth Jeanty": {
+   "score": null,
+   "planks": {}
+  },
+  "George Lavin": {
+   "score": null,
+   "planks": {}
+  },
+  "Ileana Garcia": {
+   "score": 67,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/SenateVote_s00002C__004.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264e1056.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    }
+   }
+  },
+  "Doc Solomon": {
+   "score": null,
+   "planks": {}
+  },
+  "Richard Lamondin Jr.": {
+   "score": null,
+   "planks": {}
+  },
+  "Alexis Calatayud": {
+   "score": 71,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/SenateVote_s00002C__004.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264e1056.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/SenateVote_h00001c4002.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    }
+   }
+  },
+  "Clay Yarborough": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/SenateVote_s00002C__004.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264e1056.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/SenateVote_h00001c4002.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    }
+   }
+  },
+  "Jose Stoute": {
+   "score": null,
+   "planks": {}
+  },
+  "Ana Rodriguez": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/SenateVote_s00002C__004.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264e1056.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/SenateVote_h00001c4002.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    }
+   }
+  },
+  "Ramiro Orta": {
+   "score": null,
+   "planks": {}
+  },
+  "Jason Bellamy-Fults": {
+   "score": null,
+   "planks": {}
+  },
+  "Jennifer Bradley": {
+   "score": 86,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HJR 1-F (2026F).",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 2-C (2025C).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025C/2C/Vote/SenateVote_s00002C__004.PDF"
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 180 (2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264e1056.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/SenateVote_h00001c4002.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    }
+   }
+  },
+  "Joseph Thornton": {
+   "score": null,
+   "planks": {}
+  },
+  "Judy Ngying": {
+   "score": null,
+   "planks": {
+    "pro-life": {
+     "match": -1,
+     "evidence": "Platform: restoring abortion access.",
+     "url": ""
+    }
+   }
+  },
+  "Jake Johansson": {
+   "score": null,
+   "planks": {}
+  },
+  "Gabriel Wozniak": {
+   "score": null,
+   "planks": {}
+  },
+  "Gay Valimont": {
+   "score": null,
+   "planks": {}
+  },
+  "Jimmy Patronis": {
+   "score": null,
+   "planks": {}
+  },
+  "Tyler L. Davis": {
+   "score": null,
+   "planks": {}
+  },
+  "Maxwell Alejandro Frost": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "James Pericola": {
+   "score": null,
+   "planks": {}
+  },
+  "Joe Strada": {
+   "score": null,
+   "planks": {}
+  },
+  "Ralph Groves": {
+   "score": null,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Platform: gradually reduce property taxes.",
+     "url": ""
+    }
+   }
+  },
+  "Kimberly Overman": {
+   "score": null,
+   "planks": {}
+  },
+  "Gus Michael Bilirakis": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "Branden Scrivener": {
+   "score": null,
+   "planks": {}
+  },
+  "Anna Paulina Luna": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "Leela Gray": {
+   "score": null,
+   "planks": {}
+  },
+  "Tony D'Arrigo": {
+   "score": null,
+   "planks": {
+    "clean-money": {
+     "match": 1,
+     "evidence": "Says he takes no corporate or dark money.",
+     "url": ""
+    }
+   }
+  },
+  "Mike Beltran": {
+   "score": 100,
+   "planks": {
+    "back-police-order": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 1 (2021).",
+     "url": "https://www.flsenate.gov/Session/Bill/2021/1/Vote/HouseVote_h00001e1020.PDF"
+    },
+    "pro-life": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 5 (2022); Yea on SB 300 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/5/Vote/HouseVote_h00005c1542.PDF"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on HB 543 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 1718 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1718/Vote/HouseVote_s01718c2376.PDF"
+    },
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 264 (2023).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/HouseVote_s00264e1498.PDF"
+    }
+   }
+  },
+  "Kathy Castor": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "Brian Lambert": {
+   "score": null,
+   "planks": {}
+  },
+  "Robert People": {
+   "score": null,
+   "planks": {}
+  },
+  "Laurel Lee": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "Matthew Montavon": {
+   "score": null,
+   "planks": {}
+  },
+  "Greg Steube": {
+   "score": 100,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act; Yea on HB 675 (2016).",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on SB 128 (2017); Nay on SB 7026 (2018).",
+     "url": "https://www.flsenate.gov/Session/Bill/2017/128/Vote/SenateVote_s00128e1002.PDF"
+    }
+   }
+  },
+  "Michael J. Quirk": {
+   "score": null,
+   "planks": {}
+  },
+  "Scott Franklin": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "Curtis Gibson": {
+   "score": null,
+   "planks": {}
+  },
+  "Deva Simmons": {
+   "score": null,
+   "planks": {}
+  },
+  "Jim Schwartzel": {
+   "score": 50,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Priorities: SAVE America Act and continued deportations.",
+     "url": ""
+    },
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Says development is vital to jobs (zoning left to counties).",
+     "url": ""
+    }
+   }
+  },
+  "Victor Arias": {
+   "score": null,
+   "planks": {}
+  },
+  "Seth Haskin": {
+   "score": null,
+   "planks": {
+    "clean-money": {
+     "match": 1,
+     "evidence": "Told NPR he runs as an independent because both parties are influenced by PAC money and foreign lobbies.",
+     "url": ""
+    }
+   }
+  },
+  "Amanda Marie Green": {
+   "score": null,
+   "planks": {}
+  },
+  "Austin Rogers": {
+   "score": null,
+   "planks": {}
+  },
+  "Kedner Maxime": {
+   "score": null,
+   "planks": {}
+  },
+  "Brent Andersen": {
+   "score": null,
+   "planks": {
+    "pro-life": {
+     "match": 1,
+     "evidence": "Diario Las Americas interview: strongly pro-life.",
+     "url": ""
+    }
+   }
+  },
+  "Debbie Wasserman Schultz": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "James T. Martin": {
+   "score": null,
+   "planks": {}
+  },
+  "Brian Mast": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "Alexander Cooke": {
+   "score": 100,
+   "planks": {
+    "clean-money": {
+     "match": 1,
+     "evidence": "Platform: no corporate PAC money, oppose Citizens United.",
+     "url": ""
+    },
+    "slow-growth-protect-land": {
+     "match": 1,
+     "evidence": "Platform: stop east-west Lake Okeechobee discharges (water protection).",
+     "url": ""
+    }
+   }
+  },
+  "Pia Dandiya": {
+   "score": null,
+   "planks": {}
+  },
+  "Casey Askar": {
+   "score": null,
+   "planks": {}
+  },
+  "Deborah Adeimy": {
+   "score": null,
+   "planks": {}
+  },
+  "Lois Frankel": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "Te Mayonna Brown": {
+   "score": null,
+   "planks": {}
+  },
+  "Oliver G. Gilbert III": {
+   "score": null,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on Override of Mayor Levine Cava's veto of the South Dade Logistics and Technology District (Nov 2022).",
+     "url": "https://www.cbsnews.com/miami/news/miami-dade-county-commission-vote-8-3-to-override-mayor-levine-cava-veto-over-urban-boundary-project"
+    }
+   }
+  },
+  "Scott Singer": {
+   "score": 50,
+   "planks": {
+    "slow-growth-protect-land": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on Introduction of the 99-year Terra/Frisbie 'City Center' downtown lease contract (Jan 2026).",
+     "url": "https://bocadailynews.com/2026/01/boca-council-votes-3-1-to-introduce-downtown-redevelopment-contract-over-residents-objections/"
+    },
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Says he voted seven straight times to lower the Boca Raton property-tax rate (his claim, unverified).",
+     "url": ""
+    }
+   }
+  },
+  "Jared Moskowitz": {
+   "score": 25,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    },
+    "second-amendment": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on CS/SB 7026 (2018) Marjory Stoneman Douglas High School Public Safety Act.",
+     "url": "https://www.flsenate.gov/Session/Bill/2018/7026/Vote/HouseVote_s07026e2859.PDF"
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on HB 633 (2015) Informed Patient Consent.",
+     "url": "https://www.flsenate.gov/Session/Bill/2015/633/Vote/HouseVote_h0633e1187.PDF"
+    },
+    "school-choice-teachers": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on CS/HB 7069 (2017) Education.",
+     "url": "https://www.flsenate.gov/Session/Bill/2017/7069/Vote/HouseVote_h07069c1462.PDF"
+    }
+   }
+  },
+  "Peter Jassenoff": {
+   "score": null,
+   "planks": {}
+  },
+  "Nicole Locklin": {
+   "score": null,
+   "planks": {}
+  },
+  "Mario Diaz-Balart": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "Deborah Ann Meidinger Hosey": {
+   "score": null,
+   "planks": {}
+  },
+  "Eliott Rodriguez": {
+   "score": null,
+   "planks": {}
+  },
+  "Maria Elvira Salazar": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "Phil \"Felipe\" Ehr": {
+   "score": null,
+   "planks": {}
+  },
+  "Carlos A. Gimenez": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "Eddy Rojas": {
+   "score": null,
+   "planks": {}
+  },
+  "Seth Harp": {
+   "score": null,
+   "planks": {}
+  },
+  "Mike Klein": {
+   "score": null,
+   "planks": {
+    "clean-money": {
+     "match": 1,
+     "evidence": "Says he takes no corporate PAC money (News4JAX questionnaire).",
+     "url": ""
+    }
+   }
+  },
+  "Kat Cammack": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "LaShonda \"L.J.\" Holloway": {
+   "score": null,
+   "planks": {}
+  },
+  "Aaron Bean": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "Todd Schaefer": {
+   "score": null,
+   "planks": {}
+  },
+  "Mike Sell": {
+   "score": null,
+   "planks": {
+    "clean-money": {
+     "match": 1,
+     "evidence": "Takes no corporate money.",
+     "url": ""
+    }
+   }
+  },
+  "Rachel Grage": {
+   "score": null,
+   "planks": {}
+  },
+  "John H. Rutherford": {
+   "score": null,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    }
+   }
+  },
+  "Eric Yonce": {
+   "score": 50,
+   "planks": {
+    "land-for-floridians": {
+     "match": 1,
+     "evidence": "Priority: curbing corporate home-buying.",
+     "url": ""
+    },
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Opposes eliminating property taxes.",
+     "url": ""
+    }
+   }
+  },
+  "Randy Fine": {
+   "score": 100,
+   "planks": {
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "ClickOrlando guide: supports school choice.",
+     "url": ""
+    },
+    "workers-first": {
+     "match": 1,
+     "evidence": "ClickOrlando guide: supports finishing the border wall and mass deportations.",
+     "url": ""
+    }
+   }
+  },
+  "Andrew Parrott": {
+   "score": null,
+   "planks": {
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Describes himself as nearly absolutist on Second Amendment rights.",
+     "url": ""
+    }
+   }
+  },
+  "Ryan Elijah": {
+   "score": 100,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "ClickOrlando guide: favors property tax relief without cutting public safety.",
+     "url": ""
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Favors school choice including vouchers.",
+     "url": ""
+    },
+    "stop-data-centers": {
+     "match": 1,
+     "evidence": "Wants data centers limited to industrial sites (not farmland).",
+     "url": ""
+    }
+   }
+  },
+  "Bale Dalton": {
+   "score": 0,
+   "planks": {
+    "end-homestead-tax": {
+     "match": -1,
+     "evidence": "Opposes Amendment 3 (property tax).",
+     "url": ""
+    },
+    "pro-life": {
+     "match": -1,
+     "evidence": "Supports abortion rights.",
+     "url": ""
+    }
+   }
+  },
+  "Christopher Dennison": {
+   "score": 100,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Supports Amendment 3 without replacement taxes.",
+     "url": ""
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Supports universal school vouchers.",
+     "url": ""
+    }
+   }
+  },
+  "Mike Haridopolos": {
+   "score": 75,
+   "planks": {
+    "workers-first": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on CS/CS/SB 436 (2005).",
+     "url": "https://www.flsenate.gov/Session/Bill/2005/436/Vote/2005S0007_SSB04360323050007.html"
+    },
+    "back-police-order": {
+     "match": -1,
+     "evidence": "Roll-call: Yea on SB 2100 (2011).",
+     "url": "https://www.flsenate.gov/Session/Bill/2011/2100/Vote/SenateVote_s2100e1031.PDF"
+    },
+    "school-choice-teachers": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on CS/HB 1331 (2011).",
+     "url": "https://www.flsenate.gov/Session/Bill/2011/1331/Vote/SenateVote_h1331c1011.PDF"
+    }
+   }
+  },
+  "Jennifer Jenkins": {
+   "score": null,
+   "planks": {
+    "stop-data-centers": {
+     "match": 1,
+     "evidence": "Campaign position: moratorium on data centers.",
+     "url": ""
+    }
+   }
+  },
+  "Dan Green": {
+   "score": null,
+   "planks": {
+    "end-homestead-tax": {
+     "match": 1,
+     "evidence": "Voted yes on Amendment 3 (property tax).",
+     "url": ""
+    }
+   }
+  },
+  "Darren Soto": {
+   "score": 50,
+   "planks": {
+    "workers-first": {
+     "match": -1,
+     "evidence": "Roll-call: Nay on H.R. 29 (2025) Laken Riley Act.",
+     "url": "https://clerk.house.gov/Votes/2025006"
+    },
+    "second-amendment": {
+     "match": 1,
+     "evidence": "Roll-call: Yea on CS/CS/HB 89 (2014).",
+     "url": "https://www.flsenate.gov/Session/Bill/2014/89/Vote/SenateVote_h0089e1003.PDF"
+    }
+   }
+  }
+ },
+ "notes": [
+  "Platform sources: fishback2026.com/platform/ (his own platform page, fetched directly) for planks 1-4 and 7-10; the foreign-money pledge (AIPAC) and 'slave to donors' line come from news reports quoting his launch (Florida Phoenix returned 403 so was not fetched; WFLX/Semafor/WREN were read or cited from search results). His X posts were not fetched.",
+  "Fishback's own domains fishbackforflorida.com and fishbackforgovernor.com are parked pages; his real site is fishback2026.com.",
+  "score = round(100 * (# planks with +1) / (# planks with evidence)), only when 2+ planks have evidence; otherwise null. It measures alignment with Fishback's platform on documented items only, not candidate quality. A candidate with 2 evidenced planks can easily read 0, 50 or 100: show the plank count next to the score.",
+  "When a legislator has several votes on the same plank, the plank match is the sign of the summed votes; ties are left out. Roll-call votes outrank manual statements for the same plank. 'Not voting' and 'Excused' are ignored.",
+  "Bill mapping judgment calls: SB 180 (2025) and the local developer votes (Aqua by the Bay, South Dade logistics override, Boca 99-year lease) count AGAINST slow-growth-protect-land; SB 2100 (2011, FRS overhaul that ended the COLA for service after 7/1/2011) counts against back-police-order with medium confidence; HJR 1-F (2026F, Amendment 3) counts FOR end-homestead-tax as a partial step; SB 7026 (2018) and its CS version count AGAINST second-amendment because Fishback pledges to repeal it; HB 7069 (2017) counts for school choice as a charter-expansion bill.",
+  "Unmapped on purpose (no clear plank): HB 1-D redistricting, all budgets (HB 5001, SB 2500, H.R. 5371, H.R. 7148, H.R. 1968), SB 2-A and SB 4-D insurance/condo bills, HB 3 (2024), the SAVE Act, OBBBA, NDAA, H.R. 881, H.R. 152, HB 1557, HB 7 (2022), HB 43, HJR 1 (2017), SB 736, HB 1355, HB 7013, HB 7015, HB 7101, the Hialeah street co-naming and the Boca term-limit charter amendment.",
+  "Priority-1 and priority-2 candidates had no entries in the roster votes list, so their evidence is from campaign sites (Jolly, Donalds, Simpson, Green, Hoolihan, Fitts, Varnadore), forum coverage (Tampa Bay Beacons, WLRN) and the roster's own research record. Evidence marked url '' came from the roster record text, which carries no URL; treat those as researched but not re-fetched.",
+  "Wilton Simpson reads 100 on seven planks from his own site and record (farmland easements, SB 264, pro-life, Back the Blue, sanctuary-city ban, Arms and Ammo Act, school choice) but there is no documented stance from him on data centers or homestead elimination, and his record also includes the sugar-grower lawsuit shield and the ag-labor immigration feud that are not scored.",
+  "Byron Donalds scores 67: +1 end-homestead (pledge to push elimination), +1 workers-first (E-Verify, deport criminals), -1 stop-data-centers (opposes a statewide moratorium, though says locals can reject them).",
+  "Amanda Ballard's land record is net negative (2023 wetland-buffer cut, 2026 Mosaic extension, partly offset by the Mixon Fruit Farms purchase); her donor list includes two affordable-housing developers. Tara Poulton accepted money from one PAC and says none from developers, so clean-money is left out for her.",
+  "No usable plank evidence found: Bellamy, Moody (1 plank), Nixon, Gillespie, Jewett, Dimanche, Datto, Davis, Bradenton council candidates (only generic 'responsible growth' language, except Green's police-budget pledge), Mosquito Control, West Manatee Fire district, most CDD and local candidates.",
+  "Not done: roll-call votes for priority-1 legislators from before the roster (e.g. Jose Javier Rodriguez, Ingoglia, Donalds in the Florida House or Congress) were not pulled; this is the main place to add evidence if time allows."
+ ]
+}
