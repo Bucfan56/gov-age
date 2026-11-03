@@ -181,7 +181,7 @@ def fl_district_money(path, home):
 
 def match_fl(c, pool):
     ln = lastname(c.get("fl_doe_name") or c["name"])
-    hits = [k for k in pool if ln and ln in fold(k).split()]
+    hits = [k for k in pool if ln and ln in re.findall(r"[a-z'-]+", fold(k))]
     if len(hits) > 1:
         fn = fold(c["name"]).split()[0]
         hits = [k for k in hits if fn in fold(k)] or hits[:1]

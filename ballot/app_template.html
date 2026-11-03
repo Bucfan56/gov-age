@@ -371,6 +371,7 @@ function applies(r, c) {
   if ("hd" in w) return w.hd === c.hd;
   if (w.county && cslug(w.county) !== cslug(c.county)) return false;
   if (w.city) { if (c.city == null) return null; if (cslug(w.city) !== cslug(c.city)) return false; }  // "" = known to be outside every city
+  if (w.special) { const v = (c.special || {})[w.special]; if (v === false) return false; if (v == null) return null; }
   for (const k of ["cc", "sb", "ward"]) if (k in w) return c[k] == null ? null : w[k] === c[k];
   return true;
 }
@@ -399,6 +400,38 @@ function fromGeographies(g, how, zip) {
   if (!st || st.STUSAB !== "FL") throw new Error("That address isn't in Florida. This guide covers Florida's Nov 3 ballot.");
   return {cd: cd && +cd.BASENAME, sd: up && +up.BASENAME, hd: lo && +lo.BASENAME, county: co && co.BASENAME, city: pl ? pl.BASENAME : "", how, zip: zip || null};
 }
+// County map layers that answer straight from a phone (CORS checked 2026-11-03). Results refine the Census answer.
+const COUNTY_GIS = {
+  Manatee: {
+    cc: ["https://www.mymanatee.org/gisits/rest/services/opendata/General/FeatureServer/7", "COMMDIST"],
+    city: ["https://www.mymanatee.org/gishost/rest/services/Hosted/IncorporatedAreas_CityBoundaries/FeatureServer/0", "name"],
+  },
+};
+async function arcgisHit(url, field, x, y) {
+  try {
+    const u = url + "/query?" + new URLSearchParams({geometry: x + "," + y, geometryType: "esriGeometryPoint", inSR: "4326", spatialRel: "esriSpatialRelIntersects", outFields: field, returnGeometry: "false", f: "json"});
+    const ac = new AbortController(); const t = setTimeout(() => ac.abort(), 12000);
+    const j = await (await fetch(u, {signal: ac.signal})).json(); clearTimeout(t);
+    if (j.error) throw new Error(j.error.message);
+    return j.features && j.features[0] ? j.features[0].attributes[field] : "";   // "" = point is outside every polygon
+  } catch (e) { console.error("county map lookup failed", url, e); return null; }   // null = unknown, shown as "Check"
+}
+async function refine(c, x, y) {
+  const g = COUNTY_GIS[c.county];
+  if (!g || x == null) return c;
+  const jobs = Object.entries(g).map(async ([k, [url, field]]) => [k, await arcgisHit(url, field, x, y)]);
+  for (const [k, v] of await Promise.all(jobs)) {
+    if (v === null) { if (k !== "city") c[k] = null; continue; }
+    if (k === "cc") { c.cc = v === "" ? null : +v; if (c.cc && c.cc <= 5) c.sb = c.cc; }   // school board districts 1–5 follow commission lines
+    else if (k === "city") c.city = v;
+    else (c.special = c.special || {})[k] = v;
+  }
+  for (const [name, url] of Object.entries((D.special || {})[c.county] || {})) {
+    const v = await arcgisHit(url[0], url[1], x, y);
+    (c.special = c.special || {})[name] = v === null ? null : v !== "";
+  }
+  return c;
+}
 async function findBallot(q) {
   q = q.trim();
   if (/^\d{5}$/.test(q)) {
@@ -410,12 +443,13 @@ async function findBallot(q) {
   const d = await census("onelineaddress", {address: /florida|\bfl\b/i.test(q) ? q : q + ", FL"});
   const m = d && d.result && d.result.addressMatches && d.result.addressMatches[0];
   if (!m) throw new Error("The Census couldn't find that address. Check the spelling and add the city, or type just your ZIP.");
-  return fromGeographies(m.geographies, "address", (m.addressComponents || {}).zip);
+  const c = fromGeographies(m.geographies, "address", (m.addressComponents || {}).zip);
+  return refine(c, m.coordinates && m.coordinates.x, m.coordinates && m.coordinates.y);
 }
 async function findByLocation() {
   const pos = await new Promise((res, rej) => navigator.geolocation ? navigator.geolocation.getCurrentPosition(res, () => rej(new Error("Location is off for this page. Type your address instead.")), {enableHighAccuracy: true, timeout: 15000}) : rej(new Error("This phone can't share location here. Type your address instead.")));
   const d = await census("coordinates", {x: pos.coords.longitude.toFixed(5), y: pos.coords.latitude.toFixed(5)});
-  return fromGeographies(d.result.geographies, "location");
+  return refine(fromGeographies(d.result.geographies, "location"), pos.coords.longitude, pos.coords.latitude);
 }
 function finder(compact) {
   return `<section class="finder" aria-label="Find your ballot">
@@ -538,7 +572,7 @@ function home() {
       <h2 class="grp">🌴 On every Florida ballot</h2>${tiles(ALL.filter(r => (r.where || {}).all))}
       <p class="deckhint" style="margin-top:12px">Your U.S. House, State Senate, State House, county and city races appear once you add your address.</p>`;
   } else {
-    const chips = [ctx.cd && `U.S. House ${ctx.cd}`, ctx.sd && `State Senate ${ctx.sd}`, ctx.hd && `State House ${ctx.hd}`, ctx.county && `${ctx.county} County`, ctx.city || (ctx.how !== "zip" ? "Outside city limits" : "")].filter(Boolean);
+    const chips = [ctx.cd && `U.S. House ${ctx.cd}`, ctx.sd && `State Senate ${ctx.sd}`, ctx.hd && `State House ${ctx.hd}`, ctx.county && `${ctx.county} County`, ctx.cc && `Commission ${ctx.cc}`, ctx.city || (ctx.how !== "zip" ? "Outside city limits" : "")].filter(Boolean);
     h = `<header class="top"><div class="logo">🗳️</div><div><h1>Your ballot</h1><p>${ctx.how === "zip" ? `ZIP ${esc(ctx.zip)}, approximate: add your street for exact districts` : ctx.how === "location" ? "From your location" : "From your address"} · Nov 3, 2026</p></div></header>
       <div class="ctx">${chips.map(x => `<span class="cchip">${esc(x)}</span>`).join("")}<button class="cchip change" data-change>✎ Change address</button></div>
       ${voteBox()}${pills}
