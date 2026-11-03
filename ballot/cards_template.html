@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>__TITLE__</title>
+<meta name="description" content="__DESC__">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f4f1ea;--card:#fffdf8;--ink:#1d1b17;--sub:#6b665c;--line:#e4ddcf;--chip:#efe9dc;
+  --good:#1f8a4c;--good-bg:#e3f4ea;--mid:#c27a07;--mid-bg:#fbefd6;--bad:#c0392b;--bad-bg:#f9e1dd;
+  --none:#8b867c;--none-bg:#ecebe7;--amber:#a86a12;--amber-bg:#fff6e5;--accent:#2b4c7e;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 6px 20px rgba(40,30,10,.07);--r:18px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#13151a;--card:#1c1f26;--ink:#ecebe7;--sub:#9a9fab;--line:#2c313b;--chip:#262a33;
+  --good:#3ccf7c;--good-bg:#173526;--mid:#f0a92e;--mid-bg:#3a2d12;--bad:#ff6b5b;--bad-bg:#3d1c19;
+  --none:#8d929c;--none-bg:#272a31;--amber:#f0b44c;--amber-bg:#2f2614;--accent:#8fb3ff;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35)}}
+:root[data-theme="dark"]{
+  --bg:#13151a;--card:#1c1f26;--ink:#ecebe7;--sub:#9a9fab;--line:#2c313b;--chip:#262a33;
+  --good:#3ccf7c;--good-bg:#173526;--mid:#f0a92e;--mid-bg:#3a2d12;--bad:#ff6b5b;--bad-bg:#3d1c19;
+  --none:#8d929c;--none-bg:#272a31;--amber:#f0b44c;--amber-bg:#2f2614;--accent:#8fb3ff;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35)}
+*{box-sizing:border-box}
+html{scrollbar-width:none;-webkit-text-size-adjust:100%}
+html::-webkit-scrollbar,*::-webkit-scrollbar{display:none}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+a{color:var(--accent)}
+button{font:inherit;color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px 64px}
+header.top{display:flex;align-items:center;gap:12px;padding:18px 0 10px}
+.logo{width:44px;height:44px;border-radius:12px;background:var(--ink);display:grid;place-items:center;font-size:22px;flex:none}
+.top h1{font-size:20px;margin:0;letter-spacing:-.01em;line-height:1.2}
+.top p{margin:2px 0 0;color:var(--sub);font-size:13px}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 14px}
+.pill{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:9px 14px;font-size:14px;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;gap:6px;box-shadow:var(--shadow)}
+.pill:hover{border-color:var(--sub)}
+.check{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;margin-bottom:6px;box-shadow:var(--shadow)}
+.check b{display:block}.check span{color:var(--sub);font-size:13px}
+.check a{margin-left:auto;white-space:nowrap;font-weight:700;text-decoration:none;background:var(--ink);color:var(--bg);padding:10px 14px;border-radius:12px;font-size:14px}
+@media(max-width:480px){.check{flex-wrap:wrap}.check a{margin-left:0;width:100%;text-align:center}}
+h2.grp{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--sub);margin:22px 2px 10px;display:flex;gap:8px;align-items:center}
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media(min-width:700px){.tiles{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(min-width:980px){.tiles{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px;text-align:left;cursor:pointer;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:6px;min-height:118px;transition:transform .15s}
+.tile:hover{transform:translateY(-2px)}
+.tile .t{font-weight:700;font-size:16px;line-height:1.2}
+.tile .s{color:var(--sub);font-size:13px}
+.tile .dots{display:flex;gap:5px;margin-top:auto;flex-wrap:wrap}
+.dot{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:10px;font-weight:800;color:#fff}
+.tag{display:inline-block;font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;background:var(--chip);color:var(--sub)}
+.tag.addr{background:var(--amber-bg);color:var(--amber)}
+.g{background:var(--good)}.m{background:var(--mid)}.b{background:var(--bad)}.n{background:var(--none)}
+.bar{display:flex;align-items:center;gap:10px;padding:14px 0 8px;position:sticky;top:0;background:var(--bg);z-index:5}
+.backbtn{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:9px 12px;font-weight:700;cursor:pointer;white-space:nowrap}
+.bar h1{font-size:19px;margin:0;line-height:1.2}
+.lead{color:var(--sub);margin:4px 0 14px;font-size:14px;max-width:760px}
+.cards{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
+@media(min-width:700px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1000px){.cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.flip{perspective:1400px;cursor:pointer;outline:none}
+.flip .in{position:relative;transition:transform .55s cubic-bezier(.3,.7,.3,1);transform-style:preserve-3d}
+.flip.on .in{transform:rotateY(180deg)}
+@media (prefers-reduced-motion:reduce){.flip .in{transition:none}}
+.face{backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:16px;display:flex;flex-direction:column;gap:12px;border-top:6px solid var(--none);min-width:0}
+.face.back{transform:rotateY(180deg);position:absolute;top:0;left:0;width:100%}
+.flip.on .face.front{position:absolute;top:0;left:0;width:100%}.flip.on .face.back{position:relative}
+.flip:not(.on) .face.back,.flip.on .face.front{pointer-events:none}
+.flip:focus-visible .face{outline:3px solid var(--accent);outline-offset:2px}
+.fg{border-top-color:var(--good)}.fm{border-top-color:var(--mid)}.fb{border-top-color:var(--bad)}
+.who{display:flex;gap:12px;align-items:center}
+.av{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:18px;color:#fff;flex:none}
+.who .nm{font-weight:800;font-size:17px;line-height:1.2}
+.who .pt{color:var(--sub);font-size:13px}
+.rank{margin-left:auto;align-self:flex-start;font-size:12px;font-weight:800;color:var(--sub);text-align:right;white-space:nowrap}
+.big{display:flex;align-items:center;gap:14px;border-radius:14px;padding:10px 12px}
+.big .num{font-size:40px;font-weight:800;line-height:1;letter-spacing:-.03em;min-width:54px}
+.big .word{font-weight:800;font-size:15px}.big .hint{font-size:12px;color:var(--sub)}
+.bg-g{background:var(--good-bg)}.bg-g .num,.bg-g .word{color:var(--good)}
+.bg-m{background:var(--mid-bg)}.bg-m .num,.bg-m .word{color:var(--mid)}
+.bg-b{background:var(--bad-bg)}.bg-b .num,.bg-b .word{color:var(--bad)}
+.bg-n{background:var(--none-bg)}.bg-n .num,.bg-n .word{color:var(--none)}
+.meter{display:grid;grid-template-columns:122px minmax(0,1fr) 30px;align-items:center;gap:8px;font-size:13px;margin:5px 0}
+.meter .lb{font-weight:600;white-space:nowrap}
+.meter .tr{height:9px;border-radius:9px;background:var(--chip);overflow:hidden}
+.meter .fl{display:block;height:100%;border-radius:9px}
+.meter .v{text-align:right;font-weight:800;font-variant-numeric:tabular-nums}
+.blurb{font-size:13.5px;color:var(--sub);margin:0}
+.badges{display:flex;gap:6px;flex-wrap:wrap}
+.badges:empty{display:none}
+.bdg{font-size:12px;font-weight:700;padding:4px 9px;border-radius:999px;background:var(--chip)}
+.bdg.src{background:var(--amber-bg);color:var(--amber)}
+.bdg.flag{background:var(--bad-bg);color:var(--bad)}
+.hintline{margin-top:auto;font-size:12px;color:var(--sub)}
+.btn{border:0;background:var(--ink);color:var(--bg);padding:11px 14px;border-radius:12px;font-weight:700;cursor:pointer}
+.btn.ghost{background:var(--chip);color:var(--ink)}
+.bk{margin:0;font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--sub);font-weight:800}
+.kv{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.kv div{background:var(--chip);border-radius:10px;padding:8px}
+.kv b{display:block;font-size:16px}.kv span{font-size:11px;color:var(--sub)}
+ol.top3{margin:2px 0 0;padding-left:18px;font-size:13.5px}
+ol.top3 li{margin:2px 0}
+.mini{font-size:13.5px;margin:0}
+.muted{color:var(--sub)}
+.st{font-size:10.5px;font-weight:800;text-transform:uppercase;padding:2px 6px;border-radius:6px;margin-right:5px;background:var(--chip);color:var(--sub)}
+.st.allegation{background:var(--mid-bg);color:var(--mid)}.st.established{background:var(--bad-bg);color:var(--bad)}
+.st.dismissed,.st.resolved{background:var(--good-bg);color:var(--good)}.st.fact-checked{color:var(--accent)}
+.row2{display:flex;gap:8px;margin-top:auto}
+.row2 .btn{flex:1}.row2 .btn.ghost{flex:0 0 52px}
+.sheet{position:fixed;inset:0;z-index:50;display:none}
+.sheet.open{display:block}
+.sheet .sc{position:absolute;inset:0;background:rgba(10,10,12,.5)}
+.sheet .pn{position:absolute;left:0;right:0;bottom:0;max-height:92vh;overflow:auto;overscroll-behavior:contain;background:var(--bg);border-radius:22px 22px 0 0;padding:0 16px 40px;box-shadow:0 -10px 40px rgba(0,0,0,.3)}
+@media(min-width:760px){.sheet .pn{left:50%;top:4vh;bottom:4vh;transform:translateX(-50%);width:720px;border-radius:22px;max-height:none}}
+.pn .ph{position:sticky;top:0;background:var(--bg);padding:16px 0 10px;display:flex;align-items:center;gap:10px;z-index:2}
+.pn .ph h2{margin:0;font-size:19px;flex:1;line-height:1.2}
+.x{border:0;background:var(--chip);width:40px;height:40px;border-radius:50%;font-size:18px;cursor:pointer;flex:none}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:10px 0;padding:0 14px}
+details[open]{padding-bottom:12px}
+summary{cursor:pointer;font-weight:700;padding:14px 0;list-style:none;display:flex;justify-content:space-between;gap:8px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"＋";color:var(--sub)}
+details[open] summary::after{content:"－"}
+details ul{margin:0;padding-left:18px}details li{margin:7px 0;font-size:14px}
+table.t{width:100%;border-collapse:collapse;font-size:13.5px}
+table.t td{padding:6px 4px;border-bottom:1px solid var(--line);vertical-align:top}
+table.t td.r{text-align:right;white-space:nowrap;font-weight:700}
+.own{background:var(--amber-bg);border:2px dashed var(--amber);border-radius:14px;padding:12px 14px;margin:10px 0}
+.own h4{margin:0 0 4px;color:var(--amber)}
+.own .it{margin:10px 0 0;font-size:14px}
+.own .meta{font-size:12px;color:var(--sub)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:10px 0;font-size:14px}
+.panel h4{margin:0 0 6px}
+.formula{font-size:14px;margin:6px 0;padding-left:18px}.formula li{margin:5px 0}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:13px;margin:10px 0 0}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:14px;height:14px;border-radius:4px;display:inline-block}
+.mcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;box-shadow:var(--shadow);margin-bottom:14px}
+.mcard h3{margin:0 0 6px;font-size:17px}
+.sides{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;margin-top:10px}
+@media(min-width:700px){.sides{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.side{border-radius:12px;padding:10px 12px;background:var(--chip);font-size:14px}
+.side h4{margin:0 0 4px;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+.side div{margin:4px 0}
+footer{color:var(--sub);font-size:12.5px;margin-top:36px;text-align:center}
+body.locked{overflow:hidden}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+<div class="sheet" id="sheet" aria-hidden="true"><div class="sc" data-close></div><div class="pn" role="dialog" aria-modal="true" aria-labelledby="shT"><div class="ph"><h2 id="shT"></h2><button class="x" data-close aria-label="Close">✕</button></div><div id="shB"></div></div></div>
+<script>
+const D = __DATA__;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const usd = v => v == null || isNaN(v) ? "—" : (v >= 1e6 ? "$" + (v/1e6).toFixed(1) + "M" : v >= 1e4 ? "$" + Math.round(v/1e3) + "k" : "$" + Math.round(v).toLocaleString());
+const pct = v => v == null ? "—" : Math.round(v) + "%";
+const band = v => v == null ? "n" : v >= 70 ? "g" : v >= 45 ? "m" : "b";
+const WORD = {g: "Strong", m: "Mixed", b: "Weak", n: "Not scored"};
+function initials(n) {
+  const w = n.replace(/".*?"|\(.*?\)/g, "").replace(/\b(Jr|Sr|III|II)\b\.?/g, "").trim().split(/\s+/).filter(Boolean);
+  return ((w[0] || "?")[0] + (w.length > 1 ? w[w.length - 1][0] : "")).toUpperCase();
+}
+const link = (u, t) => u ? ` <a href="${esc(u)}" target="_blank" rel="noopener">${esc(t || "source")} ↗</a>` : "";
+function firstSentence(s, max = 170) {
+  s = String(s || "");
+  const m = s.match(/^.{50,}?[a-z]{4}[.;](?=\s|$)/);
+  const out = m && m[0].length <= max ? m[0] : s.slice(0, max);
+  return out.length < s.length && !/[.;]$/.test(out) ? out.replace(/\s+\S*$/, "") + "…" : out;
+}
+const raceById = id => D.races.find(r => r.id === id);
+const partyName = p => esc(String(p || "").replace(/^REP$/, "Republican").replace(/^DEM$/, "Democrat").replace(/^NPA$/, "No party").replace(/^NP$/, "Nonpartisan").replace(/^NP \(/, "Nonpartisan ("));
+const flags = c => (c.controversies || []).filter(x => x.status !== "dismissed" && x.status !== "resolved");
+const srcHits = c => (c.owner_sources || []).length;
+
+function meter(icon, label, m) {
+  const v = m && m.v != null ? m.v : null;
+  return `<div class="meter" title="${esc(m && m.label || "")}"><span class="lb">${icon} ${label}</span><span class="tr"><span class="fl ${band(v)}" style="width:${v ?? 0}%"></span></span><span class="v">${v ?? "—"}</span></div>`;
+}
+
+function card(r, c, i) {
+  const s = c.score, b = band(s.overall), m = c.money || {};
+  const total = r.cands.filter(x => x.rank).length;
+  const f = flags(c);
+  const out = m.outside || [];
+  const forAmt = out.filter(o => o[1] === "S").reduce((a, o) => a + +o[2], 0);
+  const agAmt = out.filter(o => o[1] === "O").reduce((a, o) => a + +o[2], 0);
+  const front = `
+    <div class="face front f${b}">
+      <div class="who"><div class="av ${b}">${esc(initials(c.name))}</div>
+        <div><div class="nm">${esc(c.name)}</div><div class="pt">${partyName(c.party)}${c.incumbent ? " · Incumbent" : ""}${c.running_mate ? "<br>with " + esc(c.running_mate) : ""}</div></div>
+        <div class="rank">${c.rank ? "#" + c.rank + " of " + total : ""}</div></div>
+      <div class="big bg-${b}"><div class="num">${s.overall ?? "—"}</div><div><div class="word">${WORD[b]}</div><div class="hint">${s.overall == null ? esc(s.why) : "out of 100 on your three questions"}</div></div></div>
+      <div>${meter("🏠", "Local", s.local)}${meter("🗽", "Country first", s.foreign)}${meter("💵", "Independent", s.indep)}</div>
+      <p class="blurb">${esc(firstSentence(c.bio).replace(/;$/, "."))}</p>
+      <div class="badges">${srcHits(c) ? `<span class="bdg src">📣 In your sources (${srcHits(c)})</span>` : ""}${f.length ? `<span class="bdg flag">⚠ ${f.length} on record</span>` : ""}</div>
+      <div class="hintline">Tap to flip ↻</div>
+    </div>`;
+  const top = (m.top || []).slice(0, 3).map(t => `<li>${esc(t[0])} — <b>${usd(t[1])}</b></li>`).join("");
+  const ct = (m.committee && m.committee.top || [])[0];
+  const comm = m.committee && m.committee.total ? `<p class="mini">➕ <b>${usd(m.committee.total)}</b> more in <b>${esc(m.committee.name)}</b>, a committee they control with no donation limit${ct ? `. Biggest: ${esc(ct[0])} ${usd(ct[1])}` : ""}.</p>` : "";
+  const fr = s.foreign.reasons.length ? s.foreign.reasons.map(x => `−${x.pts} · ${esc(x.text)}`).join("<br>") : "No foreign-connected money or ties found.";
+  const back = `
+    <div class="face back f${b}">
+      <p class="bk">💵 The money</p>
+      <div class="kv"><div><b>${usd(m.raised)}</b><span>raised</span></div><div><b>${s.local && s.local.v != null ? s.local.v + "%" : "—"}</b><span>from home</span></div><div><b>${pct(m.out_pct)}</b><span>out of state</span></div></div>
+      ${comm}
+      ${top ? `<div><div class="mini"><b>Biggest givers</b></div><ol class="top3">${top}</ol></div>` : `<p class="mini muted">No itemized givers on file.</p>`}
+      ${forAmt || agAmt ? `<p class="mini">📢 Outside groups spent <b>${usd(forAmt)}</b> to help and <b>${usd(agAmt)}</b> to hurt them.</p>` : ""}
+      <p class="bk">🗽 Foreign</p><p class="mini">${fr}</p>
+      ${f.length ? `<p class="bk">⚠ On record</p>` + f.slice(0, 1).map(x => `<p class="mini"><span class="st ${esc(x.status || "")}">${esc(x.status || "note")}</span>${esc(firstSentence(x.text, 150))}</p>`).join("") : ""}
+      ${srcHits(c) ? `<div class="own" style="margin:0;padding:8px 10px"><b style="color:var(--amber)">📣 Your sources:</b> <span class="mini">${esc(c.owner_sources[0].title)}${srcHits(c) > 1 ? ` <b>+ ${srcHits(c) - 1} more</b>` : ""}</span></div>` : ""}
+      <div class="row2"><button class="btn" data-prof="${r.id}|${i}">Full profile</button><button class="btn ghost" data-flipback aria-label="Flip back">↻</button></div>
+    </div>`;
+  return `<div class="flip" tabindex="0" role="button" aria-label="${esc(c.name)}: score ${s.overall ?? "not scored"}. Press to flip."><div class="in">${front}${back}</div></div>`;
+}
+
+function home() {
+  document.title = D.title;
+  let h = `<header class="top"><div class="logo">🗳️</div><div><h1>Your ballot · Palmetto 34221</h1><p>${esc(D.kicker.replace(/^General election · /, ""))}</p></div></header>
+    <div class="pills"><button class="pill" data-sheet="how">📊 How scores work</button><button class="pill" data-sheet="src">📣 Your sources</button><button class="pill" data-sheet="about">ℹ️ About</button></div>
+    <div class="check"><div><b>34221 is split between districts</b><span>Tiles marked “Some addresses” may not be on your ballot.</span></div><a href="https://www.votemanatee.gov/sample-ballots/" target="_blank" rel="noopener">See my exact ballot ↗</a></div>`;
+  for (const g of D.groups) {
+    const rs = D.races.filter(r => r.group === g.id);
+    if (!rs.length) continue;
+    h += `<h2 class="grp">${g.icon} ${esc(g.label)}</h2><div class="tiles">`;
+    for (const r of rs) {
+      const dots = r.kind === "race" ? r.cands.map(c => `<span class="dot ${band(c.score.overall)}" title="${esc(c.name)}: ${c.score.overall ?? "not scored"}">${esc(initials(c.name))}</span>`).join("")
+        : `<span class="tag">${r.kind === "judges" ? "Keep or remove" : "Yes or no"}</span>`;
+      h += `<button class="tile" data-go="${r.id}"><span class="t">${esc(r.short)}</span><span class="s">${esc(r.sub)}</span>${r.everyone ? "" : `<span><span class="tag addr">Some addresses</span></span>`}<span class="dots">${dots}</span></button>`;
+    }
+    h += `</div>`;
+  }
+  h += `<footer>Built ${esc(D.built)} from public filings. Scores measure money and documented ties only: not party, views or votes.<br><a href="index.html">How old is the U.S. government? →</a></footer>`;
+  $("#app").innerHTML = h;
+}
+
+function ownBox(items, searched) {
+  items = items || [];
+  if (!items.length) return searched && searched.length ? `<p class="mini muted" style="margin:10px 2px">📣 Your sources were searched: nothing about this.</p>` : "";
+  return `<div class="own"><h4>📣 What your sources say</h4><div class="meta">Reported as they say it. Not checked against public records.</div>${items.map(x => `<div class="it"><b>${esc(x.source)}</b>${x.date ? ` · ${esc(x.date)}` : ""}<br>${esc(x.title)}${x.says ? `<div class="meta">${esc(x.says)}</div>` : ""}${link(x.url, "open")}</div>`).join("")}</div>`;
+}
+
+function racePage(r) {
+  document.title = r.short + " · " + D.title;
+  let h = `<div class="bar"><button class="backbtn" data-go="">← All races</button><h1>${esc(r.kind === "measure" ? r.short + ": " + r.sub : r.title)}</h1></div>`;
+  const scope = r.everyone ? "" : `<span class="tag addr">Only some addresses: ${esc(r.scope_note || "")}</span><br>`;
+  if (r.kind === "race") {
+    h += `<p class="lead">${scope}${esc(r.note || "")} <b>Ranked by score. Tap any card to flip it.</b></p><div class="cards">${r.cands.map((c, i) => card(r, c, i)).join("")}</div>`;
+  } else if (r.kind === "judges") {
+    h += `<p class="lead">${esc(r.note || "")} Not scored: judges raise no campaign money.</p>`;
+    h += r.judges.map(j => `<div class="mcard"><h3>⚖️ ${esc(j.name)}</h3><p class="mini">${esc(j.text)}</p>${(j.items || []).length ? `<details><summary>Rulings & record (${j.items.length})</summary><ul>${j.items.map(x => `<li>${esc(x.text)}${link(x.url)}</li>`).join("")}</ul></details>` : ""}${ownBox(j.owner_sources, j.owner_sources_searched)}</div>`).join("");
+  } else {
+    const m = r.m;
+    const L = a => (a || []).map(x => `<div>${esc(x.text)}${link(x.url)}</div>`).join("") || "<div>None found.</div>";
+    h += `<p class="lead">${scope}Not scored: ballot questions have no candidate.</p><div class="mcard"><h3>${esc(m.name)}</h3><p>${esc(m.summary)}</p>
+      <div class="sides"><div class="side"><h4>👍 Supporters</h4>${L(m.supporters)}<h4 style="margin-top:10px">💵 Money for</h4>${L(m.who_funds_yes)}</div><div class="side"><h4>👎 Opponents</h4>${L(m.opponents)}<h4 style="margin-top:10px">💵 Money against</h4>${L(m.who_funds_no)}</div></div>
+      ${(m.fiscal || []).length ? `<details><summary>Cost & effect</summary>${L(m.fiscal)}</details>` : ""}${ownBox(m.owner_sources, m.owner_sources_searched)}
+      ${(m.urls || []).length ? `<p class="mini muted">Sources: ${m.urls.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${i + 1}</a>`).join(" · ")}</p>` : ""}</div>`;
+  }
+  $("#app").innerHTML = h;
+}
+
+function list(title, arr, fmt, open) {
+  if (!arr || !arr.length) return "";
+  return `<details${open ? " open" : ""}><summary>${title} (${arr.length})</summary><ul>${arr.map(fmt).join("")}</ul></details>`;
+}
+const li = x => `<li>${esc(x.text)}${link(x.url)}</li>`;
+
+function profile(r, c) {
+  const s = c.score, m = c.money || {}, b = band(s.overall);
+  const T = rows => `<table class="t">${rows.map(t => `<tr><td>${esc(t[0])}${t[2] ? `<div class="mini muted">${esc(t[2])}</div>` : ""}</td><td class="r">${usd(+t[1])}</td></tr>`).join("")}</table>`;
+  let h = `<div class="big bg-${b}" style="margin-bottom:10px"><div class="num">${s.overall ?? "—"}</div><div><div class="word">${WORD[b]} · ${esc(r.short)}</div><div class="hint">${partyName(c.party)}${c.incumbent ? " · Incumbent" : ""}${c.rank ? " · ranked #" + c.rank + " of " + r.cands.filter(x => x.rank).length : ""}</div></div></div>`;
+  h += `<div class="panel">${meter("🏠", "Local", s.local)}<div class="mini muted" style="margin:0 0 10px">${esc(s.local ? s.local.label : s.why)}</div>
+    ${meter("🗽", "Country first", s.foreign)}<div class="mini muted" style="margin:0 0 10px">${s.foreign.reasons.length ? s.foreign.reasons.map(x => `−${x.pts}: ${esc(x.text)}${link(x.url)}`).join("<br>") : "Nothing found that lowers this."}</div>
+    ${meter("💵", "Independent", s.indep)}<div class="mini muted">${s.indep ? esc(s.indep.label) + ": " + s.indep.parts.map(esc).join("; ") + "." : esc(s.why)}</div></div>`;
+  h += `<div class="panel"><h4>Who they are</h4>${esc(c.bio || "")}${c.running_mate ? `<p class="mini" style="margin-top:8px"><b>Running mate:</b> ${esc(c.running_mate)}</p>` : ""}${c.local_ties ? `<p class="mini" style="margin-top:8px"><b>🏠 Local ties:</b> ${esc(c.local_ties)}</p>` : ""}</div>`;
+  h += ownBox(c.owner_sources, c.owner_sources_searched);
+  let mh = `<div class="kv" style="margin:2px 0 10px"><div><b>${usd(m.raised)}</b><span>raised</span></div><div><b>${pct(m.fl_pct)}</b><span>from Florida</span></div><div><b>${pct(m.out_pct)}</b><span>out of state</span></div><div><b>${pct(m.local_pct)}</b><span>${m.local_label ? "Sarasota–Manatee" : "Manatee County"}</span></div><div><b>${pct(m.org_pct)}</b><span>business / PAC</span></div><div><b>${pct(m.build_land_pct)}</b><span>building & land</span></div></div>`;
+  if (m.loans) mh += `<p class="mini">Loans (often the candidate's own money): <b>${usd(m.loans)}</b></p>`;
+  if (m.committee) mh += `<p class="mini" style="margin-top:10px"><b>${esc(m.committee.name)}</b>: ${usd(m.committee.total)} (${esc(m.committee.span || "")}), no donation limit.</p>${T(m.committee.top || [])}`;
+  if ((m.top || []).length) mh += `<p class="mini" style="margin-top:12px"><b>Biggest givers to the campaign</b></p>${T(m.top)}`;
+  if ((m.groups || []).length) mh += `<p class="mini" style="margin-top:12px"><b>Several companies at one address</b> (each can give the limit)</p>` + m.groups.map(g => `<p class="mini">• ${esc(g[0])}: <b>${usd(g[1])}</b> from ${g[2].length} entities (${esc(g[2].slice(0, 4).join(", "))}${g[2].length > 4 ? "…" : ""})</p>`).join("");
+  if ((m.pacs || []).length) mh += `<p class="mini" style="margin-top:12px"><b>PAC checks</b></p>${T(m.pacs)}`;
+  if ((m.outside || []).length) mh += `<p class="mini" style="margin-top:12px"><b>Outside groups</b></p><table class="t">${m.outside.map(o => `<tr><td>${esc(o[0])}</td><td>${o[1] === "S" ? "to help" : "to hurt"}</td><td class="r">${usd(+o[2])}</td></tr>`).join("")}</table>`;
+  if (m.note) mh += `<p class="mini muted" style="margin-top:10px">${esc(m.note)}</p>`;
+  if (m.source) mh += `<p class="mini muted">${esc(m.source)}${link(m.source_url)}</p>`;
+  h += `<details open><summary>💵 Money</summary>${mh}</details>`;
+  h += list("💬 Money in the news", c.money_notes, li);
+  h += list("⚠ Cases, complaints & controversies", c.controversies, x => `<li><span class="st ${esc(x.status || "")}">${esc(x.status || "note")}</span>${esc(x.text)}${link(x.url)}</li>`);
+  h += list("🗽 Foreign ties", c.foreign_ties, li);
+  h += list("📋 Record", c.record, li);
+  h += list("🏡 Local issues", c.local_issue_stance, li);
+  h += list("🤝 Endorsements", c.endorsements, li);
+  h += list("📰 What newspapers said (opinion)", c.press_opinion, li);
+  if (c.gaps) h += `<div class="panel"><h4>What we couldn't find</h4>${esc(c.gaps)}</div>`;
+  return h;
+}
+
+function howSheet() {
+  const R = D.rules;
+  return `<div class="panel">Each candidate gets three meters from 0 to 100, one for each of your questions. The big number is their average. It comes from public filings only: never party, views, votes or anyone's opinion.
+      <div class="legend"><span><i class="g"></i>70+ Strong</span><span><i class="m"></i>45–69 Mixed</span><span><i class="b"></i>Under 45 Weak</span><span><i class="n"></i>Not scored</span></div></div>
+    <div class="panel"><h4>🏠 Local: commitment to the area</h4>The share of their money that comes from home. “Home” fits the office: Florida for statewide and U.S. Senate races; Sarasota–Manatee zip codes for U.S. House 16; Manatee, Sarasota and Hillsborough zip codes for the State House and Senate; Manatee County for county and city races.</div>
+    <div class="panel"><h4>🗽 Country first: foreign interest</h4>Starts at 100. Points come off for each documented item:<ul class="formula">${R.foreign.map(f => `<li>−${f.pts}: ${esc(f.text)}</li>`).join("")}<li>−${R.pac} per check from the U.S. PAC of a foreign-parent company (legal; funded by U.S. employees)</li></ul>Trips, statements and votes are listed on the profile but don't change the score.</div>
+    <div class="panel"><h4>💵 Independent: big donors</h4>100 minus the share of all the money behind them that is big money. Big money means business, PAC and party money; for federal races, individuals giving $2,000+; any political committee the candidate controls (no donation limit in Florida); and money outside groups spent to help them.</div>
+    <div class="panel"><h4>Limits</h4>Candidates who raised very little aren't scored, because a few checks would swing everything: under $${R.min.federal.toLocaleString()} for federal and statewide offices, $${R.min.legislature.toLocaleString()} for the Legislature, $${R.min.local.toLocaleString()} for county and city. Federal donor detail runs through about July 2026. Filings miss dark money, family money and promises. A donation is a fact about the donor, not proof of what a candidate will do.</div>`;
+}
+
+function srcSheet() {
+  const hits = [], none = [];
+  for (const r of D.races) for (const c of (r.cands || [])) (srcHits(c) ? hits : none).push([r, c]);
+  const mHits = D.races.filter(r => r.kind === "measure" && (r.m.owner_sources || []).length);
+  return `<div class="panel">Your five sources (<b>rumble.com/Owen</b>, <b>alexjoneslive.com</b>, <b>rumble.com/TheAlexJonesShowLive</b>, <b>rumble.com/c/StewPeters</b>, <b>stewpeters.com</b>) were searched for every candidate and ballot question here. What they say appears in an amber 📣 box on that candidate's card, credited to them and reported as they say it. Only headlines and descriptions could be read; videos can't be watched. They don't change the scores.</div>
+    <h3 style="margin:18px 2px 6px">Found something (${hits.length + mHits.length})</h3>
+    ${hits.map(([r, c]) => `<div class="panel"><div style="display:flex;align-items:center;gap:8px"><b style="flex:1">${esc(c.name)} · ${esc(r.short)}</b><button class="btn ghost" style="padding:7px 12px" data-prof="${r.id}|${r.cands.indexOf(c)}">Open card</button></div>${ownBox(c.owner_sources)}</div>`).join("")}
+    ${mHits.map(r => `<div class="panel"><b>${esc(r.short)}</b>${ownBox(r.m.owner_sources)}</div>`).join("")}
+    <h3 style="margin:18px 2px 6px">Searched, nothing found (${none.length})</h3><div class="panel mini">${none.map(([r, c]) => esc(c.name)).join(" · ")}</div>`;
+}
+
+const aboutSheet = () => D.boxes.map(b => `<div class="panel"><h4>${esc(b.title)}</h4>${b.html}</div>`).join("") + `<div class="panel">${D.footer}</div>`;
+
+function openSheet(title, body) {
+  $("#shT").textContent = title; $("#shB").innerHTML = body;
+  $("#sheet").classList.add("open"); $("#sheet").setAttribute("aria-hidden", "false"); document.body.classList.add("locked");
+  $("#sheet .pn").scrollTop = 0;
+}
+function closeSheet() { $("#sheet").classList.remove("open"); $("#sheet").setAttribute("aria-hidden", "true"); document.body.classList.remove("locked"); }
+
+let shownPage = null;
+function route() {
+  const [page, sub] = decodeURIComponent(location.hash.slice(1)).split("/");
+  const r = raceById(page);
+  if (page !== shownPage) { r ? racePage(r) : home(); shownPage = r ? page : ""; window.scrollTo(0, 0); }
+  if (sub === "how") openSheet("How scores work", howSheet());
+  else if (sub === "src") openSheet("Your sources", srcSheet());
+  else if (sub === "about") openSheet("About this report", aboutSheet());
+  else if (sub && sub[0] === "p") {
+    const [rid, i] = sub.slice(1).split("|"), pr = raceById(rid), c = pr && pr.cands && pr.cands[+i];
+    c ? openSheet(c.name, profile(pr, c)) : closeSheet();
+  } else closeSheet();
+}
+const curPage = () => decodeURIComponent(location.hash.slice(1)).split("/")[0];
+document.addEventListener("click", e => {
+  const t = e.target;
+  const go = t.closest("[data-go]");
+  if (go) { location.hash = go.dataset.go; return; }
+  const sh = t.closest("[data-sheet]");
+  if (sh) { location.hash = curPage() + "/" + sh.dataset.sheet; return; }
+  const pf = t.closest("[data-prof]");
+  if (pf) { location.hash = curPage() + "/p" + pf.dataset.prof; return; }
+  if (t.closest("[data-close]")) { location.hash = curPage(); return; }
+  if (t.closest("a")) return;
+  const fl = t.closest(".flip");
+  if (fl) fl.classList.toggle("on");
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" && $("#sheet").classList.contains("open")) { location.hash = curPage(); return; }
+  const fl = e.target.closest && e.target.closest(".flip");
+  if (fl && e.target === fl && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); fl.classList.toggle("on"); }
+});
+window.addEventListener("hashchange", route);
+route();
+</script>
+</body>
+</html>

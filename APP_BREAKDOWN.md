@@ -25,7 +25,7 @@ key. The page opens in a browser as a file, or serves as static hosting.
 | `roster_overrides.json` | Hand curation that survives a rebuild, keyed by bioguide ID. |
 | `build_finance.py` | Rebuilds `finance.json` from FEC bulk downloads. |
 | `inline_data.py` | Re-inlines `finance.json` into `index.html`. |
-| `build_ballot.py` | Renders a local ballot report (`ballot-<zip>.json` → `.html`). |
+| `build_ballot.py` | Scores every candidate and renders the ballot as flip cards (`ballot-<zip>.json` + `ballot/cards_template.html` → `.html`). |
 | `ballot-34221.html` | Palmetto, FL 34221 ballot report for the Nov 3, 2026 general election. |
 | `verify.py` | Smoke test. Gates the CI commit. |
 | `.github/workflows/refresh.yml` | Weekly rebuild → verify → commit. |
@@ -57,6 +57,29 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 ---
 
 ## Changelog
+
+### 2026-11-02 — The ballot becomes scored flip cards
+
+**Live:** https://bucfan56.github.io/gov-age/ballot-34221.html
+
+Tyler found the long report "a giant mess" and asked for a rating-card system: brief on the front, more on the back, colors by score on his three questions.
+
+- **Home:** one tile per race, grouped Federal · Governor & Cabinet · State Legislature · County & City · Judges · Ballot Questions. Each tile shows one colored dot per candidate. Races that depend on the address carry a "Some addresses" tag.
+- **Race page:** candidate cards ranked by score.
+  - Front: name, party, a big 0–100 score (green 70+, amber 45–69, red under 45, grey not scored) and three meters.
+  - Back: the money, foreign items, one flag on record and the owner's sources.
+  - "Full profile" opens a sheet with everything from the old report.
+- **Score** (`score()` in build_ballot.py) is the average of three meters, built from filings only:
+  - 🏠 Local: the share of money from home (Florida for statewide, 342xx for U.S. House 16, Manatee+Sarasota+Hillsborough zips for the Legislature, Manatee for local).
+  - 🗽 Country first: starts at 100, minus listed rules for documented foreign items.
+  - 💵 Independent: 100 minus the big-money share. Big money is business/PAC/party money, federal $2,000+ individuals, candidate-controlled committees and outside spending for the candidate.
+  - Candidates are not scored under $50k (federal/statewide), $5k (Legislature) or $2k (local).
+- **Your sources** sheet lists every hit and every empty search. Cards with hits carry a 📣 badge.
+- Legislative zip shares come from `ballot/region.py` → `ballot/region_share.json`.
+- **Traps:**
+  - The research text "None documented … state-owned business …" matched the foreign rule and docked everyone 40. Lines starting "None documented" are now skipped.
+  - The race page's `.back` button class collided with the card's `.face.back` and made every card back bold and non-wrapping. The button is now `.backbtn`.
+  - 🇺🇸 renders as "US" on Windows, so the page uses 🗽 and 🦅 instead.
 
 ### 2026-11-02 — A full ballot report for one zip code (Palmetto, FL 34221)
 
