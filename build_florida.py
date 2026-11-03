@@ -226,6 +226,11 @@ def owner_sweep(c):
         return
     have = {x.get("url") for x in c.get("owner_sources") or []}
     c["owner_sources"] = (c.get("owner_sources") or []) + [x for x in SWEEP.get("hits", {}).get(c["name"], []) if x["url"] not in have]
+    # a correction (e.g. a retraction) overrides what an item says wherever it came from, and pinned items lead
+    for x in c["owner_sources"]:
+        if x.get("url") in SWEEP.get("notes", {}):
+            x["says"] = SWEEP["notes"][x["url"]]
+    c["owner_sources"].sort(key=lambda x: not x.get("pin"))
     c["owner_sources_searched"] = sorted(set(c.get("owner_sources_searched") or []) | set(SWEEP.get("sites", [])))
     if not c["owner_sources"]:
         c.pop("owner_sources")
