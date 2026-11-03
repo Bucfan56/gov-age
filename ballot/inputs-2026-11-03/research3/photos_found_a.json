@@ -1,0 +1,430 @@
+{
+ "done": true,
+ "photos": {
+  "Lisa Gonzalez Moore": {
+   "url": "https://lisagonzalezmoore4bradenton.com/wp-content/uploads/2026/03/councilwoman-gonzalez-moore-1.jpeg",
+   "credit": "Campaign website",
+   "page": "https://lisagonzalezmoore4bradenton.com/",
+   "confidence": "high"
+  },
+  "Keith J. Green": {
+   "url": "https://static.wixstatic.com/media/e6d700_3ce880a7a00f41a8917cead51a10edfc~mv2.jpg/v1/crop/x_0,y_9,w_3000,h_3983/fill/w_434,h_575,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/campagn.jpg",
+   "credit": "Campaign website",
+   "page": "https://www.votekeithgreen.com/",
+   "confidence": "high"
+  },
+  "Thomas Schwarz": {
+   "url": "https://schwarzforward3.com/wp-content/uploads/2026/03/tommy1.jpeg",
+   "credit": "Campaign website",
+   "page": "https://schwarzforward3.com/first-time-candidate-thomas-schwarz-surpasses-fundraising-goal-by-37-in-q1/",
+   "confidence": "high"
+  },
+  "Kemp Schuessler": {
+   "url": "https://cityofbradenton.com/vertical/Sites/%7B98CFEB92-7265-45CB-AF6F-7115C2CD7C81%7D/uploads/Councilman_Schuessler_Headshot_2025_Web.jpeg",
+   "credit": "City of Bradenton",
+   "page": "https://cityofbradenton.com/schuessler",
+   "confidence": "high"
+  },
+  "Jose Javier Rodriguez": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/388904/388904.jpg",
+   "credit": "BallotReady candidate profile (Florida Attorney General)",
+   "page": "https://www.ballotready.org/people/jose-javier-rodriguez",
+   "confidence": "medium"
+  },
+  "Reggie Bellamy": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/190146/190146.jpg",
+   "credit": "BallotReady candidate profile (Manatee County Commission - District 6 (At Large))",
+   "page": "https://www.ballotready.org/people/reggie-bellamy",
+   "confidence": "medium"
+  },
+  "Tara Poulton": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952088/952088.jpg",
+   "credit": "BallotReady candidate profile (Manatee County Commission - District 6 (At Large))",
+   "page": "https://www.ballotready.org/people/tara-poulton",
+   "confidence": "medium"
+  },
+  "Jordan Varnadore": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952478/jordan-varnadore.png",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 71)",
+   "page": "https://www.ballotready.org/people/jordan-varnadore",
+   "confidence": "medium"
+  },
+  "Jacob R. Kyser": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/974455/974455.jpg",
+   "credit": "BallotReady candidate profile (West Manatee Fire and Rescue District Board - Seat 2)",
+   "page": "https://www.ballotready.org/people/jacob-kyser",
+   "confidence": "medium"
+  },
+  "Dana Tindall": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/974457/974457.jpg",
+   "credit": "BallotReady candidate profile (West Manatee Fire and Rescue District Board - Seat 3)",
+   "page": "https://www.ballotready.org/people/dana-tindall",
+   "confidence": "medium"
+  },
+  "John Agnelli": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/974456/974456.jpg",
+   "credit": "BallotReady candidate profile (West Manatee Fire and Rescue District Board - Seat 3)",
+   "page": "https://www.ballotready.org/people/john-agnelli",
+   "confidence": "medium"
+  },
+  "Keith D. Miller": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/974459/974459.jpg",
+   "credit": "BallotReady candidate profile (West Manatee Fire and Rescue District Board - Seat 4)",
+   "page": "https://www.ballotready.org/people/keith-d-miller",
+   "confidence": "medium"
+  },
+  "Sari Lindroos-Valimaki": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952058/sari-lindroos-valimaki.png",
+   "credit": "BallotReady candidate profile (Manatee County Commission - District 1)",
+   "page": "https://www.ballotready.org/people/sari-lindroos-valimaki",
+   "confidence": "medium"
+  },
+  "Charles B. Smith Sr": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/190148/190148.jpg",
+   "credit": "BallotReady candidate profile (Manatee County Commission - District 2)",
+   "page": "https://www.ballotready.org/people/charles-b-smith",
+   "confidence": "medium"
+  },
+  "Amanda Ballard": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/686143/686143.jpg",
+   "credit": "BallotReady candidate profile (Manatee County Commission - District 2)",
+   "page": "https://www.ballotready.org/people/amanda-ballard",
+   "confidence": "medium"
+  },
+  "Luther Keith Wilkins": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/841973/841973.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 70)",
+   "page": "https://www.ballotready.org/people/luther-keith-wilkins",
+   "confidence": "medium"
+  },
+  "Sunshine Joiner": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/985248/985248.jpg",
+   "credit": "BallotReady candidate profile (Palmetto City Commission - Ward 2)",
+   "page": "https://www.ballotready.org/people/sunshine-joiner",
+   "confidence": "medium"
+  },
+  "Cindy Spray": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/686154/686154.jpg",
+   "credit": "BallotReady candidate profile (Manatee County School Board - District 2)",
+   "page": "https://www.ballotready.org/people/cindy-spray",
+   "confidence": "medium"
+  },
+  "Joseph Di Bartolomeo": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/224026/224026.jpg",
+   "credit": "BallotReady candidate profile (Tara Community Development District Board - Seat 1)",
+   "page": "https://www.ballotready.org/people/joseph-di-bartolomeo",
+   "confidence": "medium"
+  },
+  "Larry Luh": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/850668/850668.jpg",
+   "credit": "BallotReady candidate profile (East Manatee Fire Rescue District Board - Seat 3)",
+   "page": "https://www.ballotready.org/people/larry-luh",
+   "confidence": "medium"
+  },
+  "Carol Whitmore": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/190842/190842.jpg",
+   "credit": "BallotReady candidate profile (Holmes Beach City Commission)",
+   "page": "https://www.ballotready.org/people/carol-whitmore",
+   "confidence": "medium"
+  },
+  "David L. Zaccagnino": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/985245/985245.jpg",
+   "credit": "BallotReady candidate profile (Holmes Beach City Mayor)",
+   "page": "https://www.ballotready.org/people/david-l-zaccagnino",
+   "confidence": "medium"
+  },
+  "Camden \"Cam\" Bedinghaus": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952103/952103.jpg",
+   "credit": "BallotReady candidate profile (Manatee County School Board - District 5)",
+   "page": "https://www.ballotready.org/people/camden-bedinghaus",
+   "confidence": "medium"
+  },
+  "Jonathan Mullis": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952104/952104.jpg",
+   "credit": "BallotReady candidate profile (Manatee County School Board - District 5)",
+   "page": "https://www.ballotready.org/people/jonathan-mullis",
+   "confidence": "medium"
+  },
+  "Francesca Yabraian": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951893/951893.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 1)",
+   "page": "https://www.ballotready.org/people/francesca-yabraian",
+   "confidence": "medium"
+  },
+  "Merrillee Malwitz Jipson": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/189085/189085.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 10)",
+   "page": "https://www.ballotready.org/people/merrillee-malwitz-jipson",
+   "confidence": "medium"
+  },
+  "Marshall Rawson": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951914/951914.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 10)",
+   "page": "https://www.ballotready.org/people/marshall-rawson",
+   "confidence": "medium"
+  },
+  "Yoni Anijar": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952573/952573.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 100)",
+   "page": "https://www.ballotready.org/people/yoni-anijar",
+   "confidence": "medium"
+  },
+  "Todd Delmay": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/684831/684831.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 101)",
+   "page": "https://www.ballotready.org/people/todd-delmay",
+   "confidence": "medium"
+  },
+  "Mike Friend": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952582/michael-friend.png",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 102)",
+   "page": "https://www.ballotready.org/people/michael-friend",
+   "confidence": "medium"
+  },
+  "Mery Lopez-Palma": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/842113/842113.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 102)",
+   "page": "https://www.ballotready.org/people/mery-lopez-palma",
+   "confidence": "medium"
+  },
+  "Imtiaz Mohammad": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952586/952586.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 103)",
+   "page": "https://www.ballotready.org/people/imtiaz-mohammad",
+   "confidence": "medium"
+  },
+  "Gloria Romero Roses": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952605/952605.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 113)",
+   "page": "https://www.ballotready.org/people/gloria-roses",
+   "confidence": "medium"
+  },
+  "Marcos Reyes": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/842123/842123.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 115)",
+   "page": "https://www.ballotready.org/people/marcos-reyes",
+   "confidence": "medium"
+  },
+  "Ashley Perez-Biliskov": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952609/952609.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 116)",
+   "page": "https://www.ballotready.org/people/ashley-perez-biliskov",
+   "confidence": "medium"
+  },
+  "Miguel Granda": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952610/952610.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 117)",
+   "page": "https://www.ballotready.org/people/miguel-granda",
+   "confidence": "medium"
+  },
+  "Chadd Charland": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951924/951924.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 15)",
+   "page": "https://www.ballotready.org/people/chadd-charland",
+   "confidence": "medium"
+  },
+  "Art Stresing": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/957211/957211.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 18)",
+   "page": "https://www.ballotready.org/people/art-stresing",
+   "confidence": "medium"
+  },
+  "Suzanna Pavelle": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951931/951931.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 19)",
+   "page": "https://www.ballotready.org/people/suzanna-pavelle",
+   "confidence": "medium"
+  },
+  "Jon Fay": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951896/951896.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 2)",
+   "page": "https://www.ballotready.org/people/jon-fay",
+   "confidence": "medium"
+  },
+  "Amy Trask": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/828552/828552.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 22)",
+   "page": "https://www.ballotready.org/people/amy-trask",
+   "confidence": "medium"
+  },
+  "Robyn Lawrence": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952117/952117.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 26)",
+   "page": "https://www.ballotready.org/people/robyn-lawrence",
+   "confidence": "medium"
+  },
+  "Andy Ferrari": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/841912/841912.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 27)",
+   "page": "https://www.ballotready.org/people/andy-ferrari",
+   "confidence": "medium"
+  },
+  "Sammy Jackson": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/957274/957274.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 28)",
+   "page": "https://www.ballotready.org/people/sammy-jackson",
+   "confidence": "medium"
+  },
+  "Edwin Munoz": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/957275/957275.png",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 30)",
+   "page": "https://www.ballotready.org/people/edwin-munoz",
+   "confidence": "medium"
+  },
+  "Juan Hinojosa": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/841920/841920.jpg",
+   "credit": "BallotReady candidate profile (Florida House of Representatives - District 32)",
+   "page": "https://www.ballotready.org/people/juan-hinojosa",
+   "confidence": "medium"
+  },
+  "Jeffrey Peter \"Dr. Jeff\" Datto": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/971474/971474.jpg",
+   "credit": "BallotReady candidate profile (Candidate for Florida Governor)",
+   "page": "https://www.ballotready.org/people/jeffrey-dr-jeff-peter-datto",
+   "confidence": "medium"
+  },
+  "Charles Burkett": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/971476/971476.jpg",
+   "credit": "BallotReady candidate profile (Candidate for Florida Governor); same photo on Burkett campaign newsroom (Send2Press)",
+   "page": "https://www.ballotready.org/people/charles-burkett-a4abd866-3067-4d1b-8e71-f7fdef9b3aea",
+   "confidence": "medium"
+  },
+  "Matt Woodside": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952143/952143.jpg",
+   "credit": "BallotReady candidate profile (Florida House District 31)",
+   "page": "https://www.ballotready.org/people/matthew-woodside",
+   "confidence": "medium"
+  },
+  "Don Kanfer": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952123/952123.jpg",
+   "credit": "BallotReady candidate profile (Florida House District 29)",
+   "page": "https://www.ballotready.org/people/donald-kanfer",
+   "confidence": "medium"
+  },
+  "Wancito Francius": {
+   "url": "https://www.wancitofranciusforflorida.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-18-at-23.12.55.jpeg",
+   "credit": "Campaign website",
+   "page": "https://wancitofranciusforflorida.com",
+   "confidence": "high"
+  },
+  "Elizabeth \"Liz\" Arnold": {
+   "url": "https://media.yourobserver.com/img/photos/2026/05/09/DSC_1125_r1080x720.JPG?a5a8e335434cfe3a93dc299de6ea435221e0bf0d",
+   "credit": "Your Observer (photo by Lesley Dwyer; caption names Elizabeth Arnold, District 1 candidate)",
+   "page": "https://www.yourobserver.com/news/2026/may/21/parrish-resident-steps-up-to-protect-rural-manatee-county-in-district-1-race/",
+   "confidence": "medium"
+  },
+  "Dan Diggins": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/710103/710103.jpg",
+   "credit": "BallotReady candidate profile (Holmes Beach City Mayor)",
+   "page": "https://www.ballotready.org/people/daniel-p-diggins",
+   "confidence": "medium"
+  },
+  "Sheldon \"Mailman\" Jones": {
+   "url": "https://zeta.creativecirclecdn.com/bradenton/original/20241024-131911-72d-Jones.jpg",
+   "credit": "The Bradenton Times 2024 candidate profile of Palmetto Commissioner Sheldon Jones (postal worker; same man as 2020 Tempo News photo)",
+   "page": "https://thebradentontimes.com/stories/candidate-profile-sheldon-jones,112770",
+   "confidence": "medium"
+  },
+  "Charles \"Rick\" Richards": {
+   "url": "https://newschain-payload-prod-media.s3.us-east-1.amazonaws.com/Rick.jpg",
+   "credit": "Lakewood Ranch Beacon candidate profile (Manatee Mosquito Control Group 1)",
+   "page": "https://lakewoodranchbeacon.com/articles/rick-richards-seeks-manatee-mosquito-control-seat-mvljpirf",
+   "confidence": "medium"
+  },
+  "Scott Johnson": {
+   "url": "https://newschain-payload-prod-media.s3.us-east-1.amazonaws.com/Scott%20Johnson.jpg",
+   "credit": "Lakewood Ranch Beacon candidate profile (Manatee Mosquito Control Group 1)",
+   "page": "https://lakewoodranchbeacon.com/articles/johnson-seeks-manatee-mosquito-control-seat-on-fiscal-platform-mv1qky1e",
+   "confidence": "medium"
+  },
+  "Richard Jacobs": {
+   "url": "https://newschain-payload-prod-media.s3.us-east-1.amazonaws.com/Richard%20Jacobs.jpg",
+   "credit": "Lakewood Ranch Beacon candidate profile (East Manatee Fire Rescue Seat 5)",
+   "page": "https://lakewoodranchbeacon.com/articles/jacobs-seeks-east-manatee-fire-board-seat-5-mv1rocdu",
+   "confidence": "medium"
+  },
+  "Benjamin Sandlin": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/841888/841888.jpg",
+   "credit": "BallotReady candidate profile (Florida House District 12)",
+   "page": "https://www.ballotready.org/people/benjamin-frierson-sandlin",
+   "confidence": "medium"
+  },
+  "Joe Hannoush": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/189091/189091.jpg",
+   "credit": "BallotReady candidate profile (Florida House District 28)",
+   "page": "https://www.ballotready.org/people/joseph-joe-hannoush",
+   "confidence": "medium"
+  },
+  "Terrance Freeman": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/316817/316817.jpg",
+   "credit": "BallotReady profile of Jacksonville councilman Terrance Freeman; same person as the HD 12 candidate per ActionNewsJax/Florida Politics",
+   "page": "https://www.ballotready.org/people/terrance-freeman",
+   "confidence": "medium"
+  },
+  "Lucia Baez-Geller": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952590/lucia-baez-geller-ed5f7cc8-0fa0-4654-a413-4bf1ec5a545e.png",
+   "credit": "BallotReady candidate profile (Florida House District 106)",
+   "page": "https://www.ballotready.org/people/lucia-baez-geller-ed5f7cc8-0fa0-4654-a413-4bf1ec5a545e",
+   "confidence": "medium"
+  },
+  "Henry N. White Jr": {
+   "url": "https://static.wixstatic.com/media/f71fc9_33380eca90644ce188f30b1f99bfb330~mv2.png",
+   "credit": "Campaign website (Henry White for Stewardship District 3)",
+   "page": "https://www.votehenrywhite.com/",
+   "confidence": "high"
+  }
+ },
+ "not_found": {
+  "Rodney O'Quinn": "BallotReady page has no headshot; Lakewood Ranch Beacon article image shows him beside a campaign sign (not a clean single-person portrait); kellerspestcontrol.com about pages blocked/404. No site of his own found.",
+  "Derrick Warner": "Incumbent WMFR commissioner; BallotReady has placeholder only; wmfr.org/wmfr.specialdistrict.org commissioner pages have no photos; local papers (Islander 403-blocked, AMI Sun) showed no usable captioned portrait.",
+  "Billy Burke": "Incumbent WMFR commissioner; BallotReady has placeholder only; wmfr.org/wmfr.specialdistrict.org commissioner pages have no photos; local papers (Islander 403-blocked, AMI Sun) showed no usable captioned portrait.",
+  "Adam Bailey": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Kyle Baber": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Frank Sacca": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Bruce R. Stolarz": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "William John Hathaway": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Leah Ogren": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "James P. Casement": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Kevin G. Gagne": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Joyce Lynn Calderon": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Marko Krstic": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Tracy Joniec": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Mike Lamb": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Tony Beazley": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Victor G. Colombo": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Nancy Quinn": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found (BallotReady slug nancy-quinn is a different Illinois candidate, rejected).",
+  "Grace Russolillo": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Jonathan Dayton": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Bill Mariotti": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Arthur Taber": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Tryn Stimart": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found (Lakewood Ranch Beacon profile uses a generic stock image).",
+  "Angela Albrecht": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Michael A. Conner": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Sandra K. Freas": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Jack A. Knisley Jr": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Frank John Loviglio": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Jackie Petrovich": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Joe Stanczyk": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Timothy Abramski": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Judy Cummings": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Karin Murphy": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Eugene J. Rado": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "Carl Teisch": "Low-profile CDD race: BallotReady page exists but only a placeholder image, no campaign site, no news profile with a captioned photo found.",
+  "William Bjork": "BallotReady has placeholder only (or none); no campaign site; Islander (403) and Tampa Bay 28 questionnaire page carry no photo; no captioned news portrait found.",
+  "Joseph Houlihan": "BallotReady has placeholder only (or none); no campaign site; Islander (403) and Tampa Bay 28 questionnaire page carry no photo; no captioned news portrait found.",
+  "John J. Azzata": "BallotReady has placeholder only (or none); no campaign site; Islander (403) and Tampa Bay 28 questionnaire page carry no photo; no captioned news portrait found.",
+  "Mark Hebden": "BallotReady has placeholder only (or none); no campaign site; Islander (403) and Tampa Bay 28 questionnaire page carry no photo; no captioned news portrait found.",
+  "Kyle L. Moore": "BallotReady has placeholder only (or none); no campaign site; Islander (403) and Tampa Bay 28 questionnaire page carry no photo; no captioned news portrait found.",
+  "Edward W. Stevens": "BallotReady has placeholder only (or none); no campaign site; Islander (403) and Tampa Bay 28 questionnaire page carry no photo; no captioned news portrait found.",
+  "Michael Ferguson": "Out-of-county state House candidate: no BallotReady headshot (placeholder, wrong-person slug, or no profile) and no campaign site/news portrait found within budget; BallotReady slug michael-ferguson is an Arkansas school-board member, rejected.",
+  "Nicolas Ramos": "Out-of-county state House candidate: no BallotReady headshot (placeholder, wrong-person slug, or no profile) and no campaign site/news portrait found within budget.",
+  "A.C. Castillo": "Out-of-county state House candidate: no BallotReady headshot (placeholder, wrong-person slug, or no profile) and no campaign site/news portrait found within budget; BallotReady matches were other people.",
+  "Rey Sordo": "Out-of-county state House candidate: no BallotReady headshot (placeholder, wrong-person slug, or no profile) and no campaign site/news portrait found within budget; rey4florida.org has no photo and its og-share.jpg 404s.",
+  "Jacob Guerrero": "Out-of-county state House candidate: no BallotReady headshot (placeholder, wrong-person slug, or no profile) and no campaign site/news portrait found within budget.",
+  "Johnny Thompson": "Out-of-county state House candidate: no BallotReady headshot (placeholder, wrong-person slug, or no profile) and no campaign site/news portrait found within budget; BallotReady johnny-thompson is a Mississippi candidate, rejected.",
+  "Lee Butler": "Out-of-county state House candidate: no BallotReady headshot (placeholder, wrong-person slug, or no profile) and no campaign site/news portrait found within budget.",
+  "Jackie Randall": "Out-of-county state House candidate: no BallotReady headshot (placeholder, wrong-person slug, or no profile) and no campaign site/news portrait found within budget.",
+  "Mark Baker": "Out-of-county state House candidate: no BallotReady headshot (placeholder, wrong-person slug, or no profile) and no campaign site/news portrait found within budget.",
+  "Ingrid Wadsworth": "Out-of-county state House candidate: no BallotReady headshot (placeholder, wrong-person slug, or no profile) and no campaign site/news portrait found within budget."
+ }
+}

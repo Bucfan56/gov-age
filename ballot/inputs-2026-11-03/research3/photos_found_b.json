@@ -1,0 +1,545 @@
+{
+ "done": true,
+ "photos": {
+  "Emily Duda Buckley": {
+   "url": "https://www.emilydudabuckley.com/assets/img/emily-headshot.jpg",
+   "credit": "Official campaign site (emilydudabuckley.com)",
+   "page": "https://www.emilydudabuckley.com/",
+   "confidence": "high"
+  },
+  "Brian Hawkins": {
+   "url": "https://brianhawkinsforflorida.com/assets/hero-brian.jpg",
+   "credit": "Official campaign site (brianhawkinsforflorida.com)",
+   "page": "https://brianhawkinsforflorida.com/",
+   "confidence": "high"
+  },
+  "Darryl Block": {
+   "url": "https://static.wixstatic.com/media/6c8408_9cadd5e3ba154c09acfd41ac825bc74a~mv2.png",
+   "credit": "Official campaign site (darrylblock.com), image alt 'Darryl Block hero headshot'; decorative circle background",
+   "page": "https://www.darrylblock.com/",
+   "confidence": "high"
+  },
+  "Dan Weldon": {
+   "url": "https://tampadan.com/wp-content/uploads/2026/06/portrait.jpg",
+   "credit": "Official campaign site (tampadan.com), alt 'Dan Weldon'",
+   "page": "https://tampadan.com/",
+   "confidence": "high"
+  },
+  "Erin Huntley": {
+   "url": "https://www.voteerinhuntley.com/__l5e/assets-v1/73a9a4ee-35a3-41cf-a8e3-5a89371aa216/erin-about-portrait.png",
+   "credit": "Official campaign site (voteerinhuntley.com), about portrait (transparent circular-framed PNG)",
+   "page": "https://www.voteerinhuntley.com/",
+   "confidence": "high"
+  },
+  "Wayne Richter": {
+   "url": "https://static.wixstatic.com/media/525633_0395e37b7ac047d48dd1ffa6b3fdc127~mv2.png",
+   "credit": "Official campaign site (waynerichter.com), file RichterHeadshot1.png",
+   "page": "https://www.waynerichter.com/",
+   "confidence": "high"
+  },
+  "Anthony Bonna": {
+   "url": "https://static.wixstatic.com/media/533ff4_00ae7a13a61c45ad9b8cee38a4d41a9b~mv2.png",
+   "credit": "Official campaign site (anthonybonna.com), file 'Anthony Headshot'",
+   "page": "https://www.anthonybonna.com/",
+   "confidence": "high"
+  },
+  "Ryan Neill": {
+   "url": "https://primary.jwwb.nl/public/k/k/b/temp-elcwtaykybkhuiscgbdx/new-headshot2-high.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200",
+   "credit": "Official campaign site (electryanneill.com), file new-headshot2",
+   "page": "https://electryanneill.com/",
+   "confidence": "high"
+  },
+  "Wendy Hoy": {
+   "url": "https://wendyhoyforchange.com/wp-content/uploads/2023/06/thinner-face-2.png",
+   "credit": "Official campaign site (wendyhoyforchange.com); filename not explicit, single portrait on her own site",
+   "page": "https://wendyhoyforchange.com/",
+   "confidence": "medium"
+  },
+  "Lauren Donahoo": {
+   "url": "https://votedonahoo.com/images/lauren-headshot.jpg",
+   "credit": "Official campaign site (votedonahoo.com), lauren-headshot.jpg",
+   "page": "https://votedonahoo.com",
+   "confidence": "high"
+  },
+  "Elizabeth Jeanty": {
+   "url": "https://elizabethforsenate34.com/_next/static/media/candidateImg.0~q4k3.~x3aqc.webp",
+   "credit": "Official campaign site (elizabethforsenate34.com), candidateImg",
+   "page": "https://elizabethforsenate34.com",
+   "confidence": "high"
+  },
+  "Jose Stoute": {
+   "url": "https://electstoute.org/assets/mobile-portrait-headroom-no-blur.png",
+   "credit": "Official campaign site (electstoute.org), alt 'Jose Stoute portrait'",
+   "page": "https://electstoute.org/",
+   "confidence": "high"
+  },
+  "Judy Ngying": {
+   "url": "https://static.wixstatic.com/media/6c8408_f30ba0de64dd41ae8fe06f3444dba074~mv2.png",
+   "credit": "Official campaign site (judyforsenate8.com), file Judy-Ngying-Headshot-01.png",
+   "page": "https://judyforsenate8.com",
+   "confidence": "high"
+  },
+  "Joe Strada": {
+   "url": "https://www.votestrada.com/photos/joe-headshot-blue-polo.webp",
+   "credit": "Official campaign site (votestrada.com), alt 'Joe Strada headshot'",
+   "page": "https://www.votestrada.com/",
+   "confidence": "high"
+  },
+  "Cathy Higgins": {
+   "url": "https://votecathyhiggins.com/wp-content/uploads/2026/06/cathyheadshot.png",
+   "credit": "Official campaign site (votecathyhiggins.com), cathyheadshot.png",
+   "page": "https://votecathyhiggins.com/",
+   "confidence": "high"
+  },
+  "Deborah Ann Meidinger Hosey": {
+   "url": "https://deborahforcongress.com/UserFiles/image/Deborah_Ann_Meidinger_Hosey.webp",
+   "credit": "Official campaign site (deborahforcongress.com), file named for candidate",
+   "page": "https://deborahforcongress.com",
+   "confidence": "high"
+  },
+  "Susan Frantz": {
+   "url": "https://www.votesusanfrantz.com/wp-content/uploads/2026/05/susan-1030x1030.png",
+   "credit": "Official campaign site (votesusanfrantz.com)",
+   "page": "https://votesusanfrantz.com/",
+   "confidence": "high"
+  },
+  "Ralph Groves": {
+   "url": "https://static.wixstatic.com/media/b9350a_e7d10cce66a34bc0b3ae9c79ef6809ac~mv2.jpg",
+   "credit": "Official campaign site (grovesforcongress.com), file ralph-groves.jpg (candid, in office)",
+   "page": "https://www.grovesforcongress.com/",
+   "confidence": "medium"
+  },
+  "Dante Sanchez Sanchez": {
+   "url": "https://sanchezsanchezforflorida.com/wp-content/uploads/2026/06/Jose-Dante-Sanchez-Sanchez.png",
+   "credit": "Official campaign site (sanchezsanchezforflorida.com); portrait has a name caption strip at bottom",
+   "page": "https://sanchezsanchezforflorida.com/",
+   "confidence": "medium"
+  },
+  "Tony D'Arrigo": {
+   "url": "https://tonydarrigo.com/wp-content/uploads/2026/06/portrait2.png",
+   "credit": "Official campaign site (tonydarrigo.com), portrait2.png",
+   "page": "https://tonydarrigo.com",
+   "confidence": "high"
+  },
+  "Eddy Rojas": {
+   "url": "https://static.wixstatic.com/media/1e8d72_3e1219b14eac4d94983901f768af0c58~mv2.jpeg",
+   "credit": "Official campaign site (eddyrojas.com), seated studio portrait (unlabeled file)",
+   "page": "https://www.eddyrojas.com",
+   "confidence": "medium"
+  },
+  "Andrew Parrott": {
+   "url": "https://images.squarespace-cdn.com/content/v1/6a110ae1cb17be7771b678f7/e29133fc-d4fe-4e0a-b40a-e77e627f69d5/IMG_0291.jpg",
+   "credit": "Official campaign site (andrewparrottforcongress.com), portrait (unlabeled file)",
+   "page": "https://www.andrewparrottforcongress.com/",
+   "confidence": "medium"
+  },
+  "Christopher Dennison": {
+   "url": "https://dennison4congress.com/api/lp-assets/6d97c66dba32497ef7318411ab129541",
+   "credit": "Official campaign site (dennison4congress.com), portrait (unlabeled asset)",
+   "page": "https://dennison4congress.com",
+   "confidence": "medium"
+  },
+  "Nik Dean": {
+   "url": "https://images.squarespace-cdn.com/content/v1/6aa2e415d63f201ec1579228/b8805ca6-2315-4096-bb32-5def52789722/headshot.png",
+   "credit": "Official campaign site (nikdeanforflorida.com), headshot.png (alt text names Nik Dean)",
+   "page": "https://www.nikdeanforflorida.com/",
+   "confidence": "high"
+  },
+  "Kyandra Darling": {
+   "url": "https://images.squarespace-cdn.com/content/v1/6798f7c35442323cbaca933a/4b73cc93-ec72-4658-b189-c9499282bb98/Profile+image.png",
+   "credit": "Official campaign site (darlingforfl.com), Profile image (full-length photo)",
+   "page": "https://www.darlingforfl.com/",
+   "confidence": "high"
+  },
+  "Samuel Vilchez Santiago": {
+   "url": "https://images.squarespace-cdn.com/content/v1/694ad8880f27117da23ee194/b50a5ff8-5ab6-43f1-bfbc-b07755365c77/header+image+-+edited.png",
+   "credit": "Official campaign site (samuelforflorida.com), header portrait",
+   "page": "https://www.samuelforflorida.com/",
+   "confidence": "high"
+  },
+  "Zach Funkhouser": {
+   "url": "https://static.wixstatic.com/media/deb041_0c827d144d4b44c591eb180c57e220a5~mv2.jpg",
+   "credit": "Official campaign site (funkhouserforflori.wixsite.com), portrait (unlabeled file)",
+   "page": "https://funkhouserforflori.wixsite.com/funkhouser-for-flori",
+   "confidence": "medium"
+  },
+  "Ben Braver": {
+   "url": "https://benbraver.com/attached_assets/0e650388970b853b%20(1)%20(2)_1755373033935.jpg",
+   "credit": "Official campaign site (benbraver.com), image alt 'Ben Braver'",
+   "page": "https://benbraver.com/",
+   "confidence": "high"
+  },
+  "Eric Yonce": {
+   "url": "https://www.yonceforcongress.com/assets/candidate-hero-v2-HYlldUwq.png",
+   "credit": "Official campaign site (yonceforcongress.com), hero alt 'Eric Yonce standing beside a Florida waterfront'",
+   "page": "https://www.yonceforcongress.com/",
+   "confidence": "high"
+  },
+  "Ashley Herrmann": {
+   "url": "https://ashleyforfloridahouse.com/_next/static/media/ashley_herrmaan_headshot.98cfc253.webp",
+   "credit": "Official campaign site (ashleyforfloridahouse.com), file ashley_herrmaan_headshot",
+   "page": "https://ashleyforfloridahouse.com/",
+   "confidence": "high"
+  },
+  "Robert Anzalone": {
+   "url": "https://www.anzaloneforflorida.com/_assets/v11/807dbdc3fd7636f4ecee3b67e150956e182dd5a5.png",
+   "credit": "Official campaign site (anzaloneforflorida.com), image alt 'Robert Anzalone'",
+   "page": "https://www.anzaloneforflorida.com/",
+   "confidence": "high"
+  },
+  "Phillip Carter": {
+   "url": "https://www.carter4florida.com/_assets/v11/95f9bbce64b373608d5c30c1d48e5d0ec7646c8f.png",
+   "credit": "Official campaign site (carter4florida.com), image alt 'Candidate headshot'",
+   "page": "https://www.carter4florida.com/",
+   "confidence": "high"
+  },
+  "John Lowndes": {
+   "url": "https://images.squarespace-cdn.com/content/v1/6a0f16f6758a995f9767bb6c/21f4deae-fb78-409d-98e8-1bf690abe03a/iso+headshot+5.png",
+   "credit": "Official campaign site (johnlowndesforflorida.com), iso headshot 5.png",
+   "page": "https://www.johnlowndesforflorida.com/",
+   "confidence": "high"
+  },
+  "Pia Dandiya": {
+   "url": "https://piaforcongress.com/ignition/resources/img/Pia-Dandiya-for-Congress-pia-portrait.webp",
+   "credit": "Official campaign site (piaforcongress.com), alt 'Pia Dandiya in a white shirt'",
+   "page": "https://piaforcongress.com/",
+   "confidence": "high"
+  },
+  "Lisa Klein": {
+   "url": "https://lisakleinforflorida.com/ignition/resources/img/meet2.webp",
+   "credit": "Official campaign site (lisakleinforflorida.com), alt 'Lisa Klein smiling outdoors'",
+   "page": "https://lisakleinforflorida.com/",
+   "confidence": "high"
+  },
+  "George Lavin": {
+   "url": "https://votegeorgelavin.com/ignition/resources/img/candidate-figure.png",
+   "credit": "Official campaign site (votegeorgelavin.com), candidate-figure.png alt 'George Lavin' (full-length cutout portrait)",
+   "page": "https://votegeorgelavin.com/",
+   "confidence": "high"
+  },
+  "Robert Prater": {
+   "url": "https://voterobprater.com/__l5e/assets-v1/6ba3de2b-f507-4fbb-b151-b35629739a50/above-the-fold-hero-mobile-2.jpg",
+   "credit": "Official campaign site (voterobprater.com), hero alt 'Robert Prater, educator and candidate'",
+   "page": "https://voterobprater.com",
+   "confidence": "high"
+  },
+  "Jarod Fox": {
+   "url": "https://foxforfl.com/ignition/resources/img/hero-desktop.webp",
+   "credit": "Official campaign site (foxforfl.com), hero image (unlabeled)",
+   "page": "https://foxforfl.com",
+   "confidence": "medium"
+  },
+  "James Pericola": {
+   "url": "https://jamespericola.com/ignition/resources/img/hero.jpg",
+   "credit": "Official campaign site (jamespericola.com), hero image (unlabeled)",
+   "page": "https://jamespericola.com/",
+   "confidence": "medium"
+  },
+  "Elizabeth Pandich": {
+   "url": "https://static.wixstatic.com/media/7fdf27_92d3867b0a484aec9d44d6fe067299e0~mv2.jpg",
+   "credit": "Official campaign site (pandich2026.com), seated portrait (unlabeled file)",
+   "page": "https://www.pandich2026.com/",
+   "confidence": "medium"
+  },
+  "Christopher Anger": {
+   "url": "https://content.campaignpartner.net/images/151680/candidate_97f02a68c3ad4cf99292c2b5adc053e7_176c6dbbee804d29af6f594bc9f75ea1.jpg",
+   "credit": "Official campaign site (christopheranger.com), uploaded candidate photo (speaking at podium)",
+   "page": "https://christopheranger.com/",
+   "confidence": "medium"
+  },
+  "Jon Maples": {
+   "url": "https://votemaples.com/wp-content/uploads/2026/06/3724-jon-maples-coastal-click-photography-copy.png",
+   "credit": "Official campaign site (votemaples.com), candid photo; filename names him",
+   "page": "https://votemaples.com/",
+   "confidence": "medium"
+  },
+  "Karla Kemp": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951638/951638.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State Senate, District 18 (small/distant figure in photo)",
+   "page": "https://www.ballotready.org/people/karla-kemp",
+   "confidence": "medium"
+  },
+  "Tuan Le": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/684870/684870.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 40",
+   "page": "https://www.ballotready.org/people/tuan-le",
+   "confidence": "medium"
+  },
+  "Bonnie Jackson": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/684745/684745.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 42",
+   "page": "https://www.ballotready.org/people/bonnie-jackson",
+   "confidence": "medium"
+  },
+  "Anthony Nieves": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/828596/828596.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 47",
+   "page": "https://www.ballotready.org/people/anthony-nieves",
+   "confidence": "medium"
+  },
+  "Alethea Pugh": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/866736/866736.png",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 48",
+   "page": "https://www.ballotready.org/people/alethea-pugh",
+   "confidence": "medium"
+  },
+  "Jarvis Washington": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/589250/589250.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 50",
+   "page": "https://www.ballotready.org/people/jarvis-washington",
+   "confidence": "medium"
+  },
+  "Pamala Bivins": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952261/952261.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 52",
+   "page": "https://www.ballotready.org/people/pamala-bivins",
+   "confidence": "medium"
+  },
+  "Tony Claude": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952264/952264.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 53",
+   "page": "https://www.ballotready.org/people/tony-claude",
+   "confidence": "medium"
+  },
+  "Walter Price": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952268/952268.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 55",
+   "page": "https://www.ballotready.org/people/walter-price",
+   "confidence": "medium"
+  },
+  "Susan Leff": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952276/952276.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 59",
+   "page": "https://www.ballotready.org/people/susan-leff",
+   "confidence": "medium"
+  },
+  "Tricia Berry": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951904/951904.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 6",
+   "page": "https://www.ballotready.org/people/tricia-berry",
+   "confidence": "medium"
+  },
+  "Lindsay Polega-Quigley": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/957296/957296.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 60 (small/distant figure in photo)",
+   "page": "https://www.ballotready.org/people/lindsay-polega-quigley",
+   "confidence": "medium"
+  },
+  "Melissa Rutland": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/957297/957297.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 60",
+   "page": "https://www.ballotready.org/people/melissa-rutland",
+   "confidence": "medium"
+  },
+  "May Thach": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952279/952279.png",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 61",
+   "page": "https://www.ballotready.org/people/may-thach",
+   "confidence": "medium"
+  },
+  "Lisette Bonano": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/684793/684793.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 67",
+   "page": "https://www.ballotready.org/people/lisette-bonano",
+   "confidence": "medium"
+  },
+  "Cornelius Fowler": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/841980/841980.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 77",
+   "page": "https://www.ballotready.org/people/cornelius-fowler",
+   "confidence": "medium"
+  },
+  "Kim Finer": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952518/952518.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 81",
+   "page": "https://www.ballotready.org/people/kim-finer",
+   "confidence": "medium"
+  },
+  "Liesa Priddy": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952522/liesa-priddy.png",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 82",
+   "page": "https://www.ballotready.org/people/liesa-priddy",
+   "confidence": "medium"
+  },
+  "Leigh Estes": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952541/952541.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 83",
+   "page": "https://www.ballotready.org/people/leigh-estes",
+   "confidence": "medium"
+  },
+  "Amr Metwally": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951394/951394.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 85",
+   "page": "https://www.ballotready.org/people/amr-metwally",
+   "confidence": "medium"
+  },
+  "Tracy Robinson": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951911/951911.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 9",
+   "page": "https://www.ballotready.org/people/tracy-robinson",
+   "confidence": "medium"
+  },
+  "Ionel Roiban": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/957308/957308.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 90",
+   "page": "https://www.ballotready.org/people/ionel-roiban",
+   "confidence": "medium"
+  },
+  "August Mangeney": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952563/952563.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 93",
+   "page": "https://www.ballotready.org/people/august-mangeney",
+   "confidence": "medium"
+  },
+  "Elizabeth Holmes": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/952564/952564.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 94",
+   "page": "https://www.ballotready.org/people/elizabeth-holmes",
+   "confidence": "medium"
+  },
+  "Doug Barrow": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/957309/957309.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State House, District 94",
+   "page": "https://www.ballotready.org/people/doug-barrow",
+   "confidence": "medium"
+  },
+  "Jordan Hensley": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/957314/957314.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State Senate, District 21",
+   "page": "https://www.ballotready.org/people/jordan-hensley",
+   "confidence": "medium"
+  },
+  "Chris Nocco": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/445074/445074.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State Senate, District 21",
+   "page": "https://www.ballotready.org/people/christopher-m-nocco",
+   "confidence": "medium"
+  },
+  "Lew Wasserman": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/957192/957192.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State Senate, District 22",
+   "page": "https://www.ballotready.org/people/lew-wasserman",
+   "confidence": "medium"
+  },
+  "Martin Hyde": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/432944/432944.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State Senate, District 22",
+   "page": "https://www.ballotready.org/people/martin-hyde",
+   "confidence": "medium"
+  },
+  "David Silverberg": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951882/951882.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State Senate, District 28",
+   "page": "https://www.ballotready.org/people/david-silverberg",
+   "confidence": "medium"
+  },
+  "Richard Lamondin Jr.": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951888/951888.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State Senate, District 38",
+   "page": "https://www.ballotready.org/people/richard-lamondin",
+   "confidence": "medium"
+  },
+  "Ramiro Orta": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/957203/957203.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State Senate, District 40",
+   "page": "https://www.ballotready.org/people/ramiro-orta",
+   "confidence": "medium"
+  },
+  "Jason Bellamy-Fults": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951857/951857.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State Senate, District 6",
+   "page": "https://www.ballotready.org/people/jason-bellamy-fults",
+   "confidence": "medium"
+  },
+  "Gabriel Wozniak": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951861/951861.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for State Senate, District 8",
+   "page": "https://www.ballotready.org/people/gabriel-wozniak",
+   "confidence": "medium"
+  },
+  "Deva Simmons": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951742/951742.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for U.S. House, District 18",
+   "page": "https://www.ballotready.org/people/deva-simmons",
+   "confidence": "medium"
+  },
+  "Jim Schwartzel": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951754/951754.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for U.S. House, District 19",
+   "page": "https://www.ballotready.org/people/jim-schwartzel",
+   "confidence": "medium"
+  },
+  "Seth Haskin": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/957169/957169.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for U.S. House, District 19",
+   "page": "https://www.ballotready.org/people/seth-haskin",
+   "confidence": "medium"
+  },
+  "Deborah Adeimy": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/684596/684596.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for U.S. House, District 23",
+   "page": "https://www.ballotready.org/people/deborah-adeimy",
+   "confidence": "medium"
+  },
+  "Te Mayonna Brown": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/956684/956684.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for U.S. House, District 24",
+   "page": "https://www.ballotready.org/people/te-mayonna-brown",
+   "confidence": "medium"
+  },
+  "Peter Jassenoff": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/957177/957177.jpg",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for U.S. House, District 25",
+   "page": "https://www.ballotready.org/people/peter-jassenoff",
+   "confidence": "medium"
+  },
+  "Eliott Rodriguez": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/951797/eliott-rodriguez.png",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for U.S. House, District 27",
+   "page": "https://www.ballotready.org/people/eliott-rodriguez",
+   "confidence": "medium"
+  },
+  "Brent Andersen": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/957171/brent-anderson-02333667-47fc-4b66-bfc4-c26a58037be6.png",
+   "credit": "BallotReady candidate profile (voter guide); page lists 2026 candidacy for U.S. House, District 20",
+   "page": "https://www.ballotready.org/people/brent-anderson-02333667-47fc-4b66-bfc4-c26a58037be6",
+   "confidence": "medium"
+  },
+  "Jake Johansson": {
+   "url": "https://assets.civicengine.com/uploads/candidate/headshot/686488/686488.jpg",
+   "credit": "BallotReady profile for Jake Johansson (Volusia County Council At-Large member; same person as the SD 8 candidate, Facebook JakeforVC); page does not list the SD 8 race",
+   "page": "https://www.ballotready.org/people/jake-johansson",
+   "confidence": "medium"
+  }
+ },
+ "not_found": {
+  "John Emerling": "BallotReady profile has only a placeholder (no photo), no campaign website listed; Blue Voter Guide page has no headshot",
+  "Michael Cruz": "Facebook-only campaign; BallotReady \"Michael Cruz\" is an Arizona candidate (wrong person), not used",
+  "Ivan Rivera": "No website; BallotReady has no matching profile",
+  "Alex Finney": "No website; BallotReady has no matching profile",
+  "Ricky Santiago": "Campaign site (rickyfor50.com) only has logo/banner graphics; BallotReady \"Ricky Santiago\" is a Kentucky candidate (wrong person)",
+  "Octavio Hernandez": "Campaign site hernandez51.com has only a group photo and logo; no BallotReady profile found",
+  "Bryan Beckman": "BallotReady profile has only a placeholder (no photo), no campaign website listed",
+  "Stephanie Leonard": "BallotReady profile has only a placeholder (no photo), no campaign website listed",
+  "Tony Smith": "BallotReady profile has only a placeholder (no photo), no campaign website listed",
+  "Ryan Gill": "Campaign site has only a family/banner graphic; BallotReady profile does not state the HD 68 race so identity not confirmed",
+  "Cynthia Butler": "Campaign site (Wix) has only a logo graphic; BallotReady slug matched a different person (other state/office), so not used (Illinois)",
+  "Jennifer Massey": "Campaign site photos are unlabeled (woman with microphone, selfie, group); BallotReady slug matched a different person (other state/office), so not used (Arkansas)",
+  "William Joseph": "Campaign site only has a banner graphic; BallotReady profile is a Lake Worth Beach mayoral run (2024), HD 88 race not confirmed, so not used",
+  "Luis Garcia": "Campaign site only has a full-length firefighter-uniform candid and a flyer; BallotReady profile has only a placeholder (no photo), no campaign website listed",
+  "Steve Byers": "Campaign site has only flyers/landscape images; BallotReady profile has only a placeholder (no photo), no campaign website listed",
+  "Alfred Reynolds": "No website; BallotReady slug matched a different person (other state/office), so not used (Georgia)",
+  "Jackie Green": "BallotReady profile has only a placeholder (no photo), no campaign website listed",
+  "Hector Rivera": "No website; BallotReady \"Hector M. Rivera\" has a photo but the page does not tie him to SD 30 (Texas education history), so not used",
+  "Crescente Furnaguera": "BallotReady confirms SD 32 candidacy but has only a placeholder image",
+  "Doc Solomon": "Campaign site (solomonforfloridasenate.com) has only a magazine-cover photo, group photos and logo; no BallotReady slug found",
+  "Joseph Thornton": "BallotReady profile has only a placeholder (no photo), no campaign website listed",
+  "Tyler L. Davis": "BallotReady profile has only a placeholder (no photo), no campaign website listed",
+  "Curtis Gibson": "Campaign site has only a logo graphic and event/group photos; no BallotReady slug found",
+  "Victor Arias": "Campaign site (votearias-us-9m6.pages.dev) shows an \"Account Suspended\" page; no BallotReady slug found",
+  "Austin Rogers": "BallotReady profile has only a placeholder (no photo), no campaign website listed",
+  "James T. Martin": "Campaign site has only unlabeled group/graphic images; BallotReady slug matched a different person (other state/office), so not used (NJ/NM)",
+  "Bale Dalton": "Campaign site images are a text banner and family/rocket photos; no BallotReady slug found",
+  "Jennifer Jenkins": "Campaign site (jenkinsforfl.com) only has an og graphic with text overlay; no BallotReady slug found"
+ }
+}

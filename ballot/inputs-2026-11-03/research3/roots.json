@@ -1,0 +1,4127 @@
+{
+ "done": true,
+ "roots": {
+  "Byron Donalds": {
+   "roots": 55,
+   "born": "New York City (Brooklyn), Oct 28 1978",
+   "raised": "Crown Heights, Brooklyn, by single mother; Nazareth Regional HS (East Flatbush) 1996",
+   "moved": "c.1996 (inferred: Florida A&M then FSU after 1996 HS graduation; BS FSU 2002); Naples later",
+   "summary": "Born and raised in Brooklyn; attended FSU (BA 2002); Florida arrival year not stated, c.1996-2002 inferred.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Byron_Donalds",
+    "https://byrondonalds.com/about/"
+   ]
+  },
+  "David Jolly": {
+   "roots": 100,
+   "born": "Dunedin, FL, Oct 31 1972",
+   "raised": "Clearwater/Miami (from age 3)/Dade City; Pasco HS 1990",
+   "moved": null,
+   "summary": "Born Dunedin; raised Miami and Dade City; fifth-generation Floridian; lives Indian Rocks Beach.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/David_Jolly"
+   ]
+  },
+  "Charles Burkett": {
+   "roots": 100,
+   "born": "Miami Beach area (barrier island; town bio reportedly says St. Francis Hospital - not directly verified)",
+   "raised": "Miami Beach (commuted from parents' Miami Beach house to U. of Miami); grandparents invested in South Florida commercial property from the 1950s",
+   "moved": "1997 to Surfside (from Miami Beach, same island)",
+   "summary": "Spent entire life on the Miami Beach/Surfside/Bal Harbor island; family in South Florida since 1950s; Surfside since 1997.",
+   "urls": [
+    "https://news.miami.edu/stories/2021/07/surfside-mayor-navigates-challenges,-chaos.html"
+   ]
+  },
+  "Frank J. Russo": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Campaign press release calls him a 'lifelong Floridian'; birthplace/hometown not stated. Not scored.",
+   "urls": [
+    "https://www.webull.com/news/15543949156279296"
+   ]
+  },
+  "Scott Eckhard Jewett": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "From Boca Raton per WLRN; birthplace/move year not found.",
+   "urls": [
+    "https://www.wlrn.org/government-politics/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field"
+   ]
+  },
+  "Moliere \"Moe\" Dimanche": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Orlando-area (Pine Hills); birthplace/childhood not found in sources read.",
+   "urls": [
+    "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-governors-race/"
+   ]
+  },
+  "Dean Ocean Abrams": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Sarasota resident; birthplace/move year not found.",
+   "urls": [
+    "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-governors-race/"
+   ]
+  },
+  "Jeffrey Peter \"Dr. Jeff\" Datto": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Hialeah; no website; roots not found.",
+   "urls": [
+    "https://www.wlrn.org/government-politics/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field"
+   ]
+  },
+  "James Uthmeier": {
+   "roots": 100,
+   "born": "Destin, FL, Nov 25 1987",
+   "raised": "Destin / Fort Walton Beach (Fort Walton Beach High School); UF",
+   "moved": null,
+   "summary": "Florida native, born in Destin, attended Fort Walton Beach High, then UF; career in Tallahassee.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/James_Uthmeier"
+   ]
+  },
+  "Jose Javier Rodriguez": {
+   "roots": 80,
+   "born": "High Point, NC, Aug 8 1978",
+   "raised": "Miami (Miami Palmetto Senior High); father Cuban Pedro Pan refugee",
+   "moved": "as a child (year not stated)",
+   "summary": "Born in North Carolina, grew up in Miami; move year not stated, scored as moved-as-child.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Jos%C3%A9_Javier_Rodr%C3%ADguez_(Florida_politician)"
+   ]
+  },
+  "Joey Mendoza Atkins": {
+   "roots": 100,
+   "born": "not documented (called 'lifelong Floridian')",
+   "raised": "Florida; lives in Miami; FAU grad",
+   "moved": null,
+   "summary": "Described by Bradenton Times as a lifelong Floridian living in Miami; birthplace not documented.",
+   "urls": [
+    "https://www.thebradentontimes.com/stories/race-analysis-florida-ag-commissioner,214087"
+   ]
+  },
+  "Wilton Simpson": {
+   "roots": 100,
+   "born": "Lakeland, FL, June 28 1966",
+   "raised": "Pasco County (Trilby); fifth-generation farmer",
+   "moved": null,
+   "summary": "Born Lakeland; fifth-generation farmer in Pasco; four decades running family egg farm.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Wilton_Simpson",
+    "https://www.wlrn.org/government-politics/2026-10-27/what-to-know-florida-agriculture-commissioner-race"
+   ]
+  },
+  "Annette Taddeo": {
+   "roots": 55,
+   "born": "Barrancabermeja, Colombia, Apr 7 1967",
+   "raised": "Colombia; moved to Huntsville, Alabama at 17",
+   "moved": "Miami after college (year not stated; 'more than 30 years' paying Florida premiums per her guide answer)",
+   "summary": "Born in Colombia; to Alabama at 17; Miami for 30+ years. Move year inferred, scored as adult 25+ yrs.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Annette_Taddeo",
+    "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-chief-financial-officer-race/"
+   ]
+  },
+  "Blaise Ingoglia": {
+   "roots": 55,
+   "born": "Queens, NY, Nov 4 1970",
+   "raised": "not stated (attended Queens and Brooklyn Colleges)",
+   "moved": "1996 (Spring Hill)",
+   "summary": "Born Queens NY; moved to Spring Hill, Hernando County in 1996 (30 years); homebuilder.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Blaise_Ingoglia"
+   ]
+  },
+  "Ashley Moody": {
+   "roots": 100,
+   "born": "Plant City, FL, Mar 28 1975",
+   "raised": "Plant City (graduated Plant City High 1993); father a judge",
+   "moved": null,
+   "summary": "Born in Plant City, graduated Plant City High; UF degrees; Hillsborough judge.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Ashley_Moody"
+   ]
+  },
+  "Angie Nixon": {
+   "roots": 100,
+   "born": "Jacksonville, FL, Feb 27 1984",
+   "raised": "Moncrief neighborhood, Jacksonville; Stanton College Prep; UF",
+   "moved": null,
+   "summary": "Jacksonville native raised in Moncrief by a single mother.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Angie_Nixon"
+   ]
+  },
+  "Neil J. Gillespie": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Ocala-area resident per prior research; birthplace/move year not found (Wikipedia page does not exist).",
+   "urls": []
+  },
+  "Thomas Schwarz": {
+   "roots": 80,
+   "born": "not stated",
+   "raised": "Bradenton (Manatee High honors grad; Little League at G.T. Bray Park)",
+   "moved": "about 22 years ago per his site ('home for more than two decades' - suggests arrival in teens)",
+   "summary": "Manatee High grad, Bradenton 22 years; birthplace not stated; scored as moved-as-child/teen.",
+   "urls": [
+    "https://schwarzforward3.com/"
+   ]
+  },
+  "Kemp Schuessler": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Wall Street then Florida insurance career; Wares Creek resident; years in Bradenton not found.",
+   "urls": [
+    "https://kempschuessler.com/"
+   ]
+  },
+  "Keith J. Green": {
+   "roots": 20,
+   "born": "not stated",
+   "raised": "Virginia per Bradenton Times",
+   "moved": "2020 to Manatee County",
+   "summary": "Moved to Manatee County from Virginia in 2020 (about 6 years), per Bradenton Times via prior research.",
+   "urls": [
+    "https://www.votekeithgreen.com/"
+   ]
+  },
+  "Lisa Gonzalez Moore": {
+   "roots": 55,
+   "born": "not stated",
+   "raised": "Tampa (per prior research of city profile; not re-verified)",
+   "moved": "Manatee resident for over 25 years; Ward 4 over 16 years (Tampa Bay 28 questionnaire)",
+   "summary": "Raised in Tampa; Manatee County resident 25+ years as an adult.",
+   "urls": [
+    "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-bradenton-city-council-ward-4"
+   ]
+  },
+  "Reggie Bellamy": {
+   "roots": 100,
+   "born": "not stated by sources read (prior research said Bradenton)",
+   "raised": "Manatee County; fifth-generation resident",
+   "moved": null,
+   "summary": "Fifth-generation Manatee County resident, born in Bradenton; multi-generation family ties.",
+   "urls": [
+    "https://thebradentontimes.com/stories/for-manatee-county-commission-district-6-we-recommend-reggie-bellamy,216731"
+   ]
+  },
+  "Tara Poulton": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Lakewood Ranch resident; Manatee-based career since about 2013; birthplace/arrival year not found.",
+   "urls": [
+    "https://www.yourobserver.com/news/2026/apr/07/lakewood-ranch-resident-government-experience-race"
+   ]
+  },
+  "Jim Boyd": {
+   "roots": 100,
+   "born": "Bradenton, FL",
+   "raised": "Bradenton/Palmetto area; grandfather Hugh Boyd (House 1941) and uncle Wilbur H. Boyd (House 1959-66, Senate 1966-72) were legislators",
+   "moved": null,
+   "summary": "Born in Bradenton; multi-generation Florida legislative family; Palmetto council 1988-91.",
+   "urls": [
+    "https://www.flsenate.gov/Senators/s20"
+   ]
+  },
+  "Ocean Fitts": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "Florida (described as seventh-generation Floridian); residence not found",
+   "moved": null,
+   "summary": "Seventh-generation Floridian, 27, St. Petersburg College student (Bradenton Times).",
+   "urls": [
+    "https://thebradentontimes.com/stories/for-florida-house-district-71-we-recommend-ocean-fitts,217407"
+   ]
+  },
+  "Jordan Varnadore": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "Palmetto (Palmetto High School 2006); family business in Palmetto; 'lifelong Manatee resident' per prior research (not re-verified)",
+   "moved": null,
+   "summary": "Palmetto High 2006 graduate with Palmetto family firm; lifelong-resident claim from prior research.",
+   "urls": [
+    "https://www.ballotready.org/people/jordan-varnadore"
+   ]
+  },
+  "Joseph Hoolihan": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Real estate; newcomer; background not found (campaign site did not load).",
+   "urls": [
+    "https://hoolihanforflorida.com/"
+   ]
+  },
+  "Kelly Kirschner": {
+   "roots": 100,
+   "born": "not stated (third-generation Floridian)",
+   "raised": "near the Sarasota-Bradenton airport; family fruit stand; son of Sarasota mayor Kerry Kirschner",
+   "moved": null,
+   "summary": "Third-generation Floridian who grew up near the Sarasota-Bradenton airport.",
+   "urls": [
+    "https://www.wgcu.org/elections/2026-10-16/three-very-different-candidates-vying-for-congress-in-florida-district-16"
+   ]
+  },
+  "Sydney Gruters": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Sarasota-area career (Buchanan staff, Steube, New College Foundation); birthplace/upbringing not found.",
+   "urls": [
+    "https://www.wgcu.org/elections/2026-10-16/three-very-different-candidates-vying-for-congress-in-florida-district-16"
+   ]
+  },
+  "Mark Davis": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Air Force veteran, small-business owner; background not found.",
+   "urls": [
+    "https://www.wgcu.org/elections/2026-10-16/three-very-different-candidates-vying-for-congress-in-florida-district-16"
+   ]
+  },
+  "Ryan Neill": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "Sarasota County ('born and raised resident')",
+   "moved": null,
+   "summary": "Describes himself as a born-and-raised Sarasota County resident; Publix 32 years.",
+   "urls": [
+    "https://www.yourobserver.com/news/2026/oct/19/representative-district-74-ryan-neill/"
+   ]
+  },
+  "Nick Pachota": {
+   "roots": 80,
+   "born": "not stated",
+   "raised": "Sarasota County since 1987 (age about 4 given age 43)",
+   "moved": "1987 to Sarasota County",
+   "summary": "Sarasota County resident since 1987, Mayor of Venice, age 43; birthplace unknown so scored as moved-as-child (floor).",
+   "urls": [
+    "https://www.yourobserver.com/news/2026/oct/27/florida-representative-district-74-nick-pachota/"
+   ]
+  },
+  "Lisa Klein": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": "Sarasota County since 2013",
+   "summary": "Sarasota County resident since 2013; earlier Florida history not stated.",
+   "urls": [
+    "https://www.yourobserver.com/news/2026/oct/27/florida-representative-district-73-lisa-klein/"
+   ]
+  },
+  "Harvey Shifrin": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Background not stated in Observer profile.",
+   "urls": [
+    "https://www.yourobserver.com/news/2026/oct/15/florida-representative-district-72-harvey-shifrin/"
+   ]
+  },
+  "Bill Conerly": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Incumbent HD72; background not stated in Observer profile.",
+   "urls": [
+    "https://www.yourobserver.com/news/2026/oct/15/florida-representative-district-72-bill-conerly/"
+   ]
+  },
+  "Jonathan Mullis": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Bridgewater business owner and charter-school parent; background not stated.",
+   "urls": [
+    "https://www.yourobserver.com/news/2026/oct/15/school-district-of-manatee-county-district-5-jonathan-mullis/"
+   ]
+  },
+  "Cindy Spray": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Former foster youth; 20 yrs PepsiCo/Frito-Lay; birthplace and years in Manatee not stated.",
+   "urls": [
+    "https://www.yourobserver.com/news/2026/aug/12/spray-election-manatee-school-board/"
+   ]
+  },
+  "Sharon Jefferson": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "Manatee County: four elementary schools, two middle schools, Palmetto High 1990 ('homegrown Manatee student'); family moved often",
+   "moved": null,
+   "summary": "Homegrown Manatee student, Palmetto High 1990; taught in Manatee since 1999.",
+   "urls": [
+    "https://www.yourobserver.com/news/2026/jul/28/longtime-teacher-school-board/"
+   ]
+  },
+  "Sari Lindroos-Valimaki": {
+   "roots": 20,
+   "born": "Finland",
+   "raised": "Finland; immigrated to US in the 1980s; most of her life in Palm Beach County",
+   "moved": "2018 to Palmetto, Manatee County",
+   "summary": "Born in Finland; Florida 40+ years but Manatee only since 2018 (8 years); county score 20.",
+   "urls": [
+    "https://www.yourobserver.com/news/2026/jul/01/palmetto-resident-manatee-race/",
+    "https://thebradentontimes.com/stories/race-analysis-manatee-county-commission-district-1,214071"
+   ]
+  },
+  "Elizabeth \"Liz\" Arnold": {
+   "roots": 55,
+   "born": "not stated",
+   "raised": "Pinellas County (before moving)",
+   "moved": "about 1990 from Pinellas to Myakka City (about 36 years in Manatee)",
+   "summary": "Moved from Pinellas to Myakka City around 1990 as an adult; 30+ years in Manatee.",
+   "urls": [
+    "https://www.yourobserver.com/news/2026/may/21/parrish-resident-steps-up-to-protect-rural-manatee-county-in-district-1-race/",
+    "https://www.tampabaybeacons.com/2026/07/13/manatee-county-commission-district-1-candidates-discuss-traffic-growth-jobs/"
+   ]
+  },
+  "Charles B. Smith Sr": {
+   "roots": 100,
+   "born": "Palmetto (per prior research: 'Palmetto native')",
+   "raised": "Palmetto (Palmetto High, UCF); family business Manatee Harvesting Co.",
+   "moved": null,
+   "summary": "Palmetto native and lifelong resident per prior research (campaign profiles); not re-verified here.",
+   "urls": []
+  },
+  "Amanda Ballard": {
+   "roots": 40,
+   "born": "not stated",
+   "raised": "not stated (J.D. University of South Carolina 2014)",
+   "moved": "2014 to Manatee County after law school (per prior research of 2022 profile); Oneco since 2015",
+   "summary": "Moved to Manatee in 2014 as adult (12 years); per prior research, not re-verified.",
+   "urls": []
+  },
+  "Michael Owen": {
+   "roots": 80,
+   "born": "Houston, Texas, Dec 23 1975",
+   "raised": "Brandon, Hillsborough County (moved to Florida in 1976, as an infant)",
+   "moved": "1976",
+   "summary": "Born in Houston, moved to Florida in 1976, raised in Brandon.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Michael_Owen_(Florida_politician)"
+   ]
+  },
+  "Luther Keith Wilkins": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Army veteran, Manatee NAACP president; birthplace/arrival year not found.",
+   "urls": []
+  },
+  "Sunshine Joiner": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Palmetto Ward 2 commissioner; no biography found.",
+   "urls": []
+  },
+  "Sheldon \"Mailman\" Jones": {
+   "roots": 100,
+   "born": "Palmetto (per prior research: 'lifelong Palmetto resident')",
+   "raised": "Palmetto; fourth-generation resident",
+   "moved": null,
+   "summary": "Fourth-generation, lifelong Palmetto resident per prior research (2024 profile); not re-verified here.",
+   "urls": []
+  },
+  "Gerald Baldi": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Age 70, former ad executive and banker; Indivisible Manatee organizer; birthplace/arrival not found.",
+   "urls": []
+  },
+  "Carol Whitmore": {
+   "roots": 55,
+   "born": "not stated",
+   "raised": "Holmes Beach island (lived there 55 years per her 2024 statement)",
+   "moved": "1969 or earlier",
+   "summary": "Lived on the island 55 years (floor score; arrival age unknown) [roster]",
+   "urls": []
+  },
+  "Mark Hebden": {
+   "roots": 20,
+   "born": "near Philadelphia",
+   "raised": "Philadelphia area; Cherry Hill NJ",
+   "moved": "2020 (full-time Holmes Beach)",
+   "summary": "Grew up near Philadelphia; full-time in Holmes Beach since 2020 (6 years) [roster]",
+   "urls": []
+  },
+  "Camden \"Cam\" Bedinghaus": {
+   "roots": 100,
+   "born": "Manatee County native",
+   "raised": "Manatee County schools",
+   "moved": null,
+   "summary": "Manatee County native, 23, attended district schools (Bradenton Times; WUSF) [roster]",
+   "urls": []
+  },
+  "Michelle Salzman": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "Pensacola (Pensacola State, UWF)",
+   "moved": null,
+   "summary": "Raised in Pensacola per Wikipedia [roster]",
+   "urls": []
+  },
+  "Michael Ferguson": {
+   "roots": 90,
+   "born": "not stated",
+   "raised": "grew up in the district (Broward) per Florida Politics",
+   "moved": null,
+   "summary": "Grew up in the district; lives in Lauderdale-by-the-Sea [roster]",
+   "urls": []
+  },
+  "Hillary Cassel": {
+   "roots": 90,
+   "born": "Boynton Beach, FL",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Boynton Beach; upbringing not stated [roster]",
+   "urls": []
+  },
+  "Mery Lopez-Palma": {
+   "roots": 80,
+   "born": "Cuba",
+   "raised": "Florida (brought as a child)",
+   "moved": null,
+   "summary": "Born in Cuba, brought to Florida as a child [roster]",
+   "urls": []
+  },
+  "Felicia Robinson": {
+   "roots": 90,
+   "born": "Miami Gardens, FL",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Miami Gardens; upbringing not stated [roster]",
+   "urls": []
+  },
+  "Marie Woodson": {
+   "roots": 55,
+   "born": "Haiti",
+   "raised": "Florida since 1981",
+   "moved": "1981",
+   "summary": "Born in Haiti, moved to Florida in 1981 (45 years; age at move not stated, floor score) [roster]",
+   "urls": []
+  },
+  "Wancito Francius": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "lifelong resident of District 108",
+   "moved": null,
+   "summary": "Campaign site calls him a lifelong resident of the district [roster]",
+   "urls": []
+  },
+  "Tom Fabricio": {
+   "roots": 90,
+   "born": "Miami",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Miami; upbringing not stated [roster]",
+   "urls": []
+  },
+  "Alex Rizo": {
+   "roots": 90,
+   "born": "not stated",
+   "raised": "Hialeah",
+   "moved": null,
+   "summary": "Raised in Hialeah [roster]",
+   "urls": []
+  },
+  "Gloria Romero Roses": {
+   "roots": 80,
+   "born": "Bogota, Colombia",
+   "raised": "South Florida",
+   "moved": null,
+   "summary": "Born in Bogota, raised in South Florida (campaign site) [roster]",
+   "urls": []
+  },
+  "Bruno Barreiro": {
+   "roots": 100,
+   "born": "Clearwater, FL",
+   "raised": "Miami",
+   "moved": null,
+   "summary": "Born in Clearwater to Cuban immigrants; grew up and raised family in Miami [roster]",
+   "urls": []
+  },
+  "Demi Busatta": {
+   "roots": 90,
+   "born": "Cape Coral, FL (1990)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Cape Coral; upbringing not stated [roster]",
+   "urls": []
+  },
+  "Omar Blanco": {
+   "roots": 90,
+   "born": "Miami",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Miami (Wikipedia) [roster]",
+   "urls": []
+  },
+  "Ashley Perez-Biliskov": {
+   "roots": 90,
+   "born": "not stated",
+   "raised": "Miami (Our Lady of Lourdes Academy)",
+   "moved": null,
+   "summary": "First-generation Cuban-American raised in Miami [roster]",
+   "urls": []
+  },
+  "Mike Redondo": {
+   "roots": 90,
+   "born": "Miami (1984)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Miami [roster]",
+   "urls": []
+  },
+  "Juan Porras": {
+   "roots": 90,
+   "born": "Miami (1997)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Miami to Cuban immigrant parents [roster]",
+   "urls": []
+  },
+  "Dean Black": {
+   "roots": 100,
+   "born": "Northeast Florida",
+   "raised": "Northeast Florida",
+   "moved": null,
+   "summary": "Eighth-generation Northeast Florida native (Wikipedia) [roster]",
+   "urls": []
+  },
+  "Jackie Randall": {
+   "roots": 100,
+   "born": "Hawthorne, FL",
+   "raised": "Hawthorne",
+   "moved": null,
+   "summary": "Born and raised in Hawthorne; lifelong HD 21 resident (her answers to Florida Politics) [roster]",
+   "urls": []
+  },
+  "Amy Trask": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "LaBelle roots",
+   "moved": null,
+   "summary": "Says she is a seventh-generation Floridian with roots in LaBelle [roster]",
+   "urls": []
+  },
+  "Chad Johnson": {
+   "roots": 90,
+   "born": "Gainesville, FL",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Gainesville (Wikipedia) [roster]",
+   "urls": []
+  },
+  "Farmer Helfrich": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "South Lake County",
+   "moved": null,
+   "summary": "Native Floridian per his campaign site [roster]",
+   "urls": []
+  },
+  "Nan Cobb": {
+   "roots": 90,
+   "born": "Pompano Beach, FL",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Pompano Beach; co-owner of Cobb's Triangle Tractor since 1997 [roster]",
+   "urls": []
+  },
+  "Richard Gentry": {
+   "roots": 90,
+   "born": "Daytona Beach, FL",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Daytona Beach (Wikipedia) [roster]",
+   "urls": []
+  },
+  "Bill Partington": {
+   "roots": 90,
+   "born": "Daytona Beach, FL (1968)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Daytona Beach in 1968 [roster]",
+   "urls": []
+  },
+  "Nathan Boyles": {
+   "roots": 90,
+   "born": "not stated",
+   "raised": "north Okaloosa County",
+   "moved": null,
+   "summary": "Grew up in north Okaloosa County, returned to Crestview (Wikipedia) [roster]",
+   "urls": []
+  },
+  "Chase Tramont": {
+   "roots": 90,
+   "born": "Daytona Beach, FL (1979)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Daytona Beach [roster]",
+   "urls": []
+  },
+  "Daniel Cicirelli": {
+   "roots": 100,
+   "born": "Rockledge, FL (1997)",
+   "raised": "Brevard County",
+   "moved": null,
+   "summary": "Born in Rockledge in 1997; has lived in Brevard since [roster]",
+   "urls": []
+  },
+  "Matt Woodside": {
+   "roots": 90,
+   "born": "Rockledge, FL (1982)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born 1982 in Rockledge [roster]",
+   "urls": []
+  },
+  "Robert Brackett": {
+   "roots": 90,
+   "born": "Vero Beach, FL (1963)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Vero Beach in 1963 [roster]",
+   "urls": []
+  },
+  "Eric Gray": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "Florida",
+   "moved": null,
+   "summary": "Seventh-generation Floridian [roster]",
+   "urls": []
+  },
+  "Erika Booth": {
+   "roots": 90,
+   "born": "Kissimmee, FL (1977)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Kissimmee in 1977 [roster]",
+   "urls": []
+  },
+  "Emily Duda Buckley": {
+   "roots": 100,
+   "born": "Central Florida",
+   "raised": "Central Florida",
+   "moved": null,
+   "summary": "Fifth-generation Floridian born and raised in Central Florida [roster]",
+   "urls": []
+  },
+  "Tuan Le": {
+   "roots": 80,
+   "born": "Vietnam",
+   "raised": "Pine Hills (Orlando)",
+   "moved": null,
+   "summary": "Vietnamese immigrant raised in Pine Hills (arrival age not stated) [roster]",
+   "urls": []
+  },
+  "Samuel Vilchez Santiago": {
+   "roots": 80,
+   "born": "Venezuela",
+   "raised": "East Orlando",
+   "moved": null,
+   "summary": "Venezuelan political refugee who grew up in East Orlando [roster]",
+   "urls": []
+  },
+  "Rita Harris": {
+   "roots": 40,
+   "born": "Queens, NY (1973)",
+   "raised": "not stated",
+   "moved": "2002",
+   "summary": "Born in Queens NY; moved to Florida in 2002 (24 years) [roster]",
+   "urls": []
+  },
+  "Jonathan Albert": {
+   "roots": 90,
+   "born": "Winter Haven, FL (1979)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Winter Haven in 1979 [roster]",
+   "urls": []
+  },
+  "Jennifer Jonsson": {
+   "roots": 90,
+   "born": "Jacksonville (1977)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born 1977 in Jacksonville [roster]",
+   "urls": []
+  },
+  "Jennifer Canady": {
+   "roots": 90,
+   "born": "Lakeland, FL (1973)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Lakeland in 1973 [roster]",
+   "urls": []
+  },
+  "Octavio Hernandez": {
+   "roots": 80,
+   "born": "Mexico",
+   "raised": "Central Florida",
+   "moved": null,
+   "summary": "Immigrated from Mexico, grew up in Central Florida (campaign site) [roster]",
+   "urls": []
+  },
+  "Pamala Bivins": {
+   "roots": 100,
+   "born": "Wildwood, FL",
+   "raised": "Wildwood",
+   "moved": null,
+   "summary": "Born and raised in Wildwood (campaign site) [roster]",
+   "urls": []
+  },
+  "Samantha Scott": {
+   "roots": 100,
+   "born": "Sumter County",
+   "raised": "Sumter County",
+   "moved": null,
+   "summary": "Lifelong Sumter County resident (Florida Politics) [roster]",
+   "urls": []
+  },
+  "Randy Maggard": {
+   "roots": 90,
+   "born": "Dade City, FL (1963)",
+   "raised": "Dade City",
+   "moved": null,
+   "summary": "Born in Dade City, where he lives (Wikipedia) [roster]",
+   "urls": []
+  },
+  "Jose Freites": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "Florida",
+   "moved": null,
+   "summary": "Describes himself as a lifelong Floridian (campaign site) [roster]",
+   "urls": []
+  },
+  "Berny Jacques": {
+   "roots": 80,
+   "born": "Port-au-Prince, Haiti (1987)",
+   "raised": "Florida",
+   "moved": "1994",
+   "summary": "Born in Haiti; settled in Florida in 1994 at about age 7 [roster]",
+   "urls": []
+  },
+  "Linda Chaney": {
+   "roots": 55,
+   "born": "New York",
+   "raised": "Florida since 1982",
+   "moved": "1982",
+   "summary": "Born in New York; moved to Florida in 1982 (age at move not stated, floor score) [roster]",
+   "urls": []
+  },
+  "Kyandra Darling": {
+   "roots": 100,
+   "born": "St. Petersburg",
+   "raised": "St. Petersburg",
+   "moved": null,
+   "summary": "Fourth-generation St. Petersburg native (campaign site) [roster]",
+   "urls": []
+  },
+  "Dan Weldon": {
+   "roots": 100,
+   "born": "Tampa",
+   "raised": "Tampa",
+   "moved": null,
+   "summary": "Tampa native (Florida Politics) [roster]",
+   "urls": []
+  },
+  "Ben Braver": {
+   "roots": 90,
+   "born": "not stated",
+   "raised": "Hillsborough County",
+   "moved": null,
+   "summary": "Grew up in Hillsborough County, attended USF [roster]",
+   "urls": []
+  },
+  "Karen Gonzalez Pittman": {
+   "roots": 100,
+   "born": "Tampa",
+   "raised": "Tampa",
+   "moved": null,
+   "summary": "Tampa native (Florida Politics) [roster]",
+   "urls": []
+  },
+  "Luis Viera": {
+   "roots": 100,
+   "born": "Tampa",
+   "raised": "Tampa",
+   "moved": null,
+   "summary": "Lifelong Tampa resident, proud son of refugees [roster]",
+   "urls": []
+  },
+  "Ryan Gill": {
+   "roots": 100,
+   "born": "east Hillsborough",
+   "raised": "east Hillsborough (Fort Lonesome)",
+   "moved": null,
+   "summary": "Sixth-generation Floridian cattle rancher, born and raised in east Hillsborough [roster]",
+   "urls": []
+  },
+  "Ashley Herrmann": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "Florida ('cow pastures and orange groves')",
+   "moved": null,
+   "summary": "Self-described lifelong Floridian raised amid cow pastures and orange groves [roster]",
+   "urls": []
+  },
+  "Vanessa Oliver": {
+   "roots": 90,
+   "born": "not stated",
+   "raised": "Charlotte County",
+   "moved": "returned 2012",
+   "summary": "Grew up in Charlotte County, returned in 2012 (Wikipedia) [roster]",
+   "urls": []
+  },
+  "Tiffany Esposito": {
+   "roots": 90,
+   "born": "Fort Myers, FL (1987)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born July 1987 in Fort Myers (Wikipedia) [roster]",
+   "urls": []
+  },
+  "Susan Frantz": {
+   "roots": 100,
+   "born": "Fort Myers",
+   "raised": "Lee County",
+   "moved": null,
+   "summary": "Fort Myers native raised in Lee County [roster]",
+   "urls": []
+  },
+  "Mike Giallombardo": {
+   "roots": 90,
+   "born": "not stated",
+   "raised": "Cape Coral",
+   "moved": null,
+   "summary": "Raised in Cape Coral (Wikipedia) [roster]",
+   "urls": []
+  },
+  "Adam Botana": {
+   "roots": 90,
+   "born": "Naples, FL (1984)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born 1984 in Naples; Bonita Springs resident (House bio) [roster]",
+   "urls": []
+  },
+  "Yvette Benarroch": {
+   "roots": 40,
+   "born": "San Juan, Puerto Rico",
+   "raised": "not stated",
+   "moved": "2003",
+   "summary": "Born in San Juan; moved to Florida in 2003 (23 years; age at move not stated) [roster]",
+   "urls": []
+  },
+  "Liesa Priddy": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "Florida (third-generation rancher)",
+   "moved": null,
+   "summary": "Third-generation Florida rancher [roster]",
+   "urls": []
+  },
+  "Kaylee Tuck": {
+   "roots": 100,
+   "born": "Sebring, FL (1994)",
+   "raised": "Sebring",
+   "moved": null,
+   "summary": "Sebring native who returned there after law school (Wikipedia) [roster]",
+   "urls": []
+  },
+  "Amr Metwally": {
+   "roots": 90,
+   "born": "not stated",
+   "raised": "House District 85",
+   "moved": null,
+   "summary": "Says he was raised in HD 85 (his website) [roster]",
+   "urls": []
+  },
+  "John Snyder": {
+   "roots": 90,
+   "born": "Hobe Sound, FL (1987)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Hobe Sound (1987) [roster]",
+   "urls": []
+  },
+  "Jon Maples": {
+   "roots": 100,
+   "born": "Panama City, FL",
+   "raised": "Panama City",
+   "moved": null,
+   "summary": "Panama City native who came to Palm Beach County on a basketball scholarship [roster]",
+   "urls": []
+  },
+  "Tae Edmonds": {
+   "roots": 90,
+   "born": "Titusville, FL (1991)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born 1991 in Titusville [roster]",
+   "urls": []
+  },
+  "Cathy Higgins": {
+   "roots": 100,
+   "born": "West Palm Beach, FL",
+   "raised": "Lake Worth",
+   "moved": null,
+   "summary": "Born in West Palm Beach, raised in Lake Worth [roster]",
+   "urls": []
+  },
+  "Luis Garcia": {
+   "roots": 80,
+   "born": "Colombia",
+   "raised": "Miami",
+   "moved": null,
+   "summary": "Born in Colombia; lifelong South Floridian who grew up in Miami (his site) [roster]",
+   "urls": []
+  },
+  "Kelly Skidmore": {
+   "roots": 80,
+   "born": "Cleveland, OH (1962)",
+   "raised": "Florida from 1972",
+   "moved": "1972",
+   "summary": "Born in Cleveland 1962; in Florida since 1972 (age about 10) [roster]",
+   "urls": []
+  },
+  "Mitch Rosenwald": {
+   "roots": 40,
+   "born": "not stated",
+   "raised": "not stated",
+   "moved": "2007",
+   "summary": "Moved to Florida in 2007 (19 years; age and origin not stated) [roster]",
+   "urls": []
+  },
+  "John Lowndes": {
+   "roots": 100,
+   "born": "Central Florida",
+   "raised": "Central Florida",
+   "moved": null,
+   "summary": "Native Central Floridian (campaign site) [roster]",
+   "urls": []
+  },
+  "Josie Tomkow": {
+   "roots": 100,
+   "born": "Tampa, FL",
+   "raised": "Florida",
+   "moved": null,
+   "summary": "Seventh-generation Floridian born in Tampa (Wikipedia) [roster]",
+   "urls": []
+  },
+  "Fentrice Driskell": {
+   "roots": 90,
+   "born": "Winter Haven, FL (1979)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Winter Haven [roster]",
+   "urls": []
+  },
+  "Nick DiCeglie": {
+   "roots": 55,
+   "born": "not stated",
+   "raised": "New York",
+   "moved": "1996",
+   "summary": "Born 1973; grew up in New York; moved to Florida in 1996 (30 years) [roster]",
+   "urls": []
+  },
+  "Jay Trumbull": {
+   "roots": 90,
+   "born": "Panama City, FL (1989)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Panama City, Bay County [roster]",
+   "urls": []
+  },
+  "Mack Bernard": {
+   "roots": 80,
+   "born": "Port-au-Prince, Haiti (1976)",
+   "raised": "Florida from 1986",
+   "moved": "1986",
+   "summary": "Born in Haiti; moved to Florida in 1986 at about age 10 [roster]",
+   "urls": []
+  },
+  "Rick Roth": {
+   "roots": 90,
+   "born": "West Palm Beach, FL (1952)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in West Palm Beach [roster]",
+   "urls": []
+  },
+  "David Silvers": {
+   "roots": 90,
+   "born": "Miami Beach, FL (1979)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Miami Beach [roster]",
+   "urls": []
+  },
+  "Lauren Melo": {
+   "roots": 100,
+   "born": "Naples, FL",
+   "raised": "Naples",
+   "moved": null,
+   "summary": "Born and raised in Naples [roster]",
+   "urls": []
+  },
+  "Lauren Book": {
+   "roots": 90,
+   "born": "Hollywood, FL",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Hollywood, Florida [roster]",
+   "urls": []
+  },
+  "Rosalind Osgood": {
+   "roots": 100,
+   "born": "Fort Lauderdale",
+   "raised": "Broward County",
+   "moved": null,
+   "summary": "Born in Fort Lauderdale; described as a Broward native [roster]",
+   "urls": []
+  },
+  "George Lavin": {
+   "roots": 100,
+   "born": "Miami",
+   "raised": "Coral Gables",
+   "moved": null,
+   "summary": "Born in Miami, raised in Coral Gables [roster]",
+   "urls": []
+  },
+  "Ileana Garcia": {
+   "roots": 90,
+   "born": "Miami",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Miami [roster]",
+   "urls": []
+  },
+  "Alexis Calatayud": {
+   "roots": 90,
+   "born": "Miami",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Miami [roster]",
+   "urls": []
+  },
+  "Ana Rodriguez": {
+   "roots": 100,
+   "born": "South Florida",
+   "raised": "South Florida",
+   "moved": null,
+   "summary": "Lifelong South Florida resident, daughter of Cuban immigrants (Wikipedia) [roster]",
+   "urls": []
+  },
+  "Jason Bellamy-Fults": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "Florida",
+   "moved": null,
+   "summary": "Says he is a fourth-generation Floridian [roster]",
+   "urls": []
+  },
+  "Jimmy Patronis": {
+   "roots": 100,
+   "born": "Panama City, FL (1972)",
+   "raised": "Panama City",
+   "moved": null,
+   "summary": "Panama City native; family restaurant there since 1967 (Wikipedia, citation needed) [roster]",
+   "urls": []
+  },
+  "Maxwell Alejandro Frost": {
+   "roots": 100,
+   "born": "Orlando",
+   "raised": "Orlando",
+   "moved": null,
+   "summary": "Born and raised in Orlando [roster]",
+   "urls": []
+  },
+  "James Pericola": {
+   "roots": 90,
+   "born": "not stated",
+   "raised": "Central Florida",
+   "moved": null,
+   "summary": "Raised in Central Florida [roster]",
+   "urls": []
+  },
+  "Gus Michael Bilirakis": {
+   "roots": 100,
+   "born": "Gainesville, FL",
+   "raised": "Tarpon Springs",
+   "moved": null,
+   "summary": "Born in Gainesville, raised in Tarpon Springs [roster]",
+   "urls": []
+  },
+  "Kathy Castor": {
+   "roots": 100,
+   "born": "Miami",
+   "raised": "Tampa",
+   "moved": null,
+   "summary": "Born in Miami, raised and lives in Tampa [roster]",
+   "urls": []
+  },
+  "Greg Steube": {
+   "roots": 90,
+   "born": "Bradenton, FL",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Bradenton [roster]",
+   "urls": []
+  },
+  "Michael J. Quirk": {
+   "roots": 10,
+   "born": "not stated",
+   "raised": "not stated",
+   "moved": "2024",
+   "summary": "Moved to Sarasota in 2024 [roster]",
+   "urls": []
+  },
+  "Scott Franklin": {
+   "roots": 90,
+   "born": "not stated",
+   "raised": "Lakeland",
+   "moved": null,
+   "summary": "Raised in Lakeland [roster]",
+   "urls": []
+  },
+  "Jim Schwartzel": {
+   "roots": 90,
+   "born": "not stated",
+   "raised": "Fort Myers (Bishop Verot High)",
+   "moved": null,
+   "summary": "Grew up in Fort Myers; Stetson 1998 [roster]",
+   "urls": []
+  },
+  "Victor Arias": {
+   "roots": 55,
+   "born": "Dominican Republic",
+   "raised": "New York",
+   "moved": "1999",
+   "summary": "Born in Dominican Republic, raised in New York; in Southwest Florida since 1999 (adult) [roster]",
+   "urls": []
+  },
+  "Amanda Marie Green": {
+   "roots": 80,
+   "born": "San Diego, CA (Naval Hospital)",
+   "raised": "Florida (from age two)",
+   "moved": "as a toddler",
+   "summary": "Born at San Diego Naval Hospital; moved to Florida at age two [roster]",
+   "urls": []
+  },
+  "Austin Rogers": {
+   "roots": 100,
+   "born": "Panama City",
+   "raised": "Panama City (CD2)",
+   "moved": null,
+   "summary": "Panama City native, says raised in the 2nd District (residency challenged by primary rivals) [roster]",
+   "urls": []
+  },
+  "Brent Andersen": {
+   "roots": 20,
+   "born": "not stated",
+   "raised": "not stated",
+   "moved": "2021",
+   "summary": "Moved to Florida in 2021 (5 years) [roster]",
+   "urls": []
+  },
+  "James T. Martin": {
+   "roots": 100,
+   "born": "not stated",
+   "raised": "Florida",
+   "moved": null,
+   "summary": "Fourth-generation Floridian [roster]",
+   "urls": []
+  },
+  "Alexander Cooke": {
+   "roots": 10,
+   "born": "Connecticut",
+   "raised": "Seattle",
+   "moved": "2025",
+   "summary": "Born in Connecticut, raised in Seattle; moved to Jupiter in 2025 [roster]",
+   "urls": []
+  },
+  "Pia Dandiya": {
+   "roots": 100,
+   "born": "Palm Beach County",
+   "raised": "Palm Beach County",
+   "moved": null,
+   "summary": "Born and raised in Palm Beach County to parents from India [roster]",
+   "urls": []
+  },
+  "Lois Frankel": {
+   "roots": 55,
+   "born": "not stated",
+   "raised": "not stated",
+   "moved": "1974",
+   "summary": "Moved to West Palm Beach in 1974 (52 years, as adult) [roster]",
+   "urls": []
+  },
+  "Oliver G. Gilbert III": {
+   "roots": 90,
+   "born": "Miami Gardens (Aug 15 1972)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Miami Gardens [roster]",
+   "urls": []
+  },
+  "Scott Singer": {
+   "roots": 100,
+   "born": "Miami Beach",
+   "raised": "Fort Lauderdale",
+   "moved": null,
+   "summary": "Born in Miami Beach, raised in Fort Lauderdale; 40 years in district [roster]",
+   "urls": []
+  },
+  "Jared Moskowitz": {
+   "roots": 90,
+   "born": "Coral Springs (1980)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Coral Springs [roster]",
+   "urls": []
+  },
+  "Nicole Locklin": {
+   "roots": 10,
+   "born": "Oklahoma",
+   "raised": "Oklahoma",
+   "moved": "2024",
+   "summary": "Oklahoma native; moved to Miami full time April 2024 [roster]",
+   "urls": []
+  },
+  "Mario Diaz-Balart": {
+   "roots": 90,
+   "born": "Fort Lauderdale (Sept 25 1961)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Fort Lauderdale [roster]",
+   "urls": []
+  },
+  "Eliott Rodriguez": {
+   "roots": 80,
+   "born": "New York",
+   "raised": "Miami (from age 12)",
+   "moved": "age 12",
+   "summary": "Born in New York to Cuban immigrants; family moved to Miami when he was 12 [roster]",
+   "urls": []
+  },
+  "Maria Elvira Salazar": {
+   "roots": 90,
+   "born": "Little Havana (Nov 1 1961)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Little Havana to Cuban exile parents [roster]",
+   "urls": []
+  },
+  "LaShonda \"L.J.\" Holloway": {
+   "roots": 100,
+   "born": "Duval County",
+   "raised": "Duval County",
+   "moved": null,
+   "summary": "Fourth of six generations of her family in Duval County [roster]",
+   "urls": []
+  },
+  "Aaron Bean": {
+   "roots": 100,
+   "born": "Fernandina Beach",
+   "raised": "Fernandina Beach",
+   "moved": null,
+   "summary": "Fernandina Beach native; wife from a fifth-generation Clay County family [roster]",
+   "urls": []
+  },
+  "Rachel Grage": {
+   "roots": 20,
+   "born": "Oswego, NY",
+   "raised": "not stated",
+   "moved": "2019",
+   "summary": "Born in Oswego NY; moved to Florida in 2019 (7 years) [roster]",
+   "urls": []
+  },
+  "John H. Rutherford": {
+   "roots": 80,
+   "born": "Omaha, NE",
+   "raised": "Jacksonville",
+   "moved": "1950s",
+   "summary": "Born in Omaha; family moved to Jacksonville in the 1950s (child) [roster]",
+   "urls": []
+  },
+  "Eric Yonce": {
+   "roots": 90,
+   "born": "not stated",
+   "raised": "Citra, Marion County",
+   "moved": null,
+   "summary": "Raised in Citra, North Marion High graduate [roster]",
+   "urls": []
+  },
+  "Bale Dalton": {
+   "roots": 90,
+   "born": "not stated",
+   "raised": "Central Florida",
+   "moved": null,
+   "summary": "Raised in a Central Florida family [roster]",
+   "urls": []
+  },
+  "Mike Haridopolos": {
+   "roots": 55,
+   "born": "Huntington, NY (Mar 15 1970)",
+   "raised": "not stated; father an FBI agent",
+   "moved": "by 1993 (began teaching at Brevard Community College; Stetson grad)",
+   "summary": "Born in New York; in Florida since at least 1993 as an adult (33 years).",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Mike_Haridopolos"
+   ]
+  },
+  "Randy Fine": {
+   "roots": 40,
+   "born": "Tucson, AZ (1974)",
+   "raised": "Lexington, Kentucky (Henry Clay High 1992)",
+   "moved": "by 2005 (founded Fine Point Group); Melbourne Beach home 2007",
+   "summary": "Born Arizona, raised Kentucky; Florida business from 2005 (21 years), adult arrival.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Randy_Fine"
+   ]
+  },
+  "Debbie Wasserman Schultz": {
+   "roots": 55,
+   "born": "Forest Hills, Queens, NY",
+   "raised": "Long Island, NY (Lido Beach, Melville)",
+   "moved": "by 1984-88 (University of Florida B.A. 1988)",
+   "summary": "Raised on Long Island; in Florida since college, roughly 40 years.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Debbie_Wasserman_Schultz"
+   ]
+  },
+  "Brian Mast": {
+   "roots": null,
+   "born": "Grand Rapids, MI (1980)",
+   "raised": "Grand Rapids, MI ('born and raised')",
+   "moved": "in Florida by 2016 (exact year not stated)",
+   "summary": "Born and raised in Michigan; Florida arrival year not stated (by 2016); lives in Palm City.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Brian_Mast"
+   ]
+  },
+  "Anna Paulina Luna": {
+   "roots": 40,
+   "born": "Santa Ana, CA (1989)",
+   "raised": "Orange County and Los Angeles, California",
+   "moved": "stationed at Hurlburt Field FL during Air Force service 2009-2014; UWF degree 2017",
+   "summary": "Raised in California; first in Florida via Air Force c.2009-14; St. Petersburg home from 2020.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Anna_Paulina_Luna"
+   ]
+  },
+  "Kat Cammack": {
+   "roots": null,
+   "born": "Denver, CO (1988)",
+   "raised": "55-acre cattle ranch; Douglas County HS, Castle Rock, Colorado (2006)",
+   "moved": "'returned to Florida' in 2019 (earlier Florida stay not dated)",
+   "summary": "Raised in Colorado; Florida move date not stated.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Kat_Cammack"
+   ]
+  },
+  "Laurel Lee": {
+   "roots": null,
+   "born": "Wright-Patterson AFB, Ohio (1974)",
+   "raised": "not stated (father an Air Force officer)",
+   "moved": "not stated (University of Florida grad)",
+   "summary": "Born on an Ohio air base; military family; Florida arrival not stated.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Laurel_Lee"
+   ]
+  },
+  "Carlos A. Gimenez": {
+   "roots": 80,
+   "born": "Havana, Cuba (Jan 17 1954)",
+   "raised": "Miami (Little Havana; Christopher Columbus High School)",
+   "moved": "family left Cuba after the Revolution; year not stated",
+   "summary": "Born in Havana; family settled in Little Havana; Miami high school, so scored moved-as-child.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Carlos_A._Gimenez"
+   ]
+  },
+  "Jason Brodeur": {
+   "roots": 90,
+   "born": "Daytona Beach, FL (June 7 1975)",
+   "raised": "not stated",
+   "moved": null,
+   "summary": "Born in Daytona Beach; UF; lives in Sanford; upbringing not stated.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Jason_Brodeur"
+   ]
+  },
+  "Darren Soto": {
+   "roots": null,
+   "born": "Ringwood, NJ (1978)",
+   "raised": "New Jersey (Lakeland Regional HS)",
+   "moved": "by 2006 (Florida House run); exact year not stated",
+   "summary": "Born and raised in New Jersey; Florida arrival year not stated (by 2006).",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Darren_Soto"
+   ]
+  },
+  "Colleen Burton": {
+   "roots": 55,
+   "born": "Heidelberg, West Germany (Apr 19 1958), military family",
+   "raised": "not stated",
+   "moved": "to Lakeland after finishing a Cal State Sacramento degree in 1980",
+   "summary": "Born in Germany to a military family; moved to Lakeland after college in 1980 (46 years).",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Colleen_Burton"
+   ]
+  },
+  "Patt Maney": {
+   "roots": 55,
+   "born": "Lexington, Kentucky (May 1948)",
+   "raised": "Lexington (hometown)",
+   "moved": "1975 to Okaloosa County",
+   "summary": "Born in Kentucky; moved to Okaloosa County in 1975 as an adult (51 years).",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Patt_Maney"
+   ]
+  },
+  "Clay Yarborough": {
+   "roots": null,
+   "born": "Mobile, Alabama (Feb 6 1981)",
+   "raised": "not stated",
+   "moved": "not stated (Jacksonville City Council 2007-2015)",
+   "summary": "Born in Alabama; Florida arrival year not stated.",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Clay_Yarborough"
+   ]
+  },
+  "Scott Johnson": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Rodney O'Quinn": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Charles \"Rick\" Richards": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Jacob R. Kyser": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Derrick Warner": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "John Agnelli": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Dana Tindall": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Keith D. Miller": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Billy Burke": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Adam Bailey": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Kyle Baber": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Frank Sacca": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Bruce R. Stolarz": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "William John Hathaway": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Leah Ogren": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "James P. Casement": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Kevin G. Gagne": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Joyce Lynn Calderon": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Marko Krstic": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Tracy Joniec": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Mike Lamb": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Tony Beazley": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Victor G. Colombo": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Nancy Quinn": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Grace Russolillo": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Jonathan Dayton": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Bill Mariotti": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Arthur Taber": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Tryn Stimart": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Henry N. White Jr": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Angela Albrecht": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Michael A. Conner": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Sandra K. Freas": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Jack A. Knisley Jr": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Frank John Loviglio": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Jackie Petrovich": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Joe Stanczyk": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Timothy Abramski": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Judy Cummings": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Joseph Di Bartolomeo": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Karin Murphy": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Eugene J. Rado": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Carl Teisch": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "William Bjork": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Larry Luh": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Joseph Houlihan": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Richard Jacobs": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "John J. Azzata": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "David L. Zaccagnino": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Dan Diggins": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Kyle L. Moore": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Edward W. Stevens": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "Special-district candidate; no public biography found.",
+   "urls": []
+  },
+  "Francesca Yabraian": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Merrillee Malwitz Jipson": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Marshall Rawson": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Yoni Anijar": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Todd Delmay": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Mike Friend": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Robin Bartleman": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Imtiaz Mohammad": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Lucia Baez-Geller": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Fabian Basabe": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Wallace Aristide": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Daphne Campbell": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "James Bush III": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Sam Garrison": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "David Borrero": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Marcos Reyes": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Nicolas Ramos": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Kevin Chambliss": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Miguel Granda": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "A.C. Castillo": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Rey Sordo": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Terrance Freeman": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Benjamin Sandlin": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jim Mooney Jr.": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Audrey Gibson": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Kimberly Daniels": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Chadd Charland": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Kiyan Michael": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jessica Baker": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jacob Guerrero": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Art Stresing": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Kim Kendall": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Suzanna Pavelle": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Sam Greco": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Johnny Thompson": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jon Fay": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Judson Sapp": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Lee Butler": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Mark Baker": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "J.J. Grow": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Ryan Chamberlin": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Taylor Yarkosky": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Robyn Lawrence": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Andy Ferrari": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Joe Hannoush": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Sammy Jackson": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Don Kanfer": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Webster Barnaby": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Ingrid Wadsworth": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Edwin Munoz": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Brian Hodgers": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Juan Hinojosa": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Daniel McDow": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Monique Miller": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jordyn Balderas": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Darryl Block": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Rachel Plakon": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jane Aman": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Robert Prater": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Nik Dean": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jarod Fox": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Doug Bankson": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "John Emerling": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Ra'Shon Young": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Bruce Antone": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Felipe Sousa Lazaballet": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Bonnie Jackson": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jorge Malavet": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Leonard Spencer": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Erin Huntley": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Michael Cruz": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jose Alvarez": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Ivan Rivera": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Anthony Nieves": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Alethea Pugh": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Robert Anzalone": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Shane Abbott": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Alex Finney": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Ricky Santiago": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jarvis Washington": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Hilary Holley": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Brian Hawkins": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Christopher Anger": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Tony Claude": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Zach Funkhouser": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Walter Price": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Brad Yeager": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Wendy Hoy": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Adam Anderson": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Bryan Beckman": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Kim Berfield": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Susan Leff": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Stephanie Leonard": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Tricia Berry": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Lindsay Polega-Quigley": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Melissa Rutland": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "May Thach": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jacqueline Coffie-Leeks": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Luis Salazar": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Dante Sanchez Sanchez": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Traci Koster": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Lisette Bonano": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Tony Smith": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Danny Alvarez": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jason Shoaf": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Fiona McFarland": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Cynthia Butler": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Danny Nix Jr.": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Phillip Carter": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Cornelius Fowler": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Cindy Banyai": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Gallop Franklin": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "William Moskal": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Kim Finer": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Arthur Boyer": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Leigh Estes": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jennifer Massey": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Dana Trabulsy": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Wayne Richter": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Anthony Bonna": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Elizabeth Pandich": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Emily Gregory": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "William Joseph": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Debra Tendrich": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Allison Tant": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Tracy Robinson": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Rob Long": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Ionel Roiban": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Peggy Gossett-Seidman": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Steve Byers": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "August Mangeney": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Anne Gerwig": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Elizabeth Holmes": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Doug Barrow": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Megan Weinberger": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Christine Hunschofsky": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Dan Daley": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Lisa Dunkley": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Daryl Campbell": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Alfred Reynolds": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Brian Nathan": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Karla Kemp": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Lauren Donahoo": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jordan Hensley": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Chris Nocco": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Lew Wasserman": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "James Buchanan": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Martin Hyde": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jackie Green": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "David Silverberg": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Hector Rivera": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Crescente Furnaguera": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Ashley Gantt": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Elizabeth Jeanty": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Doc Solomon": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Richard Lamondin Jr.": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jose Stoute": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Ramiro Orta": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jennifer Bradley": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Joseph Thornton": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Judy Ngying": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jake Johansson": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Gabriel Wozniak": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Gay Valimont": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Tyler L. Davis": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Joe Strada": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Ralph Groves": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Kimberly Overman": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Branden Scrivener": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Leela Gray": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Tony D'Arrigo": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Mike Beltran": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Brian Lambert": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Robert People": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Matthew Montavon": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Curtis Gibson": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Deva Simmons": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Seth Haskin": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Kedner Maxime": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Casey Askar": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Deborah Adeimy": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Te Mayonna Brown": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Peter Jassenoff": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Deborah Ann Meidinger Hosey": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Phil \"Felipe\" Ehr": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Eddy Rojas": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Seth Harp": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Mike Klein": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Todd Schaefer": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Mike Sell": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Andrew Parrott": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Ryan Elijah": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Christopher Dennison": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Jennifer Jenkins": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  },
+  "Dan Green": {
+   "roots": null,
+   "born": "unknown",
+   "raised": "unknown",
+   "moved": null,
+   "summary": "No birthplace or residency-length fact found in roster or sources read.",
+   "urls": []
+  }
+ },
+ "positions": {
+  "Byron Donalds": [
+   {
+    "topic": "data_centers",
+    "stance": -1,
+    "quote_or_summary": "Economic Club of Miami interview (Justin Sayfie): \"I think the future of the state, what's going to be important are data centers and power.\" and \"We need to embrace that, not run away from that.\" (Quotes as reported by Orlando Weekly and WLRN; the video itself could not be viewed/transcribed.)",
+    "date": "June 2025",
+    "url": "https://www.orlandoweekly.com/news/florida-news/floridians-are-raising-the-alarms-over-data-centers-and-ai-where-do-byron-donalds-and-david-jolly-stand/"
+   },
+   {
+    "topic": "data_centers",
+    "stance": -1,
+    "quote_or_summary": "Same June 2025 quotes, corroborated by WLRN; video is titled 'Florida's Economic Future: A Conversation with Byron Donalds, Economic Club of Miami, Downtown Miami' (https://www.youtube.com/watch?v=4vTl9LhcmFk).",
+    "date": "June 2025",
+    "url": "https://www.wlrn.org/government-politics/2026-09-16/debate-about-data-centers-emerges-in-donalds-jolly-gubernatorial-race"
+   },
+   {
+    "topic": "data_centers",
+    "stance": -1,
+    "quote_or_summary": "Voted for the House version of the One Big Beautiful Bill Act, which included a 10-year moratorium on state and local regulation of AI systems (preempting local/state limits); Senate removed it. In Sept 2026 at a TPUSA meeting at UCF he said: \"That's one provision that I wasn't probably the biggest fan of.\"",
+    "date": "May 2025 vote; Sept 2026 remark",
+    "url": "https://www.wlrn.org/government-politics/2026-09-16/debate-about-data-centers-emerges-in-donalds-jolly-gubernatorial-race"
+   },
+   {
+    "topic": "data_centers",
+    "stance": -1,
+    "quote_or_summary": "Opposes a statewide data-center moratorium. At a Clearwater event: New York's moratorium is \"a signal to the business community that this is not a place to invest capital.\" Says he favors slowing construction of new data centers, with balance; \"In the state of Florida, utility bills for Floridians will not go up if a hyperscale data center is built.\" Dismissed Jolly's one-year moratorium as 'politics'.",
+    "date": "2026-07-24",
+    "url": "https://www.wusf.org/politics-issues/2026-07-24/byron-donalds-opposes-statewide-moratorium-data-centers"
+   },
+   {
+    "topic": "data_centers",
+    "stance": 0,
+    "quote_or_summary": "MIXED: Backs state law SB 484 (signed May 2026; data centers pay own costs, consumptive-use permits, local authority preserved) as \"a really strong step in the right direction\"; \"If local governments don't want them, they won't build them, and that's just the way it is.\" Campaign: \"If communities don't want data centers, there will be no data centers in those communities.\" To News4JAX: \"County commissioners issue building permits, not governors.\" Says he would release the state data-center study due June 1, 2027.",
+    "date": "Sept-Oct 2026",
+    "url": "https://www.news4jax.com/news/politics/2026/10/06/jolly-vs-donalds-where-floridas-governor-candidates-stand-on-ai-data-centers-and-amendment-3/"
+   },
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "Introduced federal 'Protecting the Ratepayers Act' (July 2026) requiring data-center operators to get all energy and water from sources that do not use or affect the grid or public water systems (as summarized by Orlando Weekly, citing donalds.house.gov DocumentID=2635; bill text not read).",
+    "date": "2026-07",
+    "url": "https://donalds.house.gov/news/documentsingle.aspx?DocumentID=2635"
+   },
+   {
+    "topic": "data_centers",
+    "stance": 0,
+    "quote_or_summary": "CONTEXT, not a stance: Politico reported (July 20, 2026) Donalds received dozens of contributions from AI interests, including companies seeking to build hyperscale data centers in Florida. Politico page could not be fetched; relayed via Orlando Weekly. Wikipedia states he 'supports expanding development of data centers in Florida'. Jolly's ad calls him 'Data Center Donalds'.",
+    "date": "2026-07-20",
+    "url": "https://www.politico.com/news/2026/07/20/byron-donalds-florida-ai-data-center-fundraising-01005141"
+   },
+   {
+    "topic": "development",
+    "stance": 0,
+    "quote_or_summary": "On growth generally: favors continued growth under the existing permitting framework (\"We are going to maintain that\"; \"This is not a new phenomenon\"); cites Space Coast commercial space as an economic opportunity (News4JAX paraphrase). No documented position found from him on farmland protection, rural-lands bills (SB 686) or growth management.",
+    "date": "2026-10-06",
+    "url": "https://www.news4jax.com/news/politics/2026/10/06/jolly-vs-donalds-where-floridas-governor-candidates-stand-on-ai-data-centers-and-amendment-3/"
+   },
+   {
+    "topic": "data_centers",
+    "stance": 0,
+    "quote_or_summary": "In campaign ads he pledged to protect Floridians from AI data centers that would 'jack up' utility rates; fight for a ratepayer-protection plan; opposes a statewide ban or state preemption; cities and counties keep full authority over whether a facility belongs in their community (ClickOrlando voter guide).",
+    "date": "2026-10-16",
+    "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-governors-race/"
+   },
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Calls for a 'streamlined' state permitting office for major developments, permits on an open state website 'with a ticking clock', and modernized permitting for new home construction (ClickOrlando voter guide). Also favors continued growth under existing permitting framework (News4JAX, Oct 6 2026).",
+    "date": "2026-10-16",
+    "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-governors-race/"
+   },
+   {
+    "topic": "data_centers",
+    "stance": -1,
+    "quote_or_summary": "Same June 2025 Economic Club of Miami interview, per J.C. Bruce Substack summary: he said Florida has available land and could build such facilities while keeping the state's natural beauty. (Secondary summary of the video, not a transcript.)",
+    "date": "June 2025",
+    "url": "https://www.jcbruce.com/p/floridas-candidates-for-governor"
+   },
+   {
+    "topic": "data_centers",
+    "stance": -1,
+    "quote_or_summary": "Leading the Future, a pro-AI super PAC funded by figures including OpenAI president Greg Brockman and Andreessen Horowitz founders, pledged about $5 million to help Donalds (first gubernatorial candidate it backed). His strategist Ryan Smith: \"America must lead in the AI space\"; Donalds would be a 'standard-bearer for responsible innovation while also protecting Floridians.' Donalds himself not quoted; campaign did not comment.",
+    "date": "2026-02-12",
+    "url": "https://www.yahoo.com/news/articles/super-pac-backed-ai-titans-130040489.html"
+   },
+   {
+    "topic": "data_centers",
+    "stance": -1,
+    "quote_or_summary": "Fox 13 (Sept 28 2026): opposes statewide pause - a moratorium signals Florida is \"not a place to invest capital\"; \"we require water permits for these centers so that we protect Florida's aquifers\"; \"no more NDAs\" on local proposals; 'dovish on solar and wind' and proposes four data centers on a solar array powered by a small modular reactor. Notes Avila's earlier bill to exempt data-center plans from public-records laws failed; article doesn't say whether Donalds backed it.",
+    "date": "2026-09-28",
+    "url": "https://www.fox13news.com/news/ai-data-centers-erupt-major-battleground-florida-governors-race"
+   },
+   {
+    "topic": "data_centers",
+    "stance": 0,
+    "quote_or_summary": "Fox 13 interview with Craig Patrick (Oct 31 2026, via Yahoo): \"It is now state law in Florida that if local governments say no data center, then no data centers.\" Says 27 counties/municipalities have issued a moratorium or ban (about three outright bans); state study due June 1 2027; of Jolly's statewide moratorium: \"If he wants to be governor, he should actually read the law.\" Fox 35 (Sept 17): \"We're not going to preempt local governments\"; \"these are their communities, they're the ones that have to make these final decisions.\" Mother Jones (Oct 15 2026) headline: 'Byron Donalds is pro-data centers. So is his stock portfolio' (article not retrievable).",
+    "date": "2026-09-17 to 2026-10-31",
+    "url": "https://www.yahoo.com/news/politics/articles/election-2026-where-byron-donalds-001359779.html"
+   },
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Fox 13 interview Oct 31 2026: \"It can't take two years to put a shovel in the ground\"; citing a National Association of Home Builders study, \"we need to reform that system\" (permitting and timelines); \"The way we raise additional tax dollars is we have a thriving and growing economy.\" ClickOrlando guide: 'streamlined' state permitting office for major developments, a 'ticking clock' on permits.",
+    "date": "2026-10-31",
+    "url": "https://www.yahoo.com/news/politics/articles/election-2026-where-byron-donalds-001359779.html"
+   },
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Mother Jones: he told a group of Miami businesses that Florida was 'wide open' for development (article's wording) and said: \"We have actual land in our state that is still pristine, available to use.\" (Mother Jones says 'last spring'; exact date and venue not given, may be the Economic Club of Miami appearance.) This is the closest documented statement tying data centers to using undeveloped land.",
+    "date": "spring (year per article context: 2026; unverified)",
+    "url": "https://www.motherjones.com/politics/2026/10/byron-donalds-is-pro-data-centers-so-is-his-stock-portfolio/"
+   },
+   {
+    "topic": "data_centers",
+    "stance": -1,
+    "quote_or_summary": "Mother Jones: at an August 2026 campaign event, attacking Jolly's moratorium: \"There ain't no bans coming\"; moratorium proposals 'sound good on TV' or social media. Also: Politico (July 2026) reported four developers 'actively pursuing or had previously proposed data centers' among his donors; his Aug 2026 disclosure lists up to $390,000 in stocks tied to data-center companies (Microsoft, Amazon, Monolithic Power Systems) managed by Moran Wealth Management; his campaign war chest is $125M.",
+    "date": "2026-08",
+    "url": "https://www.motherjones.com/politics/2026/10/byron-donalds-is-pro-data-centers-so-is-his-stock-portfolio/"
+   }
+  ],
+  "David Jolly": [
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "Promises a one-year statewide moratorium on new hyperscale data centers: \"I'll issue a moratorium on my very first day in office.\" Says buildout \"is moving too quickly.\"",
+    "date": "2026-10-06",
+    "url": "https://www.news4jax.com/news/politics/2026/10/06/jolly-vs-donalds-where-floridas-governor-candidates-stand-on-ai-data-centers-and-amendment-3/"
+   },
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "At Lakeland event: \"Big tech is coming in before we can get the appropriate environmental regulations in place\"; \"The labor and economic impact is not worth the investment that we make.\" Immediate moratorium.",
+    "date": "2026-07-14 (reported 07-16)",
+    "url": "https://davidjolly.com/david-jolly-calls-for-halt-on-construction-of-data-centers/"
+   },
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "CNN interview: \"If Florida's not a place for the big data centers because of our fragile water infrastructure, it's okay to say that.\" Florida Phoenix headline (Sept 18): 'David Jolly: A complete ban on data centers in Florida should be on the table' (article itself returned 403; headline only).",
+    "date": "2026-07-23; 2026-09-18",
+    "url": "https://floridaphoenix.com/2026/09/18/david-jolly-a-complete-ban-on-data-centers-in-florida-should-be-on-the-table/"
+   },
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "Would 'invest in smart growth' and work to restore local Home Rule (ClickOrlando voter guide).",
+    "date": "2026-10-16",
+    "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-governors-race/"
+   },
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Would 'remove unnecessary barriers to increasing supply' (housing) (ClickOrlando voter guide) - pro-housing-supply, so mixed with the smart-growth/home-rule entry.",
+    "date": "2026-10-16",
+    "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-governors-race/"
+   }
+  ],
+  "Charles Burkett": [
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "'Data centers must provide for their own power and water supplies' and 'should only be allowed in locations where a referendum vote of all the residents' approves them.",
+    "date": "2026-10-16",
+    "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-governors-race/"
+   },
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "'Overdevelopment, overbuilding must be stopped.' 'Florida is full and must stop adding people to our state.' (Roster notes platform to stop 'Manhattanization'.)",
+    "date": "2026-10-16",
+    "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-governors-race/"
+   }
+  ],
+  "Frank J. Russo": [
+   {
+    "topic": "data_centers",
+    "stance": -1,
+    "quote_or_summary": "'welcomes technology investments in the state for AI and data centers' (WLRN); 'Florida should embrace innovation without asking families to shoulder the cost'; wants large developments to pay for the infrastructure they need (ClickOrlando).",
+    "date": "2026-10-22",
+    "url": "https://www.wlrn.org/government-politics/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field"
+   },
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Supports 'encouraging responsible housing growth' and workforce housing; new large developments should pay for needed infrastructure. Press release lists him as a real estate developer.",
+    "date": "2026-10-16",
+    "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-governors-race/"
+   }
+  ],
+  "Moliere \"Moe\" Dimanche": [
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "'data centers will be banned' if he is governor.",
+    "date": "2026-10-16",
+    "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-governors-race/"
+   },
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "'the state will not preempt local government when I take office' (local control); wants state to give abandoned properties to eligible Floridians for homesteading; would abolish HOAs.",
+    "date": "2026-10-16",
+    "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-governors-race/"
+   }
+  ],
+  "Dean Ocean Abrams": [
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "WLRN summary says he 'opposes data centers'; the ClickOrlando guide says he did not respond - single-source, so treat as softer.",
+    "date": "2026-10-22",
+    "url": "https://www.wlrn.org/government-politics/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field"
+   }
+  ],
+  "Scott Eckhard Jewett": [
+   {
+    "topic": "data_centers",
+    "stance": 0,
+    "quote_or_summary": "Wants 'ensuring data centers do no harm' (WLRN); did not answer ClickOrlando's question.",
+    "date": "2026-10-22",
+    "url": "https://www.wlrn.org/government-politics/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field"
+   },
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Website: 'cut rules and fees that raise the price of food, housing, energy, insurance and hiring' (deregulatory; names no specific land rules).",
+    "date": "2026-10-16",
+    "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-governors-race/"
+   }
+  ],
+  "Jose Javier Rodriguez": [
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "Says AG should 'defend local control and home rule' ('Home Rule Jose'); pledged to 'fight the sell or swap of conservation land' (ClickOrlando voter guide).",
+    "date": "2026-10-16",
+    "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-attorney-general-race/"
+   },
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "Campaign cost priority: 'protect taxpayers from data centers' (WLRN summary; no further detail).",
+    "date": "2026-10-23",
+    "url": "https://www.wlrn.org/government-politics/2026-10-23/what-to-know-about-florida-attorney-general-race"
+   },
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "Goal to 'fight any sale, swap, or surplus of Florida's public and conservation land'; also wants to 'rein in the utilities'.",
+    "date": "2026-10-23",
+    "url": "https://www.wlrn.org/government-politics/2026-10-23/what-to-know-about-florida-attorney-general-race"
+   }
+  ],
+  "James Uthmeier": [
+   {
+    "topic": "development",
+    "stance": 0,
+    "quote_or_summary": "No documented position found: did not answer ClickOrlando guide; guide found no public statements on state preemption of local governments. He proposed/built Alligator Alcatraz inside Big Cypress National Preserve (Everglades), July 2025 (Wikipedia).",
+    "date": "2025-2026",
+    "url": "https://en.wikipedia.org/wiki/James_Uthmeier"
+   },
+   {
+    "topic": "data_centers",
+    "stance": 0,
+    "quote_or_summary": "No documented position found: WLRN says he describes no position on data centers/land use; a web search found no data-center-specific action by his office (he is running on child safety, immigration, Big Tech/AI, China ties).",
+    "date": "2026-10-23",
+    "url": "https://www.wlrn.org/government-politics/2026-10-23/what-to-know-about-florida-attorney-general-race"
+   }
+  ],
+  "Joey Mendoza Atkins": [
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "Supports a statewide moratorium; says he will fight to 'block and ban data centers' (WLRN).",
+    "date": "2026-10-27",
+    "url": "https://www.wlrn.org/government-politics/2026-10-27/what-to-know-florida-agriculture-commissioner-race"
+   },
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "'Joey will fight for family farms by protecting farmland from predatory developers'; wants Legislature to end the 'rent-a-cow' greenbelt loophole (WLRN). Own guide answer: 'Smart conservation and responsible land stewardship are not obstacles to economic growth.'",
+    "date": "2026-10-27",
+    "url": "https://www.wlrn.org/government-politics/2026-10-27/what-to-know-florida-agriculture-commissioner-race"
+   }
+  ],
+  "Wilton Simpson": [
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "Says 'residential development encroaches on our rural areas'; touts conservation easements (18,279.38 acres in May 2023) that 'will prevent future development of the land'; 'From preserving farmland to reducing regulatory burdens, these efforts are helping secure Florida's future.' Championed 2021 Florida Wildlife Corridor Act; prioritizes Rural and Family Lands Protection Program.",
+    "date": "2023-2026",
+    "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-commissioner-of-agriculture-race/"
+   },
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Also touts 'reducing regulatory burdens' and as Senate President helped pass the Right to Farm Act (legal shield for farm operations vs. neighbors) - farm-industry friendly, not anti-development per se. (Roster/prior research: DeSantis vetoed $100M for the Rural lands program per Capitolist coverage - not attributed to Simpson.)",
+    "date": "2021-2026",
+    "url": "https://en.wikipedia.org/wiki/Wilton_Simpson"
+   },
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "WUWF interview: \"Nobody cares for them or likes them\"; says data centers are not much of his job as commissioner. If one is built: only in industrial parks, not on farmland or community commercial land; \"zero fresh water\" (reclaimed only); \"they should have to generate 100 percent of their own electricity\"; Legislature should \"leave it in the hands of local governments.\" Conditional, not a moratorium.",
+    "date": "2026-09-09",
+    "url": "https://www.wuwf.org/florida-news/2026-09-09/5-questions-for-wilton-simpson"
+   },
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "On rural lands program (buys development rights from farmers): \"We're accomplishing both things in the most affordable way\" (protecting wildlife corridor and agriculture); says he put $300 million in the budget leaving the Senate and the Legislature later gave his agency $800 million over his first four years as commissioner. Campaign emphasizes conservation easements (Florida Trib).",
+    "date": "2026-09-09",
+    "url": "https://www.wuwf.org/florida-news/2026-09-09/5-questions-for-wilton-simpson"
+   }
+  ],
+  "Angie Nixon": [
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "Per Wikipedia, in September 2026 she supported a federal moratorium on new data center construction until regulatory safeguards protect communities and the environment (primary source not read).",
+    "date": "2026-09",
+    "url": "https://en.wikipedia.org/wiki/Angie_Nixon"
+   }
+  ],
+  "Blaise Ingoglia": [
+   {
+    "topic": "development",
+    "stance": 0,
+    "quote_or_summary": "CONTEXT: homebuilder/developer (Hartland Homes, America One Mortgage, Spring Hill); no documented position on growth/land/data centers; his DOGE audits target local-government spending; guide lists 'housing and property insurance affordability' and eliminating homestead property taxes.",
+    "date": "2026-10-16",
+    "url": "https://www.clickorlando.com/voters-guide/2026/10/16/2026-voters-guide-florida-chief-financial-officer-race/"
+   }
+  ],
+  "Tara Poulton": [
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "'We really need to hit the brakes on growth and slow it down' (not stop it) to protect environment; enforce/strengthen environmental standards, keep wetland buffers; says she took no developer money; supports home rule; on Mosaic: 'Let's let them finish the job they've started' (no expansion).",
+    "date": "2026-07-02",
+    "url": "https://www.tampabaybeacons.com/2026/07/02/republican-candidates-vie-for-manatee-county-commission-district-6/"
+   }
+  ],
+  "Thomas Schwarz": [
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "Site lists 'Responsible and Sustainable City Growth', 'Environmental Protections', and 'Preserving Ward 3's Historic Character'; says growth requires sound infrastructure planning (vague, no specific votes).",
+    "date": "2026",
+    "url": "https://schwarzforward3.com/"
+   },
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "Tampa Bay 28 questionnaire: most important issue is 'managing growth responsibly while ensuring our infrastructure and quality of life keep pace'; cites traffic, aging infrastructure, development pressure, neighborhood character; but 'Growth itself isn't the problem' - the challenge is planning and investing in infrastructure.",
+    "date": "2026-07",
+    "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-bradenton-city-council-ward-3"
+   }
+  ],
+  "Kemp Schuessler": [
+   {
+    "topic": "development",
+    "stance": 0,
+    "quote_or_summary": "Site lists 'Smart Growth and Planning' and 'responsible growth' with road/drainage investment; no specifics.",
+    "date": "2026",
+    "url": "https://kempschuessler.com/"
+   },
+   {
+    "topic": "development",
+    "stance": 0,
+    "quote_or_summary": "City bio: 'longtime resident of the Wares Creek neighborhood'; 30+ years financial-services executive; appointed July 23 2025. Site lists 'Smart Growth and Planning'.",
+    "date": "2026",
+    "url": "https://cityofbradenton.com/schuessler"
+   }
+  ],
+  "Keith J. Green": [
+   {
+    "topic": "development",
+    "stance": 0,
+    "quote_or_summary": "Site prioritizes infrastructure, drainage/flood prevention, public-private partnerships and 'encourage investment in Bradenton'; served four years on Bradenton Planning Commission; no stance on growth limits.",
+    "date": "2026",
+    "url": "https://www.votekeithgreen.com/"
+   },
+   {
+    "topic": "development",
+    "stance": 0,
+    "quote_or_summary": "Tampa Bay 28: traffic needs 'practical, common-sense solutions' while 'planning responsibly for future growth'; public-private partnerships to fund improvements. Planning Commission member since 2022 (Vice Chair 2025).",
+    "date": "2026-07",
+    "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-bradenton-city-council-ward-4"
+   }
+  ],
+  "Jim Boyd": [
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Voted for SB 180 (2025), which restricts local governments in storm-affected counties from adopting more restrictive land-development rules; Senate passage 37-0 (Apr 9 2025) and concurrence 34-1 (May 2 2025). Prior research says the roll-call PDF shows 'Y Boyd-20'; the bill page I read gives tallies only, so Boyd's individual Yea was not re-confirmed by me. Manatee County is among local governments suing over the law (per prior research). Harvey Shifrin says SB 180 'prevented the county from banning large-scale data centers' (county commissioners' view).",
+    "date": "2025-04-09 / 2025-05-02",
+    "url": "https://www.flsenate.gov/Session/Bill/2025/180/?Tab=Vote"
+   },
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Voted Yea on final Senate passage of HB 399 (2026, Land Use and Development Regulations: off-site-built homes permitted as of right, administrative approval for large destination resorts, permit-fee limits, compatibility factors), 27-11 on Mar 13 2026; voted Nay on the Jones floor amendment (per prior research). Bill summary and tallies verified on flsenate.gov; individual vote per prior research.",
+    "date": "2026-03-13",
+    "url": "https://www.flsenate.gov/Session/Bill/2026/399"
+   },
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Bradenton Times endorsement of Baldi (opinion): Boyd 'has repeatedly voted to eliminate elements of home rule by supporting developer-driven preemption bills' (names SB 180 and 'SB 399'); says they left the current county commission unable to reverse the prior board's weakening of wetland protections. Editorial opinion, not Boyd's words.",
+    "date": "2026-10",
+    "url": "https://thebradentontimes.com/stories/for-florida-senate-district-20-we-recommend-gerald-baldi,216732"
+   }
+  ],
+  "Ocean Fitts": [
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "Wants to restore home rule, better protect wetlands and environmental resources, invest in infrastructure (Bradenton Times endorsement summary).",
+    "date": "2026-10",
+    "url": "https://thebradentontimes.com/stories/for-florida-house-district-71-we-recommend-ocean-fitts,217407"
+   }
+  ],
+  "Jordan Varnadore": [
+   {
+    "topic": "development",
+    "stance": 0,
+    "quote_or_summary": "No documented positions on growth, development or data centers: his ballot profile lists only Economy, Education, Guns; he declined the Bradenton Times interview, which predicted he would be 'a reliable vote for the developer-influenced RPOF machine' (editorial opinion, not his words). Platform from prior research: reduce burdensome regulations.",
+    "date": "2026-10",
+    "url": "https://thebradentontimes.com/stories/for-florida-house-district-71-we-recommend-ocean-fitts,217407"
+   }
+  ],
+  "Kelly Kirschner": [
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "Opposes proposed hyperscale data centers near Arcadia and Fort Meade; says AI companies 'need to be held liable'; says no federal framework guides these decisions (Tampa Bay Times/WUSF forum coverage).",
+    "date": "2026-09-24",
+    "url": "https://www.wusf.org/politics-issues/2026-09-24/candidates-to-replace-vern-buchanan-in-congress-spar-in-an-online-forum"
+   },
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "Says he helped build Payne Park and stopped a developer from putting 10-story condos into a single-family neighborhood (his own claim, as reported by WGCU).",
+    "date": "2026-10-16",
+    "url": "https://www.wgcu.org/elections/2026-10-16/three-very-different-candidates-vying-for-congress-in-florida-district-16"
+   }
+  ],
+  "Sydney Gruters": [
+   {
+    "topic": "data_centers",
+    "stance": 0,
+    "quote_or_summary": "'Big Tech should pay their own way. They have the money.' Energy and water costs should not fall on consumers and local communities should decide whether data centers are built; she did not say whether the DeSoto project should be approved.",
+    "date": "2026-09-24",
+    "url": "https://www.wusf.org/politics-issues/2026-09-24/candidates-to-replace-vern-buchanan-in-congress-spar-in-an-online-forum"
+   },
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "Her website says she will 'fight to curb overdevelopment and keep homeownership within reach for working families' (as quoted by WGCU; vague, no specific policy).",
+    "date": "2026-10-16",
+    "url": "https://www.wgcu.org/elections/2026-10-16/three-very-different-candidates-vying-for-congress-in-florida-district-16"
+   }
+  ],
+  "Harvey Shifrin": [
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "'I am not against thoughtful development, but the planning must be the prerogative of the county'; wants home rule returned to counties ('Local politics should stay local'); says SB 180 blocks Manatee from stricter wetland buffers/setbacks; wants Live Local changes that respect comp plans; opposes Amendment 3.",
+    "date": "2026-10-15",
+    "url": "https://www.yourobserver.com/news/2026/oct/15/florida-representative-district-72-harvey-shifrin/"
+   },
+   {
+    "topic": "data_centers",
+    "stance": 0,
+    "quote_or_summary": "States no personal position; cites county commissioners' view that SB 180 'prevented the county from banning large-scale data centers'.",
+    "date": "2026-10-15",
+    "url": "https://www.yourobserver.com/news/2026/oct/15/florida-representative-district-72-harvey-shifrin/"
+   }
+  ],
+  "Bill Conerly": [
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Supports the Live Local Act's goal of attainable housing but backs targeted reforms; 'We can increase Florida's housing supply while protecting property rights'; 'We don't have to choose between protecting our environment and supporting a strong economy'; backs Amendment 3. Data centers: not addressed.",
+    "date": "2026-10-15",
+    "url": "https://www.yourobserver.com/news/2026/oct/15/florida-representative-district-72-bill-conerly/"
+   }
+  ],
+  "Nick Pachota": [
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "'I would repeal Live Local and restore local control of growth/land use decisions.' 'Live Local has failed to increase supply of affordable housing units in Sarasota County.' Data centers: not addressed.",
+    "date": "2026-10-27",
+    "url": "https://www.yourobserver.com/news/2026/oct/27/florida-representative-district-74-nick-pachota/"
+   }
+  ],
+  "Ryan Neill": [
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "'I support changes to the Live Local Act. In fact I support its repeal.' 'local counties and planning boards have a better idea of what should be built in their communities.' Data centers: not addressed.",
+    "date": "2026-10-19",
+    "url": "https://www.yourobserver.com/news/2026/oct/19/representative-district-74-ryan-neill/"
+   }
+  ],
+  "Lisa Klein": [
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "'Our local governments need the authority to address flooding and guide development based on their communities' needs.' 'Live Local has pre-empted local governments in ways that make collaboration difficult' - would keep working provisions. Data centers: not addressed.",
+    "date": "2026-10-27",
+    "url": "https://www.yourobserver.com/news/2026/oct/27/florida-representative-district-73-lisa-klein/"
+   }
+  ],
+  "Sari Lindroos-Valimaki": [
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "'I am very much against placing them in places they should not be placed'; thinks Florida is not the place for data centers except maybe north Florida; wants comp plan to define hyperscale AI data centers with a specific zoning category; fears water pollution, grid drain, few jobs; asked commissioners June 4 not to submit comp plan to the state.",
+    "date": "2026-07-01",
+    "url": "https://www.yourobserver.com/news/2026/jul/01/palmetto-resident-manatee-race/"
+   },
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "'Once the land is gone, it's gone' (farmland/food security); build roads before houses; protect water quality; opposes Mosaic phosphate mining operations. But also says 'growth can't be stopped, so planning for it matters more than opposing it.'",
+    "date": "2026-07-13",
+    "url": "https://www.tampabaybeacons.com/2026/07/13/manatee-county-commission-district-1-candidates-discuss-traffic-growth-jobs/"
+   }
+  ],
+  "Elizabeth \"Liz\" Arnold": [
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "Says county has 'a lot of overdevelopment', 65,000 homes in the pipeline, suggests pausing new projects; wants to protect farms, ranches, small business; 'Things could slow down to give District 1 a break'; credits a decade of activism with helping stop subdivisions and save a canopy road; has fought for the Future Development Area Boundary.",
+    "date": "2026-05-21 / 2026-07-13",
+    "url": "https://www.tampabaybeacons.com/2026/07/13/manatee-county-commission-district-1-candidates-discuss-traffic-growth-jobs/"
+   },
+   {
+    "topic": "data_centers",
+    "stance": 0,
+    "quote_or_summary": "No documented personal position on data centers (Observer and Beacons articles do not report one). Manatee County commission as a whole unanimously approved a one-year data-center moratorium on Oct 8 2026.",
+    "date": "2026-10-08",
+    "url": "https://www.mysuncoast.com/2026/10/08/manatee-county-approves-one-year-moratorium-data-centers/"
+   }
+  ],
+  "Amanda Ballard": [
+   {
+    "topic": "data_centers",
+    "stance": 1,
+    "quote_or_summary": "Sitting commissioner. Manatee commissioners 'unanimously approved' a one-year moratorium on new data center projects (Oct 8 2026); the article names no individual commissioners, so her own vote is inferred from unanimity, not stated.",
+    "date": "2026-10-08",
+    "url": "https://www.mysuncoast.com/2026/10/08/manatee-county-approves-one-year-moratorium-data-centers/"
+   },
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Prior research (source not re-verified): Oct 5 2023 voted with majority to cut local wetland buffers to state minimums (tally differs between outlets; buffers restored 2025); Feb 18 2026 voted yes on 5-2 vote giving Mosaic a 14-year Four Corners mine plan extension ('difficult decision'). Same research credits her with spearheading the Mixon Fruit Farms land purchase (county conservation-type purchase). Observer (Aug 2026): she said 'we've been kind of limited by the state'. Observer editorial recommended her for 'defense of individual liberty'.",
+    "date": "2023-2026",
+    "url": "https://www.yourobserver.com/news/2026/aug/18/incumbents-dominate-primary-manatee-county/"
+   }
+  ],
+  "Michael Owen": [
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Per prior research, voted Yea on SB 180 (2025, House 115-1 on Apr 29; concurrence 106-0 May 2) and on HB 399 (2026 Land Use and Development Regulations; House 71-38 on Mar 3 and concurrence 73-27 on Mar 13), both of which limit local land-use authority. HB 399 summary and tallies verified; his individual votes not re-confirmed. Real estate attorney.",
+    "date": "2025-2026",
+    "url": "https://www.flsenate.gov/Session/Bill/2026/399"
+   }
+  ],
+  "Gerald Baldi": [
+   {
+    "topic": "development",
+    "stance": 1,
+    "quote_or_summary": "Campaign site: 'Ensuring growth benefits residents, not special interests'; 'Safeguarding our coastlines, reefs, wetlands, and wildlife.' BallotReady: 'Infrastructure, First!!! Impact Studies, District Approval before any new home building.' Endorsed by Bradenton Times and Environmental Caucus of Florida. Nothing found on data centers.",
+    "date": "2026",
+    "url": "https://www.baldiformanatee.com/"
+   }
+  ],
+  "Lisa Gonzalez Moore": [
+   {
+    "topic": "development",
+    "stance": -1,
+    "quote_or_summary": "Tampa Bay 28: ties downtown redevelopment and workforce growth to infrastructure investment, 'fiscal planning' and 'long term growth of our City'; goal of a more vibrant downtown (pro-redevelopment, urban-core framing).",
+    "date": "2026-07",
+    "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-bradenton-city-council-ward-4"
+   }
+  ]
+ },
+ "donalds_investors": {
+  "found": false,
+  "words": "NOT FOUND as 'investors'. Only a secondhand claim: a Reddit post (via the scraper site reddit.sentinel-team.org) says James Fishback, Donalds' primary rival, obtained video of a private Donalds event in Pensacola where guests were told to become 'shareholders' in Byron's company, to 'help steer the direction of Florida'; Fishback: \"Unlike Byron, I don't have shareholders. I only work for you.\" The word 'investors' does not appear.",
+  "date": "undated (Reddit snapshot Apr 29 2026)",
+  "reported_by": "Reddit post paraphrasing James Fishback; no news outlet found; video not linked",
+  "url": "https://reddit.sentinel-team.org/posts/1sygohd/snapshots/2026-04-29T11%3A32%3A01.85537Z"
+ },
+ "notes": [
+  "STANCE CODING: 0 = mixed/context (not +1/-1).",
+  "DONALDS DATA CENTERS: owner's belief is PARTLY supported. June 2025 he said data centers and power are the state's future and 'embrace that'; voted for the 10-yr state AI-regulation moratorium (May 2025); opposes a statewide data-center moratorium (July 2026). But by Sept-Oct 2026 he moved toward 'local governments can say no', backs SB 484 and filed a federal ratepayer bill. Jolly accuses him of shifting because positions are 'politically unpopular'. 'Develop' (land) not documented: no Donalds quote on farmland/land-use found; only economic-growth statements.",
+  "Donalds 'investors' claim could not be verified; searches surfaced only Fishback's 'slave to donors' remarks (Nov 2025) and fundraiser-price reporting ($50,000 a plate Mar-a-Lago dinner May 1).",
+  "Governor minors: Dimanche, Abrams, Jewett, Datto, Russo birthplace/upbringing not found in any source read (WLRN, ClickOrlando, Wikipedia). Datto did not answer any guide.",
+  "P1 statewide: Taddeo, Moody, Gillespie, Uthmeier data-center/land positions NOT documented in any source read. Roots for Uthmeier, Moody, Nixon from Wikipedia (birthplace + high school). Bellamy 'born in Bradenton' is from prior roster research; fifth-generation confirmed by Bradenton Times endorsement.",
+  "Observer candidate Q&A profiles (yourobserver.com/news/2026/oct/...) exist for HD72, HD73, HD74 and school board - they give growth positions but rarely birthplace.",
+  "Manatee County commissioners unanimously approved a one-year moratorium on new data-center projects (MySuncoast, Oct 8 2026) after a July unanimous motion to draft it; no data-center projects were planned in the county.",
+  "Correction: an auto-summary suggested Simpson's campaign calls for a data-center moratorium; Florida Trib actually attributes that to Atkins. Simpson's own stated position is conditional (WUWF Sept 9 2026).",
+  "Donalds data-center timeline: (1) June 2025 'embrace that' at Economic Club of Miami; (2) May 2025 House vote for 10-yr state/local AI-rule moratorium; (3) Feb 2026 pro-AI super PAC pledges $5M; (4) July 2026 opposes statewide moratorium; (5) Sept 2026 praises SB 484 and local control, says he was 'not the biggest fan' of the preemption provision; (6) Oct 2026 'if local governments say no, no data centers'. No Donalds quote found saying he wants to 'develop' farmland/rural land; his development statements are about speeding permits and growth. The owner's belief on data centers is supported through summer 2026 and has softened toward local-control language since September 2026.",
+  "Mother Jones (Oct 15 2026, Laura C. Morel) 'Byron Donalds is pro-data centers. So is his stock portfolio' is cited in Wikipedia but its URL could not be fetched; not read.",
+  "Mother Jones (Oct 2026) does not describe any Donalds donors as investors, shareholders or dinner-related.",
+  "ROSTER-DERIVED SCORES: for most priority-3 candidates (state house/senate, U.S. House, Holmes Beach, etc.) roots come from the birth/upbringing facts already in roster.json (prior research citing Wikipedia, Florida Politics, campaign sites) and were NOT re-fetched. Marked [roster] in summary, urls empty. Scale used: 100 = born AND raised in FL stated; 90 = born in FL, upbringing not stated; 80 = moved/brought as a child; 55 = adult arrival 25+ yrs (or long-time resident, arrival age unknown = floor); 40 = adult arrival 10-25 yrs; 20 = under 10 yrs; 10 = under 3 yrs; null = unknown. 90 is an intermediate value I added.",
+  "Candidates with null roots had no birthplace/residency-length fact in the roster or sources read; CDD/fire-district/mosquito-district candidates (about 60 people) were not researched: no public biographies found.",
+  "Luther Keith Wilkins (HD70): prior research says his Chamber questionnaire supports strengthening land-use rules and protecting habitats; source URL not available so not recorded as a position.",
+  "Placeholders: 247 candidates with roots:null were not found/researched (mostly CDD, fire, mosquito district candidates and minor challengers). Wikipedia pages for state legislators usually lack birthplace/upbringing, so a sweep of ~60 incumbents was abandoned after 10 pages gave 3 usable facts.",
+  "P1 candidates with NO documented land/data-center position found: Annette Taddeo, Ashley Moody, Neil J. Gillespie, Joseph Hoolihan, Mark Davis, Reggie Bellamy (only a county land-purchase vote noted in prior research, not sourced), Derrick Warner, Jacob Kyser, John Agnelli, Dana Tindall, Keith D. Miller, Billy Burke, Scott Johnson, Rodney O'Quinn, Charles Rick Richards. Ingoglia: only context (developer/homebuilder, DOGE).",
+  "Donalds roots score 55 is borderline: Florida arrival is inferred (HS grad 1996, then FAMU per Wikipedia; his own site says only FSU grad 2002). If he arrived 2002 the rubric gives 40."
+ ]
+}
