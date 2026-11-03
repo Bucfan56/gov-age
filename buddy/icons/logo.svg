@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"><defs><linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3a8a"/><stop offset="1" stop-color="#2563eb"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g5)"/>
+<path d="M0 372 Q128 344 256 372 T512 372 V512 H0z" fill="#ef4444"/>
+<path d="M0 404 Q128 376 256 404 T512 404 V512 H0z" fill="#ffffff"/>
+<path d="M0 436 Q128 408 256 436 T512 436 V512 H0z" fill="#ef4444"/>
+<path d="M0 468 Q128 440 256 468 T512 468 V512 H0z" fill="#ffffff"/>
+<path d="M256 58 L301 178 L428 184 L328 262 L363 386 L256 316 L149 386 L184 262 L84 184 L211 178 Z" fill="#ffffff" stroke="#ffffff" stroke-width="22" stroke-linejoin="round"/>
+<circle cx="224" cy="222" r="15" fill="#1e3a8a"/><circle cx="288" cy="222" r="15" fill="#1e3a8a"/>
+<path d="M222 262 Q256 292 290 262" fill="none" stroke="#1e3a8a" stroke-width="13" stroke-linecap="round"/>
+<circle cx="203" cy="258" r="11" fill="#fca5a5"/><circle cx="309" cy="258" r="11" fill="#fca5a5"/></svg>

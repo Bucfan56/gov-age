@@ -62,6 +62,13 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-03 (late night): Ballot Buddy, an app on your phone with accounts; candidates' records checked
+
+- **The app is now Ballot Buddy.** Tyler picked the Star Buddy logo from five options (buddy/logos/). It has its own address, https://ballotbuddy.appolis.app (Worker `ballot-buddy`, code in buddy/worker), and the GitHub Pages link keeps working.
+- **Installs like the other Appolis apps.** You can add it to your home screen with the Star Buddy icon, and it opens full screen. It also keeps the last copy of the guide on the phone, so it still works with a weak signal at the polls. There's an "Add Ballot Buddy to your phone" row with iPhone and Android steps.
+- **Accounts with an emailed 6-digit code, and no password.** 👤 Sign in sits in the header and on My ballot. Your picks and district numbers follow you to any phone; no street address is ever stored. Sign out and Delete my account are included. Code emails go through the Appolis suite mail door. Until Appolis registers the app (todo_9175 on the Appolis board), sign-in says the emails aren't switched on yet. Verify, save, read, refusing wrong and reused codes, and delete were all tested on the live service with a test account.
+- **Records checked for every candidate on a 34209 ballot (31 of 42 so far).** Three research passes looked up votes, actions in office, donors and conduct, with each item linked. These now drive the 🎯 priorities. 13 findings were dropped in review: statements rather than actions, board votes where the candidate's own vote wasn't found, a 2018 gun vote whose reason the roll call doesn't give, and an unconfirmed donor link. Contradictions between what a candidate says and their record now show under problems on record (for example, Wilton Simpson and Tara Poulton).
+
 ### 2026-11-03 (late night): Trade check head to head, priorities judged by the record, exact ballots by address
 
 - **Trade check redesigned for phones.** It now shows one rival at a time against your pick (tap a name to switch): both photos, both scores, a verdict banner, then a bar for each measure (priorities, money from home, country first, independence, land, qualified, Florida roots, problems on record), with the leader shown in green. Below that is a short ▲ would bring / ▼ you'd give up summary.

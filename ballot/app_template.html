@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>__TITLE__</title>
 <meta name="description" content="__DESC__">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1e3a8a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Ballot Buddy">
+<link rel="apple-touch-icon" href="buddy/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="buddy/icons/favicon-32.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -354,6 +362,18 @@ details.today .vote .vh{display:none}
 .trade .hwhy{border-top:1px solid var(--line);padding-top:4px}
 .trade .hwhy p{margin:8px 0 0;font-size:13.5px;line-height:1.45}
 .trade .hwhy .wu{color:var(--good)}.trade .hwhy .wd{color:var(--bad)}
+.brand{display:flex;align-items:center;gap:8px;min-width:0}
+.brand img{width:30px;height:30px;border-radius:8px;flex:none;box-shadow:0 2px 6px rgba(0,0,0,.18)}
+.who-btn{border:1.5px solid var(--line);background:var(--card);border-radius:999px;padding:8px 11px;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;max-width:44%;overflow:hidden;text-overflow:ellipsis;color:var(--ink)}
+.acct input{width:100%;box-sizing:border-box;font:inherit;font-size:17px;padding:13px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);margin:6px 0 10px}
+.acct input.code{letter-spacing:.4em;font-size:24px;font-weight:800;text-align:center}
+.acct .btn{width:100%}
+.acct .ok{color:var(--good);font-weight:700}
+.acct .err{color:var(--bad);font-weight:700}
+.savecard{display:flex;gap:10px;align-items:center;background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:10px 12px;margin:0 0 12px;cursor:pointer;width:100%;text-align:left;color:var(--ink);font:inherit}
+.savecard b{display:block;font-size:14px}.savecard span{font-size:12.5px;color:var(--sub)}
+.linkbtn{border:0;background:none;padding:0;color:var(--accent);font:inherit;font-weight:700;text-decoration:underline;cursor:pointer}
+.steps{margin:6px 0 0;padding-left:20px}.steps li{margin:6px 0}
 @media print{.navbar{display:none!important}}
 .navbar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;justify-content:space-around;background:var(--card);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom));box-shadow:0 -6px 20px rgba(0,0,0,.08)}
 .navbar button{flex:1;border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11px;font-weight:700;color:var(--sub);padding:4px 0;cursor:pointer}
@@ -407,6 +427,33 @@ try { PICKS = JSON.parse(localStorage.getItem("ballot-picks") || "{}") || {}; } 
 function setPick(k, v) {
   if (PICKS[k] === v) delete PICKS[k]; else PICKS[k] = v;
   try { localStorage.setItem("ballot-picks", JSON.stringify(PICKS)); } catch (e) {}
+  pushAcct();
+}
+// Ballot Buddy account: a six-digit code by email, then picks and district numbers follow you to any phone
+const API = /(^|\.)appolis\.app$/.test(location.hostname) ? "/api" : "https://ballotbuddy.appolis.app/api";
+let ACCT = null, TOKEN = null, pushT = null;
+try { TOKEN = localStorage.getItem("bb-token"); ACCT = JSON.parse(localStorage.getItem("bb-acct") || "null"); } catch (e) {}
+async function apiCall(method, path, body) {
+  const r = await fetch(API + path, {method, headers: Object.assign({"content-type": "application/json"}, TOKEN ? {authorization: "Bearer " + TOKEN} : {}), body: body ? JSON.stringify(body) : undefined});
+  const j = await r.json().catch(() => ({}));
+  if (r.status === 401 && TOKEN && path === "/me") signedOut();
+  if (!r.ok) throw new Error(j.error || "Something went wrong (" + r.status + ").");
+  return j;
+}
+function signedOut() { TOKEN = null; ACCT = null; try { localStorage.removeItem("bb-token"); localStorage.removeItem("bb-acct"); } catch (e) {} }
+function pushAcct() {
+  if (!TOKEN) return;
+  clearTimeout(pushT);
+  pushT = setTimeout(() => apiCall("PUT", "/me", {picks: PICKS, ctx}).catch(e => console.error("account save failed", e)), 700);
+}
+async function pullAcct() {     // the account fills in what this phone lacks; what this phone already has wins, then both match
+  const me = await apiCall("GET", "/me");
+  ACCT = {email: me.email};
+  try { localStorage.setItem("bb-acct", JSON.stringify(ACCT)); } catch (e) {}
+  PICKS = Object.assign({}, me.picks || {}, PICKS);
+  try { localStorage.setItem("ballot-picks", JSON.stringify(PICKS)); } catch (e) {}
+  if (!ctx && me.ctx && me.ctx.county) { setCtx(me.ctx); await loadFiles(me.ctx); }
+  await apiCall("PUT", "/me", {picks: PICKS, ctx});
 }
 const pickBtns = (k, opts) => `<div class="pks">${opts.map(o => `<button class="pk" data-pick="${esc(k)}" data-val="${esc(o)}" aria-pressed="${PICKS[k] === o}">${PICKS[k] === o ? "✓ " : ""}${esc(o)}</button>`).join("")}</div>`;
 // each line on the paper ballot: [pick key, question, choices]
@@ -464,8 +511,9 @@ function meter(icon, label, m) {
   return `<div class="meter" title="${esc(m && m.label || "")}"><span class="lb">${icon} ${label}</span><span class="tr"><span class="fl ${band(v)}" style="width:${v ?? 0}%"></span></span><span class="v">${v ?? "—"}</span></div>`;
 }
 
-const PHOTO = c => c.photo ? "ballot/photos/" + c.photo.f : "";
-const CROP = c => c.photo && c.photo.c ? "ballot/photos/c/" + c.photo.c : PHOTO(c);
+const PHOTOS = /github\.io$|^localhost$|^127\./.test(location.hostname) ? "ballot/photos/" : "https://bucfan56.github.io/gov-age/ballot/photos/";
+const PHOTO = c => c.photo ? PHOTOS + c.photo.f : "";
+const CROP = c => c.photo && c.photo.c ? PHOTOS + "c/" + c.photo.c : PHOTO(c);
 const art = c => c.photo ? `<img src="${esc(CROP(c))}" alt="${esc(c.name)}" loading="lazy">` : `<div class="mono">${esc(initials(c.name))}<small>No public photo found</small></div>`;
 
 const DECKS = [["flag", "Old Glory"], ["sun", "Sunshine State"], ["marble", "Capitol"], ["button", "Campaign button"], ["holo", "Holo foil"]];
@@ -532,6 +580,7 @@ const myRaces = () => ALL.filter(r => applies(r, ctx) !== false);
 function setCtx(c) {
   ctx = c;
   try { c ? localStorage.setItem("ballot-ctx", JSON.stringify(c)) : localStorage.removeItem("ballot-ctx"); } catch (e) {}
+  if (c) pushAcct();
 }
 
 // Census Bureau geocoder, called as JSONP straight from the phone (it sends no CORS headers).
@@ -748,14 +797,14 @@ function home() {
   document.title = D.title;
   let h;
   if (!ctx) {
-    h = `<header class="appbar"><div class="ab-l">🗳️ Your Florida ballot</div></header>
+    h = `<header class="appbar"><div class="ab-l brand"><img src="buddy/icons/icon-64.png" alt="">Ballot Buddy</div>${whoBtn()}</header>
       ${finder(false)}${todayStrip()}
       <h2 class="grp">🌴 On every Florida ballot</h2>${tiles(ALL.filter(r => (r.where || {}).all))}
       <p class="deckhint" style="margin-top:12px">Your U.S. House, State Senate, State House, county and city races appear once you add your address.</p>`;
   } else {
     const where = [ctx.county && `${ctx.county} Co.`, ctx.city || (ctx.how === "zip" ? `ZIP ${ctx.zip}` : "")].filter(Boolean).join(" · ");
     const list = ordered();
-    h = `<header class="appbar"><div class="ab-l">🗳️ Your ballot</div><button class="loc" data-change aria-label="Change address">📍 ${esc(where)} ✎</button></header>
+    h = `<header class="appbar"><div class="ab-l brand"><img src="buddy/icons/icon-64.png" alt="">Ballot Buddy</div><button class="loc" data-change aria-label="Change address">📍 ${esc(where)} ✎</button></header>
       ${ctx.how === "zip" ? `<div class="panel" style="margin-top:0">ZIP ${esc(ctx.zip)} gives approximate districts. <button class="btn ghost" style="padding:6px 10px" data-change>Add your street</button></div>` : ""}
       ${todayStrip()}
       <p class="count">${list.length} races and questions on your ballot · tap one to see the candidates</p>
@@ -776,7 +825,8 @@ function home() {
     const missing = [["cd", "U.S. House"], ["sd", "State Senate"], ["hd", "State House"]].filter(([k]) => ctx[k] && !list.some(r => (r.where || {})[k] === ctx[k]));
     if (missing.length) h += `<div class="panel" style="margin-top:14px">⏳ Not in this guide: ${missing.map(([k, nm]) => `${nm} ${ctx[k]}`).join(", ")}.${missing.some(m => m[0] === "sd") ? " Only half of the State Senate seats are on the ballot this year, so yours may not be up." : ""}</div>`;
   }
-  h += `<footer>Built ${esc(D.built)} from public filings and research. <a href="#/how">How scores work</a><br><a href="index.html">How old is the U.S. government? →</a></footer>`;
+  if (!standalone()) h += `<div class="rlist" style="margin-top:16px"><button class="rrow" data-sheet="install"><span class="rnum">📲</span><span class="rmain"><span class="rt">Add Ballot Buddy to your phone</span><span class="rs">Opens like an app, works with a weak signal</span></span><span class="chev">›</span></button></div>`;
+  h += `<footer>${whoBtn()} · Built ${esc(D.built)} from public filings and research. <a href="#/how">How scores work</a><br><a href="index.html">How old is the U.S. government? →</a></footer>`;
   $("#app").innerHTML = h;
 }
 
@@ -888,6 +938,27 @@ function srcSheet() {
 
 const aboutSheet = () => D.boxes.map(b => `<div class="panel"><h4>${esc(b.title)}</h4>${b.html}</div>`).join("") + `<div class="panel">${D.footer}</div>`;
 
+let ACCT_EMAIL = "";
+function acctSheet(msg, step) {
+  if (TOKEN && ACCT) return `<div class="acct"><div class="panel"><p class="ok">✓ Signed in as ${esc(ACCT.email)}</p><p class="mini">Your picks and your districts are saved to your account. Sign in on any phone with this email and they'll be there.</p></div>
+    <button class="btn ghost" data-signout type="button">Sign out</button><p class="mini muted" style="margin-top:14px">Signing out keeps your picks on this phone. <button class="linkbtn" data-delacct type="button">Delete my account</button></p></div>`;
+  const s = msg ? `<p class="${msg[0]}">${esc(msg[1])}</p>` : "";
+  if (step === "code") return `<div class="acct"><p>We emailed a 6-digit code to <b>${esc(ACCT_EMAIL)}</b>. It works for 10 minutes.</p>
+    <form id="acctc" autocomplete="on"><input class="code" id="acode" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="••••••" aria-label="6-digit code"><button class="btn" type="submit">Sign in</button></form>${s}
+    <p class="mini muted">No email? Check spam, or <button class="linkbtn" data-acctback type="button">use a different email</button>.</p></div>`;
+  return `<div class="acct"><p>Save your picks and districts to an account, so they're on any phone you sign in on. There's no password: we email you a code.</p>
+    <form id="accte"><input id="aemail" type="email" inputmode="email" autocomplete="email" placeholder="you@email.com" aria-label="Your email" value="${esc(ACCT_EMAIL)}"><button class="btn" type="submit">Email me a code</button></form>${s}
+    <p class="mini muted">New here? The same code creates your account. We keep your email, your picks and your district numbers, never your street address.</p></div>`;
+}
+let installEvt = null;
+addEventListener("beforeinstallprompt", e => { e.preventDefault(); installEvt = e; });
+const standalone = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+function installSheet() {
+  if (standalone()) return `<div class="panel"><p class="ok">✓ Ballot Buddy is on your home screen.</p></div>`;
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  return `<div class="panel"><p>Put Ballot Buddy on your home screen. It opens full screen like any app, and keeps working with a weak signal at the polls.</p>
+    ${installEvt ? `<button class="btn" data-install type="button">📲 Add to home screen</button>` : ios ? `<ol class="steps"><li>Tap the <b>Share</b> button <span aria-hidden="true">⬆️</span> at the bottom of Safari (top right on iPad).</li><li>Scroll and tap <b>Add to Home Screen</b>.</li><li>Tap <b>Add</b>.</li></ol><p class="mini muted">On iPhone this works from Safari.</p>` : `<ol class="steps"><li>Open your browser's menu (⋮).</li><li>Tap <b>Install app</b> or <b>Add to Home screen</b>.</li></ol>`}</div>`;
+}
 function openSheet(title, body) {
   $("#shT").textContent = title; $("#shB").innerHTML = body;
   $("#sheet").classList.add("open"); $("#sheet").setAttribute("aria-hidden", "false"); document.body.classList.add("locked");
@@ -895,12 +966,14 @@ function openSheet(title, body) {
 }
 function closeSheet() { $("#sheet").classList.remove("open"); $("#sheet").setAttribute("aria-hidden", "true"); document.body.classList.remove("locked"); }
 
+const whoBtn = () => `<button class="who-btn" data-sheet="acct">${TOKEN && ACCT ? "👤 " + esc(ACCT.email.split("@")[0]) : "👤 Sign in"}</button>`;
 function myBallot() {
   document.title = "My ballot · " + D.title;
   const list = ctx ? ordered() : ALL.filter(r => (r.where || {}).all);
   const L = list.flatMap(r => lines(r).map(l => [r, ...l]));
   const done = L.filter(l => PICKS[l[1]]).length;
-  let h = `<header class="appbar"><div class="ab-l">📝 My ballot</div></header>
+  let h = `<header class="appbar"><div class="ab-l">📝 My ballot</div>${whoBtn()}</header>
+    ${TOKEN ? "" : `<button class="savecard" data-sheet="acct"><span style="font-size:22px">💾</span><span><b>Save your picks to an account</b><span>Sign in with a code sent to your email, and your picks follow you to any phone.</span></span></button>`}
     <p class="count">${done} of ${L.length} picked. Same order as the paper ballot. Tap a line to pick or change it.</p>`, g0 = null;
   for (const [r, k, q] of L) {
     if (r.group !== g0) {
@@ -924,6 +997,8 @@ function route() {
   else if (sub === "how") openSheet("How scores work", howSheet());
   else if (sub === "src") openSheet("Your sources", srcSheet());
   else if (sub === "about") openSheet("About this report", aboutSheet());
+  else if (sub === "acct") openSheet(TOKEN ? "Your account" : "Sign in or sign up", acctSheet());
+  else if (sub === "install") openSheet("Add to your phone", installSheet());
   else if (sub && sub[0] === "p") {
     const [rid, i] = sub.slice(1).split("|"), pr = raceById(rid), c = pr && pr.cands && pr.cands[+i];
     c ? openSheet(c.name, profile(pr, c)) : closeSheet();
@@ -960,6 +1035,36 @@ document.addEventListener("input", e => {
   if (e.target.id !== "zipi") return;
   e.target.value = e.target.value.replace(/\D/g, "").slice(0, 5);
   $("#zipo").textContent = zipAnswer(e.target.value);
+});
+document.addEventListener("submit", async e => {
+  const f = e.target;
+  if (f.id !== "accte" && f.id !== "acctc") return;
+  e.preventDefault();
+  const btn = f.querySelector("button"); btn.disabled = true; const label = btn.textContent; btn.textContent = f.id === "accte" ? "Sending…" : "Checking…";
+  try {
+    if (f.id === "accte") {
+      ACCT_EMAIL = $("#aemail").value.trim();
+      await apiCall("POST", "/otp/request", {email: ACCT_EMAIL});
+      $("#shB").innerHTML = acctSheet(null, "code"); setTimeout(() => { const i = $("#acode"); if (i) i.focus(); }, 50);
+    } else {
+      const j = await apiCall("POST", "/otp/verify", {email: ACCT_EMAIL, code: $("#acode").value});
+      TOKEN = j.token; ACCT = {email: j.email};
+      try { localStorage.setItem("bb-token", TOKEN); localStorage.setItem("bb-acct", JSON.stringify(ACCT)); } catch (e2) {}
+      await pullAcct();
+      $("#shT").textContent = "Your account";
+      $("#shB").innerHTML = acctSheet(["ok", j.created ? "Account created. Your picks are saved." : "Welcome back. Your picks are synced."]);
+      shownPage = null; route();
+    }
+  } catch (err) {
+    $("#shB").innerHTML = acctSheet(["err", err.message], f.id === "acctc" ? "code" : null);
+  } finally { btn.disabled = false; btn.textContent = label; }
+});
+document.addEventListener("click", async e => {
+  const t = e.target;
+  if (t.closest("[data-signout]")) { apiCall("POST", "/logout").catch(() => {}); signedOut(); location.hash = curPage(); shownPage = null; route(); }
+  else if (t.closest("[data-delacct]")) { if (confirm("Delete your Ballot Buddy account? Your picks stay on this phone.")) { await apiCall("DELETE", "/me").catch(() => {}); signedOut(); location.hash = curPage(); shownPage = null; route(); } }
+  else if (t.closest("[data-acctback]")) $("#shB").innerHTML = acctSheet();
+  else if (t.closest("[data-install]") && installEvt) { installEvt.prompt(); installEvt = null; }
 });
 document.addEventListener("submit", e => {
   if (e.target.id !== "findf") return;
@@ -1011,6 +1116,8 @@ setInterval(() => { const el = $("#pollst"); if (el) { const [c, t] = pollStatus
 })();
 window.addEventListener("hashchange", route);
 route();
+if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(e => console.error("offline copy unavailable", e));
+if (TOKEN) pullAcct().then(() => { shownPage = null; route(); }).catch(e => console.error("account refresh failed", e));
 if (ctx) loadFiles(ctx).then(() => { shownPage = null; route(); });
 </script>
 </body>

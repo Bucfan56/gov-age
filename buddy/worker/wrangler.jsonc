@@ -1,0 +1,13 @@
+{
+  // Ballot Buddy: the app (static, built into ./site by ../build_site.py) plus the account API under /api/
+  "name": "ballot-buddy",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+  "account_id": "6050eca4babb1b8eb24bfae5bdc5927f",
+  "routes": [{ "pattern": "ballotbuddy.appolis.app", "custom_domain": true }],
+  "assets": { "directory": "./site", "binding": "ASSETS", "run_worker_first": ["/api/*", "/"], "html_handling": "none" },
+  "kv_namespaces": [{ "binding": "BALLOT_BUDDY", "id": "ae1b64adf08f47eb934ce723e13caca6" }],
+  // the suite mail door; the app key goes in as the secret APPOLIS_APP_KEY once Appolis registers ballot-buddy
+  "services": [{ "binding": "APPOLIS", "service": "appolis" }],
+  "observability": { "enabled": true }
+}

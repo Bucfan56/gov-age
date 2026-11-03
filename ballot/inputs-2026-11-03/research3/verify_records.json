@@ -1,0 +1,598 @@
+{
+ "updated": "2026-11-03",
+ "candidates": {
+  "Jose Javier Rodriguez": {
+   "did": [
+    {
+     "plank": "workers-first",
+     "match": -1,
+     "what": "As a state senator voted No on the 2019 sanctuary-cities ban SB 168 (local governments must cooperate with ICE); it passed 22-18 on Apr 26, 2019.",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/168/Vote/SenateVote_s00168e1032.PDF"
+    },
+    {
+     "plank": "pro-life",
+     "match": -1,
+     "what": "Voted No on SB 404, the 2020 parental-consent-for-abortion bill, on Feb 6, 2020; it passed the Senate 23-17.",
+     "url": "https://www.flsenate.gov/Session/Bill/2020/404/Vote/SenateVote_s00404e1002.PDF"
+    },
+    {
+     "plank": "school-choice-teachers",
+     "match": -1,
+     "what": "Voted No on SB 7070 (Apr 25, 2019), the K-12 bill that created the Family Empowerment Scholarship voucher program; it passed 23-17.",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/7070/Vote/SenateVote_s07070c1002.PDF"
+    },
+    {
+     "plank": "second-amendment",
+     "match": -1,
+     "what": "Voted No on SB 128 (Mar 15, 2017), the stand-your-ground bill shifting the burden of proof onto prosecutors; it passed 23-15.",
+     "url": "https://www.flsenate.gov/Session/Bill/2017/128/Vote/SenateVote_s00128e1002.PDF"
+    },
+    {
+     "plank": "slow-growth-protect-land",
+     "match": 1,
+     "what": "Voted Yes on SB 10 (Apr 12, 2017), the Everglades water-storage reservoir bill south of Lake Okeechobee; it passed 36-3.",
+     "url": "https://www.flsenate.gov/Session/Bill/2017/10/Vote/SenateVote_s00010c1002.PDF"
+    }
+   ],
+   "contradictions": [],
+   "searched": "Senate roll calls 2017-2020 (flsenate.gov) on immigration, guns, abortion, school choice, Everglades; race coverage; found no homestead-tax or data-center votes."
+  },
+  "James Uthmeier": {
+   "did": [
+    {
+     "plank": "second-amendment",
+     "match": 1,
+     "what": "Declined to appeal the court ruling striking Florida's open-carry ban and told police not to arrest open carriers; open carry became legal statewide Sept 25, 2025.",
+     "url": "https://www.wusf.org/courts-law/2025-09-16/florida-ag-uthmeier-says-open-carry-law-of-the-state"
+    },
+    {
+     "plank": "second-amendment",
+     "match": 1,
+     "what": "Sued the City of Jacksonville for $5 million on May 12, 2026, alleging it kept an illegal gun registry in violation of state law.",
+     "url": "https://www.news4jax.com/news/florida/2026/05/12/florida-ag-sues-jacksonville-for-5-million-alleges-city-kept-illegal-gun-registry/"
+    },
+    {
+     "plank": "pro-life",
+     "match": 1,
+     "what": "Sued Planned Parenthood in Nov 2025 for $354 million over claims abortion pills are safer than Tylenol, and floated shutting its Florida operations.",
+     "url": "https://floridaphoenix.com/2025/11/07/uthmeier-files-354-million-lawsuit-against-planned-parenthood-for-alleged-racketeering-deception/"
+    },
+    {
+     "plank": "workers-first",
+     "match": 1,
+     "what": "Played a key role in creating the Alligator Alcatraz immigration detention site in the Everglades (2025), according to race coverage; now closed.",
+     "url": "https://www.wlrn.org/government-politics/2026-10-23/what-to-know-about-florida-attorney-general-race"
+    },
+    {
+     "plank": "workers-first",
+     "match": 1,
+     "what": "Took California and Gov. Newsom to the U.S. Supreme Court over its sanctuary policies (announced Oct 2025).",
+     "url": "https://www.myfloridalegal.com/node/28036"
+    },
+    {
+     "plank": "slow-growth-protect-land",
+     "match": -1,
+     "what": "Two weeks after a $25,000 donation from a Whitman Family Development CEO trust (Mar 2026), his office intervened for the developer's high-rise suit against Bal Harbour.",
+     "url": "https://therealdeal.com/miami/2026/07/08/florida-ag-intervened-in-developer-lawsuits-after-donations/"
+    },
+    {
+     "plank": "clean-money",
+     "match": -1,
+     "what": "Ten days after a $25,000 donation from Two Roads Development (Feb 2026), his office moved to join the developer's side in the Biscayne 21 condo case; partner also gave $100,000 to the state GOP.",
+     "url": "https://therealdeal.com/miami/2026/07/08/florida-ag-intervened-in-developer-lawsuits-after-donations/"
+    },
+    {
+     "plank": "clean-money",
+     "match": -1,
+     "what": "His committee took $275,000 from CDR Enterprises (incl. $250,000 on Sept 17, 2025) after CDR-linked firms won state detention contracts, plus gifts from other contractors.",
+     "url": "https://www.wgcu.org/government-politics/2026-10-23/from-merch-to-donor-checks-how-uthmeier-campaign-benefitted-from-alligator-alcatraz"
+    }
+   ],
+   "contradictions": [],
+   "searched": "AG lawsuits and guidance (guns, Planned Parenthood, immigration), donor-linked interventions, data-center actions; found no data-center, homestead-tax or red-flag action by his office."
+  },
+  "Blaise Ingoglia": {
+   "did": [
+    {
+     "plank": "end-homestead-tax",
+     "match": 1,
+     "what": "As a state senator sponsored 2025 SJR 1016 to raise the homestead exemption from $25,000 to $75,000 with inflation adjustments.",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/1016"
+    },
+    {
+     "plank": "end-homestead-tax",
+     "match": 1,
+     "what": "As CFO, Florida DOGE audits of local governments: on Sept 25, 2025 he called $84.8M of Alachua County's budget 'excessive' and urged a millage cut as a precursor to property-tax relief.",
+     "url": "https://floridaphoenix.com/2025/09/25/florida-cfo-blaise-ingoglia-latest-doge-effort-targets-alachua-county/"
+    },
+    {
+     "plank": "back-police-order",
+     "match": 1,
+     "what": "Sponsored SB 576 (2024) to abolish local civilian police review boards; a narrower companion, HB 601, became law (Ch. 2024-86) in April 2024.",
+     "url": "https://www.flsenate.gov/Session/Bill/2024/576"
+    },
+    {
+     "plank": "second-amendment",
+     "match": 1,
+     "what": "Voted Yes on permitless concealed carry (HB 543) on Mar 30, 2023; it passed the Senate 27-13.",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    },
+    {
+     "plank": "pro-life",
+     "match": 1,
+     "what": "Voted Yes on SB 300, the 2023 six-week abortion ban, on Apr 3, 2023; it passed the Senate 26-13.",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    {
+     "plank": "land-for-floridians",
+     "match": 1,
+     "what": "Voted Yes on SB 264, limiting land purchases by foreign adversaries, on Apr 11, 2023 (38-0) and again on May 4, 2023.",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/264/Vote/SenateVote_s00264c2010.PDF"
+    },
+    {
+     "plank": "workers-first",
+     "match": 1,
+     "what": "Voted Yes on SB 1718, the 2023 immigration-enforcement and E-Verify bill, on Apr 28, 2023; it passed the Senate 27-10.",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1718/Vote/SenateVote_s01718c2037.PDF"
+    },
+    {
+     "plank": "slow-growth-protect-land",
+     "match": -1,
+     "what": "Voted Yes on SB 180 (Apr 9, 2025, 37-0), which bars storm-hit local governments from adopting stricter growth and development rules; critics say it reaches beyond storm recovery.",
+     "url": "https://wusf.org/text/environment/2025-10-11/hurricane-prone-florida-new-state-law-blocks-local-policies-reducing-impact-disasters"
+    }
+   ],
+   "contradictions": [],
+   "searched": "Senate roll calls and sponsored bills 2023-2025 (flsenate.gov), CFO DOGE audits, disclosure reporting; he founded homebuilder Hartland Homes, but found no developer-donor list."
+  },
+  "Annette Taddeo": {
+   "did": [
+    {
+     "plank": "workers-first",
+     "match": -1,
+     "what": "As a state senator voted No on the 2019 sanctuary-cities ban SB 168 (local governments must cooperate with ICE); it passed 22-18 on Apr 26, 2019.",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/168/Vote/SenateVote_s00168e1032.PDF"
+    },
+    {
+     "plank": "back-police-order",
+     "match": -1,
+     "what": "Voted No on HB 1 (Apr 15, 2021), the anti-riot bill that raised penalties for disorder; it passed the Senate 23-17.",
+     "url": "https://www.flsenate.gov/Session/Bill/2021/1/Vote/SenateVote_h00001e1002.PDF"
+    },
+    {
+     "plank": "pro-life",
+     "match": -1,
+     "what": "Voted No on HB 5, the 15-week abortion ban, on Mar 3, 2022; it passed the Senate 23-15.",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/5/Vote/SenateVote_h00005c1028.PDF"
+    },
+    {
+     "plank": "pro-life",
+     "match": -1,
+     "what": "Voted No on SB 404, the 2020 parental-consent-for-abortion bill, on Feb 6, 2020; it passed the Senate 23-17.",
+     "url": "https://www.flsenate.gov/Session/Bill/2020/404/Vote/SenateVote_s00404e1002.PDF"
+    },
+    {
+     "plank": "school-choice-teachers",
+     "match": -1,
+     "what": "Voted No on SB 7070 (Apr 25, 2019), the K-12 bill that created the Family Empowerment Scholarship voucher program; it passed 23-17.",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/7070/Vote/SenateVote_s07070c1002.PDF"
+    },
+    {
+     "plank": "end-homestead-tax",
+     "match": -1,
+     "what": "In the 2026 CFO race she opposes Amendment 3 (homestead exemption to $150,000 in 2027), saying it lacks guardrails and may shift costs to fees and other taxes.",
+     "url": "https://www.wlrn.org/government-politics/2026-10-26/what-to-know-florida-chief-financial-officer-race-ingoglia-taddeo"
+    }
+   ],
+   "contradictions": [],
+   "searched": "Senate roll calls 2018-2022 (flsenate.gov) on immigration, guns, abortion, school choice, disorder; CFO-race coverage; found no data-center or developer-money record."
+  },
+  "Joey Mendoza Atkins": {
+   "did": [],
+   "contradictions": [],
+   "searched": "Race coverage and campaign finance reporting; he has held no public office, so no votes or official actions exist; stated positions (data-center moratorium, farmland) are already held as claims."
+  },
+  "Wilton Simpson": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": -1,
+     "what": "His committees took $4.1M in 2026, incl. $250,000 from NextEra, $102,500 from U.S. Sugar, $250,000 from Florida Crystals, and $100,000 from a ranch his office paid ~$10M for an easement.",
+     "url": "https://www.wlrn.org/government-politics/2026-08-03/who-is-pouring-millions-into-the-sleepy-race-for-floridas-ag-commissioner"
+    },
+    {
+     "plank": "slow-growth-protect-land",
+     "match": 1,
+     "what": "Cabinet approved easements protecting 4,500 more acres on Sept 30, 2026 through his Rural and Family Lands program, which has had about $1.1B in state funding.",
+     "url": "https://floridianpress.com/2026/09/wilton-simpson-announces-protection-of-4500-acres-of-agricultural-land/"
+    },
+    {
+     "plank": "workers-first",
+     "match": 1,
+     "what": "As a state senator voted Yes on the 2019 sanctuary-cities ban SB 168 (local governments must cooperate with ICE); it passed 22-18 on Apr 26, 2019.",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/168/Vote/SenateVote_s00168e1032.PDF"
+    },
+    {
+     "plank": "pro-life",
+     "match": 1,
+     "what": "As Senate President voted Yes on the 15-week abortion ban HB 5 (Mar 3, 2022, 23-15), and Yes on 2020 parental-consent SB 404 (Feb 6, 2020).",
+     "url": "https://www.flsenate.gov/Session/Bill/2022/5/Vote/SenateVote_h00005c1028.PDF"
+    },
+    {
+     "plank": "back-police-order",
+     "match": 1,
+     "what": "As Senate President voted Yes on the 2021 anti-riot bill HB 1 (Apr 15, 2021), which raised penalties for disorder; it passed 23-17.",
+     "url": "https://www.flsenate.gov/Session/Bill/2021/1/Vote/SenateVote_h00001e1002.PDF"
+    },
+    {
+     "plank": "school-choice-teachers",
+     "match": 1,
+     "what": "Voted Yes on SB 7070 (Apr 25, 2019), the K-12 bill creating the Family Empowerment Scholarship voucher program; it passed 23-17.",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/7070/Vote/SenateVote_s07070c1002.PDF"
+    }
+   ],
+   "contradictions": [
+    {
+     "plank": "slow-growth-protect-land",
+     "said": "Says the easement program protects farmland and the wildlife corridor from development.",
+     "did": "His department paid Siboney Ranch nearly $10M for an easement; months later the ranch and its owner's trust gave $100,000 each to his political committee (June 2026).",
+     "url": "https://www.wlrn.org/government-politics/2026-08-03/who-is-pouring-millions-into-the-sleepy-race-for-floridas-ag-commissioner"
+    }
+   ],
+   "searched": "Senate roll calls 2017-2022 (flsenate.gov), Cabinet easement approvals, donor reporting, data-center statements; could not independently match the two Tomeu references beyond the shared name."
+  },
+  "Kelly Kirschner": {
+   "did": [
+    {
+     "plank": "slow-growth-protect-land",
+     "match": 1,
+     "what": "As a Sarasota city commissioner voted in the 3-2 majority (Oct 2009) to deny a density increase that would have allowed an 88-room hotel at 2525 S. Tamiami Trail.",
+     "url": "https://www.yourobserver.com/news/2009/oct/29/sign-campaign-assails-cabana-inn-vote/"
+    },
+    {
+     "plank": "clean-money",
+     "match": 1,
+     "what": "His congressional campaign reports $861,361 from individuals and only $14,500 from other committees through Oct 14, 2026 (FEC).",
+     "url": "https://www.fec.gov/data/candidate/H6FL16158/?cycle=2026"
+    }
+   ],
+   "contradictions": [],
+   "searched": "Sarasota commission votes, FEC filings, campaign statements; could not verify the claimed 2009 campaign-finance reform or the 10-story condo denial, and found no data-center record."
+  },
+  "Mark Davis": {
+   "did": [],
+   "contradictions": [],
+   "searched": "Candidate profiles and news; he has no public record on any plank (July 2026 obstruction arrest is unrelated to the priorities)."
+  },
+  "Sydney Gruters": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": -1,
+     "what": "Her campaign took $500,000 from a crypto super PAC, $1M routed from her husband Joe Gruters' state PAC, and 400 donors averaging $2,500; super PACs added $1.5M+ in support.",
+     "url": "https://wslr.org/district-16-congressional-race-sydney-gruters/"
+    }
+   ],
+   "contradictions": [],
+   "searched": "FEC totals, donor and super PAC reporting, candidate profiles; first-time candidate with no votes; found no verifiable developer-donor data or data-center position."
+  },
+  "Gerald Baldi": {
+   "did": [],
+   "contradictions": [],
+   "searched": "BallotReady, Bradenton Times endorsement (age 70, ex-ad exec/real estate/banking, Indivisible Manatee rally organizer); no elected record or donor data found."
+  },
+  "Jim Boyd": {
+   "did": [
+    {
+     "plank": "slow-growth-protect-land",
+     "match": -1,
+     "what": "Voted Yea on HB 399 final Senate passage (27-11, Mar 13, 2026): large-resort administrative approvals and tighter limits on local land-use rules.",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/399/Vote/SenateVote_h00399e1009.PDF"
+    },
+    {
+     "plank": "slow-growth-protect-land",
+     "match": -1,
+     "what": "Voted Yea (logged after roll call) on SB 180 at Senate concurrence, 34-1, May 2, 2025: bars stricter local post-storm development rules; Manatee officials say it blocks restoring wetland rules.",
+     "url": "https://www.flsenate.gov/Session/Bill/2025/180/Vote/SenateVote_s00180e1008.PDF"
+    },
+    {
+     "plank": "clean-money",
+     "match": -1,
+     "what": "In his 2019-20 Senate run he took $1,000 each from Schroeder-Manatee Ranch (Lakewood Ranch developer), Lakewood Ranch Golf Co. and homebuilder John Neal (Oct 2019 report).",
+     "url": "https://floridapolitics.com/archives/308029-in-race-for-florida-senate-jim-boyd-outraises-amanda-linton-in-september-by-more-than-10-to-1"
+    },
+    {
+     "plank": "slow-growth-protect-land",
+     "match": 1,
+     "what": "Voted Yea on SB 840 (38-0, Feb 19, 2026), which would have narrowed the SB 180 post-hurricane development limits; it stalled in the House.",
+     "url": "https://www.flsenate.gov/Session/Bill/2026/840"
+    },
+    {
+     "plank": "end-homestead-tax",
+     "match": 1,
+     "what": "Voted Yea on CS/HJR 1-F (30-9, June 2, 2026) putting the homestead exemption increase (Amendment 3) on the November ballot.",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/SenateVote_h00001Fc1005.PDF"
+    },
+    {
+     "plank": "second-amendment",
+     "match": 1,
+     "what": "Voted Yea on HB 543 permitless concealed carry, Senate passage 27-13, Mar 30, 2023.",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/SenateVote_h00543e1002.PDF"
+    },
+    {
+     "plank": "pro-life",
+     "match": 1,
+     "what": "Voted Yea on SB 300, the 6-week abortion ban, final Senate vote 26-13, Apr 3, 2023.",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/SenateVote_s00300e1018.PDF"
+    },
+    {
+     "plank": "school-choice-teachers",
+     "match": 1,
+     "what": "Voted Yea on HB 1 (2023) universal school-choice voucher expansion, Senate passage 26-12, Mar 23, 2023.",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/SenateVote_h00001c4002.PDF"
+    }
+   ],
+   "contradictions": [],
+   "searched": "Read Senate roll-call PDFs (SB 180, HB 399, SB 840, SB 484, HJR 1-F, HB 543, SB 300, HB 1, SB 1718). Also confirmed Yea on SB 264 (38-0, Apr 11, 2023, foreign land) and SB 1718 immigration (27-10, Apr 28, 2023) and SB 484 data-center regulation (37-0, Feb 26, 2026; regulates, not a ban). Current-cycle donor list not retrievable (state DOE site down)."
+  },
+  "Ocean Fitts": {
+   "did": [],
+   "contradictions": [],
+   "searched": "Bradenton Times endorsement (Oct 22, 2026), BallotReady; 27-year-old student, no elected record or donor data found."
+  },
+  "Jordan Varnadore": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": -1,
+     "what": "Campaign (about $77k) took max $1,000 from Parents First PC, five SIMWINS-chaired PACs, Associated Industries PAC and a Suncoast Builders Association-linked PAC (fall 2026).",
+     "url": "https://thebradentontimes.com/stories/for-florida-house-district-71-we-recommend-ocean-fitts,217407"
+    }
+   ],
+   "contradictions": [],
+   "searched": "Bradenton Times (primary profile, endorsement), BallotReady; no elected record, declined Bradenton Times interview, appointed county GOP executive committee secretary."
+  },
+  "Joseph Hoolihan": {
+   "did": [],
+   "contradictions": [],
+   "searched": "Bradenton Times endorsement and podcast page; NPA, works in real estate, first-time candidate; no record or donor data found; his positions not stated on pages read."
+  },
+  "Reggie Bellamy": {
+   "did": [
+    {
+     "plank": "slow-growth-protect-land",
+     "match": -1,
+     "what": "As commissioner voted with the 4-3 majority (Oct 22, 2020) to rezone about 18 flood-prone east-county acres from agriculture to commercial for a Cox dealership.",
+     "url": "https://thebradentontimes.com/stories/county-commission-clears-the-way-for-east-county-cox-dealership,28707"
+    },
+    {
+     "plank": "slow-growth-protect-land",
+     "match": -1,
+     "what": "Voted for three rezonings east of the future development boundary (Gamble Creek, Lakewood Ranch eastward expansion, 30 acres by Lake Manatee watershed) during 2018-2022.",
+     "url": "https://thebradentontimes.com/stories/candidate-profile-reggie-bellamy,31568"
+    },
+    {
+     "plank": "clean-money",
+     "match": -1,
+     "what": "Bradenton Times reported his 2022 re-election money came mostly from developer-related interests and east-county landowners (about $74-85k raised).",
+     "url": "https://thebradentontimes.com/stories/candidate-profile-reggie-bellamy,31111"
+    },
+    {
+     "plank": "clean-money",
+     "match": 1,
+     "what": "His 2026 campaign (about $20k) is mostly individuals (teachers, doctors, retirees) with no developer or PAC donors identified.",
+     "url": "https://thebradentontimes.com/stories/campaign-finance-reports-display-fundraising-gaps-pac-networks-in-bocc-races,217036"
+    },
+    {
+     "plank": "back-police-order",
+     "match": 1,
+     "what": "On July 28, 2022 he opposed a proposal to roll back public-safety funding to Holmes Beach, siding with Whitmore and Satcher against Van Ostenbridge.",
+     "url": "https://thebradentontimes.com/stories/lwv-county-commission-budget-meeting-notes-07282022,31314"
+    }
+   ],
+   "contradictions": [],
+   "searched": "Bradenton Times votes/profiles/endorsement, Observer budget coverage, 2026 finance report; county minutes not read directly. Tax: 2022 vote to trim millage to 6.33 was still above the 6.00 rollback rate."
+  },
+  "Tara Poulton": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": -1,
+     "what": "Took $1,000 each from Gulf Coast Builders Exchange PAC, Keep Florida Moving Forward PAC and McClure Properties/Holdings among $71k raised (post-primary report, fall 2026).",
+     "url": "https://thebradentontimes.com/stories/campaign-finance-reports-display-fundraising-gaps-pac-networks-in-bocc-races,217036"
+    },
+    {
+     "plank": "clean-money",
+     "match": -1,
+     "what": "Accepted $1,000 from the Grimes Galvano law firm, which regularly represents developers, plus $400 from an architecture firm (Observer, Apr 19, 2026).",
+     "url": "https://www.yourobserver.com/news/2026/apr/19/manatee-commission-candidates-face-off/"
+    }
+   ],
+   "contradictions": [
+    {
+     "plank": "clean-money",
+     "said": "She has taken no money from developers and won't.",
+     "did": "She took $1,000 from the law firm that represents developers and $1,000 from Gulf Coast Builders Exchange PAC, plus McClure Properties/Holdings; Bradenton Times notes no donor is labeled a developer.",
+     "url": "https://www.yourobserver.com/news/2026/apr/19/manatee-commission-candidates-face-off/"
+    }
+   ],
+   "searched": "Observer, Bradenton Times finance stories and endorsement, Tampa Bay Beacons; first run for office (Buchanan district chief of staff), so no votes exist."
+  },
+  "Rodney O'Quinn": {
+   "did": [],
+   "contradictions": [],
+   "searched": "Lakewood Ranch Beacon, county finance export (about $900, his own money); owns Keller's Pest Control, no record found."
+  },
+  "Charles \"Rick\" Richards": {
+   "did": [
+    {
+     "plank": "slow-growth-protect-land",
+     "match": 1,
+     "what": "Serves on the county Environmental Lands Management and Acquisition Committee, an advisory board on conservation land (2026 report).",
+     "url": "https://lakewoodranchbeacon.com/articles/rick-richards-seeks-manatee-mosquito-control-seat-mvljpirf"
+    },
+    {
+     "plank": "clean-money",
+     "match": 1,
+     "what": "His campaign is self-funded: about $5,165 raised, all from himself, no PAC or developer donors in county filings.",
+     "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2516&committee=N&e=212&op=cv&rellevel=4"
+    }
+   ],
+   "contradictions": [],
+   "searched": "Campaign site, Beacon, county finance export; says he was Myakka City fire commissioner (self-reported, not verified)."
+  },
+  "Scott Johnson": {
+   "did": [],
+   "contradictions": [],
+   "searched": "Beacon, county finance export ($250 total); no prior office; says he attended district budget hearings for six months (self-reported)."
+  },
+  "Thomas Schwarz": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": 1,
+     "what": "Campaign raised about $12k from roughly 120 mostly small donors, including himself and family; no developer or PAC donors in county filings.",
+     "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2495&committee=N&e=219&op=cv&rellevel=4"
+    }
+   ],
+   "contradictions": [],
+   "searched": "County finance export, Bradenton Times endorsement, Tampa Bay 28 questionnaire; first-time candidate, no votes."
+  },
+  "Kemp Schuessler": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": -1,
+     "what": "Developer-linked PAC (Floridians for Public Safety, lobbyist Ramba) texted voters for him; it got $50k from Strong Communities PAC, funded by Benderson, Neal and Schroeder-Manatee Ranch (July 2026).",
+     "url": "https://thebradentontimes.com/stories/pac-money-and-political-networks-fund-text-campaigns-in-city-of-bradenton-races,215090"
+    },
+    {
+     "plank": "clean-money",
+     "match": -1,
+     "what": "His own filings (about $33.6k) include $1,000 each from Ellada Homes, developer Marshall Gobuty, ZNS Engineering and Woodruff and Sons contractor, plus USA Land Company.",
+     "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2490&committee=N&e=219&op=cv&rellevel=4"
+    },
+    {
+     "plank": "slow-growth-protect-land",
+     "match": 1,
+     "what": "Voted with the council, 5-0 (May 13, 2026), to deny a Jordan Creek East plan amendment that sought more density than the approved 66 duplexes.",
+     "url": "https://cpo.soar.com/articles/8007670/Bradenton-City/Manatee-County/Florida/Bradenton-council-denies-plan-amendment-for-Jordan-Creek-project-after-neighbors-raise-traffic-and-design-concerns"
+    }
+   ],
+   "contradictions": [],
+   "searched": "County finance export, Bradenton Times, city portal summaries (page not fetchable; read via search results); appointed 3-1 on July 23, 2025; withdrew from the Bradenton Times interview; no millage vote found."
+  },
+  "Keith J. Green": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": -1,
+     "what": "Backed by outside PACs: Ramba's developer-funded Floridians for Public Safety texted for him and Christian Family Coalition Manatee PAC gave the $1,000 maximum (July 2026).",
+     "url": "https://thebradentontimes.com/stories/pac-money-and-political-networks-fund-text-campaigns-in-city-of-bradenton-races,215090"
+    }
+   ],
+   "contradictions": [],
+   "searched": "County finance export (only $3,140 raised, mostly small), Bradenton Times, Tampa Bay 28; Planning Commission member since 2022 but no specific votes found."
+  },
+  "Lisa Gonzalez Moore": {
+   "did": [
+    {
+     "plank": "slow-growth-protect-land",
+     "match": 1,
+     "what": "Voted with the council, 5-0 (May 13, 2026), to deny a Jordan Creek East plan amendment seeking extra density over neighbors' traffic and design objections.",
+     "url": "https://cpo.soar.com/articles/8007670/Bradenton-City/Manatee-County/Florida/Bradenton-council-denies-plan-amendment-for-Jordan-Creek-project-after-neighbors-raise-traffic-and-design-concerns"
+    },
+    {
+     "plank": "school-choice-teachers",
+     "match": 1,
+     "what": "Before joining council she helped Rowlett Academy convert from a district elementary school to a charter school and expand its campus (undated, city bio).",
+     "url": "https://cityofbradenton.com/moore"
+    }
+   ],
+   "contradictions": [],
+   "searched": "County finance export (about $40.6k: $3k from Florida Realtors PACs, $1k ZNS Engineering, $5k self-loan), Bradenton Times, city bio, Tampa Bay 28; no millage or police vote found. Voted 5-0 on Jan 10, 2024 Vias City Hall sale step after questioning costs."
+  },
+  "Jacob R. Kyser": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": 1,
+     "what": "About $13.7k of his $17.9k came from himself; other gifts were firefighters' union and aviation firms, no developers or PACs found.",
+     "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2637&committee=N&e=212&op=cv&rellevel=4"
+    }
+   ],
+   "contradictions": [],
+   "searched": "Bradenton Times letter, county finance export; challenger to Warner, no record."
+  },
+  "Derrick Warner": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": 1,
+     "what": "His 2026 campaign ($4,325) is almost entirely his own money; no outside donors reported.",
+     "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2547&committee=N&e=212&op=cv&rellevel=4"
+    }
+   ],
+   "contradictions": [],
+   "searched": "AMI Sun, Islander, county finance export; board minutes with individual votes not found."
+  },
+  "Dana Tindall": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": 1,
+     "what": "Raised about $3,650 from nine small donors plus the firefighters' union ($1,000); no developer or PAC money found.",
+     "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2571&committee=N&e=212&op=cv&rellevel=4"
+    }
+   ],
+   "contradictions": [],
+   "searched": "County finance export, campaign site, AMI Sun; retired Bradenton Fire captain, board minutes not found."
+  },
+  "John Agnelli": {
+   "did": [],
+   "contradictions": [],
+   "searched": "County finance export (about $14.2k from 66 donors, including family construction and hauling firms and $1,000 from developer Marshall Gobuty); no public record found."
+  },
+  "Keith D. Miller": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": 1,
+     "what": "Raised about $6,850 from 17 mostly local Cortez and Holmes Beach businesses and individuals; no PACs and only $250 from a developer.",
+     "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2564&committee=N&e=212&op=cv&rellevel=4"
+    }
+   ],
+   "contradictions": [],
+   "searched": "County finance export, Bradenton Times/Patch ballot listings; no record found."
+  },
+  "Billy Burke": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": 1,
+     "what": "Campaign raised only about $1,146: the firefighters' union ($1,000) plus his own money; no developer or PAC money.",
+     "url": "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&ca=2551&committee=N&e=212&op=cv&rellevel=4"
+    }
+   ],
+   "contradictions": [],
+   "searched": "County finance export, AMI Sun, Islander; board minutes with individual votes not found."
+  },
+  "Camden \"Cam\" Bedinghaus": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": 1,
+     "what": "Qualified by petition instead of paying the fee and raised about $5,800, mostly individuals plus the Tea Party of Manatee County (WUSF, July 27, 2026).",
+     "url": "https://www.wusf.org/local-state/2026-07-27/turning-point-usa-director-volunteer-businessman-compete-manatee-school-board-district-5"
+    }
+   ],
+   "contradictions": [],
+   "searched": "WUSF, Tampa Bay Beacons, Bradenton Times; Turning Point USA Manatee hub director, 23, no office held; school-choice and teacher-pay positions not stated."
+  },
+  "Jonathan Mullis": {
+   "did": [],
+   "contradictions": [],
+   "searched": "WUSF, Observer, Beacons, Bradenton Times; raised about $28k (largest in field) including Knowledge Is Power PAC, which also funds Poulton and Ballard; PAC's funders not found. School-choice position not stated."
+  }
+ }
+}

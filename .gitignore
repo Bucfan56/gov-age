@@ -15,3 +15,7 @@ venv/
 Thumbs.db
 .vscode/
 .idea/
+
+buddy/worker/site/
+buddy/worker/.wrangler/
+buddy/logos/png/
