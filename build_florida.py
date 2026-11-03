@@ -324,9 +324,11 @@ def local_money(name):
 def manatee_races(have_ids):
     blob = load(S / "research2" / "manatee.json", {}) or {}
     out = []
-    for r in blob.get("races", []):
+    for r in blob.get("races", []) + blob.get("measures", []):
         w = r.get("where")
         if not isinstance(w, dict) or not r.get("id") or r["id"] in have_ids:
+            continue
+        if any(k in w for k in ("cd", "sd", "hd")):      # district races come from the statewide slices
             continue
         w = dict(w, county="Manatee")
         if r.get("kind") == "measure":

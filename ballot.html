@@ -371,7 +371,7 @@ function applies(r, c) {
   if ("hd" in w) return w.hd === c.hd;
   if (w.county && cslug(w.county) !== cslug(c.county)) return false;
   if (w.city) { if (c.city == null) return null; if (cslug(w.city) !== cslug(c.city)) return false; }  // "" = known to be outside every city
-  if (w.special) { const v = (c.special || {})[w.special]; if (v === false) return false; if (v == null) return null; }
+  if (w.special) { if (!Array.isArray(c.specials)) return null; const n = normSpecial(w.special); if (!c.specials.some(x => x.includes(n) || n.includes(x))) return false; }
   for (const k of ["cc", "sb", "ward"]) if (k in w) return c[k] == null ? null : w[k] === c[k];
   return true;
 }
@@ -405,8 +405,10 @@ const COUNTY_GIS = {
   Manatee: {
     cc: ["https://www.mymanatee.org/gisits/rest/services/opendata/General/FeatureServer/7", "COMMDIST"],
     city: ["https://www.mymanatee.org/gishost/rest/services/Hosted/IncorporatedAreas_CityBoundaries/FeatureServer/0", "name"],
+    special: [2, 3, 14].map(n => "https://gis.manateepao.com/arcgis/rest/services/Website/DistrictPLSSLayers/MapServer/" + n),
   },
 };
+const normSpecial = s => String(s || "").toLowerCase().replace(/&/g, " and ").replace(/(and|the|district|dist|cdd|community development|inc)/g, " ").replace(/[^a-z0-9]/g, "");
 async function arcgisHit(url, field, x, y) {
   try {
     const u = url + "/query?" + new URLSearchParams({geometry: x + "," + y, geometryType: "esriGeometryPoint", inSR: "4326", spatialRel: "esriSpatialRelIntersects", outFields: field, returnGeometry: "false", f: "json"});
@@ -419,16 +421,16 @@ async function arcgisHit(url, field, x, y) {
 async function refine(c, x, y) {
   const g = COUNTY_GIS[c.county];
   if (!g || x == null) return c;
-  const jobs = Object.entries(g).map(async ([k, [url, field]]) => [k, await arcgisHit(url, field, x, y)]);
+  const jobs = Object.entries(g).filter(([k]) => k !== "special").map(async ([k, [url, field]]) => [k, await arcgisHit(url, field, x, y)]);
   for (const [k, v] of await Promise.all(jobs)) {
     if (v === null) { if (k !== "city") c[k] = null; continue; }
     if (k === "cc") { c.cc = v === "" ? null : +v; if (c.cc && c.cc <= 5) c.sb = c.cc; }   // school board districts 1–5 follow commission lines
     else if (k === "city") c.city = v;
     else (c.special = c.special || {})[k] = v;
   }
-  for (const [name, url] of Object.entries((D.special || {})[c.county] || {})) {
-    const v = await arcgisHit(url[0], url[1], x, y);
-    (c.special = c.special || {})[name] = v === null ? null : v !== "";
+  if (g.special) {     // fire / CDD / stewardship districts the point sits in (property appraiser layers)
+    const got = await Promise.all(g.special.map(u => arcgisHit(u, "NAME", x, y)));
+    c.specials = got.some(v => v === null) ? null : got.filter(Boolean).map(normSpecial);
   }
   return c;
 }
