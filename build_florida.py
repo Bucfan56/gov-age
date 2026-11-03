@@ -536,7 +536,8 @@ def finalize(races):
             for x in ver.get("contradictions") or []:
                 k = x.get("plank")
                 if k in PLANK_IDS and x.get("url") and x.get("did") and x.get("said"):
-                    planks[k] = {"match": -1, "kind": "did", "evidence": x["did"], "url": x["url"], "contra": x["said"]}
+                    said = ((pr.get("planks") or {}).get(k) or {}).get("match")
+                    planks[k] = {"match": -said if said in (1, -1) else -1, "kind": "did", "evidence": x["did"], "url": x["url"], "contra": x["said"]}
             for k, x in planks.items():
                 if x.get("contra"):
                     c.setdefault("controversies", []).append({"text": f"Says one thing, record shows another. They say: {x['contra']} The record: {x['evidence']}", "status": "established", "url": x.get("url")})

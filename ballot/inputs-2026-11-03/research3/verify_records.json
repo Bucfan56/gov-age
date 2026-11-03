@@ -1,6 +1,228 @@
 {
  "updated": "2026-11-03",
  "candidates": {
+  "Ashley Moody": {
+   "did": [
+    {
+     "plank": "pro-life",
+     "match": 1,
+     "what": "Voted yes on Jan. 22, 2025 to advance the Born-Alive Abortion Survivors Protection Act (S. 6); cloture failed 52-47.",
+     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00011.htm"
+    },
+    {
+     "plank": "pro-life",
+     "match": 1,
+     "what": "As Attorney General, filed a brief asking the Florida Supreme Court to keep the abortion-rights Amendment 4 off the 2024 ballot (argued Feb. 7, 2024).",
+     "url": "https://floridaphoenix.com/2024/02/07/fl-supreme-court-justices-skeptical-about-arguments-for-rejecting-abortion-amendment/"
+    },
+    {
+     "plank": "workers-first",
+     "match": 1,
+     "what": "June 2025: introduced the RIPPLE Act to let states and local police take part in federal immigration enforcement, plus the Stop GAPS Act on migrant children.",
+     "url": "https://floridapolitics.com/archives/743629-ashley-moody-laurel-lee-pitch-legislation-in-congress-to-step-up-immigration-measures"
+    },
+    {
+     "plank": "school-choice-teachers",
+     "match": 1,
+     "what": "Co-sponsored the Educational Choice for Children Act, a federal tax credit for K-12 scholarship donations, and promoted it at a Tampa event April 15, 2025.",
+     "url": "https://www.tampafp.com/florida-sen-moody-champions-federal-school-choice-act-at-tampa-event-highlighting-parental-empowerment/"
+    },
+    {
+     "plank": "back-police-order",
+     "match": 1,
+     "what": "Nov. 2025: introduced the Halo Act, making it a crime to come within 25 feet of federal officers after a warning, citing threats to ICE officers.",
+     "url": "https://floridianpress.com/2025/11/moody-introduces-halo-act-to-protect-immigration-officers-from-threats-and-harassment/"
+    }
+   ],
+   "contradictions": [],
+   "searched": "Senate.gov roll calls (OBBBA Yea 7/1/2025, Born-Alive cloture), congress.gov/press coverage of bills, AG-era court actions, campaign-finance news; no record found for data centers, H-1B, or land-for-Floridians votes."
+  },
+  "Angie Nixon": {
+   "did": [
+    {
+     "plank": "pro-life",
+     "match": -1,
+     "what": "Voted no on SB 300, the six-week abortion ban, when it passed the Florida House 70-40 on April 13, 2023.",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/300/Vote/HouseVote_s00300e1107.PDF"
+    },
+    {
+     "plank": "second-amendment",
+     "match": -1,
+     "what": "Voted no on HB 543 (permitless concealed carry), which passed the Florida House 76-32 on March 24, 2023.",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/543/Vote/HouseVote_h00543e1046.PDF"
+    },
+    {
+     "plank": "back-police-order",
+     "match": -1,
+     "what": "Voted no on HB 1 (2021), the anti-riot 'Combating Public Disorder' law that raised penalties for disorder; passed 76-39 on March 26, 2021.",
+     "url": "https://www.flsenate.gov/Session/Bill/2021/1/Vote/HouseVote_h00001e1020.PDF"
+    },
+    {
+     "plank": "school-choice-teachers",
+     "match": -1,
+     "what": "Voted no on HB 1 (2023), the universal school-choice expansion; passed the Florida House 83-27 on March 17, 2023.",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1/Vote/HouseVote_h00001c4034.PDF"
+    },
+    {
+     "plank": "workers-first",
+     "match": -1,
+     "what": "Voted no on SB 1718 (2023 immigration enforcement law, 83-36, May 2, 2023) and on SB 2-C immigration enforcement (Feb. 13, 2025).",
+     "url": "https://www.flsenate.gov/Session/Bill/2023/1718/Vote/HouseVote_s01718c2376.PDF"
+    },
+    {
+     "plank": "end-homestead-tax",
+     "match": -1,
+     "what": "Voted no on HJR 1-F, the 2026 homestead exemption increase now on the ballot as Amendment 3 (75-26, June 2, 2026); also no on the 2024 inflation-index HJR 7017.",
+     "url": "https://www.flsenate.gov/Session/Bill/2026F/1F/Vote/HouseVote_h00001Fc1900.PDF"
+    }
+   ],
+   "contradictions": [],
+   "searched": "flsenate.gov House roll calls 2021-2026 (all passage votes listed), news on Senate campaign pledges; she voted yes on SB 484 (2026 data-center ratepayer/water rules, a regulation not a ban) and did not vote on SB 264 (2023)."
+  },
+  "Neil J. Gillespie": {
+   "did": [],
+   "contradictions": [],
+   "searched": "Web/news search, Ballotpedia and voter guides: no public office or record found; only ballot status (NPA, qualified April 24, 2026) and no verifiable positions."
+  },
+  "David Jolly": {
+   "did": [
+    {
+     "plank": "pro-life",
+     "match": 1,
+     "what": "Feb. 9, 2015: original cosponsor of the Life at Conception Act (H.R. 816), which would extend legal personhood protection to the unborn from conception.",
+     "url": "https://www.congress.gov/bill/114th-congress/house-bill/816/cosponsors"
+    },
+    {
+     "plank": "pro-life",
+     "match": 1,
+     "what": "Voted aye on May 13, 2015 for the Pain-Capable Unborn Child Protection Act (H.R. 36), a 20-week abortion ban that passed the House 242-184.",
+     "url": "https://clerk.house.gov/Votes/2015223"
+    },
+    {
+     "plank": "pro-life",
+     "match": 1,
+     "what": "July 29, 2015: sponsored H.R. 3301 to prohibit federal funding of Planned Parenthood; also voted aye on the Defund Planned Parenthood Act (H.R. 3134, Sept. 18, 2015).",
+     "url": "https://www.congress.gov/bill/114th-congress/house-bill/3301"
+    },
+    {
+     "plank": "workers-first",
+     "match": 1,
+     "what": "Voted aye on July 23, 2015 for the Enforce the Law for Sanctuary Cities Act (H.R. 3009), which passed the House 241-179.",
+     "url": "https://clerk.house.gov/Votes/2015466"
+    },
+    {
+     "plank": "back-police-order",
+     "match": 1,
+     "what": "Feb. 9, 2015: sponsored the Thin Blue Line Act (H.R. 814), adding the killing of police officers as a death-penalty aggravating factor.",
+     "url": "https://www.congress.gov/bill/114th-congress/house-bill/814"
+    },
+    {
+     "plank": "clean-money",
+     "match": 1,
+     "what": "Feb. 3, 2016: introduced the STOP Act (H.R. 4443) to bar sitting members of Congress from personally soliciting campaign contributions.",
+     "url": "https://www.congress.gov/bill/114th-congress/house-bill/4443"
+    },
+    {
+     "plank": "slow-growth-protect-land",
+     "match": 1,
+     "what": "July 7, 2015: his amendment barring funds to study offshore drilling in the Eastern Gulf of Mexico was agreed to by voice vote on the Interior appropriations bill.",
+     "url": "https://www.congress.gov/amendment/114th-congress/house-amendment/603"
+    }
+   ],
+   "contradictions": [
+    {
+     "plank": "pro-life",
+     "said": "2026 platform: Florida should codify the Roe/Casey abortion framework.",
+     "did": "As a Republican congressman in 2015 he cosponsored the Life at Conception Act, voted for the 20-week ban and the Defund Planned Parenthood Act, and sponsored a Planned Parenthood funding ban.",
+     "url": "https://www.congress.gov/bill/114th-congress/house-bill/816/cosponsors"
+    },
+    {
+     "plank": "workers-first",
+     "said": "2026 platform: embrace Florida's immigrant community and local control of community policing, 'fighting crime, not communities'.",
+     "did": "Voted in July 2015 for the Enforce the Law for Sanctuary Cities Act, which pressured local governments over immigration cooperation.",
+     "url": "https://clerk.house.gov/Votes/2015466"
+    },
+    {
+     "plank": "clean-money",
+     "said": "Anti-corruption message; previously called for a ban on political donations from lobbyists.",
+     "did": "Is a former lobbyist, and on Aug. 27, 2026 his campaign emailed a Republican lobbyist (Sam Geduldig) seeking a meeting and fundraiser attendance; he also named a longtime Florida lobbyist to lead his transition team in June 2026.",
+     "url": "https://www.notus.org/campaigns/florida-democrat-hits-up-a-maga-lobbyist-for-campaign-cash"
+    }
+   ],
+   "searched": "clerk.house.gov roll calls 2015 (partial scan, not 2014 or 2016), congress.gov sponsored bills and cosponsor lists, news on campaign finance and lobbying; no gun or school-voucher roll calls were located."
+  },
+  "Byron Donalds": {
+   "did": [
+    {
+     "plank": "clean-money",
+     "match": -1,
+     "what": "2026 reports: $10M from Ken Griffin to his committee, $1M from NextEra and Duke Energy and $275K from TECO to his PAC, and over $5M from a pro-AI super PAC.",
+     "url": "https://ground.news/article/byron-donalds-rejects-data-centers-while-cashing-in-ai-contributions_4eca57"
+    },
+    {
+     "plank": "second-amendment",
+     "match": 1,
+     "what": "Voted nay on July 29, 2022 against the federal Assault Weapons Ban (H.R. 1808, passed 217-213).",
+     "url": "https://clerk.house.gov/Votes/2022410"
+    },
+    {
+     "plank": "workers-first",
+     "match": 1,
+     "what": "Voted yea on Jan. 22, 2025 for the Laken Riley Act (S. 5), detention of immigrants charged with theft; passed the House 263-156.",
+     "url": "https://clerk.house.gov/Votes/202523"
+    },
+    {
+     "plank": "pro-life",
+     "match": 1,
+     "what": "Voted yea on Jan. 23, 2025 for the Born-Alive Abortion Survivors Protection Act (H.R. 21), which passed the House.",
+     "url": "https://clerk.house.gov/Votes/202527"
+    },
+    {
+     "plank": "school-choice-teachers",
+     "match": 1,
+     "what": "Voted yes in the Florida House on HB 1 (2018), creating the Hope Scholarship program for private-school transfers; passed 71-41 on March 5, 2018.",
+     "url": "https://www.flsenate.gov/Session/Bill/2018/1/Vote/HouseVote_h00001e1761.PDF"
+    },
+    {
+     "plank": "slow-growth-protect-land",
+     "match": -1,
+     "what": "Voted yes in the Florida House on SB 7068 (2019), creating the M-CORES toll road corridors through rural Florida; passed 76-36 on May 1, 2019.",
+     "url": "https://www.flsenate.gov/Session/Bill/2019/7068/Vote/HouseVote_s07068e2322.PDF"
+    }
+   ],
+   "contradictions": [],
+   "searched": "flsenate.gov Florida House roll calls 2017-2020, clerk.house.gov 2021-2025 roll calls, congress.gov sponsored bills, campaign-finance news; no House vote on H-1B exists (only statements), and no SB 264-type land vote found."
+  },
+  "Charles Burkett": {
+   "did": [],
+   "contradictions": [],
+   "searched": "News on Surfside mayoral terms (2006-10, 2020-22, 2024-present) and real-estate business; no specific commission roll-call vote on height or rezoning could be found."
+  },
+  "Dean Ocean Abrams": {
+   "did": [],
+   "contradictions": [],
+   "searched": "News and voter guides: listed as a Sarasota realtor who left the GOP for NPA in 2022; no office held and no votes or actions found."
+  },
+  "Moliere \"Moe\" Dimanche": {
+   "did": [],
+   "contradictions": [],
+   "searched": "News and Ballotpedia: no office held; disqualified from the 2023 Orlando mayor race for unpaid fees and served time for grand theft until 2016 (WLRN Oct. 22, 2026); nothing bearing on the ten priorities."
+  },
+  "Frank J. Russo": {
+   "did": [],
+   "contradictions": [],
+   "searched": "News and campaign releases: described as a real-estate developer and insurance executive who left the GOP in 2022; no office held, no votes, and no specific development projects or donations verified."
+  },
+  "Scott Eckhard Jewett": {
+   "did": [],
+   "contradictions": [],
+   "searched": "News, Ballotpedia, voter guides: first-time candidate (Libertarian, Boca Raton); no office, votes, or professional record found beyond campaign statements."
+  },
+  "Jeffrey Peter \"Dr. Jeff\" Datto": {
+   "did": [],
+   "contradictions": [],
+   "searched": "News and civic scorecards: Ph.D. and former University of Miami research associate with a 15-year history of pro se federal discrimination suits; self-funded, no website, no office or votes; nothing bearing on the priorities."
+  },
   "Jose Javier Rodriguez": {
    "did": [
     {
