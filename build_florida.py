@@ -199,7 +199,7 @@ def norm_cand(c):
     for k in ("record", "money_notes", "controversies", "foreign_ties", "endorsements", "press_opinion", "local_issue_stance"):
         if isinstance(o.get(k), list):
             o[k] = [x if isinstance(x, dict) else {"text": str(x)} for x in o[k]]
-    o["votes"] = [v for v in (o.get("votes") or []) if isinstance(v, dict) and v.get("vote") and v.get("url")]
+    o["votes"] = [v for v in (c.get("votes") or []) + (c.get("votes_state") or []) if isinstance(v, dict) and v.get("vote") and v.get("url")]
     return o
 
 
