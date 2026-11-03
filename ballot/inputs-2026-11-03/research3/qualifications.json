@@ -5,15 +5,15 @@
   "U.S. Senate / U.S. House": "Job is lawmaking, oversight, budgeting and constituent service in Washington. High (75-95): prior legislative or executive office, law/judicial/prosecutorial background, deep policy or budget experience. Middle (45-70): state legislators, senior congressional or agency staff, local elected office, executive or business management. Low (10-40): no governing experience, unrelated occupation, first-time candidate with a thin record. Missing bio = null.",
   "Governor": "Chief executive of a $120B+ state government: management of large organizations, budgets, emergency response (hurricanes), appointments, vetoes. High: prior executive office (governor, big-city mayor, agency head, Cabinet), long legislative leadership, large-organization management. Middle: legislators, lawyers, entrepreneurs with real payroll and budget experience. Low: no governing or managerial experience. Party and policy views are not scored.",
   "Attorney General": "Chief legal officer: litigation, consumer protection, criminal appeals, opinions. High: years as a prosecutor, judge, state/federal litigator or senior government counsel plus Florida Bar standing. Middle: licensed lawyer with transferable government or legislative legal work. Low: no law license or legal practice.",
-  "Chief Financial Officer": "State CFO oversees accounting, payments, unclaimed property, insurance regulation (fraud), fire marshal. High: CPA/finance/insurance-industry leadership, public-finance or regulatory experience, running a financial institution. Middle: business owners, legislators on banking/insurance committees. Low: unrelated careers.",
+  "Chief Financial Officer": "State CFO oversees accounting, payments, unclaimed property, insurance regulation (fraud), fire marshal. High: CPA/finance/insurance-industry leadership, public-finance or regulatory experience, running a financial institution. Middle: business owners, legislators (a committee seat doesn't add). Low: unrelated careers.",
   "Commissioner of Agriculture": "Runs FDACS: farming policy, food safety, consumer protection, concealed-weapon licensing, state forests. High: working farmer/rancher or agribusiness operator, ag-agency or food-safety career, ag policy leadership. Middle: legislators or lawyers with consumer-protection or farm-law work. Low: no agriculture, food-safety or regulatory background.",
-  "State Legislature (House / Senate)": "Job is writing law and the state budget. High (75-95): prior legislative service especially leadership or committee chair, plus law/policy/budget careers. Middle (45-70): local elected office, lawyers, policy staff, business owners and managers, long civic leadership. Low (10-40): student/first-time with no civic record, unrelated occupation. Missing info = null.",
+  "State Legislature (House / Senate)": "Job is writing law and the state budget. High (75-95): prior legislative service or chamber leadership (a committee chair doesn't add), plus law/policy/budget careers. Middle (45-70): local elected office, lawyers, policy staff, business owners and managers. Low (10-40): student/first-time with no work record, unrelated occupation. Missing info = null.",
   "County Commission": "Land use and growth management, county budget (~$1B in Manatee), infrastructure, public safety funding. High: prior commissioner or city-manager/planner/public-administration career, plus budget and land-use experience. Middle: municipal/regional agency staff, real-estate or construction professionals with approval process knowledge, business owners. Low: unrelated occupation without public-sector exposure.",
-  "School Board": "Oversees district budget, superintendent, policy for students. High: career educator/administrator, school finance or education law, prior board service. Middle: parents with PTA/volunteer leadership, business managers, nonprofit leaders. Low: no education or governance link.",
+  "School Board": "Oversees district budget, superintendent, policy for students. High: career educator/administrator, school finance or education law, prior school board service. Middle: business managers, paid nonprofit or youth-program staff. Low: no education or governance link.",
   "Mosquito Control District": "Independent special district: contracts and runs mosquito/vector control (adulticide, larvicide, Integrated Pest Management), budget set by tax levy, must follow state (FDACS) rules. High (80-95): pest-control/entomology/public-health/vector-control career or licensed pest-control business ownership. Middle-high (60-75): environmental/wetland/land-management professionals, public-health or biology. Middle (40-55): general public administration, small-business management. Low: unrelated. Unknown = null.",
   "Fire District boards": "Elected commissioners oversee a fire/EMS district budget, millage, chief, stations, equipment. High: career firefighter/paramedic/fire officer or fire-service administrator, prior fire commissioner with a record. Middle: public-safety, emergency management, engineering/construction, municipal finance, business management. Low: unrelated. Unknown = null.",
-  "CDD boards": "Community Development District boards run neighborhood infrastructure (roads, ponds, amenities), assessments and a modest budget; residents sit on them. High: engineering, construction, public finance, accounting, property/facility management, prior CDD/HOA board service. Middle: business owners/managers, lawyers, retired executives. Low: unrelated. Most candidates have no public bio = null.",
-  "City Council / City Commission / Mayor": "City budget, zoning/land use, utilities, police/fire contracts. High: prior council/mayor/planning-board service, city administration, planning, public finance, municipal law. Middle: business owners, real estate/property management, nonprofit leadership, lawyers. Low: no civic experience.",
+  "CDD boards": "Community Development District boards run neighborhood infrastructure (roads, ponds, amenities), assessments and a modest budget; residents sit on them. High: engineering, construction, public finance, accounting, property/facility management, prior CDD supervisor service (an HOA board doesn't count). Middle: business owners/managers, lawyers, retired executives. Low: unrelated. Most candidates have no public bio = null.",
+  "City Council / City Commission / Mayor": "City budget, zoning/land use, utilities, police/fire contracts. High: prior council or mayor service, city administration, planning, public finance, municipal law. Middle: business owners, real estate/property management, paid nonprofit management, lawyers. Low: no related work.",
   "Fire district (general)": "See Fire District boards."
  },
  "candidates": {
@@ -289,10 +289,11 @@
    "sources": []
   },
   "Elizabeth \"Liz\" Arnold": {
-   "qual": 66,
+   "qual": 60,
    "background": "Retired corporate treasury executive; decade of county meeting activism.",
-   "why": "Public-finance and treasury experience fits a county budget; deep land-use meeting knowledge; no office held.",
-   "sources": []
+   "why": "Retired corporate treasury executive, a real fit for a county budget. Her years of speaking at county meetings are activism, not work in the job, and don't count.",
+   "sources": [],
+   "qual_was": 66
   },
   "Charles B. Smith Sr": {
    "qual": 72,
@@ -313,10 +314,11 @@
    "sources": []
   },
   "Luther Keith Wilkins": {
-   "qual": 46,
+   "qual": 38,
    "background": "Army sergeant 1984-96; sales manager; Black Chamber publisher; NAACP Manatee president; insurance producer; logistics specialist 2020-25.",
-   "why": "Military service, civic leadership and business roles; never held elected office.",
-   "sources": []
+   "why": "Army sergeant, sales manager, publisher and insurance producer. He has never held office, and his NAACP and chamber roles don't count.",
+   "sources": [],
+   "qual_was": 46
   },
   "Sunshine Joiner": {
    "qual": 58,
@@ -633,12 +635,13 @@
    ]
   },
   "Richard Jacobs": {
-   "qual": 60,
+   "qual": 35,
    "background": "A Richard \"Dick\" Jacobs served as East Manatee Fire Rescue commissioner 2009-2018 per Observer profiles; identity not confirmed as this candidate.",
-   "why": "If the same person, prior fire-commissioner experience; career background not found.",
+   "why": "A Richard \"Dick\" Jacobs sat on this fire board 2009-18 (identity not confirmed). No fire, EMS or public-safety career was found, and a board seat alone isn't real-world experience.",
    "sources": [
     "https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=manatee&e=212&op=cv&rellevel=4&committee=N&ca=2555"
-   ]
+   ],
+   "qual_was": 60
   },
   "Kyle L. Moore": {
    "qual": null,
@@ -784,10 +787,11 @@
    "sources": []
   },
   "Allison Tant": {
-   "qual": 66,
+   "qual": 62,
    "background": "State representative since 2020; former lobbyist and former Democratic Party of Florida chair.",
-   "why": "Legislator with policy-advocacy and organizational leadership.",
-   "sources": []
+   "why": "Former lobbyist, in the House since 2020. Her term as state party chair doesn't count.",
+   "sources": [],
+   "qual_was": 66
   },
   "Tracy Robinson": {
    "qual": null,
@@ -916,10 +920,11 @@
    "sources": []
   },
   "Chad Johnson": {
-   "qual": 74,
+   "qual": 70,
    "background": "Auctioneer and sales manager; Levy County commissioner 2009-14; former Levy Farm Bureau president; UF ag-economics B.S.; House since 2024.",
-   "why": "County commissioner and farm-bureau leadership plus legislative service.",
-   "sources": []
+   "why": "Auctioneer and sales manager, Levy County commissioner 2009-14 and a House member since 2024. His Farm Bureau presidency doesn't count.",
+   "sources": [],
+   "qual_was": 74
   },
   "Mark Baker": {
    "qual": 28,
@@ -994,10 +999,11 @@
    "sources": []
   },
   "Don Kanfer": {
-   "qual": 46,
+   "qual": 38,
    "background": "Age 76, veterinarian, Rotarian and DeLand community leader.",
-   "why": "Professional and civic leader; no governing record found.",
-   "sources": []
+   "why": "A veterinarian with his own practice. He has no governing or policy work, and his Rotary and civic roles don't count.",
+   "sources": [],
+   "qual_was": 46
   },
   "Webster Barnaby": {
    "qual": 66,
@@ -1066,10 +1072,11 @@
    "sources": []
   },
   "Eric Gray": {
-   "qual": 74,
+   "qual": 55,
    "background": "Executive Director of Christian Service Center for Central Florida; Orange County Planning & Zoning Commission; former East Orlando Chamber chair.",
-   "why": "Nonprofit CEO with planning-commission service.",
-   "sources": []
+   "why": "Runs a nonprofit service center as executive director. His seat on the county planning and zoning commission and his chamber chairmanship don't count.",
+   "sources": [],
+   "qual_was": 74
   },
   "Erika Booth": {
    "qual": 62,
@@ -1156,10 +1163,11 @@
    "sources": []
   },
   "Samuel Vilchez Santiago": {
-   "qual": 42,
+   "qual": 36,
    "background": "Age 29, Orange County Democratic Party chair; senior nonprofit manager at ActBlue; Princeton and Oxford degrees.",
-   "why": "Party and nonprofit-sector experience; early career.",
-   "sources": []
+   "why": "Senior manager at ActBlue, early in his career. His party chair post doesn't count.",
+   "sources": [],
+   "qual_was": 42
   },
   "Jorge Malavet": {
    "qual": 72,
@@ -1180,10 +1188,11 @@
    "sources": []
   },
   "Erin Huntley": {
-   "qual": 44,
+   "qual": 36,
    "background": "Orange County Republican Party chair; worked for Disney Parks, JetBlue and DECA; Florida Virtual School trustee.",
-   "why": "Party leadership and corporate experience; no elected office.",
-   "sources": []
+   "why": "Corporate work at Disney Parks, JetBlue and DECA. She has never held office, and her party chair post and school trustee seat don't count.",
+   "sources": [],
+   "qual_was": 44
   },
   "Michael Cruz": {
    "qual": 38,
@@ -1240,10 +1249,11 @@
    "sources": []
   },
   "Jennifer Canady": {
-   "qual": 72,
+   "qual": 66,
    "background": "Former teacher; FSU and USF degrees; House since 2022; chairs Education and Employment Committee.",
-   "why": "Teacher and committee chair with two terms.",
-   "sources": []
+   "why": "Former teacher with two House terms. Chairing a committee is part of that service and isn't counted on its own.",
+   "sources": [],
+   "qual_was": 72
   },
   "Jarvis Washington": {
    "qual": null,
@@ -1324,16 +1334,18 @@
    "sources": []
   },
   "Wendy Hoy": {
-   "qual": 62,
+   "qual": 60,
    "background": "Former assisted-living administrator and Head Start director (three centers); guardian ad litem; foster-care charity board.",
-   "why": "Program administrator and child-advocacy volunteer; no elected office.",
-   "sources": []
+   "why": "Ran an assisted-living facility and three Head Start centers. She has never held office, and her guardian-ad-litem and charity-board roles don't count.",
+   "sources": [],
+   "qual_was": 62
   },
   "Adam Anderson": {
-   "qual": 68,
+   "qual": 64,
    "background": "Managing Partner and CEO of MRA Capital Partners; FSU real estate and finance B.S.; House since 2022.",
-   "why": "Finance executive with two terms and committee chair.",
-   "sources": []
+   "why": "Finance executive (CEO of a real-estate investment firm) with two House terms. His committee chair isn't counted on its own.",
+   "sources": [],
+   "qual_was": 68
   },
   "Bryan Beckman": {
    "qual": null,
@@ -1414,10 +1426,11 @@
    "sources": []
   },
   "Karen Gonzalez Pittman": {
-   "qual": 64,
+   "qual": 62,
    "background": "Former educator (testing and evaluation); VP of Public Affairs at Vein911; House since 2022; vice chair Health Care Budget Subcommittee.",
-   "why": "Legislator with education and health-industry background.",
-   "sources": []
+   "why": "Former educator and health-company executive, in the House since 2022. Her subcommittee vice-chair isn't counted on its own.",
+   "sources": [],
+   "qual_was": 64
   },
   "Dante Sanchez Sanchez": {
    "qual": 52,
@@ -1426,10 +1439,11 @@
    "sources": []
   },
   "Traci Koster": {
-   "qual": 76,
+   "qual": 72,
    "background": "Family lawyer; House since 2020; chairs Civil Justice & Claims Subcommittee; helped found Tampa Bay Pro Bono Partners.",
-   "why": "Attorney with subcommittee chair role.",
-   "sources": []
+   "why": "Family lawyer with House service since 2020. Her subcommittee chair and pro bono board role aren't counted on their own.",
+   "sources": [],
+   "qual_was": 76
   },
   "Lisette Bonano": {
    "qual": 58,
@@ -1438,10 +1452,11 @@
    "sources": []
   },
   "Luis Viera": {
-   "qual": 72,
+   "qual": 70,
    "background": "Tampa lawyer; Tampa City Council member; former HART board chair; founder of Lawyers Autism Awareness Foundation.",
-   "why": "Council member and attorney with transit-board leadership.",
-   "sources": []
+   "why": "Tampa lawyer and elected city council member. His transit board chair seat and foundation don't count.",
+   "sources": [],
+   "qual_was": 72
   },
   "Tony Smith": {
    "qual": null,
@@ -1462,16 +1477,18 @@
    "sources": []
   },
   "Danny Alvarez": {
-   "qual": 76,
+   "qual": 72,
    "background": "Family-law attorney; Army infantry officer; general counsel to Tampa Police Benevolent Association; House since 2022; chairs Criminal Justice Subcommittee.",
-   "why": "Lawyer, military officer and subcommittee chair.",
-   "sources": []
+   "why": "Family-law attorney, Army infantry officer and police-union general counsel, in the House since 2022. His subcommittee chair isn't counted on its own.",
+   "sources": [],
+   "qual_was": 76
   },
   "Bill Conerly": {
-   "qual": 78,
+   "qual": 72,
    "background": "Navy veteran and civil engineer; former Manatee County planning commission member; House since 2024.",
-   "why": "Engineer with land-use board experience and legislative service.",
-   "sources": []
+   "why": "Navy veteran and civil engineer, in the House since 2024. His planning commission seat doesn't count.",
+   "sources": [],
+   "qual_was": 78
   },
   "Harvey Shifrin": {
    "qual": 64,
@@ -1510,10 +1527,11 @@
    "sources": []
   },
   "Danny Nix Jr.": {
-   "qual": 66,
+   "qual": 58,
    "background": "Realtor; past chair and trustee of Florida SouthWestern State College; past president of Charlotte County Economic Development Partnership; House since 2024.",
-   "why": "Business, education-board and economic-development leadership.",
-   "sources": []
+   "why": "Realtor with one House term since 2024. His college trustee seat and economic-development board presidency don't count.",
+   "sources": [],
+   "qual_was": 66
   },
   "Vanessa Oliver": {
    "qual": 68,
@@ -1570,10 +1588,11 @@
    "sources": []
   },
   "Kim Finer": {
-   "qual": 50,
+   "qual": 44,
    "background": "Retired Kent State biology professor; Ph.D. veterinary microbiology; president of Friends of Delnor-Wiggins Pass State Park.",
-   "why": "Scientist and conservation volunteer; no office.",
-   "sources": []
+   "why": "Retired biology professor (Ph.D. microbiology). She has never held office, and her presidency of a state-park friends group doesn't count.",
+   "sources": [],
+   "qual_was": 50
   },
   "Yvette Benarroch": {
    "qual": 54,
@@ -1588,10 +1607,11 @@
    "sources": []
   },
   "Liesa Priddy": {
-   "qual": 66,
+   "qual": 60,
    "background": "Third-generation rancher operating JB Ranch; began in banking and law-firm administration; appointed to Fish and Wildlife Conservation Commission.",
-   "why": "Ranch operator with state commission service.",
-   "sources": []
+   "why": "Third-generation rancher who began in banking and law-firm administration. Her appointed seat on the state wildlife commission doesn't count.",
+   "sources": [],
+   "qual_was": 66
   },
   "Kaylee Tuck": {
    "qual": 72,
@@ -1618,10 +1638,11 @@
    "sources": []
   },
   "Wayne Richter": {
-   "qual": 58,
+   "qual": 55,
    "background": "Criminal defense attorney, founding partner of law firm (15+ years); Treasurer of Florida Association of Criminal Defense Lawyers; past Martin County Bar president.",
-   "why": "Experienced lawyer with bar leadership; no elected office.",
-   "sources": []
+   "why": "Criminal defense attorney and law-firm founder for 15+ years. His bar association offices don't count.",
+   "sources": [],
+   "qual_was": 58
   },
   "Anthony Bonna": {
    "qual": 74,
@@ -1660,10 +1681,11 @@
    "sources": []
   },
   "William Joseph": {
-   "qual": 40,
+   "qual": 34,
    "background": "Age 55, small-business owner and licensed investigator; says he served on three boards.",
-   "why": "Business owner with board service claimed; not verified.",
-   "sources": []
+   "why": "Small-business owner and licensed investigator. He has never held office, and the board seats he claims don't count.",
+   "sources": [],
+   "qual_was": 40
   },
   "Tae Edmonds": {
    "qual": 54,
@@ -1690,10 +1712,11 @@
    "sources": []
   },
   "Ionel Roiban": {
-   "qual": 50,
+   "qual": 44,
    "background": "Software and AI engineer and consultant; president of National Committee of Romanian-American Republicans.",
-   "why": "Technical career; no elected office.",
-   "sources": []
+   "why": "Software and AI engineer and consultant. He has never held office, and his presidency of a party-affiliated group doesn't count.",
+   "sources": [],
+   "qual_was": 50
   },
   "Peggy Gossett-Seidman": {
    "qual": 66,
@@ -2062,10 +2085,11 @@
    "sources": []
   },
   "James Buchanan": {
-   "qual": 70,
+   "qual": 66,
    "background": "State representative since 2018 (vice-chair Ways & Means); FSU B.S., USF MBA; family business ties.",
-   "why": "Eight years in the House with budget committee role.",
-   "sources": []
+   "why": "State representative since 2018 with a business background. His Ways and Means vice-chair isn't counted on its own.",
+   "sources": [],
+   "qual_was": 70
   },
   "Martin Hyde": {
    "qual": null,
@@ -2104,10 +2128,11 @@
    "sources": []
   },
   "Lauren Melo": {
-   "qual": 74,
+   "qual": 72,
    "background": "State representative since 2020; founded trucking company (1991, ~100 trucks); real estate broker; Naples realtor board president.",
-   "why": "Business founder and legislator.",
-   "sources": []
+   "why": "Founded and ran a trucking company of about 100 trucks, real-estate broker, in the House since 2020. Her realtor board presidency doesn't count.",
+   "sources": [],
+   "qual_was": 74
   },
   "Hector Rivera": {
    "qual": null,
@@ -2158,10 +2183,11 @@
    "sources": []
   },
   "Doc Solomon": {
-   "qual": 44,
+   "qual": 36,
    "background": "Chiropractor; staff chiropractor for U.S. Olympics 2006; vice chair Miami-Dade Sports Commission; ran for House 2018.",
-   "why": "Health professional and commission service; no elected office.",
-   "sources": []
+   "why": "Chiropractor (Olympic team staff 2006). He has never held office, and his sports commission seat doesn't count.",
+   "sources": [],
+   "qual_was": 44
   },
   "Richard Lamondin Jr.": {
    "qual": 46,
@@ -2434,10 +2460,11 @@
    "sources": []
   },
   "Brian Mast": {
-   "qual": 78,
+   "qual": 74,
    "background": "U.S. Rep. since 2017; Army bomb-disposal veteran (Bronze Star); chairs House Foreign Affairs Committee.",
-   "why": "Military service and committee chairmanship after nearly ten years in Congress.",
-   "sources": []
+   "why": "Army bomb-disposal veteran and a member of Congress since 2017. His committee chairmanship isn't counted on its own.",
+   "sources": [],
+   "qual_was": 78
   },
   "Alexander Cooke": {
    "qual": 60,
@@ -2590,10 +2617,11 @@
    "sources": []
   },
   "Rachel Grage": {
-   "qual": 48,
+   "qual": 40,
    "background": "Biomedical engineer (Tulane); former elected HOA president; lost 2024 House race.",
-   "why": "Technical career and HOA board leadership; no public office.",
-   "sources": []
+   "why": "Biomedical engineer. She has never held public office, and her HOA board presidency doesn't count.",
+   "sources": [],
+   "qual_was": 48
   },
   "John H. Rutherford": {
    "qual": 82,
@@ -2668,6 +2696,7 @@
   "Scores are advice on job fit only (never party/views). null = background not found, not a low score.",
   "METHOD/LIMITS: Priority 1 and 2 plus mosquito, Bradenton, Holmes Beach, school board and fire/CDD filings used Manatee Supervisor of Elections campaign-finance pages (voterfocus), campaign sites and the roster bios. Congress, state legislature and Governor/Cabinet scores come from the roster bios (not re-verified against primary sources) and the rubric. Scanned Form 1 financial-disclosure PDFs for the mosquito candidates could not be read (image-only). Sunbiz and FDACS lookups are behind bot protection and were not bypassed. About 100 CDD and fire-district candidates have no public bio found and are null, not low.",
   "Scale: 85+ = direct career or prior office in this exact job; 60-80 = strong transferable or adjacent experience; 40-55 = partial; 10-35 = unrelated or minimal; null = unknown.",
-  "2026-11-03 owner's rule: Qualified = real-world work experience in the field; committee, advisory, civic and nonprofit board seats don't count. Re-rated for the 34209 ballot: Charles \"Rick\" Richards, Rodney O'Quinn, Keith J. Green, Lisa Gonzalez Moore, Annette Taddeo, Jonathan Mullis, Reggie Bellamy, Derrick Warner, Dana Tindall, Billy Burke"
+  "2026-11-03 owner's rule: Qualified = real-world work experience in the field; committee, advisory, civic and nonprofit board seats don't count. Re-rated for the 34209 ballot: Charles \"Rick\" Richards, Rodney O'Quinn, Keith J. Green, Lisa Gonzalez Moore, Annette Taddeo, Jonathan Mullis, Reggie Bellamy, Derrick Warner, Dana Tindall, Billy Burke",
+  "2026-11-03 owner's rule, statewide pass: every rating that mentioned a board, committee, commission, council, chamber or foundation was re-read (131). Elected offices and paid jobs stand; appointed boards, civic/nonprofit/college boards, association and party posts, and legislative committee chairs no longer add. Re-rated: Richard Jacobs, Luther Keith Wilkins, Don Kanfer, Eric Gray, Erin Huntley, Samuel Vilchez Santiago, Chad Johnson, Jennifer Canady, Adam Anderson, Traci Koster, Danny Alvarez, Karen Gonzalez Pittman, James Buchanan, Brian Mast, Luis Viera, Bill Conerly, Danny Nix Jr., Liesa Priddy, Wayne Richter, William Joseph, Ionel Roiban, Doc Solomon, Lauren Melo, Rachel Grage, Elizabeth \"Liz\" Arnold, Kim Finer, Allison Tant, Wendy Hoy (volunteer, activism and party posts don't count either)"
  ]
 }

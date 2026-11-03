@@ -62,6 +62,12 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-03 (evening): The whole-app recheck under the real-work rule, and a Lakewood Ranch district fix
+
+- **Every candidate statewide re-read under Tyler's rule.** All 131 ratings that mention a board, committee, commission, council, chamber or foundation were re-read. Elected offices and paid jobs stand, and running a nonprofit or chamber as its paid director counts as work. These no longer add: appointed boards and commissions (planning and zoning, the state wildlife commission, a transit board), civic, nonprofit, college and HOA boards, chamber and bar-association officer roles, party posts, volunteering and meeting activism, and committee or subcommittee chairs inside a legislature (the legislative service itself still counts). 28 more ratings came down, among them Eric Gray (74 to 55), Danny Nix Jr. (66 to 58), Bill Conerly (78 to 72), Liesa Priddy (66 to 60), Liz Arnold (66 to 60) and Richard Jacobs (60 to 35, the same fire-board rule as the West Manatee commissioners). The research rubrics no longer suggest committee seats, civic leadership or PTA roles as qualifications. 38 ratings have been changed under the rule in all, and each keeps its old score as `qual_was`.
+- **Lakewood Ranch CDD 2 voters now see their race.** The property appraiser's map spells it "LAKEWOOD RANCH II" and the ballot says "CDD 2", so the name match missed it. The loose matching could also have shown a Lakewood Ranch I resident the CDD 2 race. Roman numerals now read as numbers, and district names must match exactly. The lookup was tested on 8 real Manatee addresses: Palmetto, Holmes Beach, Anna Maria, Lakewood Ranch, Ellenton, Parrish, downtown Bradenton and Cortez Road. None were left with "check your address".
+- The 13 candidates without a qualification rating are all write-ins with no public bio, so they show "background not found" rather than a low score.
+
 ### 2026-11-03 (night, last): Qualified means real-world experience, not board seats
 
 - **Owner's rule (Tyler):** a seat on a committee, an advisory or civic board, or a nonprofit board is not a qualification. Only real work in the job's field counts. The How-it-works page now says so.
