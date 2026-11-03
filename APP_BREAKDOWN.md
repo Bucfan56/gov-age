@@ -27,6 +27,9 @@ key. The page opens in a browser as a file, or serves as static hosting.
 | `inline_data.py` | Re-inlines `finance.json` into `index.html`. |
 | `build_ballot.py` | Scores every candidate and renders the ballot as flip cards (`ballot-<zip>.json` + `ballot/cards_template.html` → `.html`). |
 | `ballot-34221.html` | Palmetto, FL 34221 ballot report for the Nov 3, 2026 general election. |
+| `ballot.html` + `fl/*.json` | **Any-address Florida ballot.** Statewide races inline; U.S. House, State Senate/House and county races load per district. Built by `build_florida.py` from `ballot/app_template.html`. |
+| `build_florida.py` | Assembles the any-address ballot from the day's pulls and research (see its docstring), reconciles every district race against the Division of Elections candidate list, adds the 🌾 / 🎓 / 🎯 meters. |
+| `ballot/fed_money_all.py`, `ballot/fl_money_all.py` | Money for every Florida federal candidate (FEC bulk) and every Legislature district (DOE filings). |
 | `verify.py` | Smoke test. Gates the CI commit. |
 | `.github/workflows/refresh.yml` | Weekly rebuild → verify → commit. |
 
@@ -57,6 +60,40 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 ---
 
 ## Changelog
+
+### 2026-11-03 (Election Day): any Florida address, trading cards, six meters
+
+**Live:** https://bucfan56.github.io/gov-age/ballot.html. The Palmetto page stays up and links to it.
+
+Tyler's asks, made in the Kosmos chat: build it for anybody's address today; look Pokémon / trading-card style, combining Old Glory and holo, more ornate as the score rises, with a party mark and same-size fronts and backs; add voting records; search his five sources properly; land / data-center money must not help the Local meter; benchmark candidates on James Fishback's platform; push forward people actually qualified for the office.
+
+- **Address → ballot.**
+  - The Census geocoder is called as JSONP straight from the phone, because it sends no CORS headers. It returns the 120th-Congress district, the 2026 State Senate and House districts, the county and the city. A ZIP-only lookup uses a shipped ZIP-centroid table and never leaves the phone.
+  - Manatee addresses are refined from county map layers that allow cross-site requests: the commission district, the city limits, and the fire, CDD and stewardship districts from the property appraiser.
+  - The address itself is never stored; only district numbers are kept, in localStorage.
+- **Coverage.**
+  - All 28 U.S. House races, all 120 State House seats, 20 State Senate seats plus the SD21 special election (election `20261103-S01`), and every Manatee race and measure.
+  - Every district race is reconciled with the Division of Elections' own 2026 General candidate list. Write-ins are labeled, unopposed seats say "not on ballot", and SD21 is kept as a special election.
+  - Counties without researched local races link to their elections office (all 67 offices are listed) instead of guessing.
+- **Meters.** The overall score is the average of every meter that has a value; candidates with fewer than 4 show "rated on N of 6".
+  - 🏠 Local now leaves out land, development, data-center, mining and utility money.
+  - 🌾 Protects land is new: 100 minus 2 per 1% of that money.
+  - 🎓 Qualified (job fit from the candidate's actual background) is new. Unknown backgrounds are blank, not low.
+  - 🎯 Priorities (James Fishback's 10 planks, from fishback2026.com/platform) is new. It counts only documented votes and stated positions, and is labeled on the page as the owner's priorities, not neutral.
+- **Cards.**
+  - Patriot Foil design with tiers Common, Rare 55+, Ultra Rare 70+ and Legendary 85+.
+  - Party chip on every card. Fronts and backs are a fixed 5:7.6 size.
+  - The back carries money, background, votes, priorities, record and money news. The profile opens with the photo.
+  - The five-style picker is gone, because Tyler chose.
+- **Voting records.**
+  - 6–13 official roll calls per officeholder, with the same headline bills across each chamber.
+  - When two candidates in a race voted on the same bill, a "same bill, side by side" table compares them.
+- **Owner's sources.** stewpeters.com was searched for every name, and the full Stew Peters Rumble channel history (3,796 videos) was matched by full name. The Alex Jones and Owen Rumble channels were only partly covered. alexjoneslive.com blocks automated search, so every profile has one-tap "check your sources yourself" links, and the per-source coverage table is in the Your sources sheet.
+- **Traps.**
+  - Bash heredocs turned `\b` in written code into literal backspace characters (0x08), which made regexes silently never match. `od -c` displays a backspace as `\b`, which hid it. Write patch scripts with the Write tool.
+  - Florida DOE names are "Last, First", so splitting on spaces left the comma on the surname. Tokenize with a regex.
+  - Pages redeploy on push, but `git pull --rebase` was needed twice because of the scheduled data-refresh commits.
+  - An automated search of alexjoneslive.com through the browser was refused as bot-check circumvention and is not to be worked around.
 
 ### 2026-11-02 — The ballot becomes scored flip cards
 
