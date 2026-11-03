@@ -199,16 +199,8 @@ ul.vl{list-style:none;margin:0;padding:0;display:grid;gap:7px}
 .face{background:#28344a;box-shadow:0 6px 18px rgba(8,16,40,.28)}
 .t-rare .face{background:linear-gradient(135deg,#eef1f6,#9aa4b4 28%,#f7f8fb 50%,#8590a3 72%,#e3e7ee)}
 .t-ultra .face{background:linear-gradient(135deg,#fff1a8,#c9971a 25%,#fff6c9 48%,#a77a0a 70%,#f3d36b)}
-.t-legend .face{background:conic-gradient(from 210deg,#ff6bd5,#ffd36b,#7bffb0,#6bd8ff,#b06bff,#ff6bd5);box-shadow:0 0 0 2px #ffe08a,0 0 22px rgba(255,214,107,.55),0 8px 22px rgba(8,16,40,.35)}
-.t-legend .face{animation:legend 8s linear infinite}
-@keyframes legend{0%{filter:hue-rotate(0)}100%{filter:hue-rotate(360deg)}}
+.t-legend .face{background:conic-gradient(from var(--ang),#ff6bd5,#ffd36b,#7bffb0,#6bd8ff,#b06bff,#ff6bd5);box-shadow:0 0 0 2px #ffe08a,0 0 22px rgba(255,214,107,.55),0 8px 22px rgba(8,16,40,.35)}
 .inner{position:relative;flex:1;min-width:0;border-radius:12px;overflow:hidden;background:#0a1f44;color:#f2f5fb;display:flex;flex-direction:column}
-.t-legend .inner{animation:legend 8s linear infinite reverse}
-.inner::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:12px}
-.t-ultra .inner::after,.t-legend .inner::after{background:linear-gradient(115deg,transparent 25%,rgba(255,140,230,.22) 38%,rgba(120,220,255,.22) 46%,rgba(255,255,150,.22) 54%,transparent 68%) 0 0/260% 260%;mix-blend-mode:screen;animation:holo 5s linear infinite}
-.t-legend .inner::after{background:linear-gradient(115deg,transparent 15%,rgba(255,120,220,.34) 32%,rgba(120,220,255,.34) 44%,rgba(255,255,140,.34) 56%,transparent 72%) 0 0/240% 240%}
-@keyframes holo{0%{background-position:110% 0}100%{background-position:-140% 0}}
-@media (prefers-reduced-motion:reduce){.t-legend .face,.t-legend .inner,.inner::after{animation:none!important}}
 .ctop{display:flex;align-items:center;gap:6px;padding:6px 9px;font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:#071630;color:#c9d6ee;border-bottom:2px solid #b22234}
 .ctop .tier{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .t-rare .ctop .tier{color:#e6ebf3}.t-ultra .ctop .tier{color:#ffd970}.t-legend .ctop .tier{color:#fff;text-shadow:0 0 8px #ffd36b}
@@ -242,7 +234,7 @@ ul.vl{list-style:none;margin:0;padding:0;display:grid;gap:7px}
 .fact{font-size:10.5px;font-weight:800;padding:3px 7px;border-radius:999px;background:rgba(255,255,255,.1);color:#e3e9f5}
 .fact.warn{background:rgba(255,107,91,.22);color:#ffb4aa}.fact.src{background:rgba(240,180,76,.22);color:#ffd58a}
 .cfoot{margin-top:auto;display:flex;justify-content:space-between;gap:6px;padding:4px 10px 7px;font-size:10px;color:#8494b3}
-.blurb2{font-size:11.5px;line-height:1.35;color:#c9d6ee;padding:5px 10px 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.blurb2{font-size:11.5px;line-height:1.35;color:#c9d6ee;padding:5px 10px 0;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
 /* back */
 .bhead{display:flex;align-items:center;gap:8px;padding:8px 10px;background:linear-gradient(#0a1f44,#0d2752)}
 .bhead .av2{width:38px;height:38px;border-radius:50%;flex:none;background:#0a3161 center 20%/cover;display:grid;place-items:center;font-weight:800;border:2px solid rgba(255,255,255,.7)}
@@ -269,10 +261,84 @@ ul.vl{list-style:none;margin:0;padding:0;display:grid;gap:7px}
 .tile .dots{gap:9px;padding:4px}
 .legend2{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 2px}
 .legend2 span{font-size:11px;font-weight:800;padding:4px 9px;border-radius:999px;color:#0a1f44}
+
+/* ---------- Foil that follows the card: only frame, tier, nameplate band, stars and seal ---------- */
+@property --mx{syntax:'<percentage>';inherits:true;initial-value:50%}
+@property --my{syntax:'<percentage>';inherits:true;initial-value:30%}
+@property --ang{syntax:'<angle>';inherits:true;initial-value:210deg}
+.flip{--mx:50%;--my:30%;--ang:210deg;transition:transform .25s ease-out;will-change:transform}
+.inner{z-index:1}
+.face::before{content:"";position:absolute;inset:0;border-radius:18px;pointer-events:none;z-index:0;opacity:0}
+.t-rare .face::before,.t-ultra .face::before,.t-legend .face::before{opacity:1;mix-blend-mode:overlay;
+  background:radial-gradient(circle at var(--mx) var(--my),rgba(255,255,255,.95),rgba(255,255,255,0) 42%),
+  linear-gradient(115deg,transparent calc(var(--mx) - 30%),rgba(255,255,255,.7) var(--mx),transparent calc(var(--mx) + 30%))}
+.t-legend .face::before{mix-blend-mode:color-dodge}
+.t-ultra .ctop .tier,.t-legend .ctop .tier{background:linear-gradient(100deg,#ffd970 calc(var(--mx) - 40%),#fff calc(var(--mx) - 5%),#ff9be6 var(--mx),#9be6ff calc(var(--mx) + 10%),#ffd970 calc(var(--mx) + 40%));-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none}
+.plate{position:relative;isolation:isolate}
+.t-ultra .plate::before,.t-legend .plate::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.55;
+  background:linear-gradient(110deg,transparent calc(var(--mx) - 35%),rgba(255,214,107,.55) calc(var(--mx) - 8%),rgba(155,230,255,.55) var(--mx),rgba(255,155,230,.5) calc(var(--mx) + 8%),transparent calc(var(--mx) + 35%))}
+.t-legend .stripe{background:linear-gradient(90deg,#ff6bd5,#ffd36b,#7bffb0,#6bd8ff,#b06bff);background-size:200% 100%;background-position:var(--mx) 0}
+.seal.g{--sc:var(--good)}.seal.m{--sc:var(--mid)}.seal.b{--sc:var(--bad)}.seal.n{--sc:#77736b}
+.t-ultra .seal{border:4px solid transparent;background:linear-gradient(var(--sc),var(--sc)) padding-box,conic-gradient(from var(--ang),#fff3b0,#c9971a,#fff,#a77a0a,#fff3b0) border-box}
+.t-legend .seal{background:radial-gradient(circle,var(--sc) 0 60%,transparent 61%),conic-gradient(from var(--ang),#ff6bd5,#ffd36b,#7bffb0,#6bd8ff,#b06bff,#ff6bd5)}
+.t-ultra .art,.t-legend .art{box-shadow:inset 0 0 0 2px rgba(255,224,138,.65)}
+@keyframes sweep{0%{--mx:-30%;--ang:150deg}100%{--mx:130%;--ang:330deg}}
+.t-rare:not(.swept),.t-ultra:not(.swept),.t-legend:not(.swept){animation:sweep 1.5s cubic-bezier(.3,.6,.3,1) .25s 1 both}
+@media (prefers-reduced-motion:reduce){.flip{animation:none!important;transition:none}}
+
+/* ---------- Mobile-first navigation ---------- */
+body{padding-bottom:calc(72px + env(safe-area-inset-bottom))}
+.appbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:8px;padding:10px 0;background:var(--bg)}
+.appbar .ab-l{flex:1;font-size:18px;font-weight:800;display:flex;align-items:center;gap:8px;min-width:0}
+.loc{border:1.5px solid var(--line);background:var(--card);border-radius:999px;padding:8px 12px;font-size:13px;font-weight:700;cursor:pointer;max-width:58%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+details.today{background:var(--card);border:1px solid var(--line);border-left:6px solid #b22234;border-radius:16px;margin:2px 0 14px;padding:0 12px;box-shadow:var(--shadow)}
+details.today>summary{padding:12px 0;display:flex;align-items:center;gap:10px}
+details.today>summary::after{content:"";display:none}
+details.today .vote{box-shadow:none;border:0;padding:0 0 12px;margin:0;border-radius:0}
+details.today .vote .vh{display:none}
+.live{width:10px;height:10px;border-radius:50%;background:var(--mid);flex:none;box-shadow:0 0 0 4px var(--mid-bg)}
+.live.open{background:var(--good);box-shadow:0 0 0 4px var(--good-bg)}.live.closed{background:var(--bad);box-shadow:0 0 0 4px var(--bad-bg)}
+.today .tx{flex:1;font-size:14px;font-weight:700;line-height:1.25}
+.today .tgo{font-size:13px;font-weight:800;color:var(--accent);white-space:nowrap}
+.count{font-size:13.5px;color:var(--sub);margin:0 2px 4px}
+.rlist{display:flex;flex-direction:column;gap:8px}
+.rrow{display:flex;align-items:center;gap:10px;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:10px 12px;box-shadow:var(--shadow);cursor:pointer}
+.rnum{flex:none;width:26px;height:26px;border-radius:50%;background:var(--chip);display:grid;place-items:center;font-size:12px;font-weight:800;color:var(--sub)}
+.rmain{flex:1;min-width:0;display:flex;flex-direction:column}
+.rt{font-weight:800;font-size:15.5px;line-height:1.2}
+.rs{font-size:12.5px;color:var(--sub)}
+.rs .chk{color:var(--amber);font-weight:700}
+.rtop{flex:none;display:flex;align-items:center;gap:6px}
+.rtop .ava{width:38px;height:38px;border-radius:50%;background:#0a3161 center/cover;display:grid;place-items:center;color:#fff;font-size:12px;font-weight:800;box-shadow:0 0 0 2.5px var(--card),0 0 0 4.5px var(--ring,var(--none))}
+.rtop .ava.g{--ring:var(--good)}.rtop .ava.m{--ring:var(--mid)}.rtop .ava.b{--ring:var(--bad)}
+.rtop .sc{font-size:13px;font-weight:800;min-width:24px;text-align:right}
+.rtop .tag{font-size:11px}
+.chev{flex:none;color:var(--sub);font-size:20px;line-height:1}
+.navbar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;justify-content:space-around;background:var(--card);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom));box-shadow:0 -6px 20px rgba(0,0,0,.08)}
+.navbar button{flex:1;border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11px;font-weight:700;color:var(--sub);padding:4px 0;cursor:pointer}
+.navbar button b{font-size:20px;line-height:1.1}
+.navbar button.on{color:var(--ink)}
+.bar .bt{flex:1;min-width:0}.bar .bt span{font-size:12px;color:var(--sub);font-weight:700}
+.pager{display:flex;gap:8px;margin:16px 0 4px}
+.pager button{flex:1;border:1px solid var(--line);background:var(--card);border-radius:14px;padding:12px 10px;font-weight:800;font-size:13.5px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pager button.next{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.cdots{display:none}
+@media (max-width:699px){
+  .cards{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:0 -16px;padding:4px 16px 6px;scrollbar-width:none}
+  .cards::-webkit-scrollbar{display:none}
+  .cards .flip{flex:0 0 86%;scroll-snap-align:center}
+  .cards .flip:only-child{flex-basis:100%}
+  .cdots{display:flex;justify-content:center;gap:6px;margin:8px 0 2px}
+  .cdots i{width:7px;height:7px;border-radius:50%;background:var(--line)}
+  .cdots i.on{background:var(--ink);width:18px;border-radius:7px}
+  .swipehint{font-size:12.5px;color:var(--sub);text-align:center;margin:4px 0 0}
+}
+@media (min-width:700px){.swipehint{display:none}}
 </style>
 </head>
 <body>
 <div class="wrap" id="app"></div>
+<nav class="navbar" aria-label="Main"><button data-go="" data-nav="home"><b>🗳️</b>Ballot</button><button data-sheet="today" data-nav="today"><b>⏰</b>Vote today</button><button data-sheet="how" data-nav="how"><b>📊</b>How it works</button><button data-sheet="src" data-nav="src"><b>📣</b>Sources</button></nav>
 <div class="sheet" id="sheet" aria-hidden="true"><div class="sc" data-close></div><div class="pn" role="dialog" aria-modal="true" aria-labelledby="shT"><div class="ph"><h2 id="shT"></h2><button class="x" data-close aria-label="Close">✕</button></div><div id="shB"></div></div></div>
 <script>
 const D = __DATA__;
@@ -304,7 +370,8 @@ function meter(icon, label, m) {
 }
 
 const PHOTO = c => c.photo ? "ballot/photos/" + c.photo.f : "";
-const art = c => c.photo ? `<img src="${esc(PHOTO(c))}" alt="${esc(c.name)}" loading="lazy">` : `<div class="mono">${esc(initials(c.name))}<small>No public photo found</small></div>`;
+const CROP = c => c.photo && c.photo.c ? "ballot/photos/c/" + c.photo.c : PHOTO(c);
+const art = c => c.photo ? `<img src="${esc(CROP(c))}" alt="${esc(c.name)}" loading="lazy">` : `<div class="mono">${esc(initials(c.name))}<small>No public photo found</small></div>`;
 
 const DECKS = [["flag", "Old Glory"], ["sun", "Sunshine State"], ["marble", "Capitol"], ["button", "Campaign button"], ["holo", "Holo foil"]];
 let deck = "flag";
@@ -536,7 +603,7 @@ function card(r, c, i) {
   const back = `
     <div class="face back"><div class="inner">
       <div class="ctop"><span class="tier">${stars} ${esc(tname)} · dossier</span>${PARTY(c.party)}</div>
-      <div class="bhead"><div class="av2"${c.photo ? ` style="background-image:url('${esc(PHOTO(c))}')"` : ""}>${c.photo ? "" : esc(initials(c.name))}</div><div style="min-width:0"><div class="nm">${esc(c.name)}</div><div class="pt">${esc(r.short)} · score ${s.overall ?? "—"}</div></div></div>
+      <div class="bhead"><div class="av2"${c.photo ? ` style="background-image:url('${esc(CROP(c))}')"` : ""}>${c.photo ? "" : esc(initials(c.name))}</div><div style="min-width:0"><div class="nm">${esc(c.name)}</div><div class="pt">${esc(r.short)} · score ${s.overall ?? "—"}</div></div></div>
       <div class="stripe"></div>
       <div class="bbody">
         <div class="bsec"><h5>💵 The money</h5><div class="kv3"><div><b>${usd(m.raised)}</b><span>raised</span></div><div><b>${s.local && s.local.v != null ? s.local.v + "%" : "—"}</b><span>from home</span></div><div><b>${m.land_pct != null ? Math.round(m.land_pct) + "%" : "—"}</b><span>land & dev.</span></div></div>
@@ -554,52 +621,59 @@ function card(r, c, i) {
   return `<div class="flip t-${tk} band-${b}" tabindex="0" role="button" aria-label="${esc(c.name)}: ${esc(tname)}, score ${s.overall ?? "not rated"}. Press to flip."><div class="in">${front}${back}</div></div>`;
 }
 
-function tiles(rs) {
-  let h = `<div class="tiles">`;
-  for (const r of rs) {
-    const dots = r.kind === "race" ? r.cands.map(c => `<span class="dot ${band(c.score.overall)}${c.photo ? " ph" : ""}"${c.photo ? ` style="background-image:url('${esc(PHOTO(c))}')"` : ""} title="${esc(c.name)}: ${c.score.overall ?? "not scored"}">${esc(initials(c.name))}</span>`).join("")
-      : `<span class="tag">${r.kind === "judges" ? "Keep or remove" : "Yes or no"}</span>`;
-    const maybe = applies(r, ctx) === null;
-    h += `<button class="tile" data-go="${r.id}"><span class="t">${esc(r.short)}</span><span class="s">${esc(r.sub)}</span>${maybe ? `<span><span class="tag addr">Check: some addresses</span></span>` : ""}<span class="dots">${dots}</span></button>`;
-  }
-  return h + `</div>`;
+function ordered() {
+  const mine = myRaces();
+  return D.groups.flatMap(g => mine.filter(r => r.group === g.id));
+}
+function raceRow(r, n) {
+  let top = "";
+  if (r.kind === "race") {
+    const c = r.cands[0], b = band(c.score.overall);
+    top = `<span class="ava ${b}"${c.photo ? ` style="background-image:url('${esc(CROP(c))}')"` : ""}>${c.photo ? "" : esc(initials(c.name))}</span><span class="sc">${c.score.overall ?? "—"}</span>`;
+  } else top = `<span class="tag">${r.kind === "judges" ? "Keep / remove" : "Yes / no"}</span>`;
+  const maybe = applies(r, ctx) === null;
+  const lead = r.kind === "race" && r.cands[0].score.overall != null ? `Top rated: ${esc(r.cands[0].name.split(" ").slice(-1)[0])} · ` : "";
+  return `<button class="rrow" data-go="${r.id}"><span class="rnum">${n}</span><span class="rmain"><span class="rt">${esc(r.short)}</span><span class="rs">${lead}${esc(r.sub)}${maybe ? ` · <span class="chk">check your address</span>` : ""}</span></span><span class="rtop">${top}</span><span class="chev">›</span></button>`;
+}
+function tiles(rs, start) {
+  return `<div class="rlist">${rs.map((r, k) => raceRow(r, (start || 0) + k + 1)).join("")}</div>`;
+}
+function todayStrip() {
+  const [cls, txt] = pollStatus();
+  return `<details class="today"><summary><span class="live ${cls}"></span><span class="tx">${esc(txt)}</span><span class="tgo">Voting info ›</span></summary>${voteBox()}</details>`;
 }
 function home() {
   document.title = D.title;
-  const pills = `<div class="pills"><button class="pill" data-sheet="how">📊 How scores work</button><button class="pill" data-sheet="src">📣 Your sources</button><button class="pill" data-sheet="about">ℹ️ About</button></div>`;
   let h;
   if (!ctx) {
-    h = `<header class="top"><div class="logo">🗳️</div><div><h1>Your Florida ballot</h1><p>General election · Tuesday, November 3, 2026</p></div></header>
-      ${finder(false)}${voteBox()}${pills}
+    h = `<header class="appbar"><div class="ab-l">🗳️ Your Florida ballot</div></header>
+      ${finder(false)}${todayStrip()}
       <h2 class="grp">🌴 On every Florida ballot</h2>${tiles(ALL.filter(r => (r.where || {}).all))}
       <p class="deckhint" style="margin-top:12px">Your U.S. House, State Senate, State House, county and city races appear once you add your address.</p>`;
   } else {
-    const chips = [ctx.cd && `U.S. House ${ctx.cd}`, ctx.sd && `State Senate ${ctx.sd}`, ctx.hd && `State House ${ctx.hd}`, ctx.county && `${ctx.county} County`, ctx.cc && `Commission ${ctx.cc}`, ctx.city || (ctx.how !== "zip" ? "Outside city limits" : "")].filter(Boolean);
-    h = `<header class="top"><div class="logo">🗳️</div><div><h1>Your ballot</h1><p>${ctx.how === "zip" ? `ZIP ${esc(ctx.zip)}, approximate: add your street for exact districts` : ctx.how === "location" ? "From your location" : "From your address"} · Nov 3, 2026</p></div></header>
-      <div class="ctx">${chips.map(x => `<span class="cchip">${esc(x)}</span>`).join("")}<button class="cchip change" data-change>✎ Change address</button></div>
-      ${voteBox()}${pills}`;
-    const mine = myRaces();
+    const where = [ctx.county && `${ctx.county} Co.`, ctx.city || (ctx.how === "zip" ? `ZIP ${ctx.zip}` : "")].filter(Boolean).join(" · ");
+    const list = ordered();
+    h = `<header class="appbar"><div class="ab-l">🗳️ Your ballot</div><button class="loc" data-change aria-label="Change address">📍 ${esc(where)} ✎</button></header>
+      ${ctx.how === "zip" ? `<div class="panel" style="margin-top:0">ZIP ${esc(ctx.zip)} gives approximate districts. <button class="btn ghost" style="padding:6px 10px" data-change>Add your street</button></div>` : ""}
+      ${todayStrip()}
+      <p class="count">${list.length} races and questions on your ballot · tap one to see the candidates</p>`;
+    let n = 0;
     for (const g of D.groups) {
-      const rs = mine.filter(r => r.group === g.id);
-      if (g.id === "local") {
-        const hasCounty = D.files.includes(`county-${cslug(ctx.county)}`);
+      const rs = list.filter(r => r.group === g.id);
+      if (g.id === "local" && !D.files.includes(`county-${cslug(ctx.county)}`)) {
         const o = soeOf(ctx.county);
-        h += `<h2 class="grp">${g.icon} ${esc(g.label)}</h2>${rs.length ? tiles(rs) : ""}` + (hasCounty
-          ? `<p class="deckhint" style="margin-top:10px">Tiles marked “Check” depend on your exact street: confirm them on the official sample ballot.</p>`
-          : `<div class="panel"><b>${esc(ctx.county)} County's own races</b><br>County commission, school board, city and special-district races aren't researched for ${esc(ctx.county)} County yet, so they're left out rather than guessed. ${o ? `See them on the <a href="${esc(o[0])}" target="_blank" rel="noopener">${esc(ctx.county)} County elections site ↗</a>${o[1] ? ` or call <a href="tel:${esc(o[1])}">${esc(o[1])}</a>` : ""}.` : ""}</div>`);
-        continue;
-      }
-      if (g.id === "judges" && ctx.county !== "Manatee") {
-        h += `<h2 class="grp">${g.icon} ${esc(g.label)}</h2>${rs.length ? tiles(rs) : ""}<p class="deckhint" style="margin-top:10px">Your ballot may also ask about appeals-court and local judges: they're on your county's sample ballot.</p>`;
-        continue;
+        h += `<h2 class="grp">${g.icon} ${esc(g.label)}</h2>${rs.length ? tiles(rs, n) : ""}<div class="panel"><b>${esc(ctx.county)} County's own races</b><br>Not researched yet, so they're left out rather than guessed. ${o ? `See them on the <a href="${esc(o[0])}" target="_blank" rel="noopener">${esc(ctx.county)} County elections site ↗</a>${o[1] ? ` or call <a href="tel:${esc(o[1])}">${esc(o[1])}</a>` : ""}.` : ""}</div>`;
+        n += rs.length; continue;
       }
       if (!rs.length) continue;
-      h += `<h2 class="grp">${g.icon} ${esc(g.label)}</h2>${tiles(rs)}`;
+      h += `<h2 class="grp">${g.icon} ${esc(g.label)}</h2>${tiles(rs, n)}`;
+      n += rs.length;
+      if (g.id === "judges" && ctx.county !== "Manatee") h += `<p class="deckhint" style="margin-top:8px">Your ballot may also ask about appeals-court and local judges: they're on your county's sample ballot.</p>`;
     }
-    const missing = [["cd", "U.S. House"], ["sd", "State Senate"], ["hd", "State House"]].filter(([k]) => ctx[k] && !mine.some(r => (r.where || {})[k] === ctx[k]));
-    if (missing.length) h += `<div class="panel" style="margin-top:14px">⏳ Not in this guide yet: ${missing.map(([k, n]) => `${n} ${ctx[k]}`).join(", ")}.${missing.some(m => m[0] === "sd") ? " Only half of the State Senate seats are on the ballot this year, so yours may not be up." : ""} Check your official sample ballot for ${missing.length > 1 ? "these" : "it"}.</div>`;
+    const missing = [["cd", "U.S. House"], ["sd", "State Senate"], ["hd", "State House"]].filter(([k]) => ctx[k] && !list.some(r => (r.where || {})[k] === ctx[k]));
+    if (missing.length) h += `<div class="panel" style="margin-top:14px">⏳ Not in this guide: ${missing.map(([k, nm]) => `${nm} ${ctx[k]}`).join(", ")}.${missing.some(m => m[0] === "sd") ? " Only half of the State Senate seats are on the ballot this year, so yours may not be up." : ""}</div>`;
   }
-  h += `<footer>Built ${esc(D.built)} from public filings. Scores measure money and documented ties only: not party, views or votes.<br><a href="index.html">How old is the U.S. government? →</a></footer>`;
+  h += `<footer>Built ${esc(D.built)} from public filings and research. <a href="#/how">How scores work</a><br><a href="index.html">How old is the U.S. government? →</a></footer>`;
   $("#app").innerHTML = h;
 }
 
@@ -619,10 +693,12 @@ function ownBox(items, searched) {
 
 function racePage(r) {
   document.title = r.short + " · " + D.title;
-  let h = `<div class="bar"><button class="backbtn" data-go="">← All races</button><h1>${esc(r.kind === "measure" ? r.short + ": " + r.sub : r.title)}</h1></div>`;
+  const list = ctx ? ordered() : ALL.filter(x => (x.where || {}).all), pos = list.findIndex(x => x.id === r.id);
+  const prev = list[pos - 1], next = list[pos + 1];
+  let h = `<div class="bar"><button class="backbtn" data-go="" aria-label="All races">←</button><div class="bt"><h1>${esc(r.kind === "measure" ? r.short + ": " + r.sub : r.title)}</h1>${pos >= 0 ? `<span>${pos + 1} of ${list.length} on your ballot</span>` : ""}</div></div>`;
   const scope = applies(r, ctx) === null ? `<span class="tag addr">Only some addresses${r.scope_note ? ": " + esc(r.scope_note) : ""}</span><br>` : "";
   if (r.kind === "race") {
-    h += `<p class="lead">${scope}${esc(r.note || "")} <b>Ranked by score. Tap any card to flip it.</b></p><div class="legend2"><span style="background:linear-gradient(135deg,#ff9be6,#ffe08a,#9bffc8,#9be6ff)">★★★★★ Legendary 85+</span><span style="background:linear-gradient(135deg,#fff1a8,#d9ad3c)">★★★★ Ultra Rare 70+</span><span style="background:linear-gradient(135deg,#f3f5f9,#b3bccb)">★★★ Rare 55+</span><span style="background:#c9d1df">★ Common</span></div><div class="cards">${r.cands.map((c, i) => card(r, c, i)).join("")}</div>${compareVotes(r)}`;
+    h += `<p class="lead">${scope}${esc(r.note || "")} Ranked by score. Tap a card to flip it.</p><div class="cards">${r.cands.map((c, i) => card(r, c, i)).join("")}</div>${r.cands.length > 1 ? `<div class="cdots">${r.cands.map((c, i) => `<i${i ? "" : ' class="on"'}></i>`).join("")}</div><p class="swipehint">Swipe for the other ${r.cands.length - 1 === 1 ? "candidate" : r.cands.length - 1 + " candidates"} →</p>` : ""}${compareVotes(r)}`;
   } else if (r.kind === "judges") {
     h += `<p class="lead">${esc(r.note || "")} Not scored: judges raise no campaign money.</p>`;
     h += r.judges.map(j => `<div class="mcard"><h3>⚖️ ${esc(j.name)}</h3><p class="mini">${esc(j.text)}</p>${(j.items || []).length ? `<details><summary>Rulings & record (${j.items.length})</summary><ul>${j.items.map(x => `<li>${esc(x.text)}${link(x.url)}</li>`).join("")}</ul></details>` : ""}${ownBox(j.owner_sources, j.owner_sources_searched)}</div>`).join("");
@@ -634,7 +710,13 @@ function racePage(r) {
       ${(m.fiscal || []).length ? `<details><summary>Cost & effect</summary>${L(m.fiscal)}</details>` : ""}${ownBox(m.owner_sources, m.owner_sources_searched)}
       ${(m.urls || []).length ? `<p class="mini muted">Sources: ${m.urls.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${i + 1}</a>`).join(" · ")}</p>` : ""}</div>`;
   }
+  if (pos >= 0) h += `<div class="pager">${prev ? `<button data-go="${prev.id}">‹ ${esc(prev.short)}</button>` : `<button data-go="">‹ All races</button>`}${next ? `<button class="next" data-go="${next.id}">${esc(next.short)} ›</button>` : `<button class="next" data-go="">Done ✓</button>`}</div>`;
   $("#app").innerHTML = h;
+  const cs = $("#app .cards"), dots = [...document.querySelectorAll("#app .cdots i")];
+  if (cs && dots.length) cs.addEventListener("scroll", () => {
+    const k = Math.round(cs.scrollLeft / (cs.scrollWidth / dots.length));
+    dots.forEach((d, i) => d.classList.toggle("on", i === Math.min(k, dots.length - 1)));
+  }, {passive: true});
 }
 
 function list(title, arr, fmt, open) {
@@ -717,7 +799,9 @@ function route() {
   const [page, sub] = decodeURIComponent(location.hash.slice(1)).split("/");
   const r = raceById(page);
   if (page !== shownPage) { r ? racePage(r) : home(); shownPage = r ? page : ""; window.scrollTo(0, 0); }
-  if (sub === "how") openSheet("How scores work", howSheet());
+  document.querySelectorAll(".navbar button").forEach(b => b.classList.toggle("on", (b.dataset.nav === "home" && !sub) || b.dataset.nav === sub));
+  if (sub === "today") openSheet("Voting today", voteBox());
+  else if (sub === "how") openSheet("How scores work", howSheet());
   else if (sub === "src") openSheet("Your sources", srcSheet());
   else if (sub === "about") openSheet("About this report", aboutSheet());
   else if (sub && sub[0] === "p") {
@@ -760,6 +844,47 @@ document.addEventListener("submit", e => {
   runFind(() => findBallot(q));
 });
 setInterval(() => { const el = $("#pollst"); if (el) { const [c, t] = pollStatus(); el.className = c; el.textContent = t; } }, 30000);
+
+// Foil follows the viewer: finger/mouse position, or phone tilt. One sweep on arrival, then still.
+(() => {
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const setVars = (el, x, y) => {
+    el.style.setProperty("--mx", (x * 100).toFixed(1) + "%");
+    el.style.setProperty("--my", (y * 100).toFixed(1) + "%");
+    el.style.setProperty("--ang", (150 + x * 180).toFixed(0) + "deg");
+  };
+  document.addEventListener("animationend", e => { if (e.animationName === "sweep") e.target.classList.add("swept"); });
+  document.addEventListener("pointermove", e => {
+    const fl = e.target.closest && e.target.closest(".flip");
+    if (!fl || e.pointerType === "touch" && e.buttons === 0 && e.pressure === 0) return;
+    const r = fl.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+    fl.classList.add("swept"); setVars(fl, x, y);
+    if (!still) fl.style.transform = `perspective(900px) rotateX(${((0.5 - y) * 9).toFixed(2)}deg) rotateY(${((x - 0.5) * 11).toFixed(2)}deg)`;
+  }, {passive: true});
+  document.addEventListener("pointerout", e => {
+    const fl = e.target.closest && e.target.closest(".flip");
+    if (fl && !fl.contains(e.relatedTarget)) fl.style.transform = "";
+  });
+  let raf = 0, last = null;
+  const onTilt = e => {
+    if (e.gamma == null) return;
+    last = e;
+    if (raf) return;
+    raf = requestAnimationFrame(() => {
+      raf = 0;
+      const x = Math.min(1, Math.max(0, 0.5 + last.gamma / 50)), y = Math.min(1, Math.max(0, 0.5 + (last.beta - 45) / 60));
+      document.querySelectorAll(".flip").forEach(fl => { fl.classList.add("swept"); setVars(fl, x, y); });
+    });
+  };
+  let asked = false;
+  const listen = () => window.addEventListener("deviceorientation", onTilt, {passive: true});
+  if (window.DeviceOrientationEvent && typeof DeviceOrientationEvent.requestPermission === "function") {
+    document.addEventListener("click", () => {     // iPhone asks once, on the first tap
+      if (asked) return; asked = true;
+      DeviceOrientationEvent.requestPermission().then(st => { if (st === "granted") listen(); }).catch(() => {});
+    });
+  } else if (window.DeviceOrientationEvent) listen();
+})();
 window.addEventListener("hashchange", route);
 route();
 if (ctx) loadFiles(ctx).then(() => { shownPage = null; route(); });

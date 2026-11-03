@@ -457,7 +457,8 @@ def finalize(races):
             sc["basis"] = len(vals)
             if not money and extra:
                 sc["why_money"] = sc.get("why")
-        ranked = sorted(r["cands"], key=lambda c: -(c["score"]["overall"] if c["score"]["overall"] is not None else -1))
+        # fully rated candidates (4+ meters) rank above partly rated ones, then by score
+        ranked = sorted(r["cands"], key=lambda c: (-(c["score"].get("basis", 0) >= 4), -(c["score"]["overall"] if c["score"]["overall"] is not None else -1)))
         for i, c in enumerate(ranked):
             c["rank"] = i + 1 if c["score"]["overall"] is not None else None
         r["cands"] = ranked
