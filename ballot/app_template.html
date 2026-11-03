@@ -326,13 +326,34 @@ details.today .vote .vh{display:none}
 .mine .mq{flex:1;min-width:0;font-size:13.5px;color:var(--sub);font-weight:700;line-height:1.3}
 .mine .ma{font-size:18px;font-weight:800;text-align:right;max-width:55%}
 .mine .ma.none{color:var(--amber);font-size:14px}
-.trade .tq{border-top:1px solid var(--line);padding:10px 0 4px}
-.trade .th{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-weight:800;font-size:15px}
-.trade .th .sv{font-size:12.5px;color:var(--sub);font-weight:700}
-.trade .vd{margin-left:auto;font-size:12px;font-weight:800;padding:3px 10px;border-radius:999px;white-space:nowrap}
-.trade .vd.up{background:var(--good-bg);color:var(--good)}.trade .vd.dn{background:var(--bad-bg);color:var(--bad)}.trade .vd.ev{background:var(--chip);color:var(--sub)}
-.trade ul{margin:6px 0 0;padding:0;list-style:none;font-size:13.5px;line-height:1.45}
-.trade li.u::before{content:"▲ ";color:var(--good)}.trade li.d::before{content:"▼ ";color:var(--bad)}
+.trade .hpick{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px}
+.trade .hchip{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:7px 11px;font-size:13.5px;font-weight:800;cursor:pointer}
+.trade .hchip small{opacity:.7;font-weight:700}
+.trade .hchip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+.trade .hhead{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:start;margin:12px 0 8px}
+.trade .hc{display:flex;flex-direction:column;align-items:center;text-align:center;gap:4px;min-width:0}
+.trade .hc b{font-size:14px;line-height:1.2;overflow-wrap:anywhere}
+.trade .hc .who{font-size:11.5px;color:var(--sub);font-weight:800;text-transform:uppercase;letter-spacing:.04em}
+.trade .hc em{font-style:normal;font-size:24px;font-weight:900;line-height:1}
+.trade .hc em.s-g{color:var(--good)}.trade .hc em.s-m{color:var(--mid)}.trade .hc em.s-b{color:var(--bad)}.trade .hc em.s-n{color:var(--sub)}
+.trade .hava{width:54px;height:54px;border-radius:50%;background:#0a3161 center/cover;display:grid;place-items:center;color:#fff;font-size:15px;font-weight:800;box-shadow:0 0 0 3px var(--card),0 0 0 5px var(--ring,var(--none))}
+.trade .hava.g{--ring:var(--good)}.trade .hava.m{--ring:var(--mid)}.trade .hava.b{--ring:var(--bad)}
+.trade .vs{align-self:center;margin-top:14px;font-weight:900;color:var(--sub);font-size:12px;background:var(--chip);border-radius:999px;padding:7px 9px}
+.trade .hvd{text-align:center;border-radius:12px;padding:9px 10px;font-weight:800;font-size:14.5px;margin:2px 0 8px;line-height:1.3}
+.trade .hvd small{display:block;font-size:12px;font-weight:700;opacity:.85}
+.trade .hvd.up{background:var(--good-bg);color:var(--good)}.trade .hvd.dn{background:var(--bad-bg);color:var(--bad)}.trade .hvd.ev{background:var(--chip);color:var(--sub)}
+.trade .hh{display:grid;grid-template-columns:30px 1fr 1fr 30px;gap:4px 6px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
+.trade .hl{grid-column:1/-1;text-align:center;font-size:12.5px;font-weight:700;color:var(--sub)}
+.trade .hl small{font-weight:600}
+.trade .hv{font-size:14px;text-align:center;color:var(--sub)}
+.trade .hv.win{color:var(--good)}
+.trade .hb{height:10px;background:var(--chip);border-radius:999px;overflow:hidden;display:flex}
+.trade .hb.l{justify-content:flex-end}
+.trade .hb i{display:block;height:100%;background:var(--sub);opacity:.35;border-radius:999px}
+.trade .hb.win i{background:var(--good);opacity:1}
+.trade .hwhy{border-top:1px solid var(--line);padding-top:4px}
+.trade .hwhy p{margin:8px 0 0;font-size:13.5px;line-height:1.45}
+.trade .hwhy .wu{color:var(--good)}.trade .hwhy .wd{color:var(--bad)}
 @media print{.navbar{display:none!important}}
 .navbar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;justify-content:space-around;background:var(--card);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom));box-shadow:0 -6px 20px rgba(0,0,0,.08)}
 .navbar button{flex:1;border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11px;font-weight:700;color:var(--sub);padding:4px 0;cursor:pointer}
@@ -398,32 +419,44 @@ function lines(r) {
 const partyName = p => esc(String(p || "").replace(/^REP$/, "Republican").replace(/^DEM$/, "Democrat").replace(/^NPA$/, "No party").replace(/^NP$/, "Nonpartisan").replace(/^NP \(/, "Nonpartisan ("));
 const flags = c => (c.controversies || []).filter(x => x.status !== "dismissed" && x.status !== "resolved");
 const srcHits = c => (c.owner_sources || []).length;
-// Trade check: every other candidate weighed against the voter's pick (the top-rated one until she picks)
+// Trade check: a head-to-head of the voter's pick (or #1 on the list until she picks) against one rival at a time
 const mv = m => m && m.v != null ? m.v : null;
-const TRADE = [["🏠", c => c.score.local, "more of their money from home", "less of their money from home"],
-  ["🗽", c => c.score.foreign, "fewer foreign ties", "more foreign ties"],
-  ["💵", c => c.score.indep, "less tied to big donors", "more tied to big donors"],
-  ["🌾", c => c.score.land, "protects land more", "protects land less"],
-  ["🎯", c => c.prio, "closer to your priorities", "further from your priorities"],
-  ["🎓", c => c.qual, "more qualified", "less qualified"],
-  ["🌴", c => c.roots, "deeper Florida roots", "shallower Florida roots"]];
+const TRADE = [["🎯", "Your priorities", c => mv(c.prio), "closer to your priorities", "further from your priorities"],
+  ["🏠", "Money from home", c => mv(c.score.local), "more money from home", "less money from home"],
+  ["🗽", "Country first", c => mv(c.score.foreign), "fewer foreign ties", "more foreign ties"],
+  ["💵", "Independent of big donors", c => mv(c.score.indep), "less tied to big donors", "more tied to big donors"],
+  ["🌾", "Protects the land", c => mv(c.score.land), "protects land more", "protects land less"],
+  ["🎓", "Qualified", c => mv(c.qual), "more qualified", "less qualified"],
+  ["🌴", "Florida roots", c => mv(c.roots), "deeper Florida roots", "shallower roots"]];
+const TSEL = {};
+const lastName = n => n.replace(/".*?"\s*/g, "").replace(/\b(Jr|Sr|III|II)\b\.?/g, "").trim().split(/\s+/).slice(-1)[0];
 function tradeCheck(r) {
   if (r.kind !== "race" || r.cands.length < 2) return "";
-  const pick = r.cands.find(c => c.name === PICKS[r.id]), base = pick || r.cands[0], last = n => n.split(" ").slice(-1)[0];
-  const rows = r.cands.filter(c => c !== base).map(c => {
-    const up = [], dn = [];
-    for (const [ic, get, more, less] of TRADE) {
-      const a = mv(get(base)), v = mv(get(c));
-      if (a == null || v == null) continue;
-      if (v - a >= 5) up.push(`${ic} ${more} (+${v - a})`); else if (a - v >= 5) dn.push(`${ic} ${less} (−${a - v})`);
-    }
-    const fa = flags(base).length, fc = flags(c).length;
-    if (fc < fa) up.push(`⚠ ${fa - fc} fewer problem${fa - fc > 1 ? "s" : ""} on record`); else if (fc > fa) dn.push(`⚠ ${fc - fa} more problem${fc - fa > 1 ? "s" : ""} on record`);
-    const oa = base.score.overall, oc = c.score.overall;
-    const [cls, word] = oa == null || oc == null ? ["ev", "Can't score this trade"] : oc - oa >= 5 ? ["up", "Better trade"] : oa - oc >= 5 ? ["dn", "Worse trade"] : ["ev", "About even"];
-    return `<div class="tq"><div class="th">${esc(c.name)} ${PARTY(c.party)}<span class="sv">${oc ?? "—"} vs ${oa ?? "—"}${(c.score.indep == null) !== (base.score.indep == null) ? " · ◔ " + esc(last((c.score.indep == null ? c : base).name)) + " partly rated: no money data" : ""}</span><span class="vd ${cls}">${word}</span></div><ul>${up.map(x => `<li class="u">${esc(x)}</li>`).join("")}${dn.map(x => `<li class="d">${esc(x)}</li>`).join("")}${up.length || dn.length ? "" : `<li>About the same as ${esc(last(base.name))} on everything we measured.</li>`}</ul></div>`;
-  });
-  return `<div class="mcard trade" id="trade"><h3>⚖️ Trade check</h3><p class="mini muted">${pick ? `Every other candidate weighed against your pick, <b>${esc(base.name)}</b>: ▲ what they'd bring, ▼ what you'd give up.` : `Weighed against #1 on the list, <b>${esc(base.name)}</b>. Pick someone above and this weighs everyone against your pick.`} Small differences (under 5 points) are left out.</p>${rows.join("")}</div>`;
+  const pick = r.cands.find(c => c.name === PICKS[r.id]), base = pick || r.cands[0], others = r.cands.filter(c => c !== base);
+  const o = others.find(c => c.name === TSEL[r.id]) || others[0], B = lastName(o.name);
+  const ava = c => `<span class="hava ${band(c.score.overall)}"${c.photo ? ` style="background-image:url('${esc(CROP(c))}')"` : ""}>${c.photo ? "" : esc(initials(c.name))}</span>`;
+  const up = [], dn = []; let wins = 0, rows = 0;
+  const row = (ic, label, a, b, lowerWins, more, less, max) => {
+    const has = a != null && b != null, d = has ? (lowerWins ? a - b : b - a) : 0, big = has && Math.abs(d) >= (lowerWins ? 1 : 5);
+    if (has) rows++;
+    if (big) { if (d > 0) { wins++; up.push(more); } else dn.push(less); }
+    const side = big ? (d > 0 ? "r" : "l") : "", w = v => v == null ? 0 : Math.max(4, Math.round(100 * v / max));
+    return `<div class="hh"><div class="hl">${ic} ${label}</div><b class="hv${side === "l" ? " win" : ""}">${a ?? "—"}</b><span class="hb l${side === "l" ? " win" : ""}"><i style="width:${w(a)}%"></i></span><span class="hb r${side === "r" ? " win" : ""}"><i style="width:${w(b)}%"></i></span><b class="hv${side === "r" ? " win" : ""}">${b ?? "—"}</b></div>`;
+  };
+  let h = TRADE.map(([ic, label, get, more, less]) => row(ic, label, get(base), get(o), false, more, less, 100)).join("");
+  const fa = flags(base).length, fo = flags(o).length;
+  h += row("⚠", "Problems on record <small>(fewer is better)</small>", fa, fo, true, "fewer problems on record", "more problems on record", Math.max(fa, fo, 1));
+  const oa = base.score.overall, oc = o.score.overall;
+  const [cls, word] = oa == null || oc == null ? ["ev", "Can't score this trade"] : oc - oa >= 5 ? ["up", `${B} would be a better trade`] : oa - oc >= 5 ? ["dn", `${B} would be a worse trade`] : ["ev", "About an even trade"];
+  const sub = oa != null && oc != null ? `${oc} vs ${oa} overall · ${B} is ahead on ${wins} of ${rows}` : "Not enough data to score one of them";
+  const pr = c => c.prio && c.prio.planks ? `${lastName(c.name)} ${c.prio.proven || 0} of ${Object.keys(c.prio.planks).length}` : `${lastName(c.name)} none found`;
+  const part = (base.score.indep == null) !== (o.score.indep == null) ? `<p class="mini muted">◔ ${esc(lastName((o.score.indep == null ? o : base).name))} is partly rated: no campaign-money data, so the money rows are blank or rest on roots alone.</p>` : "";
+  return `<div class="mcard trade" id="trade"><h3>⚖️ Trade check</h3><p class="mini muted">${pick ? "Your pick" : "#1 on the list"} head to head with ${others.length > 1 ? "any other candidate. Tap a name to switch." : "the other candidate."} Green marks who's ahead on each row; gaps under 5 points don't count.</p>
+    ${others.length > 1 ? `<div class="hpick">${others.map(c => `<button class="hchip" data-tsel="${esc(r.id)}" data-val="${esc(c.name)}" aria-pressed="${c === o}">${esc(lastName(c.name))} <small>${c.score.overall ?? "—"}</small></button>`).join("")}</div>` : ""}
+    <div class="hhead"><div class="hc">${ava(base)}<span class="who">${pick ? "Your pick" : "#1 on list"}</span><b>${esc(base.name)}</b>${PARTY(base.party)}<em class="s-${band(oa)}">${oa ?? "—"}</em></div><div class="vs">VS</div><div class="hc">${ava(o)}<span class="who">Trade for</span><b>${esc(o.name)}</b>${PARTY(o.party)}<em class="s-${band(oc)}">${oc ?? "—"}</em></div></div>
+    <div class="hvd ${cls}">${esc(word)}<small>${esc(sub)}</small></div>${h}
+    <div class="hwhy">${up.length ? `<p><b class="wu">▲ ${esc(B)} would bring:</b> ${esc(up.join(", "))}.</p>` : ""}${dn.length ? `<p><b class="wd">▼ You'd give up:</b> ${esc(dn.join(", "))}.</p>` : ""}${up.length || dn.length ? "" : `<p>About the same on everything we measured.</p>`}
+    <p class="mini muted">🎯 Priorities backed by their actual record, not just promises: ${esc(pr(base))} · ${esc(pr(o))}.</p>${part}</div></div>`;
 }
 
 function meter(icon, label, m) {
@@ -526,28 +559,32 @@ const COUNTY_GIS = {
     cc: ["https://www.mymanatee.org/gisits/rest/services/opendata/General/FeatureServer/7", "COMMDIST"],
     city: ["https://www.mymanatee.org/gishost/rest/services/Hosted/IncorporatedAreas_CityBoundaries/FeatureServer/0", "name"],
     special: [2, 3, 14].map(n => "https://gis.manateepao.com/arcgis/rest/services/Website/DistrictPLSSLayers/MapServer/" + n),
+    // city wards where only that ward's voters pick the seat (per the county's 2026 sample ballot, Bradenton's council seats are citywide)
+    ward: {Palmetto: ["https://services1.arcgis.com/L2Neyx2ylSeTBS0F/arcgis/rest/services/Wards/FeatureServer/0", "WARD"]},
   },
 };
 const normSpecial = s => String(s || "").toLowerCase().replace(/&/g, " and ").replace(/\b(and|the|district|dist|cdd|community development|inc)\b/g, " ").replace(/[^a-z0-9]/g, "");
-async function arcgisHit(url, field, x, y) {
-  try {
+async function arcgisHit(url, field, x, y, tries = 3) {
+  for (let k = 1; ; k++) try {
     const u = url + "/query?" + new URLSearchParams({geometry: x + "," + y, geometryType: "esriGeometryPoint", inSR: "4326", spatialRel: "esriSpatialRelIntersects", outFields: field, returnGeometry: "false", f: "json"});
     const ac = new AbortController(); const t = setTimeout(() => ac.abort(), 12000);
     const j = await (await fetch(u, {signal: ac.signal})).json(); clearTimeout(t);
     if (j.error) throw new Error(j.error.message);
     return j.features && j.features[0] ? j.features[0].attributes[field] : "";   // "" = point is outside every polygon
-  } catch (e) { console.error("county map lookup failed", url, e); return null; }   // null = unknown, shown as "Check"
+  } catch (e) { console.error("county map lookup failed", url, e); if (k >= tries) return null; await new Promise(r => setTimeout(r, 600 * k)); }   // null after retries = unknown, shown as "Check"
 }
 async function refine(c, x, y) {
   const g = COUNTY_GIS[c.county];
   if (!g || x == null) return c;
-  const jobs = Object.entries(g).filter(([k]) => k !== "special").map(async ([k, [url, field]]) => [k, await arcgisHit(url, field, x, y)]);
+  const jobs = Object.entries(g).filter(([k]) => k !== "special" && k !== "ward").map(async ([k, [url, field]]) => [k, await arcgisHit(url, field, x, y)]);
   for (const [k, v] of await Promise.all(jobs)) {
     if (v === null) { if (k !== "city") c[k] = null; continue; }
     if (k === "cc") { c.cc = v === "" ? null : +v; if (c.cc && c.cc <= 5) c.sb = c.cc; }   // school board districts 1–5 follow commission lines
     else if (k === "city") c.city = v;
     else (c.special = c.special || {})[k] = v;
   }
+  const wl = g.ward && c.city && g.ward[c.city];
+  if (wl) { const v = await arcgisHit(wl[0], wl[1], x, y); c.ward = v === null || v === "" ? null : +v; }
   if (g.special) {     // fire / CDD / stewardship districts the point sits in (property appraiser layers)
     const got = await Promise.all(g.special.map(u => arcgisHit(u, "NAME", x, y)));
     c.specials = got.some(v => v === null) ? null : got.filter(Boolean).map(normSpecial);
@@ -674,7 +711,7 @@ function card(r, c, i) {
         ${c.qual && c.qual.background ? `<div class="bsec"><h5>🎓 Background</h5><p>${esc(c.qual.background)}</p></div>` : ""}
         ${(c.land_positions || []).some(x => x.stance < 0) ? `<div class="bsec"><h5>🌾 On land</h5><p>${esc(firstSentence(c.land_positions.find(x => x.stance < 0).quote_or_summary || "", 120))}</p></div>` : ""}
         ${votes ? `<div class="bsec"><h5>🗳️ How they voted</h5><ul class="vl">${c.votes.slice(0, 3).map(v => voteRow(v, true)).join("")}</ul></div>` : ""}
-        ${planks.length ? `<div class="bsec"><h5>🎯 Your priorities</h5><ul>${planks.map(([k, x]) => `<li>${x.match > 0 ? "✅" : "❌"} ${esc(firstSentence(x.evidence || k, 110))}</li>`).join("")}</ul></div>` : ""}
+        ${planks.length ? `<div class="bsec"><h5>🎯 Your priorities</h5><ul>${planks.map(([k, x]) => `<li>${x.match > 0 ? (x.kind === "did" ? "✅" : "🗣") : "❌"} ${esc(firstSentence(x.evidence || k, 110))}</li>`).join("")}</ul></div>` : ""}
         ${f.length ? `<div class="bsec"><h5>⚠ On record</h5><p><span class="st ${esc(f[0].status || "")}">${esc(f[0].status || "note")}</span>${esc(firstSentence(f[0].text, 130))}</p></div>` : ""}
         ${news ? `<div class="bsec"><h5>💬 Money in the news</h5><p>${esc(firstSentence(c.money_notes[0].text, 130))}</p></div>` : ""}
         ${srcHits(c) ? `<div class="bsec"><h5>📣 Your sources</h5><p>${esc(c.owner_sources[0].title)}${srcHits(c) > 1 ? ` <b>+ ${srcHits(c) - 1} more</b>` : ""}</p></div>` : ""}
@@ -797,7 +834,7 @@ function profile(r, c) {
     ${s.land ? meter("🌾", "Protects land", s.land) + `<div class="mini muted">${esc(s.land.label)}.</div>` : ""}</div>`;
   if (c.roots || c.land_positions) h += `<div class="panel">${c.roots ? `<h4>🌴 Roots: ${c.roots.v}/100</h4><p class="mini" style="margin:0 0 8px">${esc(c.roots.summary)}${(c.roots.urls || []).slice(0, 2).map((u, k) => link(u, "source " + (k + 1))).join("")}</p>` : ""}${(c.land_positions || []).length ? `<h4>🌾 On land & data centers</h4><ul class="vl">${c.land_positions.map(x => `<li class="vr"><span class="vp ${x.stance > 0 ? "yea" : "nay"}">${x.stance > 0 ? "Protects" : "Develops"}</span><span>${esc(x.quote_or_summary || "")}${x.date ? ` <span class="mini muted">${esc(x.date)}</span>` : ""}${link(x.url)}</span></li>`).join("")}</ul>` : ""}</div>`;
   if (c.qual) h += `<div class="panel">${meter("🎓", "Qualified", c.qual)}<div class="mini" style="margin-top:6px">${c.qual.background ? `<b>Background:</b> ${esc(c.qual.background)}<br>` : ""}${esc(c.qual.why || c.qual.label || "")}${(c.qual.sources || []).slice(0, 3).map((u, k) => link(u, "source " + (k + 1))).join("")}</div></div>`;
-  if (c.prio) h += `<div class="panel">${meter("🎯", "Priorities", c.prio)}<ul class="vl" style="margin-top:6px">${Object.entries(c.prio.planks || {}).map(([k, x]) => { const pl = ((D.platform || {}).planks || []).find(y => y.id === k); return `<li class="vr"><span class="vp ${x.match > 0 ? "yea" : "nay"}">${x.match > 0 ? "Matches" : "Against"}</span><span><b>${esc(pl ? pl.title : k)}</b> · ${esc(x.evidence || "")}${link(x.url)}</span></li>`; }).join("")}</ul></div>`;
+  if (c.prio) h += `<div class="panel">${meter("🎯", "Priorities", c.prio)}<ul class="vl" style="margin-top:6px">${Object.entries(c.prio.planks || {}).map(([k, x]) => { const pl = ((D.platform || {}).planks || []).find(y => y.id === k); return `<li class="vr"><span class="vp ${x.match > 0 ? (x.kind === "did" ? "yea" : "nv") : "nay"}">${x.kind === "did" ? (x.match > 0 ? "Record ✓" : "Record ✗") : (x.match > 0 ? "Promise" : "Says no")}</span><span><b>${esc(pl ? pl.title : k)}</b> · ${esc(x.evidence || "")}${x.contra ? `<span class="mini muted"> They say: “${esc(firstSentence(x.contra, 140))}”, but the record says otherwise.</span>` : ""}${link(x.url)}</span></li>`; }).join("")}</ul></div>`;
   h += `<div class="panel"><h4>Who they are</h4>${esc(c.bio || "")}${c.running_mate ? `<p class="mini" style="margin-top:8px"><b>Running mate:</b> ${esc(c.running_mate)}</p>` : ""}${c.local_ties ? `<p class="mini" style="margin-top:8px"><b>🏠 Local ties:</b> ${esc(c.local_ties)}</p>` : ""}</div>`;
   h += ownBox(c.owner_sources, c.owner_sources_searched);
   let mh = `<div class="kv" style="margin:2px 0 10px"><div><b>${usd(m.raised)}</b><span>raised</span></div><div><b>${pct(m.fl_pct)}</b><span>from Florida</span></div><div><b>${pct(m.out_pct)}</b><span>out of state</span></div><div><b>${pct(m.local_pct)}</b><span>${m.local_label ? "Sarasota–Manatee" : "Manatee County"}</span></div><div><b>${pct(m.org_pct)}</b><span>business / PAC</span></div><div><b>${pct(m.build_land_pct)}</b><span>building & land</span></div></div>`;
@@ -831,7 +868,7 @@ function howSheet() {
     <div class="panel"><h4>💵 Independent: big donors</h4>100 minus the share of all the money behind them that is big money. Big money means business, PAC and party money; for federal races, individuals giving $2,000+; any political committee the candidate controls (no donation limit in Florida); and money outside groups spent to help them.</div>
     <div class="panel"><h4>🌾 Protects the land: land, development and data-center money</h4>Starts at 100 and loses 2 points for every 1% of the candidate's money that comes from land, development, homebuilding, data-center, mining or utility interests, matched on the donor's name, employer or stated occupation in the public filings. That money also doesn't count toward 🏠 Local, even when it comes from Florida. Each documented public position for data centers or more development (an interview, debate, campaign page or vote, linked on the profile) takes another 40 points off.</div>
     <div class="panel"><h4>🎓 Qualified for the job</h4>How well the candidate's actual background (career, credentials, past offices, business) fits this office: for example pest control or public health for mosquito control, legal work for Attorney General, farming for Agriculture. Unknown backgrounds are left blank, not marked down.</div>
-    ${D.platform ? `<div class="panel"><h4>🎯 Your priorities: the ${esc(D.platform.who)} platform</h4>${esc(D.platform.summary || "")}<ul class="formula">${(D.platform.planks || []).map(x => `<li><b>${esc(x.title)}</b>: ${esc(x.promise || "")}</li>`).join("")}</ul>Each candidate is checked against these planks only from documented votes and their own stated positions, each linked. This meter reflects the guide owner's priorities: it is not neutral.</div>` : ""}
+    ${D.platform ? `<div class="panel"><h4>🎯 Your priorities: the ${esc(D.platform.who)} platform</h4>${esc(D.platform.summary || "")}<ul class="formula">${(D.platform.planks || []).map(x => `<li><b>${esc(x.title)}</b>: ${esc(x.promise || "")}</li>`).join("")}</ul>Each candidate is checked against these planks, every item linked. What they've actually done (votes, actions in office, documented conduct) counts in full. A plank they only promise counts 60 instead of 100, because saying isn't doing. A plank they say they oppose counts 0. When their record contradicts what they say, the record wins, and the mismatch is also listed as a problem on record. This meter reflects the guide owner's priorities: it is not neutral.</div>` : ""}
     <div class="panel"><h4>Limits</h4>Candidates who raised very little aren't scored, because a few checks would swing everything: under $${R.min.federal.toLocaleString()} for federal and statewide offices, $${R.min.legislature.toLocaleString()} for the Legislature, $${R.min.local.toLocaleString()} for county and city. Federal donor detail runs through about July 2026. Filings miss dark money, family money and promises. A donation is a fact about the donor, not proof of what a candidate will do.</div>`;
 }
 
@@ -895,6 +932,8 @@ function route() {
 const curPage = () => decodeURIComponent(location.hash.slice(1)).split("/")[0];
 document.addEventListener("click", e => {
   const t = e.target;
+  const ts = t.closest("[data-tsel]");
+  if (ts) { TSEL[ts.dataset.tsel] = ts.dataset.val; const tr = $("#trade"), rr = raceById(ts.dataset.tsel); if (tr && rr) tr.outerHTML = tradeCheck(rr); return; }
   const pk = t.closest("[data-pick]");
   if (pk) { const k = pk.dataset.pick, grp = pk.parentElement, opts = [...grp.children].map(b => b.dataset.val); setPick(k, pk.dataset.val); grp.outerHTML = pickBtns(k, opts); const tr = $("#trade"), rr = raceById(k); if (tr && rr) tr.outerHTML = tradeCheck(rr); return; }
   const go = t.closest("[data-go]");

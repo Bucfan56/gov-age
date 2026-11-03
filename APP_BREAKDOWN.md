@@ -62,6 +62,12 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-03 (late night): Trade check head to head, priorities judged by the record, exact ballots by address
+
+- **Trade check redesigned for phones.** It now shows one rival at a time against your pick (tap a name to switch): both photos, both scores, a verdict banner, then a bar for each measure (priorities, money from home, country first, independence, land, qualified, Florida roots, problems on record), with the leader shown in green. Below that is a short ▲ would bring / ▼ you'd give up summary.
+- **Priorities: deeds over words.** A priority backed by what the candidate has actually done (votes, actions in office, documented conduct) counts 100. One they only promise counts 60. One they say they oppose counts 0. Where the record contradicts what they say, the record wins, and the mismatch is also listed under problems on record. Profiles mark each item Record ✓ / Record ✗ / Promise / Says no, and the Trade check shows how many priorities each candidate has backed up with action.
+- **No more "check your address" after a full address in Manatee.** Palmetto addresses are now matched to their city ward (City of Palmetto ward map) for the Ward 2 seat. Bradenton's council seats stay citywide, which the county's 2026 sample ballot confirms. Map lookups retry before giving up.
+
 ### 2026-11-03 (night): Trade check on every race
 
 - Each race with two or more candidates now has a **⚖️ Trade check** under the candidate cards. It weighs every other candidate against the voter's pick (or #1 on the list until she picks): ▲ what they'd bring, ▼ what you'd give up, across money from home, foreign ties, big-donor ties, land, priorities, qualifications, Florida roots and problems on record. Differences under 5 points are left out.

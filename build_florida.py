@@ -428,6 +428,20 @@ for _c in (PRIO.get("candidates") or {}).values():
             _c["planks"].pop(_k)
 
 
+# what candidates have DONE, checked against each plank (votes, actions in office, documented conduct), with contradictions
+VERIFY = (load(S / "research3" / "verify_records.json", {}) or {}).get("candidates", {})
+PLANK_IDS = {x["id"] for x in ((PRIO.get("platform") or {}).get("planks") or [])}
+# a held plank reads as a record when it describes an action and not a promise or a platform line
+DID_RE = re.compile(r"(?i)^voted|\b(voted|signed|sponsored|co-?sponsored|filed|sued|enforc\w*|ruled|approved|vetoed|appointed|credited|built|issued|passed|authored|introduced|cut|raised|blocked|opposed the|as (attorney general|commissioner|mayor|senator|governor|cfo))\b")
+SAID_RE = re.compile(r"(?i)\b(platform|says|said|pledg\w*|promis\w*|campaign\w*|propos\w*|calls for|wants|website|questionnaire|statement|told|vows?|would|plans?|backs|supports?)\b")
+PROMISE_PTS = 60      # a plank only promised counts 60 of 100: saying isn't doing
+
+
+def plank_kind(x):
+    ev = str(x.get("evidence") or "")
+    return "did" if DID_RE.search(ev) and not SAID_RE.search(ev) else "said"
+
+
 ROOTS = load(S / "research3" / "roots.json", {}) or {}
 LAND_HIT = 40          # points off 🌾 Land per documented pro-data-center / pro-development position
 INVESTORS_HIT = 15     # points off 💵 Independent when donors are pitched as "investors" at the candidate's event (sourced video only)
@@ -484,8 +498,14 @@ def finalize(races):
                 c["qual"] = {"v": q.get("qual"), "background": q.get("background"), "why": q.get("why"), "sources": q.get("sources", []),
                              "label": (q.get("why") or "") if q.get("qual") is not None else "Background not found: unknown, not unqualified"}
             pr = (PRIO.get("candidates") or {}).get(c["name"]) or {}
-            planks = dict(pr.get("planks") or {})
-            # apply the bill->plank map to every roll call we hold (the research roster predates some vote files)
+            planks = {k: dict(x, kind=plank_kind(x)) for k, x in (pr.get("planks") or {}).items()}
+
+            def put(k, entry):
+                prev = planks.get(k)
+                if prev and prev.get("kind") == "said" and prev.get("match", 0) > 0 and entry["match"] < 0:
+                    entry["contra"] = prev.get("evidence")      # says yes, record says no: the record wins
+                planks[k] = entry
+            # roll calls we hold, read through the bill->plank map (a record outranks a stated position)
             tally = defaultdict(list)
             for v in c.get("votes") or []:
                 bm = BILLMAP.get(bill_key(v.get("bill")))
@@ -495,15 +515,41 @@ def finalize(races):
                 tally[bm["plank"]].append((sign, v))
             for k, xs in tally.items():
                 tot = sum(x[0] for x in xs)
-                if k in planks or tot == 0:
+                if tot == 0 or (planks.get(k) or {}).get("kind") == "did":
                     continue
                 v = xs[0][1]
-                planks[k] = {"match": 1 if tot > 0 else -1, "url": v.get("url"),
-                             "evidence": f"Voted {v['vote']} on {v['bill']}" + (f" and {len(xs) - 1} related vote{'s' if len(xs) > 2 else ''}" if len(xs) > 1 else "")}
+                put(k, {"match": 1 if tot > 0 else -1, "url": v.get("url"), "kind": "did",
+                        "evidence": f"Voted {v['vote']} on {v['bill']}" + (f" and {len(xs) - 1} related vote{'s' if len(xs) > 2 else ''}" if len(xs) > 1 else "")})
+            # the record check: actions found in office, in the news and in public filings
+            ver = VERIFY.get(c["name"]) or {}
+            dids = defaultdict(list)
+            for x in ver.get("did") or []:
+                if x.get("plank") in PLANK_IDS and x.get("url") and x.get("match") in (1, -1) and x.get("what"):
+                    dids[x["plank"]].append(x)
+            for k, xs in dids.items():
+                tot = sum(x["match"] for x in xs)
+                prev = planks.get(k) or {}
+                if tot == 0 or (prev.get("kind") == "did" and str(prev.get("evidence", "")).startswith("Voted")):
+                    continue     # a split record decides nothing; roll calls stay
+                best = next(x for x in xs if x["match"] == (1 if tot > 0 else -1))
+                put(k, {"match": 1 if tot > 0 else -1, "url": best["url"], "evidence": best["what"], "kind": "did"})
+            for x in ver.get("contradictions") or []:
+                k = x.get("plank")
+                if k in PLANK_IDS and x.get("url") and x.get("did") and x.get("said"):
+                    planks[k] = {"match": -1, "kind": "did", "evidence": x["did"], "url": x["url"], "contra": x["said"]}
+            for k, x in planks.items():
+                if x.get("contra"):
+                    c.setdefault("controversies", []).append({"text": f"Says one thing, record shows another. They say: {x['contra']} The record: {x['evidence']}", "status": "established", "url": x.get("url")})
             if planks:
-                n, pos = len(planks), sum(1 for x in planks.values() if x.get("match", 0) > 0)
-                c["prio"] = {"v": round(100 * pos / n) if n >= 2 else None, "planks": planks,
-                             "label": f"Matches {pos} of {n} priorities with a record" + ("" if n >= 2 else " (needs 2 to score)")}
+                n = len(planks)
+                pos = sum(1 for x in planks.values() if x.get("match", 0) > 0)
+                proven = sum(1 for x in planks.values() if x.get("kind") == "did")
+                promised = sum(1 for x in planks.values() if x.get("kind") == "said" and x.get("match", 0) > 0)
+                contra = sum(1 for x in planks.values() if x.get("contra"))
+                pts = [(100 if x["kind"] == "did" else PROMISE_PTS) if x.get("match", 0) > 0 else 0 for x in planks.values()]
+                c["prio"] = {"v": round(sum(pts) / n) if n >= 2 else None, "planks": planks, "proven": proven, "promised": promised, "contra": contra,
+                             "label": f"Matches {pos} of {n} priorities; {proven} backed by their record, {promised} only promised"
+                                      + (f"; {contra} where the record contradicts what they say" if contra else "") + ("" if n >= 2 else " (needs 2 to score)")}
             apply_evidence(c)
             sc = c["score"]
             if (sc.get("indep") or {}).get("v") is not None:
