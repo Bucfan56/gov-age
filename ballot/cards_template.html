@@ -149,6 +149,111 @@ table.t td.r{text-align:right;white-space:nowrap;font-weight:700}
 .side div{margin:4px 0}
 footer{color:var(--sub);font-size:12.5px;margin-top:36px;text-align:center}
 body.locked{overflow:hidden}
+/* ---------- Voting today ---------- */
+.vote{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:14px 16px;margin:4px 0 14px;border-left:6px solid #b22234}
+.vh{display:flex;gap:12px;align-items:center}
+.vh .vi{font-size:30px;line-height:1}
+.vh b{display:block;font-size:17px;line-height:1.25}
+.vh span{color:var(--sub);font-size:13.5px;font-weight:600}
+.vh span.open{color:var(--good)}.vh span.closed{color:var(--bad)}
+.vote ul{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.vote li{font-size:14px;display:flex;gap:10px;align-items:flex-start}
+.vote li i{font-style:normal;flex:none;width:22px;text-align:center}
+.vbtns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:12px}
+.vbtns a{display:block;text-align:center;text-decoration:none;font-weight:800;padding:12px 10px;border-radius:12px;background:var(--ink);color:var(--bg);font-size:14.5px}
+.vbtns a.alt{background:var(--chip);color:var(--ink)}
+.zip{display:flex;gap:8px;margin-top:12px;align-items:center;flex-wrap:wrap}
+.zip label{font-size:13px;font-weight:700;color:var(--sub)}
+.zip input{flex:1;min-width:110px;max-width:160px;font:inherit;font-size:16px;font-weight:700;letter-spacing:.08em;padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:var(--bg);color:var(--ink);outline:none}
+.zip input:focus{border-color:var(--accent)}
+.zipout{font-size:13.5px;margin:8px 0 0;min-height:1em}
+.zipout:empty{display:none}
+/* ---------- Deck picker ---------- */
+.decks{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 8px;margin:0 -2px 6px;scroll-snap-type:x proximity}
+.dk{flex:none;scroll-snap-align:start;border:2px solid var(--line);background:var(--card);border-radius:14px;padding:6px 12px 6px 6px;display:flex;gap:8px;align-items:center;font-weight:700;font-size:13.5px;cursor:pointer}
+.dk[aria-pressed="true"]{border-color:var(--ink)}
+.dk .sw{width:30px;height:30px;border-radius:9px;flex:none}
+.sw-flag{background:linear-gradient(#0a3161 0 45%,transparent 45%),repeating-linear-gradient(#b22234 0 4px,#fff 4px 8px)}
+.sw-sun{background:linear-gradient(160deg,#ffb347,#ff5e62 50%,#12a4b6)}
+.sw-marble{background:linear-gradient(135deg,#f6f1e7,#e2d8c3);box-shadow:inset 0 0 0 3px #b8962e}
+.sw-button{background:radial-gradient(circle,#fff 0 34%,#0a3161 35% 52%,#b22234 53%)}
+.sw-holo{background:conic-gradient(from 30deg,#7af,#f7a,#ff7,#7fa,#7af)}
+.deckhint{font-size:12.5px;color:var(--sub);margin:0 2px 10px}
+/* ---------- Card front: shared layout ---------- */
+.face.front{padding:0;gap:0;overflow:hidden}
+.art{position:relative;aspect-ratio:5/4;background:#0a3161;overflow:hidden}
+.art img{width:100%;height:100%;object-fit:cover;object-position:50% 18%;display:block}
+.mono{position:absolute;inset:0;display:grid;place-items:center;font-size:64px;font-weight:800;color:rgba(255,255,255,.92);letter-spacing:-.02em;background:radial-gradient(circle at 50% 40%,rgba(255,255,255,.18),transparent 60%)}
+.mono small{position:absolute;bottom:12px;font-size:11px;font-weight:600;letter-spacing:.04em;opacity:.75}
+.seal{position:absolute;right:10px;bottom:10px;width:76px;height:76px;display:grid;place-items:center;align-content:center;color:#fff;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,.35);border-radius:50%;border:3px solid #fff}
+.seal b{font-size:28px;line-height:1;font-weight:800;letter-spacing:-.03em}
+.seal span{font-size:9.5px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+.seal.g{background:var(--good)}.seal.m{background:var(--mid)}.seal.b{background:var(--bad)}.seal.n{background:#77736b}
+.rk{position:absolute;left:10px;top:10px;background:rgba(10,15,30,.78);color:#fff;font-size:12px;font-weight:800;padding:5px 9px;border-radius:999px}
+.st8{position:absolute;right:10px;top:10px;background:rgba(255,255,255,.92);color:#0a3161;font-size:11px;font-weight:800;padding:4px 8px;border-radius:999px;letter-spacing:.04em}
+.fbody{padding:14px 16px 16px;display:flex;flex-direction:column;gap:11px;flex:1}
+.nameplate .nm{font-weight:800;font-size:19px;line-height:1.15;letter-spacing:-.01em}
+.nameplate .pt{color:var(--sub);font-size:13px;margin-top:2px}
+.nsw{font-size:12.5px;color:var(--sub);background:var(--none-bg);border-radius:10px;padding:8px 10px}
+.credit{font-size:10.5px;color:var(--sub);opacity:.8}
+.dot{background-size:cover;background-position:50% 20%;box-shadow:0 0 0 2.5px var(--card),0 0 0 4.5px currentColor}
+.dot.g{color:var(--good)}.dot.m{color:var(--mid)}.dot.b{color:var(--bad)}.dot.n{color:var(--none)}
+.dot.ph{font-size:0}
+.tile .dots{gap:9px;padding:4px}
+/* ---------- Deck 1: Old Glory ---------- */
+[data-deck="flag"] .face.front{border:0;border-radius:16px;box-shadow:0 0 0 3px #0a3161,var(--shadow)}
+[data-deck="flag"] .art{background:#0a3161 radial-gradient(#ffffff55 1.2px,transparent 1.6px) 0 0/18px 18px}
+[data-deck="flag"] .seal{border-radius:0;border:0;width:88px;height:88px;clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);padding-top:10px;box-shadow:none}
+[data-deck="flag"] .seal b{font-size:24px}[data-deck="flag"] .seal span{display:none}
+[data-deck="flag"] .nameplate{background:#0a3161;color:#fff;margin:-14px -16px 0;padding:12px 16px}
+[data-deck="flag"] .nameplate .pt{color:#c9d6ee}
+[data-deck="flag"] .fbody{border-bottom:10px solid transparent;border-image:repeating-linear-gradient(90deg,#b22234 0 14px,#fff 14px 28px) 10}
+/* ---------- Deck 2: Sunshine State ---------- */
+[data-deck="sun"] .face.front{border:0;padding:8px;background:linear-gradient(160deg,#ffb347,#ff5e62 48%,#12a4b6);border-radius:20px}
+[data-deck="sun"] .art{border-radius:14px;background:linear-gradient(#ffcf70,#ff7b54 70%,#12a4b6)}
+[data-deck="sun"] .art::after{content:"🌴";position:absolute;left:10px;bottom:6px;font-size:30px;filter:drop-shadow(0 2px 3px rgba(0,0,0,.3))}
+[data-deck="sun"] .fbody{background:var(--card);border-radius:14px;margin-top:8px}
+[data-deck="sun"] .seal{border:0;background-image:repeating-conic-gradient(rgba(255,255,255,.22) 0 10deg,transparent 10deg 20deg);box-shadow:0 0 0 4px #ffd25e,0 4px 14px rgba(0,0,0,.35)}
+[data-deck="sun"] .st8{background:#ff8a3d;color:#fff}
+[data-deck="sun"] .st8::before{content:"🍊 "}
+/* ---------- Deck 3: Capitol Marble ---------- */
+[data-deck="marble"] .face.front{border:0;border-radius:6px;padding:7px;background:linear-gradient(115deg,transparent 40%,rgba(120,110,90,.10) 41%,transparent 43%),linear-gradient(60deg,transparent 62%,rgba(120,110,90,.08) 63%,transparent 66%),linear-gradient(135deg,#f8f4ea,#e6dcc7);box-shadow:inset 0 0 0 2px #b8962e,inset 0 0 0 5px #f8f4ea,inset 0 0 0 6px #b8962e,var(--shadow)}
+[data-deck="marble"] .art{border-radius:50% 50% 4px 4px/34% 34% 4px 4px;background:#5b4a2c;margin:6px 6px 0;box-shadow:inset 0 0 0 3px #b8962e}
+[data-deck="marble"] .fbody{color:#2a2418}
+[data-deck="marble"] .nameplate{text-align:center;border-bottom:1px solid #b8962e;padding-bottom:8px}
+[data-deck="marble"] .nameplate .nm{font-family:Georgia,"Times New Roman",serif;font-variant:small-caps;font-weight:700;font-size:21px;letter-spacing:.02em}
+[data-deck="marble"] .nameplate .pt,[data-deck="marble"] .blurb,[data-deck="marble"] .hintline,[data-deck="marble"] .credit{color:#6a5d45}
+[data-deck="marble"] .meter .tr{background:#e1d6bf}
+[data-deck="marble"] .seal{border:3px double #f3e2a9;box-shadow:0 0 0 3px #b8962e,0 4px 14px rgba(0,0,0,.3)}
+[data-deck="marble"] .seal b{font-family:Georgia,serif}
+[data-deck="marble"] .rk{background:#b8962e;top:auto;bottom:12px;left:12px}[data-deck="marble"] .st8{display:none}
+[data-deck="marble"] .bdg:not(.flag):not(.src){background:#ebe1cb;color:#4a3f2a}
+/* ---------- Deck 4: Campaign Button ---------- */
+[data-deck="button"] .face.front{border-radius:18px;border:0;box-shadow:var(--shadow)}
+[data-deck="button"] .art{aspect-ratio:auto;height:230px;background:repeating-linear-gradient(90deg,#0a3161 0 26px,#0d3b73 26px 52px)}
+[data-deck="button"] .art img,[data-deck="button"] .mono{position:absolute;left:50%;top:50%;width:176px;height:176px;transform:translate(-50%,-50%);border-radius:50%;right:auto;bottom:auto;border:7px solid #fff;box-shadow:0 0 0 9px var(--ring,#77736b),0 8px 22px rgba(0,0,0,.45)}
+[data-deck="button"] .mono{background:#b22234;font-size:52px}
+[data-deck="button"] .mono small{display:none}
+[data-deck="button"] .band-g{--ring:var(--good)}[data-deck="button"] .band-m{--ring:var(--mid)}[data-deck="button"] .band-b{--ring:var(--bad)}
+[data-deck="button"] .seal{width:64px;height:64px;right:14px;bottom:14px}
+[data-deck="button"] .seal b{font-size:23px}[data-deck="button"] .seal span{display:none}
+[data-deck="button"] .nameplate{text-align:center}
+[data-deck="button"] .nameplate .nm{text-transform:uppercase;font-size:20px;font-weight:800;letter-spacing:.03em}
+[data-deck="button"] .nameplate::after{content:"★ ★ ★";display:block;color:#b22234;font-size:11px;letter-spacing:.4em;margin-top:4px}
+/* ---------- Deck 5: Holo Foil ---------- */
+[data-deck="holo"] .face.front{border:0;border-radius:16px;padding:8px;background:linear-gradient(135deg,#d9dde4,#9aa3b2 30%,#f4f6f8 50%,#8e97a6 70%,#dfe3ea);position:relative}
+[data-deck="holo"] .face.front::after{content:"";position:absolute;inset:0;border-radius:16px;pointer-events:none;background:linear-gradient(115deg,transparent 20%,rgba(255,120,220,.35) 35%,rgba(120,220,255,.35) 45%,rgba(255,255,140,.35) 55%,transparent 70%) 0 0/250% 250%;mix-blend-mode:color-dodge;animation:holo 6s linear infinite}
+@keyframes holo{0%{background-position:100% 0}100%{background-position:-150% 0}}
+@media (prefers-reduced-motion:reduce){[data-deck="holo"] .face.front::after{animation:none;background-position:30% 0}}
+[data-deck="holo"] .art{border-radius:10px;box-shadow:inset 0 0 0 2px rgba(255,255,255,.7)}
+[data-deck="holo"] .fbody{background:#141822;color:#eef1f6;border-radius:10px;margin-top:8px}
+[data-deck="holo"] .nameplate .pt,[data-deck="holo"] .blurb,[data-deck="holo"] .hintline,[data-deck="holo"] .credit{color:#a9b1c2}
+[data-deck="holo"] .meter .tr{background:#2a3040}
+[data-deck="holo"] .meter .fl{box-shadow:0 0 8px currentColor}
+[data-deck="holo"] .meter .fl.g{color:var(--good)}[data-deck="holo"] .meter .fl.m{color:var(--mid)}[data-deck="holo"] .meter .fl.b{color:var(--bad)}
+[data-deck="holo"] .bdg:not(.flag):not(.src){background:#262c3a;color:#dfe5f0}
+[data-deck="holo"] .nsw{background:#262c3a;color:#c9d0de}
+[data-deck="holo"] .seal{border-color:#e9edf3;box-shadow:0 0 0 3px #8e97a6,0 0 18px rgba(140,200,255,.6)}
 </style>
 </head>
 <body>
@@ -183,6 +288,55 @@ function meter(icon, label, m) {
   return `<div class="meter" title="${esc(m && m.label || "")}"><span class="lb">${icon} ${label}</span><span class="tr"><span class="fl ${band(v)}" style="width:${v ?? 0}%"></span></span><span class="v">${v ?? "—"}</span></div>`;
 }
 
+const PHOTO = c => c.photo ? "ballot/photos/" + c.photo.f : "";
+const art = c => c.photo ? `<img src="${esc(PHOTO(c))}" alt="${esc(c.name)}" loading="lazy">` : `<div class="mono">${esc(initials(c.name))}<small>No public photo found</small></div>`;
+
+const DECKS = [["flag", "Old Glory"], ["sun", "Sunshine State"], ["marble", "Capitol"], ["button", "Campaign button"], ["holo", "Holo foil"]];
+let deck = "flag";
+try { const k = localStorage.getItem("ballot-deck"); if (DECKS.some(d => d[0] === k)) deck = k; } catch (e) {}
+document.documentElement.dataset.deck = deck;
+function setDeck(k) {
+  deck = k; document.documentElement.dataset.deck = k;
+  try { localStorage.setItem("ballot-deck", k); } catch (e) {}
+  document.querySelectorAll(".dk").forEach(b => b.setAttribute("aria-pressed", b.dataset.deck === k));
+}
+const deckPicker = () => `<div class="decks" role="group" aria-label="Card style">${DECKS.map(([k, n]) => `<button class="dk" data-deck="${k}" aria-pressed="${k === deck}"><span class="sw sw-${k}"></span>${n}</button>`).join("")}</div>`;
+
+// Election Day box. Facts from votemanatee.gov (polling locations + vote-by-mail pages), checked 2026-11-03.
+const ELECTION = "2026-11-03";
+function pollStatus() {
+  const et = new Date(new Date().toLocaleString("en-US", {timeZone: "America/New_York"}));
+  const day = et.getFullYear() + "-" + String(et.getMonth() + 1).padStart(2, "0") + "-" + String(et.getDate()).padStart(2, "0");
+  if (day < ELECTION) return ["", "Polls are open 7 am – 7 pm on Election Day"];
+  if (day > ELECTION) return ["closed", "Election Day was Tuesday, Nov 3"];
+  const mins = et.getHours() * 60 + et.getMinutes();
+  if (mins < 420) return ["", "Polls open at 7 am today"];
+  if (mins >= 1140) return ["closed", "Polls closed at 7 pm. If you were in line by 7, you can still vote."];
+  const left = 1140 - mins;
+  return ["open", `Polls are open now · close in ${Math.floor(left / 60)}h ${left % 60}m (7 pm)`];
+}
+function voteBox() {
+  const [cls, txt] = pollStatus();
+  return `<section class="vote" aria-label="Voting today">
+    <div class="vh"><span class="vi">🗳️</span><div><b>Election Day · Tuesday, Nov 3</b><span class="${cls}" id="pollst">${esc(txt)}</span></div></div>
+    <ul>
+      <li><i>⏰</i><span>Polls are open <b>7 am to 7 pm</b>. If you're in line by 7, you get to vote.</span></li>
+      <li><i>🪪</i><span>Bring a <b>current photo ID with your signature</b>, like a driver's license.</span></li>
+      <li><i>📍</i><span>Today you can vote <b>only at your own precinct's polling place</b>. Tap “Where do I vote?” to find it.</span></li>
+      <li><i>✉️</i><span>Still holding a mail ballot? <b>Don't mail it now.</b> It has to reach the elections office by 7 pm: drop it off at 600 301 Blvd. W., Suite 108, Bradenton.</span></li>
+    </ul>
+    <div class="vbtns"><a href="https://www.votemanatee.gov/precinct-finder/" target="_blank" rel="noopener">📍 Where do I vote?</a><a class="alt" href="https://www.votemanatee.gov/sample-ballots/" target="_blank" rel="noopener">📄 My exact ballot</a></div>
+    <form class="zip" id="zipf" autocomplete="off"><label for="zipi">Check your ZIP</label><input id="zipi" inputmode="numeric" maxlength="5" placeholder="34221" aria-describedby="zipo"></form>
+    <p class="zipout" id="zipo" aria-live="polite"></p>
+  </section>`;
+}
+function zipAnswer(z) {
+  if (!/^\d{5}$/.test(z)) return "";
+  if (z === "34221") return "✅ This guide is built for 34221. A few district races depend on your street, so the tiles marked “Some addresses” may not be yours. “My exact ballot” confirms it.";
+  if (/^3(2|3|4)\d{3}$/.test(z)) return "Your statewide races are the same as here: Governor, U.S. Senate, Attorney General, CFO, Agriculture, and the three amendments. Your district and local races may be different, so use “My exact ballot” for your full list. (The ZIP stays on your phone and isn't sent anywhere.)";
+  return "This guide covers Palmetto, Florida 34221. Look up your own ballot with your county's elections office.";
+}
+
 function card(r, c, i) {
   const s = c.score, b = band(s.overall), m = c.money || {};
   const total = r.cands.filter(x => x.rank).length;
@@ -192,14 +346,17 @@ function card(r, c, i) {
   const agAmt = out.filter(o => o[1] === "O").reduce((a, o) => a + +o[2], 0);
   const front = `
     <div class="face front f${b}">
-      <div class="who"><div class="av ${b}">${esc(initials(c.name))}</div>
-        <div><div class="nm">${esc(c.name)}</div><div class="pt">${partyName(c.party)}${c.incumbent ? " · Incumbent" : ""}${c.running_mate ? "<br>with " + esc(c.running_mate) : ""}</div></div>
-        <div class="rank">${c.rank ? "#" + c.rank + " of " + total : ""}</div></div>
-      <div class="big bg-${b}"><div class="num">${s.overall ?? "—"}</div><div><div class="word">${WORD[b]}</div><div class="hint">${s.overall == null ? esc(s.why) : "out of 100 on your three questions"}</div></div></div>
-      <div>${meter("🏠", "Local", s.local)}${meter("🗽", "Country first", s.foreign)}${meter("💵", "Independent", s.indep)}</div>
-      <p class="blurb">${esc(firstSentence(c.bio).replace(/;$/, "."))}</p>
-      <div class="badges">${srcHits(c) ? `<span class="bdg src">📣 In your sources (${srcHits(c)})</span>` : ""}${f.length ? `<span class="bdg flag">⚠ ${f.length} on record</span>` : ""}</div>
-      <div class="hintline">Tap to flip ↻</div>
+      <div class="art">${art(c)}
+        ${c.rank ? `<div class="rk">#${c.rank} of ${total}</div>` : ""}<div class="st8">FL</div>
+        <div class="seal ${b}"><b>${s.overall ?? "—"}</b><span>${WORD[b]}</span></div></div>
+      <div class="fbody">
+        <div class="nameplate"><div class="nm">${esc(c.name)}</div><div class="pt">${partyName(c.party)}${c.incumbent ? " · Incumbent" : ""}${c.running_mate ? " · with " + esc(c.running_mate) : ""}</div></div>
+        ${s.overall == null ? `<div class="nsw">${esc(s.why)}</div>` : ""}
+        <div>${meter("🏠", "Local", s.local)}${meter("🗽", "Country first", s.foreign)}${meter("💵", "Independent", s.indep)}</div>
+        <p class="blurb">${esc(firstSentence(c.bio).replace(/;$/, "."))}</p>
+        <div class="badges">${srcHits(c) ? `<span class="bdg src">📣 In your sources (${srcHits(c)})</span>` : ""}${f.length ? `<span class="bdg flag">⚠ ${f.length} on record</span>` : ""}</div>
+        <div class="hintline">Tap to flip ↻${c.photo ? ` <span class="credit">· Photo: ${esc(c.photo.credit)}</span>` : ""}</div>
+      </div>
     </div>`;
   const top = (m.top || []).slice(0, 3).map(t => `<li>${esc(t[0])} — <b>${usd(t[1])}</b></li>`).join("");
   const ct = (m.committee && m.committee.top || [])[0];
@@ -217,20 +374,21 @@ function card(r, c, i) {
       ${srcHits(c) ? `<div class="own" style="margin:0;padding:8px 10px"><b style="color:var(--amber)">📣 Your sources:</b> <span class="mini">${esc(c.owner_sources[0].title)}${srcHits(c) > 1 ? ` <b>+ ${srcHits(c) - 1} more</b>` : ""}</span></div>` : ""}
       <div class="row2"><button class="btn" data-prof="${r.id}|${i}">Full profile</button><button class="btn ghost" data-flipback aria-label="Flip back">↻</button></div>
     </div>`;
-  return `<div class="flip" tabindex="0" role="button" aria-label="${esc(c.name)}: score ${s.overall ?? "not scored"}. Press to flip."><div class="in">${front}${back}</div></div>`;
+  return `<div class="flip band-${b}" tabindex="0" role="button" aria-label="${esc(c.name)}: score ${s.overall ?? "not scored"}. Press to flip."><div class="in">${front}${back}</div></div>`;
 }
 
 function home() {
   document.title = D.title;
   let h = `<header class="top"><div class="logo">🗳️</div><div><h1>Your ballot · Palmetto 34221</h1><p>${esc(D.kicker.replace(/^General election · /, ""))}</p></div></header>
     <div class="pills"><button class="pill" data-sheet="how">📊 How scores work</button><button class="pill" data-sheet="src">📣 Your sources</button><button class="pill" data-sheet="about">ℹ️ About</button></div>
-    <div class="check"><div><b>34221 is split between districts</b><span>Tiles marked “Some addresses” may not be on your ballot.</span></div><a href="https://www.votemanatee.gov/sample-ballots/" target="_blank" rel="noopener">See my exact ballot ↗</a></div>`;
+    ${voteBox()}
+    <h2 class="grp" style="margin-top:6px">🎨 Card style</h2>${deckPicker()}<p class="deckhint">Same facts and scores in every style. Pick the one that's easiest for you to read.</p>`;
   for (const g of D.groups) {
     const rs = D.races.filter(r => r.group === g.id);
     if (!rs.length) continue;
     h += `<h2 class="grp">${g.icon} ${esc(g.label)}</h2><div class="tiles">`;
     for (const r of rs) {
-      const dots = r.kind === "race" ? r.cands.map(c => `<span class="dot ${band(c.score.overall)}" title="${esc(c.name)}: ${c.score.overall ?? "not scored"}">${esc(initials(c.name))}</span>`).join("")
+      const dots = r.kind === "race" ? r.cands.map(c => `<span class="dot ${band(c.score.overall)}${c.photo ? " ph" : ""}"${c.photo ? ` style="background-image:url('${esc(PHOTO(c))}')"` : ""} title="${esc(c.name)}: ${c.score.overall ?? "not scored"}">${esc(initials(c.name))}</span>`).join("")
         : `<span class="tag">${r.kind === "judges" ? "Keep or remove" : "Yes or no"}</span>`;
       h += `<button class="tile" data-go="${r.id}"><span class="t">${esc(r.short)}</span><span class="s">${esc(r.sub)}</span>${r.everyone ? "" : `<span><span class="tag addr">Some addresses</span></span>`}<span class="dots">${dots}</span></button>`;
     }
@@ -251,7 +409,7 @@ function racePage(r) {
   let h = `<div class="bar"><button class="backbtn" data-go="">← All races</button><h1>${esc(r.kind === "measure" ? r.short + ": " + r.sub : r.title)}</h1></div>`;
   const scope = r.everyone ? "" : `<span class="tag addr">Only some addresses: ${esc(r.scope_note || "")}</span><br>`;
   if (r.kind === "race") {
-    h += `<p class="lead">${scope}${esc(r.note || "")} <b>Ranked by score. Tap any card to flip it.</b></p><div class="cards">${r.cands.map((c, i) => card(r, c, i)).join("")}</div>`;
+    h += `<p class="lead">${scope}${esc(r.note || "")} <b>Ranked by score. Tap any card to flip it.</b></p>${deckPicker()}<div class="cards">${r.cands.map((c, i) => card(r, c, i)).join("")}</div>`;
   } else if (r.kind === "judges") {
     h += `<p class="lead">${esc(r.note || "")} Not scored: judges raise no campaign money.</p>`;
     h += r.judges.map(j => `<div class="mcard"><h3>⚖️ ${esc(j.name)}</h3><p class="mini">${esc(j.text)}</p>${(j.items || []).length ? `<details><summary>Rulings & record (${j.items.length})</summary><ul>${j.items.map(x => `<li>${esc(x.text)}${link(x.url)}</li>`).join("")}</ul></details>` : ""}${ownBox(j.owner_sources, j.owner_sources_searched)}</div>`).join("");
@@ -355,6 +513,8 @@ document.addEventListener("click", e => {
   const pf = t.closest("[data-prof]");
   if (pf) { location.hash = curPage() + "/p" + pf.dataset.prof; return; }
   if (t.closest("[data-close]")) { location.hash = curPage(); return; }
+  const dk = t.closest(".dk");
+  if (dk) { setDeck(dk.dataset.deck); return; }
   if (t.closest("a")) return;
   const fl = t.closest(".flip");
   if (fl) fl.classList.toggle("on");
@@ -364,6 +524,13 @@ document.addEventListener("keydown", e => {
   const fl = e.target.closest && e.target.closest(".flip");
   if (fl && e.target === fl && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); fl.classList.toggle("on"); }
 });
+document.addEventListener("input", e => {
+  if (e.target.id !== "zipi") return;
+  e.target.value = e.target.value.replace(/\D/g, "").slice(0, 5);
+  $("#zipo").textContent = zipAnswer(e.target.value);
+});
+document.addEventListener("submit", e => { if (e.target.id === "zipf") e.preventDefault(); });
+setInterval(() => { const el = $("#pollst"); if (el) { const [c, t] = pollStatus(); el.className = c; el.textContent = t; } }, 30000);
 window.addEventListener("hashchange", route);
 route();
 </script>

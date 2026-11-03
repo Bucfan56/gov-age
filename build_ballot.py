@@ -153,6 +153,13 @@ def main():
     d = json.loads(src.read_text(encoding="utf-8"))
     sp = Path(__file__).with_name("ballot") / "region_share.json"
     shares = json.loads(sp.read_text(encoding="utf-8")) if sp.exists() else {}
+    pp = Path(__file__).with_name("ballot") / "photos.json"
+    photos = json.loads(pp.read_text(encoding="utf-8")) if pp.exists() else {}
+    for part in d["parts"]:
+        for r in part["races"]:
+            for c in r.get("candidates") or []:
+                if c["name"] in photos:
+                    c["photo"] = photos[c["name"]]
     data = {"title": d["title"], "kicker": d["kicker"], "built": d["built"], "boxes": d["boxes"], "footer": d["footer"],
             "groups": [{"id": a, "label": b, "icon": c} for a, b, c in GROUPS], "races": build(d, shares),
             "rules": {"min": MIN_RAISED, "pac": FOREIGN_PAC_PENALTY,
