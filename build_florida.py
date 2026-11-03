@@ -621,6 +621,16 @@ def main():
     notes.append(f"manatee.json: {len(extra)} new county/city items")
 
     finalize(races)
+    # picks for judges and ballot questions, read against the owner's platform (research3/recommendations.json)
+    recs = (load(S / "research3" / "recommendations.json", {}) or {}).get("items", {})
+    for r in races:
+        if r["kind"] == "measure" and r["id"] in recs:
+            r["rec"] = recs[r["id"]]
+        elif r["kind"] == "judges":
+            for j in r["judges"]:
+                if j["name"] in recs.get("judges", {}):
+                    j["rec"] = recs["judges"][j["name"]]
+    notes.append(f"recommendations: {sum(1 for r in races if r.get('rec')) + sum(1 for r in races if r['kind'] == 'judges' for j in r['judges'] if j.get('rec'))} picks attached")
     OUT.mkdir(exist_ok=True)
     state = [r for r in races if r["where"].get("all")]
     buckets = defaultdict(list)

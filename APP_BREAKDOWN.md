@@ -62,6 +62,18 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-03 (evening, later): Records checked statewide, picks for judges and ballot questions, tap-for-why in Trade check
+
+- **Records checked for 173 more candidates.** Seven research passes covered everyone outside the 34209 ballot who has stated positions: Congress, the Legislature and local races elsewhere. They read the actual roll calls (Florida House and Senate vote sheets, U.S. House clerk records), bills sponsored, and actions in office. 1,115 records are now held for 215 candidates, up from 91 for 42. 84 candidates' 🎯 Priorities scores changed, and 16 races changed order. Same review rules as before: statements, board seats, board votes where the person's own vote isn't found, super PAC money and unexplained No votes don't count. Two votes pointing different ways (for example, Nay on HJR 1-F but Yea on HJR 203) count as a split record rather than "says one thing, does another". A sentence that opens with the deed ("Voted…", "Cast the lone Nay…") now counts as a record even when it quotes a remark. Partington's 2021 millage vote was dropped because it was only inferred from the tally.
+- **🎯 Priorities picks for judges and ballot questions** (Tyler's ask). Each one is read only against his parameters: the platform planks, his three questions, and real-world experience for judges. A pick is made when a plank clearly points one way, "leans" when something pulls the other way (shown under "What pulls the other way"), and "your call" when the planks are silent.
+  - Amendment 2: Yes. Amendment 3: Yes. County land bond: leans yes. Bradenton term limits: leans yes. Holmes Beach alley giveaway: leans no. Parrish fire $68: leans no.
+  - Keep Justice Muñiz. Leans keep for the four appeals judges.
+  - Your call on Amendment 1, the Palmetto map and Bradenton Ref 1.
+  - The race list shows each pick as a tag. Picks live in research3/recommendations.json.
+- **Tap any Trade check row to see why** (Tyler's ask). Each row opens a sheet with both candidates' scores for that category, the reasons behind them and their sources, plus who's ahead and by how much (or "too close to count").
+- **"Your priorities" is now "🎯 Priorities"** everywhere: the Trade check row, the card back and How it works.
+- **The sign-in email shows the Star Buddy logo** instead of a 🗳️ emoji.
+
 ### 2026-11-03 (evening): The whole-app recheck under the real-work rule, and a Lakewood Ranch district fix
 
 - **Every candidate statewide re-read under Tyler's rule.** All 131 ratings that mention a board, committee, commission, council, chamber or foundation were re-read. Elected offices and paid jobs stand, and running a nonprofit or chamber as its paid director counts as work. These no longer add: appointed boards and commissions (planning and zoning, the state wildlife commission, a transit board), civic, nonprofit, college and HOA boards, chamber and bar-association officer roles, party posts, volunteering and meeting activism, and committee or subcommittee chairs inside a legislature (the legislative service itself still counts). 28 more ratings came down, among them Eric Gray (74 to 55), Danny Nix Jr. (66 to 58), Bill Conerly (78 to 72), Liesa Priddy (66 to 60), Liz Arnold (66 to 60) and Richard Jacobs (60 to 35, the same fire-board rule as the West Manatee commissioners). The research rubrics no longer suggest committee seats, civic leadership or PTA roles as qualifications. 38 ratings have been changed under the rule in all, and each keeps its old score as `qual_was`.

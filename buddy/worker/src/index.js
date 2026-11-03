@@ -29,7 +29,7 @@ async function sendCode(env, to, code) {
   if (!env.APPOLIS_APP_KEY || !env.APPOLIS) throw new Error("NOT_CONNECTED");
   const text = `Your Ballot Buddy sign-in code is ${code}\n\nIt works for 10 minutes. If you didn't ask for it, you can ignore this email.`;
   const html = `<div style="font-family:system-ui,-apple-system,Segoe UI,sans-serif;max-width:420px;margin:0 auto;padding:24px;color:#0f172a">
-    <h2 style="margin:0 0 6px">🗳️ Ballot Buddy</h2><p style="margin:0 0 18px;color:#475569">Your sign-in code:</p>
+    <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 0 10px"><tr><td style="vertical-align:middle"><img src="https://ballotbuddy.appolis.app/buddy/icons/icon-192.png" width="48" height="48" alt="Ballot Buddy" style="display:block;border-radius:12px"></td><td style="vertical-align:middle;padding-left:12px;font-size:22px;font-weight:800;color:#1e3a8a">Ballot Buddy</td></tr></table><p style="margin:0 0 18px;color:#475569">Your sign-in code:</p>
     <div style="font-size:34px;font-weight:800;letter-spacing:8px;background:#eef2ff;border-radius:14px;padding:16px;text-align:center">${code}</div>
     <p style="color:#64748b;font-size:13px;margin-top:18px">It works for 10 minutes. If you didn't ask for it, you can ignore this email.</p></div>`;
   const r = await env.APPOLIS.fetch(new Request("https://appolis.app/id/mail/send", {method: "POST",

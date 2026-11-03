@@ -352,6 +352,13 @@ details.today .vote .vh{display:none}
 .trade .hvd.up{background:var(--good-bg);color:var(--good)}.trade .hvd.dn{background:var(--bad-bg);color:var(--bad)}.trade .hvd.ev{background:var(--chip);color:var(--sub)}
 .trade .hh{display:grid;grid-template-columns:30px 1fr 1fr 30px;gap:4px 6px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
 .trade .hl{grid-column:1/-1;text-align:center;font-size:12.5px;font-weight:700;color:var(--sub)}
+.trade button.hh{width:100%;background:none;border:0;border-top:1px solid var(--line);font:inherit;color:inherit;text-align:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.trade button.hh:active{background:var(--line)}
+.trade .hq{font-weight:600;font-size:11px;color:var(--accent,#2563eb);margin-left:4px}
+.rec{border-radius:14px;padding:12px 14px;margin:10px 0;border:2px solid var(--line)}
+.rec.yes{border-color:#16a34a;background:rgba(22,163,74,.08)}.rec.no{border-color:#dc2626;background:rgba(220,38,38,.07)}
+.rec .rh{font-weight:800;font-size:15px;margin-bottom:4px}.rec ul{margin:4px 0 0 18px;padding:0}.rec li{margin:3px 0;font-size:14px}.rec details{margin-top:6px;font-size:13.5px}
+.tag.rp{background:#16a34a;color:#fff}.tag.rn{background:#dc2626;color:#fff}
 .trade .hl small{font-weight:600}
 .trade .hv{font-size:14px;text-align:center;color:var(--sub)}
 .trade .hv.win{color:var(--good)}
@@ -468,42 +475,73 @@ const flags = c => (c.controversies || []).filter(x => x.status !== "dismissed" 
 const srcHits = c => (c.owner_sources || []).length;
 // Trade check: a head-to-head of the voter's pick (or #1 on the list until she picks) against one rival at a time
 const mv = m => m && m.v != null ? m.v : null;
-const TRADE = [["🎯", "Your priorities", c => mv(c.prio), "closer to your priorities", "further from your priorities"],
-  ["🏠", "Money from home", c => mv(c.score.local), "more money from home", "less money from home"],
-  ["🗽", "Country first", c => mv(c.score.foreign), "fewer foreign ties", "more foreign ties"],
-  ["💵", "Independent of big donors", c => mv(c.score.indep), "less tied to big donors", "more tied to big donors"],
-  ["🌾", "Protects the land", c => mv(c.score.land), "protects land more", "protects land less"],
-  ["🎓", "Qualified", c => mv(c.qual), "more qualified", "less qualified"],
-  ["🌴", "Florida roots", c => mv(c.roots), "deeper Florida roots", "shallower roots"]];
+const TRADE = [["🎯", "Priorities", c => mv(c.prio), "closer to your priorities", "further from your priorities", "prio"],
+  ["🏠", "Money from home", c => mv(c.score.local), "more money from home", "less money from home", "local"],
+  ["🗽", "Country first", c => mv(c.score.foreign), "fewer foreign ties", "more foreign ties", "foreign"],
+  ["💵", "Independent of big donors", c => mv(c.score.indep), "less tied to big donors", "more tied to big donors", "indep"],
+  ["🌾", "Protects the land", c => mv(c.score.land), "protects land more", "protects land less", "land"],
+  ["🎓", "Qualified", c => mv(c.qual), "more qualified", "less qualified", "qual"],
+  ["🌴", "Florida roots", c => mv(c.roots), "deeper Florida roots", "shallower roots", "roots"]];
 const TSEL = {};
 const lastName = n => n.replace(/".*?"\s*/g, "").replace(/\b(Jr|Sr|III|II)\b\.?/g, "").trim().split(/\s+/).slice(-1)[0];
+function tradePair(r) {
+  const pick = r.cands.find(c => c.name === PICKS[r.id]), base = pick || r.cands[0], others = r.cands.filter(c => c !== base);
+  return {pick, base, others, o: others.find(c => c.name === TSEL[r.id]) || others[0]};
+}
 function tradeCheck(r) {
   if (r.kind !== "race" || r.cands.length < 2) return "";
-  const pick = r.cands.find(c => c.name === PICKS[r.id]), base = pick || r.cands[0], others = r.cands.filter(c => c !== base);
-  const o = others.find(c => c.name === TSEL[r.id]) || others[0], B = lastName(o.name);
+  const {pick, base, others, o} = tradePair(r), B = lastName(o.name);
   const ava = c => `<span class="hava ${band(c.score.overall)}"${c.photo ? ` style="background-image:url('${esc(CROP(c))}')"` : ""}>${c.photo ? "" : esc(initials(c.name))}</span>`;
   const up = [], dn = []; let wins = 0, rows = 0;
-  const row = (ic, label, a, b, lowerWins, more, less, max) => {
+  const row = (ic, label, a, b, lowerWins, more, less, max, key) => {
     const has = a != null && b != null, d = has ? (lowerWins ? a - b : b - a) : 0, big = has && Math.abs(d) >= (lowerWins ? 1 : 5);
     if (has) rows++;
     if (big) { if (d > 0) { wins++; up.push(more); } else dn.push(less); }
     const side = big ? (d > 0 ? "r" : "l") : "", w = v => v == null ? 0 : Math.max(4, Math.round(100 * v / max));
-    return `<div class="hh"><div class="hl">${ic} ${label}</div><b class="hv${side === "l" ? " win" : ""}">${a ?? "—"}</b><span class="hb l${side === "l" ? " win" : ""}"><i style="width:${w(a)}%"></i></span><span class="hb r${side === "r" ? " win" : ""}"><i style="width:${w(b)}%"></i></span><b class="hv${side === "r" ? " win" : ""}">${b ?? "—"}</b></div>`;
+    return `<button class="hh" data-hrow="${esc(r.id)}|${key}" aria-label="Why: ${esc(label.replace(/<[^>]+>/g, ""))}"><div class="hl">${ic} ${label} <span class="hq">why?</span></div><b class="hv${side === "l" ? " win" : ""}">${a ?? "—"}</b><span class="hb l${side === "l" ? " win" : ""}"><i style="width:${w(a)}%"></i></span><span class="hb r${side === "r" ? " win" : ""}"><i style="width:${w(b)}%"></i></span><b class="hv${side === "r" ? " win" : ""}">${b ?? "—"}</b></button>`;
   };
-  let h = TRADE.map(([ic, label, get, more, less]) => row(ic, label, get(base), get(o), false, more, less, 100)).join("");
+  let h = TRADE.map(([ic, label, get, more, less, key]) => row(ic, label, get(base), get(o), false, more, less, 100, key)).join("");
   const fa = flags(base).length, fo = flags(o).length;
-  h += row("⚠", "Problems on record <small>(fewer is better)</small>", fa, fo, true, "fewer problems on record", "more problems on record", Math.max(fa, fo, 1));
+  h += row("⚠", "Problems on record <small>(fewer is better)</small>", fa, fo, true, "fewer problems on record", "more problems on record", Math.max(fa, fo, 1), "flags");
   const oa = base.score.overall, oc = o.score.overall;
   const [cls, word] = oa == null || oc == null ? ["ev", "Can't score this trade"] : oc - oa >= 5 ? ["up", `${B} would be a better trade`] : oa - oc >= 5 ? ["dn", `${B} would be a worse trade`] : ["ev", "About an even trade"];
   const sub = oa != null && oc != null ? `${oc} vs ${oa} overall · ${B} is ahead on ${wins} of ${rows}` : "Not enough data to score one of them";
   const pr = c => c.prio && c.prio.planks ? `${lastName(c.name)} ${c.prio.proven || 0} of ${Object.keys(c.prio.planks).length}` : `${lastName(c.name)} none found`;
   const part = (base.score.indep == null) !== (o.score.indep == null) ? `<p class="mini muted">◔ ${esc(lastName((o.score.indep == null ? o : base).name))} is partly rated: no campaign-money data, so the money rows are blank or rest on roots alone.</p>` : "";
-  return `<div class="mcard trade" id="trade"><h3>⚖️ Trade check</h3><p class="mini muted">${pick ? "Your pick" : "#1 on the list"} head to head with ${others.length > 1 ? "any other candidate. Tap a name to switch." : "the other candidate."} Green marks who's ahead on each row; gaps under 5 points don't count.</p>
+  return `<div class="mcard trade" id="trade"><h3>⚖️ Trade check</h3><p class="mini muted">${pick ? "Your pick" : "#1 on the list"} head to head with ${others.length > 1 ? "any other candidate. Tap a name to switch." : "the other candidate."} Green marks who's ahead on each row; gaps under 5 points don't count. Tap any row to see why.</p>
     ${others.length > 1 ? `<div class="hpick">${others.map(c => `<button class="hchip" data-tsel="${esc(r.id)}" data-val="${esc(c.name)}" aria-pressed="${c === o}">${esc(lastName(c.name))} <small>${c.score.overall ?? "—"}</small></button>`).join("")}</div>` : ""}
     <div class="hhead"><div class="hc">${ava(base)}<span class="who">${pick ? "Your pick" : "#1 on list"}</span><b>${esc(base.name)}</b>${PARTY(base.party)}<em class="s-${band(oa)}">${oa ?? "—"}</em></div><div class="vs">VS</div><div class="hc">${ava(o)}<span class="who">Trade for</span><b>${esc(o.name)}</b>${PARTY(o.party)}<em class="s-${band(oc)}">${oc ?? "—"}</em></div></div>
     <div class="hvd ${cls}">${esc(word)}<small>${esc(sub)}</small></div>${h}
     <div class="hwhy">${up.length ? `<p><b class="wu">▲ ${esc(B)} would bring:</b> ${esc(up.join(", "))}.</p>` : ""}${dn.length ? `<p><b class="wd">▼ You'd give up:</b> ${esc(dn.join(", "))}.</p>` : ""}${up.length || dn.length ? "" : `<p>About the same on everything we measured.</p>`}
     <p class="mini muted">🎯 Priorities backed by their actual record, not just promises: ${esc(pr(base))} · ${esc(pr(o))}.</p>${part}</div></div>`;
+}
+
+// the sheet behind one trade-check row: each side's score and the reasons and sources that made it
+function tradeWhy(r, key) {
+  const {base, o} = tradePair(r), t = TRADE.find(x => x[5] === key);
+  const lnk = (u, k) => u ? link(u, k ? "source " + k : "source") : "";
+  const L = a => a.length ? `<ul class="vl">${a.join("")}</ul>` : "";
+  const explain = c => {
+    const s = c.score, m = c.money || {};
+    if (key === "prio") {
+      if (!c.prio || !c.prio.planks) return "<p>No stated positions or record found on the platform's planks, so this isn't scored.</p>";
+      const P = Object.entries(c.prio.planks).map(([k, x]) => { const pl = ((D.platform || {}).planks || []).find(y => y.id === k); return `<li class="vr"><span class="vp ${x.match > 0 ? (x.kind === "did" ? "yea" : "nv") : "nay"}">${x.kind === "did" ? (x.match > 0 ? "Record ✓" : "Record ✗") : (x.match > 0 ? "Promise" : "Says no")}</span><span><b>${esc(pl ? pl.title : k)}</b> · ${esc(x.evidence || "")}${x.contra ? `<span class="mini muted"> They say: “${esc(firstSentence(x.contra, 140))}”, but the record says otherwise.</span>` : ""}${lnk(x.url)}</span></li>`; });
+      return `<p class="mini">A plank backed by their record counts in full; a promise alone counts 60%; anything against counts zero. ${c.prio.proven || 0} backed by record, ${c.prio.promised || 0} promised only${c.prio.contra ? `, ${c.prio.contra} where the record contradicts what they say` : ""}.</p>${L(P)}`;
+    }
+    if (key === "local") return s.local ? `<p>${esc(s.local.label)}</p><p class="mini muted">${pct(m.fl_pct)} of money from Florida · ${pct(m.local_pct)} from ${m.local_label ? "Sarasota–Manatee" : "the area"} · ${pct(m.out_pct)} out of state.</p>` : `<p>${esc(s.why || "No money or roots data found.")}</p>`;
+    if (key === "foreign") return s.foreign && s.foreign.reasons.length ? L(s.foreign.reasons.map(x => `<li>−${x.pts}: ${esc(x.text)}${lnk(x.url)}</li>`)) : "<p>Nothing found that lowers this: no foreign PAC money, foreign-government ties or foreign business found.</p>";
+    if (key === "indep") return s.indep ? `<p>${esc(s.indep.label)}.</p>${L(s.indep.parts.map(x => `<li>${esc(x)}</li>`))}` : `<p>${esc(s.why || "No campaign-money data found.")}</p>`;
+    if (key === "land") return s.land || (c.land_positions || []).length ? `${s.land ? `<p>${esc(s.land.label)}.</p>` : ""}${L((c.land_positions || []).map(x => `<li class="vr"><span class="vp ${x.stance > 0 ? "yea" : "nay"}">${x.stance > 0 ? "Protects" : "Develops"}</span><span>${esc(x.quote_or_summary || "")}${lnk(x.url)}</span></li>`))}` : "<p>No land-money data or land positions found.</p>";
+    if (key === "qual") return c.qual ? `${c.qual.background ? `<p><b>Background:</b> ${esc(c.qual.background)}</p>` : ""}<p>${esc(c.qual.why || c.qual.label || "")}</p><p class="mini muted">Only real-world work counts: a career, a business, or an office actually held. Committee and board seats don't.</p>` : "<p>Background not found, so not scored. That's missing research, not a low rating.</p>";
+    if (key === "roots") return c.roots ? `<p>${esc(c.roots.summary)}${(c.roots.urls || []).slice(0, 3).map((u, k) => lnk(u, k + 1)).join("")}</p>` : "<p>No roots research found.</p>";
+    if (key === "flags") { const f = flags(c); return f.length ? L(f.map(x => `<li><b>${esc(x.status || "")}</b> · ${esc(x.text)}${lnk(x.url)}</li>`)) : "<p>No problems on record found.</p>"; }
+    return "";
+  };
+  const v = c => key === "flags" ? flags(c).length : t ? t[2](c) : null;
+  const a = v(base), b = v(o), lw = key === "flags", has = a != null && b != null, d = has ? (lw ? a - b : b - a) : 0, big = has && Math.abs(d) >= (lw ? 1 : 5);
+  const verdict = !has ? "One of them isn't scored on this, so it doesn't count either way." : !big ? "Too close to count: under 5 points apart." : `${esc(lastName((d > 0 ? o : base).name))} is ahead here${lw ? "" : ` by ${Math.abs(d)} points`}.`;
+  const side = (c, val) => `<div class="panel"><h4>${esc(c.name)} <span class="s-${lw ? "n" : band(val)}" style="float:right">${val ?? "—"}</span></h4>${explain(c)}</div>`;
+  return `<p class="lead">${verdict}</p>${side(base, a)}${side(o, b)}`;
 }
 
 function meter(icon, label, m) {
@@ -761,7 +799,7 @@ function card(r, c, i) {
         ${c.qual && c.qual.background ? `<div class="bsec"><h5>🎓 Background</h5><p>${esc(c.qual.background)}</p></div>` : ""}
         ${(c.land_positions || []).some(x => x.stance < 0) ? `<div class="bsec"><h5>🌾 On land</h5><p>${esc(firstSentence(c.land_positions.find(x => x.stance < 0).quote_or_summary || "", 120))}</p></div>` : ""}
         ${votes ? `<div class="bsec"><h5>🗳️ How they voted</h5><ul class="vl">${c.votes.slice(0, 3).map(v => voteRow(v, true)).join("")}</ul></div>` : ""}
-        ${planks.length ? `<div class="bsec"><h5>🎯 Your priorities</h5><ul>${planks.map(([k, x]) => `<li>${x.match > 0 ? (x.kind === "did" ? "✅" : "🗣") : "❌"} ${esc(firstSentence(x.evidence || k, 110))}</li>`).join("")}</ul></div>` : ""}
+        ${planks.length ? `<div class="bsec"><h5>🎯 Priorities</h5><ul>${planks.map(([k, x]) => `<li>${x.match > 0 ? (x.kind === "did" ? "✅" : "🗣") : "❌"} ${esc(firstSentence(x.evidence || k, 110))}</li>`).join("")}</ul></div>` : ""}
         ${f.length ? `<div class="bsec"><h5>⚠ On record</h5><p><span class="st ${esc(f[0].status || "")}">${esc(f[0].status || "note")}</span>${esc(firstSentence(f[0].text, 130))}</p></div>` : ""}
         ${news ? `<div class="bsec"><h5>💬 Money in the news</h5><p>${esc(firstSentence(c.money_notes[0].text, 130))}</p></div>` : ""}
         ${srcHits(c) ? `<div class="bsec"><h5>📣 Your sources</h5><p>${esc(c.owner_sources[0].title)}${srcHits(c) > 1 ? ` <b>+ ${srcHits(c) - 1} more</b>` : ""}</p></div>` : ""}
@@ -776,12 +814,27 @@ function ordered() {
   const mine = myRaces();
   return D.groups.flatMap(g => mine.filter(r => r.group === g.id));
 }
+// a pick for a judge or ballot question, read against the platform (research3/recommendations.json)
+function recCard(rec, keep) {
+  if (!rec || !rec.pick) return "";
+  const none = rec.strength === "none", yes = rec.pick === "Yes", word = keep ? (yes ? "Keep" : "Remove") : rec.pick;
+  const head = none ? "🎯 Priorities pick: your call" : `🎯 Priorities pick: ${rec.strength === "lean" ? "leans " + word.toLowerCase() : word}`;
+  const pl = (rec.planks || []).map(k => (((D.platform || {}).planks || []).find(y => y.id === k) || {}).title).filter(Boolean);
+  return `<div class="rec ${none ? "" : yes ? "yes" : "no"}"><div class="rh">${esc(head)}</div>${pl.length ? `<div class="mini muted">From: ${esc(pl.join(" · "))}</div>` : ""}<ul>${(rec.why || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul>${(rec.against || []).length ? `<details><summary>What pulls the other way</summary><ul>${rec.against.map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}</div>`;
+}
+function recTag(r) {
+  const rs = r.kind === "judges" ? r.judges.map(j => j.rec).filter(Boolean) : r.rec ? [r.rec] : [];
+  const firm = rs.filter(x => x.strength !== "none");
+  if (!firm.length) return "";
+  if (r.kind === "judges") { const k = firm.filter(x => x.pick === "Yes").length; return `<span class="tag ${k === firm.length ? "rp" : ""}">🎯 ${k === firm.length ? "Keep all" : "Keep " + k + " of " + r.judges.length}</span>`; }
+  return `<span class="tag ${firm[0].pick === "Yes" ? "rp" : "rn"}">🎯 ${esc(firm[0].pick)}</span>`;
+}
 function raceRow(r, n) {
   let top = "";
   if (r.kind === "race") {
     const c = r.cands[0], b = band(c.score.overall);
     top = `<span class="ava ${b}"${c.photo ? ` style="background-image:url('${esc(CROP(c))}')"` : ""}>${c.photo ? "" : esc(initials(c.name))}</span><span class="sc">${c.score.overall ?? "—"}</span>`;
-  } else top = `<span class="tag">${r.kind === "judges" ? "Keep / remove" : "Yes / no"}</span>`;
+  } else top = recTag(r) || `<span class="tag">${r.kind === "judges" ? "Keep / remove" : "Yes / no"}</span>`;
   const maybe = applies(r, ctx) === null;
   const ls = lines(r), got = ls.filter(l => PICKS[l[0]]);
   const lead = got.length ? `<span class="mypk">✓ ${ls.length === 1 ? esc(PICKS[ls[0][0]]) : got.length + " of " + ls.length + " picked"}</span> · ` : r.kind === "race" && r.cands[0].score.overall != null ? `Top rated: ${esc(r.cands[0].name.split(" ").slice(-1)[0])} · ` : "";
@@ -850,12 +903,12 @@ function racePage(r) {
   if (r.kind === "race") {
     h += `<p class="lead">${scope}${esc(r.note || "")} Ranked by score. Tap a card to flip it.</p><div class="cards">${r.cands.map((c, i) => card(r, c, i)).join("")}</div><div class="pickbar"><h4>📝 My pick</h4>${pickBtns(r.id, r.cands.map(c => c.name))}</div>${r.cands.length > 1 ? `<div class="cdots">${r.cands.map((c, i) => `<i${i ? "" : ' class="on"'}></i>`).join("")}</div><p class="swipehint">Swipe for the other ${r.cands.length - 1 === 1 ? "candidate" : r.cands.length - 1 + " candidates"} →</p>` : ""}${tradeCheck(r)}${compareVotes(r)}`;
   } else if (r.kind === "judges") {
-    h += `<p class="lead">${esc(r.note || "")} Not scored: judges raise no campaign money.</p>`;
-    h += r.judges.map((j, ji) => `<div class="mcard"><h3>⚖️ ${esc(j.name)}</h3><p class="pkh">📝 My pick: keep this judge?</p>${pickBtns(r.id + "|" + ji, ["Yes", "No"])}<p class="mini">${esc(j.text)}</p>${(j.items || []).length ? `<details><summary>Rulings & record (${j.items.length})</summary><ul>${j.items.map(x => `<li>${esc(x.text)}${link(x.url)}</li>`).join("")}</ul></details>` : ""}${ownBox(j.owner_sources, j.owner_sources_searched)}</div>`).join("");
+    h += `<p class="lead">${esc(r.note || "")} Not scored: judges raise no campaign money. The 🎯 picks read each judge against your priorities.</p>`;
+    h += r.judges.map((j, ji) => `<div class="mcard"><h3>⚖️ ${esc(j.name)}</h3>${recCard(j.rec, true)}<p class="pkh">📝 My pick: keep this judge?</p>${pickBtns(r.id + "|" + ji, ["Yes", "No"])}<p class="mini">${esc(j.text)}</p>${(j.items || []).length ? `<details><summary>Rulings & record (${j.items.length})</summary><ul>${j.items.map(x => `<li>${esc(x.text)}${link(x.url)}</li>`).join("")}</ul></details>` : ""}${ownBox(j.owner_sources, j.owner_sources_searched)}</div>`).join("");
   } else {
     const m = r.m;
     const L = a => (a || []).map(x => `<div>${esc(x.text)}${link(x.url)}</div>`).join("") || "<div>None found.</div>";
-    h += `<p class="lead">${scope}Not scored: ballot questions have no candidate.</p><div class="mcard"><h3>${esc(m.name)}</h3><p>${esc(m.summary)}</p><p class="pkh">📝 My pick</p>${pickBtns(r.id, ["Yes", "No"])}
+    h += `<p class="lead">${scope}Not scored: ballot questions have no candidate. The 🎯 pick reads it against your priorities.</p><div class="mcard"><h3>${esc(m.name)}</h3><p>${esc(m.summary)}</p>${recCard(r.rec)}<p class="pkh">📝 My pick</p>${pickBtns(r.id, ["Yes", "No"])}
       <div class="sides"><div class="side"><h4>👍 Supporters</h4>${L(m.supporters)}<h4 style="margin-top:10px">💵 Money for</h4>${L(m.who_funds_yes)}</div><div class="side"><h4>👎 Opponents</h4>${L(m.opponents)}<h4 style="margin-top:10px">💵 Money against</h4>${L(m.who_funds_no)}</div></div>
       ${(m.fiscal || []).length ? `<details><summary>Cost & effect</summary>${L(m.fiscal)}</details>` : ""}${ownBox(m.owner_sources, m.owner_sources_searched)}
       ${(m.urls || []).length ? `<p class="mini muted">Sources: ${m.urls.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${i + 1}</a>`).join(" · ")}</p>` : ""}</div>`;
@@ -919,7 +972,7 @@ function howSheet() {
     <div class="panel"><h4>💵 Independent: big donors</h4>100 minus the share of all the money behind them that is big money. Big money means business, PAC and party money; for federal races, individuals giving $2,000+; any political committee the candidate controls (no donation limit in Florida); and money outside groups spent to help them.</div>
     <div class="panel"><h4>🌾 Protects the land: land, development and data-center money</h4>Starts at 100 and loses 2 points for every 1% of the candidate's money that comes from land, development, homebuilding, data-center, mining or utility interests, matched on the donor's name, employer or stated occupation in the public filings. That money also doesn't count toward 🏠 Local, even when it comes from Florida. Each documented public position for data centers or more development (an interview, debate, campaign page or vote, linked on the profile) takes another 40 points off.</div>
     <div class="panel"><h4>🎓 Qualified for the job</h4>How well the candidate's actual background (career, credentials, past offices, business) fits this office: for example pest control or public health for mosquito control, legal work for Attorney General, farming for Agriculture. Only real-world work counts: a career, a business, or an office actually held. A seat on a committee, an advisory or civic board, or a nonprofit board doesn't. Unknown backgrounds are left blank, not marked down.</div>
-    ${D.platform ? `<div class="panel"><h4>🎯 Your priorities: the ${esc(D.platform.who)} platform</h4>${esc(D.platform.summary || "")}<ul class="formula">${(D.platform.planks || []).map(x => `<li><b>${esc(x.title)}</b>: ${esc(x.promise || "")}</li>`).join("")}</ul>Each candidate is checked against these planks, every item linked. What they've actually done (votes, actions in office, documented conduct) counts in full. A plank they only promise counts 60 instead of 100, because saying isn't doing. A plank they say they oppose counts 0. When their record contradicts what they say, the record wins, and the mismatch is also listed as a problem on record. This meter reflects the guide owner's priorities: it is not neutral.</div>` : ""}
+    ${D.platform ? `<div class="panel"><h4>🎯 Priorities: the ${esc(D.platform.who)} platform</h4>${esc(D.platform.summary || "")}<ul class="formula">${(D.platform.planks || []).map(x => `<li><b>${esc(x.title)}</b>: ${esc(x.promise || "")}</li>`).join("")}</ul>Each candidate is checked against these planks, every item linked. What they've actually done (votes, actions in office, documented conduct) counts in full. A plank they only promise counts 60 instead of 100, because saying isn't doing. A plank they say they oppose counts 0. When their record contradicts what they say, the record wins, and the mismatch is also listed as a problem on record. This meter reflects the guide owner's priorities: it is not neutral.</div>` : ""}
     <div class="panel"><h4>Limits</h4>Candidates who raised very little aren't scored, because a few checks would swing everything: under $${R.min.federal.toLocaleString()} for federal and statewide offices, $${R.min.legislature.toLocaleString()} for the Legislature, $${R.min.local.toLocaleString()} for county and city. Federal donor detail runs through about July 2026. Filings miss dark money, family money and promises. A donation is a fact about the donor, not proof of what a candidate will do.</div>`;
 }
 
@@ -1000,6 +1053,10 @@ function route() {
   else if (sub === "about") openSheet("About this report", aboutSheet());
   else if (sub === "acct") openSheet(TOKEN ? "Your account" : "Sign in or sign up", acctSheet());
   else if (sub === "install") openSheet("Add to your phone", installSheet());
+  else if (sub && sub[0] === "t") {
+    const [rid, key] = sub.slice(1).split("|"), tr = raceById(rid), t = TRADE.find(x => x[5] === key);
+    tr && tr.cands && tr.cands.length > 1 ? openSheet((t ? t[0] + " " + t[1] : "⚠ Problems on record") + ": why", tradeWhy(tr, key)) : closeSheet();
+  }
   else if (sub && sub[0] === "p") {
     const [rid, i] = sub.slice(1).split("|"), pr = raceById(rid), c = pr && pr.cands && pr.cands[+i];
     c ? openSheet(c.name, profile(pr, c)) : closeSheet();
@@ -1016,6 +1073,8 @@ document.addEventListener("click", e => {
   if (go) { location.hash = go.dataset.go; return; }
   const sh = t.closest("[data-sheet]");
   if (sh) { location.hash = curPage() + "/" + sh.dataset.sheet; return; }
+  const hr = t.closest("[data-hrow]");
+  if (hr) { location.hash = curPage() + "/t" + hr.dataset.hrow; return; }
   const pf = t.closest("[data-prof]");
   if (pf) { location.hash = curPage() + "/p" + pf.dataset.prof; return; }
   if (t.closest("[data-close]")) { location.hash = curPage(); return; }
