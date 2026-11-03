@@ -253,6 +253,8 @@ def reconcile(k, n, cands, raw):
         keep.append({"name": nm, "party": "Write-in" if o["party"] == "WRI" else o["party"], "incumbent": o["inc"],
                      "gaps": "On the state's candidate list; not yet researched for this guide."})
         raw[nm] = {"name": nm, "fl_doe_name": nm}
+    if any(o.get("special") for o in offl):
+        return keep, "Special election to fill the rest of this Senate term (Division of Elections election 20261103-S01)."
     unopp = all(o["general"] == "Unopposed" for o in offl)
     return keep, "Unopposed: this seat was decided without a general-election contest, so it won't be on your ballot." if unopp else ""
 
@@ -294,7 +296,8 @@ def research_races(fname, kind):
         key = f"{k}-{n}"
         ranked = score_race(key, group, cands, label)
         wi = sum(1 for c in cands if c.get("party") == "Write-in")
-        sub = "Unopposed: not on ballot" if unopp_note else f"{len(cands) - wi} on ballot" + (f" + {wi} write-in" if wi else "")
+        sub = "Unopposed: not on ballot" if unopp_note.startswith("Unopposed") else "Special election · " if unopp_note.startswith("Special") else ""
+        sub +=  "" if unopp_note.startswith("Unopposed") else f"{len(cands) - wi} on ballot" + (f" + {wi} write-in" if wi else "")
         races.append({"kind": "race", "group": group, "id": key, "title": title, "short": short, "sub": sub, "everyone": True,
                       "where": where, "note": r.get("note") or ("Write-in candidates aren't printed on the ballot: you'd write their name on the blank line." if wi else ""),
                       "cands": ranked})

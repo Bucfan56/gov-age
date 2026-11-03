@@ -678,14 +678,15 @@ function howSheet() {
 }
 
 function srcSheet() {
-  const hits = [], none = [];
-  for (const r of ALL) for (const c of (r.cands || [])) (srcHits(c) ? hits : none).push([r, c]);
+  const hits = [], none = [], unchecked = [];
+  for (const r of myRaces()) for (const c of (r.cands || [])) (srcHits(c) ? hits : (c.owner_sources_searched || []).length ? none : unchecked).push([r, c]);
   const mHits = ALL.filter(r => r.kind === "measure" && (r.m.owner_sources || []).length);
-  return `<div class="panel">Your five sources (<b>rumble.com/Owen</b>, <b>alexjoneslive.com</b>, <b>rumble.com/TheAlexJonesShowLive</b>, <b>rumble.com/c/StewPeters</b>, <b>stewpeters.com</b>) were searched for every candidate and ballot question here. What they say appears in an amber 📣 box on that candidate's card, credited to them and reported as they say it. Only headlines and descriptions could be read; videos can't be watched. They don't change the scores.</div>
+  return `<div class="panel">Your five sources (<b>rumble.com/Owen</b>, <b>alexjoneslive.com</b>, <b>rumble.com/TheAlexJonesShowLive</b>, <b>rumble.com/c/StewPeters</b>, <b>stewpeters.com</b>) are checked for the candidates and ballot questions on your ballot. What they say appears in an amber 📣 box on that candidate's card, credited to them and reported as they say it. Only headlines and descriptions could be read; videos can't be watched. They don't change the scores.</div>
     <h3 style="margin:18px 2px 6px">Found something (${hits.length + mHits.length})</h3>
     ${hits.map(([r, c]) => `<div class="panel"><div style="display:flex;align-items:center;gap:8px"><b style="flex:1">${esc(c.name)} · ${esc(r.short)}</b><button class="btn ghost" style="padding:7px 12px" data-prof="${r.id}|${r.cands.indexOf(c)}">Open card</button></div>${ownBox(c.owner_sources)}</div>`).join("")}
     ${mHits.map(r => `<div class="panel"><b>${esc(r.short)}</b>${ownBox(r.m.owner_sources)}</div>`).join("")}
-    <h3 style="margin:18px 2px 6px">Searched, nothing found (${none.length})</h3><div class="panel mini">${none.map(([r, c]) => esc(c.name)).join(" · ")}</div>`;
+    <h3 style="margin:18px 2px 6px">Searched, nothing found (${none.length})</h3><div class="panel mini">${none.map(([r, c]) => esc(c.name)).join(" · ") || "—"}</div>
+    ${unchecked.length ? `<h3 style="margin:18px 2px 6px">Not checked yet (${unchecked.length})</h3><div class="panel mini">Our search allowance ran out before these could be checked, so no result here doesn't mean they're clean: ${unchecked.map(([r, c]) => esc(c.name)).join(" · ")}</div>` : ""}`;
 }
 
 const aboutSheet = () => D.boxes.map(b => `<div class="panel"><h4>${esc(b.title)}</h4>${b.html}</div>`).join("") + `<div class="panel">${D.footer}</div>`;
