@@ -527,7 +527,7 @@ function card(r, c, i) {
       <div class="stripe"></div>
       <div class="stats">${stat("🏠", "Local", s.local)}${stat("🗽", "Country", s.foreign)}${stat("💵", "Independent", s.indep)}${stat("🌾", "Land", s.land)}${stat("🎯", "Priorities", c.prio)}${stat("🎓", "Qualified", c.qual)}</div>
       ${s.overall == null ? `<div class="blurb2">${esc(s.why)}</div>` : `<div class="blurb2">${esc(firstSentence(c.bio || "", 140).replace(/;$/, "."))}</div>`}
-      <div class="facts">${votes ? `<span class="fact">🗳️ ${votes} votes</span>` : ""}${f.length ? `<span class="fact warn">⚠ ${f.length} on record</span>` : ""}${news ? `<span class="fact">💬 ${news} money news</span>` : ""}${srcHits(c) ? `<span class="fact src">📣 ${srcHits(c)} in your sources</span>` : ""}${rec && !votes ? `<span class="fact">📋 ${rec} record</span>` : ""}</div>
+      <div class="facts">${s.basis && s.basis < 4 ? `<span class="fact warn" title="Too little campaign money to rate the money meters">◔ Rated on ${s.basis} of 6 meters</span>` : ""}${votes ? `<span class="fact">🗳️ ${votes} votes</span>` : ""}${f.length ? `<span class="fact warn">⚠ ${f.length} on record</span>` : ""}${news ? `<span class="fact">💬 ${news} money news</span>` : ""}${srcHits(c) ? `<span class="fact src">📣 ${srcHits(c)} in your sources</span>` : ""}${rec && !votes ? `<span class="fact">📋 ${rec} record</span>` : ""}</div>
       <div class="cfoot"><span>Tap to flip ↻</span>${c.photo ? `<span>Photo: ${esc(c.photo.credit)}</span>` : ""}</div>
     </div></div>`;
   const top = (m.top || [])[0];

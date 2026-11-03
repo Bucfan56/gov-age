@@ -403,6 +403,19 @@ QUALS = (load(S / "research3" / "qualifications.json", {}) or {}).get("candidate
 PRIO = load(S / "research3" / "priorities.json", {}) or {}
 
 
+def bill_key(b):
+    m = re.search(r"(HJR|SJR|HB|SB|H\.\s?R\.|S\.)\s*([0-9]+(?:-[A-Z])?)\b.*?\((\d{4})", str(b or ""))
+    return f"{m.group(1).replace('.', '').replace(' ', '')}{m.group(2)}-{m.group(3)}" if m else None
+
+
+# SB 2100 (2011) is left out: its plank reading rested on recollection, not a source.
+BILLMAP = {bill_key(k): v for k, v in (PRIO.get("bill_map") or {}).items() if bill_key(k) and "2100" not in k}
+for _c in (PRIO.get("candidates") or {}).values():
+    for _k, _x in list((_c.get("planks") or {}).items()):
+        if "2100" in str(_x.get("evidence", "")) and "2011" in str(_x.get("evidence", "")):
+            _c["planks"].pop(_k)
+
+
 def finalize(races):
     """Add the job-fit and priorities meters, then re-score and re-rank each race.
     Overall = average of every meter that has a value. Candidates who raised too little for the money meters
@@ -416,14 +429,32 @@ def finalize(races):
                 c["qual"] = {"v": q.get("qual"), "background": q.get("background"), "why": q.get("why"), "sources": q.get("sources", []),
                              "label": (q.get("why") or "") if q.get("qual") is not None else "Background not found: unknown, not unqualified"}
             pr = (PRIO.get("candidates") or {}).get(c["name"]) or {}
-            if pr and (pr.get("planks") or pr.get("score") is not None):
-                c["prio"] = {"v": pr.get("score"), "planks": pr.get("planks", {}),
-                             "label": f"Matches {sum(1 for x in pr.get('planks', {}).values() if x.get('match', 0) > 0)} of {len(pr.get('planks', {}))} priorities with a record"}
+            planks = dict(pr.get("planks") or {})
+            # apply the bill->plank map to every roll call we hold (the research roster predates some vote files)
+            tally = defaultdict(list)
+            for v in c.get("votes") or []:
+                bm = BILLMAP.get(bill_key(v.get("bill")))
+                if not bm or not re.match(r"(?i)y|n", v.get("vote") or "") or re.match(r"(?i)not", v.get("vote") or ""):
+                    continue
+                sign = bm["yea_means"] * (1 if re.match(r"(?i)y", v["vote"]) else -1)
+                tally[bm["plank"]].append((sign, v))
+            for k, xs in tally.items():
+                tot = sum(x[0] for x in xs)
+                if k in planks or tot == 0:
+                    continue
+                v = xs[0][1]
+                planks[k] = {"match": 1 if tot > 0 else -1, "url": v.get("url"),
+                             "evidence": f"Voted {v['vote']} on {v['bill']}" + (f" and {len(xs) - 1} related vote{'s' if len(xs) > 2 else ''}" if len(xs) > 1 else "")}
+            if planks:
+                n, pos = len(planks), sum(1 for x in planks.values() if x.get("match", 0) > 0)
+                c["prio"] = {"v": round(100 * pos / n) if n >= 2 else None, "planks": planks,
+                             "label": f"Matches {pos} of {n} priorities with a record" + ("" if n >= 2 else " (needs 2 to score)")}
             sc = c["score"]
             money = [x["v"] for x in (sc.get("local"), sc.get("indep"), sc.get("foreign"), sc.get("land")) if x and x.get("v") is not None] if sc.get("local") else []
             extra = [x["v"] for x in (c.get("qual"), c.get("prio")) if x and x.get("v") is not None]
             vals = money + extra
             sc["overall"] = round(sum(vals) / len(vals)) if vals else None
+            sc["basis"] = len(vals)
             if not money and extra:
                 sc["why_money"] = sc.get("why")
         ranked = sorted(r["cands"], key=lambda c: -(c["score"]["overall"] if c["score"]["overall"] is not None else -1))
