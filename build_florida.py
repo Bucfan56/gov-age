@@ -416,6 +416,49 @@ for _c in (PRIO.get("candidates") or {}).values():
             _c["planks"].pop(_k)
 
 
+ROOTS = load(S / "research3" / "roots.json", {}) or {}
+LAND_HIT = 40          # points off 🌾 Land per documented pro-data-center / pro-development position
+INVESTORS_HIT = 15     # points off 💵 Independent for calling donors "investors" (sourced only)
+
+
+def apply_evidence(c):
+    """Roots into 🏠 Local, documented land positions into 🌾 Land, the sourced 'investors' remark into 💵 Independent.
+    Same rule for every candidate; nothing is set by hand."""
+    sc = c["score"]
+    ro = (ROOTS.get("roots") or {}).get(c["name"]) or {}
+    if ro.get("roots") is not None:
+        c["roots"] = {"v": ro["roots"], "summary": ro.get("summary") or "", "urls": ro.get("urls") or []}
+        loc = sc.get("local")
+        if loc and loc.get("v") is not None:
+            loc["money_v"] = loc["v"]
+            loc["v"] = round((loc["v"] + ro["roots"]) / 2)
+            loc["label"] = f"Roots {ro['roots']}: {ro.get('summary') or ''} · Money: {loc['label']}"
+        else:
+            sc["local"] = {"v": ro["roots"], "label": f"Roots {ro['roots']}: {ro.get('summary') or ''}"}
+    pos, seen = [], set()
+    for x in (ROOTS.get("positions") or {}).get(c["name"]) or []:
+        q = (x.get("quote_or_summary") or "").strip()
+        key = re.sub(r"[^a-z]", "", q.lower())[:60]
+        if not x.get("url") or x.get("stance") not in (1, -1) or re.match(r"(?i)same |corroborat", q) or key in seen:
+            continue          # one count per statement: corroborating reports of the same quote don't add up
+        seen.add(key); pos.append(x)
+    if pos:
+        c["land_positions"] = pos
+        neg = sum(1 for x in pos if x["stance"] < 0); good = len(pos) - neg
+        land = sc.get("land")
+        base = land["v"] if land and land.get("v") is not None else 50      # positions only: start in the middle
+        v = min(100, max(0, base - LAND_HIT * neg + 20 * good))
+        lab = ((land["label"] + "; ") if land else "") + (f"{neg} documented position{'s' if neg != 1 else ''} for data centers or more development" if neg else "") + (f"{'; ' if neg else ''}{good} protecting land" if good else "")
+        sc["land"] = {"v": v, "label": lab}
+    inv = ROOTS.get("donalds_investors") or {}
+    if c["name"] == "Byron Donalds" and inv.get("found") and inv.get("url"):
+        ind = sc.get("indep")
+        if ind and ind.get("v") is not None:
+            ind["v"] = max(0, ind["v"] - INVESTORS_HIT)
+            ind["parts"] = ind.get("parts", []) + [f"−{INVESTORS_HIT} for calling donors “investors” in his campaign ({inv.get('reported_by') or 'report'}, {inv.get('date') or ''})"]
+        c.setdefault("controversies", []).insert(0, {"text": f"Called his donors “investors” in his campaign: “{inv.get('words', '')}” ({inv.get('reported_by', '')}, {inv.get('date', '')}).", "status": "established", "url": inv["url"]})
+
+
 def finalize(races):
     """Add the job-fit and priorities meters, then re-score and re-rank each race.
     Overall = average of every meter that has a value. Candidates who raised too little for the money meters
@@ -449,8 +492,9 @@ def finalize(races):
                 n, pos = len(planks), sum(1 for x in planks.values() if x.get("match", 0) > 0)
                 c["prio"] = {"v": round(100 * pos / n) if n >= 2 else None, "planks": planks,
                              "label": f"Matches {pos} of {n} priorities with a record" + ("" if n >= 2 else " (needs 2 to score)")}
+            apply_evidence(c)
             sc = c["score"]
-            money = [x["v"] for x in (sc.get("local"), sc.get("indep"), sc.get("foreign"), sc.get("land")) if x and x.get("v") is not None] if sc.get("local") else []
+            money = [x["v"] for x in (sc.get("local"), sc.get("indep"), sc.get("foreign"), sc.get("land")) if x and x.get("v") is not None] if (sc.get("indep") or sc.get("local")) else []
             extra = [x["v"] for x in (c.get("qual"), c.get("prio")) if x and x.get("v") is not None]
             vals = money + extra
             sc["overall"] = round(sum(vals) / len(vals)) if vals else None
@@ -458,7 +502,7 @@ def finalize(races):
             if not money and extra:
                 sc["why_money"] = sc.get("why")
         # fully rated candidates (4+ meters) rank above partly rated ones, then by score
-        ranked = sorted(r["cands"], key=lambda c: (-(c["score"].get("basis", 0) >= 4), -(c["score"]["overall"] if c["score"]["overall"] is not None else -1)))
+        ranked = sorted(r["cands"], key=lambda c: (-(c["score"].get("indep") is not None), -(c["score"]["overall"] if c["score"]["overall"] is not None else -1)))
         for i, c in enumerate(ranked):
             c["rank"] = i + 1 if c["score"]["overall"] is not None else None
         r["cands"] = ranked
