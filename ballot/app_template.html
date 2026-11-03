@@ -532,7 +532,7 @@ function card(r, c, i) {
       <div class="fbody">
         <div class="nameplate"><div class="nm">${esc(c.name)}</div><div class="pt">${partyName(c.party)}${c.incumbent ? " · Incumbent" : ""}${c.running_mate ? " · with " + esc(c.running_mate) : ""}</div></div>
         ${s.overall == null ? `<div class="nsw">${esc(s.why)}</div>` : ""}
-        <div>${meter("🏠", "Local", s.local)}${meter("🗽", "Country first", s.foreign)}${meter("💵", "Independent", s.indep)}</div>
+        <div>${meter("🏠", "Local", s.local)}${meter("🗽", "Country first", s.foreign)}${meter("💵", "Independent", s.indep)}${s.land ? meter("🌾", "Protects land", s.land) : ""}</div>
         <p class="blurb">${esc(firstSentence(c.bio).replace(/;$/, "."))}</p>
         <div class="badges">${srcHits(c) ? `<span class="bdg src">📣 In your sources (${srcHits(c)})</span>` : ""}${f.length ? `<span class="bdg flag">⚠ ${f.length} on record</span>` : ""}</div>
         <div class="hintline">Tap to flip ↻${c.photo ? ` <span class="credit">· Photo: ${esc(c.photo.credit)}</span>` : ""}</div>
@@ -654,7 +654,8 @@ function profile(r, c) {
   let h = `<div class="big bg-${b}" style="margin-bottom:10px"><div class="num">${s.overall ?? "—"}</div><div><div class="word">${WORD[b]} · ${esc(r.short)}</div><div class="hint">${partyName(c.party)}${c.incumbent ? " · Incumbent" : ""}${c.rank ? " · ranked #" + c.rank + " of " + r.cands.filter(x => x.rank).length : ""}</div></div></div>`;
   h += `<div class="panel">${meter("🏠", "Local", s.local)}<div class="mini muted" style="margin:0 0 10px">${esc(s.local ? s.local.label : s.why)}</div>
     ${meter("🗽", "Country first", s.foreign)}<div class="mini muted" style="margin:0 0 10px">${s.foreign.reasons.length ? s.foreign.reasons.map(x => `−${x.pts}: ${esc(x.text)}${link(x.url)}`).join("<br>") : "Nothing found that lowers this."}</div>
-    ${meter("💵", "Independent", s.indep)}<div class="mini muted">${s.indep ? esc(s.indep.label) + ": " + s.indep.parts.map(esc).join("; ") + "." : esc(s.why)}</div></div>`;
+    ${meter("💵", "Independent", s.indep)}<div class="mini muted" style="margin:0 0 10px">${s.indep ? esc(s.indep.label) + ": " + s.indep.parts.map(esc).join("; ") + "." : esc(s.why)}</div>
+    ${s.land ? meter("🌾", "Protects land", s.land) + `<div class="mini muted">${esc(s.land.label)}.</div>` : ""}</div>`;
   h += `<div class="panel"><h4>Who they are</h4>${esc(c.bio || "")}${c.running_mate ? `<p class="mini" style="margin-top:8px"><b>Running mate:</b> ${esc(c.running_mate)}</p>` : ""}${c.local_ties ? `<p class="mini" style="margin-top:8px"><b>🏠 Local ties:</b> ${esc(c.local_ties)}</p>` : ""}</div>`;
   h += ownBox(c.owner_sources, c.owner_sources_searched) + checkLinks(c.name);
   let mh = `<div class="kv" style="margin:2px 0 10px"><div><b>${usd(m.raised)}</b><span>raised</span></div><div><b>${pct(m.fl_pct)}</b><span>from Florida</span></div><div><b>${pct(m.out_pct)}</b><span>out of state</span></div><div><b>${pct(m.local_pct)}</b><span>${m.local_label ? "Sarasota–Manatee" : "Manatee County"}</span></div><div><b>${pct(m.org_pct)}</b><span>business / PAC</span></div><div><b>${pct(m.build_land_pct)}</b><span>building & land</span></div></div>`;
@@ -681,11 +682,12 @@ function profile(r, c) {
 
 function howSheet() {
   const R = D.rules;
-  return `<div class="panel">Each candidate gets three meters from 0 to 100, one for each of your questions. The big number is their average. It comes from public filings only: never party, views, votes or anyone's opinion.
+  return `<div class="panel">Each candidate gets meters from 0 to 100, one for each of your questions. The big number is their average. It comes from public filings only: never party, views, votes or anyone's opinion.
       <div class="legend"><span><i class="g"></i>70+ Strong</span><span><i class="m"></i>45–69 Mixed</span><span><i class="b"></i>Under 45 Weak</span><span><i class="n"></i>Not scored</span></div></div>
-    <div class="panel"><h4>🏠 Local: commitment to the area</h4>The share of their money that comes from home. “Home” fits the office: Florida for statewide and U.S. Senate races; Sarasota–Manatee zip codes for U.S. House 16; Manatee, Sarasota and Hillsborough zip codes for the State House and Senate; Manatee County for county and city races.</div>
+    <div class="panel"><h4>🏠 Local: commitment to the area</h4>The share of their money that comes from home, not counting land, development, data-center, mining or utility money. “Home” fits the office: Florida for statewide and U.S. Senate races; Sarasota–Manatee zip codes for U.S. House 16; Manatee, Sarasota and Hillsborough zip codes for the State House and Senate; Manatee County for county and city races.</div>
     <div class="panel"><h4>🗽 Country first: foreign interest</h4>Starts at 100. Points come off for each documented item:<ul class="formula">${R.foreign.map(f => `<li>−${f.pts}: ${esc(f.text)}</li>`).join("")}<li>−${R.pac} per check from the U.S. PAC of a foreign-parent company (legal; funded by U.S. employees)</li></ul>Trips, statements and votes are listed on the profile but don't change the score.</div>
     <div class="panel"><h4>💵 Independent: big donors</h4>100 minus the share of all the money behind them that is big money. Big money means business, PAC and party money; for federal races, individuals giving $2,000+; any political committee the candidate controls (no donation limit in Florida); and money outside groups spent to help them.</div>
+    <div class="panel"><h4>🌾 Protects the land: land, development and data-center money</h4>Starts at 100 and loses 2 points for every 1% of the candidate's money that comes from land, development, homebuilding, data-center, mining or utility interests, matched on the donor's name, employer or stated occupation in the public filings. That money also doesn't count toward 🏠 Local, even when it comes from Florida.</div>
     <div class="panel"><h4>Limits</h4>Candidates who raised very little aren't scored, because a few checks would swing everything: under $${R.min.federal.toLocaleString()} for federal and statewide offices, $${R.min.legislature.toLocaleString()} for the Legislature, $${R.min.local.toLocaleString()} for county and city. Federal donor detail runs through about July 2026. Filings miss dark money, family money and promises. A donation is a fact about the donor, not proof of what a candidate will do.</div>`;
 }
 

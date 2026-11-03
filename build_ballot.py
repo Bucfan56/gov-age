@@ -75,12 +75,19 @@ def score(c, race_id, region, floor):
     foreign = {"v": max(0, 100 - pen), "reasons": reasons}
 
     if raised < floor:
-        return {"overall": None, "local": None, "indep": None, "foreign": foreign,
+        return {"overall": None, "local": None, "indep": None, "foreign": foreign, "land": None,
                 "why": f"Raised {usd(raised)}, under ${floor:,} for this office: too little money to score fairly."}
 
-    # 🏠 Local
-    home = region if kind == "region" else m.get("fl_pct") if kind == "fl" else m.get("local_pct")
-    local = {"v": round(home) if home is not None else None, "label": f"{round(home or 0)}% of money {label}"}
+    # 🏠 Local: money from home, NOT counting land / development / data-center / mining / utility money from home
+    raw = region if kind == "region" else m.get("fl_pct") if kind == "fl" else m.get("local_pct")
+    home = m.get("fl_clean_pct" if kind == "fl" else "local_clean_pct", raw) if kind != "region" else raw
+    lab = f"{round(home or 0)}% of money {label}"
+    if raw is not None and home is not None and round(raw) != round(home):
+        lab += f" after leaving out land and development money ({round(raw)}% before)"
+    local = {"v": round(home) if home is not None else None, "label": lab}
+    # 🌾 Protects the land: 2 points off for every 1% of money from land, development, data-center, mining or utility interests
+    lp = m.get("land_pct")
+    land = {"v": max(0, round(100 - 2 * lp)), "label": f"{lp:.0f}% of money from land, development, data-center, mining or utility interests"} if lp is not None else None
 
     # 💵 Independent: share of all money behind them that is NOT big money
     org_pct = m.get("org_pct") or 0
@@ -104,8 +111,8 @@ def score(c, race_id, region, floor):
     indep = {"v": round(100 - big_share), "label": f"{round(big_share)}% of all money behind them is big money",
              "parts": parts}
 
-    vals = [x for x in (local["v"], indep["v"], foreign["v"]) if x is not None]
-    return {"overall": round(sum(vals) / len(vals)), "local": local, "indep": indep, "foreign": foreign}
+    vals = [x for x in (local["v"], indep["v"], foreign["v"], land and land["v"]) if x is not None]
+    return {"overall": round(sum(vals) / len(vals)), "local": local, "indep": indep, "foreign": foreign, "land": land}
 
 
 def usd(v):

@@ -76,6 +76,14 @@ with open(f"{D}/ie26.csv", encoding="latin-1", newline="") as fh:
         except ValueError:
             pass
 
+# Land, development, data-center, mining and utility interests, matched literally on the filed employer/occupation.
+import re
+LAND = re.compile(r"\b(HOMES?|HOMEBUILD\w*|BUILDERS?|DEVELOP(ER|ERS|MENT)|REAL ESTATE|REALT(Y|OR\w*)|LAND (BROKER|DEVELOP\w*|COMPANY|CO)|"
+                  r"PROPERTY (DEVELOP\w*|INVEST\w*)|CONSTRUCTION|PAVING|EXCAVAT\w*|ASPHALT|CONCRETE|DATA ?CENTERS?|MINING|PHOSPHATE|MOSAIC|"
+                  r"QUARRY|NEXTERA|FLORIDA POWER|FPL|DUKE ENERGY|TECO|TAMPA ELECTRIC|LENNAR|PULTE|D\.?R\.? HORTON|TAYLOR MORRISON|NEAL COMMUNITIES|"
+                  r"BENDERSON|SCHROEDER|LAKEWOOD RANCH|KOLTER|MATTAMY|MINTO|MERITAGE)\b", re.I)
+land = defaultdict(float)
+
 # individual contributions
 want = {c.encode() for c in cmte_to_cand}
 donors = defaultdict(lambda: defaultdict(lambda: {"amt": 0.0, "n": 0, "emp": "", "occ": "", "city": "", "st": ""}))
@@ -98,6 +106,10 @@ with zipfile.ZipFile(f"{D}/indiv26.zip") as zf:
             c = cmte_to_cand[p[0]]
             st, z = p[9], (p[10] or "")[:5]
             tot[c]["amt"] += amt
+            if LAND.search(p[11] or "") or LAND.search(p[12] or ""):
+                land[c] += amt
+                if st == "FL" and z.isdigit():
+                    geo[c]["L" + z] += amt
             tot[c]["n"] += 1
             if st == "FL":
                 geo[c]["FL"] += amt
@@ -128,7 +140,8 @@ for cid, name in CANDS.items():
         "fec_id": cid, "committees": sorted(own[cid]), "summary": summ.get(cid),
         "itemized_indiv": {"amt": round(tot[cid]["amt"]), "rows": tot[cid]["n"], "donors": len(ds)},
         "share": {"florida": round(100 * g["FL"] / t, 1), "sarasota_manatee_342xx": round(100 * g["SRQ_MANATEE"] / t, 1),
-                  "fl_zips": {k[1:]: round(v) for k, v in g.items() if k.startswith("z") and v >= 1}, "out_of_state": round(100 * g["OUT"] / t, 1),
+                  "fl_zips": {k[1:]: round(v) for k, v in g.items() if k.startswith("z") and v >= 1}, "land_amt": round(land[cid]),
+                  "land_fl_zips": {k[1:]: round(v) for k, v in g.items() if k.startswith("L") and v >= 1}, "out_of_state": round(100 * g["OUT"] / t, 1),
                   "top_out_states": [(s, round(v)) for s, v in out_states],
                   "donors_2000plus_share": round(100 * sum(v["amt"] for v in big) / t, 1),
                   "donors_2000plus_count": len(big)},

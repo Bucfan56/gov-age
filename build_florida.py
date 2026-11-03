@@ -99,9 +99,12 @@ def fed_money(fid, home):
     s, sh = v["summary"], v["share"]
     t = v["itemized_indiv"]["amt"] or 1
     loc = round(100 * sum(a for z, a in sh.get("fl_zips", {}).items() if z in home) / t, 1)
+    lz = sh.get("land_fl_zips", {})
+    loc_clean = round(100 * sum(a for z, a in sh.get("fl_zips", {}).items() if z in home and z not in ()) / t - 100 * sum(a for z, a in lz.items() if z in home) / t, 1)
     pacs = [[B_tc(x["name"])[:70], x["amt"], (x["org_type"] or x["giver_type"])] for x in v["committee_money"] if x["type"] == "24K"][:12]
     return {"raised": s["receipts"], "through": f"FEC totals through {s['through']}",
-            "fl_pct": sh["florida"], "out_pct": sh["out_of_state"], "local_pct": loc,
+            "fl_pct": sh["florida"], "out_pct": sh["out_of_state"], "local_pct": loc, "local_clean_pct": max(0, loc_clean),
+            "fl_clean_pct": max(0, round(sh["florida"] - 100 * sum(lz.values()) / t, 1)), "land_pct": round(100 * sh.get("land_amt", 0) / t, 1),
             "big_pct": sh["donors_2000plus_share"],
             "org_pct": round(100 * (s["pac"] + s["party"]) / s["receipts"], 1) if s["receipts"] else None,
             "top": [[B_tc(x["name"]), x["amt"], f"{x['occ'] or x['emp']} · {B_tc(x['city'])}, {x['st']}"] for x in v["top_donors"][:10]],
@@ -119,8 +122,9 @@ def B_tc(s):
 SUFFIX = re.compile(r"\s*\([A-Z]{2,4}\)\s*\([A-Z]{2,4}\)\s*$")
 ORG = re.compile(r"\b(LLC|L\.L\.C|INC|CORP|CORPORATION|COMPANY|CO\.|P\.?A\.?|PLLC|LLP|LP|LTD|PAC|COMMITTEE|ASSOCIATION|ASSN|PARTY|FUND|GROUP|"
                  r"HOLDINGS|PARTNERS|TRUST|FOUNDATION|ENTERPRISES|INDUSTRIES|SERVICES|SOLUTIONS|FLORIDA|COUNCIL|UNION|FEDERATION|CHAMBER)\b", re.I)
-DEV = re.compile(r"\b(HOMES?|BUILDERS?|BUILDING|DEVELOP\w*|CONSTRUCT\w*|LAND|LANDS|REALTY|REAL ESTATE|REALTOR\w*|PAVING|EXCAVAT\w*|"
-                 r"ENGINEER\w*|CONCRETE|ASPHALT|PROPERT(Y|IES)|COMMUNITIES)\b", re.I)
+DEV = re.compile(r"\b(HOMES?|HOMEBUILD\w*|BUILDERS?|BUILDING|DEVELOP\w*|CONSTRUCT\w*|LAND|LANDS|REALTY|REAL ESTATE|REALTOR\w*|PAVING|EXCAVAT\w*|"
+                 r"ENGINEER\w*|CONCRETE|ASPHALT|PROPERT(Y|IES)|COMMUNITIES|DATA ?CENTERS?|MINING|PHOSPHATE|MOSAIC|QUARRY|NEXTERA|FLORIDA POWER|FPL|"
+                 r"DUKE ENERGY|TECO|TAMPA ELECTRIC|LENNAR|PULTE|HORTON|TAYLOR MORRISON|NEAL COMMUNITIES|BENDERSON|SCHROEDER|LAKEWOOD RANCH|KOLTER|MATTAMY|MINTO)\b", re.I)
 
 
 def fl_district_money(path, home):
@@ -138,7 +142,7 @@ def fl_district_money(path, home):
             amt = float((r.get("Amount") or "0").replace("$", "").replace(",", ""))
         except ValueError:
             continue
-        o = out.setdefault(to, {"gift": 0.0, "loans": 0.0, "home": 0.0, "fl": 0.0, "out": 0.0, "org": 0.0, "dev": 0.0,
+        o = out.setdefault(to, {"gift": 0.0, "loans": 0.0, "home": 0.0, "fl": 0.0, "out": 0.0, "org": 0.0, "dev": 0.0, "home_dev": 0.0,
                                 "donors": defaultdict(lambda: [0.0, 0, ""]), "last": ""})
         if typ == "LOA":
             o["loans"] += amt
@@ -163,6 +167,8 @@ def fl_district_money(path, home):
             o["org"] += amt
         if DEV.search(name) or DEV.search(r.get("Occupation") or ""):
             o["dev"] += amt
+            if z in home:
+                o["home_dev"] += amt
         d = o["donors"][(name.upper(), z)]
         d[0] += amt; d[1] += 1; d[2] = csz
     res = {}
@@ -171,7 +177,8 @@ def fl_district_money(path, home):
         res[to] = {"raised": round(o["gift"]), "through": f"campaign account, reports through {o['last']}",
                    "local_pct": round(100 * o["home"] / g, 1), "fl_pct": round(100 * o["fl"] / g, 1),
                    "out_pct": round(100 * o["out"] / g, 1), "org_pct": round(100 * o["org"] / g, 1),
-                   "build_land_pct": round(100 * o["dev"] / g, 1), "loans": round(o["loans"]) or None,
+                   "build_land_pct": round(100 * o["dev"] / g, 1), "land_pct": round(100 * o["dev"] / g, 1),
+                   "local_clean_pct": round(100 * (o["home"] - o["home_dev"]) / g, 1), "loans": round(o["loans"]) or None,
                    "top": [[B_tc(k[0]), round(v[0]), f"x{v[1]} · {B_tc(v[2])}"] for k, v in sorted(o["donors"].items(), key=lambda kv: -kv[1][0])[:10]],
                    "note": "Includes primary and general. 'State of Florida' lines are public matching funds; party-committee lines are mostly in-kind staff and mail.",
                    "source": "Florida Division of Elections, pulled Nov 3, 2026",
@@ -322,6 +329,27 @@ def research_races(fname, kind):
 LOCAL = load(S / "local_money_all.json", {})
 
 
+def add_land(c):
+    """Palmetto candidates: land shares from today's federal rescan, or the state/county land tags already computed."""
+    m = c.get("money") or {}
+    if not m or "land_pct" in m:
+        return
+    fid = (re.search(r"/candidate/([A-Z0-9]+)/", m.get("source_url") or "") or [None, None])[1]
+    v = FED_BY_ID.get(fid) if fid else None
+    if v:
+        t = v["itemized_indiv"]["amt"] or 1
+        lz = v["share"].get("land_fl_zips", {})
+        m["land_pct"] = round(100 * v["share"].get("land_amt", 0) / t, 1)
+        m["fl_clean_pct"] = max(0, round((m.get("fl_pct") or 0) - 100 * sum(lz.values()) / t, 1))
+        if m.get("local_pct") is not None:
+            m["local_clean_pct"] = max(0, round(m["local_pct"] - 100 * sum(a for z, a in lz.items() if z.startswith("342")) / t, 1))
+    elif m.get("build_land_pct") is not None:
+        m["land_pct"] = m["build_land_pct"]
+        for k in ("local_pct", "fl_pct"):
+            if m.get(k) is not None:
+                m[k.replace("_pct", "_clean_pct")] = max(0, round(m[k] - m["build_land_pct"], 1))
+
+
 def local_money(name):
     ln = lastname(name)
     hits = [(k, v) for k, v in LOCAL.items() if ln and ln in re.findall(r"[a-z'-]+", fold(k.split(",")[0]))]
@@ -333,7 +361,8 @@ def local_money(name):
     v = hits[0][1]
     return {"raised": v["raised"], "through": f"county reports, last item {v.get('last_report_item', '')}",
             "local_pct": v["pct_manatee"], "out_pct": v["pct_out_state"], "org_pct": v["pct_business_committee"],
-            "build_land_pct": v["pct_building_land_tagged"], "loans": v["loans"] or None,
+            "build_land_pct": v["pct_building_land_tagged"], "land_pct": v["pct_building_land_tagged"],
+            "local_clean_pct": max(0, round(v["pct_manatee"] - v["pct_building_land_tagged"], 1)), "loans": v["loans"] or None,
             "top": [[B_tc(re.sub(r"\s*\[.*?\]", "", a)), b, re.search(r"\](.*)", a).group(1).strip() if "]" in a else ""] for a, b, n in v["top_donors"][:10]],
             "source": "Manatee County Supervisor of Elections campaign reports, pulled Nov 2, 2026",
             "source_url": "https://www.votemanatee.gov/search-financial-reports/"}
@@ -382,6 +411,10 @@ def main():
                 v = VOTES40.get(c["name"])
                 if v and v.get("votes"):
                     c["votes"] = [x for x in v["votes"] if x.get("vote") and x.get("url")]
+    for part in d["parts"]:
+        for r in part["races"]:
+            for c in r.get("candidates") or []:
+                add_land(c)
     base = B.build(d, shares)
     WHERE = {"senate": {"all": 1}, "governor": {"all": 1}, "ag": {"all": 1}, "cfo": {"all": 1}, "agriculture": {"all": 1},
              "m0": {"all": 1}, "m1": {"all": 1}, "m2": {"all": 1},
