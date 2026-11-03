@@ -399,6 +399,39 @@ def manatee_races(have_ids):
     return out
 
 
+QUALS = (load(S / "research3" / "qualifications.json", {}) or {}).get("candidates", {})
+PRIO = load(S / "research3" / "priorities.json", {}) or {}
+
+
+def finalize(races):
+    """Add the job-fit and priorities meters, then re-score and re-rank each race.
+    Overall = average of every meter that has a value. Candidates who raised too little for the money meters
+    are still rated on qualification and priorities when those exist."""
+    for r in races:
+        if r.get("kind") != "race":
+            continue
+        for c in r["cands"]:
+            q = QUALS.get(c["name"]) or {}
+            if q:
+                c["qual"] = {"v": q.get("qual"), "background": q.get("background"), "why": q.get("why"), "sources": q.get("sources", []),
+                             "label": (q.get("why") or "") if q.get("qual") is not None else "Background not found: unknown, not unqualified"}
+            pr = (PRIO.get("candidates") or {}).get(c["name"]) or {}
+            if pr and (pr.get("planks") or pr.get("score") is not None):
+                c["prio"] = {"v": pr.get("score"), "planks": pr.get("planks", {}),
+                             "label": f"Matches {sum(1 for x in pr.get('planks', {}).values() if x.get('match', 0) > 0)} of {len(pr.get('planks', {}))} priorities with a record"}
+            sc = c["score"]
+            money = [x["v"] for x in (sc.get("local"), sc.get("indep"), sc.get("foreign"), sc.get("land")) if x and x.get("v") is not None] if sc.get("local") else []
+            extra = [x["v"] for x in (c.get("qual"), c.get("prio")) if x and x.get("v") is not None]
+            vals = money + extra
+            sc["overall"] = round(sum(vals) / len(vals)) if vals else None
+            if not money and extra:
+                sc["why_money"] = sc.get("why")
+        ranked = sorted(r["cands"], key=lambda c: -(c["score"]["overall"] if c["score"]["overall"] is not None else -1))
+        for i, c in enumerate(ranked):
+            c["rank"] = i + 1 if c["score"]["overall"] is not None else None
+        r["cands"] = ranked
+
+
 # ---------------- assemble ----------------
 def main():
     d = json.loads((ROOT / "ballot-34221.json").read_text(encoding="utf-8"))
@@ -447,6 +480,7 @@ def main():
     races += extra
     notes.append(f"manatee.json: {len(extra)} new county/city items")
 
+    finalize(races)
     OUT.mkdir(exist_ok=True)
     state = [r for r in races if r["where"].get("all")]
     buckets = defaultdict(list)
@@ -464,7 +498,7 @@ def main():
     soe = {k: [v.get("web"), v.get("phone"), v.get("addr")] for k, v in SOE.items()}
     data = {"title": "Your Florida Ballot · Nov 3, 2026", "built": d["built"], "boxes": d["boxes"], "footer": d["footer"],
             "groups": [{"id": a, "label": b, "icon": c} for a, b, c in B.GROUPS], "races": state, "files": sorted(buckets),
-            "zips": zipt, "soe": soe, "coverage": SWEEP.get("coverage", []),
+            "zips": zipt, "soe": soe, "coverage": SWEEP.get("coverage", []), "platform": PRIO.get("platform"),
             "rules": {"min": B.MIN_RAISED, "pac": B.FOREIGN_PAC_PENALTY, "foreign": [{"pts": p, "text": t} for _, p, t in B.FOREIGN_RULES]}}
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     tpl = (ROOT / "ballot" / "app_template.html").read_text(encoding="utf-8")
