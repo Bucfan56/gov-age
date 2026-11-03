@@ -23,7 +23,7 @@ rows = list(csv.DictReader(open(SRC, encoding="utf-8", errors="replace")))
 out = {}
 for r in rows:
     cand = html.unescape(r["Candidate"])
-    hit = next((w for w in WANT if html.unescape(w) in cand), None)
+    hit = cand if "--all" in sys.argv else next((w for w in WANT if html.unescape(w) in cand), None)
     if not hit or r["Date"][-4:] < "2025":
         continue
     o = out.setdefault(cand, {"office": r["Office"], "gift": 0.0, "n": 0, "loans": 0.0, "inkind": 0.0,

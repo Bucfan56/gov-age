@@ -213,6 +213,50 @@ def score_race(rid, group, cands, home_label):
     return ranked
 
 
+# The Division of Elections' own 2026 General candidate list (canlist.asp, statuses Qualified + Elected/Unopposed)
+# is the authority on WHO is on the ballot; research only adds what we know about them.
+CANLIST = load(S / "geo" / "canlist.json", [])
+OFFICE = {"usr": "United States Representative", "sts": "State Senator", "str": "State Representative"}
+
+
+def official(k, n):
+    return [o for o in CANLIST if o["office"] == OFFICE[k] and o["district"] == n]
+
+
+def reconcile(k, n, cands, raw):
+    """Keep research candidates the state lists, add listed ones research missed, label write-ins."""
+    offl = official(k, n)
+    if not CANLIST:
+        return cands, ""
+    if not offl:
+        print(f"   {k}-{n}: not on the 2026 general list; dropped", file=sys.stderr)
+        return [], ""
+    keep, used = [], set()
+    for c in cands:
+        ln = lastname(c["name"])
+        o = next((o for i, o in enumerate(offl) if i not in used and ln in re.findall(r"[a-z'-]+", fold(o["last"]))), None)
+        if not o:
+            print(f"   {k}-{n}: {c['name']} not on the state list; dropped", file=sys.stderr)
+            continue
+        used.add(offl.index(o))
+        if o["party"] == "WRI":
+            c["party"] = "Write-in"
+        elif o["party"]:
+            c["party"] = o["party"]
+        c["incumbent"] = o["inc"] or c.get("incumbent", False)
+        keep.append(c)
+    for i, o in enumerate(offl):
+        if i in used:
+            continue
+        nm = f"{o['first']} {o['last']}"
+        print(f"   {k}-{n}: added {nm} from the state list", file=sys.stderr)
+        keep.append({"name": nm, "party": "Write-in" if o["party"] == "WRI" else o["party"], "incumbent": o["inc"],
+                     "gaps": "On the state's candidate list; not yet researched for this guide."})
+        raw[nm] = {"name": nm, "fl_doe_name": nm}
+    unopp = all(o["general"] == "Unopposed" for o in offl)
+    return keep, "Unopposed: this seat was decided without a general-election contest, so it won't be on your ballot." if unopp else ""
+
+
 def research_races(fname, kind):
     blob = load(S / "research2" / fname, {}) or {}
     races = []
@@ -222,10 +266,12 @@ def research_races(fname, kind):
         if not m:
             continue
         k, n = m.group(1), int(m.group(2))
-        cands = [norm_cand(c) for c in r.get("candidates", []) if c.get("name")]
+        raw = {c["name"]: c for c in r.get("candidates", []) if c.get("name")}
+        cands, unopp_note = reconcile(k, n, [norm_cand(c) for c in r.get("candidates", []) if c.get("name")], raw)
         if not cands:
             continue
-        raw = {c["name"]: c for c in r.get("candidates", []) if c.get("name")}
+        if unopp_note:
+            r["note"] = unopp_note
         if k == "usr":
             home = zips_where(cd=n)
             for c in cands:
@@ -247,12 +293,61 @@ def research_races(fname, kind):
                 c["photo"] = ph
         key = f"{k}-{n}"
         ranked = score_race(key, group, cands, label)
-        unopposed = len(cands) == 1
-        races.append({"kind": "race", "group": group, "id": key, "title": title, "short": short,
-                      "sub": "1 candidate (no contest)" if unopposed else f"{len(cands)} candidates", "everyone": True,
-                      "where": where, "note": r.get("note") or ("Only one candidate qualified, so this seat may not appear on your ballot." if unopposed else ""),
+        wi = sum(1 for c in cands if c.get("party") == "Write-in")
+        sub = "Unopposed: not on ballot" if unopp_note else f"{len(cands) - wi} on ballot" + (f" + {wi} write-in" if wi else "")
+        races.append({"kind": "race", "group": group, "id": key, "title": title, "short": short, "sub": sub, "everyone": True,
+                      "where": where, "note": r.get("note") or ("Write-in candidates aren't printed on the ballot: you'd write their name on the blank line." if wi else ""),
                       "cands": ranked})
     return races, blob.get("done"), blob.get("notes", [])
+
+
+LOCAL = load(S / "local_money_all.json", {})
+
+
+def local_money(name):
+    ln = lastname(name)
+    hits = [(k, v) for k, v in LOCAL.items() if ln and ln in re.findall(r"[a-z'-]+", fold(k.split(",")[0]))]
+    if len(hits) > 1:
+        fn = fold(name).split()[0]
+        hits = [h for h in hits if fn in fold(h[0])] or []
+    if len(hits) != 1:          # ambiguous or none: show no money rather than someone else's
+        return {}
+    v = hits[0][1]
+    return {"raised": v["raised"], "through": f"county reports, last item {v.get('last_report_item', '')}",
+            "local_pct": v["pct_manatee"], "out_pct": v["pct_out_state"], "org_pct": v["pct_business_committee"],
+            "build_land_pct": v["pct_building_land_tagged"], "loans": v["loans"] or None,
+            "top": [[B_tc(re.sub(r"\s*\[.*?\]", "", a)), b, re.search(r"\](.*)", a).group(1).strip() if "]" in a else ""] for a, b, n in v["top_donors"][:10]],
+            "source": "Manatee County Supervisor of Elections campaign reports, pulled Nov 2, 2026",
+            "source_url": "https://www.votemanatee.gov/search-financial-reports/"}
+
+
+def manatee_races(have_ids):
+    blob = load(S / "research2" / "manatee.json", {}) or {}
+    out = []
+    for r in blob.get("races", []):
+        w = r.get("where")
+        if not isinstance(w, dict) or not r.get("id") or r["id"] in have_ids:
+            continue
+        w = dict(w, county="Manatee")
+        if r.get("kind") == "measure":
+            m = r.get("m") or r
+            out.append({"kind": "measure", "group": "measures", "id": r["id"], "title": m.get("name") or r.get("office", ""),
+                        "short": r.get("short") or (m.get("name") or "")[:18], "sub": r.get("sub", ""), "everyone": True, "where": w, "m": m})
+            continue
+        cands = [norm_cand(c) for c in r.get("candidates", []) if c.get("name")]
+        if not cands:
+            continue
+        raw = {c["name"]: c for c in r.get("candidates", []) if c.get("name")}
+        for c in cands:
+            c["money"] = local_money(c["name"])
+            ph = photo(dict(raw[c["name"]], name=c["name"]))
+            if ph:
+                c["photo"] = ph
+        ranked = score_race(r["id"], "local", cands, "from Manatee County")
+        out.append({"kind": "race", "group": "local", "id": r["id"], "title": r.get("office") or r.get("title") or r["id"],
+                    "short": r.get("short") or (r.get("office") or r["id"])[:18], "sub": f"{len(cands)} candidates", "everyone": True,
+                    "where": w, "note": r.get("note", ""), "cands": ranked})
+    return out
 
 
 # ---------------- assemble ----------------
@@ -295,7 +390,9 @@ def main():
             if json.dumps(x["where"]) not in have:
                 races.append(x)
         notes.append(f"{fname}: {len(extra)} races, done={done}")
-    # Manatee county races from the Manatee slice are merged by a later pass once its shape is checked (merge_manatee.py)
+    extra = manatee_races({r["id"] for r in races})
+    races += extra
+    notes.append(f"manatee.json: {len(extra)} new county/city items")
 
     OUT.mkdir(exist_ok=True)
     state = [r for r in races if r["where"].get("all")]
