@@ -196,8 +196,8 @@ body.locked{overflow:hidden}
 .nameplate .pt{color:var(--sub);font-size:13px;margin-top:2px}
 .nsw{font-size:12.5px;color:var(--sub);background:var(--none-bg);border-radius:10px;padding:8px 10px}
 .credit{font-size:10.5px;color:var(--sub);opacity:.8}
-.dot{background-size:cover;background-position:50% 20%;box-shadow:0 0 0 2.5px var(--card),0 0 0 4.5px currentColor}
-.dot.g{color:var(--good)}.dot.m{color:var(--mid)}.dot.b{color:var(--bad)}.dot.n{color:var(--none)}
+.dot{background-size:cover;background-position:50% 20%;color:#fff;box-shadow:0 0 0 2.5px var(--card),0 0 0 4.5px var(--ring,var(--none))}
+.dot.g{--ring:var(--good)}.dot.m{--ring:var(--mid)}.dot.b{--ring:var(--bad)}.dot.n{--ring:var(--none)}
 .dot.ph{font-size:0}
 .tile .dots{gap:9px;padding:4px}
 /* ---------- Deck 1: Old Glory ---------- */
