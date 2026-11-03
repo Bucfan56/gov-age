@@ -431,7 +431,7 @@ def main():
     soe = {k: [v.get("web"), v.get("phone"), v.get("addr")] for k, v in SOE.items()}
     data = {"title": "Your Florida Ballot · Nov 3, 2026", "built": d["built"], "boxes": d["boxes"], "footer": d["footer"],
             "groups": [{"id": a, "label": b, "icon": c} for a, b, c in B.GROUPS], "races": state, "files": sorted(buckets),
-            "zips": zipt, "soe": soe,
+            "zips": zipt, "soe": soe, "coverage": SWEEP.get("coverage", []),
             "rules": {"min": B.MIN_RAISED, "pac": B.FOREIGN_PAC_PENALTY, "foreign": [{"pts": p, "text": t} for _, p, t in B.FOREIGN_RULES]}}
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     tpl = (ROOT / "ballot" / "app_template.html").read_text(encoding="utf-8")
