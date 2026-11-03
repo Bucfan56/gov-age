@@ -923,7 +923,7 @@ function home() {
 const X_HANDLES = ["jamesfishback", "RealAlexJones", "alexstein99", "OwenShroyer1776", "OldWorldFL", "IanCarrollShow", "RealCandaceO", "realstewpeters", "StewPetersNet", "RyLiberty", "rexjonesnewz", "jakeshieldsajj", "MyronGainesX"];
 const SOURCE_LIST = [["Websites", ["alexjoneslive.com", "stewpeters.com", "ryandawson.org"]],
   ["Rumble", ["Owen", "TheAlexJonesShowLive", "StewPeters", "RyanDawson", "RealCandaceO", "FightBackPodcast", "OldWorldFlorida"]],
-  ["X", X_HANDLES.map(h => "@" + h).concat(["X in general"])]];
+  ["X", X_HANDLES.map(h => "@" + h)]];
 function ownBox(items, searched) {
   items = items || [];
   if (!items.length) return searched && searched.length ? `<p class="mini muted" style="margin:10px 2px">📣 Your sources were searched: nothing about this.</p>` : "";
@@ -1016,7 +1016,7 @@ function srcSheet() {
   const hits = [], none = [], unchecked = [];
   for (const r of myRaces()) for (const c of (r.cands || [])) (srcHits(c) ? hits : (c.owner_sources_searched || []).length ? none : unchecked).push([r, c]);
   const mHits = ALL.filter(r => r.kind === "measure" && (r.m.owner_sources || []).length);
-  return `<div class="panel">Your ${SOURCE_LIST.reduce((n, [, l]) => n + l.length, 0)} sources are checked for the candidates and ballot questions on your ballot. What they say appears in an amber 📣 box on that candidate's card, credited to them and reported as they say it. Headlines, descriptions and posts are read; long videos can't be watched. They don't change the scores, except where a source produced a checkable video or record (then the card says so).
+  return `<div class="panel">Your ${SOURCE_LIST.reduce((n, [, l]) => n + l.length, 0)} sources are checked for the candidates and ballot questions on your ballot. What they say appears in an amber 📣 box on that candidate's card, credited to them and reported as they say it. Headlines, descriptions and posts are read; long videos can't be watched. Only these sources appear in the 📣 box, and they don't change the scores. The rest of X is used only to back up a claim in a candidate's record with a checkable video or post (like the Donalds "investors" video), and that shows in the record, not here.
       ${SOURCE_LIST.map(([g, l]) => `<div class="srcg"><b>${g}</b> ${l.map(x => `<span class="chip">${esc(x)}</span>`).join("")}</div>`).join("")}</div>
     ${(D.coverage || []).length ? `<div class="panel"><h4>What was searched, source by source</h4>${D.coverage.map(([src, lvl, how]) => `<div class="cov"><span class="covl ${esc(lvl)}">${lvl === "full" ? "✓ Fully searched" : lvl === "partial" ? "◐ Partly searched" : "✕ Blocked"}</span><b>${esc(src)}</b><div class="mini muted">${esc(how)}</div></div>`).join("")}</div>` : ""}
     <h3 style="margin:18px 2px 6px">Found something (${hits.length + mHits.length})</h3>

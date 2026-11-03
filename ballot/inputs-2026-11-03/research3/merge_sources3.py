@@ -74,7 +74,7 @@ if xs.exists():
     xh = json.loads(xs.read_text(encoding="utf-8"))
     for n, v in xh["hits"].items():
         v = sorted(v, key=lambda x: (x["handle"].lower() not in MINE, "".join(chr(255 - ord(c)) for c in x.get("date", ""))))
-        items = [{"source": f"@{x['handle']} on X", "title": fix(x["text"])[:280], "says": "", "date": x.get("date", ""), "url": x["url"]} for x in v if x.get("url") and x.get("text")]
+        items = [{"source": f"@{x['handle']} on X", "title": fix(x["text"])[:280], "says": "", "date": x.get("date", ""), "url": x["url"]} for x in v if x.get("url") and x.get("text") and x["handle"].lower() in MINE]  # owner 11-03: his 13 accounts only
         nx += add(n, items, 8)
 
 rg = r3["range"]
@@ -85,7 +85,7 @@ cov = {
 }
 if xs.exists():
     xc = xh.get("coverage") or {}
-    cov["X: your 13 accounts and X in general"] = ["X: your 13 accounts and X in general", xc.get("status", "full"), xc.get("text", "")]
+    cov["X: your 13 accounts"] = ["X: your 13 accounts", xc.get("status", "full"), xc.get("text", "")]
 sw["coverage"] = [cov.get(c[0], c) for c in sw["coverage"]]
 for old, new in [("rumble.com/TheAlexJonesShowLive", "rumble.com/c/TheAlexJonesShowLive"), ("rumble.com/Owen", "rumble.com/c/Owen")]:
     sw["sites"] = [new if s == old else s for s in sw["sites"]]

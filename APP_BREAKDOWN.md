@@ -62,6 +62,14 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-03 (night): "Your sources" holds only the sources Tyler listed
+
+- **The 📣 box now shows only items from Tyler's list.** That list is 3 websites (alexjoneslive.com, stewpeters.com, ryandawson.org), 7 Rumble channels and 13 X accounts. Tyler's ask: "Only what I gave you for sources should be used there."
+  - The X-wide search had pulled in posts from about 300 other accounts, such as @FLVoiceNews, @FloridaGOP and @pastorsutton. Those are gone, along with 8 infowars.com items, which wasn't on his list.
+  - Overall the box dropped from 825 items across 186 candidates to 106 items across 18. Wilton Simpson's box, for example, now reads "searched: nothing about this".
+- **"X in general" is off the source list.** Tyler meant it only for backing up claims in a candidate's record, such as the Donalds "investors" video, which stays in Donalds' record and score. The Sources screen now says so, and its coverage row reads "X: your 13 accounts".
+- **How it's enforced:** a filter in `build_florida.py` (`only_owners`) runs on every candidate, judge and ballot question just before the files are written. `merge_sources3.py` also now keeps only his 13 X accounts, so a re-run can't add the others back.
+
 ### 2026-11-03 (evening, last): Trade check "why" laid out side by side
 
 - **The why sheet now shows both candidates in two columns, topic by topic** (Tyler's ask: side by side, not one record stacked on the other). Their names and scores stay pinned at the top while scrolling, with the one who's ahead outlined in green. Below that, each topic is a row with one candidate on the left and the other on the right.

@@ -218,6 +218,33 @@ def norm_cand(c):
 
 
 SWEEP = load(S / "sweep_owner.json", {}) or {}
+# owner, 2026-11-03: "Your sources" holds only the sources he listed. "X in general" was for backing up claims
+# elsewhere (e.g. the Donalds investors video in his record), never for this box.
+OWN_SITES = {"alexjoneslive.com", "stewpeters.com", "ryandawson.org"}
+OWN_X = {h.lower() for h in "jamesfishback RealAlexJones alexstein99 OwenShroyer1776 OldWorldFL IanCarrollShow RealCandaceO realstewpeters StewPetersNet RyLiberty rexjonesnewz jakeshieldsajj MyronGainesX".split()}
+OWN_RUMBLE = ("owen shroyer", "alex jones", "stew peters", "ryan dawson", "candace", "fight back", "old world")   # his 7 Rumble channels, by label
+
+
+def owners_own(x):
+    u = re.match(r"https?://(?:www\.)?([^/]+)/?([^/?#]*)", x.get("url") or "")
+    if not u:
+        return False
+    host, first = u.group(1).lower(), u.group(2).lower()
+    if host in OWN_SITES:
+        return True
+    if host in ("x.com", "twitter.com"):
+        return first in OWN_X
+    if host == "rumble.com":
+        return any(k in (x.get("source") or "").lower() for k in OWN_RUMBLE)
+    return False
+
+
+def only_owners(o):
+    """Drop every "Your sources" item that isn't from one of the owner's listed sources."""
+    if o.get("owner_sources"):
+        o["owner_sources"] = [x for x in o["owner_sources"] if owners_own(x)]
+        if not o["owner_sources"]:
+            o.pop("owner_sources")
 
 
 def owner_sweep(c):
@@ -640,6 +667,9 @@ def main():
             continue
         key = f"cd-{w['cd']}" if "cd" in w else f"sd-{w['sd']}" if "sd" in w else f"hd-{w['hd']}" if "hd" in w else "county-" + slug(w["county"])
         buckets[key].append(r)
+    for r in races:
+        for o in (r.get("cands") or []) + (r.get("judges") or []) + ([r["m"]] if r.get("m") else []):
+            only_owners(o)
     for f in OUT.glob("*.json"):
         f.unlink()
     for k, rs in buckets.items():
