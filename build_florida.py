@@ -203,9 +203,24 @@ def norm_cand(c):
     return o
 
 
+SWEEP = load(S / "sweep_owner.json", {}) or {}
+
+
+def owner_sweep(c):
+    """Add today's scripted check of the owner's sources (full-name matches only) to a candidate."""
+    if c["name"] not in set(SWEEP.get("names", [])):
+        return
+    have = {x.get("url") for x in c.get("owner_sources") or []}
+    c["owner_sources"] = (c.get("owner_sources") or []) + [x for x in SWEEP.get("hits", {}).get(c["name"], []) if x["url"] not in have]
+    c["owner_sources_searched"] = sorted(set(c.get("owner_sources_searched") or []) | set(SWEEP.get("sites", [])))
+    if not c["owner_sources"]:
+        c.pop("owner_sources")
+
+
 def score_race(rid, group, cands, home_label):
     B.HOME[rid] = ("local", home_label)
     for c in cands:
+        owner_sweep(c)
         c["score"] = B.score(c, rid, None, B.MIN_RAISED[group])
     ranked = sorted(cands, key=lambda c: -(c["score"]["overall"] if c["score"]["overall"] is not None else -1))
     for i, c in enumerate(ranked):
