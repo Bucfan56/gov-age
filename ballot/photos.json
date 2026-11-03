@@ -1384,5 +1384,474 @@
   "page": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashley_Gantt.jpg?width=400",
   "c": "ashley-gantt.jpg",
   "face": true
+ },
+ "Charles Burkett": {
+  "f": "charles-burkett.jpg",
+  "credit": "Burkett for Florida Governor campaign newsroom (Send2Press press release photo, May 2026)",
+  "page": "https://www.send2press.com/wire/images/26-0519-s2p-Charles-Burkett-800x600.jpg",
+  "c": "charles-burkett.jpg",
+  "face": true
+ },
+ "Jeffrey Peter \"Dr. Jeff\" Datto": {
+  "f": "jeffrey-peter-datto.jpg",
+  "credit": "BallotReady candidate profile (Candidate for Florida Governor)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/971474/971474.jpg",
+  "c": "jeffrey-peter-datto.jpg",
+  "face": true
+ },
+ "Jose Javier Rodriguez": {
+  "f": "jose-javier-rodriguez.jpg",
+  "credit": "BallotReady candidate profile (Florida Attorney General)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/388904/388904.jpg",
+  "c": "jose-javier-rodriguez.jpg",
+  "face": true
+ },
+ "Jordan Varnadore": {
+  "f": "jordan-varnadore.png",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 71)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/952478/jordan-varnadore.png",
+  "c": "jordan-varnadore.jpg",
+  "face": true
+ },
+ "Luther Keith Wilkins": {
+  "f": "luther-keith-wilkins.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 70)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/841973/841973.jpg",
+  "c": "luther-keith-wilkins.jpg",
+  "face": true
+ },
+ "Tara Poulton": {
+  "f": "tara-poulton.jpg",
+  "credit": "BallotReady candidate profile (Manatee County Commission - District 6 (At Large))",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/952088/952088.jpg",
+  "c": "tara-poulton.jpg",
+  "face": true
+ },
+ "Reggie Bellamy": {
+  "f": "reggie-bellamy.jpg",
+  "credit": "BallotReady candidate profile (Manatee County Commission - District 6 (At Large))",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/190146/190146.jpg",
+  "c": "reggie-bellamy.jpg",
+  "face": true
+ },
+ "Sari Lindroos-Valimaki": {
+  "f": "sari-lindroos-valimaki.png",
+  "credit": "BallotReady candidate profile (Manatee County Commission - District 1)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/952058/sari-lindroos-valimaki.png",
+  "c": "sari-lindroos-valimaki.jpg",
+  "face": true
+ },
+ "Amanda Ballard": {
+  "f": "amanda-ballard.jpg",
+  "credit": "BallotReady candidate profile (Manatee County Commission - District 2)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/686143/686143.jpg",
+  "c": "amanda-ballard.jpg",
+  "face": true
+ },
+ "Charles B. Smith Sr": {
+  "f": "charles-b-smith-sr.jpg",
+  "credit": "BallotReady candidate profile (Manatee County Commission - District 2)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/190148/190148.jpg",
+  "c": "charles-b-smith-sr.jpg",
+  "face": true
+ },
+ "Cindy Spray": {
+  "f": "cindy-spray.jpg",
+  "credit": "BallotReady candidate profile (Manatee County School Board - District 2)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/686154/686154.jpg",
+  "c": "cindy-spray.jpg",
+  "face": true
+ },
+ "Sunshine Joiner": {
+  "f": "sunshine-joiner.jpg",
+  "credit": "BallotReady candidate profile (Palmetto City Commission - Ward 2)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/985248/985248.jpg",
+  "c": "sunshine-joiner.jpg",
+  "face": true
+ },
+ "Joe Strada": {
+  "f": "joe-strada.webp",
+  "credit": "Official campaign site (votestrada.com), alt 'Joe Strada headshot'",
+  "page": "https://www.votestrada.com/photos/joe-headshot-blue-polo.webp",
+  "c": "joe-strada.jpg",
+  "face": true
+ },
+ "Ralph Groves": {
+  "f": "ralph-groves.jpg",
+  "credit": "Official campaign site (grovesforcongress.com), file ralph-groves.jpg (candid, in office)",
+  "page": "https://static.wixstatic.com/media/b9350a_e7d10cce66a34bc0b3ae9c79ef6809ac~mv2.jpg",
+  "c": "ralph-groves.jpg",
+  "face": true
+ },
+ "Deborah Ann Meidinger Hosey": {
+  "f": "deborah-ann-meidinger-hosey.webp",
+  "credit": "Official campaign site (deborahforcongress.com), file named for candidate",
+  "page": "https://deborahforcongress.com/UserFiles/image/Deborah_Ann_Meidinger_Hosey.webp",
+  "c": "deborah-ann-meidinger-hosey.jpg",
+  "face": true
+ },
+ "Francesca Yabraian": {
+  "f": "francesca-yabraian.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 1)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/951893/951893.jpg",
+  "c": "francesca-yabraian.jpg",
+  "face": true
+ },
+ "Jon Fay": {
+  "f": "jon-fay.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 2)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/951896/951896.jpg",
+  "c": "jon-fay.jpg",
+  "face": true
+ },
+ "Merrillee Malwitz Jipson": {
+  "f": "merrillee-malwitz-jipson.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 10)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/189085/189085.jpg",
+  "c": "merrillee-malwitz-jipson.jpg",
+  "face": true
+ },
+ "Marshall Rawson": {
+  "f": "marshall-rawson.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 10)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/951914/951914.jpg",
+  "c": "marshall-rawson.jpg",
+  "face": true
+ },
+ "Chadd Charland": {
+  "f": "chadd-charland.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 15)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/951924/951924.jpg",
+  "c": "chadd-charland.jpg",
+  "face": true
+ },
+ "Art Stresing": {
+  "f": "art-stresing.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 18)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/957211/957211.jpg",
+  "c": "art-stresing.jpg",
+  "face": true
+ },
+ "Suzanna Pavelle": {
+  "f": "suzanna-pavelle.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 19)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/951931/951931.jpg",
+  "c": "suzanna-pavelle.jpg",
+  "face": true
+ },
+ "Amy Trask": {
+  "f": "amy-trask.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 22)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/828552/828552.jpg",
+  "c": "amy-trask.jpg",
+  "face": true
+ },
+ "Robyn Lawrence": {
+  "f": "robyn-lawrence.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 26)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/952117/952117.jpg",
+  "c": "robyn-lawrence.jpg",
+  "face": true
+ },
+ "Andy Ferrari": {
+  "f": "andy-ferrari.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 27)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/841912/841912.jpg",
+  "c": "andy-ferrari.jpg",
+  "face": true
+ },
+ "Sammy Jackson": {
+  "f": "sammy-jackson.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 28)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/957274/957274.jpg",
+  "c": "sammy-jackson.jpg",
+  "face": true
+ },
+ "Edwin Munoz": {
+  "f": "edwin-munoz.png",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 30)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/957275/957275.png",
+  "c": "edwin-munoz.jpg",
+  "face": true
+ },
+ "Juan Hinojosa": {
+  "f": "juan-hinojosa.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 32)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/841920/841920.jpg",
+  "c": "juan-hinojosa.jpg",
+  "face": true
+ },
+ "Darryl Block": {
+  "f": "darryl-block.png",
+  "credit": "Official campaign site (darrylblock.com), image alt 'Darryl Block hero headshot'; decorative circle background",
+  "page": "https://static.wixstatic.com/media/6c8408_9cadd5e3ba154c09acfd41ac825bc74a~mv2.png",
+  "c": "darryl-block.jpg",
+  "face": true
+ },
+ "Emily Duda Buckley": {
+  "f": "emily-duda-buckley.jpg",
+  "credit": "Official campaign site (emilydudabuckley.com)",
+  "page": "https://www.emilydudabuckley.com/assets/img/emily-headshot.jpg",
+  "c": "emily-duda-buckley.jpg",
+  "face": true
+ },
+ "Erin Huntley": {
+  "f": "erin-huntley.png",
+  "credit": "Official campaign site (voteerinhuntley.com), about portrait (transparent circular-framed PNG)",
+  "page": "https://www.voteerinhuntley.com/__l5e/assets-v1/73a9a4ee-35a3-41cf-a8e3-5a89371aa216/erin-about-portrait.png",
+  "c": "erin-huntley.jpg",
+  "face": true
+ },
+ "Brian Hawkins": {
+  "f": "brian-hawkins.jpg",
+  "credit": "Official campaign site (brianhawkinsforflorida.com)",
+  "page": "https://brianhawkinsforflorida.com/assets/hero-brian.jpg",
+  "c": "brian-hawkins.jpg",
+  "face": true
+ },
+ "Wendy Hoy": {
+  "f": "wendy-hoy.png",
+  "credit": "Official campaign site (wendyhoyforchange.com); filename not explicit, single portrait on her own site",
+  "page": "https://wendyhoyforchange.com/wp-content/uploads/2023/06/thinner-face-2.png",
+  "c": "wendy-hoy.jpg",
+  "face": true
+ },
+ "Dan Weldon": {
+  "f": "dan-weldon.jpg",
+  "credit": "Official campaign site (tampadan.com), alt 'Dan Weldon'",
+  "page": "https://tampadan.com/wp-content/uploads/2026/06/portrait.jpg",
+  "c": "dan-weldon.jpg",
+  "face": true
+ },
+ "Dante Sanchez Sanchez": {
+  "f": "dante-sanchez-sanchez.png",
+  "credit": "Official campaign site (sanchezsanchezforflorida.com); portrait has a name caption strip at bottom",
+  "page": "https://sanchezsanchezforflorida.com/wp-content/uploads/2026/06/Jose-Dante-Sanchez-Sanchez.png",
+  "c": "dante-sanchez-sanchez.jpg",
+  "face": true
+ },
+ "Ryan Neill": {
+  "f": "ryan-neill.jpg",
+  "credit": "Official campaign site (electryanneill.com), file new-headshot2",
+  "page": "https://primary.jwwb.nl/public/k/k/b/temp-elcwtaykybkhuiscgbdx/new-headshot2-high.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200",
+  "c": "ryan-neill.jpg",
+  "face": true
+ },
+ "Susan Frantz": {
+  "f": "susan-frantz.png",
+  "credit": "Official campaign site (votesusanfrantz.com)",
+  "page": "https://www.votesusanfrantz.com/wp-content/uploads/2026/05/susan-1030x1030.png",
+  "c": "susan-frantz.jpg",
+  "face": true
+ },
+ "Anthony Bonna": {
+  "f": "anthony-bonna.png",
+  "credit": "Official campaign site (anthonybonna.com), file 'Anthony Headshot'",
+  "page": "https://static.wixstatic.com/media/533ff4_00ae7a13a61c45ad9b8cee38a4d41a9b~mv2.png",
+  "c": "anthony-bonna.jpg",
+  "face": true
+ },
+ "Wayne Richter": {
+  "f": "wayne-richter.png",
+  "credit": "Official campaign site (waynerichter.com), file RichterHeadshot1.png",
+  "page": "https://static.wixstatic.com/media/525633_0395e37b7ac047d48dd1ffa6b3fdc127~mv2.png",
+  "c": "wayne-richter.jpg",
+  "face": true
+ },
+ "Cathy Higgins": {
+  "f": "cathy-higgins.png",
+  "credit": "Official campaign site (votecathyhiggins.com), cathyheadshot.png",
+  "page": "https://votecathyhiggins.com/wp-content/uploads/2026/06/cathyheadshot.png",
+  "c": "cathy-higgins.jpg",
+  "face": true
+ },
+ "Yoni Anijar": {
+  "f": "yoni-anijar.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 100)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/952573/952573.jpg",
+  "c": "yoni-anijar.jpg",
+  "face": true
+ },
+ "Todd Delmay": {
+  "f": "todd-delmay.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 101)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/684831/684831.jpg",
+  "c": "todd-delmay.jpg",
+  "face": true
+ },
+ "Mike Friend": {
+  "f": "mike-friend.png",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 102)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/952582/michael-friend.png",
+  "c": "mike-friend.jpg",
+  "face": true
+ },
+ "Mery Lopez-Palma": {
+  "f": "mery-lopez-palma.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 102)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/842113/842113.jpg",
+  "c": "mery-lopez-palma.jpg",
+  "face": true
+ },
+ "Imtiaz Mohammad": {
+  "f": "imtiaz-mohammad.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 103)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/952586/952586.jpg",
+  "c": "imtiaz-mohammad.jpg",
+  "face": true
+ },
+ "Gloria Romero Roses": {
+  "f": "gloria-romero-roses.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 113)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/952605/952605.jpg",
+  "c": "gloria-romero-roses.jpg",
+  "face": true
+ },
+ "Marcos Reyes": {
+  "f": "marcos-reyes.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 115)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/842123/842123.jpg",
+  "c": "marcos-reyes.jpg",
+  "face": true
+ },
+ "Ashley Perez-Biliskov": {
+  "f": "ashley-perez-biliskov.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 116)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/952609/952609.jpg",
+  "c": "ashley-perez-biliskov.jpg",
+  "face": true
+ },
+ "Miguel Granda": {
+  "f": "miguel-granda.jpg",
+  "credit": "BallotReady candidate profile (Florida House of Representatives - District 117)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/952610/952610.jpg",
+  "c": "miguel-granda.jpg",
+  "face": true
+ },
+ "Lauren Donahoo": {
+  "f": "lauren-donahoo.jpg",
+  "credit": "Official campaign site (votedonahoo.com), lauren-headshot.jpg",
+  "page": "https://votedonahoo.com/images/lauren-headshot.jpg",
+  "c": "lauren-donahoo.jpg",
+  "face": true
+ },
+ "Judy Ngying": {
+  "f": "judy-ngying.png",
+  "credit": "Official campaign site (judyforsenate8.com), file Judy-Ngying-Headshot-01.png",
+  "page": "https://static.wixstatic.com/media/6c8408_f30ba0de64dd41ae8fe06f3444dba074~mv2.png",
+  "c": "judy-ngying.jpg",
+  "face": true
+ },
+ "Elizabeth Jeanty": {
+  "f": "elizabeth-jeanty.webp",
+  "credit": "Official campaign site (elizabethforsenate34.com), candidateImg",
+  "page": "https://elizabethforsenate34.com/_next/static/media/candidateImg.0~q4k3.~x3aqc.webp",
+  "c": "elizabeth-jeanty.jpg",
+  "face": true
+ },
+ "Jose Stoute": {
+  "f": "jose-stoute.png",
+  "credit": "Official campaign site (electstoute.org), alt 'Jose Stoute portrait'",
+  "page": "https://electstoute.org/assets/mobile-portrait-headroom-no-blur.png",
+  "c": "jose-stoute.jpg",
+  "face": true
+ },
+ "Kemp Schuessler": {
+  "f": "kemp-schuessler.jpg",
+  "credit": "City of Bradenton",
+  "page": "https://cityofbradenton.com/vertical/Sites/%7B98CFEB92-7265-45CB-AF6F-7115C2CD7C81%7D/uploads/Councilman_Schuessler_Headshot_2025_Web.jpeg",
+  "c": "kemp-schuessler.jpg",
+  "face": true
+ },
+ "Thomas Schwarz": {
+  "f": "thomas-schwarz.jpg",
+  "credit": "Campaign website",
+  "page": "https://schwarzforward3.com/wp-content/uploads/2026/03/tommy1.jpeg",
+  "c": "thomas-schwarz.jpg",
+  "face": true
+ },
+ "Keith J. Green": {
+  "f": "keith-j-green.jpg",
+  "credit": "Campaign website",
+  "page": "https://static.wixstatic.com/media/e6d700_3ce880a7a00f41a8917cead51a10edfc~mv2.jpg/v1/crop/x_0,y_9,w_3000,h_3983/fill/w_434,h_575,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/campagn.jpg",
+  "c": "keith-j-green.jpg",
+  "face": true
+ },
+ "Lisa Gonzalez Moore": {
+  "f": "lisa-gonzalez-moore.jpg",
+  "credit": "Campaign website",
+  "page": "https://lisagonzalezmoore4bradenton.com/wp-content/uploads/2026/03/councilwoman-gonzalez-moore-1.jpeg",
+  "c": "lisa-gonzalez-moore.jpg",
+  "face": true
+ },
+ "Jacob R. Kyser": {
+  "f": "jacob-r-kyser.jpg",
+  "credit": "BallotReady candidate profile (West Manatee Fire and Rescue District Board - Seat 2)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/974455/974455.jpg",
+  "c": "jacob-r-kyser.jpg",
+  "face": true
+ },
+ "John Agnelli": {
+  "f": "john-agnelli.jpg",
+  "credit": "BallotReady candidate profile (West Manatee Fire and Rescue District Board - Seat 3)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/974456/974456.jpg",
+  "c": "john-agnelli.jpg",
+  "face": true
+ },
+ "Dana Tindall": {
+  "f": "dana-tindall.jpg",
+  "credit": "BallotReady candidate profile (West Manatee Fire and Rescue District Board - Seat 3)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/974457/974457.jpg",
+  "c": "dana-tindall.jpg",
+  "face": true
+ },
+ "Keith D. Miller": {
+  "f": "keith-d-miller.jpg",
+  "credit": "BallotReady candidate profile (West Manatee Fire and Rescue District Board - Seat 4)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/974459/974459.jpg",
+  "c": "keith-d-miller.jpg",
+  "face": true
+ },
+ "Camden \"Cam\" Bedinghaus": {
+  "f": "camden-bedinghaus.jpg",
+  "credit": "BallotReady candidate profile (Manatee County School Board - District 5)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/952103/952103.jpg",
+  "c": "camden-bedinghaus.jpg",
+  "face": true
+ },
+ "Jonathan Mullis": {
+  "f": "jonathan-mullis.jpg",
+  "credit": "BallotReady candidate profile (Manatee County School Board - District 5)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/952104/952104.jpg",
+  "c": "jonathan-mullis.jpg",
+  "face": true
+ },
+ "David L. Zaccagnino": {
+  "f": "david-l-zaccagnino.jpg",
+  "credit": "BallotReady candidate profile (Holmes Beach City Mayor)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/985245/985245.jpg",
+  "c": "david-l-zaccagnino.jpg",
+  "face": true
+ },
+ "Carol Whitmore": {
+  "f": "carol-whitmore.jpg",
+  "credit": "BallotReady candidate profile (Holmes Beach City Commission)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/190842/190842.jpg",
+  "c": "carol-whitmore.jpg",
+  "face": true
+ },
+ "Larry Luh": {
+  "f": "larry-luh.jpg",
+  "credit": "BallotReady candidate profile (East Manatee Fire Rescue District Board - Seat 3)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/850668/850668.jpg",
+  "c": "larry-luh.jpg",
+  "face": true
+ },
+ "Joseph Di Bartolomeo": {
+  "f": "joseph-di-bartolomeo.jpg",
+  "credit": "BallotReady candidate profile (Tara Community Development District Board - Seat 1)",
+  "page": "https://assets.civicengine.com/uploads/candidate/headshot/224026/224026.jpg",
+  "c": "joseph-di-bartolomeo.jpg",
+  "face": true
  }
 }

@@ -68,10 +68,17 @@ def zips_where(**kw):
 photo_map = load(ROOT / "ballot" / "photos.json", {})
 
 
+FOUND = {}
+for _f in ("photos_found_a.json", "photos_found_b.json"):
+    FOUND.update((load(S / "research3" / _f, {}) or {}).get("photos", {}))
+
+
 def photo(c):
     if c["name"] in photo_map:
         return photo_map[c["name"]]
     p = c.get("photo") or {}
+    if not (isinstance(p, dict) and p.get("url")) and c["name"] in FOUND:
+        p = FOUND[c["name"]]
     url = p.get("url") if isinstance(p, dict) else None
     if not url or "SubmitPhoto" in url or "BP-Initials" in url:
         return None
@@ -515,8 +522,9 @@ def main():
     for part in d["parts"]:
         for r in part["races"]:
             for c in r.get("candidates") or []:
-                if c["name"] in photo_map:
-                    c["photo"] = photo_map[c["name"]]
+                ph = photo(c) if (c["name"] in photo_map or c["name"] in FOUND) else None
+                if ph:
+                    c["photo"] = ph
                 v = VOTES40.get(c["name"])
                 if v and v.get("votes"):
                     c["votes"] = [x for x in v["votes"] if x.get("vote") and x.get("url")]
