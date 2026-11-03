@@ -62,6 +62,14 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-03 (evening, last): Trade check "why" laid out side by side
+
+- **The why sheet now shows both candidates in two columns, topic by topic** (Tyler's ask: side by side, not one record stacked on the other). Their names and scores stay pinned at the top while scrolling, with the one who's ahead outlined in green. Below that, each topic is a row with one candidate on the left and the other on the right.
+  - 🎯 Priorities: one row per platform plank, showing each side's vote or promise and its source, or "No stand found". The top row counts their record for, record against, promises and "says no" side by side. This replaces "X of Y backed by record", which also counted votes against the plank.
+  - 🏠 Money from home: rating, then the share from Florida, from Sarasota–Manatee and from out of state, each as its own row.
+  - The rest pair up the same way: 🗽 what lowers the score; 💵 rating and what it's based on; 🌾 land money and land positions; 🎓 background and rating reason; 🌴 roots; ⚠ problems on record.
+  - Checked on a phone-sized screen. Every category builds without errors for all 41 contested races in the preview.
+
 ### 2026-11-03 (evening, later): Records checked statewide, picks for judges and ballot questions, tap-for-why in Trade check
 
 - **Records checked for 173 more candidates.** Seven research passes covered everyone outside the 34209 ballot who has stated positions: Congress, the Legislature and local races elsewhere. They read the actual roll calls (Florida House and Senate vote sheets, U.S. House clerk records), bills sponsored, and actions in office. 1,115 records are now held for 215 candidates, up from 91 for 42. 84 candidates' 🎯 Priorities scores changed, and 16 races changed order. Same review rules as before: statements, board seats, board votes where the person's own vote isn't found, super PAC money and unexplained No votes don't count. Two votes pointing different ways (for example, Nay on HJR 1-F but Yea on HJR 203) count as a split record rather than "says one thing, does another". A sentence that opens with the deed ("Voted…", "Cast the lone Nay…") now counts as a record even when it quotes a remark. Partington's 2021 millage vote was dropped because it was only inferred from the tally.

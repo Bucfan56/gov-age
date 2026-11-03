@@ -355,6 +355,19 @@ details.today .vote .vh{display:none}
 .trade button.hh{width:100%;background:none;border:0;border-top:1px solid var(--line);font:inherit;color:inherit;text-align:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .trade button.hh:active{background:var(--line)}
 .trade .hq{font-weight:600;font-size:11px;color:var(--accent,#2563eb);margin-left:4px}
+.cw{margin:4px 0 10px}
+.cwh{position:sticky;top:var(--phh,58px);z-index:1;background:var(--bg);display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:2px 0 8px}
+.cwn{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 10px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.cwn.win{border-color:var(--good);box-shadow:inset 0 0 0 1px var(--good)}
+.cwn .who{font-size:12px;font-weight:600;color:var(--sub)}.cwn.win .who{color:var(--good)}
+.cwn b{font-size:14px;line-height:1.2}
+.cwn em{font-style:normal;font-weight:800;font-size:20px}.cwn em small{font-size:12px;font-weight:600}
+.cwt{font-size:13.5px;font-weight:700;margin:12px 0 5px}
+.cwr{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.cwc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:9px 10px;font-size:13px;line-height:1.4;min-width:0;overflow-wrap:anywhere}
+.cwc p{margin:0 0 4px}.cwc p:last-child{margin:0}
+.cwc>.vp{display:inline-block;margin-bottom:5px}
+.cwc ul.vl{gap:6px}.cwc .vr{flex-direction:column;gap:3px;font-size:12.5px}.cwc ul.tl .vr{flex-direction:row;align-items:center;gap:7px}.cwc ul.tl .vp{min-width:26px}
 .rec{border-radius:14px;padding:12px 14px;margin:10px 0;border:2px solid var(--line)}
 .rec.yes{border-color:#16a34a;background:rgba(22,163,74,.08)}.rec.no{border-color:#dc2626;background:rgba(220,38,38,.07)}
 .rec .rh{font-weight:800;font-size:15px;margin-bottom:4px}.rec ul{margin:4px 0 0 18px;padding:0}.rec li{margin:3px 0;font-size:14px}.rec details{margin-top:6px;font-size:13.5px}
@@ -516,32 +529,55 @@ function tradeCheck(r) {
     <p class="mini muted">🎯 Priorities backed by their actual record, not just promises: ${esc(pr(base))} · ${esc(pr(o))}.</p>${part}</div></div>`;
 }
 
-// the sheet behind one trade-check row: each side's score and the reasons and sources that made it
+// the sheet behind one trade-check row: the two candidates side by side, topic by topic, with the reasons and sources
 function tradeWhy(r, key) {
-  const {base, o} = tradePair(r), t = TRADE.find(x => x[5] === key);
+  const {pick, base, o} = tradePair(r), t = TRADE.find(x => x[5] === key);
   const lnk = (u, k) => u ? link(u, k ? "source " + k : "source") : "";
   const L = a => a.length ? `<ul class="vl">${a.join("")}</ul>` : "";
-  const explain = c => {
-    const s = c.score, m = c.money || {};
-    if (key === "prio") {
-      if (!c.prio || !c.prio.planks) return "<p>No stated positions or record found on the platform's planks, so this isn't scored.</p>";
-      const P = Object.entries(c.prio.planks).map(([k, x]) => { const pl = ((D.platform || {}).planks || []).find(y => y.id === k); return `<li class="vr"><span class="vp ${x.match > 0 ? (x.kind === "did" ? "yea" : "nv") : "nay"}">${x.kind === "did" ? (x.match > 0 ? "Record ✓" : "Record ✗") : (x.match > 0 ? "Promise" : "Says no")}</span><span><b>${esc(pl ? pl.title : k)}</b> · ${esc(x.evidence || "")}${x.contra ? `<span class="mini muted"> They say: “${esc(firstSentence(x.contra, 140))}”, but the record says otherwise.</span>` : ""}${lnk(x.url)}</span></li>`; });
-      return `<p class="mini">A plank backed by their record counts in full; a promise alone counts 60%; anything against counts zero. ${c.prio.proven || 0} backed by record, ${c.prio.promised || 0} promised only${c.prio.contra ? `, ${c.prio.contra} where the record contradicts what they say` : ""}.</p>${L(P)}`;
-    }
-    if (key === "local") return s.local ? `<p>${esc(s.local.label)}</p><p class="mini muted">${pct(m.fl_pct)} of money from Florida · ${pct(m.local_pct)} from ${m.local_label ? "Sarasota–Manatee" : "the area"} · ${pct(m.out_pct)} out of state.</p>` : `<p>${esc(s.why || "No money or roots data found.")}</p>`;
-    if (key === "foreign") return s.foreign && s.foreign.reasons.length ? L(s.foreign.reasons.map(x => `<li>−${x.pts}: ${esc(x.text)}${lnk(x.url)}</li>`)) : "<p>Nothing found that lowers this: no foreign PAC money, foreign-government ties or foreign business found.</p>";
-    if (key === "indep") return s.indep ? `<p>${esc(s.indep.label)}.</p>${L(s.indep.parts.map(x => `<li>${esc(x)}</li>`))}` : `<p>${esc(s.why || "No campaign-money data found.")}</p>`;
-    if (key === "land") return s.land || (c.land_positions || []).length ? `${s.land ? `<p>${esc(s.land.label)}.</p>` : ""}${L((c.land_positions || []).map(x => `<li class="vr"><span class="vp ${x.stance > 0 ? "yea" : "nay"}">${x.stance > 0 ? "Protects" : "Develops"}</span><span>${esc(x.quote_or_summary || "")}${lnk(x.url)}</span></li>`))}` : "<p>No land-money data or land positions found.</p>";
-    if (key === "qual") return c.qual ? `${c.qual.background ? `<p><b>Background:</b> ${esc(c.qual.background)}</p>` : ""}<p>${esc(c.qual.why || c.qual.label || "")}</p><p class="mini muted">Only real-world work counts: a career, a business, or an office actually held. Committee and board seats don't.</p>` : "<p>Background not found, so not scored. That's missing research, not a low rating.</p>";
-    if (key === "roots") return c.roots ? `<p>${esc(c.roots.summary)}${(c.roots.urls || []).slice(0, 3).map((u, k) => lnk(u, k + 1)).join("")}</p>` : "<p>No roots research found.</p>";
-    if (key === "flags") { const f = flags(c); return f.length ? L(f.map(x => `<li><b>${esc(x.status || "")}</b> · ${esc(x.text)}${lnk(x.url)}</li>`)) : "<p>No problems on record found.</p>"; }
-    return "";
-  };
+  const none = s => `<p class="muted">${s}</p>`;
+  const P = (s, f = "") => `<p>${s}${f}</p>`;
+  // topics: [title, cell(c)]; each becomes one row, the two candidates' cells next to each other
+  let topics = [], note = "";
+  if (key === "prio") {
+    const ids = ((D.platform || {}).planks || []).map(y => y.id), got = c => (c.prio && c.prio.planks) || {};
+    const keys = ids.filter(k => got(base)[k] || got(o)[k]).concat([...new Set(Object.keys(got(base)).concat(Object.keys(got(o))))].filter(k => !ids.includes(k)));
+    note = "A plank backed by their record counts in full; a promise alone counts 60%; anything against counts zero.";
+    const tally = c => { const x = Object.values(got(c)), n = f => x.filter(f).length;
+      return [["Record for", n(y => y.kind === "did" && y.match > 0), "yea"], ["Record against", n(y => y.kind === "did" && !(y.match > 0)), "nay"], ["Promise", n(y => y.kind !== "did" && y.match > 0), "nv"], ["Says no", n(y => y.kind !== "did" && !(y.match > 0)), "nay"]]
+        .filter(z => z[1]).map(([w, k, cl]) => `<li class="vr"><span class="vp ${cl}">${k}</span><span>${w}</span></li>`); };
+    topics.push(["Their stands, counted", c => c.prio && c.prio.planks ? `<ul class="vl tl">${tally(c).join("")}</ul>` + (c.prio.contra ? `<p class="mini muted">${c.prio.contra} where the record contradicts what they say</p>` : "") : none("No stated positions or record found on the platform's planks, so not scored.")]);
+    keys.forEach(k => { const pl = ((D.platform || {}).planks || []).find(y => y.id === k);
+      topics.push([esc(pl ? pl.title : k), c => { const x = got(c)[k]; return x ? `<span class="vp ${x.match > 0 ? (x.kind === "did" ? "yea" : "nv") : "nay"}">${x.kind === "did" ? (x.match > 0 ? "Record ✓" : "Record ✗") : (x.match > 0 ? "Promise" : "Says no")}</span>${P(esc(x.evidence || ""), lnk(x.url))}${x.contra ? `<p class="mini muted">They say: “${esc(firstSentence(x.contra, 140))}”, but the record says otherwise.</p>` : ""}` : none("No stand found"); }]); });
+  } else if (key === "local") {
+    const m = c => c.money || {};
+    topics = [["Rating", c => c.score.local ? P(esc(c.score.local.label)) : none(esc(c.score.why || "No money or roots data found."))],
+      ["Money from Florida", c => P(`<b>${pct(m(c).fl_pct)}</b>`)],
+      [[base, o].some(c => m(c).local_label) ? "Money from Sarasota–Manatee" : "Money from the area", c => P(`<b>${pct(m(c).local_pct)}</b>`)],
+      ["Money from out of state", c => P(`<b>${pct(m(c).out_pct)}</b>`)]];
+  } else if (key === "foreign") {
+    topics = [["What lowers it", c => c.score.foreign && c.score.foreign.reasons.length ? L(c.score.foreign.reasons.map(x => `<li>−${x.pts}: ${esc(x.text)}${lnk(x.url)}</li>`)) : none("Nothing found: no foreign PAC money, foreign-government ties or foreign business.")]];
+  } else if (key === "indep") {
+    topics = [["Rating", c => c.score.indep ? P(esc(c.score.indep.label) + ".") : none(esc(c.score.why || "No campaign-money data found."))],
+      ["What it's based on", c => c.score.indep && c.score.indep.parts.length ? L(c.score.indep.parts.map(x => `<li>${esc(x)}</li>`)) : none("—")]];
+  } else if (key === "land") {
+    topics = [["Land money", c => c.score.land ? P(esc(c.score.land.label) + ".") : none("No land-money data found.")],
+      ["Stands on land", c => (c.land_positions || []).length ? L(c.land_positions.map(x => `<li class="vr"><span class="vp ${x.stance > 0 ? "yea" : "nay"}">${x.stance > 0 ? "Protects" : "Develops"}</span><span>${esc(x.quote_or_summary || "")}${lnk(x.url)}</span></li>`)) : none("None found.")]];
+  } else if (key === "qual") {
+    note = "Only real-world work counts: a career, a business, or an office actually held. Committee and board seats don't.";
+    topics = [["Background", c => c.qual && c.qual.background ? P(esc(c.qual.background)) : none(c.qual ? "—" : "Background not found, so not scored. That's missing research, not a low rating.")],
+      ["Why this rating", c => c.qual ? P(esc(c.qual.why || c.qual.label || "")) : none("—")]];
+  } else if (key === "roots") {
+    topics = [["Roots", c => c.roots ? P(esc(c.roots.summary), (c.roots.urls || []).slice(0, 3).map((u, k) => lnk(u, k + 1)).join("")) : none("No roots research found.")]];
+  } else if (key === "flags") {
+    topics = [["On record", c => flags(c).length ? L(flags(c).map(x => `<li><b>${esc(x.status || "")}</b> · ${esc(x.text)}${lnk(x.url)}</li>`)) : none("No problems on record found.")]];
+  }
   const v = c => key === "flags" ? flags(c).length : t ? t[2](c) : null;
   const a = v(base), b = v(o), lw = key === "flags", has = a != null && b != null, d = has ? (lw ? a - b : b - a) : 0, big = has && Math.abs(d) >= (lw ? 1 : 5);
-  const verdict = !has ? "One of them isn't scored on this, so it doesn't count either way." : !big ? "Too close to count: under 5 points apart." : `${esc(lastName((d > 0 ? o : base).name))} is ahead here${lw ? "" : ` by ${Math.abs(d)} points`}.`;
-  const side = (c, val) => `<div class="panel"><h4>${esc(c.name)} <span class="s-${lw ? "n" : band(val)}" style="float:right">${val ?? "—"}</span></h4>${explain(c)}</div>`;
-  return `<p class="lead">${verdict}</p>${side(base, a)}${side(o, b)}`;
+  const ahead = big ? (d > 0 ? o : base) : null;
+  const verdict = !has ? "One of them isn't scored on this, so it doesn't count either way." : !big ? "Too close to count: under 5 points apart." : `${esc(lastName(ahead.name))} is ahead here${lw ? "" : ` by ${Math.abs(d)} points`}.`;
+  const head = [[base, a, pick ? "Your pick" : "#1 on list"], [o, b, "Trade for"]].map(([c, val, who]) => `<div class="cwn${c === ahead ? " win" : ""}"><span class="who">${who}${c === ahead ? " · ahead" : ""}</span><b>${esc(c.name)}</b><em class="s-${lw ? "n" : band(val)}">${val ?? "—"}${lw ? ` <small>problem${val === 1 ? "" : "s"}</small>` : ""}</em></div>`).join("");
+  const body = topics.map(([title, cell]) => `<div class="cwt">${title}</div><div class="cwr"><div class="cwc">${cell(base)}</div><div class="cwc">${cell(o)}</div></div>`).join("");
+  return `<p class="lead">${verdict}</p><div class="cw"><div class="cwh">${head}</div>${note ? `<p class="mini muted">${note}</p>` : ""}${body}</div>`;
 }
 
 function meter(icon, label, m) {
@@ -1017,6 +1053,7 @@ function openSheet(title, body) {
   $("#shT").textContent = title; $("#shB").innerHTML = body;
   $("#sheet").classList.add("open"); $("#sheet").setAttribute("aria-hidden", "false"); document.body.classList.add("locked");
   $("#sheet .pn").scrollTop = 0;
+  $("#sheet .pn").style.setProperty("--phh", $("#sheet .ph").offsetHeight + "px");   // the side-by-side names stick just under the title
 }
 function closeSheet() { $("#sheet").classList.remove("open"); $("#sheet").setAttribute("aria-hidden", "true"); document.body.classList.remove("locked"); }
 
