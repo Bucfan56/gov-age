@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>__TITLE__</title>
+<meta name="description" content="__DESC__">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f4f1ea;--card:#fffdf8;--ink:#1d1b17;--sub:#6b665c;--line:#e4ddcf;--chip:#efe9dc;
+  --good:#1f8a4c;--good-bg:#e3f4ea;--mid:#c27a07;--mid-bg:#fbefd6;--bad:#c0392b;--bad-bg:#f9e1dd;
+  --none:#8b867c;--none-bg:#ecebe7;--amber:#a86a12;--amber-bg:#fff6e5;--accent:#2b4c7e;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 6px 20px rgba(40,30,10,.07);--r:18px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#13151a;--card:#1c1f26;--ink:#ecebe7;--sub:#9a9fab;--line:#2c313b;--chip:#262a33;
+  --good:#3ccf7c;--good-bg:#173526;--mid:#f0a92e;--mid-bg:#3a2d12;--bad:#ff6b5b;--bad-bg:#3d1c19;
+  --none:#8d929c;--none-bg:#272a31;--amber:#f0b44c;--amber-bg:#2f2614;--accent:#8fb3ff;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35)}}
+:root[data-theme="dark"]{
+  --bg:#13151a;--card:#1c1f26;--ink:#ecebe7;--sub:#9a9fab;--line:#2c313b;--chip:#262a33;
+  --good:#3ccf7c;--good-bg:#173526;--mid:#f0a92e;--mid-bg:#3a2d12;--bad:#ff6b5b;--bad-bg:#3d1c19;
+  --none:#8d929c;--none-bg:#272a31;--amber:#f0b44c;--amber-bg:#2f2614;--accent:#8fb3ff;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35)}
+*{box-sizing:border-box}
+html{scrollbar-width:none;-webkit-text-size-adjust:100%}
+html::-webkit-scrollbar,*::-webkit-scrollbar{display:none}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+a{color:var(--accent)}
+button{font:inherit;color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px 64px}
+header.top{display:flex;align-items:center;gap:12px;padding:18px 0 10px}
+.logo{width:44px;height:44px;border-radius:12px;background:var(--ink);display:grid;place-items:center;font-size:22px;flex:none}
+.top h1{font-size:20px;margin:0;letter-spacing:-.01em;line-height:1.2}
+.top p{margin:2px 0 0;color:var(--sub);font-size:13px}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 14px}
+.pill{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:9px 14px;font-size:14px;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;gap:6px;box-shadow:var(--shadow)}
+.pill:hover{border-color:var(--sub)}
+.check{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;margin-bottom:6px;box-shadow:var(--shadow)}
+.check b{display:block}.check span{color:var(--sub);font-size:13px}
+.check a{margin-left:auto;white-space:nowrap;font-weight:700;text-decoration:none;background:var(--ink);color:var(--bg);padding:10px 14px;border-radius:12px;font-size:14px}
+@media(max-width:480px){.check{flex-wrap:wrap}.check a{margin-left:0;width:100%;text-align:center}}
+h2.grp{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--sub);margin:22px 2px 10px;display:flex;gap:8px;align-items:center}
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media(min-width:700px){.tiles{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(min-width:980px){.tiles{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px;text-align:left;cursor:pointer;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:6px;min-height:118px;transition:transform .15s}
+.tile:hover{transform:translateY(-2px)}
+.tile .t{font-weight:700;font-size:16px;line-height:1.2}
+.tile .s{color:var(--sub);font-size:13px}
+.tile .dots{display:flex;gap:5px;margin-top:auto;flex-wrap:wrap}
+.dot{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:10px;font-weight:800;color:#fff}
+.tag{display:inline-block;font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;background:var(--chip);color:var(--sub)}
+.tag.addr{background:var(--amber-bg);color:var(--amber)}
+.g{background:var(--good)}.m{background:var(--mid)}.b{background:var(--bad)}.n{background:var(--none)}
+.bar{display:flex;align-items:center;gap:10px;padding:14px 0 8px;position:sticky;top:0;background:var(--bg);z-index:5}
+.backbtn{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:9px 12px;font-weight:700;cursor:pointer;white-space:nowrap}
+.bar h1{font-size:19px;margin:0;line-height:1.2}
+.lead{color:var(--sub);margin:4px 0 14px;font-size:14px;max-width:760px}
+.cards{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
+@media(min-width:700px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1000px){.cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.flip{perspective:1400px;cursor:pointer;outline:none}
+.flip .in{position:relative;transition:transform .55s cubic-bezier(.3,.7,.3,1);transform-style:preserve-3d}
+.flip.on .in{transform:rotateY(180deg)}
+@media (prefers-reduced-motion:reduce){.flip .in{transition:none}}
+.face{backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:16px;display:flex;flex-direction:column;gap:12px;border-top:6px solid var(--none);min-width:0}
+.face.back{transform:rotateY(180deg);position:absolute;top:0;left:0;width:100%}
+.flip.on .face.front{position:absolute;top:0;left:0;width:100%}.flip.on .face.back{position:relative}
+.flip:not(.on) .face.back,.flip.on .face.front{pointer-events:none}
+.flip:focus-visible .face{outline:3px solid var(--accent);outline-offset:2px}
+.fg{border-top-color:var(--good)}.fm{border-top-color:var(--mid)}.fb{border-top-color:var(--bad)}
+.who{display:flex;gap:12px;align-items:center}
+.av{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:18px;color:#fff;flex:none}
+.who .nm{font-weight:800;font-size:17px;line-height:1.2}
+.who .pt{color:var(--sub);font-size:13px}
+.rank{margin-left:auto;align-self:flex-start;font-size:12px;font-weight:800;color:var(--sub);text-align:right;white-space:nowrap}
+.big{display:flex;align-items:center;gap:14px;border-radius:14px;padding:10px 12px}
+.big .num{font-size:40px;font-weight:800;line-height:1;letter-spacing:-.03em;min-width:54px}
+.big .word{font-weight:800;font-size:15px}.big .hint{font-size:12px;color:var(--sub)}
+.bg-g{background:var(--good-bg)}.bg-g .num,.bg-g .word{color:var(--good)}
+.bg-m{background:var(--mid-bg)}.bg-m .num,.bg-m .word{color:var(--mid)}
+.bg-b{background:var(--bad-bg)}.bg-b .num,.bg-b .word{color:var(--bad)}
+.bg-n{background:var(--none-bg)}.bg-n .num,.bg-n .word{color:var(--none)}
+.meter{display:grid;grid-template-columns:122px minmax(0,1fr) 30px;align-items:center;gap:8px;font-size:13px;margin:5px 0}
+.meter .lb{font-weight:600;white-space:nowrap}
+.meter .tr{height:9px;border-radius:9px;background:var(--chip);overflow:hidden}
+.meter .fl{display:block;height:100%;border-radius:9px}
+.meter .v{text-align:right;font-weight:800;font-variant-numeric:tabular-nums}
+.blurb{font-size:13.5px;color:var(--sub);margin:0}
+.badges{display:flex;gap:6px;flex-wrap:wrap}
+.badges:empty{display:none}
+.bdg{font-size:12px;font-weight:700;padding:4px 9px;border-radius:999px;background:var(--chip)}
+.bdg.src{background:var(--amber-bg);color:var(--amber)}
+.bdg.flag{background:var(--bad-bg);color:var(--bad)}
+.hintline{margin-top:auto;font-size:12px;color:var(--sub)}
+.btn{border:0;background:var(--ink);color:var(--bg);padding:11px 14px;border-radius:12px;font-weight:700;cursor:pointer}
+.btn.ghost{background:var(--chip);color:var(--ink)}
+.bk{margin:0;font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--sub);font-weight:800}
+.kv{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.kv div{background:var(--chip);border-radius:10px;padding:8px}
+.kv b{display:block;font-size:16px}.kv span{font-size:11px;color:var(--sub)}
+ol.top3{margin:2px 0 0;padding-left:18px;font-size:13.5px}
+ol.top3 li{margin:2px 0}
+.mini{font-size:13.5px;margin:0}
+.muted{color:var(--sub)}
+.st{font-size:10.5px;font-weight:800;text-transform:uppercase;padding:2px 6px;border-radius:6px;margin-right:5px;background:var(--chip);color:var(--sub)}
+.st.allegation{background:var(--mid-bg);color:var(--mid)}.st.established{background:var(--bad-bg);color:var(--bad)}
+.st.dismissed,.st.resolved{background:var(--good-bg);color:var(--good)}.st.fact-checked{color:var(--accent)}
+.row2{display:flex;gap:8px;margin-top:auto}
+.row2 .btn{flex:1}.row2 .btn.ghost{flex:0 0 52px}
+.sheet{position:fixed;inset:0;z-index:50;display:none}
+.sheet.open{display:block}
+.sheet .sc{position:absolute;inset:0;background:rgba(10,10,12,.5)}
+.sheet .pn{position:absolute;left:0;right:0;bottom:0;max-height:92vh;overflow:auto;overscroll-behavior:contain;background:var(--bg);border-radius:22px 22px 0 0;padding:0 16px 40px;box-shadow:0 -10px 40px rgba(0,0,0,.3)}
+@media(min-width:760px){.sheet .pn{left:50%;top:4vh;bottom:4vh;transform:translateX(-50%);width:720px;border-radius:22px;max-height:none}}
+.pn .ph{position:sticky;top:0;background:var(--bg);padding:16px 0 10px;display:flex;align-items:center;gap:10px;z-index:2}
+.pn .ph h2{margin:0;font-size:19px;flex:1;line-height:1.2}
+.x{border:0;background:var(--chip);width:40px;height:40px;border-radius:50%;font-size:18px;cursor:pointer;flex:none}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:10px 0;padding:0 14px}
+details[open]{padding-bottom:12px}
+summary{cursor:pointer;font-weight:700;padding:14px 0;list-style:none;display:flex;justify-content:space-between;gap:8px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"＋";color:var(--sub)}
+details[open] summary::after{content:"－"}
+details ul{margin:0;padding-left:18px}details li{margin:7px 0;font-size:14px}
+table.t{width:100%;border-collapse:collapse;font-size:13.5px}
+table.t td{padding:6px 4px;border-bottom:1px solid var(--line);vertical-align:top}
+table.t td.r{text-align:right;white-space:nowrap;font-weight:700}
+.own{background:var(--amber-bg);border:2px dashed var(--amber);border-radius:14px;padding:12px 14px;margin:10px 0}
+.own h4{margin:0 0 4px;color:var(--amber)}
+.own .it{margin:10px 0 0;font-size:14px}
+.own .meta{font-size:12px;color:var(--sub)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:10px 0;font-size:14px}
+.panel h4{margin:0 0 6px}
+.formula{font-size:14px;margin:6px 0;padding-left:18px}.formula li{margin:5px 0}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:13px;margin:10px 0 0}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:14px;height:14px;border-radius:4px;display:inline-block}
+.mcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;box-shadow:var(--shadow);margin-bottom:14px}
+.mcard h3{margin:0 0 6px;font-size:17px}
+.sides{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;margin-top:10px}
+@media(min-width:700px){.sides{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.side{border-radius:12px;padding:10px 12px;background:var(--chip);font-size:14px}
+.side h4{margin:0 0 4px;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+.side div{margin:4px 0}
+footer{color:var(--sub);font-size:12.5px;margin-top:36px;text-align:center}
+body.locked{overflow:hidden}
+/* ---------- Voting today ---------- */
+.vote{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:14px 16px;margin:4px 0 14px;border-left:6px solid #b22234}
+.vh{display:flex;gap:12px;align-items:center}
+.vh .vi{font-size:30px;line-height:1}
+.vh b{display:block;font-size:17px;line-height:1.25}
+.vh span{color:var(--sub);font-size:13.5px;font-weight:600}
+.vh span.open{color:var(--good)}.vh span.closed{color:var(--bad)}
+.vote ul{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.vote li{font-size:14px;display:flex;gap:10px;align-items:flex-start}
+.vote li i{font-style:normal;flex:none;width:22px;text-align:center}
+.vbtns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:12px}
+.vbtns a{display:block;text-align:center;text-decoration:none;font-weight:800;padding:12px 10px;border-radius:12px;background:var(--ink);color:var(--bg);font-size:14.5px}
+.vbtns a.alt{background:var(--chip);color:var(--ink)}
+.zip{display:flex;gap:8px;margin-top:12px;align-items:center;flex-wrap:wrap}
+.zip label{font-size:13px;font-weight:700;color:var(--sub)}
+.zip input{flex:1;min-width:110px;max-width:160px;font:inherit;font-size:16px;font-weight:700;letter-spacing:.08em;padding:10px 12px;border-radius:12px;border:2px solid var(--line);background:var(--bg);color:var(--ink);outline:none}
+.zip input:focus{border-color:var(--accent)}
+.zipout{font-size:13.5px;margin:8px 0 0;min-height:1em}
+.zipout:empty{display:none}
+/* ---------- Finder + your districts ---------- */
+.finder{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:16px;margin:4px 0 14px;border-top:6px solid #0a3161}
+.finder h2{margin:0 0 4px;font-size:20px}
+.finder p{margin:0 0 12px;color:var(--sub);font-size:14px}
+.finder form{display:flex;gap:8px;flex-wrap:wrap}
+.finder input{flex:1 1 220px;min-width:0;font:inherit;font-size:16px;padding:13px 14px;border-radius:12px;border:2px solid var(--line);background:var(--bg);color:var(--ink);outline:none}
+.finder input:focus{border-color:var(--accent)}
+.finder form .btn{flex:1 0 auto;padding:13px 16px;font-size:15px}
+.frow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px}
+.fhint{font-size:13px;color:var(--sub)}
+.fstat{margin:10px 0 0;font-size:14px;font-weight:700;min-height:0}
+.fstat:empty{display:none}
+.fstat.busy{color:var(--accent)}.fstat.err{color:var(--bad)}
+.finder .fpriv{font-size:12px;margin:10px 0 0}
+.ctx{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}
+.cchip{font-size:13px;font-weight:700;padding:7px 11px;border-radius:999px;background:var(--chip);border:0}
+.cchip.change{background:transparent;border:1.5px solid var(--line);cursor:pointer;color:var(--accent)}
+/* ---------- Votes ---------- */
+ul.vl{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+.vr{display:flex;gap:8px;align-items:flex-start;font-size:13.5px}
+.vp{flex:none;font-size:11px;font-weight:800;text-transform:uppercase;padding:3px 7px;border-radius:6px;min-width:44px;text-align:center}
+.vp.yea{background:var(--good-bg);color:var(--good)}.vp.nay{background:var(--bad-bg);color:var(--bad)}.vp.nv{background:var(--chip);color:var(--sub)}
+.cmpw{overflow-x:auto}
+.cmp table.t td{vertical-align:middle}
+/* ---------- Deck picker ---------- */
+.decks{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 8px;margin:0 -2px 6px;scroll-snap-type:x proximity}
+.dk{flex:none;scroll-snap-align:start;border:2px solid var(--line);background:var(--card);border-radius:14px;padding:6px 12px 6px 6px;display:flex;gap:8px;align-items:center;font-weight:700;font-size:13.5px;cursor:pointer}
+.dk[aria-pressed="true"]{border-color:var(--ink)}
+.dk .sw{width:30px;height:30px;border-radius:9px;flex:none}
+.sw-flag{background:linear-gradient(#0a3161 0 45%,transparent 45%),repeating-linear-gradient(#b22234 0 4px,#fff 4px 8px)}
+.sw-sun{background:linear-gradient(160deg,#ffb347,#ff5e62 50%,#12a4b6)}
+.sw-marble{background:linear-gradient(135deg,#f6f1e7,#e2d8c3);box-shadow:inset 0 0 0 3px #b8962e}
+.sw-button{background:radial-gradient(circle,#fff 0 34%,#0a3161 35% 52%,#b22234 53%)}
+.sw-holo{background:conic-gradient(from 30deg,#7af,#f7a,#ff7,#7fa,#7af)}
+.deckhint{font-size:12.5px;color:var(--sub);margin:0 2px 10px}
+/* ---------- Card front: shared layout ---------- */
+.face.front{padding:0;gap:0;overflow:hidden}
+.art{position:relative;aspect-ratio:5/4;background:#0a3161;overflow:hidden}
+.art img{width:100%;height:100%;object-fit:cover;object-position:50% 18%;display:block}
+.mono{position:absolute;inset:0;display:grid;place-items:center;font-size:64px;font-weight:800;color:rgba(255,255,255,.92);letter-spacing:-.02em;background:radial-gradient(circle at 50% 40%,rgba(255,255,255,.18),transparent 60%)}
+.mono small{position:absolute;bottom:12px;font-size:11px;font-weight:600;letter-spacing:.04em;opacity:.75}
+.seal{position:absolute;right:10px;bottom:10px;width:76px;height:76px;display:grid;place-items:center;align-content:center;color:#fff;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,.35);border-radius:50%;border:3px solid #fff}
+.seal b{font-size:28px;line-height:1;font-weight:800;letter-spacing:-.03em}
+.seal span{font-size:9.5px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+.seal.g{background:var(--good)}.seal.m{background:var(--mid)}.seal.b{background:var(--bad)}.seal.n{background:#77736b}
+.rk{position:absolute;left:10px;top:10px;background:rgba(10,15,30,.78);color:#fff;font-size:12px;font-weight:800;padding:5px 9px;border-radius:999px}
+.st8{position:absolute;right:10px;top:10px;background:rgba(255,255,255,.92);color:#0a3161;font-size:11px;font-weight:800;padding:4px 8px;border-radius:999px;letter-spacing:.04em}
+.fbody{padding:14px 16px 16px;display:flex;flex-direction:column;gap:11px;flex:1}
+.nameplate .nm{font-weight:800;font-size:19px;line-height:1.15;letter-spacing:-.01em}
+.nameplate .pt{color:var(--sub);font-size:13px;margin-top:2px}
+.nsw{font-size:12.5px;color:var(--sub);background:var(--none-bg);border-radius:10px;padding:8px 10px}
+.credit{font-size:10.5px;color:var(--sub);opacity:.8}
+.dot{background-size:cover;background-position:50% 20%;box-shadow:0 0 0 2.5px var(--card),0 0 0 4.5px currentColor}
+.dot.g{color:var(--good)}.dot.m{color:var(--mid)}.dot.b{color:var(--bad)}.dot.n{color:var(--none)}
+.dot.ph{font-size:0}
+.tile .dots{gap:9px;padding:4px}
+/* ---------- Deck 1: Old Glory ---------- */
+[data-deck="flag"] .face.front{border:0;border-radius:16px;box-shadow:0 0 0 3px #0a3161,var(--shadow)}
+[data-deck="flag"] .art{background:#0a3161 radial-gradient(#ffffff55 1.2px,transparent 1.6px) 0 0/18px 18px}
+[data-deck="flag"] .seal{border-radius:0;border:0;width:88px;height:88px;clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);padding-top:10px;box-shadow:none}
+[data-deck="flag"] .seal b{font-size:24px}[data-deck="flag"] .seal span{display:none}
+[data-deck="flag"] .nameplate{background:#0a3161;color:#fff;margin:-14px -16px 0;padding:12px 16px}
+[data-deck="flag"] .nameplate .pt{color:#c9d6ee}
+[data-deck="flag"] .fbody{border-bottom:10px solid transparent;border-image:repeating-linear-gradient(90deg,#b22234 0 14px,#fff 14px 28px) 10}
+/* ---------- Deck 2: Sunshine State ---------- */
+[data-deck="sun"] .face.front{border:0;padding:8px;background:linear-gradient(160deg,#ffb347,#ff5e62 48%,#12a4b6);border-radius:20px}
+[data-deck="sun"] .art{border-radius:14px;background:linear-gradient(#ffcf70,#ff7b54 70%,#12a4b6)}
+[data-deck="sun"] .art::after{content:"🌴";position:absolute;left:10px;bottom:6px;font-size:30px;filter:drop-shadow(0 2px 3px rgba(0,0,0,.3))}
+[data-deck="sun"] .fbody{background:var(--card);border-radius:14px;margin-top:8px}
+[data-deck="sun"] .seal{border:0;background-image:repeating-conic-gradient(rgba(255,255,255,.22) 0 10deg,transparent 10deg 20deg);box-shadow:0 0 0 4px #ffd25e,0 4px 14px rgba(0,0,0,.35)}
+[data-deck="sun"] .st8{background:#ff8a3d;color:#fff}
+[data-deck="sun"] .st8::before{content:"🍊 "}
+/* ---------- Deck 3: Capitol Marble ---------- */
+[data-deck="marble"] .face.front{border:0;border-radius:6px;padding:7px;background:linear-gradient(115deg,transparent 40%,rgba(120,110,90,.10) 41%,transparent 43%),linear-gradient(60deg,transparent 62%,rgba(120,110,90,.08) 63%,transparent 66%),linear-gradient(135deg,#f8f4ea,#e6dcc7);box-shadow:inset 0 0 0 2px #b8962e,inset 0 0 0 5px #f8f4ea,inset 0 0 0 6px #b8962e,var(--shadow)}
+[data-deck="marble"] .art{border-radius:50% 50% 4px 4px/34% 34% 4px 4px;background:#5b4a2c;margin:6px 6px 0;box-shadow:inset 0 0 0 3px #b8962e}
+[data-deck="marble"] .fbody{color:#2a2418}
+[data-deck="marble"] .nameplate{text-align:center;border-bottom:1px solid #b8962e;padding-bottom:8px}
+[data-deck="marble"] .nameplate .nm{font-family:Georgia,"Times New Roman",serif;font-variant:small-caps;font-weight:700;font-size:21px;letter-spacing:.02em}
+[data-deck="marble"] .nameplate .pt,[data-deck="marble"] .blurb,[data-deck="marble"] .hintline,[data-deck="marble"] .credit{color:#6a5d45}
+[data-deck="marble"] .meter .tr{background:#e1d6bf}
+[data-deck="marble"] .seal{border:3px double #f3e2a9;box-shadow:0 0 0 3px #b8962e,0 4px 14px rgba(0,0,0,.3)}
+[data-deck="marble"] .seal b{font-family:Georgia,serif}
+[data-deck="marble"] .rk{background:#b8962e;top:auto;bottom:12px;left:12px}[data-deck="marble"] .st8{display:none}
+[data-deck="marble"] .bdg:not(.flag):not(.src){background:#ebe1cb;color:#4a3f2a}
+/* ---------- Deck 4: Campaign Button ---------- */
+[data-deck="button"] .face.front{border-radius:18px;border:0;box-shadow:var(--shadow)}
+[data-deck="button"] .art{aspect-ratio:auto;height:230px;background:repeating-linear-gradient(90deg,#0a3161 0 26px,#0d3b73 26px 52px)}
+[data-deck="button"] .art img,[data-deck="button"] .mono{position:absolute;left:50%;top:50%;width:176px;height:176px;transform:translate(-50%,-50%);border-radius:50%;right:auto;bottom:auto;border:7px solid #fff;box-shadow:0 0 0 9px var(--ring,#77736b),0 8px 22px rgba(0,0,0,.45)}
+[data-deck="button"] .mono{background:#b22234;font-size:52px}
+[data-deck="button"] .mono small{display:none}
+[data-deck="button"] .band-g{--ring:var(--good)}[data-deck="button"] .band-m{--ring:var(--mid)}[data-deck="button"] .band-b{--ring:var(--bad)}
+[data-deck="button"] .seal{width:64px;height:64px;right:14px;bottom:14px}
+[data-deck="button"] .seal b{font-size:23px}[data-deck="button"] .seal span{display:none}
+[data-deck="button"] .nameplate{text-align:center}
+[data-deck="button"] .nameplate .nm{text-transform:uppercase;font-size:20px;font-weight:800;letter-spacing:.03em}
+[data-deck="button"] .nameplate::after{content:"★ ★ ★";display:block;color:#b22234;font-size:11px;letter-spacing:.4em;margin-top:4px}
+/* ---------- Deck 5: Holo Foil ---------- */
+[data-deck="holo"] .face.front{border:0;border-radius:16px;padding:8px;background:linear-gradient(135deg,#d9dde4,#9aa3b2 30%,#f4f6f8 50%,#8e97a6 70%,#dfe3ea);position:relative}
+[data-deck="holo"] .face.front::after{content:"";position:absolute;inset:0;border-radius:16px;pointer-events:none;background:linear-gradient(115deg,transparent 20%,rgba(255,120,220,.35) 35%,rgba(120,220,255,.35) 45%,rgba(255,255,140,.35) 55%,transparent 70%) 0 0/250% 250%;mix-blend-mode:color-dodge;animation:holo 6s linear infinite}
+@keyframes holo{0%{background-position:100% 0}100%{background-position:-150% 0}}
+@media (prefers-reduced-motion:reduce){[data-deck="holo"] .face.front::after{animation:none;background-position:30% 0}}
+[data-deck="holo"] .art{border-radius:10px;box-shadow:inset 0 0 0 2px rgba(255,255,255,.7)}
+[data-deck="holo"] .fbody{background:#141822;color:#eef1f6;border-radius:10px;margin-top:8px}
+[data-deck="holo"] .nameplate .pt,[data-deck="holo"] .blurb,[data-deck="holo"] .hintline,[data-deck="holo"] .credit{color:#a9b1c2}
+[data-deck="holo"] .meter .tr{background:#2a3040}
+[data-deck="holo"] .meter .fl{box-shadow:0 0 8px currentColor}
+[data-deck="holo"] .meter .fl.g{color:var(--good)}[data-deck="holo"] .meter .fl.m{color:var(--mid)}[data-deck="holo"] .meter .fl.b{color:var(--bad)}
+[data-deck="holo"] .bdg:not(.flag):not(.src){background:#262c3a;color:#dfe5f0}
+[data-deck="holo"] .nsw{background:#262c3a;color:#c9d0de}
+[data-deck="holo"] .seal{border-color:#e9edf3;box-shadow:0 0 0 3px #8e97a6,0 0 18px rgba(140,200,255,.6)}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+<div class="sheet" id="sheet" aria-hidden="true"><div class="sc" data-close></div><div class="pn" role="dialog" aria-modal="true" aria-labelledby="shT"><div class="ph"><h2 id="shT"></h2><button class="x" data-close aria-label="Close">✕</button></div><div id="shB"></div></div></div>
+<script>
+const D = __DATA__;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const usd = v => v == null || isNaN(v) ? "—" : (v >= 1e6 ? "$" + (v/1e6).toFixed(1) + "M" : v >= 1e4 ? "$" + Math.round(v/1e3) + "k" : "$" + Math.round(v).toLocaleString());
+const pct = v => v == null ? "—" : Math.round(v) + "%";
+const band = v => v == null ? "n" : v >= 70 ? "g" : v >= 45 ? "m" : "b";
+const WORD = {g: "Strong", m: "Mixed", b: "Weak", n: "Not scored"};
+function initials(n) {
+  const w = n.replace(/".*?"|\(.*?\)/g, "").replace(/\b(Jr|Sr|III|II)\b\.?/g, "").trim().split(/\s+/).filter(Boolean);
+  return ((w[0] || "?")[0] + (w.length > 1 ? w[w.length - 1][0] : "")).toUpperCase();
+}
+const link = (u, t) => u ? ` <a href="${esc(u)}" target="_blank" rel="noopener">${esc(t || "source")} ↗</a>` : "";
+function firstSentence(s, max = 170) {
+  s = String(s || "");
+  const m = s.match(/^.{50,}?[a-z]{4}[.;](?=\s|$)/);
+  const out = m && m[0].length <= max ? m[0] : s.slice(0, max);
+  return out.length < s.length && !/[.;]$/.test(out) ? out.replace(/\s+\S*$/, "") + "…" : out;
+}
+const raceById = id => ALL.find(r => r.id === id);
+const partyName = p => esc(String(p || "").replace(/^REP$/, "Republican").replace(/^DEM$/, "Democrat").replace(/^NPA$/, "No party").replace(/^NP$/, "Nonpartisan").replace(/^NP \(/, "Nonpartisan ("));
+const flags = c => (c.controversies || []).filter(x => x.status !== "dismissed" && x.status !== "resolved");
+const srcHits = c => (c.owner_sources || []).length;
+
+function meter(icon, label, m) {
+  const v = m && m.v != null ? m.v : null;
+  return `<div class="meter" title="${esc(m && m.label || "")}"><span class="lb">${icon} ${label}</span><span class="tr"><span class="fl ${band(v)}" style="width:${v ?? 0}%"></span></span><span class="v">${v ?? "—"}</span></div>`;
+}
+
+const PHOTO = c => c.photo ? "ballot/photos/" + c.photo.f : "";
+const art = c => c.photo ? `<img src="${esc(PHOTO(c))}" alt="${esc(c.name)}" loading="lazy">` : `<div class="mono">${esc(initials(c.name))}<small>No public photo found</small></div>`;
+
+const DECKS = [["flag", "Old Glory"], ["sun", "Sunshine State"], ["marble", "Capitol"], ["button", "Campaign button"], ["holo", "Holo foil"]];
+let deck = "flag";
+try { const k = localStorage.getItem("ballot-deck"); if (DECKS.some(d => d[0] === k)) deck = k; } catch (e) {}
+document.documentElement.dataset.deck = deck;
+function setDeck(k) {
+  deck = k; document.documentElement.dataset.deck = k;
+  try { localStorage.setItem("ballot-deck", k); } catch (e) {}
+  document.querySelectorAll(".dk").forEach(b => b.setAttribute("aria-pressed", b.dataset.deck === k));
+}
+const deckPicker = () => `<div class="decks" role="group" aria-label="Card style">${DECKS.map(([k, n]) => `<button class="dk" data-deck="${k}" aria-pressed="${k === deck}"><span class="sw sw-${k}"></span>${n}</button>`).join("")}</div>`;
+
+// Election Day box. Facts from votemanatee.gov (polling locations + vote-by-mail pages), checked 2026-11-03.
+const ELECTION = "2026-11-03";
+function pollStatus() {
+  const et = new Date(new Date().toLocaleString("en-US", {timeZone: "America/New_York"}));
+  const day = et.getFullYear() + "-" + String(et.getMonth() + 1).padStart(2, "0") + "-" + String(et.getDate()).padStart(2, "0");
+  if (day < ELECTION) return ["", "Polls are open 7 am – 7 pm on Election Day"];
+  if (day > ELECTION) return ["closed", "Election Day was Tuesday, Nov 3"];
+  const mins = et.getHours() * 60 + et.getMinutes();
+  if (mins < 420) return ["", "Polls open at 7 am today"];
+  if (mins >= 1140) return ["closed", "Polls closed at 7 pm. If you were in line by 7, you can still vote."];
+  const left = 1140 - mins;
+  return ["open", `Polls are open now · close in ${Math.floor(left / 60)}h ${left % 60}m (7 pm)`];
+}
+// ---------- the voter's districts (kept on this phone; the address itself is never stored) ----------
+let ctx = null;
+try { const v = JSON.parse(localStorage.getItem("ballot-ctx") || "null"); if (v && v.county) ctx = v; } catch (e) {}
+let ALL = D.races.slice();
+const loaded = new Set();
+const soeOf = county => D.soe[county] || D.soe[Object.keys(D.soe).find(k => k.toLowerCase().replace(/[^a-z]/g, "") === String(county || "").toLowerCase().replace(/[^a-z]/g, ""))] || null;
+const cslug = s => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/"[^"]*"/g, "").toLowerCase().replace(/[^a-z]+/g, "-").replace(/^-|-$/g, "");
+function fileKeys(c) {
+  return [`cd-${c.cd}`, `sd-${c.sd}`, `hd-${c.hd}`, `county-${cslug(c.county)}`].filter(k => D.files.includes(k));
+}
+async function loadFiles(c) {
+  const want = fileKeys(c).filter(k => !loaded.has(k));
+  await Promise.all(want.map(async k => {
+    try {
+      const r = await fetch(`fl/${k}.json`, {cache: "no-cache"});
+      if (!r.ok) throw new Error(r.status);
+      const j = await r.json();
+      for (const x of j.races) if (!ALL.some(y => y.id === x.id)) ALL.push(x);
+      loaded.add(k);
+    } catch (e) { console.error("could not load", k, e); }
+  }));
+}
+// null = unknown for this voter (shown with a "check" tag), true / false = known
+function applies(r, c) {
+  const w = r.where || {all: 1};
+  if (w.all) return true;
+  if (!c) return false;
+  if ("cd" in w) return w.cd === c.cd;
+  if ("sd" in w) return w.sd === c.sd;
+  if ("hd" in w) return w.hd === c.hd;
+  if (w.county && cslug(w.county) !== cslug(c.county)) return false;
+  if (w.city) { if (c.city == null) return null; if (cslug(w.city) !== cslug(c.city)) return false; }  // "" = known to be outside every city
+  for (const k of ["cc", "sb", "ward"]) if (k in w) return c[k] == null ? null : w[k] === c[k];
+  return true;
+}
+const myRaces = () => ALL.filter(r => applies(r, ctx) !== false);
+function setCtx(c) {
+  ctx = c;
+  try { c ? localStorage.setItem("ballot-ctx", JSON.stringify(c)) : localStorage.removeItem("ballot-ctx"); } catch (e) {}
+}
+
+// Census Bureau geocoder, called as JSONP straight from the phone (it sends no CORS headers).
+function census(path, params) {
+  return new Promise((res, rej) => {
+    const cb = "gc" + Math.random().toString(36).slice(2);
+    const s = document.createElement("script");
+    const done = () => { delete window[cb]; s.remove(); clearTimeout(t); };
+    const t = setTimeout(() => { done(); rej(new Error("The Census map service didn't answer. Try again, or type just your ZIP.")); }, 20000);
+    window[cb] = d => { done(); res(d); };
+    s.onerror = () => { done(); rej(new Error("Couldn't reach the Census map service. Try again, or type just your ZIP.")); };
+    s.src = `https://geocoding.geo.census.gov/geocoder/geographies/${path}?${new URLSearchParams(Object.assign({benchmark: "Public_AR_Current", vintage: "Current_Current", layers: "all", format: "jsonp", callback: cb}, params))}`;
+    document.head.appendChild(s);
+  });
+}
+function fromGeographies(g, how, zip) {
+  const pick = re => { const k = Object.keys(g).find(k => re.test(k)); return k && g[k][0] ? g[k][0] : null; };
+  const st = pick(/^States$/), cd = pick(/Congressional Districts/), up = pick(/Legislative Districts - Upper/), lo = pick(/Legislative Districts - Lower/), co = pick(/^Counties$/), pl = pick(/Incorporated Places/);
+  if (!st || st.STUSAB !== "FL") throw new Error("That address isn't in Florida. This guide covers Florida's Nov 3 ballot.");
+  return {cd: cd && +cd.BASENAME, sd: up && +up.BASENAME, hd: lo && +lo.BASENAME, county: co && co.BASENAME, city: pl ? pl.BASENAME : "", how, zip: zip || null};
+}
+async function findBallot(q) {
+  q = q.trim();
+  if (/^\d{5}$/.test(q)) {
+    const z = D.zips[q];
+    if (!z) throw new Error("That ZIP isn't in Florida, or isn't one we know. Try your full street address.");
+    return {cd: z[0], sd: z[1], hd: z[2], county: z[3], city: null, how: "zip", zip: q};
+  }
+  if (q.length < 8) throw new Error("Type your street address with city, or a 5-digit ZIP.");
+  const d = await census("onelineaddress", {address: /florida|\bfl\b/i.test(q) ? q : q + ", FL"});
+  const m = d && d.result && d.result.addressMatches && d.result.addressMatches[0];
+  if (!m) throw new Error("The Census couldn't find that address. Check the spelling and add the city, or type just your ZIP.");
+  return fromGeographies(m.geographies, "address", (m.addressComponents || {}).zip);
+}
+async function findByLocation() {
+  const pos = await new Promise((res, rej) => navigator.geolocation ? navigator.geolocation.getCurrentPosition(res, () => rej(new Error("Location is off for this page. Type your address instead.")), {enableHighAccuracy: true, timeout: 15000}) : rej(new Error("This phone can't share location here. Type your address instead.")));
+  const d = await census("coordinates", {x: pos.coords.longitude.toFixed(5), y: pos.coords.latitude.toFixed(5)});
+  return fromGeographies(d.result.geographies, "location");
+}
+function finder(compact) {
+  return `<section class="finder" aria-label="Find your ballot">
+    ${compact ? "" : `<h2>Find your ballot</h2><p>Type the home address you're registered at and see every race you'll vote on.</p>`}
+    <form id="findf" autocomplete="off"><input id="findi" type="text" enterkeyhint="search" placeholder="123 Main St, Bradenton" aria-label="Your address or ZIP"><button class="btn" type="submit">Show my ballot</button></form>
+    <div class="frow"><button class="btn ghost" id="locb" type="button">📍 Use my location</button><span class="fhint">or type just a ZIP for a quick look</span></div>
+    <p class="fstat" id="fstat" aria-live="polite"></p>
+    <p class="fpriv">🔒 Your address or location goes only to the U.S. Census Bureau's free map service to look up your districts. It's never saved: this page keeps just your district numbers on your phone. A ZIP alone never leaves your phone, but it's only approximate.</p>
+  </section>`;
+}
+async function runFind(fn) {
+  const st = $("#fstat");
+  st.className = "fstat busy"; st.textContent = "Looking up your districts…";
+  try {
+    const c = await fn();
+    setCtx(c);
+    st.textContent = "Loading your races…";
+    await loadFiles(c);
+    shownPage = null;
+    if (location.hash) location.hash = ""; else route();
+    window.scrollTo(0, 0);
+  } catch (e) { st.className = "fstat err"; st.textContent = e.message || String(e); }
+}
+
+// Election Day box. Statewide rules (7 am–7 pm, photo ID with signature, assigned precinct, mail ballots due at the
+// elections office by 7 pm) are Florida law; the Manatee links are from votemanatee.gov, checked 2026-11-03.
+function voteBox() {
+  const [cls, txt] = pollStatus();
+  const county = ctx && ctx.county, o = county ? soeOf(county) : null;
+  const man = county === "Manatee";
+  const finderUrl = man ? "https://www.votemanatee.gov/precinct-finder/" : o ? o[0] : "";
+  const sampleUrl = man ? "https://www.votemanatee.gov/sample-ballots/" : o ? o[0] : "";
+  return `<section class="vote" aria-label="Voting today">
+    <div class="vh"><span class="vi">🗳️</span><div><b>Election Day · Tuesday, Nov 3</b><span class="${cls}" id="pollst">${esc(txt)}</span></div></div>
+    <ul>
+      <li><i>⏰</i><span>Polls are open <b>7 am to 7 pm</b>. If you're in line by 7, you get to vote.</span></li>
+      <li><i>🪪</i><span>Bring a <b>current photo ID with your signature</b>, like a driver's license.</span></li>
+      <li><i>📍</i><span>Today you can vote <b>only at your own precinct's polling place</b>.${county ? (man ? " Tap “Where do I vote?” to find it." : ` ${esc(county)} County's elections office lists it.`) : ""}</span></li>
+      <li><i>✉️</i><span>Still holding a mail ballot? <b>Don't mail it now.</b> It has to reach your county elections office by 7 pm${o && o[2] ? `: drop it off at ${esc(o[2])}` : ""}.</span></li>
+    </ul>
+    ${county && finderUrl ? `<div class="vbtns"><a href="${esc(finderUrl)}" target="_blank" rel="noopener">📍 Where do I vote?</a><a class="alt" href="${esc(sampleUrl)}" target="_blank" rel="noopener">📄 Official sample ballot</a></div>${o && o[1] ? `<p class="mini muted" style="margin:8px 0 0">${esc(county)} County elections office: <a href="tel:${esc(o[1])}">${esc(o[1])}</a></p>` : ""}` : ""}
+  </section>`;
+}
+
+// ---------- voting records ----------
+const VOTE = v => /^y/i.test(v) ? ["yea", "Yes"] : /^n(ay|o\b)/i.test(v) ? ["nay", "No"] : ["nv", "Didn't vote"];
+const billKey = b => String(b || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+function voteRow(v, short) {
+  const [cls, word] = VOTE(v.vote);
+  return `<li class="vr"><span class="vp ${cls}">${word}</span><span><b>${esc(v.bill)}</b>${v.what ? ` · ${esc(short ? firstSentence(v.what, 90) : v.what)}` : ""}${short ? "" : `<span class="mini muted"> ${esc([v.chamber, v.date, v.result].filter(Boolean).join(" · "))}</span>${link(v.url, "roll call")}`}</span></li>`;
+}
+function compareVotes(r) {
+  const withV = r.cands.filter(c => (c.votes || []).length);
+  if (withV.length < 2) return "";
+  const bills = new Map();
+  for (const c of withV) for (const v of c.votes) { const k = billKey(v.bill); if (!bills.has(k)) bills.set(k, v); }
+  const shared = [...bills.entries()].filter(([k]) => withV.filter(c => c.votes.some(v => billKey(v.bill) === k)).length >= 2);
+  if (!shared.length) return "";
+  return `<div class="mcard cmp"><h3>🗳️ Same bill, side by side</h3><p class="mini muted">Votes both candidates cast on the same bill, from official roll calls.</p><div class="cmpw"><table class="t"><tr><td></td>${withV.map(c => `<td class="r">${esc(c.name.split(" ").slice(-1)[0])}</td>`).join("")}</tr>${shared.map(([k, v0]) => `<tr><td><b>${esc(v0.bill)}</b><div class="mini muted">${esc(firstSentence(v0.what || "", 80))}</div></td>${withV.map(c => { const v = c.votes.find(x => billKey(x.bill) === k); if (!v) return `<td class="r muted">—</td>`; const [cls, w] = VOTE(v.vote); return `<td class="r"><span class="vp ${cls}">${w}</span></td>`; }).join("")}</tr>`).join("")}</table></div></div>`;
+}
+
+function card(r, c, i) {
+  const s = c.score, b = band(s.overall), m = c.money || {};
+  const total = r.cands.filter(x => x.rank).length;
+  const f = flags(c);
+  const out = m.outside || [];
+  const forAmt = out.filter(o => o[1] === "S").reduce((a, o) => a + +o[2], 0);
+  const agAmt = out.filter(o => o[1] === "O").reduce((a, o) => a + +o[2], 0);
+  const front = `
+    <div class="face front f${b}">
+      <div class="art">${art(c)}
+        ${c.rank ? `<div class="rk">#${c.rank} of ${total}</div>` : ""}<div class="st8">FL</div>
+        <div class="seal ${b}"><b>${s.overall ?? "—"}</b><span>${WORD[b]}</span></div></div>
+      <div class="fbody">
+        <div class="nameplate"><div class="nm">${esc(c.name)}</div><div class="pt">${partyName(c.party)}${c.incumbent ? " · Incumbent" : ""}${c.running_mate ? " · with " + esc(c.running_mate) : ""}</div></div>
+        ${s.overall == null ? `<div class="nsw">${esc(s.why)}</div>` : ""}
+        <div>${meter("🏠", "Local", s.local)}${meter("🗽", "Country first", s.foreign)}${meter("💵", "Independent", s.indep)}</div>
+        <p class="blurb">${esc(firstSentence(c.bio).replace(/;$/, "."))}</p>
+        <div class="badges">${srcHits(c) ? `<span class="bdg src">📣 In your sources (${srcHits(c)})</span>` : ""}${f.length ? `<span class="bdg flag">⚠ ${f.length} on record</span>` : ""}</div>
+        <div class="hintline">Tap to flip ↻${c.photo ? ` <span class="credit">· Photo: ${esc(c.photo.credit)}</span>` : ""}</div>
+      </div>
+    </div>`;
+  const top = (m.top || []).slice(0, 3).map(t => `<li>${esc(t[0])} — <b>${usd(t[1])}</b></li>`).join("");
+  const ct = (m.committee && m.committee.top || [])[0];
+  const comm = m.committee && m.committee.total ? `<p class="mini">➕ <b>${usd(m.committee.total)}</b> more in <b>${esc(m.committee.name)}</b>, a committee they control with no donation limit${ct ? `. Biggest: ${esc(ct[0])} ${usd(ct[1])}` : ""}.</p>` : "";
+  const fr = s.foreign.reasons.length ? s.foreign.reasons.map(x => `−${x.pts} · ${esc(x.text)}`).join("<br>") : "No foreign-connected money or ties found.";
+  const back = `
+    <div class="face back f${b}">
+      <p class="bk">💵 The money</p>
+      <div class="kv"><div><b>${usd(m.raised)}</b><span>raised</span></div><div><b>${s.local && s.local.v != null ? s.local.v + "%" : "—"}</b><span>from home</span></div><div><b>${pct(m.out_pct)}</b><span>out of state</span></div></div>
+      ${comm}
+      ${top ? `<div><div class="mini"><b>Biggest givers</b></div><ol class="top3">${top}</ol></div>` : `<p class="mini muted">No itemized givers on file.</p>`}
+      ${forAmt || agAmt ? `<p class="mini">📢 Outside groups spent <b>${usd(forAmt)}</b> to help and <b>${usd(agAmt)}</b> to hurt them.</p>` : ""}
+      ${(c.votes || []).length ? `<p class="bk">🗳️ How they voted</p><ul class="vl">${c.votes.slice(0, 3).map(v => voteRow(v, true)).join("")}</ul>` : ""}
+      <p class="bk">🗽 Foreign</p><p class="mini">${fr}</p>
+      ${f.length ? `<p class="bk">⚠ On record</p>` + f.slice(0, 1).map(x => `<p class="mini"><span class="st ${esc(x.status || "")}">${esc(x.status || "note")}</span>${esc(firstSentence(x.text, 150))}</p>`).join("") : ""}
+      ${srcHits(c) ? `<div class="own" style="margin:0;padding:8px 10px"><b style="color:var(--amber)">📣 Your sources:</b> <span class="mini">${esc(c.owner_sources[0].title)}${srcHits(c) > 1 ? ` <b>+ ${srcHits(c) - 1} more</b>` : ""}</span></div>` : ""}
+      <div class="row2"><button class="btn" data-prof="${r.id}|${i}">Full profile</button><button class="btn ghost" data-flipback aria-label="Flip back">↻</button></div>
+    </div>`;
+  return `<div class="flip band-${b}" tabindex="0" role="button" aria-label="${esc(c.name)}: score ${s.overall ?? "not scored"}. Press to flip."><div class="in">${front}${back}</div></div>`;
+}
+
+function tiles(rs) {
+  let h = `<div class="tiles">`;
+  for (const r of rs) {
+    const dots = r.kind === "race" ? r.cands.map(c => `<span class="dot ${band(c.score.overall)}${c.photo ? " ph" : ""}"${c.photo ? ` style="background-image:url('${esc(PHOTO(c))}')"` : ""} title="${esc(c.name)}: ${c.score.overall ?? "not scored"}">${esc(initials(c.name))}</span>`).join("")
+      : `<span class="tag">${r.kind === "judges" ? "Keep or remove" : "Yes or no"}</span>`;
+    const maybe = applies(r, ctx) === null;
+    h += `<button class="tile" data-go="${r.id}"><span class="t">${esc(r.short)}</span><span class="s">${esc(r.sub)}</span>${maybe ? `<span><span class="tag addr">Check: some addresses</span></span>` : ""}<span class="dots">${dots}</span></button>`;
+  }
+  return h + `</div>`;
+}
+function home() {
+  document.title = D.title;
+  const pills = `<div class="pills"><button class="pill" data-sheet="how">📊 How scores work</button><button class="pill" data-sheet="src">📣 Your sources</button><button class="pill" data-sheet="about">ℹ️ About</button></div>`;
+  let h;
+  if (!ctx) {
+    h = `<header class="top"><div class="logo">🗳️</div><div><h1>Your Florida ballot</h1><p>General election · Tuesday, November 3, 2026</p></div></header>
+      ${finder(false)}${voteBox()}${pills}
+      <h2 class="grp">🌴 On every Florida ballot</h2>${tiles(ALL.filter(r => (r.where || {}).all))}
+      <p class="deckhint" style="margin-top:12px">Your U.S. House, State Senate, State House, county and city races appear once you add your address.</p>`;
+  } else {
+    const chips = [ctx.cd && `U.S. House ${ctx.cd}`, ctx.sd && `State Senate ${ctx.sd}`, ctx.hd && `State House ${ctx.hd}`, ctx.county && `${ctx.county} County`, ctx.city || (ctx.how !== "zip" ? "Outside city limits" : "")].filter(Boolean);
+    h = `<header class="top"><div class="logo">🗳️</div><div><h1>Your ballot</h1><p>${ctx.how === "zip" ? `ZIP ${esc(ctx.zip)}, approximate: add your street for exact districts` : ctx.how === "location" ? "From your location" : "From your address"} · Nov 3, 2026</p></div></header>
+      <div class="ctx">${chips.map(x => `<span class="cchip">${esc(x)}</span>`).join("")}<button class="cchip change" data-change>✎ Change address</button></div>
+      ${voteBox()}${pills}
+      <h2 class="grp" style="margin-top:6px">🎨 Card style</h2>${deckPicker()}`;
+    const mine = myRaces();
+    for (const g of D.groups) {
+      const rs = mine.filter(r => r.group === g.id);
+      if (g.id === "local") {
+        const hasCounty = D.files.includes(`county-${cslug(ctx.county)}`);
+        const o = soeOf(ctx.county);
+        h += `<h2 class="grp">${g.icon} ${esc(g.label)}</h2>${rs.length ? tiles(rs) : ""}` + (hasCounty
+          ? `<p class="deckhint" style="margin-top:10px">Tiles marked “Check” depend on your exact street: confirm them on the official sample ballot.</p>`
+          : `<div class="panel"><b>${esc(ctx.county)} County's own races</b><br>County commission, school board, city and special-district races aren't researched for ${esc(ctx.county)} County yet, so they're left out rather than guessed. ${o ? `See them on the <a href="${esc(o[0])}" target="_blank" rel="noopener">${esc(ctx.county)} County elections site ↗</a>${o[1] ? ` or call <a href="tel:${esc(o[1])}">${esc(o[1])}</a>` : ""}.` : ""}</div>`);
+        continue;
+      }
+      if (g.id === "judges" && ctx.county !== "Manatee") {
+        h += `<h2 class="grp">${g.icon} ${esc(g.label)}</h2>${rs.length ? tiles(rs) : ""}<p class="deckhint" style="margin-top:10px">Your ballot may also ask about appeals-court and local judges: they're on your county's sample ballot.</p>`;
+        continue;
+      }
+      if (!rs.length) continue;
+      h += `<h2 class="grp">${g.icon} ${esc(g.label)}</h2>${tiles(rs)}`;
+    }
+    const missing = [["cd", "U.S. House"], ["sd", "State Senate"], ["hd", "State House"]].filter(([k]) => ctx[k] && !mine.some(r => (r.where || {})[k] === ctx[k]));
+    if (missing.length) h += `<div class="panel" style="margin-top:14px">⏳ Not in this guide yet: ${missing.map(([k, n]) => `${n} ${ctx[k]}`).join(", ")}.${missing.some(m => m[0] === "sd") ? " Only half of the State Senate seats are on the ballot this year, so yours may not be up." : ""} Check your official sample ballot for ${missing.length > 1 ? "these" : "it"}.</div>`;
+  }
+  h += `<footer>Built ${esc(D.built)} from public filings. Scores measure money and documented ties only: not party, views or votes.<br><a href="index.html">How old is the U.S. government? →</a></footer>`;
+  $("#app").innerHTML = h;
+}
+
+function ownBox(items, searched) {
+  items = items || [];
+  if (!items.length) return searched && searched.length ? `<p class="mini muted" style="margin:10px 2px">📣 Your sources were searched: nothing about this.</p>` : "";
+  return `<div class="own"><h4>📣 What your sources say</h4><div class="meta">Reported as they say it. Not checked against public records.</div>${items.map(x => `<div class="it"><b>${esc(x.source)}</b>${x.date ? ` · ${esc(x.date)}` : ""}<br>${esc(x.title)}${x.says ? `<div class="meta">${esc(x.says)}</div>` : ""}${link(x.url, "open")}</div>`).join("")}</div>`;
+}
+
+function racePage(r) {
+  document.title = r.short + " · " + D.title;
+  let h = `<div class="bar"><button class="backbtn" data-go="">← All races</button><h1>${esc(r.kind === "measure" ? r.short + ": " + r.sub : r.title)}</h1></div>`;
+  const scope = applies(r, ctx) === null ? `<span class="tag addr">Only some addresses${r.scope_note ? ": " + esc(r.scope_note) : ""}</span><br>` : "";
+  if (r.kind === "race") {
+    h += `<p class="lead">${scope}${esc(r.note || "")} <b>Ranked by score. Tap any card to flip it.</b></p>${deckPicker()}<div class="cards">${r.cands.map((c, i) => card(r, c, i)).join("")}</div>${compareVotes(r)}`;
+  } else if (r.kind === "judges") {
+    h += `<p class="lead">${esc(r.note || "")} Not scored: judges raise no campaign money.</p>`;
+    h += r.judges.map(j => `<div class="mcard"><h3>⚖️ ${esc(j.name)}</h3><p class="mini">${esc(j.text)}</p>${(j.items || []).length ? `<details><summary>Rulings & record (${j.items.length})</summary><ul>${j.items.map(x => `<li>${esc(x.text)}${link(x.url)}</li>`).join("")}</ul></details>` : ""}${ownBox(j.owner_sources, j.owner_sources_searched)}</div>`).join("");
+  } else {
+    const m = r.m;
+    const L = a => (a || []).map(x => `<div>${esc(x.text)}${link(x.url)}</div>`).join("") || "<div>None found.</div>";
+    h += `<p class="lead">${scope}Not scored: ballot questions have no candidate.</p><div class="mcard"><h3>${esc(m.name)}</h3><p>${esc(m.summary)}</p>
+      <div class="sides"><div class="side"><h4>👍 Supporters</h4>${L(m.supporters)}<h4 style="margin-top:10px">💵 Money for</h4>${L(m.who_funds_yes)}</div><div class="side"><h4>👎 Opponents</h4>${L(m.opponents)}<h4 style="margin-top:10px">💵 Money against</h4>${L(m.who_funds_no)}</div></div>
+      ${(m.fiscal || []).length ? `<details><summary>Cost & effect</summary>${L(m.fiscal)}</details>` : ""}${ownBox(m.owner_sources, m.owner_sources_searched)}
+      ${(m.urls || []).length ? `<p class="mini muted">Sources: ${m.urls.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${i + 1}</a>`).join(" · ")}</p>` : ""}</div>`;
+  }
+  $("#app").innerHTML = h;
+}
+
+function list(title, arr, fmt, open) {
+  if (!arr || !arr.length) return "";
+  return `<details${open ? " open" : ""}><summary>${title} (${arr.length})</summary><ul>${arr.map(fmt).join("")}</ul></details>`;
+}
+const li = x => `<li>${esc(x.text)}${link(x.url)}</li>`;
+
+function profile(r, c) {
+  const s = c.score, m = c.money || {}, b = band(s.overall);
+  const T = rows => `<table class="t">${rows.map(t => `<tr><td>${esc(t[0])}${t[2] ? `<div class="mini muted">${esc(t[2])}</div>` : ""}</td><td class="r">${usd(+t[1])}</td></tr>`).join("")}</table>`;
+  let h = `<div class="big bg-${b}" style="margin-bottom:10px"><div class="num">${s.overall ?? "—"}</div><div><div class="word">${WORD[b]} · ${esc(r.short)}</div><div class="hint">${partyName(c.party)}${c.incumbent ? " · Incumbent" : ""}${c.rank ? " · ranked #" + c.rank + " of " + r.cands.filter(x => x.rank).length : ""}</div></div></div>`;
+  h += `<div class="panel">${meter("🏠", "Local", s.local)}<div class="mini muted" style="margin:0 0 10px">${esc(s.local ? s.local.label : s.why)}</div>
+    ${meter("🗽", "Country first", s.foreign)}<div class="mini muted" style="margin:0 0 10px">${s.foreign.reasons.length ? s.foreign.reasons.map(x => `−${x.pts}: ${esc(x.text)}${link(x.url)}`).join("<br>") : "Nothing found that lowers this."}</div>
+    ${meter("💵", "Independent", s.indep)}<div class="mini muted">${s.indep ? esc(s.indep.label) + ": " + s.indep.parts.map(esc).join("; ") + "." : esc(s.why)}</div></div>`;
+  h += `<div class="panel"><h4>Who they are</h4>${esc(c.bio || "")}${c.running_mate ? `<p class="mini" style="margin-top:8px"><b>Running mate:</b> ${esc(c.running_mate)}</p>` : ""}${c.local_ties ? `<p class="mini" style="margin-top:8px"><b>🏠 Local ties:</b> ${esc(c.local_ties)}</p>` : ""}</div>`;
+  h += ownBox(c.owner_sources, c.owner_sources_searched);
+  let mh = `<div class="kv" style="margin:2px 0 10px"><div><b>${usd(m.raised)}</b><span>raised</span></div><div><b>${pct(m.fl_pct)}</b><span>from Florida</span></div><div><b>${pct(m.out_pct)}</b><span>out of state</span></div><div><b>${pct(m.local_pct)}</b><span>${m.local_label ? "Sarasota–Manatee" : "Manatee County"}</span></div><div><b>${pct(m.org_pct)}</b><span>business / PAC</span></div><div><b>${pct(m.build_land_pct)}</b><span>building & land</span></div></div>`;
+  if (m.loans) mh += `<p class="mini">Loans (often the candidate's own money): <b>${usd(m.loans)}</b></p>`;
+  if (m.committee) mh += `<p class="mini" style="margin-top:10px"><b>${esc(m.committee.name)}</b>: ${usd(m.committee.total)} (${esc(m.committee.span || "")}), no donation limit.</p>${T(m.committee.top || [])}`;
+  if ((m.top || []).length) mh += `<p class="mini" style="margin-top:12px"><b>Biggest givers to the campaign</b></p>${T(m.top)}`;
+  if ((m.groups || []).length) mh += `<p class="mini" style="margin-top:12px"><b>Several companies at one address</b> (each can give the limit)</p>` + m.groups.map(g => `<p class="mini">• ${esc(g[0])}: <b>${usd(g[1])}</b> from ${g[2].length} entities (${esc(g[2].slice(0, 4).join(", "))}${g[2].length > 4 ? "…" : ""})</p>`).join("");
+  if ((m.pacs || []).length) mh += `<p class="mini" style="margin-top:12px"><b>PAC checks</b></p>${T(m.pacs)}`;
+  if ((m.outside || []).length) mh += `<p class="mini" style="margin-top:12px"><b>Outside groups</b></p><table class="t">${m.outside.map(o => `<tr><td>${esc(o[0])}</td><td>${o[1] === "S" ? "to help" : "to hurt"}</td><td class="r">${usd(+o[2])}</td></tr>`).join("")}</table>`;
+  if (m.note) mh += `<p class="mini muted" style="margin-top:10px">${esc(m.note)}</p>`;
+  if (m.source) mh += `<p class="mini muted">${esc(m.source)}${link(m.source_url)}</p>`;
+  h += `<details open><summary>💵 Money</summary>${mh}</details>`;
+  h += list("💬 Money in the news", c.money_notes, li);
+  h += list("⚠ Cases, complaints & controversies", c.controversies, x => `<li><span class="st ${esc(x.status || "")}">${esc(x.status || "note")}</span>${esc(x.text)}${link(x.url)}</li>`);
+  h += list("🗽 Foreign ties", c.foreign_ties, li);
+  if ((c.votes || []).length) h += `<details open><summary>🗳️ Voting record (${c.votes.length})</summary><ul class="vl">${c.votes.map(v => voteRow(v, false)).join("")}</ul><p class="mini muted">Each vote links to the official roll call. Picked for issues most voters care about; not every vote they cast.</p></details>`;
+  h += list("📋 Record", c.record, li);
+  h += list("🏡 Local issues", c.local_issue_stance, li);
+  h += list("🤝 Endorsements", c.endorsements, li);
+  h += list("📰 What newspapers said (opinion)", c.press_opinion, li);
+  if (c.gaps) h += `<div class="panel"><h4>What we couldn't find</h4>${esc(c.gaps)}</div>`;
+  return h;
+}
+
+function howSheet() {
+  const R = D.rules;
+  return `<div class="panel">Each candidate gets three meters from 0 to 100, one for each of your questions. The big number is their average. It comes from public filings only: never party, views, votes or anyone's opinion.
+      <div class="legend"><span><i class="g"></i>70+ Strong</span><span><i class="m"></i>45–69 Mixed</span><span><i class="b"></i>Under 45 Weak</span><span><i class="n"></i>Not scored</span></div></div>
+    <div class="panel"><h4>🏠 Local: commitment to the area</h4>The share of their money that comes from home. “Home” fits the office: Florida for statewide and U.S. Senate races; Sarasota–Manatee zip codes for U.S. House 16; Manatee, Sarasota and Hillsborough zip codes for the State House and Senate; Manatee County for county and city races.</div>
+    <div class="panel"><h4>🗽 Country first: foreign interest</h4>Starts at 100. Points come off for each documented item:<ul class="formula">${R.foreign.map(f => `<li>−${f.pts}: ${esc(f.text)}</li>`).join("")}<li>−${R.pac} per check from the U.S. PAC of a foreign-parent company (legal; funded by U.S. employees)</li></ul>Trips, statements and votes are listed on the profile but don't change the score.</div>
+    <div class="panel"><h4>💵 Independent: big donors</h4>100 minus the share of all the money behind them that is big money. Big money means business, PAC and party money; for federal races, individuals giving $2,000+; any political committee the candidate controls (no donation limit in Florida); and money outside groups spent to help them.</div>
+    <div class="panel"><h4>Limits</h4>Candidates who raised very little aren't scored, because a few checks would swing everything: under $${R.min.federal.toLocaleString()} for federal and statewide offices, $${R.min.legislature.toLocaleString()} for the Legislature, $${R.min.local.toLocaleString()} for county and city. Federal donor detail runs through about July 2026. Filings miss dark money, family money and promises. A donation is a fact about the donor, not proof of what a candidate will do.</div>`;
+}
+
+function srcSheet() {
+  const hits = [], none = [];
+  for (const r of ALL) for (const c of (r.cands || [])) (srcHits(c) ? hits : none).push([r, c]);
+  const mHits = ALL.filter(r => r.kind === "measure" && (r.m.owner_sources || []).length);
+  return `<div class="panel">Your five sources (<b>rumble.com/Owen</b>, <b>alexjoneslive.com</b>, <b>rumble.com/TheAlexJonesShowLive</b>, <b>rumble.com/c/StewPeters</b>, <b>stewpeters.com</b>) were searched for every candidate and ballot question here. What they say appears in an amber 📣 box on that candidate's card, credited to them and reported as they say it. Only headlines and descriptions could be read; videos can't be watched. They don't change the scores.</div>
+    <h3 style="margin:18px 2px 6px">Found something (${hits.length + mHits.length})</h3>
+    ${hits.map(([r, c]) => `<div class="panel"><div style="display:flex;align-items:center;gap:8px"><b style="flex:1">${esc(c.name)} · ${esc(r.short)}</b><button class="btn ghost" style="padding:7px 12px" data-prof="${r.id}|${r.cands.indexOf(c)}">Open card</button></div>${ownBox(c.owner_sources)}</div>`).join("")}
+    ${mHits.map(r => `<div class="panel"><b>${esc(r.short)}</b>${ownBox(r.m.owner_sources)}</div>`).join("")}
+    <h3 style="margin:18px 2px 6px">Searched, nothing found (${none.length})</h3><div class="panel mini">${none.map(([r, c]) => esc(c.name)).join(" · ")}</div>`;
+}
+
+const aboutSheet = () => D.boxes.map(b => `<div class="panel"><h4>${esc(b.title)}</h4>${b.html}</div>`).join("") + `<div class="panel">${D.footer}</div>`;
+
+function openSheet(title, body) {
+  $("#shT").textContent = title; $("#shB").innerHTML = body;
+  $("#sheet").classList.add("open"); $("#sheet").setAttribute("aria-hidden", "false"); document.body.classList.add("locked");
+  $("#sheet .pn").scrollTop = 0;
+}
+function closeSheet() { $("#sheet").classList.remove("open"); $("#sheet").setAttribute("aria-hidden", "true"); document.body.classList.remove("locked"); }
+
+let shownPage = null;
+function route() {
+  const [page, sub] = decodeURIComponent(location.hash.slice(1)).split("/");
+  const r = raceById(page);
+  if (page !== shownPage) { r ? racePage(r) : home(); shownPage = r ? page : ""; window.scrollTo(0, 0); }
+  if (sub === "how") openSheet("How scores work", howSheet());
+  else if (sub === "src") openSheet("Your sources", srcSheet());
+  else if (sub === "about") openSheet("About this report", aboutSheet());
+  else if (sub && sub[0] === "p") {
+    const [rid, i] = sub.slice(1).split("|"), pr = raceById(rid), c = pr && pr.cands && pr.cands[+i];
+    c ? openSheet(c.name, profile(pr, c)) : closeSheet();
+  } else closeSheet();
+}
+const curPage = () => decodeURIComponent(location.hash.slice(1)).split("/")[0];
+document.addEventListener("click", e => {
+  const t = e.target;
+  const go = t.closest("[data-go]");
+  if (go) { location.hash = go.dataset.go; return; }
+  const sh = t.closest("[data-sheet]");
+  if (sh) { location.hash = curPage() + "/" + sh.dataset.sheet; return; }
+  const pf = t.closest("[data-prof]");
+  if (pf) { location.hash = curPage() + "/p" + pf.dataset.prof; return; }
+  if (t.closest("[data-close]")) { location.hash = curPage(); return; }
+  if (t.closest("[data-change]")) { setCtx(null); shownPage = null; if (location.hash) location.hash = ""; else route(); setTimeout(() => { const i = $("#findi"); if (i) i.focus(); }, 50); return; }
+  if (t.closest("#locb")) { runFind(findByLocation); return; }
+  const dk = t.closest(".dk");
+  if (dk) { setDeck(dk.dataset.deck); return; }
+  if (t.closest("a")) return;
+  const fl = t.closest(".flip");
+  if (fl) fl.classList.toggle("on");
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" && $("#sheet").classList.contains("open")) { location.hash = curPage(); return; }
+  const fl = e.target.closest && e.target.closest(".flip");
+  if (fl && e.target === fl && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); fl.classList.toggle("on"); }
+});
+document.addEventListener("input", e => {
+  if (e.target.id !== "zipi") return;
+  e.target.value = e.target.value.replace(/\D/g, "").slice(0, 5);
+  $("#zipo").textContent = zipAnswer(e.target.value);
+});
+document.addEventListener("submit", e => {
+  if (e.target.id !== "findf") return;
+  e.preventDefault();
+  const q = $("#findi").value;
+  runFind(() => findBallot(q));
+});
+setInterval(() => { const el = $("#pollst"); if (el) { const [c, t] = pollStatus(); el.className = c; el.textContent = t; } }, 30000);
+window.addEventListener("hashchange", route);
+route();
+if (ctx) loadFiles(ctx).then(() => { shownPage = null; route(); });
+</script>
+</body>
+</html>
