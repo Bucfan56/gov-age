@@ -9,5 +9,6 @@
   "kv_namespaces": [{ "binding": "BALLOT_BUDDY", "id": "ae1b64adf08f47eb934ce723e13caca6" }],
   // the suite mail door; the app key goes in as the secret APPOLIS_APP_KEY once Appolis registers ballot-buddy
   "services": [{ "binding": "APPOLIS", "service": "appolis" }],
+  "triggers": { "crons": ["*/5 * * * *"] },
   "observability": { "enabled": true }
 }

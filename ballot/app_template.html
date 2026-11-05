@@ -16,6 +16,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="buddy/results/ui.css" rel="stylesheet">
+<script src="buddy/results/ui.js"></script>
 <style>
 :root{
   --bg:#f4f1ea;--card:#fffdf8;--ink:#1d1b17;--sub:#6b665c;--line:#e4ddcf;--chip:#efe9dc;
@@ -419,7 +421,7 @@ details.today .vote .vh{display:none}
 </head>
 <body>
 <div class="wrap" id="app"></div>
-<nav class="navbar" aria-label="Main"><button data-go="" data-nav="home"><b>🗳️</b>Ballot</button><button data-go="mine" data-nav="mine"><b>📝</b>My ballot</button><button data-sheet="today" data-nav="today"><b>⏰</b>Vote today</button><button data-sheet="how" data-nav="how"><b>📊</b>How it works</button><button data-sheet="src" data-nav="src"><b>📣</b>Sources</button></nav>
+<nav class="navbar" aria-label="Main"><button data-go="" data-nav="home"><b>🗳️</b>Ballot</button><button data-go="mine" data-nav="mine"><b>📝</b>My ballot</button><button data-go="results" data-nav="results"><b>🏁</b>Results</button><button data-sheet="how" data-nav="how"><b>📊</b>How it works</button><button data-sheet="src" data-nav="src"><b>📣</b>Sources</button></nav>
 <div class="sheet" id="sheet" aria-hidden="true"><div class="sc" data-close></div><div class="pn" role="dialog" aria-modal="true" aria-labelledby="shT"><div class="ph"><h2 id="shT"></h2><button class="x" data-close aria-label="Close">✕</button></div><div id="shB"></div></div></div>
 <script>
 const D = __DATA__;
@@ -450,7 +452,7 @@ function setPick(k, v) {
   pushAcct();
 }
 // Ballot Buddy account: a six-digit code by email, then picks and district numbers follow you to any phone
-const API = /(^|\.)appolis\.app$/.test(location.hostname) ? "/api" : "https://ballotbuddy.appolis.app/api";
+const API = /(^|\.)(appolis\.app|ballotbuddy\.app|workers\.dev)$/.test(location.hostname) ? "/api" : "https://ballotbuddy.appolis.app/api";
 let ACCT = null, TOKEN = null, pushT = null;
 try { TOKEN = localStorage.getItem("bb-token"); ACCT = JSON.parse(localStorage.getItem("bb-acct") || "null"); } catch (e) {}
 async function apiCall(method, path, body) {
@@ -917,7 +919,7 @@ function home() {
   }
   if (!standalone()) h += `<div class="rlist" style="margin-top:16px"><button class="rrow" data-sheet="install"><span class="rnum">📲</span><span class="rmain"><span class="rt">Add Ballot Buddy to your phone</span><span class="rs">Opens like an app, works with a weak signal</span></span><span class="chev">›</span></button></div>`;
   h += `<footer>${whoBtn()} · Built ${esc(D.built)} from public filings and research. <a href="#/how">How scores work</a><br><a href="index.html">How old is the U.S. government? →</a></footer>`;
-  $("#app").innerHTML = h;
+  $("#app").innerHTML = h.replace("</header>", "</header>" + resHomeRow());
 }
 
 const X_HANDLES = ["jamesfishback", "RealAlexJones", "alexstein99", "OwenShroyer1776", "OldWorldFL", "IanCarrollShow", "RealCandaceO", "realstewpeters", "StewPetersNet", "RyLiberty", "rexjonesnewz", "jakeshieldsajj", "MyronGainesX"];
@@ -1072,19 +1074,22 @@ function myBallot() {
       g0 = r.group; const g = D.groups.find(x => x.id === g0);
       h += `<h2 class="grp">${g ? g.icon + " " + esc(g.label) : ""}</h2><div class="mine">`;
     }
-    h += `<div class="mrow" data-go="${r.id}"><span class="mq">${esc(q)}</span><span class="ma${PICKS[k] ? "" : " none"}">${PICKS[k] ? "✓ " + esc(PICKS[k]) : "Not picked"}</span></div>`;
+    h += `<div class="mrow" data-go="${r.id}" data-k="${esc(k)}"><span class="mq">${esc(q)}</span><span class="ma${PICKS[k] ? "" : " none"}">${PICKS[k] ? "✓ " + esc(PICKS[k]) : "Not picked"}</span></div>`;
   }
   if (g0 !== null) h += `</div>`;
   if (!ctx) h += `<p class="deckhint" style="margin-top:12px">Add your address on the Ballot tab to see your district races here too.</p>`;
   $("#app").innerHTML = h;
+  resDecorateMine();
 }
 let shownPage = null;
 function route() {
   const [page, sub] = decodeURIComponent(location.hash.slice(1)).split("/");
   const r = raceById(page);
-  if (page !== shownPage) { page === "mine" ? myBallot() : r ? racePage(r) : home(); shownPage = page === "mine" || r ? page : ""; window.scrollTo(0, 0); }
-  document.querySelectorAll(".navbar button").forEach(b => b.classList.toggle("on", (b.dataset.nav === "home" && !sub && page !== "mine") || (b.dataset.nav === "mine" && page === "mine" && !sub) || b.dataset.nav === sub));
-  if (sub === "today") openSheet("Voting today", voteBox());
+  if (page !== shownPage) { if (page === "results") resultsPage(); else if (page === "mine") myBallot(); else if (r) { racePage(r); resRaceBanner(r); } else home(); shownPage = page === "mine" || page === "results" || r ? page : ""; window.scrollTo(0, 0); }
+  document.querySelectorAll(".navbar button").forEach(b => b.classList.toggle("on", (b.dataset.nav === "home" && !sub && page !== "mine" && page !== "results") || (b.dataset.nav === "mine" && page === "mine" && !sub) || (b.dataset.nav === "results" && page === "results") || b.dataset.nav === sub));
+  if (sub === "rhow") openSheet("How results work", resHowSheet());
+  else if (sub && sub[0] === "x") { const [st, id] = sub.slice(1).split("~"); resOpen(st, id); }
+  else if (sub === "today") openSheet("Voting today", voteBox());
   else if (sub === "how") openSheet("How scores work", howSheet());
   else if (sub === "src") openSheet("Your sources", srcSheet());
   else if (sub === "about") openSheet("About this report", aboutSheet());

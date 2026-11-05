@@ -13,6 +13,8 @@ for f in ["ballot.html", "manifest.webmanifest", "sw.js"]:
 shutil.copytree(ROOT / "fl", SITE / "fl")
 shutil.copytree(ROOT / "buddy" / "icons", SITE / "buddy" / "icons")
 shutil.copytree(ROOT / "buddy" / "logos", SITE / "buddy" / "logos", ignore=shutil.ignore_patterns("*.py", "*.cjs", "png"))
-(SITE / "_headers").write_text("/sw.js\n  Cache-Control: no-cache\n/ballot.html\n  Cache-Control: no-cache\n/fl/*\n  Cache-Control: no-cache\n", encoding="utf-8")
+# The results screen, its county maps, and a saved copy of the numbers (from buddy/results/pull.mjs) to show if the API is down.
+shutil.copytree(ROOT / "buddy" / "results", SITE / "buddy" / "results", ignore=shutil.ignore_patterns("*.mjs", "*.cjs"))
+(SITE / "_headers").write_text("/sw.js\n  Cache-Control: no-cache\n/ballot.html\n  Cache-Control: no-cache\n/fl/*\n  Cache-Control: no-cache\n/buddy/results/*\n  Cache-Control: no-cache\n", encoding="utf-8")
 n = sum(1 for _ in SITE.rglob("*") if _.is_file())
 print("site:", n, "files")

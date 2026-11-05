@@ -5,7 +5,9 @@
 // KV (BALLOT_BUDDY):  otp:<email> {h, n} 10 min · rl:<kind>:<who> counters · acct:<email> {picks, ctx, created, updated}
 //                     sess:<sha256(token)> <email> 90 days
 const CODE_TTL = 600, SESSION_TTL = 90 * 86400, MAX_TRIES = 5;
-const ORIGINS = ["https://bucfan56.github.io", "https://ballotbuddy.appolis.app", "http://localhost:8010"];
+import {resultsApi, refresh} from "./results.js";
+
+const ORIGINS = ["https://bucfan56.github.io", "https://ballotbuddy.appolis.app", "https://ballotbuddy.app", "http://localhost:8010"];
 const CTX_KEYS = ["cd", "sd", "hd", "county", "city", "zip", "cc", "sb", "ward", "specials", "how"];
 
 const hex = buf => [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, "0")).join("");
@@ -120,8 +122,18 @@ async function api(req, env, url) {
 }
 
 export default {
-  async fetch(req, env) {
+  // Every 5 minutes: pull the five main states, three of the others, and the national view. Keeps the last good copy if a source fails.
+  async scheduled(event, env, ctx) { ctx.waitUntil(refresh(env, fetch)); },
+  async fetch(req, env, ctx) {
     const url = new URL(req.url);
+    if (url.pathname.startsWith("/api/results/") && req.method === "GET") {
+      try {
+        const res = await resultsApi(env, fetch, url.pathname, ctx);
+        const out = new Response(res.body, res);
+        out.headers.set("access-control-allow-origin", "*");      // public election numbers
+        return out;
+      } catch (e) { console.error(e); return J(req, 500, {error: "Something went wrong on our side."}); }
+    }
     if (url.pathname.startsWith("/api/")) {
       try { return await api(req, env, url); }
       catch (e) { console.error(e); return J(req, 500, {error: "Something went wrong on our side."}); }
