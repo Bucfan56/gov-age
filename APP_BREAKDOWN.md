@@ -62,6 +62,14 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-05 (later still): ballotbuddy.app is the main address
+
+Tyler's go: form note_9316.
+
+- https://ballotbuddy.app now serves the same app and the same accounts. The old address, ballotbuddy.appolis.app, keeps working.
+- On the old address, the home screen has a one-tap row that carries your picks and your district over to the new one. Picks you already made at the new address win over the ones coming in. No sign-in token travels in the link, so a signed-in person signs in once more at the new address, which brings their saved picks with it.
+- Why a link is needed: a browser keeps each address's saved picks apart. The app can't reach across on its own.
+
 ### 2026-11-05 (later): Results refresh waits for itself
 
 - The 5-minute refresh ran as background work, and some runs saved nothing (09:35 and 09:40 UTC on the first morning). The scheduled run now waits for the refresh to finish, and logs how long it took.
