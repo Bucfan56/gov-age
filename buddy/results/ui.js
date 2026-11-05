@@ -1,4 +1,35 @@
 // Ballot Buddy results tracker. Loaded ahead of the app's own script, and shares its globals (API, D, ALL, PICKS, ctx, esc, $, openSheet, ordered, lines).
+// Moving house: picks saved without an account live with one address, so a link carries them to ballotbuddy.app.
+// The picks ride in the part of the link after #, which never reaches a server. Runs before the app reads its saved picks.
+const BB_HOME = "https://ballotbuddy.app";
+(function bbImport() {
+  const m = /[#&]bbmove=([^&]+)/.exec(location.hash);
+  if (!m) return;
+  try {
+    const o = JSON.parse(decodeURIComponent(escape(atob(decodeURIComponent(m[1]))))), picks = {};
+    for (const [k, v] of Object.entries(o.picks || {})) if (typeof v === "string" && k.length <= 80 && v.length <= 140) picks[k] = v;
+    const have = JSON.parse(localStorage.getItem("ballot-picks") || "{}") || {};
+    localStorage.setItem("ballot-picks", JSON.stringify(Object.assign(picks, have)));      // anything already picked here stays
+    if (o.ctx && o.ctx.county && !localStorage.getItem("ballot-ctx")) localStorage.setItem("ballot-ctx", JSON.stringify(o.ctx));
+    localStorage.setItem("bb-moved", String(Object.keys(picks).length));
+  } catch (e) { console.error("couldn't read the moved picks", e); }
+  history.replaceState(null, "", location.pathname + location.search);
+})();
+const bbOldHome = () => location.hostname === "ballotbuddy.appolis.app" || /github\.io$/.test(location.hostname);
+function bbMoveLink() {
+  let picks = {}, c = null;
+  try { picks = JSON.parse(localStorage.getItem("ballot-picks") || "{}") || {}; c = JSON.parse(localStorage.getItem("ballot-ctx") || "null"); } catch (e) {}
+  const payload = btoa(unescape(encodeURIComponent(JSON.stringify({picks, ctx: c}))));
+  return BB_HOME + "/#bbmove=" + encodeURIComponent(payload);
+}
+const bbMoved = (() => { try { const v = localStorage.getItem("bb-moved"); if (v !== null) localStorage.removeItem("bb-moved"); return v; } catch (e) { return null; } })();
+function bbMoveRow() {
+  const moved = bbMoved;
+  if (moved !== null) return `<div class="panel" style="margin-top:0">✓ Welcome to ballotbuddy.app. ${+moved ? `Your ${moved} ${+moved === 1 ? "pick" : "picks"} came with you.` : "You're all set."}</div>`;
+  if (!bbOldHome()) return "";
+  return `<div class="rlist" style="margin:0 0 10px"><button class="rrow rhome" data-bbmove><span class="rnum">🏠</span><span class="rmain"><span class="rt">Ballot Buddy has a new home</span><span class="rs">Tap to go to ballotbuddy.app and bring your picks along</span></span><span class="chev">›</span></button></div>`;
+}
+
 const RES = {st: null, files: {}, view: "all", q: "", shown: 30, layer: "gov", timer: null};
 const RES_TABS = [["US", "🌎 Country"], ["FL", "Florida"], ["AL", "Alabama"], ["NJ", "New Jersey"], ["CA", "California"], ["NC", "North Carolina"]];
 const RES_NAMES = {AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California", CO: "Colorado", CT: "Connecticut", DE: "Delaware", DC: "District of Columbia", FL: "Florida", GA: "Georgia", HI: "Hawaii", ID: "Idaho", IL: "Illinois", IN: "Indiana", IA: "Iowa", KS: "Kansas", KY: "Kentucky", LA: "Louisiana", ME: "Maine", MD: "Maryland", MA: "Massachusetts", MI: "Michigan", MN: "Minnesota", MS: "Mississippi", MO: "Missouri", MT: "Montana", NE: "Nebraska", NV: "Nevada", NH: "New Hampshire", NJ: "New Jersey", NM: "New Mexico", NY: "New York", NC: "North Carolina", ND: "North Dakota", OH: "Ohio", OK: "Oklahoma", OR: "Oregon", PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina", SD: "South Dakota", TN: "Tennessee", TX: "Texas", UT: "Utah", VT: "Vermont", VA: "Virginia", WA: "Washington", WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming", US: "the whole country"};
@@ -311,10 +342,11 @@ async function resDecorateMine() {
     if (x.state === "won" || x.state === "lost" || x.state === "open") el.querySelector(".ma").insertAdjacentHTML("beforeend", ` <span class="rchip ${x.state}">${x.state === "won" ? "won" : x.state === "lost" ? "lost" : "counting"}</span>`);
   });
 }
-const resHomeRow = () => `<div class="rlist" style="margin:0 0 10px"><button class="rrow rhome" data-go="results"><span class="rnum">🏁</span><span class="rmain"><span class="rt">Election results</span><span class="rs">See who won, and how your picks did</span></span><span class="chev">›</span></button></div>`;
+const resHomeRow = () => bbMoveRow() + `<div class="rlist" style="margin:0 0 10px"><button class="rrow rhome" data-go="results"><span class="rnum">🏁</span><span class="rmain"><span class="rt">Election results</span><span class="rs">See who won, and how your picks did</span></span><span class="chev">›</span></button></div>`;
 
 document.addEventListener("click", e => {
   const t = e.target;
+  if (t.closest("[data-bbmove]")) { location.href = bbMoveLink(); return; }
   const open = t.closest("[data-res]");
   if (open) { e.preventDefault(); location.hash = "results/x" + open.dataset.res; return; }
   const tab = t.closest("[data-rtab]");
