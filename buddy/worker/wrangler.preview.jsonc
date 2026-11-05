@@ -1,0 +1,12 @@
+{
+  // The look-before-it-ships copy, on its own workers.dev address: no custom domain, no cron, no email.
+  // It reads the same KV so results match. Deploy: npx wrangler deploy --config wrangler.preview.jsonc
+  "name": "ballot-buddy-preview",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+  "account_id": "6050eca4babb1b8eb24bfae5bdc5927f",
+  "workers_dev": true,
+  "assets": { "directory": "./site", "binding": "ASSETS", "run_worker_first": ["/api/*", "/"], "html_handling": "none" },
+  "kv_namespaces": [{ "binding": "BALLOT_BUDDY", "id": "ae1b64adf08f47eb934ce723e13caca6" }],
+  "observability": { "enabled": true }
+}

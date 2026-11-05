@@ -25,7 +25,7 @@ const lastTok = n => tokens(n).slice(-1)[0] || "";
 const slug = s => fold(s).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const num = v => +String(v ?? "").replace(/[^0-9.]/g, "") || 0;
 const round1 = n => Math.round(n * 10) / 10, round2 = n => Math.round(n * 100) / 100;
-const PARTY = {republican: "R", rep: "R", democratic: "D", democrat: "D", dem: "D", libertarian: "L", lib: "L", lpf: "L", green: "G", grn: "G", independent: "I", ind: "I", npa: "NPA", nonpartisan: "", "no party": "NPA", una: "U", wri: "WI", "write-in": "WI"};
+const PARTY = {republican: "R", rep: "R", democratic: "D", democrat: "D", dem: "D", libertarian: "L", lib: "L", lpf: "L", green: "G", grn: "G", gre: "G", independent: "I", ind: "I", npa: "NPA", nonpartisan: "", "no party": "NPA", una: "U", wri: "WI", "write-in": "WI"};
 const party = p => { const k = fold(p).trim(); return k in PARTY ? PARTY[k] : String(p ?? "").trim().slice(0, 12); };
 const titleCase = s => String(s).toLowerCase().replace(/(^|[\s(/-])([a-z])/g, (m, a, b) => a + b.toUpperCase()).replace(/\b(Us|Nc|Ii|Iii|Iv|Dc)\b/g, m => m.toUpperCase()).replace(/\b(Of|The|And|For|In|To)\b/g, m => m.toLowerCase()).replace(/^./, m => m.toUpperCase());
 // "District 16", "FL-16", "FL-HD-073", "16", "US House 16", "State Senate 40". An at-large seat is district 1.

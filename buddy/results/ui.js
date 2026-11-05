@@ -286,7 +286,7 @@ async function resMap(c, st) {
   }
   if (!found) { live.innerHTML = `<p class="mini muted">No county breakdown for this race.</p>`; return; }
   live._regions = regions; live._names = m.c;
-  live.innerHTML = `<h4 class="rmap-h">By county</h4><svg class="rsvg" viewBox="0 0 ${m.w} ${m.h}" role="img" aria-label="County map of ${esc(c.t)}">${paths}</svg><p class="mini muted">Darker means a wider lead. Tap a county for its numbers.</p><div id="rcty"></div>`;
+  live.innerHTML = `<h4 class="rmap-h">By county</h4><svg class="rsvg" viewBox="0 0 ${m.w} ${m.h}" role="img" aria-label="County map of ${esc(c.t)}">${paths}</svg><p class="mini muted">Darker means a wider lead. Tap a county for its numbers.${data.byFips ? " County numbers from civicAPI." : ""}</p><div id="rcty"></div>`;
 }
 async function resRaceBanner(r) {
   const lead = $("#app .lead") || $("#app .bar");
