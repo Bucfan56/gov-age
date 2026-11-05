@@ -314,7 +314,7 @@ async function store(env, meta, st, body, now) {
   m.checked = now; delete m.error;
 }
 export async function refresh(env, fetcher, opts = {}) {
-  const meta = await metaOf(env), now = new Date().toISOString();
+  const started = Date.now(), meta = await metaOf(env), now = new Date().toISOString();
   const others = Object.keys(STATE_NAMES).filter(s => !PRIORITY.includes(s));
   meta.tick = (meta.tick + 1) % 1e6;
   const turn = opts.states || [...PRIORITY, ...[0, 1, 2].map(i => others[(meta.tick * 3 + i) % others.length])];
@@ -336,6 +336,7 @@ export async function refresh(env, fetcher, opts = {}) {
   catch (e) { console.error("results US", e && e.message); (meta.states.US = meta.states.US || {}).error = String(e && e.message || e); }
   meta.ran = now;
   await env.BALLOT_BUDDY.put("results:meta", JSON.stringify(meta));
+  console.log("results refresh", turn.join(","), Date.now() - started, "ms");
   return meta;
 }
 

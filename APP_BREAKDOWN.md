@@ -62,6 +62,10 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-05 (later): Results refresh waits for itself
+
+- The 5-minute refresh ran as background work, and some runs saved nothing (09:35 and 09:40 UTC on the first morning). The scheduled run now waits for the refresh to finish, and logs how long it took.
+
 ### 2026-11-05: Results tracker goes live; pick a candidate right from their card
 
 Tyler's go: form note_9308.

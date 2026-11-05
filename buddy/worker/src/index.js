@@ -123,7 +123,8 @@ async function api(req, env, url) {
 
 export default {
   // Every 5 minutes: pull the five main states, three of the others, and the national view. Keeps the last good copy if a source fails.
-  async scheduled(event, env, ctx) { ctx.waitUntil(refresh(env, fetch)); },
+  // Awaited, not waitUntil: background work can be cut off, and a run that dies before its last write saves nothing.
+  async scheduled(event, env, ctx) { await refresh(env, fetch); },
   async fetch(req, env, ctx) {
     const url = new URL(req.url);
     if (url.pathname.startsWith("/api/results/") && req.method === "GET") {
