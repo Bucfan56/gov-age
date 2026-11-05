@@ -62,6 +62,23 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-05: Results tracker goes live; pick a candidate right from their card
+
+Tyler's go: form note_9308.
+
+- **New 🏁 Results tab.** It replaces "Vote today" in the bottom bar now that the election is over.
+  - Florida, Alabama, New Jersey, California and North Carolina come first. Every other state is one tap away, and a Country view covers governors, Senate and House.
+  - County maps are drawn from public Census shapes.
+  - Each race page on the ballot shows its result at the top.
+  - My ballot shows whether each of your picks won or lost.
+- **Where the numbers come from.** Florida, North Carolina and California use their official feeds, with civicAPI filling gaps. Every other state rests on civicAPI alone for now, which the app says plainly.
+  - The Worker refreshes the numbers every 5 minutes and saves only what changed.
+  - A pull that drops vote totals by more than 10% is refused, and the last good copy stays up.
+  - A race is called from a finished count only when the margin is above the recount line. California is never called this way because mail ballots keep arriving.
+- **Pick from the card.** Each candidate card now has a pick button on the front and back, and the full candidate page has one too (Tyler, form note_9308). The pick bar, the cards and the trade check stay in step. Tapping your pick again clears it.
+- Fixed before shipping: a results banner threw an error if you left a race page while it was still loading.
+- Not in this ship: ballotbuddy.app and carrying picks over. Those have their own go.
+
 ### 2026-11-03 (night, later): Infowars back in "Your sources", Jones-era posts only
 
 - **infowars.com is allowed again, but only for what Alex Jones published there** (Tyler, chat_379 seq 469: nothing from after The Onion took it over).

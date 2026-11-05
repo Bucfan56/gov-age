@@ -292,7 +292,7 @@ async function resRaceBanner(r) {
   const lead = $("#app .lead") || $("#app .bar");
   if (!lead) return;
   let j; try { j = await resLoad("FL"); } catch (e) { return; }
-  if (!$("#app .bar")) return;
+  if (!$("#app .bar") || !lead.isConnected) return; // they moved on while the result was loading
   const cs = r.kind === "judges" ? r.judges.map((_, i) => resContestFor(r, j.data, i)).filter(Boolean) : [resContestFor(r, j.data)].filter(Boolean);
   if (document.querySelector("#app .rbanner")) return;
   if (!cs.length) { if (r.cands && r.cands.length === 1) lead.insertAdjacentHTML("beforebegin", `<div class="rbanner"><b>🏁 Result</b><div class="rbanner-r"><span>${esc(r.cands[0].name)} ran unopposed</span><span class="rst won">Unopposed</span></div></div>`); return; }
