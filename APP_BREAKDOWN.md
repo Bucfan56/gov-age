@@ -62,6 +62,16 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-06 (later): Money over the years on each federal candidate's card
+
+Tyler's go: forms note_9459 and note_9460.
+
+- **A new section under Money shows what each federal candidate raised in every two-year period,** back to their first federal race on file: people, PACs, party and their own money, with AIPAC's PAC gifts, money passed through it and its super PAC's spending beside it. 245 candidates have it. It comes from the FEC's free summary files back to 1980 (`ballot/money_history.py`, no AI cost).
+- **Shown only.** Every card file matches the build before it apart from this section, so no score or top pick moved. Tyler's look-back stands: AIPAC's PAC gifts and super PAC spending count their whole history, which starts in 2021-22 when those two groups began. Passed-through money counts from 2025-26 only, and older passed-through money is marked "not counted in the score".
+- **One person across several FEC records:** the FEC doesn't link a person's House and Senate records, so same-name matches were reviewed by hand against party, office and city (`OTHER_IDS`). Left out on purpose: Rob Menendez's father's filings, a different Raul Ruiz, and a 2020 Larry Thompson record that couldn't be confirmed. `NOT_THEM` drops two wrong ids still in `aipac_ties.json` (under Mark Davis and Victor Arias); neither holds AIPAC money and those cards use the right id.
+- **Limits, stated on the card:** federal races only, as filed, and totals can include transfers between a person's own committees. A race in another state won't appear.
+- Checked: 10 sampled periods match the FEC's live totals to the dollar.
+
 ### 2026-11-06: Alabama, California, New Jersey and North Carolina go live, scored under Tyler's rules
 
 Tyler's go: form note_9449 (and note_9438, note_9444 for the launch plan).
