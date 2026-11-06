@@ -31,7 +31,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "joe-hathaway": {
   "race": "U.S. House, District 11",
@@ -65,7 +69,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "nellie-pou": {
   "race": "U.S. House, District 9",
@@ -108,7 +116,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 30666.43
+  "passed_through_aipac_pac_2022_2024": 30666.43,
+  "passed_older": {
+   "2022": 0,
+   "2024": 30666.43
+  }
  },
  "rosie-pino": {
   "race": "U.S. House, District 9",
@@ -142,7 +154,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "lamonica-mciver": {
   "race": "U.S. House, District 10",
@@ -176,7 +192,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "carmen-bucco": {
   "race": "U.S. House, District 10",
@@ -210,7 +230,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "donald-norcross": {
   "race": "U.S. House, District 1",
@@ -310,7 +334,11 @@
   },
   "passed_campaign_report_2026": 128946.0,
   "passed_pac_report_2026": 130572.17,
-  "passed_through_aipac_pac_2022_2024": 135210.93
+  "passed_through_aipac_pac_2022_2024": 135210.93,
+  "passed_older": {
+   "2022": 34330.0,
+   "2024": 100880.93
+  }
  },
  "damon-galdo": {
   "race": "U.S. House, District 1",
@@ -344,7 +372,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "chris-smith": {
   "race": "U.S. House, District 4",
@@ -378,7 +410,11 @@
   },
   "passed_campaign_report_2026": 24800.0,
   "passed_pac_report_2026": 25614.53,
-  "passed_through_aipac_pac_2022_2024": 19199.43
+  "passed_through_aipac_pac_2022_2024": 19199.43,
+  "passed_older": {
+   "2022": 0,
+   "2024": 19199.43
+  }
  },
  "rachel-peace": {
   "race": "U.S. House, District 4",
@@ -412,7 +448,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "zack-mullock": {
   "race": "U.S. House, District 2",
@@ -446,7 +486,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "jeff-van-drew": {
   "race": "U.S. House, District 2",
@@ -480,7 +524,11 @@
   },
   "passed_campaign_report_2026": 23230.0,
   "passed_pac_report_2026": 24790.53,
-  "passed_through_aipac_pac_2022_2024": 31494.43
+  "passed_through_aipac_pac_2022_2024": 31494.43,
+  "passed_older": {
+   "2022": 5800.0,
+   "2024": 25694.43
+  }
  },
  "herb-conaway": {
   "race": "U.S. House, District 3",
@@ -532,7 +580,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 20074.99
+  "passed_through_aipac_pac_2022_2024": 20074.99,
+  "passed_older": {
+   "2022": 0,
+   "2024": 20074.99
+  }
  },
  "michael-mcguire": {
   "race": "U.S. House, District 3",
@@ -566,7 +618,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "adam-hamawy": {
   "race": "U.S. House, District 12",
@@ -600,7 +656,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "gregg-mele": {
   "race": "U.S. House, District 12",
@@ -635,7 +695,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "cory-booker": {
   "race": "U.S. Senate",
@@ -669,7 +733,11 @@
   },
   "passed_campaign_report_2026": 708680.0,
   "passed_pac_report_2026": 697091.21,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "justin-murphy": {
   "race": "U.S. Senate",
@@ -703,7 +771,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "rebecca-bennett": {
   "race": "U.S. House, District 7",
@@ -737,7 +809,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "thomas-kean-jr": {
   "race": "U.S. House, District 7",
@@ -814,7 +890,11 @@
   },
   "passed_campaign_report_2026": 281670.0,
   "passed_pac_report_2026": 351870.56,
-  "passed_through_aipac_pac_2022_2024": 358327.25
+  "passed_through_aipac_pac_2022_2024": 358327.25,
+  "passed_older": {
+   "2022": 0,
+   "2024": 358327.25
+  }
  },
  "josh-gottheimer": {
   "race": "U.S. House, District 5",
@@ -874,7 +954,11 @@
   },
   "passed_campaign_report_2026": 780375.0,
   "passed_pac_report_2026": 800090.17,
-  "passed_through_aipac_pac_2022_2024": 1064651.99
+  "passed_through_aipac_pac_2022_2024": 1064651.99,
+  "passed_older": {
+   "2022": 214115.0,
+   "2024": 850536.99
+  }
  },
  "sean-kirrane": {
   "race": "U.S. House, District 5",
@@ -908,7 +992,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "frank-pallone": {
   "race": "U.S. House, District 6",
@@ -959,7 +1047,11 @@
   },
   "passed_campaign_report_2026": 27720.0,
   "passed_pac_report_2026": 28352.17,
-  "passed_through_aipac_pac_2022_2024": 45598.93
+  "passed_through_aipac_pac_2022_2024": 45598.93,
+  "passed_older": {
+   "2022": 18310.0,
+   "2024": 27288.93
+  }
  },
  "hillary-herzig": {
   "race": "U.S. House, District 6",
@@ -993,7 +1085,11 @@
   },
   "passed_campaign_report_2026": 0,
   "passed_pac_report_2026": 0,
-  "passed_through_aipac_pac_2022_2024": 0
+  "passed_through_aipac_pac_2022_2024": 0,
+  "passed_older": {
+   "2022": 0,
+   "2024": 0
+  }
  },
  "rob-menendez": {
   "race": "U.S. House, District 8",
@@ -1037,7 +1133,11 @@
   },
   "passed_campaign_report_2026": 276697.0,
   "passed_pac_report_2026": 280580.17,
-  "passed_through_aipac_pac_2022_2024": 1357076.43
+  "passed_through_aipac_pac_2022_2024": 1357076.43,
+  "passed_older": {
+   "2022": 42150.0,
+   "2024": 1314926.43
+  }
  },
  "craig-honts": {
   "race": "U.S. House, District 8",

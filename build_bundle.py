@@ -221,7 +221,9 @@ def main():
     F.finalize(races)
     for r in races:
         for c in r["cands"]:
-            R.apply(c, *R.read(INPUTS, c.pop("_file")))
+            person = c.pop("_file")
+            R.apply(c, *R.read(INPUTS, person))
+            R.history(c, INPUTS, person)
             F.only_owners(c)
         # The same order finalize uses, since the owner's rules can change who leads.
         r["cands"] = sorted(r["cands"], key=lambda c: (-(c["score"].get("indep") is not None), -(c["score"]["overall"] if c["score"]["overall"] is not None else -1)))

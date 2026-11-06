@@ -630,6 +630,7 @@ def owner_rules(races):
             continue
         for c in r["cands"]:
             R.apply(c, *R.read(inputs, person_file(people[(r["title"], c["name"])])))
+            R.history(c, inputs, person_file(people[(r["title"], c["name"])]))
         ranked = sorted(r["cands"], key=lambda c: (-(c["score"].get("indep") is not None), -(c["score"]["overall"] if c["score"]["overall"] is not None else -1)))
         for i, c in enumerate(ranked):
             c["rank"] = i + 1 if c["score"]["overall"] is not None else None

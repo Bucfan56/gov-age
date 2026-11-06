@@ -147,6 +147,14 @@ def read(inputs, file_name):
     return combine(rule, weighed), answered, owner
 
 
+def history(card, inputs, file_name):
+    """The year-by-year money view (ballot/money_history.py). Shown only: nothing here moves a score."""
+    f = inputs / "money_history.json"
+    h = json.loads(f.read_text(encoding="utf-8")).get(file_name) if f.exists() else None
+    if h:
+        card["money_history"] = h
+
+
 def score_foreign(card):
     return (card.get("score") or {}).get("foreign")
 

@@ -1,0 +1,893 @@
+{
+ "tommy-tuberville": {
+  "ids": [
+   "S0AL00230"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 726222,
+    "spent": 1209139,
+    "people": 366858,
+    "pacs": 127500,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2024,
+    "raised": 2191049,
+    "spent": 1794130,
+    "people": 1847628,
+    "pacs": 324300,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2022,
+    "raised": 1077554,
+    "spent": 1115623,
+    "people": 794815,
+    "pacs": 232850,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2020,
+    "raised": 9605815,
+    "spent": 9432335,
+    "people": 7699667,
+    "pacs": 777079,
+    "own": 1000000,
+    "party": 47350
+   }
+  ]
+ },
+ "shomari-figures": {
+  "ids": [
+   "H4AL02170"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 2706098,
+    "spent": 1531518,
+    "people": 1114009,
+    "pacs": 1133336,
+    "own": 0,
+    "party": 5000,
+    "aipac": {
+     "gifts": 0,
+     "passed": 500,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2024,
+    "raised": 2628629,
+    "spent": 2605520,
+    "people": 1875364,
+    "pacs": 613861,
+    "own": 28485,
+    "party": 5426,
+    "aipac": {
+     "gifts": 5000,
+     "passed": 41335,
+     "for": 0,
+     "against": 0
+    }
+   }
+  ]
+ },
+ "rhett-marques": {
+  "ids": [
+   "H6AL01086"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 1716374,
+    "spent": 1538317,
+    "people": 1390905,
+    "pacs": 305469,
+    "own": 0,
+    "party": 0
+   }
+  ]
+ },
+ "robert-aderholt": {
+  "ids": [
+   "H6AL04098"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 1238586,
+    "spent": 1485771,
+    "people": 625403,
+    "pacs": 465498,
+    "own": 0,
+    "party": 610,
+    "aipac": {
+     "gifts": 10000,
+     "passed": 2251,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2024,
+    "raised": 1499912,
+    "spent": 1692461,
+    "people": 635352,
+    "pacs": 795500,
+    "own": 0,
+    "party": 0,
+    "aipac": {
+     "gifts": 10000,
+     "passed": 17544,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2022,
+    "raised": 1540807,
+    "spent": 1028366,
+    "people": 845701,
+    "pacs": 684684,
+    "own": 0,
+    "party": 0,
+    "aipac": {
+     "gifts": 7900,
+     "passed": 52667,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2020,
+    "raised": 1283402,
+    "spent": 1352138,
+    "people": 541122,
+    "pacs": 739300,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2018,
+    "raised": 1550531,
+    "spent": 1300365,
+    "people": 468336,
+    "pacs": 1066544,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2016,
+    "raised": 1441036,
+    "spent": 1394461,
+    "people": 484208,
+    "pacs": 953802,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2014,
+    "raised": 1175937,
+    "spent": 909881,
+    "people": 419785,
+    "pacs": 754329,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2012,
+    "raised": 1247169,
+    "spent": 1140897,
+    "people": 534735,
+    "pacs": 611000,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2010,
+    "raised": 828588,
+    "spent": 969814,
+    "people": 389321,
+    "pacs": 277995,
+    "own": 0,
+    "party": 262
+   },
+   {
+    "y": 2008,
+    "raised": 666975,
+    "spent": 688870,
+    "people": 281812,
+    "pacs": 269299,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2006,
+    "raised": 715804,
+    "spent": 622255,
+    "people": 418920,
+    "pacs": 291600,
+    "own": 0,
+    "party": 1316
+   },
+   {
+    "y": 2004,
+    "raised": 748914,
+    "spent": 735358,
+    "people": 405914,
+    "pacs": 255700,
+    "own": 0,
+    "party": 18
+   },
+   {
+    "y": 2002,
+    "raised": 712483,
+    "spent": 662599,
+    "people": 352550,
+    "pacs": 271713,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2000,
+    "raised": 1739251,
+    "spent": 1683278,
+    "people": 820886,
+    "pacs": 646969,
+    "own": 200000,
+    "party": 24423
+   },
+   {
+    "y": 1998,
+    "raised": 1638268,
+    "spent": 1605092,
+    "people": 820486,
+    "pacs": 657850,
+    "own": 125000,
+    "party": 22624
+   },
+   {
+    "y": 1996,
+    "raised": 779046,
+    "spent": 763117,
+    "people": 434945,
+    "pacs": 176566,
+    "own": 147195,
+    "party": 20000
+   }
+  ]
+ },
+ "amanda-pusczek": {
+  "ids": [
+   "H6AL05228"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 22283,
+    "spent": 19340,
+    "people": 22154,
+    "pacs": 0,
+    "own": 0,
+    "party": 0
+   }
+  ]
+ },
+ "barry-moore": {
+  "ids": [
+   "H8AL02171",
+   "S6AL00476"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 8425839,
+    "spent": 7926869,
+    "people": 5465272,
+    "pacs": 1993696,
+    "own": 100000,
+    "party": 0,
+    "aipac": {
+     "gifts": 0,
+     "passed": 513,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2024,
+    "raised": 1130187,
+    "spent": 1467853,
+    "people": 649617,
+    "pacs": 389497,
+    "own": 20000,
+    "party": 0,
+    "aipac": {
+     "gifts": 5000,
+     "passed": 2510,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2022,
+    "raised": 891776,
+    "spent": 430418,
+    "people": 524421,
+    "pacs": 343389,
+    "own": 0,
+    "party": 0,
+    "aipac": {
+     "gifts": 7900,
+     "passed": 14250,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2020,
+    "raised": 837716,
+    "spent": 836277,
+    "people": 408536,
+    "pacs": 230282,
+    "own": 190900,
+    "party": 7998
+   },
+   {
+    "y": 2018,
+    "raised": 154582,
+    "spent": 149655,
+    "people": 78382,
+    "pacs": 250,
+    "own": 75950,
+    "party": 0
+   }
+  ]
+ },
+ "everett-wess": {
+  "ids": [
+   "S6AL00518"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 128570,
+    "spent": 118027,
+    "people": 57927,
+    "pacs": 0,
+    "own": 70643,
+    "party": 0
+   }
+  ]
+ },
+ "gary-palmer": {
+  "ids": [
+   "H4AL06098"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 1154753,
+    "spent": 1233610,
+    "people": 588818,
+    "pacs": 526500,
+    "own": 0,
+    "party": 0,
+    "aipac": {
+     "gifts": 10000,
+     "passed": 589,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2024,
+    "raised": 1728601,
+    "spent": 2021428,
+    "people": 1046435,
+    "pacs": 596510,
+    "own": 0,
+    "party": 0,
+    "aipac": {
+     "gifts": 10000,
+     "passed": 28277,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2022,
+    "raised": 1278903,
+    "spent": 1203525,
+    "people": 686962,
+    "pacs": 410795,
+    "own": 0,
+    "party": 100,
+    "aipac": {
+     "gifts": 7900,
+     "passed": 27250,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2020,
+    "raised": 919678,
+    "spent": 921542,
+    "people": 469170,
+    "pacs": 397600,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2018,
+    "raised": 1216731,
+    "spent": 1496360,
+    "people": 298279,
+    "pacs": 312293,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2016,
+    "raised": 1232446,
+    "spent": 769978,
+    "people": 931341,
+    "pacs": 285264,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2014,
+    "raised": 1880022,
+    "spent": 1690309,
+    "people": 1618984,
+    "pacs": 260300,
+    "own": 0,
+    "party": 0
+   }
+  ]
+ },
+ "maurice-mercer": {
+  "ids": [
+   "H6AL06184"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 34751,
+    "spent": 20565,
+    "people": 22777,
+    "pacs": 5300,
+    "own": 3590,
+    "party": 125
+   }
+  ]
+ },
+ "jerry-carl": {
+  "ids": [
+   "H0AL01055"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 1452254,
+    "spent": 1353458,
+    "people": 739241,
+    "pacs": 527559,
+    "own": 0,
+    "party": 0,
+    "aipac": {
+     "gifts": 10000,
+     "passed": 52750,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2024,
+    "raised": 2246839,
+    "spent": 2631447,
+    "people": 1063039,
+    "pacs": 634500,
+    "own": 0,
+    "party": 0,
+    "aipac": {
+     "gifts": 5000,
+     "passed": 35820,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2022,
+    "raised": 1313719,
+    "spent": 971793,
+    "people": 532389,
+    "pacs": 499500,
+    "own": 0,
+    "party": 0,
+    "aipac": {
+     "gifts": 10000,
+     "passed": 2250,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2020,
+    "raised": 2344517,
+    "spent": 2232544,
+    "people": 1044196,
+    "pacs": 387000,
+    "own": 760556,
+    "party": 5000
+   }
+  ]
+ },
+ "clyde-jones": {
+  "ids": [
+   "H6AL01094"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 198018,
+    "spent": 191992,
+    "people": 184952,
+    "pacs": 13000,
+    "own": 0,
+    "party": 0
+   }
+  ]
+ },
+ "mike-rogers": {
+  "ids": [
+   "H2AL03032"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 2521576,
+    "spent": 1736267,
+    "people": 1590747,
+    "pacs": 875204,
+    "own": 0,
+    "party": 14000,
+    "aipac": {
+     "gifts": 10000,
+     "passed": 436240,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2024,
+    "raised": 2931556,
+    "spent": 2037557,
+    "people": 1640962,
+    "pacs": 1080897,
+    "own": 0,
+    "party": 14000,
+    "aipac": {
+     "gifts": 10000,
+     "passed": 506823,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2022,
+    "raised": 2262995,
+    "spent": 1737894,
+    "people": 1170065,
+    "pacs": 1012390,
+    "own": 0,
+    "party": 19869,
+    "aipac": {
+     "gifts": 7900,
+     "passed": 54285,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2020,
+    "raised": 1202888,
+    "spent": 1228340,
+    "people": 443369,
+    "pacs": 744734,
+    "own": 0,
+    "party": 8000
+   },
+   {
+    "y": 2018,
+    "raised": 1350417,
+    "spent": 1348278,
+    "people": 530372,
+    "pacs": 802220,
+    "own": 0,
+    "party": 12750
+   },
+   {
+    "y": 2016,
+    "raised": 1139022,
+    "spent": 1071289,
+    "people": 459627,
+    "pacs": 660800,
+    "own": 0,
+    "party": 14850
+   },
+   {
+    "y": 2014,
+    "raised": 1107197,
+    "spent": 941432,
+    "people": 504512,
+    "pacs": 585340,
+    "own": 0,
+    "party": 7600
+   },
+   {
+    "y": 2012,
+    "raised": 1069891,
+    "spent": 982102,
+    "people": 474561,
+    "pacs": 588500,
+    "own": 0,
+    "party": 2700
+   },
+   {
+    "y": 2010,
+    "raised": 1141732,
+    "spent": 979491,
+    "people": 651810,
+    "pacs": 469250,
+    "own": 0,
+    "party": 6055
+   },
+   {
+    "y": 2008,
+    "raised": 1480939,
+    "spent": 2056919,
+    "people": 829594,
+    "pacs": 517440,
+    "own": 35000,
+    "party": 17300
+   },
+   {
+    "y": 2006,
+    "raised": 1435196,
+    "spent": 1046770,
+    "people": 709780,
+    "pacs": 590882,
+    "own": 0,
+    "party": 40476
+   },
+   {
+    "y": 2004,
+    "raised": 2121838,
+    "spent": 1893594,
+    "people": 1194102,
+    "pacs": 818568,
+    "own": 0,
+    "party": 75460
+   },
+   {
+    "y": 2002,
+    "raised": 1656293,
+    "spent": 1638148,
+    "people": 634928,
+    "pacs": 767268,
+    "own": 125000,
+    "party": 128650
+   }
+  ]
+ },
+ "lee-mcinnis": {
+  "ids": [
+   "H6AL03199"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 62982,
+    "spent": 28983,
+    "people": 62982,
+    "pacs": 0,
+    "own": 0,
+    "party": 0
+   }
+  ]
+ },
+ "dale-strong": {
+  "ids": [
+   "H2AL05102"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 1775618,
+    "spent": 1350424,
+    "people": 868574,
+    "pacs": 745170,
+    "own": 0,
+    "party": 0,
+    "aipac": {
+     "gifts": 10000,
+     "passed": 10845,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2024,
+    "raised": 1301231,
+    "spent": 691299,
+    "people": 654265,
+    "pacs": 575750,
+    "own": 0,
+    "party": 0,
+    "aipac": {
+     "gifts": 10000,
+     "passed": 11779,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2022,
+    "raised": 1994354,
+    "spent": 1975308,
+    "people": 1393770,
+    "pacs": 360000,
+    "own": 240000,
+    "party": 0,
+    "aipac": {
+     "gifts": 10000,
+     "passed": 5000,
+     "for": 0,
+     "against": 0
+    }
+   }
+  ]
+ },
+ "andrew-sneed": {
+  "ids": [
+   "H6AL05244"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 917290,
+    "spent": 669483,
+    "people": 876444,
+    "pacs": 14850,
+    "own": 20000,
+    "party": 0
+   }
+  ]
+ },
+ "terri-sewell": {
+  "ids": [
+   "H0AL07086"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 2260894,
+    "spent": 2380421,
+    "people": 447444,
+    "pacs": 1811250,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2024,
+    "raised": 3036771,
+    "spent": 2462142,
+    "people": 972897,
+    "pacs": 2063874,
+    "own": 0,
+    "party": 0,
+    "aipac": {
+     "gifts": 17550,
+     "passed": 26952,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2022,
+    "raised": 2359061,
+    "spent": 1706609,
+    "people": 666127,
+    "pacs": 1679748,
+    "own": 0,
+    "party": 0,
+    "aipac": {
+     "gifts": 7900,
+     "passed": 13650,
+     "for": 0,
+     "against": 0
+    }
+   },
+   {
+    "y": 2020,
+    "raised": 2171040,
+    "spent": 1498832,
+    "people": 407562,
+    "pacs": 1760803,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2018,
+    "raised": 1785099,
+    "spent": 1178352,
+    "people": 329728,
+    "pacs": 1453046,
+    "own": 0,
+    "party": 88
+   },
+   {
+    "y": 2016,
+    "raised": 1630080,
+    "spent": 1087018,
+    "people": 363610,
+    "pacs": 1263095,
+    "own": 0,
+    "party": 0
+   },
+   {
+    "y": 2014,
+    "raised": 1511863,
+    "spent": 1468013,
+    "people": 434076,
+    "pacs": 1076075,
+    "own": 0,
+    "party": 1000
+   },
+   {
+    "y": 2012,
+    "raised": 1205400,
+    "spent": 863804,
+    "people": 504236,
+    "pacs": 695969,
+    "own": 0,
+    "party": 1000
+   },
+   {
+    "y": 2010,
+    "raised": 1802833,
+    "spent": 1766658,
+    "people": 1381889,
+    "pacs": 357855,
+    "own": 63000,
+    "party": 0
+   }
+  ]
+ },
+ "ammie-akin": {
+  "ids": [
+   "H6AL07208"
+  ],
+  "periods": [
+   {
+    "y": 2026,
+    "raised": 270462,
+    "spent": 236489,
+    "people": 162462,
+    "pacs": 8000,
+    "own": 100000,
+    "party": 0
+   }
+  ]
+ }
+}

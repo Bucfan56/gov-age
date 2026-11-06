@@ -139,6 +139,10 @@ details ul{margin:0;padding-left:18px}details li{margin:7px 0;font-size:14px}
 table.t{width:100%;border-collapse:collapse;font-size:13.5px}
 table.t td{padding:6px 4px;border-bottom:1px solid var(--line);vertical-align:top}
 table.t td.r{text-align:right;white-space:nowrap;font-weight:700}
+.hrow{padding:9px 0;border-bottom:1px solid var(--line)}.hrow:last-of-type{border-bottom:0}
+.hhead{display:flex;justify-content:space-between;gap:10px;font-weight:700}
+.htrack{height:7px;border-radius:4px;background:var(--chip);margin:5px 0;overflow:hidden}.htrack i{display:block;height:100%;border-radius:4px;background:var(--accent)}
+.haipac{margin-top:4px;padding:5px 8px;border-radius:8px;background:var(--amber-bg);color:var(--ink);font-size:12.5px;line-height:1.4}
 .own{background:var(--amber-bg);border:2px dashed var(--amber);border-radius:14px;padding:12px 14px;margin:10px 0}
 .own h4{margin:0 0 4px;color:var(--amber)}
 .own .it{margin:10px 0 0;font-size:14px}
@@ -1006,6 +1010,26 @@ function list(title, arr, fmt, open) {
 }
 const li = x => `<li>${esc(x.text)}${link(x.url)}</li>`;
 
+// Every two-year period of a federal candidate's money. Shown only: it never moves a score.
+function moneyHistory(h) {
+  const ps = (h || {}).periods || [];
+  if (!ps.length) return "";
+  const most = Math.max(...ps.map(p => p.raised || 0), 1), total = ps.reduce((n, p) => n + (p.raised || 0), 0);
+  const label = y => `${y - 1}-${String(y).slice(2)}`;
+  const bit = (name, v) => v ? `${name} ${usd(v)}` : "";
+  const aipac = (p) => {
+    const a = p.aipac;
+    if (!a) return "";
+    const bits = [a.gifts ? `AIPAC's PAC gave ${usd(a.gifts)}` : "", a.passed ? `${usd(a.passed)} from individuals passed through it${p.y < 2026 ? " (not counted in the score)" : ""}` : "",
+      a.for ? `its super PAC spent ${usd(a.for)} to help` : "", a.against ? `its super PAC spent ${usd(a.against)} to oppose` : ""].filter(Boolean);
+    return `<div class="haipac">${bits.join(" · ")}</div>`;
+  };
+  const rows = ps.map(p => `<div class="hrow"><div class="hhead"><span>${label(p.y)}</span><span>${usd(p.raised || 0)}</span></div><div class="htrack"><i style="width:${Math.round(100 * (p.raised || 0) / most)}%"></i></div><div class="mini muted">${[bit("People", p.people), bit("PACs", p.pacs), bit("Party", p.party), bit("Their own money", p.own)].filter(Boolean).join(" · ") || "No breakdown filed"}</div>${aipac(p)}</div>`).join("");
+  const since = label(ps[ps.length - 1].y).slice(0, 4);
+  const lead = ps.length > 1 ? `<b>${usd(total)}</b> raised in ${ps.length} two-year periods since ${since}.` : "Their only federal money on file so far.";
+  return `<details open><summary>📅 Money over the years</summary><p class="mini" style="margin:2px 0 6px">${lead}</p>${rows}<p class="mini muted" style="margin-top:8px">Federal races only, as filed with the FEC, and it can include transfers between their own committees. This view doesn't change the score, which counts AIPAC's PAC gifts and super PAC spending since they began in 2021-22, and money passed through that PAC only from 2025-26.${link("https://www.fec.gov/data/candidate/" + h.ids[h.ids.length - 1] + "/")}</p></details>`;
+}
+
 function profile(r, c) {
   const s = c.score, m = c.money || {}, b = band(s.overall);
   const T = rows => `<table class="t">${rows.map(t => `<tr><td>${esc(t[0])}${t[2] ? `<div class="mini muted">${esc(t[2])}</div>` : ""}</td><td class="r">${usd(+t[1])}</td></tr>`).join("")}</table>`;
@@ -1029,7 +1053,7 @@ function profile(r, c) {
   if ((m.outside || []).length) mh += `<p class="mini" style="margin-top:12px"><b>Outside groups</b></p><table class="t">${m.outside.map(o => `<tr><td>${esc(o[0])}</td><td>${o[1] === "S" ? "to help" : "to hurt"}</td><td class="r">${usd(+o[2])}</td></tr>`).join("")}</table>`;
   if (m.note) mh += `<p class="mini muted" style="margin-top:10px">${esc(m.note)}</p>`;
   if (m.source) mh += `<p class="mini muted">${esc(m.source)}${link(m.source_url)}</p>`;
-  h += `<details open><summary>💵 Money</summary>${mh}</details>`;
+  h += `<details open><summary>💵 Money</summary>${mh}</details>` + moneyHistory(c.money_history);
   h += list("💬 Money in the news", c.money_notes, li);
   h += list("⚠ Cases, complaints & controversies", c.controversies, x => `<li>${stTag(x)}${esc(x.text)}${link(x.url)}</li>`);
   h += list("🗽 Foreign ties", c.foreign_ties, li);

@@ -95,6 +95,7 @@ def merge(live, states):
             a["passed_pac_report_2026"] = side("earmark", 2026)
             a["passed_through_aipac_pac_2026"] = max(campaign, a["passed_pac_report_2026"])
             a["passed_through_aipac_pac_2022_2024"] = round(side("earmark", 2022) + side("earmark", 2024), 2)
+            a["passed_older"] = {"2022": side("earmark", 2022), "2024": side("earmark", 2024)}    # shown on the card's money history, never counted
             for c in CYCLES:
                 a["aipac_pac_gifts"][str(c)] = side("direct", c)
                 a["udp_spent_for"][str(c)] = spent("for", c)
