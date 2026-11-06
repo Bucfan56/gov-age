@@ -1,0 +1,35 @@
+{
+ "name": "Chris Kluwe",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On Feb. 18, 2025, Kluwe spoke at a Huntington Beach council meeting against a library plaque with a MAGA acrostic. He said he would engage in \"peaceful civil disobedience,\" walked up toward council members, and police arrested and carried him out. Edison High then fired him as a coach. He said the school cited too much attention.",
+   "why": "This was his own protest, undisputed in reporting, but it is a political protest with no finding of wrongdoing and no clear bearing on any criterion, and the outcome of the charge is unknown.",
+   "strength": "reporting",
+   "urls": [
+    "https://abc7.com/post/former-nfl-player-chris-kluwe-fired-arrest-protesting-huntington-beach-librarys-maga-plaque/15964279/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In 2014 Kluwe said the Vikings cut him over his support for gay marriage and that a coach made anti-gay remarks. A team-commissioned report found no merit to the wrongful-dismissal claim but confirmed the coach made anti-gay remarks, and the coach was suspended three games. The two sides settled in August 2014. Kluwe said he got no money.",
+   "why": "Kluwe was the complainant in an employment dispute, and the matter shows no misconduct by him bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.foxsports.com/stories/nfl/former-punter-kluwe-vikings-reach-settlement-to-avert-lawsuit",
+    "https://deadspin.com/vikings-release-results-of-kluwe-investigation-suspend-1607568647/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) The outcome of the Huntington Beach charge (court date was reported as April 16, 2025) was not found. Dismissal, plea or conviction could change the verdict on item 1. The 10news page body did not load when opened, so the misdemeanor charge is not stated in the text. The charge is only in search snippets from several outlets. 2) Kluwe later sued the school district over his firing. A Daily Journal opinion piece mentions it, but I did not read the filings. 3) The search on the owner's named sites (Alex Jones, Stew Peters, Ryan Dawson, Infowars) found nothing about Kluwe. 4) The Voice of OC reported Kluwe trailing narrowly on election night, Nov. 2026, and said his campaign was heavily financed by the California Democratic Party. I did not read that article, and donations are not treated as findings. 5) Item 2's 2014 report was a Vikings-commissioned summary, and Kluwe disputed parts of it."
+}

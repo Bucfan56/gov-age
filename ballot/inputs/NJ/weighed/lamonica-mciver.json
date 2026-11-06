@@ -1,0 +1,36 @@
+{
+ "name": "LaMonica McIver",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "On May 9, 2025, federal agents moved to arrest Newark Mayor Ras Baraka outside Delaney Hall during her oversight visit. McIver was indicted on three counts of assaulting or impeding federal officers. She pleaded not guilty and calls the case political intimidation. In August 2026 a Third Circuit panel, 2-1, let two counts proceed and sent the third back to the lower court. No verdict yet.",
+   "why": "A serious charge about her own conduct while acting as a member of Congress (criterion 6), still undecided, so it doesn't count yet.",
+   "strength": "court",
+   "urls": [
+    "https://www.justice.gov/usao-nj/pr/congresswoman-charged-forcibly-impeding-and-interfering-federal-officers",
+    "https://newjerseymonitor.com/briefs/judge-lamonica-mciver-assault-charge/",
+    "https://www.njspotlightnews.org/2026/08/mciver-loses-bid-to-dismiss-charges-in-delaney-hall-scrum-with-ice/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Ballotpedia repeats the same charge covered in item 1. It adds that charges against Mayor Baraka, arrested at the same visit, were dropped on May 19, 2025. That dropped case is someone else's, and it is not new conduct by McIver.",
+   "why": "It duplicates item 1, and the dropped charges against Baraka are another person's matter, so it says nothing new about McIver's own conduct.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.njspotlightnews.org/2026/08/mciver-loses-bid-to-dismiss-charges-in-delaney-hall-scrum-with-ice/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I never opened the Ballotpedia page; item 2 rests on news reports that the Baraka charges were dropped. I did not read the Third Circuit opinion or the district court opinions directly. I relied on NJ Spotlight, The Hill and Courthouse News snippets, and the New Jersey Monitor summary of Judge Semper's ruling. That ruling says video showed McIver made first contact with the officer in count two. The 2-1 split matters: the dissent would have gone further on Speech or Debate, and count three was sent back to the district court. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about McIver from those sites. Criterion 6 is an imperfect fit for an assault charge from an official visit, so a person should decide whether it belongs there. Attendance is strong (3 of 676 missed), so criterion 5 isn't triggered. Nothing was searched on foreign ties, donors or her career. Also check whether she appeals further (full Third Circuit or Supreme Court) and whether a trial date is set."
+}

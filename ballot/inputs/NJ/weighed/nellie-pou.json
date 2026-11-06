@@ -1,0 +1,22 @@
+{
+ "name": "Nellie Pou",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 2,
+   "text": "In August 2025 Pou joined a congressional trip to Israel paid for by an affiliate of AIPAC, a pro-Israel lobbying group. Her office said members must be \"in the room where decisions are made,\" and she says she pressed for aid and a two-state solution. She declined to rule out future AIPAC support.",
+   "why": "Held: one rule now covers every candidate's AIPAC gifts and trips from official records (form note_9428), so this one entry doesn't count on its own.",
+   "strength": "reporting",
+   "urls": [
+    "https://newjerseymonitor.com/2025/08/26/first-term-nj-congresswoman-facing-intensifying-attacks-from-both-sides/",
+    "https://newjerseyglobe.com/congress/nellie-pous-tricky-balance-on-israel-and-palestine/"
+   ],
+   "owner_sites": [],
+   "check": [],
+   "edited": "by the seat: owner's picks on form note_9360"
+  }
+ ],
+ "for_review": "The Republican criticism in the Wikipedia summary (votes against GOP spending bills, opposition to Trump's immigration policies) is ordinary votes and opposition attacks, so I left it out. The trip sponsor is an AIPAC affiliate, which is a US group and not a foreign government. I did not read the House travel disclosure or ethics approval for the trip, so check those and the exact sponsor. Critics (CAIR-NJ, AMP-NJ) also said she was away during the Paterson water crisis. Pou called that criticism \"nonsense\" and said her office stayed in constant contact with officials. I did not weigh that as its own item. A search for her name with the owner's sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing relevant. Her attendance record is perfect (0 of 676 votes missed). Her stated willingness to keep taking AIPAC support is relevant to the clean-money platform plank, which the platform score already covers."
+}

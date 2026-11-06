@@ -1,0 +1,22 @@
+{
+ "name": "Kelvin J Lawrence",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In July 2024, Lawrence was arrested and indicted on two felony counts: second-degree forgery and possessing a forged instrument. The indictment alleges he falsified a builder's license with intent to defraud. He pleaded not guilty on July 26, 2024. The most recent report found (January 2025) still showed the case pending. No verdict was found.",
+   "why": "A serious unresolved charge of forging a license, which bears on abuse of office or dishonesty (criterion 6), is pending with no court finding, so it is shown but doesn't count.",
+   "strength": "reporting",
+   "urls": [
+    "https://aldailynews.com/two-alabama-lawmakers-head-into-legislative-session-with-pending-criminal-cases/",
+    "https://1819news.com/news/item/state-rep-kelvin-lawrence-pleads-not-guilty-to-forgery-charges",
+    "https://ballotpedia.org/Kelvin_Lawrence"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Check the current status of the Lowndes County case (45-CC-2024-000101). Wikipedia's 'List of 2020s American state and local politicians convicted of crimes' lists Lawrence as 'convicted of forgery'. I found no news report or court record backing that. His Wikipedia page doesn't say it either, and Ballotpedia (read Nov 2026) lists him as a sitting member on the Nov 2026 ballot with only the 2024 arrest and not-guilty plea. If a conviction or plea is confirmed in court records, this item would become 'against' (probably weight 3, since it concerns forging a license). I could not reach the indictment PDF or an Alabama court docket. The newest news on the case that I read was from January 2025. The one search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about Lawrence."
+}

@@ -1,0 +1,48 @@
+{
+ "name": "Jimmy Gomez",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "On Aug. 17, 2026, the House Ethics Committee opened an investigation into Gomez over alleged sexual misconduct, including a claim of sexual harassment and assault. Gomez says he did not violate House Ethics rules and that the interactions were consensual. As of Nov. 2, 2026, the investigation was ongoing, with no finding reported.",
+   "why": "This is a serious, undecided accusation about his own conduct in office (criterion 6, abuse of position), so it is shown but does not count until the Ethics Committee decides.",
+   "strength": "reporting",
+   "urls": [
+    "https://ballotpedia.org/Jimmy_Gomez"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "The kiss claim rests on anonymous sources and Gomez's spokesperson denied it. The Post itself noted the aide did not work for him and that House rules generally don't bar consensual relationships with staff a member doesn't supervise. The Ethics inquiry that followed is already covered in item 1. His past co-chairing of Swalwell's campaign is guilt by association, and the Post reported he resigned from it after the allegations surfaced.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.aol.com/articles/rep-jimmy-gomez-member-eric-130000703.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "The alleged anti-Asian remarks came from unnamed canvassers, not from Gomez, and his campaign investigated and removed anyone found to have made such remarks, so this is guilt by association with no conduct of his own bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://laist.com/news/politics/2022-election-california-general-gomez-kim-canvasser-carrillo-porter"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Searched the owner's named sites with Gomez's name and found nothing relevant, so owner_sites is empty. Several pages could not be read. CNN's Aug. 19, 2026 report on the accuser's attorneys' account and NBC's report on the Ethics Committee announcement both returned permission errors. The Ethics Committee's own statement was not opened. The LAist page on the 2022 canvasser matter returned only page navigation, so its body was not read. Only the Ballotpedia and NY Post/AOL pages were read in full, so item 1's text uses only Ballotpedia. Search snippets from other outlets (CBS, Axios, The Hill, WaPo) say Gomez admitted 'personal mistakes outside my marriage', but those pages were not read, so that is left out of the text. Check later for any Ethics Committee finding. Gomez reportedly lost the Nov. 3 general election to Angela Gonzales-Torres, per a Yahoo snippet. That was not verified. Attendance was not weighed, per instructions."
+}

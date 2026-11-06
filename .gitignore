@@ -20,3 +20,9 @@ buddy/worker/site/
 buddy/worker/.wrangler/
 buddy/logos/png/
 buddy/results/data/
+buddy/results/roster/
+buddy/research/pages/
+
+buddy/research/batches/
+
+ballot/inputs/*/state_money.json

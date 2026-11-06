@@ -1,0 +1,64 @@
+{
+ "name": "Heath Flora",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2025 the Sacramento Bee reported that Flora registered to vote at his parents' Modesto property, where a relative's wife lives, while apparently living in Sacramento. That address let him collect tax-free per diem, $42,416 in 2024. No official finding has been reported. Flora has not commented in the stories.",
+   "why": "A serious, undecided accusation of collecting a stipend he may not qualify for, which bears on not taking advantage of the position (criterion 6); no official finding, so it doesn't count yet.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.aol.com/articles/four-takeaways-bee-investigation-assemblymember-120000373.html",
+    "https://stocktonia.org/news/politics/2026/10/21/california-assembly-district-9-flora-adams/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "The Sacramento Bee found Flora spent $606,213 of campaign money in 2024, a large share on travel, lodging and meals. Many Sacramento restaurant and bar charges were labeled \"district meetings\" but fell on weekends or recess, outside his district. The California Post reported state ethics probes. Flora has not commented.",
+   "why": "An undecided accusation that campaign funds were mislabeled or misused, which bears on not taking advantage of the position (criterion 6); no finding has been reported.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.aol.com/articles/four-takeaways-bee-investigation-assemblymember-120000373.html",
+    "https://stocktonia.org/news/politics/2026/10/21/california-assembly-district-9-flora-adams/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In July 2022 a lobbyist for the California Medical Association, Emily Hughes, said publicly that she had an affair with Flora while he sat on the Assembly Health Committee. Flora said he would issue a statement but had not by the time of the report. He didn't say whether he recused himself on medical association bills.",
+   "why": "It is a reported personal matter with no finding of a conflict-of-interest violation and no clear failure of any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.aol.com/california-lawmaker-faces-scandal-lobbyist-165447834.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 4,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Court documents reported by the Sacramento Bee show Flora agreed in June 2023 to pay $2,000 a month in child support. Two months later his ex-wife's lawyer asked the Assembly to withhold his pay for nonpayment. A San Joaquin County court later ordered over $16,000 in past-due support and uncovered healthcare costs.",
+   "why": "The court record is real but it is a private family obligation that doesn't clearly fail any of the listed criteria, so it is shown without counting.",
+   "strength": "court",
+   "urls": [
+    "https://www.aol.com/articles/four-takeaways-bee-investigation-assemblymember-120000373.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Searches for the owner's named sites returned nothing about Flora. The Sacramento Bee's full investigation (sacbee.com article312459502) and the California Post/NY Post story of Aug 3, 2026 were not opened, only the Bee's own four-takeaways summary. The Lodi News-Sentinel piece on his removal as caucus leader was paywalled. Search snippets, which I did not open, say two FPPC investigations exist: one on more than $1.15M in behested payments (opened Oct 2025) and one on possible misuse of campaign funds (March complaint). Check the FPPC enforcement records, and add an open item if they are confirmed. Wikipedia's mention of Las Vegas travel was not confirmed on the pages I read, so I left it out. A Substack post said he co-authored a bill making lawmakers' addresses harder to obtain. I did not verify that. Flora's own responses were not found. The Wikipedia item's claim of a 'formal statement promised in August 2022' is only partly confirmed: the Bee/Modesto Bee piece says he promised a statement and none had come by the time it was written."
+}

@@ -1,0 +1,33 @@
+{
+ "name": "Charles B. Smith Sr",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 2,
+   "criterion": 6,
+   "text": "Local news profiles report that during his first term on the Palmetto city commission, Smith pleaded no contest to a felony charge involving embezzlement and bounced checks tied to his bail bonds business, and the governor removed him from office. He has said he was young and inexperienced in business and accounting. The year isn't given.",
+   "why": "A felony plea over mishandled money, which cost him his office, bears on criterion 6; it came from his private business rather than office duties, so it takes weight 2 as the nearest fit instead of weight 3.",
+   "strength": "reporting",
+   "urls": [
+    "https://thebradentontimes.com/stories/candidate-profile-charles-smith,28615",
+    "https://thebradentontimes.com/stories/candidate-profile-manatee-county-commission-dist-2-charles-smith,17249"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "No conduct is alleged: the searches found no foreign-government, FARA or foreign-agent ties for this person (criterion 2), and any AIPAC-related items are counted in a separate step.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I couldn't open the original court or governor's records. The 2020 Bradenton Times profile links a 2002 Herald-Tribune article about the removal, but that site refused access, so the plea year, the exact charge and any sentence are unverified. The 2015 profile says only 'bounced checks', while the 2020 and later profiles say 'embezzlement and bounced checks'. Someone should pull the Manatee County court file and the governor's executive order. If it shows the charge involved misusing public funds or office, the weight could rise to 3. If the plea was withheld adjudication or reduced, it could drop. A search naming the owner's listed sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about him. I also did not research his county commission record (2014–2018), his 2024 loss to Ballard, his business record or his campaign finance."
+}

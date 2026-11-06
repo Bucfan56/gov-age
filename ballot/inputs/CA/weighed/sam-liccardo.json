@@ -1,0 +1,36 @@
+{
+ "name": "Sam Liccardo",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In February 2017, Liccardo signed a nondisclosure agreement at Google's request, as did nearly 20 San Jose officials. Two nonprofits sued the city over secrecy. In 2019 a judge dismissed the suit. She ruled the city had handed over the documents it needed to. She did not rule on whether the agreements were proper.",
+   "why": "Signing the NDA is on record, but no court or official found wrongdoing by him, so it bears on criterion 6 (abuse of office) without establishing it.",
+   "strength": "reporting",
+   "urls": [
+    "https://sanjosespotlight.com/google-in-san-jose-who-signed-non-disclosure-agreements/",
+    "https://www.sanjoseinside.com/news/judge-dismisss-lawsuit-over-city-of-san-joses-google-deal/",
+    "https://www.cbsnews.com/sanfrancisco/news/google-san-jose-campus-public-records-lawsuit-dismissed/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "against",
+   "weight": 1,
+   "criterion": 6,
+   "text": "Liccardo didn't publicly disclose his joint interest in a downtown condo his wife owned before their 2013 marriage until 2018. He cast two votes in favor of the Google project. He apologized and told KQED, \"I screwed up.\" The city attorney says the law finds no conflict beyond 500 feet. The condo was about a mile away.",
+   "why": "By his own admission he failed to disclose a property interest on time, a minor filing lapse under criterion 6, though the city attorney's distance standard indicates no actual conflict of interest.",
+   "strength": "own_words",
+   "urls": [
+    "https://www.kqed.org/news/11729124/san-jose-mayor-apologizes-for-not-disclosing-condo-near-google-project"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) Item 2: I found no FPPC finding or fine. KQED says Liccardo asked the FPPC to weigh in, and I did not find the outcome. The weight 1 rests on his own admission that he should have disclosed the condo. The 'city attorney concluded no conflict' claim comes from his and the city attorney's distance (500 ft) statements as reported by KQED and NBC, not from a formal written opinion I read. Please check the FPPC outcome and the Form 700 filings (the San Jose Spotlight story says they omitted the condo in 2013-2016). 2) Item 1: the judge did not rule on whether the NDAs were valid, and the plaintiffs' later Brown Act allegations and the deleted closed-session recordings were not resolved in what I read. 3) The owner-site search (Alex Jones, Stew Peters, Ryan Dawson, Infowars) returned nothing about Liccardo. 4) The AIPAC-related and attendance items were not part of these two items. 5) I did not search for other controversies, such as his congressional-era conduct, because the search budget went to these two items."
+}

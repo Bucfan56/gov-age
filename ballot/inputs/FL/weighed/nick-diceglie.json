@@ -1,0 +1,26 @@
+{
+ "name": "Nick DiCeglie",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2022 and 2023, DiCeglie's cousins and co-owners of Solar Sanitation, and the company itself, filed civil suits accusing him of misusing company money for political and personal costs, including a $125,000 loan. He disputes many claims, calls it a family \"business divorce,\" and has agreed to repay some items. In 2023 reports, neither suit was resolved.",
+   "why": "A serious accusation of self-dealing (criterion 6) is still undecided, with no court finding found, so it is shown but does not count.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.tampabay.com/news/florida-politics/2023/05/22/florida-legislature-diceglie-lawsuits-solar-garbage/",
+    "https://floridapolitics.com/archives/613834-nick-diceglie-attorneys-dismiss-accusations-in-new-lawsuit-as-garbage/",
+    "https://www.tbnweekly.com/beaches/article_d6541abe-f8cd-11ed-8776-77cd2bf8fa63.html",
+    "https://patch.com/florida/stpete/business-partners-sue-sen-diceglie-say-he-embezzled-funds-records"
+   ],
+   "owner_sites": [],
+   "check": [
+    "125,000",
+    "business divorce,"
+   ]
+  }
+ ],
+ "for_review": "The outcome of the Pinellas suits (DiNardi v. DiCeglie, 22-00536-CI, and Solar Sanitation v. DiCeglie, 23-006882-CI) was not found; check the Pinellas clerk's docket for a settlement, judgment or dismissal, which would change the verdict. I did not read the Tampa Bay Times article body (paywalled or truncated), so its claims are only from search snippets. I read the Florida Phoenix piece only in snippets. The text rests on the Tampa Bay Times snippet, Florida Politics, TBN Weekly and Patch. The search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) found nothing about DiCeglie. The court filings on Scribd and UniCourt were not opened in full."
+}

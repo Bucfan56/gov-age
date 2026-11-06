@@ -1,0 +1,20 @@
+{
+ "name": "Ron Sparks",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "During his 2002 run for Agriculture Commissioner, Sparks was briefly criticized for appearing in media produced by the department he helped run as assistant commissioner. He answered that the media was time-sensitive and that the then-Commissioner had pulled back from running the department after losing a gubernatorial primary. No official finding is reported.",
+   "why": "The only source I could read is a Wikipedia summary of a 2002 newspaper editorial, which reports no finding or rule violation, so it has no clear bearing on the abuse-of-office criterion.",
+   "strength": "opinion",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Ron_Sparks_(politician)"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I could not read the original. Wikipedia cites it as a Birmingham News editorial, 'Plugging Sparks', from Oct 9, 2002, p. 8A, and that was not reachable. A related Decatur Daily piece (2006) on state-funded pre-election ads would not open. Check whether the ads were paid for with state money, and whether the Alabama Ethics Commission ever reviewed them. The owner-sites search (Alex Jones, Stew Peters, Ryan Dawson, Infowars) returned nothing about this Sparks. I used no searches on the AIPAC or foreign-ties questions, and none of what I read touched them. I found no other items meeting the against or open bar within the search limits."
+}

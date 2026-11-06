@@ -1,0 +1,21 @@
+{
+ "name": "Ro Khanna",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In March 2014, a Republican Party official sued, alleging Khanna's campaign recruited two Republican candidates to split the GOP vote. A judge removed one candidate over invalid petition signatures. NBC Bay Area reported a court found it was not Khanna's doing. His campaign called the suit a \"dirty trick\".",
+   "why": "This was an opponent's allegation about a 2014 campaign (criterion 6, abuse of position) that the court did not support, and the only reasons the judge gave for removing a candidate were petition-signature problems, so no finding of wrongdoing exists.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.huffpost.com/entry/ro-khanna-lawsuit_n_5042163",
+    "https://www.nbcbayarea.com/news/local/south-bay-republican-removed-from-congressional-race/89887/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I did not read the court order or the San Jose Mercury News story. NBC Bay Area cites that story for the finding that Khanna was not at fault. The \"no connection\" wording comes from Wikipedia and is not confirmed by the pages I read. HuffPost says the judge removed Rathore only over invalid signatures. It also reports Wald's suit alleged some petition signers had also signed Khanna's petition, and I found nothing resolving that. The one search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about Khanna or this item. Attendance and AIPAC-related matters are handled in separate steps and were not weighed."
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Jason Brodeur",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2020, independent Jestine Iannotti didn't campaign but drew 5,787 votes in Brodeur's race. Ben Paris, who worked for Brodeur at the Seminole chamber of commerce, was convicted in 2022 over an illegal campaign donation. Joel Greenberg and Iannotti told investigators Brodeur knew of the plan. Brodeur denies it and has faced no legal action.",
+   "why": "Paris's conviction was for his own conduct, and no court or official finding ties Brodeur to wrongdoing (criterion 6), so this is shown without counting.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridapolitics.com/archives/569786-give-up-the-ghost-jason-brodeur-wins-second-term-in-florida-senate/",
+    "https://floodlightnews.org/florida-ghost-candidates-scandal-puts-the-entire-utility-sector-on-trial/",
+    "https://www.clickorlando.com/news/politics/2022/09/02/joel-greenberg-claims-florida-sen-jason-brodeur-knew-of-ghost-candidate-plot-records-show/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) I could not open the Orlando Sentinel transcript of Greenberg's June 2022 FDLE interview, the court record of his later trial testimony, or the FDLE and state attorney files. The ClickOrlando page loaded only partway. The claim that Greenberg and Iannotti said Brodeur knew comes from the Florida Politics article. The Greenberg testimony is described only in the Floodlight article. 2) Brodeur's 'never charged' status comes from the Floodlight article (2024). Search snippets from a Yahoo article on Iannotti's 2024 plea and an Oct 2026 Spokesman-Review/Tampa Bay Times piece said the same, but I could not open them. If Brodeur's 2020 knowledge is ever formally found, re-grade this item. 3) The Greenberg and Iannotti statements are allegations from people with their own legal exposure. Brodeur has denied them. 4) The owner-sites search found nothing from the named sites about Brodeur. It did turn up an Orlando Weekly piece on a 2019 report that his campaign paid about $37K to an Orlando blogger. I did not read it and did not treat it as an item. 5) Unofficial results reported Nov 3-5, 2026 show Brodeur trailing Democrat John Lowndes in SD 10. Check the current status of his candidacy before publishing."
+}

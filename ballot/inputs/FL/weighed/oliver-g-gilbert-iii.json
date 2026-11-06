@@ -1,0 +1,35 @@
+{
+ "name": "Oliver G. Gilbert III",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is a campaign-attack and consistency dispute over an ordinary legislative vote by his rival; the ad came from a PAC \"linked\" to him, and no finding of lying about his own record or other misconduct bearing on any criterion was found.",
+   "strength": "opinion",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Oliver_Gilbert"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "No reporting ties Gilbert to the false texts, and he publicly denounced them, so there is no conduct by him bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.yahoo.com/news/politics/articles/florida-sen-shevrin-jones-target-190355952.html",
+    "https://www.cbsnews.com/miami/news/shevrin-jones-fake-text-district-24-legal-action/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The Florida Politics articles on both items (July 21 and Aug 11, 2026) could not be opened, so I did not read the \"local press criticism\" in item 1 or Equality Florida's specific criticism of Gilbert in item 2. I did not verify Gilbert's 2024 Palm Avenue co-naming vote from a primary record, such as the Miami-Dade commission vote record. I also did not confirm who funded or sent the texts. The one search on the owner's named sites returned nothing about Gilbert. The Hill reports Gilbert won the Nov 2026 general election."
+}

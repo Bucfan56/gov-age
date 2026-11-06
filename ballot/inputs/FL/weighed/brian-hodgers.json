@@ -1,0 +1,22 @@
+{
+ "name": "Brian Hodgers",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 2,
+   "criterion": 6,
+   "text": "Court records show Hodgers was cited in May 1996, at age 23, for selling beer to a minor. He pleaded no contest and adjudication was withheld. In 2025 he said a clerk was cited and he was never arrested. His state license application says he made the sale as a cashier.",
+   "why": "His public account that a clerk was cited and he, as owner, got the citation conflicts with his own signed license application saying he made the sale, which bears on not misrepresenting his record (criterion 6); this fits no weight level exactly, so it takes the medium level for misstating his own record.",
+   "strength": "own_words",
+   "urls": [
+    "https://floridapolitics.com/archives/725988-brian-hodgers-admitted-selling-beer-to-a-minor-in-a-state-application-now-he-says-opponents-want-to-frame-him-as-a-criminal/"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2025"
+   ]
+  }
+ ],
+ "for_review": "I read the Florida Politics report but not the underlying LexisNexis record or the DBPR application, which are only linked there as a Scribd embed. Check the application text yourself. The report says the court record lists a two-day jail sentence, which Hodgers denies. His claim that he was never arrested was not contradicted by anything I read. He may have been both co-owner and the cashier who made the sale, so whether his 'clerk' wording was deliberately misleading is a judgment call. The offense itself is 30 years old and minor. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Hodgers."
+}

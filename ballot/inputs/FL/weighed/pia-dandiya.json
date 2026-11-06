@@ -1,0 +1,20 @@
+{
+ "name": "Pia Dandiya",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 3,
+   "text": "A Tampa super PAC, Stronger America Together, is attacking Dandiya in a mailer and on a website. It says she opposes data centers while owning a stake in a data center business. It also alleges an investment in a Chinese government-owned hedge fund. It cites her federal financial disclosure. These claims are unverified, and no wrongdoing has been found.",
+   "why": "Holding disclosed investments is her own conduct, but I found no finding of wrongdoing or conflict, and the PAC's claims are unverified, so it only touches the big-money criterion as context.",
+   "strength": "opinion",
+   "urls": [
+    "https://piaexposed.com/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I could not open the Floridian Press article or the Florida Politics article. Both failed to load, so I saw them only as search snippets. I could not read Dandiya's federal financial disclosure (#10076291), which the PAC cites. So these are unchecked: the actual holdings, whether the data-center and 'Chinese government-owned hedge fund' holdings are direct or are fund or index exposure, and their size. A Florida Politics snippet carried a response from Dandiya's campaign manager. The campaign says tying her Apple work to data centers doesn't match the facts. Check her full response. The only page I read was the PAC's own site. The search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) found nothing about her. The news results say she won the November 3, 2026 election."
+}

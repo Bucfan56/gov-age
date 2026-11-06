@@ -1,0 +1,712 @@
+{
+ "don-davis": {
+  "race": "U.S. House, District 1",
+  "filing": {
+   "doc": "10078601",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/16/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Board Member",
+    "organization": "United States Air Force Academy Board of Visitors"
+   },
+   {
+    "title": "Member",
+    "organization": "Salvation Army's National Advisory Board"
+   },
+   {
+    "title": "Board Member",
+    "organization": "Greene County Training School/South Greene High School National Alumni Association"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078601.pdf"
+ },
+ "laurie-buckhout": {
+  "race": "U.S. House, District 1",
+  "filing": {
+   "doc": "10073198",
+   "type": "C",
+   "year": "2026",
+   "filed": "1/24/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "BLACKSTONE - BXPE",
+    "code": "PS",
+    "description": "PRIVATE EQUITY",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "STEPSTONE - SPRIM",
+    "code": "PS",
+    "description": "PRIVATE EQUITY",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Morgan Stanley FIN LLC NT LKD 30 (MNFCZ)",
+    "code": "PS",
+    "description": "Morgan Stanley FIN LLC NT LKD 30 (MNFCZ)",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10073198.pdf"
+ },
+ "deborah-k-ross": {
+  "race": "U.S. House, District 2",
+  "filing": {
+   "doc": "10074987",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/11/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074987.pdf"
+ },
+ "eugene-f-douglass": {
+  "race": "U.S. House, District 2",
+  "filing": {
+   "doc": "10076198",
+   "type": "C",
+   "year": "2026",
+   "filed": "4/26/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076198.pdf"
+ },
+ "greg-murphy": {
+  "race": "U.S. House, District 3",
+  "filing": {
+   "doc": "10083062",
+   "type": "A",
+   "year": "2025",
+   "filed": "10/13/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Carolina Lithotripsy/Health Tronics",
+    "code": "OL",
+    "description": "Lithotripsy services",
+    "place": "Greenville/Pitt, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Greenville Facility Investors. LLC",
+    "code": "OL",
+    "description": "Ambulatory service center",
+    "place": "Greenville, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Physicians Owned Pharmacy",
+    "code": "OL",
+    "description": "small medical supply company",
+    "place": "Greenville/Pitt, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10083062.pdf"
+ },
+ "raymond-smith": {
+  "race": "U.S. House, District 3",
+  "filing": {
+   "doc": "10082893",
+   "type": "C",
+   "year": "2026",
+   "filed": "10/1/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "President",
+    "organization": "Smith & Smith Consulting LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082893.pdf"
+ },
+ "valerie-p-foushee": {
+  "race": "U.S. House, District 4",
+  "filing": {
+   "doc": "10076606",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/13/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076606.pdf"
+ },
+ "mahesh-max-ganorkar": {
+  "race": "U.S. House, District 4",
+  "filing": {
+   "doc": "10082913",
+   "type": "C",
+   "year": "2026",
+   "filed": "9/21/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082913.pdf"
+ },
+ "chuck-hubbard": {
+  "race": "U.S. House, District 5",
+  "filing": {
+   "doc": "10076079",
+   "type": "C",
+   "year": "2026",
+   "filed": "4/23/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076079.pdf"
+ },
+ "virginia-foxx": {
+  "race": "U.S. House, District 5",
+  "filing": {
+   "doc": "10076776",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/15/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076776.pdf"
+ },
+ "cyril-jefferson": {
+  "race": "U.S. House, District 6",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "addison-mcdowell": {
+  "race": "U.S. House, District 6",
+  "filing": {
+   "doc": "10074936",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074936.pdf"
+ },
+ "david-rouzer": {
+  "race": "U.S. House, District 7",
+  "filing": {
+   "doc": "10081433",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/6/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081433.pdf"
+ },
+ "kimberly-hardy": {
+  "race": "U.S. House, District 7",
+  "filing": {
+   "doc": "10076382",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/15/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Associate Professor",
+    "organization": "Fayetteville State University"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076382.pdf"
+ },
+ "mark-harris": {
+  "race": "U.S. House, District 8",
+  "filing": {
+   "doc": "10076282",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/14/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "E and V Harris Properties, LLC",
+    "code": "OL",
+    "description": "",
+    "place": "Winston Salem/Forsyth, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "E and V Harris Properties, LLC",
+    "code": "OL",
+    "description": "",
+    "place": "Winston Salem/Forsyth, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "E and V Harris Properties, LLC",
+    "code": "OL",
+    "description": "3923A Robinhood Road Rental Property",
+    "place": "Winston Salem/Forsyth, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Litchfield By the Sea Property",
+    "code": "OL",
+    "description": "Vacation home",
+    "place": "Pawley's Island/Georgetown, SC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Nobel Productions, LLC",
+    "code": "OL",
+    "description": "Partnership that handles sale of books written by spouse.",
+    "place": "Indian Trail/Union County, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Senior Pastor",
+    "organization": "Trinity Baptist Church"
+   },
+   {
+    "title": "Congressman",
+    "organization": "US House of Representatives"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076282.pdf"
+ },
+ "colby-watson": {
+  "race": "U.S. House, District 8",
+  "filing": {
+   "doc": "10073174",
+   "type": "C",
+   "year": "2026",
+   "filed": "1/9/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "President",
+    "organization": "Garnet Contracting LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10073174.pdf"
+ },
+ "richard-n-ojeda-ii": {
+  "race": "U.S. House, District 9",
+  "filing": {
+   "doc": "9116341",
+   "type": "C",
+   "year": "2026",
+   "filed": "9/16/2026"
+  },
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/9116341.pdf"
+ },
+ "richard-hudson": {
+  "race": "U.S. House, District 9",
+  "filing": {
+   "doc": "10081164",
+   "type": "O",
+   "year": "2025",
+   "filed": "6/29/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081164.pdf"
+ },
+ "pat-harrigan": {
+  "race": "U.S. House, District 10",
+  "filing": {
+   "doc": "10081474",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/12/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "3X Global Solutions LLC",
+    "code": "OL",
+    "description": "Closely held company engaged in the inventory and selling of ammunition.",
+    "place": "Connelly Springs, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "3X Management",
+    "code": "OL",
+    "description": "Closely held company that provides management and consulting services to the businesses operating from the Connelly Springs,",
+    "place": "Connelly Springs, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "3X World Tour",
+    "code": "OL",
+    "description": "Closely held company engaged in the management of various inventories. The company is also a registered firearms manufacturer.",
+    "place": "Connelly Springs, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "UnbrandedAR",
+    "code": "OL",
+    "description": "Closely held manufacturing company that operates the website UnBrandedAR.com and sells firearms and firearms components.",
+    "place": "Connelly Springs, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "US Optics",
+    "code": "OL",
+    "description": "",
+    "place": "Connelly Springs, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Victrix USA",
+    "code": "OL",
+    "description": "Closely held company that sells firearms and accessories.",
+    "place": "Connelly Springs, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "ZRO Properties",
+    "code": "OL",
+    "description": "Closely held company that owns and leases manufacturing plant in Connelly Springs, North Carolina.",
+    "place": "Connelly Springs, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "ZRODelta",
+    "code": "OL",
+    "description": "Closely held company that manufactures firearms, firearms components, and ammunition.",
+    "place": "Connelly Springs, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Authorized Representative",
+    "organization": "ZRODelta"
+   },
+   {
+    "title": "Authorized Representative",
+    "organization": "Victrix USA"
+   },
+   {
+    "title": "Authorized Representative",
+    "organization": "3X World Tour"
+   },
+   {
+    "title": "Authorized Representative",
+    "organization": "UnBrandedAR"
+   },
+   {
+    "title": "Authorized Representative",
+    "organization": "3X Management"
+   },
+   {
+    "title": "Authorized Representative",
+    "organization": "3X Global Solutions"
+   },
+   {
+    "title": "Authorized Representative",
+    "organization": "US Optics"
+   },
+   {
+    "title": "Authorized Representative",
+    "organization": "ZRO Properties"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081474.pdf"
+ },
+ "ashley-bell": {
+  "race": "U.S. House, District 10",
+  "filing": {
+   "doc": "9116114",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/15/2026"
+  },
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/9116114.pdf"
+ },
+ "jamie-ager": {
+  "race": "U.S. House, District 11",
+  "filing": {
+   "doc": "10079888",
+   "type": "C",
+   "year": "2026",
+   "filed": "6/15/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Agerondak LLLP",
+    "code": "OL",
+    "description": "Jointly owned family home.",
+    "place": "Lake Placid, NY, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Elspeth M. Clarke LLC",
+    "code": "OL",
+    "description": "Family Property",
+    "place": "Cornelius, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Hickory Nut Gap Meats LLC",
+    "code": "OL",
+    "description": "Meat Company",
+    "place": "Fairview, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Ager Holding LLC",
+    "code": "OL",
+    "description": "Real Estate Holding Company that houses and manages real estate properties.",
+    "place": "Fairview, NC, US",
+    "federal_awards": [
+     {
+      "kind": "grant",
+      "recipient": "AGER HOLDING LLC",
+      "amount": 106098.0,
+      "agency": "Department of Agriculture",
+      "started": "2024-11-12",
+      "award": "CLSS00000088444"
+     }
+    ],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "CEO",
+    "organization": "Hickory Nut Gap Meats LLC"
+   },
+   {
+    "title": "CEO",
+    "organization": "Hickory Nut Gap Farm LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10079888.pdf"
+ },
+ "jennifer-capps-balkcom": {
+  "race": "U.S. House, District 11",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "alma-s-adams": {
+  "race": "U.S. House, District 12",
+  "filing": {
+   "doc": "10077643",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/12/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Board member",
+    "organization": "African American Atelier, Inc."
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077643.pdf"
+ },
+ "jack-codiga": {
+  "race": "U.S. House, District 12",
+  "filing": {
+   "doc": "10082945",
+   "type": "C",
+   "year": "2026",
+   "filed": "9/30/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Principal LifeTime Hybrid 2060 CIT",
+    "code": "PS",
+    "description": "Target date fund in Principal 401k plan",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Schwab Brokerage ⇒ ERX",
+    "code": "PS",
+    "description": "Direxion Daily Energy Bull 2X ETF",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Associate Producer",
+    "organization": "Medalist Capital"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082945.pdf"
+ },
+ "paul-barringer": {
+  "race": "U.S. House, District 13",
+  "filing": {
+   "doc": "10083057",
+   "type": "A",
+   "year": "2026",
+   "filed": "10/13/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Sapona Mills",
+    "code": "PS",
+    "description": "limited ownership interest in entity owning defunct family business property",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Principal",
+    "organization": "Mill & Mountain, Inc"
+   },
+   {
+    "title": "Board Member",
+    "organization": "Railroad House Historical Association"
+   },
+   {
+    "title": "VP",
+    "organization": "Sapona Mills, Inc"
+   },
+   {
+    "title": "Principal",
+    "organization": "Enterprise Support Partners LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10083057.pdf"
+ },
+ "brad-knott": {
+  "race": "U.S. House, District 13",
+  "filing": {
+   "doc": "10081536",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/12/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "J Blaine LLC",
+    "code": "OL",
+    "description": "",
+    "place": "Raleigh, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081536.pdf"
+ },
+ "lakesha-womack": {
+  "race": "U.S. House, District 14",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "tim-moore": {
+  "race": "U.S. House, District 14",
+  "filing": {
+   "doc": "10075481",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/14/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Tim Moore, Attorney at Law, P.A.",
+    "code": "OL",
+    "description": "",
+    "place": "Kings Mountain/Cleveland, NC, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Speaker of the North Carolina House",
+    "organization": "NC General Assembly"
+   },
+   {
+    "title": "County Attorney",
+    "organization": "Cleveland County Commission"
+   },
+   {
+    "title": "Ex-officio member",
+    "organization": "North Carolina Capital Planning Commission"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075481.pdf"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "name": "Tommy Tuberville",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Seven investors sued Tuberville and his partner John David Stroud over more than $1.7 million lost in a hedge fund. Tuberville's attorneys denied the allegations, and he settled in 2013 on undisclosed terms. Stroud pleaded guilty to securities fraud. Tuberville was not charged. Alabama's securities director said Stroud also conned Tuberville.",
+   "why": "Court-approved settlement with no admission and no charge or finding of wrongdoing against Tuberville, and state regulators said he was also a victim, so it has no clear bearing on a criterion such as self-dealing.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.espn.com/college-football/story/_/id/9802684/cincinnati-bearcats-coach-tommy-tuberville-settles-fraud-lawsuit",
+    "https://news.yahoo.com/tuberville-dealings-failed-hedge-fund-211235345.html"
+   ],
+   "owner_sites": [],
+   "check": [
+    "1.7"
+   ]
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Tax records show the Tommy Tuberville Foundation, which Tuberville started in 2014 to help veterans, raised $289,599 over five years and spent $51,658 on charitable causes. Foundation officials said the filings don't reflect volunteer labor and donated materials used on veterans' homes. His campaign called the criticism an unfair standard.",
+   "why": "The spending figures are documented in tax filings, but no agency or court found abuse, self-dealing or misuse, so it does not reach the against bar under criterion 6.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.alreporter.com/2020/11/02/tommy-tubervilles-charity-for-veterans-spent-little-on-vets-tax-records-show/",
+    "https://news.yahoo.com/tuberville-dealings-failed-hedge-fund-211235345.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is a floor vote on certifying electoral votes, an ordinary legislative vote the platform score already covers, and it involves no abuse of office or self-dealing.",
+   "strength": "official",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 4,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is a rhetorical remark in a podcast interview, an opinion-type moment with no conduct bearing on any of the owner's criteria.",
+   "strength": "own_words",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Items 3 and 4 were not opened: item 3 (Ballotpedia and the Senate roll calls) and item 4 (the al.com original and the ms.now page, which failed to load). I judged them from the item descriptions and search snippets. The Washington Post and New York Times foundation reports and the 2023 audit/pause statement were not opened, so they are left out of the text. Possible new item: Tuberville's 2020 pledge to give his Senate salary to veterans. Raw Story, citing a Lagniappe investigation, says no record shows he did, and that he appeared to blame tax requirements on Oct. 15, 2026. That is secondhand reporting, and neither the Lagniappe nor the Post/AL.com original was read. If his own words and records show he broke the pledge, it could count as lying about his record (weight 2). The owner-site search found only an Oct. 2025 Infowars interview with Alex Jones that is not about these items, so owner_sites is empty. Tuberville was elected governor on Nov. 3, 2026 and has not yet taken office. Attendance and AIPAC matters were not weighed here."
+}

@@ -1,0 +1,35 @@
+{
+ "name": "Thomas Kean Jr.",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 5,
+   "text": "Covered by his attendance entry.",
+   "why": "The same matter as his attendance entry.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": [],
+   "edited": "by the seat after reading the cited pages"
+  },
+  {
+   "item": null,
+   "verdict": "against",
+   "weight": 3,
+   "criterion": 5,
+   "text": "This Congress, Kean missed 146 of 676 House votes (21.6%) through Sept. 16, 2026, including 142 in a row from March 17 to June 29, 2026. He said the absence was for a health issue that put him in the hospital.",
+   "why": "Missing more than 100 votes fails showing up and doing the job, whatever the reason.",
+   "strength": "official",
+   "urls": [
+    "https://clerk.house.gov/Votes",
+    "https://abcnews.com/Politics/republican-rep-tom-kean-returns-congress-after-monthslong/story?id=134344807"
+   ],
+   "owner_sites": [],
+   "check": [],
+   "edited": "by the seat after reading the cited pages"
+  }
+ ],
+ "for_review": "The Clerk's Votes page I opened is only a search form. It did not show Kean's own counts, so the 146 of 676 and 142-vote figures come from Ballot Buddy's tally and I did not check them. Press reports say he last voted March 5 and missed 'more than 100' votes, which fits the tally. One search on the owner's named sites returned nothing about Kean, so owner_sites is empty. Kean lost the Nov. 3, 2026 election to Rebecca Bennett per AP, NBC and Gothamist, and his term ends Jan. 3, 2027. Check whether the guide still needs this item. I did not read Politico's original reporting on fundraisers during or after the absence. Mother Jones and the Daily Beast cite his past votes against paid sick leave. Those are votes, so I treated them as opponent criticism and left them out."
+}

@@ -1,0 +1,18 @@
+{
+ "name": "Sunshine Joiner",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item says no foreign-government, FARA, state-owned-business or foreign-agent-donor ties were documented, so there is no conduct to weigh under foreign ties (criterion 2).",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 1 was a 'none documented' placeholder, not an accusation. I ran three searches. They found no controversy, ethics complaint, or foreign-tie reporting about Joiner. Results were only election coverage (Joiner won re-election on Nov 3, 2026 with 54.1%), city pages, and meeting minutes. The owner-site search (Alex Jones/Infowars/Stew Peters) returned nothing about her. I did not open FARA, Florida Commission on Ethics, or campaign-finance databases directly, so a person could check those. I did not look into her work history beyond her campaign site (hospitality director and pastor at Bayside Community Church, musician). Her elected office is real work for criterion 4."
+}

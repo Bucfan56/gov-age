@@ -62,6 +62,21 @@ The caveat box in the money section is load-bearing — do not remove or soften 
 
 ## Changelog
 
+### 2026-11-06: Alabama, California, New Jersey and North Carolina go live, scored under Tyler's rules
+
+Tyler's go: form note_9449 (and note_9438, note_9444 for the launch plan).
+
+- **Five states now work from an address:** Florida, Alabama, California, New Jersey and North Carolina. The new states' candidates, photos and records are all on the site.
+- **Scores follow Tyler's rules everywhere, Florida included** (forms note_9360, note_9428, note_9444). Serious matters take 15 points, medium 8 and minor 3. Separate matters add up, and the build stops if the same matter would count twice. More than 100 missed votes is serious whatever the reason. Card text states amounts, trips and records and stops there. The score alone decides the top pick.
+- **AIPAC money now comes from the PAC's own report, read live from the FEC** (`buddy/research/aipac_live.py`). The live check found the cards were too low: many campaigns' reports never name AIPAC's PAC, while the PAC lists every gift it passes on. Brad Sherman's card showed $0 passed through in 2025-26; the PAC reports about $662,000.
+  - 11 levels moved: Mike Rogers 70→58, Robert Aderholt 69→64, Gary Palmer 68→63, Adam Gray 69→64, Jay Obernolte 66→61, Brad Sherman 56→49, Ted Lieu 54→47, Lou Correa 50→45, Tom McClintock 66→61, Anna Paulina Luna 69→64, Brad Knott 63→58. Another 64 people keep their level with changed amounts.
+  - Two top picks changed: AL-3 Mike Rogers → Lee McInnis, NC-13 Brad Knott → Paul Barringer.
+  - The two sides are two views of the same gifts, so they're never added; the larger is used. Michael Whatley's $172,800 is on his campaign's report and not the PAC's, so his card keeps the campaign's figure.
+- **Passed-through money counts for one to two years only** (Tyler, note_9449: "only keep this within one to two years. Every year it should adjust."). Today that means 2025-26. Moving the window each year isn't automatic yet; the to-do is on the board. 2022-24 passed-through money is kept in its own field and not counted.
+- **Before publishing:** one New Jersey donor row had a street typed into the name box. It's removed, `ballot/fed_money_all.py` now trims it on a rebuild, and the branch was squashed so the old row isn't in the public history.
+
+Still open: New Jersey official results (Kean/Bennett, Van Drew/Mullock), 68 California races with no called winner, state-race fundraising in California and North Carolina, Thomas E "Action" Jackson (AL) and Bob Smith (CA) without research, a few stories kept unweighed (Tim Moore, Brian Mast, Anna Paulina Luna, Scott Peters, Austin Rogers), and the X and Rumble search for the new states.
+
 ### 2026-11-05 (later still): ballotbuddy.app is the main address
 
 Tyler's go: form note_9316.

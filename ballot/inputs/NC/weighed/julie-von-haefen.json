@@ -1,0 +1,21 @@
+{
+ "name": "Julie von Haefen",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On June 14, 2025, von Haefen shared a No Kings rally video that included a protester's sign showing a guillotine and a beheaded Trump figure. She removed the image, said she condemns political violence, and apologized on the House floor on June 17. She also deleted her X account, which one outlet said may breach records laws.",
+   "why": "This was a lapse in judgment that she apologized for, and no official finding of wrongdoing bears on any criterion, including criterion 6 on abuse of office; the records-law concern is only a reporter's suggestion.",
+   "strength": "reporting",
+   "urls": [
+    "https://heartlandernews.com/lawmaker-who-posted-trump-beheading-pic-apologizes/",
+    "https://nsjonline.com/article/2025/06/wake-democrat-criticized-over-image-depicting-beheaded-trump/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Outlets disagree on where the video was posted (Facebook, Instagram or X). The Center Square says she posted a video montage on Facebook, and the North State Journal says Instagram. Her own statement refers only to 'social media'. The X account deletion is called a possible records-law violation only in the North State Journal and Wikipedia, and I found no official finding, complaint or ruling. I did not read her claim that she is not the person in the photo, because it appeared only in a search snippet, so I left it out. The owner-site search (Alex Jones, Stew Peters, Ryan Dawson, Infowars) turned up nothing on her. The search results were Alex Jones and Infowars news, plus a Wikipedia page on Stew Peters."
+}

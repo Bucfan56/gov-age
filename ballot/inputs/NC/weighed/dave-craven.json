@@ -1,0 +1,20 @@
+{
+ "name": "Dave Craven",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In March 2026 the News & Observer reported that Craven's campaign paid nearly $59,000 to a firm owned by lobbyist Kevin Wilkinson's wife. A watchdog found over 20% of his last-election money came from people tied to Wilkinson's clients. Craven called her a longtime friend who planned campaign events. A state senator asked officials to investigate. No finding has been reported.",
+   "why": "This is a serious, undecided accusation of improper campaign payments and lobbyist ties (criterion 6); the elections board and auditor requests have no reported outcome, so it is shown but not counted.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.yahoo.com/news/articles/nc-senator-asks-investigation-ties-090000606.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I couldn't open the original News & Observer story (newsobserver.com blocked), so I relied on its follow-up article, which was reprinted on Yahoo. I found no report of any State Board of Elections or auditor action or finding. A Carolina Forward post on X claims Craven steered state money to Wilkinson's clients. I didn't verify that, and it isn't in the text. The Wikipedia item says watchdogs accused him of a quid pro quo. I couldn't confirm that wording in a news source. Also check whether the firm's payments were properly reported and whether Craven ever supplied documentation of the work. The owner-site search returned nothing about Craven."
+}

@@ -1,0 +1,36 @@
+{
+ "name": "Tom McClintock",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2008, rival Doug Ose attacked McClintock for collecting hundreds of thousands of dollars in tax-free per diem ($170 a day) as a state senator, while his family lived year-round in Elk Grove. McClintock said he was entitled because his legal residence was his mother's Thousand Oaks home, and rejected the charge that he was gaming the system.",
+   "why": "The criterion is not taking advantage of the position (6); this was a campaign charge with no official finding, and the reporting I read doesn't describe the payments as illegal.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.sierrasun.com/news/ose-mcclintock-attack-in-last-days-of-gop-battle/",
+    "https://www.toacorn.com/articles/state-senator-no-longer-has-a-home-in-thousand-oaks/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In December 2020, McClintock joined other House Republicans in a Supreme Court brief backing a Texas suit challenging the 2020 results in other states. The Court rejected that challenge. Before January 6, 2021, he and six colleagues signed a letter saying Congress had no authority to influence the outcome, and he voted to certify.",
+   "why": "No court or official finding of wrongdoing was made against him for signing the brief, and it bears on no criterion, so it is shown but not counted.",
+   "strength": "reporting",
+   "urls": [
+    "https://thehill.com/homenews/house/532440-coalition-of-7-conservative-house-republicans-says-they-wont-challenge/",
+    "https://www.kqed.org/news/12010914/we-wont-commit-to-certifying-election-results-say-most-california-gop-congressmembers"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I used the owner-sites search and it returned nothing about McClintock, so owner_sites is empty. Item 1: I read news accounts from 2008 (LA Times via Sierra Sun, Thousand Oaks Acorn) but not the original LA Times per diem story or any Senate rules on per diem eligibility. The Tahoe Daily Tribune page would not open. The wife's explanation about caring for his mother appears only on Wikipedia, so I left it out of the text. The 2008 reports differ on who he was caring for (father vs. mother). The Acorn quotes him on his father's illness. Item 2: I did not open the amicus brief itself (Texas v. Pennsylvania, Supreme Court docket 22O155). Critics' characterizations such as 'abuse of the judicial process' are opinion and are not used. I did not look for other possible issues beyond the two items given."
+}

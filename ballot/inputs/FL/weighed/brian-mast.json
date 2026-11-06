@@ -1,0 +1,67 @@
+{
+ "name": "Brian Mast",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "Business Insider reported in 2021 that Mast disclosed a July 2021 purchase of up to $100,000 in Virgin Galactic stock on Aug. 23. That may have missed a federal reporting deadline, though the report said the longer 45-day limit would likely protect him. The company's president had testified to a House subcommittee Mast sits on weeks earlier. No finding was reported.",
+   "why": "A late stock-trade disclosure is a smaller filing violation under criterion 6, so it takes the minor weight of 1.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridapolitics.com/archives/453373-mast-stock-act-virgin-galactic/"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2021"
+   ],
+   "edited": true
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "These are Mast's own words about Gaza, a stance on a foreign war that doesn't match any criterion (no conduct on foreign money, self-dealing or doing the job), so it is left off.",
+   "strength": "own_words",
+   "urls": [
+    "https://www.huffpost.com/entry/brian-mast-palestinian-babies-innocent-civilians-gaza_n_65bbd225e4b05c8779f84791"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 4,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2016 a company press release named Mast to the advisory board of World Patent Marketing, which the FTC later sued. Mast said he never received pay and learned of it from a news release. His office said he never served on the board. He returned a donation from the company's owner.",
+   "why": "The reporting shows only that the company's press release named him, with no wrongdoing by Mast shown, so this is guilt by association under criterion 6.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridapolitics.com/archives/234047-report-brian-mast-linked-florida-company-investigation-federal-regulators/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 5,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 2,
+   "text": "After Hamas's Oct. 7, 2023 attack on Israel, Mast, an Army veteran, wore an Israeli military uniform in Congress, according to HuffPost.",
+   "why": "It is true and was in the news, but no foreign money, lobbying or paid travel is shown, so it has no clear bearing on criterion 2.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.huffpost.com/entry/brian-mast-palestinian-babies-innocent-civilians-gaza_n_65bbd225e4b05c8779f84791"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2023"
+   ]
+  }
+ ],
+ "for_review": "I used all 4 searches and could not open the Hill article or the Business Insider/Yahoo STOCK Act article. A search snippet of the Yahoo/Insider piece (Aug 2022) says Mast's office called the late Ideal Power disclosure an administrative error with no fine yet. A Pelosi-tracker snippet says an Oct 2022 amendment listed 18 trades filed late, including Aphria/Tilray. I didn't read either page, so check them. Check whether a fine was ever imposed. For item 1, my verdict rests on a read page that says Mast 'may have' missed the deadline, and on that unread corroboration. If you want certainty, open the Insider article. Item 3 (2020 Facebook apology) was not read at all. Item 5: I never read anything on the 2015 Sar-El volunteering, including whether Mast paid his own way. For item 2, a HuffPost search snippet says Mast's office called the Code Pink video 'doctored' and gave a clip with the line 'a 2-year-old Palestinian has to be without sin'. That text was not on the page I opened, so I left it out. The House censure resolution against him (H.Res.846, Nov 2023) was only seen in a search result. For item 4, I didn't read the FTC complaint or the court judgment. A search snippet from IAM says board members were paid, but Mast says he never was. Whether he knew of the board listing is disputed. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about Mast on those sites. AIPAC and AIEF money was not assessed here."
+}

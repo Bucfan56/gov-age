@@ -1,0 +1,34 @@
+{
+ "name": "Ben Allen",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 3,
+   "text": "Allen pledged not to take insurance-industry money. Early in his 2026 campaign, some insurer donations were moved from an old campaign account into the new one. CalMatters reported he returned them, and he said the transfer was a mistake. Outside PACs backing him have since taken insurance-related money. He said, \"I didn't ask for this and don't welcome it.\"",
+   "why": "Money from the insurance industry bears on the big-money criterion, but the donations were returned, the PAC money is outside his control, and no wrongdoing was found.",
+   "strength": "reporting",
+   "urls": [
+    "https://calmatters.org/politics/2026/10/insurance-commissioner-campaign-funding/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 5,
+   "text": "CalMatters examined the 2024 state legislative journals to count absences. Those journals also record excused absences, which are often for illness or family matters. Allen's own total is in a chart that couldn't be read. No reason for his absences was found.",
+   "why": "Absences bear on showing up for the job, but the 24-day figure couldn't be confirmed and the analysis doesn't separate excused from unexcused absences, so there is no finding of neglect.",
+   "strength": "reporting",
+   "urls": [
+    "https://calmatters.org/politics/2024/10/california-legislature-absences-abstentions/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) The 24-day figure for Allen (second-highest among senators, behind Henry Stern) appears only on Wikipedia in what I could read. On the CalMatters page it sits in a chart image that didn't load, so check it against the chart or the Senate Daily Journals, and look for Allen's explanation. Voters weren't told his number for that reason. 2) The Politico Pro article on returning the donations is paywalled. Allen said at a debate that he refunded four small donations, as reported in an SF Standard search snippet that I didn't open. Jane Kim's opposition site (janekim.org/followthemoney) lists $6,900 returned and other insurer-related gifts to his 2026 committee, dated 2026. That is an opponent's page and I didn't verify it against filings, so check the state campaign finance records (Cal-Access / Secretary of State) for any direct insurer contributions to his 2026 committee and for refund dates. 3) The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about Allen."
+}

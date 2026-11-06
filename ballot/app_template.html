@@ -118,7 +118,7 @@ ol.top3 li{margin:2px 0}
 .muted{color:var(--sub)}
 .st{font-size:10.5px;font-weight:800;text-transform:uppercase;padding:2px 6px;border-radius:6px;margin-right:5px;background:var(--chip);color:var(--sub)}
 .st.allegation{background:var(--mid-bg);color:var(--mid)}.st.established{background:var(--bad-bg);color:var(--bad)}
-.st.dismissed,.st.resolved{background:var(--good-bg);color:var(--good)}.st.fact-checked{color:var(--accent)}
+.st.dismissed,.st.resolved,.st.credit{background:var(--good-bg);color:var(--good)}.st.fact-checked{color:var(--accent)}
 .row2{display:flex;gap:8px;margin-top:auto}
 .row2 .btn{flex:1}.row2 .btn.ghost{flex:0 0 52px}
 .sheet{position:fixed;inset:0;z-index:50;display:none}
@@ -495,6 +495,7 @@ function lines(r) {
 }
 const partyName = p => esc(String(p || "").replace(/^REP$/, "Republican").replace(/^DEM$/, "Democrat").replace(/^NPA$/, "No party").replace(/^NP$/, "Nonpartisan").replace(/^NP \(/, "Nonpartisan ("));
 const flags = c => (c.controversies || []).filter(x => x.status !== "dismissed" && x.status !== "resolved");
+const stTag = x => `<span class="st ${esc(x.status || "")}">${esc(x.points ? `${x.level}, ${x.points < 0 ? "minus" : "plus"} ${Math.abs(x.points)}` : x.status || "note")}</span>`;
 const srcHits = c => (c.owner_sources || []).length;
 // Trade check: a head-to-head of the voter's pick (or #1 on the list until she picks) against one rival at a time
 const mv = m => m && m.v != null ? m.v : null;
@@ -504,7 +505,7 @@ const TRADE = [["🎯", "Priorities", c => mv(c.prio), "closer to your prioritie
   ["💵", "Independent of big donors", c => mv(c.score.indep), "less tied to big donors", "more tied to big donors", "indep"],
   ["🌾", "Protects the land", c => mv(c.score.land), "protects land more", "protects land less", "land"],
   ["🎓", "Qualified", c => mv(c.qual), "more qualified", "less qualified", "qual"],
-  ["🌴", "Florida roots", c => mv(c.roots), "deeper Florida roots", "shallower roots", "roots"]];
+  ["🌴", "Home-state roots", c => mv(c.roots), "deeper home-state roots", "shallower roots", "roots"]];
 const TSEL = {};
 const lastName = n => n.replace(/".*?"\s*/g, "").replace(/\b(Jr|Sr|III|II)\b\.?/g, "").trim().split(/\s+/).slice(-1)[0];
 function tradePair(r) {
@@ -561,7 +562,7 @@ function tradeWhy(r, key) {
   } else if (key === "local") {
     const m = c => c.money || {};
     topics = [["Rating", c => c.score.local ? P(esc(c.score.local.label)) : none(esc(c.score.why || "No money or roots data found."))],
-      ["Money from Florida", c => P(`<b>${pct(m(c).fl_pct)}</b>`)],
+      ["Money from " + SN, c => P(`<b>${pct(m(c).fl_pct)}</b>`)],
       [[base, o].some(c => m(c).local_label) ? "Money from Sarasota–Manatee" : "Money from the area", c => P(`<b>${pct(m(c).local_pct)}</b>`)],
       ["Money from out of state", c => P(`<b>${pct(m(c).out_pct)}</b>`)]];
   } else if (key === "foreign") {
@@ -629,6 +630,27 @@ let ctx = null;
 try { const v = JSON.parse(localStorage.getItem("ballot-ctx") || "null"); if (v && v.county) ctx = v; } catch (e) {}
 let ALL = D.races.slice();
 const loaded = new Set();
+// One state's whole guide at a time. Florida ships inside this page; every other state is a bundle fetched from states/<ST>/.
+const READY = ["FL", "AL", "CA", "NJ", "NC"];
+const ST_NAMES = {FL: "Florida", AL: "Alabama", NJ: "New Jersey", CA: "California", NC: "North Carolina"};
+D.st = D.st || "FL"; D.stateName = D.stateName || "Florida"; D.dir = D.dir || "fl";
+const BUNDLES = {FL: Object.assign({}, D)};
+let SN = D.stateName;
+async function useState(st) {
+  if (D.st === st) return;
+  let b = BUNDLES[st];
+  if (!b) {
+    const r = await fetch(`states/${st}/state.json`, {cache: "no-cache"});
+    if (!r.ok) throw new Error(`We couldn't load ${ST_NAMES[st] || st}'s guide. Check your signal and try again.`);
+    b = BUNDLES[st] = await r.json();
+  }
+  Object.assign(D, b);
+  ALL = D.races.slice(); loaded.clear(); SN = D.stateName;
+  const roots = TRADE.find(x => x[5] === "roots");
+  if (roots) { roots[0] = st === "FL" ? "🌴" : "🌱"; roots[1] = SN + " roots"; roots[3] = "deeper " + SN + " roots"; }
+}
+const zipState = z => { const n = +String(z).slice(0, 3); return n >= 320 && n <= 349 ? "FL" : n >= 350 && n <= 369 ? "AL" : n >= 70 && n <= 89 ? "NJ" : n >= 900 && n <= 961 ? "CA" : n >= 270 && n <= 289 ? "NC" : null; };
+const notCovered = name => new Error(`Ballot Buddy's full guide covers ${READY.map(s => ST_NAMES[s]).join(", ")} so far${name ? `, not ${name} yet` : ""}. The Results tab has every state.`);
 const soeOf = county => D.soe[county] || D.soe[Object.keys(D.soe).find(k => k.toLowerCase().replace(/[^a-z]/g, "") === String(county || "").toLowerCase().replace(/[^a-z]/g, ""))] || null;
 const cslug = s => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/"[^"]*"/g, "").toLowerCase().replace(/[^a-z]+/g, "-").replace(/^-|-$/g, "");
 function fileKeys(c) {
@@ -638,7 +660,7 @@ async function loadFiles(c) {
   const want = fileKeys(c).filter(k => !loaded.has(k));
   await Promise.all(want.map(async k => {
     try {
-      const r = await fetch(`fl/${k}.json`, {cache: "no-cache"});
+      const r = await fetch(`${D.dir}/${k}.json`, {cache: "no-cache"});
       if (!r.ok) throw new Error(r.status);
       const j = await r.json();
       for (const x of j.races) if (!ALL.some(y => y.id === x.id)) ALL.push(x);
@@ -683,8 +705,9 @@ function census(path, params) {
 function fromGeographies(g, how, zip) {
   const pick = re => { const k = Object.keys(g).find(k => re.test(k)); return k && g[k][0] ? g[k][0] : null; };
   const st = pick(/^States$/), cd = pick(/Congressional Districts/), up = pick(/Legislative Districts - Upper/), lo = pick(/Legislative Districts - Lower/), co = pick(/^Counties$/), pl = pick(/Incorporated Places/);
-  if (!st || st.STUSAB !== "FL") throw new Error("That address isn't in Florida. This guide covers Florida's Nov 3 ballot.");
-  return {cd: cd && +cd.BASENAME, sd: up && +up.BASENAME, hd: lo && +lo.BASENAME, county: co && co.BASENAME, city: pl ? pl.BASENAME : "", how, zip: zip || null};
+  if (!st) throw notCovered();
+  if (!READY.includes(st.STUSAB)) throw notCovered(st.BASENAME);
+  return {st: st.STUSAB, cd: cd && +cd.BASENAME, sd: up && +up.BASENAME, hd: lo && +lo.BASENAME, county: co && co.BASENAME, city: pl ? pl.BASENAME : "", how, zip: zip || null};
 }
 // County map layers that answer straight from a phone (CORS checked 2026-11-03). Results refine the Census answer.
 const COUNTY_GIS = {
@@ -728,21 +751,29 @@ async function refine(c, x, y) {
 async function findBallot(q) {
   q = q.trim();
   if (/^\d{5}$/.test(q)) {
+    const zs = zipState(q);
+    if (!zs || !READY.includes(zs)) throw notCovered(ST_NAMES[zs]);
+    await useState(zs);
     const z = D.zips[q];
-    if (!z) throw new Error("That ZIP isn't in Florida, or isn't one we know. Try your full street address.");
-    return {cd: z[0], sd: z[1], hd: z[2], county: z[3], city: null, how: "zip", zip: q};
+    if (!z) throw new Error(`We don't know that ZIP in ${SN}. Try your full street address.`);
+    return {st: zs, cd: z[0], sd: z[1], hd: z[2], county: z[3], city: null, how: "zip", zip: q};
   }
   if (q.length < 8) throw new Error("Type your street address with city, or a 5-digit ZIP.");
-  const d = await census("onelineaddress", {address: /florida|\bfl\b/i.test(q) ? q : q + ", FL"});
-  const m = d && d.result && d.result.addressMatches && d.result.addressMatches[0];
+  // Most people leave the state off. Try the state they're looking at when the address alone finds nothing.
+  let d = await census("onelineaddress", {address: q});
+  let m = d && d.result && d.result.addressMatches && d.result.addressMatches[0];
+  if (!m) { d = await census("onelineaddress", {address: q + ", " + D.st}); m = d && d.result && d.result.addressMatches && d.result.addressMatches[0]; }
   if (!m) throw new Error("The Census couldn't find that address. Check the spelling and add the city, or type just your ZIP.");
   const c = fromGeographies(m.geographies, "address", (m.addressComponents || {}).zip);
+  await useState(c.st);
   return refine(c, m.coordinates && m.coordinates.x, m.coordinates && m.coordinates.y);
 }
 async function findByLocation() {
   const pos = await new Promise((res, rej) => navigator.geolocation ? navigator.geolocation.getCurrentPosition(res, () => rej(new Error("Location is off for this page. Type your address instead.")), {enableHighAccuracy: true, timeout: 15000}) : rej(new Error("This phone can't share location here. Type your address instead.")));
   const d = await census("coordinates", {x: pos.coords.longitude.toFixed(5), y: pos.coords.latitude.toFixed(5)});
-  return refine(fromGeographies(d.result.geographies, "location"), pos.coords.longitude, pos.coords.latitude);
+  const c = fromGeographies(d.result.geographies, "location");
+  await useState(c.st);
+  return refine(c, pos.coords.longitude, pos.coords.latitude);
 }
 function finder(compact) {
   return `<section class="finder" aria-label="Find your ballot">
@@ -832,7 +863,7 @@ function card(r, c, i) {
       <div class="cfoot"><span>Tap to flip ↻</span>${c.photo ? `<span>Photo: ${esc(c.photo.credit)}</span>` : ""}</div>
     </div></div>`;
   const top = (m.top || [])[0];
-  const fr = s.foreign.reasons.length ? s.foreign.reasons.slice(0, 2).map(x => `−${x.pts} · ${esc(x.text)}`).join("<br>") : "No foreign-connected money or ties found.";
+  const fr = s.foreign.reasons.length ? s.foreign.reasons.slice(0, 2).map(x => `−${x.pts} · ${esc(x.text)}`).join("<br>") : esc(s.foreign.note || "No foreign-connected money or ties found.");
   const planks = c.prio && c.prio.planks ? Object.entries(c.prio.planks).slice(0, 2) : [];
   const back = `
     <div class="face back"><div class="inner">
@@ -847,7 +878,7 @@ function card(r, c, i) {
         ${(c.land_positions || []).some(x => x.stance < 0) ? `<div class="bsec"><h5>🌾 On land</h5><p>${esc(firstSentence(c.land_positions.find(x => x.stance < 0).quote_or_summary || "", 120))}</p></div>` : ""}
         ${votes ? `<div class="bsec"><h5>🗳️ How they voted</h5><ul class="vl">${c.votes.slice(0, 3).map(v => voteRow(v, true)).join("")}</ul></div>` : ""}
         ${planks.length ? `<div class="bsec"><h5>🎯 Priorities</h5><ul>${planks.map(([k, x]) => `<li>${x.match > 0 ? (x.kind === "did" ? "✅" : "🗣") : "❌"} ${esc(firstSentence(x.evidence || k, 110))}</li>`).join("")}</ul></div>` : ""}
-        ${f.length ? `<div class="bsec"><h5>⚠ On record</h5><p><span class="st ${esc(f[0].status || "")}">${esc(f[0].status || "note")}</span>${esc(firstSentence(f[0].text, 130))}</p></div>` : ""}
+        ${f.length ? `<div class="bsec"><h5>⚠ On record</h5><p>${stTag(f[0])}${esc(firstSentence(f[0].text, 130))}</p></div>` : ""}
         ${news ? `<div class="bsec"><h5>💬 Money in the news</h5><p>${esc(firstSentence(c.money_notes[0].text, 130))}</p></div>` : ""}
         ${srcHits(c) ? `<div class="bsec"><h5>📣 Your sources</h5><p>${esc(c.owner_sources[0].title)}${srcHits(c) > 1 ? ` <b>+ ${srcHits(c) - 1} more</b>` : ""}</p></div>` : ""}
         <div class="bsec"><h5>🗽 Foreign</h5><p>${fr}</p></div>
@@ -899,15 +930,15 @@ function home() {
   let h;
   if (!ctx) {
     h = `<header class="appbar"><div class="ab-l brand"><img src="buddy/icons/icon-64.png" alt="">Ballot Buddy</div>${whoBtn()}</header>
-      ${finder(false)}${todayStrip()}
-      <h2 class="grp">🌴 On every Florida ballot</h2>${tiles(ALL.filter(r => (r.where || {}).all))}
+      ${finder(false)}${D.st === "FL" ? todayStrip() : ""}
+      ${READY.length > 1 ? `<div class="rtabs">${READY.map(s => `<button class="rtab${s === D.st ? " on" : ""}" data-bbstate="${s}">${ST_NAMES[s]}</button>`).join("")}</div>` : ""}<h2 class="grp">${D.st === "FL" ? "🌴" : "📍"} On every ${esc(SN)} ballot</h2>${tiles(ALL.filter(r => (r.where || {}).all))}
       <p class="deckhint" style="margin-top:12px">Your U.S. House, State Senate, State House, county and city races appear once you add your address.</p>`;
   } else {
     const where = [ctx.county && `${ctx.county} Co.`, ctx.city || (ctx.how === "zip" ? `ZIP ${ctx.zip}` : "")].filter(Boolean).join(" · ");
     const list = ordered();
     h = `<header class="appbar"><div class="ab-l brand"><img src="buddy/icons/icon-64.png" alt="">Ballot Buddy</div><button class="loc" data-change aria-label="Change address">📍 ${esc(where)} ✎</button></header>
       ${ctx.how === "zip" ? `<div class="panel" style="margin-top:0">ZIP ${esc(ctx.zip)} gives approximate districts. <button class="btn ghost" style="padding:6px 10px" data-change>Add your street</button></div>` : ""}
-      ${todayStrip()}
+      ${D.st === "FL" ? todayStrip() : ""}
       <p class="count">${list.length} races and questions on your ballot · tap one to see the candidates</p>
       <div class="rlist" style="margin-bottom:6px"><button class="rrow" data-go="mine"><span class="rnum">📝</span><span class="rmain"><span class="rt">My ballot</span><span class="rs">${(() => { const L = list.flatMap(lines), d = L.filter(l => PICKS[l[0]]).length; return d ? d + " of " + L.length + " picked · your list for the voting booth" : "Pick in each race, then see all your choices here in ballot order"; })()}</span></span><span class="chev">›</span></button></div>`;
     let n = 0;
@@ -923,7 +954,7 @@ function home() {
       n += rs.length;
       if (g.id === "judges" && ctx.county !== "Manatee") h += `<p class="deckhint" style="margin-top:8px">Your ballot may also ask about appeals-court and local judges: they're on your county's sample ballot.</p>`;
     }
-    const missing = [["cd", "U.S. House"], ["sd", "State Senate"], ["hd", "State House"]].filter(([k]) => ctx[k] && !list.some(r => (r.where || {})[k] === ctx[k]));
+    const missing = [["cd", "U.S. House"], ["sd", "State Senate"], ["hd", "State House"]].filter(([k]) => ctx[k] && D.files.some(f => f.startsWith(k + "-")) && !list.some(r => (r.where || {})[k] === ctx[k]));      // a state with no such races this year (New Jersey's legislature in 2026) has nothing missing
     if (missing.length) h += `<div class="panel" style="margin-top:14px">⏳ Not in this guide: ${missing.map(([k, nm]) => `${nm} ${ctx[k]}`).join(", ")}.${missing.some(m => m[0] === "sd") ? " Only half of the State Senate seats are on the ballot this year, so yours may not be up." : ""}</div>`;
   }
   if (!standalone()) h += `<div class="rlist" style="margin-top:16px"><button class="rrow" data-sheet="install"><span class="rnum">📲</span><span class="rmain"><span class="rt">Add Ballot Buddy to your phone</span><span class="rs">Opens like an app, works with a weak signal</span></span><span class="chev">›</span></button></div>`;
@@ -979,8 +1010,9 @@ function profile(r, c) {
   const s = c.score, m = c.money || {}, b = band(s.overall);
   const T = rows => `<table class="t">${rows.map(t => `<tr><td>${esc(t[0])}${t[2] ? `<div class="mini muted">${esc(t[2])}</div>` : ""}</td><td class="r">${usd(+t[1])}</td></tr>`).join("")}</table>`;
   let h = (c.photo ? `<img class="pphoto" src="${esc(PHOTO(c))}" alt="${esc(c.name)}">` : "") + `<div class="big bg-${b}" style="margin-bottom:10px"><div class="num">${s.overall ?? "—"}</div><div><div class="word">${WORD[b]} · ${esc(r.short)}</div><div class="hint">${partyName(c.party)}${c.incumbent ? " · Incumbent" : ""}${c.rank ? " · ranked #" + c.rank + " of " + r.cands.filter(x => x.rank).length : ""}</div></div></div>` + cardPick(r, c, "wide");
+  if (s.before != null) h += `<p class="mini muted" style="margin:0 0 10px">Meters average ${s.before}. The entries under Cases, complaints &amp; controversies moved it to ${s.overall}.</p>`;
   h += `<div class="panel">${meter("🏠", "Local", s.local)}<div class="mini muted" style="margin:0 0 10px">${esc(s.local ? s.local.label : s.why)}</div>
-    ${meter("🗽", "Country first", s.foreign)}<div class="mini muted" style="margin:0 0 10px">${s.foreign.reasons.length ? s.foreign.reasons.map(x => `−${x.pts}: ${esc(x.text)}${link(x.url)}`).join("<br>") : "Nothing found that lowers this."}</div>
+    ${meter("🗽", "Country first", s.foreign)}<div class="mini muted" style="margin:0 0 10px">${s.foreign.reasons.length ? s.foreign.reasons.map(x => `−${x.pts}: ${esc(x.text)}${link(x.url)}`).join("<br>") : esc(s.foreign.note || "Nothing found that lowers this.")}</div>
     ${meter("💵", "Independent", s.indep)}<div class="mini muted" style="margin:0 0 10px">${s.indep ? esc(s.indep.label) + ": " + s.indep.parts.map(esc).join("; ") + "." : esc(s.why)}</div>
     ${s.land ? meter("🌾", "Protects land", s.land) + `<div class="mini muted">${esc(s.land.label)}.</div>` : ""}</div>`;
   if (c.roots || c.land_positions) h += `<div class="panel">${c.roots ? `<h4>🌴 Roots: ${c.roots.v}/100</h4><p class="mini" style="margin:0 0 8px">${esc(c.roots.summary)}${(c.roots.urls || []).slice(0, 2).map((u, k) => link(u, "source " + (k + 1))).join("")}</p>` : ""}${(c.land_positions || []).length ? `<h4>🌾 On land & data centers</h4><ul class="vl">${c.land_positions.map(x => `<li class="vr"><span class="vp ${x.stance > 0 ? "yea" : "nay"}">${x.stance > 0 ? "Protects" : "Develops"}</span><span>${esc(x.quote_or_summary || "")}${x.date ? ` <span class="mini muted">${esc(x.date)}</span>` : ""}${link(x.url)}</span></li>`).join("")}</ul>` : ""}</div>`;
@@ -988,7 +1020,7 @@ function profile(r, c) {
   if (c.prio) h += `<div class="panel">${meter("🎯", "Priorities", c.prio)}<ul class="vl" style="margin-top:6px">${Object.entries(c.prio.planks || {}).map(([k, x]) => { const pl = ((D.platform || {}).planks || []).find(y => y.id === k); return `<li class="vr"><span class="vp ${x.match > 0 ? (x.kind === "did" ? "yea" : "nv") : "nay"}">${x.kind === "did" ? (x.match > 0 ? "Record ✓" : "Record ✗") : (x.match > 0 ? "Promise" : "Says no")}</span><span><b>${esc(pl ? pl.title : k)}</b> · ${esc(x.evidence || "")}${x.contra ? `<span class="mini muted"> They say: “${esc(firstSentence(x.contra, 140))}”, but the record says otherwise.</span>` : ""}${link(x.url)}</span></li>`; }).join("")}</ul></div>`;
   h += `<div class="panel"><h4>Who they are</h4>${esc(c.bio || "")}${c.running_mate ? `<p class="mini" style="margin-top:8px"><b>Running mate:</b> ${esc(c.running_mate)}</p>` : ""}${c.local_ties ? `<p class="mini" style="margin-top:8px"><b>🏠 Local ties:</b> ${esc(c.local_ties)}</p>` : ""}</div>`;
   h += ownBox(c.owner_sources, c.owner_sources_searched);
-  let mh = `<div class="kv" style="margin:2px 0 10px"><div><b>${usd(m.raised)}</b><span>raised</span></div><div><b>${pct(m.fl_pct)}</b><span>from Florida</span></div><div><b>${pct(m.out_pct)}</b><span>out of state</span></div><div><b>${pct(m.local_pct)}</b><span>${m.local_label ? "Sarasota–Manatee" : "Manatee County"}</span></div><div><b>${pct(m.org_pct)}</b><span>business / PAC</span></div><div><b>${pct(m.build_land_pct)}</b><span>building & land</span></div></div>`;
+  let mh = `<div class="kv" style="margin:2px 0 10px"><div><b>${usd(m.raised)}</b><span>raised</span></div><div><b>${pct(m.fl_pct)}</b><span>from ${esc(SN)}</span></div><div><b>${pct(m.out_pct)}</b><span>out of state</span></div><div><b>${pct(m.local_pct)}</b><span>${m.local_label ? "Sarasota–Manatee" : "Manatee County"}</span></div><div><b>${pct(m.org_pct)}</b><span>business / PAC</span></div><div><b>${pct(m.build_land_pct)}</b><span>building & land</span></div></div>`;
   if (m.loans) mh += `<p class="mini">Loans (often the candidate's own money): <b>${usd(m.loans)}</b></p>`;
   if (m.committee) mh += `<p class="mini" style="margin-top:10px"><b>${esc(m.committee.name)}</b>: ${usd(m.committee.total)} (${esc(m.committee.span || "")}), no donation limit.</p>${T(m.committee.top || [])}`;
   if ((m.top || []).length) mh += `<p class="mini" style="margin-top:12px"><b>Biggest givers to the campaign</b></p>${T(m.top)}`;
@@ -999,7 +1031,7 @@ function profile(r, c) {
   if (m.source) mh += `<p class="mini muted">${esc(m.source)}${link(m.source_url)}</p>`;
   h += `<details open><summary>💵 Money</summary>${mh}</details>`;
   h += list("💬 Money in the news", c.money_notes, li);
-  h += list("⚠ Cases, complaints & controversies", c.controversies, x => `<li><span class="st ${esc(x.status || "")}">${esc(x.status || "note")}</span>${esc(x.text)}${link(x.url)}</li>`);
+  h += list("⚠ Cases, complaints & controversies", c.controversies, x => `<li>${stTag(x)}${esc(x.text)}${link(x.url)}</li>`);
   h += list("🗽 Foreign ties", c.foreign_ties, li);
   if ((c.votes || []).length) h += `<details open><summary>🗳️ Voting record (${c.votes.length})</summary><ul class="vl">${c.votes.map(v => voteRow(v, false)).join("")}</ul><p class="mini muted">Each vote links to the official roll call. Picked for issues most voters care about; not every vote they cast.</p></details>`;
   h += list("📋 Record", c.record, li);
@@ -1014,10 +1046,10 @@ function howSheet() {
   const R = D.rules;
   return `<div class="panel">Each candidate gets meters from 0 to 100, one for each of your questions. The big number is their average, and it sets the card's rarity: Legendary 85+, Ultra Rare 70+, Rare 55+, Common below that. The money meters come from public filings only; 🎓 and 🎯 are explained below.
       <div class="legend"><span><i class="g"></i>70+ Strong</span><span><i class="m"></i>45–69 Mixed</span><span><i class="b"></i>Under 45 Weak</span><span><i class="n"></i>Not scored</span></div></div>
-    <div class="panel"><h4>🏠 Local: commitment to the area</h4>The share of their money that comes from home, not counting land, development, data-center, mining or utility money. Blended half-and-half with their <b>roots</b>: born and raised here 100, moved here as a child 80, moved as an adult 25+ years ago 55, 10–25 years 40, under 10 years 20 ("here" is Florida for state and federal offices, the county for local ones). “Home” fits the office: Florida for statewide and U.S. Senate races; Sarasota–Manatee zip codes for U.S. House 16; Manatee, Sarasota and Hillsborough zip codes for the State House and Senate; Manatee County for county and city races.</div>
+    <div class="panel"><h4>🏠 Local: commitment to the area</h4>The share of their money that comes from home, not counting land, development, data-center, mining or utility money. Blended half-and-half with their <b>roots</b>: born and raised here 100, moved here as a child 80, moved as an adult 25+ years ago 55, 10–25 years 40, under 10 years 20 ("here" is ${esc(SN)} for state and federal offices, the county for local ones). “Home” fits the office: Florida for statewide and U.S. Senate races; Sarasota–Manatee zip codes for U.S. House 16; Manatee, Sarasota and Hillsborough zip codes for the State House and Senate; Manatee County for county and city races.</div>
     <div class="panel"><h4>🗽 Country first: foreign interest</h4>Starts at 100. Points come off for each documented item:<ul class="formula">${R.foreign.map(f => `<li>−${f.pts}: ${esc(f.text)}</li>`).join("")}<li>−${R.pac} per check from the U.S. PAC of a foreign-parent company (legal; funded by U.S. employees)</li></ul>Trips, statements and votes are listed on the profile but don't change the score.</div>
-    <div class="panel"><h4>💵 Independent: big donors</h4>100 minus the share of all the money behind them that is big money. Big money means business, PAC and party money; for federal races, individuals giving $2,000+; any political committee the candidate controls (no donation limit in Florida); and money outside groups spent to help them.</div>
-    <div class="panel"><h4>🌾 Protects the land: land, development and data-center money</h4>Starts at 100 and loses 2 points for every 1% of the candidate's money that comes from land, development, homebuilding, data-center, mining or utility interests, matched on the donor's name, employer or stated occupation in the public filings. That money also doesn't count toward 🏠 Local, even when it comes from Florida. Each documented public position for data centers or more development (an interview, debate, campaign page or vote, linked on the profile) takes another 40 points off.</div>
+    <div class="panel"><h4>💵 Independent: big donors</h4>100 minus the share of all the money behind them that is big money. Big money means business, PAC and party money; for federal races, individuals giving $2,000+; any political committee the candidate controls${D.st === "FL" ? " (no donation limit in Florida)" : ""}; and money outside groups spent to help them.</div>
+    <div class="panel"><h4>🌾 Protects the land: land, development and data-center money</h4>Starts at 100 and loses 2 points for every 1% of the candidate's money that comes from land, development, homebuilding, data-center, mining or utility interests, matched on the donor's name, employer or stated occupation in the public filings. That money also doesn't count toward 🏠 Local, even when it comes from ${esc(SN)}. Each documented public position for data centers or more development (an interview, debate, campaign page or vote, linked on the profile) takes another 40 points off.</div>
     <div class="panel"><h4>🎓 Qualified for the job</h4>How well the candidate's actual background (career, credentials, past offices, business) fits this office: for example pest control or public health for mosquito control, legal work for Attorney General, farming for Agriculture. Only real-world work counts: a career, a business, or an office actually held. A seat on a committee, an advisory or civic board, or a nonprofit board doesn't. Unknown backgrounds are left blank, not marked down.</div>
     ${D.platform ? `<div class="panel"><h4>🎯 Priorities: the ${esc(D.platform.who)} platform</h4>${esc(D.platform.summary || "")}<ul class="formula">${(D.platform.planks || []).map(x => `<li><b>${esc(x.title)}</b>: ${esc(x.promise || "")}</li>`).join("")}</ul>Each candidate is checked against these planks, every item linked. What they've actually done (votes, actions in office, documented conduct) counts in full. A plank they only promise counts 60 instead of 100, because saying isn't doing. A plank they say they oppose counts 0. When their record contradicts what they say, the record wins, and the mismatch is also listed as a problem on record. This meter reflects the guide owner's priorities: it is not neutral.</div>` : ""}
     <div class="panel"><h4>Limits</h4>Candidates who raised very little aren't scored, because a few checks would swing everything: under $${R.min.federal.toLocaleString()} for federal and statewide offices, $${R.min.legislature.toLocaleString()} for the Legislature, $${R.min.local.toLocaleString()} for county and city. Federal donor detail runs through about July 2026. Filings miss dark money, family money and promises. A donation is a fact about the donor, not proof of what a candidate will do.</div>`;
@@ -1171,6 +1203,7 @@ document.addEventListener("submit", async e => {
       TOKEN = j.token; ACCT = {email: j.email};
       try { localStorage.setItem("bb-token", TOKEN); localStorage.setItem("bb-acct", JSON.stringify(ACCT)); } catch (e2) {}
       await pullAcct();
+      if (ctx && ctx.st) await useState(ctx.st);
       $("#shT").textContent = "Your account";
       $("#shB").innerHTML = acctSheet(["ok", j.created ? "Account created. Your picks are saved." : "Welcome back. Your picks are synced."]);
       shownPage = null; route();
@@ -1235,10 +1268,13 @@ setInterval(() => { const el = $("#pollst"); if (el) { const [c, t] = pollStatus
   } else if (window.DeviceOrientationEvent) listen();
 })();
 window.addEventListener("hashchange", route);
+// Someone whose saved address is in another state sees that state's guide from the first paint.
+(ctx && ctx.st && ctx.st !== "FL" ? useState(ctx.st).catch(e => { console.error("state guide failed to load", e); setCtx(null); }) : Promise.resolve()).then(() => {
 route();
 if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(e => console.error("offline copy unavailable", e));
-if (TOKEN) pullAcct().then(() => { shownPage = null; route(); }).catch(e => console.error("account refresh failed", e));
+if (TOKEN) pullAcct().then(() => ctx && ctx.st ? useState(ctx.st) : null).then(() => { shownPage = null; route(); }).catch(e => console.error("account refresh failed", e));
 if (ctx) loadFiles(ctx).then(() => { shownPage = null; route(); });
+});
 </script>
 </body>
 </html>

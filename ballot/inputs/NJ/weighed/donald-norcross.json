@@ -1,0 +1,43 @@
+{
+ "name": "Donald Norcross",
+ "items": [
+  {
+   "item": null,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 5,
+   "text": "This Congress, Norcross missed 95 of 676 House votes (14.1%) through Sept. 16, 2026, including 52 in a row from April 7 to May 22, 2025, after he was hospitalized with a serious illness.",
+   "why": "Under the owner's line of more than 100 missed votes, so it is shown and doesn't count.",
+   "strength": "official",
+   "urls": [
+    "https://clerk.house.gov/Votes",
+    "https://newjerseyglobe.com/fr/its-great-to-be-alive-today-donald-norcross-returns-to-congress-after-near-death-illness/",
+    "https://rollcall.com/2026/03/11/vote-studies-participation-up-in-2025-despite-notable-absences/"
+   ],
+   "owner_sites": [],
+   "check": [],
+   "edited": "by the seat: owner's picks on form note_9360"
+  },
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On June 24, 2021, someone shouted \"racist\" during Rep. Bob Good's questioning of Secretary Cardona in a remote hearing, while Norcross's screen appeared. Chairman Scott called the remark out of order. Republicans' letter conceded they could not conclusively say who spoke. Norcross's office did not comment, and no official finding names him.",
+   "why": "This is an unattributed, petty outburst with no finding of wrongdoing and no clear bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.cnn.com/2021/06/24/politics/racist-shouted-hearing-norcross-good/index.html",
+    "https://www.washingtonexaminer.com/news/891452/republicans-seek-apology-for-yell-of-racist-during-critical-race-theory-questioning/",
+    "https://www.aol.com/news/republicans-seek-apology-yell-racist-022800070.html"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2021",
+    "24",
+    "racist"
+   ]
+  }
+ ],
+ "for_review": "The Clerk page (clerk.house.gov/Votes) was cited as instructed but not opened. The attendance figures come from the data supplied in the brief. GovTrack's tally (3.7% lifetime) and its 2025 quarterly figures were only read in search snippets and were not used. The Fox News report on the 2021 item was not read directly; CNN, Washington Examiner and the Republicans' letter (as quoted by AOL/Yahoo) were. The one owner-sites search returned nothing about Norcross. The 95-vote count is below the owner's 100-vote line, so weight 2 is a judgment call. Weigh it against the documented medical emergency in April–May 2025."
+}

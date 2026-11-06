@@ -1,0 +1,18 @@
+{
+ "name": "Scott Johnson",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item records that no foreign-government payments, FARA filings, foreign-agent donors or state-owned business were found, so it describes no conduct by this candidate under the foreign-ties criterion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The item is a 'none found' entry, so I found no conduct to weigh. A search with the candidate's name and the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about him. The results were mostly unrelated pages about other people named Scott Johnson, and none came from those sites. Local coverage describes a Palmetto sales representative with no prior office who raised $250. Election results from 3 Nov 2026 show him winning, with about 43% of the vote. I did not open the Florida campaign-finance records or FARA database directly. A person could check those. Also, one outlet lists him as a Republican, while the ballot lists the race as nonpartisan (NP)."
+}

@@ -1,0 +1,40 @@
+{
+ "name": "Jane Kim",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In March 2022 San Francisco's Ethics Commission opened an investigation after a complaint that Kim, a former supervisor, lobbied against a 495-unit housing project without registering. She was paid as an organizer by nonprofit TODCO and sent supervisors materials from a TODCO affiliate. Kim says her opposition was on her own time. No finding is reported.",
+   "why": "This is an official investigation into whether she broke post-office lobbying rules (criterion 6), and I found no finding either way.",
+   "strength": "reporting",
+   "urls": [
+    "https://sfstandard.com/2022/03/18/former-supervisor-jane-kim-targeted-in-ethics-complaint-over-controversial-stevenson-street-project/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": null,
+   "verdict": "against",
+   "weight": 1,
+   "criterion": 6,
+   "text": "In June 2019 Kim and her 2014 re-election committee agreed to an $8,750 San Francisco Ethics Commission penalty for five violations. One was blurring office and campaign lines in newsletters that used office content. Staff found no evidence she acted willfully. In 2015 she had agreed to $5,700 and $2,500 penalties for campaign-finance violations.",
+   "why": "An ethics penalty that included use of city resources for campaign purposes while in office (criterion 6) is a minor, weight-1 matter.",
+   "strength": "official",
+   "urls": [
+    "https://sfethics.org/wp-content/uploads/2019/06/2019.06.28-Agenda-Item-4-Proposed-Stipulation-Decision-and-Order-in-the-Matter-of-Jane-Kim-FINAL.pdf"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2,500",
+    "2014",
+    "2015",
+    "5,700",
+    "8,750"
+   ]
+  }
+ ],
+ "for_review": "1) I found no result for the 2022 Ethics Commission investigation (No. 22-077), and its commission letter on DocumentCloud was not opened. Check the SF Ethics Commission records for a dismissal, settlement or fine; if it was dismissed, drop item 1. 2) The 2019 stipulation was read as a Commission agenda packet. Kim signed it on 6/18/19, but the chair's approval line was blank in that copy, so confirm final approval and payment. 3) The owner-site search (Jane Kim with alexjoneslive.com, stewpeters.com, ryandawson.org and infowars.com) returned nothing relevant. 4) Other items on Kim's record, such as foreign ties, donors and her work history, were not examined."
+}

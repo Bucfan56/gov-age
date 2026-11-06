@@ -1,0 +1,47 @@
+{
+ "name": "Mark Davis",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On July 28, 2026, Davis was arrested on a misdemeanor charge of obstructing an officer without violence during a court-ordered child welfare check at his Parrish home. Deputies said he tried to enter despite the order. The sheriff's office said the children were safe. Davis says the complaint is false and retaliation for criticizing Trump and DeSantis.",
+   "why": "A pending misdemeanor charge for his own conduct that hasn't been decided, and I found no outcome, so it is shown but not counted (no criterion fits cleanly; closest is criterion 6, respect for lawful process).",
+   "strength": "reporting",
+   "urls": [
+    "https://www.mysuncoast.com/2026/07/30/watch-congressional-candidate-arrested-during-welfare-check-his-children/",
+    "https://www.yahoo.com/news/politics/articles/fl-16-candidate-mark-davis-095000797.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "A Change.org petition is only an opinion by a private citizen, and it cites no specific facts, dates or records for the social-media conduct it alleges, so it is not documented conduct under any criterion.",
+   "strength": "opinion",
+   "urls": [
+    "https://www.change.org/p/the-removal-of-mark-davis-running-for-16th-district-in-florida"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "No foreign-ties conduct was documented, and nothing I found contradicts that (criterion 2).",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) I found no court disposition for the obstruction charge (Manatee County case). Check the clerk of court docket, because the outcome would change the verdict. 2) The Sarasota Circuit Court order and the arrest affidavit were not read directly. Everything comes from news reports, and the Tampa Bay 28 page loaded only partly. 3) The owner-sites search with Davis's name returned nothing relevant. 4) The petition's claims about his social-media posts (violent rhetoric toward the President, doxxing, comments about women) are unsourced and unverified. Someone could look for the actual posts and any reporting on them. 5) July 2025: Davis was escorted out of a DeSantis press conference after heckling and was not charged, per the Bradenton Herald. I judged that a petty moment and left it out. 6) Not checked: campaign finance and donors, business records, and the claim that he is an Air Force veteran and small business owner."
+}

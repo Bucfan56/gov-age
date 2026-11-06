@@ -1,0 +1,38 @@
+{
+ "name": "Kat Cammack",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On January 4, 2023, while nominating Kevin McCarthy for Speaker, Cammack said Democrats had brought \"popcorn and blankets and alcohol\" into the chamber. Democrats objected loudly. Cammack later said they must have been offended because it struck a nerve.",
+   "why": "This was a floor jab, and Democrats had publicly posted popcorn photos. It involves no abuse of office, no misstatement about her own record and no other conduct under criteria 1 to 6, so it is a petty moment.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.washingtonexaminer.com/news/house/cammack-accuses-dems-drinking-speaker-election",
+    "https://foxnews.com/media/kat-cammack-riles-democrats-alcohol-remark-house-floor-get-offended"
+   ],
+   "owner_sites": [],
+   "check": [
+    "popcorn and blankets and alcohol"
+   ]
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In May 2022, Sean Hannity showed border photos as \"pallets and pallets of baby formula\" while interviewing Cammack, who had shared photos she said came from a Border Patrol agent. CNN reported some images showed NIDO powdered milk for children over 1. Hannity said two pictures were milk products for children over 1.",
+   "why": "The mislabeled images were aired by Hannity, and the reporting I read doesn't show Cammack supplied or mislabeled them, so there is no finding of wrongdoing and no clear bearing on a criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.thewrap.com/sean-hannity-false-baby-formula-photo-cnn-debunks/",
+    "https://www.mediaite.com/media/news/cnn-calls-out-fox-news-for-falsely-identifying-photos-at-border-as-pallets-of-baby-formula-for-illegal-immigrants/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Wikipedia was used only as a map. I did not read Cammack's original May 2022 tweet or the CNN newsletter directly, only reports quoting them. It is unclear whether the NIDO photos came from her office or from Fox. Wikipedia says Hannity \"acknowledged the error\". His tweets conceded the milk-product point but also defended the segment, so I described it that way. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Cammack. I also did not open the Washington Examiner article past its paywall, so I leaned on the Fox News transcript for her response. I did not check for other controversies, since my searches went to these two items."
+}

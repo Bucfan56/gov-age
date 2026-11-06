@@ -1,0 +1,35 @@
+{
+ "name": "Tri Ta",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In September 2019, while facing a recall effort, Mayor Ta proposed a Westminster resolution alleging the Vietnamese government was fueling turmoil at City Hall. Voice of OC reported he gave no specific evidence. The council passed it, with Ta, Ho and Nguyen in favor. Critics said it could label opponents communists. Ta didn't respond to reporters.",
+   "why": "This is a contested political claim and an official vote with no finding of wrongdoing, and it has no clear bearing on a criterion; the recall outcome and the procedure vote were not confirmed beyond Wikipedia.",
+   "strength": "reporting",
+   "urls": [
+    "https://voiceofoc.org/2019/09/westminster-mayor-claims-vietnam-interference-at-city-hall/",
+    "https://voiceofoc.org/2019/09/allegations-of-vietnam-interference-in-westminster-now-official-city-policy/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In January 2022 the Westminster council voted 3-2 to censure Mayor Ta over comments in Vietnamese-language media that a councilmember called false and defamatory. Ta called the allegations \"completely irrational\" and said he meant it was unclear where his new office would be. The censure is symbolic and has no legal force.",
+   "why": "The censure was a split council vote in a factional fight over remarks about his office, not a finding about his record or a sales-tax issue, so it has no clear bearing on a criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://orangecountytribune.com/2022/01/13/council-votes-to-censure-mayor/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The Wikipedia line ties the 2022 censure to the sales-tax dispute. The only censure I found was in January 2022 over Ta's remarks about being 'officeless'. I did not find a separate censure tied to the sales tax. The article said a formal censure resolution would return to the council for final approval, and I did not find that vote. Voice of OC reported that Ta, Nguyen and Do first took non-votes on the sales-tax measure, then Ta and Nguyen voted yes in August 2022 (not used in the items). I could not open the LA Times recall story, so the April 2020 recall result and the 2019 procedure vote are unverified beyond Wikipedia. The owner-sites search returned nothing about Ta. I used 3 of the 4 searches on the items and 1 on the owner sites."
+}

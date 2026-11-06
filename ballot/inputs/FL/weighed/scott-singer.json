@@ -1,0 +1,32 @@
+{
+ "name": "Scott Singer",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 2,
+   "text": "In May 2024, while Boca Raton mayor, Singer joined a U.S. mayors' delegation to Qatar. Reporting says he was photographed with Qatar's minister of municipality. It was not clear who paid for the trip. His campaign says he met U.S. military and the U.S. ambassador, and that he doesn't share all views of attendees.",
+   "why": "Foreign-ties criterion: a foreign-government trip is documented, but no reporting I read shows who paid for it, and no wrongdoing has been found.",
+   "strength": "reporting",
+   "urls": [
+    "https://vinnews.com/2026/10/11/scott-singer-visited-qatar-in-2024-photographed-with-qatari-minister/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is the same 2024 Qatar trip as item 1, so it is not written up twice (criterion 2).",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Check who paid for Singer's May 2024 Qatar trip. If Qatar's government or embassy paid, it would likely count as paid foreign-government travel (criterion 2). I found nothing showing who paid. The Jewish Insider page loaded only partly, so I relied on the VINnews summary of it, which matched the snippets I saw. Other reports suggest the trip's sponsor: the New Orleans mayor's office called the 2024 group the 'Embassy of Qatar's U.S. Mayors Delegation' (search snippet only, since the page body didn't load). Tucson's mayor attended a later forum on a trip the Qatari Embassy paid for, and Qatar paid for DC's mayor in 2023. None of this establishes Singer's payer. Look for his Florida gift or travel disclosures and Boca Raton city records. The search for Singer on the owner's named sites turned up nothing about him. I didn't open the Gulf Times original or The Floridian, which first reported the trip. Reports of the trip were published by pro-Israel outlets in October 2026 during a competitive race against Rep. Moskowitz."
+}

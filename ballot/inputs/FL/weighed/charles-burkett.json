@@ -1,0 +1,32 @@
+{
+ "name": "Charles Burkett",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "Using an AI avatar that he disclosed himself, which he says helps him compete with his opponents' larger budgets, is a campaign-style choice with no finding of wrongdoing and no bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://wusf.org/text/politics-issues/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "This item describes no conduct by him, only that the foreign-ties records searched (FARA filings, foreign-government payments and similar) turned up nothing; any AIPAC-related records are counted in a separate step.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The WUSF page fetch was truncated, so I read the Burkett passage only in the search-result text (it matches item 1). The one search on the owner's named sites returned nothing relevant to Burkett. Item 2 is an absence of records, and I did not independently search FARA or foreign-agent databases. Other items I saw but did not use because they don't meet the against/open bar: (a) a 2021 WSVN/Inside Edition story about bodycam video of him telling a female officer 'I had a crush on you' after he called 911 about loud music, which he denied was harassment; (b) 2023 complaints that he made against another mayor, in which he was the accuser; (c) a dismissed 2020 ethics complaint that he filed himself. CIVICS Scorecard says it found no formal ethics complaints against him. His campaign site says he is a real estate investment firm owner and four-term Surfside mayor, which suggests real work. His self-description as 'Donalds without his baggage and being bought and paid for' is a campaign claim, not a finding. I did not check his property or business holdings, the self-funding source or his attendance as mayor. Those are worth a look if time allows."
+}

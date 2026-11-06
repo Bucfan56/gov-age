@@ -1,0 +1,21 @@
+{
+ "name": "Mark Harris",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2018 Harris's campaign employed operative McCrae Dowless. A February 2019 state hearing heard testimony of an unlawful absentee-ballot scheme, and the board unanimously ordered a new election. Harris said part of his testimony was wrong, citing a health issue. He didn't run again. WSOC reported a prosecutor found no evidence to charge him.",
+   "why": "The board's finding was that the election was tainted, not that Harris himself did wrong, and his admitted testimony error was tied to a health issue, so no clear conduct failing the criterion on abuse of office or lying about his record is established.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.pressreader.com/usa/chattanooga-times-free-press/20190222/281642486453038",
+    "https://www.wsoctv.com/news/local/candidate-mark-harris-speaks-ch-9-first-time-since-ballot-fraud-scandal/ZULQUYQSFBFPLI3ZBMKPQCJR7E/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I didn't read the State Board's written order or findings of fact. I also didn't read the DA's statement that there was no evidence to charge Harris, which I only saw as a linked headline in a WSOC article. A person should check both. His son's testimony that he warned his father about Dowless, and Harris's earlier denials of knowing about any wrongdoing, are in the reporting. He did not admit lying about them, and the board made no finding that he knew. If the board's records show he knowingly misstated his record, this could become a weight-2 'against'. In 2024 he told WSOC he did not accept that the race was tainted enough to require a new election. The search on the owner's named sites turned up nothing about Harris."
+}

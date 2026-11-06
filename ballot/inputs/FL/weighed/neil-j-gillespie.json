@@ -1,0 +1,18 @@
+{
+ "name": "Neil J. Gillespie",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item says no foreign-government payments, FARA filings, state-owned business or foreign-agent donors were found, so there is no conduct to weigh under the foreign-ties criterion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 1 is a statement that nothing was found, not an allegation. I did not search FARA or FEC records directly. My searches turned up no foreign-ties issue for Gillespie, and the owner-site search returned nothing about him. I also looked for other conduct. Gillespie was held in direct criminal contempt in 2023 and sentenced to 30 days. The Fifth District Court of Appeal reversed that in August 2024, and his own blog says the conviction was later vacated. I did not add it as an item because it is not an official finding that meets the against or open bar. He also has a long history of pro se litigation, including sanctions of $11,550 against him in an older Florida case, which I read only in his own email. That is not the kind of conduct the criteria target. The sources I found are mostly his own campaign pages and aggregator sites."
+}

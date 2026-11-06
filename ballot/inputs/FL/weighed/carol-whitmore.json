@@ -1,0 +1,21 @@
+{
+ "name": "Carol Whitmore",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In June 2022, while running for county commission, Whitmore removed two of opponent Jason Bearden's campaign signs and turned them in to police. Bearden filed a criminal complaint. The State Attorney declined to charge her, saying the State could not prove criminal intent. She said she believed the signs were on private property or violated a city ordinance.",
+   "why": "The prosecutor declined charges and made no finding of abuse of office, and a campaign-sign dispute has no clear bearing on the owner's criteria (including criterion 6).",
+   "strength": "reporting",
+   "urls": [
+    "https://thebradentontimes.com/stories/state-attorney-will-not-bring-charges-in-sign-theft-case,31500",
+    "https://www.islander.org/2022/06/criminal-charge-pursued-for-political-sign-removal/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The State Attorney's letter to the governor (whitmore_memo.pdf, linked from the Bradenton Times article) could not be opened, so the item rests on the news report. The Aug. 19, 2022 decision date is not stated in any page I read, so I left it out. The owner-sites search returned nothing about Whitmore. The Islander (Anna Maria) reported that she said at the police station she 'probably shouldn't have done that,' but I only saw that in a search snippet, so I left it out of the text. Her donor-related claims in a 2022 opponent TV ad (development money, 'rubber-stamped' projects) were not examined and are not an item here. Nothing was checked about her current city commissioner record."
+}

@@ -1,0 +1,35 @@
+{
+ "name": "Gus Michael Bilirakis",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 2,
+   "criterion": 6,
+   "text": "In October 2018, Bilirakis's campaign ad showed the words \"Bilirakis INTERDICT Act\" for a fentanyl-detection law. The Tampa Bay Times reported he was neither its sponsor nor one of its 18 co-sponsors. His spokesman said he voted for it and supported it. The spokesman later said he was wrong that it went through Bilirakis's committee.",
+   "why": "Credit for a law he didn't sponsor, in his own campaign's ad, misstates his legislative record (criterion 6), which fits the medium weight for misstating his own record, though it was an ad rather than a personal statement.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.tampabay.com/florida-politics/buzz/2018/10/10/bilirakis-takes-credit-for-law-he-did-not-craft-in-new-ad-touting-fight-on-opioids/",
+    "https://www.wral.com/archive/17915493/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "CNN reports that a county party official, not Bilirakis, made the 'death panels' claim, and Bilirakis's nod was a petty moment. He then said the claim referred to the Independent Payment Advisory Board, which he had voted to repeal, so this doesn't show a lie about his own record under criterion 6.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.cnn.com/2017/02/11/politics/death-panel-florida-gop-congressman/index.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The Tampa Bay Times page itself loaded only its headline and summary. I read the full text through its WRAL syndicated copy. The Fox News piece was not opened. The same Times article also reports a July 2018 campaign news release that overstated the share of donations from Floridians (90% claimed, 62% from individuals). The campaign called it an editing mistake. I did not add it as a separate item. The one search on the owner's named sites (Alex Jones, Infowars and similar) found nothing about this candidate. I did not search stewpeters.com or ryandawson.org individually. Item 1 is from 2018. Item 2 is from 2017. Attendance was not weighed."
+}

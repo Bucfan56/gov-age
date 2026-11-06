@@ -1,0 +1,60 @@
+{
+ "name": "John Wahl",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2020 Wahl showed a Limestone County poll worker a 'regional press secretary' badge from the State Auditor's office as ID. Then-Secretary of State John Merrill and Wes Allen forwarded complaints to the attorney general. Wahl said he'd left his wallet at home. Ex-Auditor Jim Zeigler said he approved the badge and it was professionally printed.",
+   "why": "This bears on criterion 6 (abuse of office), but no agency has issued a finding and the ex-Auditor disputes the 'fake ID' claim.",
+   "strength": "reporting",
+   "urls": [
+    "https://aldailynews.com/wahl-to-make-candidacy-announcement-today-allen-raises-issue-with-homemade-fake-id/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 1,
+   "text": "In 2026 a former legislator challenged Wahl's eligibility for lieutenant governor, citing a Tennessee driver's license and 2020 Tennessee voter registration. The state Republican Party's steering committee dismissed it without a hearing, reportedly on a 9-9 tie broken by the acting chair. Wahl called it a 'political hit job'. His lawyer said a second residence doesn't cancel Alabama residency.",
+   "why": "This bears on criterion 1 (commitment to this area), but the only decision I read is a party committee's, not a court or election official's.",
+   "strength": "reporting",
+   "urls": [
+    "https://aldailynews.com/algop-committee-dismisses-challenge-to-wahls-residency/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2025, Limestone County Republican committee members accused Wahl and his brother of a conflict of interest through their consulting firm, WT&S, which was paid by candidates and the party. The recording and records were reportedly sent to state officials and law enforcement. Wahl has said party bylaws required him to separate from the firm. No finding has been reported.",
+   "why": "This is a serious, undecided accusation of self-dealing (criterion 6), shown but not counted until it is decided.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.alreporter.com/2025/04/17/limestone-republicans-raise-questions-about-wahl-family-influence-consulting-business/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 4,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "A rival criticizing Wahl for attending a faith-community dinner is not conduct bearing on any criterion.",
+   "strength": "opinion",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I could not open the Wikipedia citations, so please check these. (1) Item 2: search snippets from Yahoo/AL.com and the Tuscaloosa Thread said a Montgomery County lawsuit challenging Wahl's residency was dismissed by a judge in October 2026. The Ensler article page would not load, so I left the dismissal out of the text. Check the court ruling and its reasoning. Also, reports differ on the steering committee vote: 9-9 broken by the acting chair (Alabama Daily News) or 10-9 (AL.com via Yahoo/AOL). (2) Item 3: the party's four-year audit and the 'misuse of party funds' claim rest only on Wikipedia and opinion pieces, and I found no reporting that the audit was released. A 2025 1819 News piece said Wahl announced an independent audit by Pearce, Bevill. The ethics complaints and referrals to the Ethics Commission and law enforcement have no reported outcome. The Alabama Ethics Commission's records may show one. The Alabama Political Reporter article was cut off before the end, so I did not read its later sections. (3) Item 1: I did not open the original AL.com stories from 2022, or the 2025 AL.com story on the Tennessee license under 'Nehemiah Ezekiel Wahl'. The claim of simultaneous registration in two states under two names is not confirmed by anything I read. The ADN piece says only that he was registered in Tennessee in 2020. (4) Item 4: I read only Wikipedia's account and not the original reports. (5) The owner-sites search turned up nothing about Wahl."
+}

@@ -1,0 +1,20 @@
+{
+ "name": "Doug Jones",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In the 1980s Jones was a private defense lawyer for Tom Posey, who was accused of illegally shipping weapons to Nicaraguan rebels. Posey was linked to the Ku Klux Klan. In 2017 critics raised this against Jones. His campaign said the charges were dismissed by a federal judge in Florida and that Jones also represented Posey before congressional investigators.",
+   "why": "Serving as a defense lawyer for a client is a professional role, not Jones's own misconduct, and no finding or evidence ties Jones to Posey's views, so this is guilt by association under criterion 6.",
+   "strength": "reporting",
+   "urls": [
+    "https://dailycaller.com/2017/11/22/doug-jones-defended-man-with-ties-to-kkk-holocaust-deniers/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The one search on the owner's named sites returned nothing about Jones, so owner_sites is empty. The Fox News original loaded only its headers when opened, so I read the Daily Caller's rewrite of it, which includes the campaign's response. I could not open the al.com robocall story or the 1987 court and UPI records. Anyone who wants to confirm the dismissal in the Florida federal court, or Jones's later explanation of why he took the case, should check those. The 2017 criticism came from opponents and partisan outlets, and I found no official finding against Jones. I also saw no other items to add that meet the 'against' or 'open' bar."
+}

@@ -1,0 +1,33 @@
+{
+ "name": "Reggie Bellamy",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 5,
+   "text": "In January 2018, then-Commissioner Charles Smith, who later lost his seat to Bellamy, said Bellamy \"seldom shows up for work\" at the Palmetto Youth Center. Smith demanded he resign as director. Bellamy called the claims \"an unfortunate and false statement.\" The center's board chair said Smith was \"completely off base.\" No finding against Bellamy was reported.",
+   "why": "This is a rival's attendance accusation under the showing-up criterion, with no official finding, a direct denial from Bellamy, and a board chair who backed him.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.athleticbusiness.com/operations/personnel/news/15152996/official-calls-for-youth-center-execs-resignation",
+    "https://thebradentontimes.com/stories/candidate-profile-charles-smith-mayor-of-palmetto,103861"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "No foreign government, lobbying or paid-travel conduct by Bellamy is documented, so nothing bears on the foreign-ties criterion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 1: I could not open the Feb 2018 Bradenton Times article ('Palmetto Youth Center Feud Spills Into BOCC'), and only saw it in a search snippet. The snippet says the center's board and director backed Bellamy, and that Smith tied his complaint to the program funding. I found no later report on the outcome, such as the funding vote or any audit of the center. The Sarasota Herald-Tribune's coverage and the county commission minutes from 2018 are worth checking. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Bellamy. Item 2: no foreign ties were found, and I did not search FARA or other filings myself. Bellamy's Palmetto Youth Center pay is listed at $60,000 as executive director on ProPublica Nonprofit Explorer. His wife Freida Bellamy is listed there as secretary with $0 pay. That was a search snippet only, not a page I read. It is not an accusation, but someone could check whether the center received county money while he held both roles. I did not research platform positions, donations or the commission voting record."
+}

@@ -1,0 +1,36 @@
+{
+ "name": "Scott Wiener",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "Writing and sponsoring a bill that a court later partly struck down is an ordinary legislative act, not abuse of office or dishonesty under any criterion, and the pronoun provision the Court of Appeal struck in 2021 was reinstated by the California Supreme Court in November 2025.",
+   "strength": "court",
+   "urls": [
+    "https://calawyers.org/business-law/taking-offense-v-state-july-16-2021-c088485-__-cal-app-5th-__-2021-wl-3013112/",
+    "https://www.gmsr.com/21-521-taking-offense-v-state-of-california-s270535/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "Co-authoring a ballot-disclosure bill that the California Supreme Court found conflicts with the state constitution is an ordinary vote and policy dispute, with no finding of self-dealing, abuse of office or dishonesty by him.",
+   "strength": "court",
+   "urls": [
+    "https://www.kqed.org/news/11787660/california-supreme-court-strikes-down-law-requiring-release-of-trump-taxes",
+    "https://www.atthelectern.com/supreme-court-mostly-neutralizes-law-requiring-presidential-candidate-tax-return-disclosure/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I read only search-result excerpts of the court records and news coverage, not the full opinions. For item 1, the Court of Appeal ruling on July 16, 2021 struck the pronoun provision, and the California Supreme Court reversed that ruling in November 2025, according to a law-firm summary and an advocacy-group account. Both secondary sources should be checked against the Supreme Court opinion. The Wikipedia text that the item came from is out of date on this point. The one search on the owner's sites found nothing about Wiener. I didn't use the other searches or page reads, and I didn't look for conduct beyond these two items."
+}

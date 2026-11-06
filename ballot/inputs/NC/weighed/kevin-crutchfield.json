@@ -1,0 +1,21 @@
+{
+ "name": "Kevin Crutchfield",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In December 2024, WBTV reported that then-Rep. Crutchfield applied for a job in Gov.-elect Stein's administration while weighing a veto override on SB 382. Unnamed sources believed a job was offered for his support of the veto. Crutchfield said he applied like hundreds of others and no offer was made. He voted to override. Stein called the claim untrue.",
+   "why": "The reporting rests on anonymous sources' belief about a trade, and Crutchfield and Stein both deny it, he voted the opposite way, and no official finding exists, so it has no clear bearing on abuse of office (criterion 6).",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wbtv.com/2024/12/11/north-carolina-republican-lawmaker-sought-job-stein-administration-while-considering-supporting-veto/",
+    "https://www.wbtv.com/2025/01/03/stein-answers-questions-about-phone-call-with-north-carolina-lawmaker/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The owner-sites search (Crutchfield plus alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about him. The Wikipedia summary says the page gives no denial, but the original WBTV articles do include denials from Crutchfield and Stein, so the item text uses them. Crutchfield's emailed statement cites 'SB 362', which looks like a typo for 382. I did not find the specific state agency job he applied for, any official inquiry, or any later coverage during the 2026 campaign. I did not research his career, donations or other records, because only this one item was assigned."
+}

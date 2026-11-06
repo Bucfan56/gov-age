@@ -1,0 +1,63 @@
+{
+ "name": "Tim Moore",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2016 a senior Moore aide asked state environmental staff about fuel tanks at a Siler City poultry plant Moore co-owned and was selling. The plant later got a $22,000 tank reimbursement. Moore said he knew nothing of the calls. DEQ staff said they felt no pressure. A 2018 complaint was dismissed; a second was filed in 2019.",
+   "why": "Reporting shows the aide's contacts with DEQ but no finding of abuse of office by Moore, whose own DEQ dealings were cleared by the ethics board (criterion 6).",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wral.com/speaker-s-aide-buzzed-deq-staffers-about-boss-chicken-plant-deal/18115552/",
+    "https://www.carolinajournal.com/ethics-complaint-against-house-speaker-moore-dismissed/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 4,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2012 Moore's Kings Mountain law practice received a $62,000 state-approved development grant. NC Newsline reported this led to warnings that he should avoid conflicts of interest or the appearance of them. Moore's response was not found in the reporting.",
+   "why": "The grant is reported, but I read no finding of self-dealing or details of how it was awarded (criterion 6).",
+   "strength": "reporting",
+   "urls": [
+    "https://ncnewsline.com/2023/07/05/resolved-but-still-relevant-tim-moore-appears-to-sidestep-another-potential-scandal/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 5,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2022 former state Rep. Holly Grange, a UNC-Wilmington trustee, said she was removed from the board because she refused to back Moore's preferred chancellor candidate. A House bill was filed to replace her before her term ended. Moore's response was not found in the reporting.",
+   "why": "This is an undecided accusation of using his office to retaliate (criterion 6), so it is shown but doesn't count.",
+   "strength": "reporting",
+   "urls": [
+    "https://ncnewsline.com/2023/07/05/resolved-but-still-relevant-tim-moore-appears-to-sidestep-another-potential-scandal/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 6,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In June 2023 Scott Lassiter sued, alleging Moore had an affair with his wife. Moore acknowledged a casual relationship but denied using his political power. The suit was resolved in July 2023.",
+   "why": "This is a private personal matter, and the filing's claim of political favors came with no evidence, so it has no clear bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://ncnewsline.com/2023/07/05/resolved-but-still-relevant-tim-moore-appears-to-sidestep-another-potential-scandal/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 1: I did not find how the January 2019 second Campaign for Accountability complaint (about the aide's calls) ended. Wikipedia says a panel unanimously dismissed a complaint, but I couldn't tell which one. The 2018 complaint's dismissal is documented in the Carolina Journal and WRAL pieces. The dismissal letter itself and the second complaint PDF were not opened. Item 2: The Intel, Centene and UnitedHealth purchases and the insider-trading denial were not verified from a primary page and were left out of the text. No official House Ethics finding was found, and I did not read the House disclosure filings themselves. Item 3: The FBI inquiry came only from the item description. I opened no source and did not open Wikipedia, so the text has no URL. Item 4: I did not find the original grant records or the ethics commission member's advice. The NC Newsline article characterizes the grant, and a partisan blog and a Substack post make stronger claims that I did not rely on. Item 5: I did not read the full WHQR and Assembly pieces, which include emails and Grange's own words. Moore's response was not found. Owner's sites: my one search for Moore on alexjoneslive.com, stewpeters.com, ryandawson.org and infowars.com returned nothing relevant. Moore lost the 2026 general election to LaKesha Womack according to WUNC, which may matter for how this guide is used."
+}

@@ -1,0 +1,20 @@
+{
+ "name": "Sharon Jefferson",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item says no foreign-government payments, foreign-agent donors or similar ties were documented, so there is no conduct to weigh under the foreign-ties criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wusf.org/local-state/2026-07-27/four-candidates-challenge-incumbent-race-manatee-school-board"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The searches found no reporting tying Jefferson to foreign money, and nothing from the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up. The one reported campaign-finance detail is that all her contributions were individual gifts of $200 or less, about $3,700 as of July 2026. Reports from Nov 3-4, 2026 say she won the runoff against incumbent Cindy Spray. Before that she was a teacher and candidate, so she has not yet held the seat and has no board record. A Bradenton Times piece describes dark-money attack mailers against her, but that is about others' conduct, not hers, and I left it out. I did not open the FARA database or the state campaign-finance database directly."
+}

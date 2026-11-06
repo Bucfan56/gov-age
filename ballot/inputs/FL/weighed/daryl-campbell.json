@@ -1,0 +1,21 @@
+{
+ "name": "Daryl Campbell",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "A former district aide sued the Florida House in September 2024. She alleges Campbell pressed her to share rooms on work trips, then had her fired in November 2023 after she complained. Campbell isn't a defendant. He denies the claims and says her firing was for documented, unrelated reasons. No ruling found.",
+   "why": "This is a serious, undecided accusation of misuse of his office (criterion 6) against his own conduct, so it is shown but doesn't count.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.miaminewtimes.com/news/former-aide-accuses-florida-rep-daryl-campbell-of-sexual-harassment-21814266/",
+    "https://floridapolitics.com/archives/709207-ex-aide-sues-house-accuses-daryl-campbell-of-sexual-harassment/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The outcome of Guice v. Florida House is still not found. I couldn't open the complaint itself. I relied on the Miami New Times and Florida Politics reports, which quote and summarize it. Campbell isn't a named defendant, since the suit names only the House. A search result showed the First DCA dismissed a House petition (Florida House v. Guice, No. 1D2025-2066, Oct 29, 2025). I did not open that page, and it looks procedural, so check the Leon County docket for the current status, any settlement, and any House or ethics investigation. The search on the owner's named sites (Alex Jones, Stew Peters, Ryan Dawson, Infowars) found nothing about Campbell."
+}

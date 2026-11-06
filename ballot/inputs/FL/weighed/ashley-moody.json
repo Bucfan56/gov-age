@@ -1,0 +1,47 @@
+{
+ "name": "Ashley Moody",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "A Leon County grand jury report, obtained by a CBS Miami reporter, said $10 million from a Medicaid settlement was misappropriated. It cited Moody's involvement or knowledge while she was attorney general. No one was charged. On Oct. 7, 2026, an appeals court ordered the report expunged, saying the grand jury acted outside its authority.",
+   "why": "The grand jury's finding was expunged by a court and no one was charged, so there is no finding of abuse of office or self-dealing (criterion 6) against Moody.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridatrib.org/2026/10/09/how-state-officials-fought-for-months-to-keep-a-lid-on-hope-florida-report/",
+    "https://www.wlrn.org/government-politics/2026-10-26/angie-nixon-keeps-hammering-on-hope-florida-what-happened-what-was-ashley-moodys-involvement"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "On Sept. 21, 2022, The 65 Project published an ethics complaint against then-Florida Attorney General Moody. The outcome of the complaint could not be found.",
+   "why": "There is no finding of any violation, and I could not read the complaint itself, so it has no clear bearing on criterion 6.",
+   "strength": "reporting",
+   "urls": [
+    "https://the65project.com/ethics-complaint-against-ashley-moody/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "No foreign-government payments, FARA filings or foreign-agent donors were documented, so there is no conduct to weigh under criterion 2.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I ran out of page reads before I could open the full text of several sources. The WGCU and WLRN/PolitiFact pages loaded only navigation and metadata, with no article body. The Florida Bulldog page loaded only partly. Text for item 1 therefore rests on the Florida Trib article and the WLRN page metadata. Check these before publishing: (a) the actual 1st DCA opinion (https://flcourts-media.flcourts.gov/content/download/2496416/opinion/Opinion_2026-2435.pdf), which was linked from the Trib article and not opened; (b) Moody's own response, since a campaign spokesman said the court ruling 'speaks for itself' and Moody called the insinuations political, but I could not read those pages; (c) whether the rehearing request is still pending, since the Florida Center for Government Accountability reportedly filed a motion; (d) the 65 Project complaint PDF and its outcome. Florida Bulldog reported that the Florida Bar declined to investigate a separate 2021 complaint by Pam Keith over the same Texas v. Pennsylvania suit, and it is unclear whether the 2022 complaint was handled the same way. The owner-sites search for Moody returned nothing relevant from alexjoneslive.com, stewpeters.com, ryandawson.org or infowars.com. Attendance was left off as instructed. I did not weigh AIPAC items. I searched for these and found none. I did not search for Moody's own conduct beyond these three items."
+}

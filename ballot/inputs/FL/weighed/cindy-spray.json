@@ -1,0 +1,36 @@
+{
+ "name": "Cindy Spray",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In May 2025, Spray voted with two other board members to end Superintendent Jason Wysong's contract without cause. The vote was 3-2. Board members cited communication problems and his handling of a teacher misconduct case. Two members opposed the vote and critics said it was rushed. No wrongdoing was found.",
+   "why": "This is an ordinary 3-2 board personnel vote that critics disagreed with, with no finding of wrongdoing by Spray and no clear bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://thebradentontimes.com/stories/race-analysis-manatee-school-board-district-2,215064",
+    "https://wusf.org/text/education/2025-05-20/manatee-county-school-board-terminates-superintendent-jason-wysong",
+    "https://baynews9.com/fl/tampa/news/2025/05/20/despite-educational-gains--manatee-county-fires-superintendent-over-communication-issues"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2025"
+   ]
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "No foreign government payments, foreign-agent filings or foreign-linked donors were found for Spray.",
+   "why": "No conduct by this person was found under the foreign-ties criterion, so there is nothing to weigh.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I found no coverage of Spray on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com). The one search I spent on them returned only unrelated results. Item 2 was a null finding. I did not search FARA or state campaign-finance records directly, so a person could spot-check those. Item 1: one radio piece (WSLR) said critics called for a Sunshine Law investigation of the abrupt special meeting. I found no complaint, finding or investigation naming Spray. WUSF reported the matter was also reported to the Florida Department of Education's Office of Professional Practices. That appears to concern the teacher case, and I did not read what it covers. I did not look for her campaign finance, attendance or business records. The Bradenton Times analysis mentions she worked in accounting at PepsiCo, which is relevant to the real-work criterion. The Bradenton Times also notes she is seen as an outsider to District 2, but has lived in Manatee County since 2008."
+}

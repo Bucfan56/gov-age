@@ -1,0 +1,21 @@
+{
+ "name": "Lisette Bonano",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 1,
+   "criterion": 6,
+   "text": "Florida Division of Elections records for Bonano's campaign account include a December 2024 failure-to-file letter and a fine letter in April 2025. A fine final notice followed in June 2025. The file also lists a January 2026 Florida Elections Commission order.",
+   "why": "Repeated late campaign-finance filings that drew assessed fines are a minor filing violation under the not-taking-advantage-of-position criterion, so I gave it weight 1.",
+   "strength": "official",
+   "urls": [
+    "https://dos.elections.myflorida.com/campaign-docs/?account=84125"
+   ],
+   "owner_sites": [],
+   "check": [],
+   "edited": true
+  }
+ ],
+ "for_review": "I could not open the Florida Politics article (the fetch failed). I confirmed the item only from the Division of Elections document index for her account. I could not open the PDFs, so the fine amounts, the number of late reports, whether the fines were paid, and what the January 2026 Florida Elections Commission order says are all unverified. The index also lists audit letters (Jan, Mar and Sep 2026) that I did not open. A search on the owner's named sites found nothing about her."
+}

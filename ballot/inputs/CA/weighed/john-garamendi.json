@@ -1,0 +1,37 @@
+{
+ "name": "John Garamendi",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "As Insurance Commissioner, Garamendi took over failed insurer Executive Life in 1991. It was sold to a French investor group tied to a government-controlled bank, which California law bars. In 1999 he sued the buyers. In 2005 he testified that he was never told and had said the group could not own it. Investors' lawyers said he knew or should have known. The state settled in 2005 for $516.5 million with Credit Lyonnais and related parties.",
+   "why": "No court or official finding of wrongdoing by him was found, and the records show him suing the buyers and recovering money, so it has no clear bearing on foreign ties or abuse of office.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.insurancejournal.com/magazines/mag-features/2005/03/21/53523.htm",
+    "https://www.insurance.ca.gov/0400-news/0100-press-releases/archives/release068-15.cfm"
+   ],
+   "owner_sites": [],
+   "check": [
+    "516.5"
+   ]
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 1,
+   "text": "",
+   "why": "He said openly in 2009 that his home was outside the district while he owned property inside it, and the report notes House candidates need not live in the district, so this is a petty moment rather than misconduct bearing on commitment to the area.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.sfgate.com/politics/article/Garamendi-changes-course-for-Tauscher-s-seat-3163996.php"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I did not read the original Sacramento Bee editorial or the policyholder leader's 'shocking' quote about the 2005 settlement, so the text leaves out the policyholder criticism. I did not open the FBI or U.S. Justice Department records on the criminal charges and the federal settlement with the French bankers, and those could be checked. The owner-sites search (one search) turned up nothing about Garamendi on those sites. Attendance was not weighed, as instructed. A Substack post in the search results described him as ill when the House adjourned in September, and I did not open it. Attendance is handled in a separate step."
+}

@@ -1,0 +1,21 @@
+{
+ "name": "Norman Sanderson",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Arrested Oct. 18, 2025 in Raleigh, where a breath test showed 0.16. On June 10, 2026 he pleaded guilty to driving while impaired. He got a suspended 30-day sentence and 12 months of unsupervised probation. The open-container and traffic-officer charges were dismissed. After the arrest he said, \"Last night I made a regrettable mistake, and I take responsibility for my actions.\"",
+   "why": "This is a court-recorded personal DWI conviction, but it involves no use of his office, self-dealing or dishonesty, and it doesn't clearly fail any of the owner's criteria (including criterion 6), so it is shown without counting.",
+   "strength": "court",
+   "urls": [
+    "https://www.carolinajournal.com/nc-sen-norman-sanderson-pleads-guilty-to-dwi-in-wake-county/",
+    "https://nsjonline.com/article/2026/08/court-records-show-plea-in-lawmakers-dwi-case/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The Ballotpedia page was only partly readable: its DUI section was cut off, so the verdict rests on Carolina Journal and North State Journal reporting of the court records. I did not open the court record itself. The one search on the owner's named sites returned nothing about Sanderson. North State Journal said he had not commented since the arrest. The statement I quoted was made right after the arrest, as Carolina Journal reported. Reports differ on the fine. North State Journal says $100, and WCTI says $493 in fines and fees. Other reports mention a one-year license suspension with limited driving privileges. A separate Dec. 2025 North State Journal headline says his legislative assistant was charged with arson. I did not read it, and it does not involve his own conduct."
+}

@@ -1,0 +1,20 @@
+{
+ "name": "Scott Peters",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In August 2006 a city-commissioned audit report found Peters and eight other current and former San Diego officials negligent in ensuring the city's financial disclosures to investors were accurate. Negligence is the lowest of three levels of potential securities fraud. The report covered the city's pension and sewer finances.",
+   "why": "The report is an official finding of negligence in disclosure duties (criterion 6), but it found no abuse of office or self-dealing and no intentional fraud, so it is shown but not counted.",
+   "strength": "reporting",
+   "urls": [
+    "https://voiceofsandiego.org/2006/08/09/report-puts-city-among-elite-group-of-frauds/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) The owner-sites search returned only material about a different person (Stew Peters), nothing about Scott Peters, so owner_sites is empty. 2) For item 1, the pages I could read in full did not show these points, so I left them out of the text: the 2002 vote itself, the SEC clearing the council members of fraud, the $631,000 defense cost, and Peters's statement that he disagreed with the negligence finding. Search snippets said Peters disagreed with the finding, and a KPBS snippet said the SEC cleared the officials of fraud. The KPBS page body was cut off when I opened it. Check the KPBS 2008-12-23 story and the 2006 Voice of San Diego coverage before publishing. 3) I did not open the Kroll report itself. It was commissioned by the city's audit committee and is not a court or SEC finding, so I weighed it as context. 4) The item 2 text covers 2007 and 2008 only. The page I read did not show his 2007 response, and the 2008 article says he declined comment through a spokeswoman."
+}

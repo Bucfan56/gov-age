@@ -1,0 +1,35 @@
+{
+ "name": "Moliere \"Moe\" Dimanche",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In 2007, at age 19, Dimanche got a 10-year sentence for theft of construction materials and served about 8.5 years. He says he is innocent: he was paid to drive a truck, didn't know the materials were stolen, and was acquitted of the charged crimes but sentenced for a lesser one. He missed the 2023 Orlando mayoral ballot because he didn't pay the qualifying fee.",
+   "why": "This is a private-life conviction from about 20 years ago, not conduct in any office or position, and the fee disqualification was procedural, so neither clearly bears on a criterion (including criterion 6).",
+   "strength": "own_words",
+   "urls": [
+    "https://ivoterguide.com/candidate/70435",
+    "https://palmharbordunedinbeacon.com/articles/fedex-driver-dimanche-runs-for-florida-governor-mvsmztcb"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2023"
+   ]
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item documents no foreign government money, lobbying, paid travel or FARA filings, so there is no conduct to weigh under foreign ties.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I couldn't read the WLRN/WUSF article body (only the page header loaded), so the 'unpaid fees and appealed fines' wording in item 1 is unverified. I found no source for the 'appealed fines' part. I also never read the 2007 judgment itself. A federal court order (M.D. Fla., case 2025-02255) summarises his claim that a jury acquitted him and a judge fabricated the guilty verdict. A Grokipedia page says he was convicted of third-degree grand theft. I could not open the order, and Grokipedia was not used for any verdict. The CIVICS Scorecard says a 2022 Orange County case (2022-CF-13561, grand theft and false filing over a property dispute) was dropped and ended in an August 2023 misdemeanor plea to criminal mischief and trespass. That detail is marked 'operator-supplied' and I could not confirm it from the Orange County docket. Someone should check it, along with the property litigation in the federal order. The owner-sites search returned nothing about this candidate."
+}

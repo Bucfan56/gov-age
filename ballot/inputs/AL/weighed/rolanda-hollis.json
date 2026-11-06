@@ -1,0 +1,34 @@
+{
+ "name": "Rolanda Hollis",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Hollis was arrested Sept. 22, 2019, at a Destin, Florida hotel on a misdemeanor battery charge. A witness told police she shoved a male family member. Hollis and the man denied any altercation, though she admitted throwing a glass. She was released the next morning on a signature bond. No court outcome was found.",
+   "why": "The arrest is documented, but there is no finding or conviction and it doesn't clearly bear on any criterion, such as abuse of office or self-dealing.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.alreporter.com/2019/09/25/alabama-rep-rolanda-hollis-arrested-in-florida-on-domestic-violence-charge"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "Filing a bill the owner may dislike, which Hollis described as a response to the abortion ban, is a legislative stance and not misconduct, and the pro-life platform score already covers it.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wsfa.com/2020/02/14/alabama-bill-would-force-men-get-vasectomy/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) I found no court disposition for the 2019 Okaloosa County, Florida battery case. A check of the Okaloosa clerk of court docket would settle whether it was dropped, diverted or tried. 2) I could not open the Northwest Florida Daily News or AL.com originals, because the fetch tool rejected those links. The facts in item 1 come from the Alabama Political Reporter article, which cites the Daily News and sheriff's records. 3) Wikipedia names the husband and the other reports don't, so I left his name out. 4) Searching for Hollis alongside alexjoneslive.com, stewpeters.com, ryandawson.org and infowars.com turned up nothing about her. I did not search each site separately. 5) I did not look into her finances, real estate work, foreign ties, or other controversies, because of the search limit. Her bio notes she is a real estate broker with an accounting degree, which could be checked for criterion 4."
+}

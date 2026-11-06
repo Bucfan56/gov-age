@@ -1,0 +1,21 @@
+{
+ "name": "Chris Nocco",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 3,
+   "criterion": 6,
+   "text": "A 2020 Tampa Bay Times investigation reported a sheriff's program that sent deputies repeatedly to families' homes, including children's. In a December 2024 settlement, his office acknowledged it interfered with four residents' constitutional rights, ended the program and agreed to pay $105,000. The office said it settled to save taxpayers money and won't apologize.",
+   "why": "Under criterion 6 (abuse of office), the sheriff's own office signed a settlement acknowledging its program he created violated residents' constitutional rights; this is an agency admission, not a court finding, so it takes the nearest level, 3.",
+   "strength": "official",
+   "urls": [
+    "https://floridaphoenix.com/2024/12/05/pasco-county-sheriffs-office-settles-intelligence-led-policing-program/",
+    "https://reason.com/2024/12/04/pasco-county-sheriff-will-end-predictive-policing-program-to-settle-lawsuit-over-harassment/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I read the settlement through Florida Phoenix and Reason coverage, not the agreement itself. Reason links it at ij.org/wp-content/uploads/2024/12/FedEx-Scan-2024-12-04_10-57-01.pdf, but I couldn't open that link. I also didn't open the Tampa Bay Times series itself. The sheriff's office says a court found its written policies constitutional, that it won all earlier cases, and that the Times relied on false reporting by former employees. I didn't verify those claims. The office also said in 2023 that it never engaged in predictive policing, which a reviewer could compare with the settlement. The one search on the owner's named sites (Alex Jones, Stew Peters, Infowars) found nothing about Nocco. The weight of 3 is a judgment call. A reviewer may prefer a lower weight because the admission came in a settlement and no court ruled against him."
+}

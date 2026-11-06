@@ -1,0 +1,18 @@
+{
+ "name": "Sheldon \"Mailman\" Jones",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item says no foreign-government payments, FARA filings, state-owned business or foreign-agent donors were found, and my searches turned up none either, so there is no conduct to weigh under the foreign-ties criterion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 1 is a 'nothing found' entry, so there was nothing to read. I searched the candidate's name and ethics-complaint terms, and I searched the name together with the owner's named sites. Nothing relevant came back from those sites. The ethics-complaint results were about other people named Jones. I did not open any FARA or campaign-finance database directly, so someone could check the Manatee County Supervisor of Elections and Florida Division of Elections donor reports. Jones lost the Nov. 3, 2026 Ward 2 race to Sunshine Joiner, 45.9% to 54.1% in unofficial results, so he is a former commissioner. I found no abuse-of-office or self-dealing finding against him, and I added no extra items."
+}

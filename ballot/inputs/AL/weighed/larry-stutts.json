@@ -1,0 +1,20 @@
+{
+ "name": "Larry Stutts",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In March 2015, Stutts filed a bill to repeal a law on minimum insured hospital stays after childbirth and a law on dense-breast-tissue notices. The stay law was named for a former patient who died in 1998. Her widower's malpractice suit was settled on confidential terms. Stutts withdrew the bill, saying it was unrelated to any patient case.",
+   "why": "A real, widely reported episode, but a withdrawn bill and a confidentially settled lawsuit are not a finding of wrongdoing and do not clearly bear on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://news.yahoo.com/alabama-lawmaker-drops-bid-repeal-law-named-dead-235555555.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Reuters (via Yahoo) confirms the malpractice suit was settled on confidential terms, so the Wikipedia-only settlement claim is now sourced. I could not open the original al.com, Washington Post or Public Integrity pieces, or the court filings in the wrongful-death suit; I saw only search-result snippets of WAFF's report on the suit. The Brainerd Dispatch copy of the Reuters story was blocked. The search on the owner's named sites returned nothing about Stutts. Stutts's exact quote ('neither the bill nor today's decision is related to any patient case I have had during my medical career') appears only on Wikipedia and repbio.org, so I paraphrased the Reuters version. No other controversies were searched because of the search limit."
+}

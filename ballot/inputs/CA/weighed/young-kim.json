@@ -1,0 +1,21 @@
+{
+ "name": "Young Kim",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In November 2018, as late-counted ballots erased Kim's early lead in the 39th District race, her campaign accused Gil Cisneros's campaign of harassing and intimidating vote counters. Cisneros's campaign called the claim false. Kim then conceded and called Cisneros to congratulate him.",
+   "why": "The accusation concerned her opponent's conduct rather than her own record, no wrongdoing by Kim was found, and she conceded, so it has no clear bearing on the 'lying about their record' or abuse-of-office criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.foxnews.com/politics/republican-young-kim-loses-lead-in-california-house-race-accuses-opponent-gil-cisneros-of-harassing-vote-counters",
+    "https://voiceofoc.org/2018/11/republican-young-kim-concedes-to-democrat-gil-cisneros-all-7-oc-congressional-seats-blue/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I got past Wikipedia, but the Fox News page text was cut off after its summary line. Fox's article (via search snippet) says the LA County Registrar told Business Insider it had not addressed ballot tampering, which contradicts a Kim campaign claim; I did not cite that detail because I couldn't read it on the page. Wikipedia says Kim 'alleged voter fraud', but the reporting I found describes her allegations as harassment of vote counters and ballot tampering by the Cisneros campaign. Please check Kim's original campaign statement and the Business Insider and Registrar responses if you want to decide whether any claim was knowingly false; I did not find a record showing that. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Kim. Attendance was not weighed."
+}

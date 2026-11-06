@@ -1,0 +1,134 @@
+{
+ "analilia-mejia": {
+  "chamber": "U.S. House",
+  "roll_calls": 189,
+  "missed": 0,
+  "missed_pct": 0.0,
+  "longest_run": 0,
+  "run_from": null,
+  "run_to": null,
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "nellie-pou": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 0,
+  "missed_pct": 0.0,
+  "longest_run": 0,
+  "run_from": null,
+  "run_to": null,
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "lamonica-mciver": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 3,
+  "missed_pct": 0.4,
+  "longest_run": 2,
+  "run_from": "2026-06-23",
+  "run_to": "2026-06-23",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "donald-norcross": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 95,
+  "missed_pct": 14.1,
+  "longest_run": 52,
+  "run_from": "2025-04-07",
+  "run_to": "2025-05-22",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "chris-smith": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 6,
+  "missed_pct": 0.9,
+  "longest_run": 2,
+  "run_from": "2025-06-03",
+  "run_to": "2025-06-03",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "jeff-van-drew": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 10,
+  "missed_pct": 1.5,
+  "longest_run": 2,
+  "run_from": "2026-04-27",
+  "run_to": "2026-04-27",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "herb-conaway": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 15,
+  "missed_pct": 2.2,
+  "longest_run": 4,
+  "run_from": "2026-02-24",
+  "run_to": "2026-02-24",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "cory-booker": {
+  "chamber": "U.S. Senate",
+  "roll_calls": 915,
+  "missed": 40,
+  "missed_pct": 4.4,
+  "longest_run": 7,
+  "run_from": "2026-06-16",
+  "run_to": "2026-06-17",
+  "through": "2026-09-30",
+  "source": "https://voteview.com/congress/senate"
+ },
+ "thomas-kean-jr": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 146,
+  "missed_pct": 21.6,
+  "longest_run": 142,
+  "run_from": "2026-03-17",
+  "run_to": "2026-06-29",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "josh-gottheimer": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 85,
+  "missed_pct": 12.6,
+  "longest_run": 16,
+  "run_from": "2025-06-04",
+  "run_to": "2025-06-11",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "frank-pallone": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 2,
+  "missed_pct": 0.3,
+  "longest_run": 2,
+  "run_from": "2025-12-04",
+  "run_to": "2025-12-04",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "rob-menendez": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 0,
+  "missed_pct": 0.0,
+  "longest_run": 0,
+  "run_from": null,
+  "run_to": null,
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ }
+}

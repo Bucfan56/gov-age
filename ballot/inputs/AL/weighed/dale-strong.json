@@ -1,0 +1,36 @@
+{
+ "name": "Dale Strong",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "On October 23, 2020, the Madison County Commission, which Strong chaired, had a Confederate monument moved from the courthouse grounds to a cemetery. The Alabama Attorney General said this broke the state Memorial Preservation Act and sued. A $25,000 fine was paid and the suit was dismissed. County lawyers said an undisclosed third party paid it, not taxpayers.",
+   "why": "The Attorney General's determination was about a commission decision with no personal gain, and a court never ruled on it, so it does not clearly fail the abuse-of-office criterion (6).",
+   "strength": "official",
+   "urls": [
+    "https://www.alabamaag.gov/attorney-general-steve-marshall-announces-receipt-of-madison-county-payment-for-violation-of-alabama-memorial-preservation-act/",
+    "https://www.waff.com/2021/09/01/madison-county-confederate-monument-lawsuit-dismissed/",
+    "https://www.wbrc.com/2020/11/20/attorney-general-files-lawsuit-against-madison-county-over-relocation-confederate-monument/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In November 2019, three Madison County volunteer fire chiefs told WAFF that Strong, the commission chairman and a Monrovia volunteer firefighter, used his influence to favor Monrovia in county budgets. Monrovia led all volunteer stations by over $130,000. Strong said Monrovia pays more property tax and so gets more back. He said he recommends funding but the commission votes on the budget.",
+   "why": "This is an unresolved accusation of favoring his own community's fire station (criterion 6), with no official finding and a tax-based explanation from Strong.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.waff.com/2019/11/15/investigates-madison-county-fire-chiefs-call-out-chairman-funding/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I found nothing on Strong on the owner's named sites; the one search returned only unrelated Alex Jones and Infowars news. Item 1: The Attorney General's release says Madison County paid the $25,000. County lawyers said in a court motion that an undisclosed third party paid it, so the sources conflict. Wikipedia says Strong called the move necessary for the monument's structural integrity, and a WHNT piece quotes him on a private donor paying the fine. I could not open the WHNT page (alabamas42.com copy) and found no other source for the structural-integrity claim, so neither is in the text. Also unverified: the unanimous commission vote, and that Strong was chairman in October 2020, which Wikipedia reports. The AG's lawsuit filing itself was not opened. Item 2: The WAFF page was cut off partway through. Its later parts, and any official audit or follow-up on county fire funding, were not read. Strong's 2020 funding figures (Monrovia over $300,000 versus $43,000 for another station) came only from a search snippet. Attendance was not weighed."
+}

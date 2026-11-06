@@ -1,0 +1,35 @@
+{
+ "name": "Ileana Garcia",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "The 2020 ghost-candidate scheme was Frank Artiles's conduct, he was convicted, and the State Attorney found Garcia was not part of the plot, so this shows no conduct by her under criterion 6.",
+   "strength": "reporting",
+   "urls": [
+    "https://cbsnews.com/miami/news/former-state-senator-frank-artiles-facing-corruption-charges-in-district-37-race",
+    "https://www.newsweek.com/florida-election-drama-alaska-senate-race-12649525"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is a floor remark that she apologized for, and it is about speech and a vote on a bill, not abuse of office, self-dealing or lying about her record under any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.newsweek.com/florida-senator-issues-apology-after-saying-gay-not-permanent-thing-1689233"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Searched the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) with her name. Nothing relevant to her turned up, so owner_sites is empty for both items. Item 1: I read the CBS Miami report from March 2021 and the Newsweek article of Nov 2, 2026. I did not read the State Attorney's own press materials, the court records, or Garcia's own statement. A Miami Herald excerpt (seen only in a search result, not opened) quotes Garcia saying she did not know who Artiles was until the Herald reported his ties to her race. Item 2: I read Newsweek's March 2022 report quoting her apology. I did not watch the Senate floor video. Newsweek also reports she was criticized for how she described a transgender friend. A Miami-Dade Democratic Party endorsement page says she claimed her comments were taken out of context. That page is partisan and I did not open it. Not checked: the Florida Politics 'overcomes controversies' article, which could not be opened because the link came only from Wikipedia. My one extra search found no ethics complaint or pending investigation involving her. Her campaign finance, foreign ties, business or career history, and sponsored bills were not examined."
+}

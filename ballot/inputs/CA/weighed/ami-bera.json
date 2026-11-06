@@ -1,0 +1,38 @@
+{
+ "name": "Ami Bera",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In May 2016 Bera's father pleaded guilty to making excessive and straw-donor contributions to his son's 2010 and 2012 campaigns. He was sentenced to a year and a day and fined $100,000. Bera said neither he nor his campaign knew until prosecutors told them. The campaign repaid $268,726. The FEC dismissed the complaint against Bera.",
+   "why": "The wrongdoing was his father's own conduct, and the record shows no finding that Bera knew or took part, so this is guilt by association under the criterion on not abusing the position.",
+   "strength": "official",
+   "urls": [
+    "https://www.justice.gov/usao-edca/pr/southern-california-man-pleads-guilty-making-illegal-contributions-his-son-s",
+    "https://www.fec.gov/files/legal/murs/7072/17044405052.pdf"
+   ],
+   "owner_sites": [],
+   "check": [
+    "100,000",
+    "268,726"
+   ]
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In May 2015 BuzzFeed News reported that a Sacramento Bee op-ed under Bera's name backing fast-track trade authority closely matched wording from Business Roundtable, Third Way and a White House report. His spokesperson said the piece reflected his research and meetings with people on all sides of the issue.",
+   "why": "This is a one-time 2015 editing lapse over borrowed talking points, with no finding of wrongdoing and no bearing on any criterion, since it concerns neither lying about his record nor abuse of office, and his trade position is a stance the platform score already covers.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.buzzfeednews.com/article/evanmcsan/ami-bera-trade-op-ed"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The owner-named sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Bera, so owner_sites is empty. Item 1: I read the DOJ press release and the FEC's MUR 7072 dismissal, which cites the sentence and the DOJ's September 2016 decision to bring no further charges. I did not read the court docket itself or Bera's original May 2016 statement. The FEC dismissed on prosecutorial discretion, citing no information showing he knew, same-day repayment and the statute of limitations. Bera's campaign spokesman said the DOJ statement did not exonerate him. Item 2: I read only the BuzzFeed piece. Bera's apology (quoted by the NRCC and Breitbart) came from partisan pages, so I left it out of the text. I did not find the original Sacramento Bee op-ed. If a reviewer wants it shown, 'context' would also fit item 2. No attendance or AIPAC matters were weighed."
+}

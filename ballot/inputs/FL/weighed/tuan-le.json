@@ -1,0 +1,35 @@
+{
+ "name": "Tuan Le",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "A 2025 Winter Garden Vox report, citing court and state records, found his Brevard County restaurants faced eviction suits, tax liens and food-safety violations. A court ordered $62,259.69 in unpaid rent; records show that suit satisfied. Le said he had nothing to hide. In 2026 his qualifying-fee check bounced; he called it \"my mistake\" and replaced it.",
+   "why": "These are business failures and a corrected bounced check, with no finding of abuse of office, self-dealing or lying, so they have no clear bearing on the criteria (he has a real career, criterion 4).",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wintergardenvox.com/articles/tuan-les-restaurant-chain-left-trail-of-evictions-unpaid-bills-tax-lines-health-code-violations",
+    "https://www.wintergardenvox.com/articles/gop-candidate-for-house-district-40-bounced-check-for-qualifying-fee"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": null,
+   "verdict": "against",
+   "weight": 1,
+   "criterion": 6,
+   "text": "Florida Department of State letters show Le missed two campaign finance report deadlines in September 2026. As of Oct. 10, no reports were on file for his campaign. Le is his own treasurer. He called it his mistake, cited a health issue, and said he would file the reports.",
+   "why": "Missing required campaign finance filings is a smaller filing violation, and the criterion 6 level is the nearest fit, though no fine has been reported.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wintergardenvox.com/articles/gop-candidate-for-house-district-40-bounced-check-for-qualifying-fee"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I could not open the Florida Politics page itself, so I used the Vox articles it cites. Check whether Le has since filed his campaign finance reports and whether the Florida Elections Commission fined him. If he has filed and no fine followed, the added weight-1 item may need removing. The Vox 2025 report also says Titusville has fined him $250 per day per code violation, about $465,000 accumulated as of its writing, and that he owed about $11,000 in state sales tax as of May 2024. I did not verify current status from the city or state records. The owner-site search turned up nothing about Le."
+}

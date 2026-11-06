@@ -1,0 +1,2428 @@
+{
+ "mike-mcguire": {
+  "race": "U.S. House, District 1",
+  "filing": {
+   "doc": "10075844",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/5/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075844.pdf"
+ },
+ "james-gallagher": {
+  "race": "U.S. House, District 1",
+  "filing": {
+   "doc": "10082786",
+   "type": "A",
+   "year": "2026",
+   "filed": "9/5/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Cornerstone Land and Investment Group",
+    "code": "OL",
+    "description": "Real estate",
+    "place": "Sutter, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Donegal Farms LLC",
+    "code": "OL",
+    "description": "farming business",
+    "place": "Sutter, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Letterkenny Properties LLC",
+    "code": "OL",
+    "description": "farming business",
+    "place": "Sutter, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Member",
+    "organization": "Donegal Farms LLC"
+   },
+   {
+    "title": "Member",
+    "organization": "Letterkenny Properties LLC"
+   },
+   {
+    "title": "Officer - Secretary",
+    "organization": "Gallagher Ranch, Inc."
+   },
+   {
+    "title": "Attorney",
+    "organization": "Rice Lawyers, Inc."
+   },
+   {
+    "title": "Shareholder",
+    "organization": "Cornerstone Land & Investment Group"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082786.pdf"
+ },
+ "jared-huffman": {
+  "race": "U.S. House, District 2",
+  "filing": {
+   "doc": "10078256",
+   "type": "O",
+   "year": "2025",
+   "filed": "7/30/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078256.pdf"
+ },
+ "robin-littau": {
+  "race": "U.S. House, District 2",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "ami-bera": {
+  "race": "U.S. House, District 3",
+  "filing": {
+   "doc": "10081578",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/12/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Clinical Professor of Medicine",
+    "organization": "University of CA, Davis"
+   },
+   {
+    "title": "CEO, President",
+    "organization": "Mango Management Inc"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081578.pdf"
+ },
+ "robb-tucker": {
+  "race": "U.S. House, District 3",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "eric-jones": {
+  "race": "U.S. House, District 4",
+  "filing": {
+   "doc": "10082767",
+   "type": "C",
+   "year": "2026",
+   "filed": "9/2/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Amwins",
+    "code": "PS",
+    "description": "Ownership of stock in privately held company (Amwins) which pays annual dividends. Amwins is a wholesale insurance",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Vine Projects",
+    "code": "OL",
+    "description": "This is a S-Corp. My spouse's Architectural Design practice.",
+    "place": "California, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Board Member",
+    "organization": "Bay Area Education Fund"
+   },
+   {
+    "title": "Partner",
+    "organization": "Dragoneer Investment Group"
+   },
+   {
+    "title": "Board Member",
+    "organization": "Carbide"
+   },
+   {
+    "title": "Independent Board Member",
+    "organization": "Maven Clinic"
+   },
+   {
+    "title": "Board Member",
+    "organization": "Napa Valley Land Trust"
+   },
+   {
+    "title": "Founder",
+    "organization": "American Dream Institute"
+   },
+   {
+    "title": "Board Member",
+    "organization": "Sonoma Family Justice Center"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082767.pdf"
+ },
+ "mike-thompson": {
+  "race": "U.S. House, District 4",
+  "filing": {
+   "doc": "9116168",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/14/2026"
+  },
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116168.pdf"
+ },
+ "tom-mcclintock": {
+  "race": "U.S. House, District 5",
+  "filing": {
+   "doc": "10076731",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/14/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076731.pdf"
+ },
+ "michael-masuda": {
+  "race": "U.S. House, District 5",
+  "filing": {
+   "doc": "10082866",
+   "type": "C",
+   "year": "2026",
+   "filed": "9/15/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082866.pdf"
+ },
+ "richard-pan": {
+  "race": "U.S. House, District 6",
+  "filing": {
+   "doc": "10081386",
+   "type": "C",
+   "year": "2026",
+   "filed": "8/12/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Wen-Li Wang DDS, Inc.",
+    "code": "OL",
+    "description": "",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Board of Directors",
+    "organization": "California State Railroad Museum Foundation"
+   },
+   {
+    "title": "Board of Directors",
+    "organization": "Improve Your Tomorrow"
+   },
+   {
+    "title": "Secretary",
+    "organization": "Wen-Li Wang DDS, Inc."
+   },
+   {
+    "title": "Physician Advisor to Medical Education",
+    "organization": "American Medical Association"
+   },
+   {
+    "title": "Board of Directors",
+    "organization": "North Natomas Business Park Owners Association"
+   },
+   {
+    "title": "Senior Lecturer",
+    "organization": "University of California, Davis"
+   },
+   {
+    "title": "Board Chair",
+    "organization": "United Way California Capital Region"
+   },
+   {
+    "title": "Member",
+    "organization": "Wang Pan California Properties, LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081386.pdf"
+ },
+ "kevin-kiley": {
+  "race": "U.S. House, District 6",
+  "filing": {
+   "doc": "10081361",
+   "type": "O",
+   "year": "2025",
+   "filed": "7/28/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081361.pdf"
+ },
+ "doris-matsui": {
+  "race": "U.S. House, District 7",
+  "filing": {
+   "doc": "9116163",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/14/2026"
+  },
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116163.pdf"
+ },
+ "mai-vang": {
+  "race": "U.S. House, District 7",
+  "filing": {
+   "doc": "10075632",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/15/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Heart & Hustle Strategies, LLC",
+    "code": "OL",
+    "description": "Heart & Hustle Strategies, LLC is a communications consulting company that empowers campaigns to amplify their message, grow",
+    "place": "Sacramento, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Member Manager",
+    "organization": "Heart & Hustle Strategies, LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075632.pdf"
+ },
+ "john-garamendi": {
+  "race": "U.S. House, District 8",
+  "filing": {
+   "doc": "10075753",
+   "type": "O",
+   "year": "2025",
+   "filed": "7/22/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075753.pdf"
+ },
+ "rudy-recile": {
+  "race": "U.S. House, District 8",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "josh-harder": {
+  "race": "U.S. House, District 9",
+  "filing": {
+   "doc": "10076099",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/13/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076099.pdf"
+ },
+ "john-mcbride": {
+  "race": "U.S. House, District 9",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "mark-desaulnier": {
+  "race": "U.S. House, District 10",
+  "filing": {
+   "doc": "10078110",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/14/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078110.pdf"
+ },
+ "jeff-frese": {
+  "race": "U.S. House, District 10",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "scott-wiener": {
+  "race": "U.S. House, District 11",
+  "filing": {
+   "doc": "10077916",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/15/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Treasurer and Chief Financial Officer",
+    "organization": "California Jewish Legislative Caucus Leadership Foundation"
+   },
+   {
+    "title": "Member",
+    "organization": "Committee on Revision of the Penal Code"
+   },
+   {
+    "title": "Member",
+    "organization": "National Housing Crisis Task Force"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077916.pdf"
+ },
+ "connie-chan": {
+  "race": "U.S. House, District 11",
+  "filing": {
+   "doc": "10077126",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/15/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077126.pdf"
+ },
+ "lateefah-simon": {
+  "race": "U.S. House, District 12",
+  "filing": {
+   "doc": "10075192",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/12/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Boardmember",
+    "organization": "Ms. Foundation for Women"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075192.pdf"
+ },
+ "jamie-joyce": {
+  "race": "U.S. House, District 12",
+  "filing": {
+   "doc": "10075362",
+   "type": "C",
+   "year": "2026",
+   "filed": "9/18/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Board President and Executive Director",
+    "organization": "The Benjamin Franklin Society Library"
+   },
+   {
+    "title": "Comments: This is a 501(c)3 charity organization",
+    "organization": "Advisor"
+   },
+   {
+    "title": "Atlas Computing",
+    "organization": "Comments: This is a 501(c)3 tech charity organization"
+   },
+   {
+    "title": "Advisor",
+    "organization": "Wikitongues"
+   },
+   {
+    "title": "Comments: This is a 501(c)3 charity organization",
+    "organization": "Art Grants Committee"
+   },
+   {
+    "title": "Sand Mandala Foundation",
+    "organization": "Comments: Charitable Arts Grant-Giving Organization"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075362.pdf"
+ },
+ "adam-gray": {
+  "race": "U.S. House, District 13",
+  "filing": {
+   "doc": "10076344",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "6812 Inc.",
+    "code": "OL",
+    "description": "Cabinet company",
+    "place": "Merced, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Blaker Brewing LLC",
+    "code": "OL",
+    "description": "Brewery, Merced, CA.",
+    "place": "Merced, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Marvulli Inc.",
+    "code": "OL",
+    "description": "Construction company",
+    "place": "Merced, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "STAD Land Inc.",
+    "code": "OL",
+    "description": "Flooring company",
+    "place": "Merced, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "STAD Land LLC",
+    "code": "OL",
+    "description": "Real estate company",
+    "place": "Merced, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Marvulli Inc.",
+    "code": "OL",
+    "description": "Purchase of interest in construction company",
+    "place": "Merced, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "6812 Inc.",
+    "code": "OL",
+    "description": "Purchase of interest in cabinet company",
+    "place": "Merced, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "STAD Land Inc.",
+    "code": "OL",
+    "description": "Purchase of interest in flooring company",
+    "place": "Merced, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Adam Marvulli Gray LLC ⇒ Real Estate",
+    "code": "OL",
+    "description": "Purchase of interest in real estate",
+    "place": "Atwater, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "STAD Land LLC",
+    "code": "OL",
+    "description": "Purchase of interest in real estate company",
+    "place": "Merced, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Investor",
+    "organization": "Blaker Brewing LLC"
+   },
+   {
+    "title": "Member",
+    "organization": "Adam Marvulli Gray LLC"
+   },
+   {
+    "title": "Educator & Associate Director",
+    "organization": "University of California, Merced"
+   },
+   {
+    "title": "Employee",
+    "organization": "Marvulli, Inc."
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076344.pdf"
+ },
+ "kevin-lincoln": {
+  "race": "U.S. House, District 13",
+  "filing": {
+   "doc": "10077678",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/13/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "BBStyles209",
+    "code": "OL",
+    "description": "Self-employed business",
+    "place": "Lodi, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Goldberg-Stern Associates, LLC",
+    "code": "OL",
+    "description": "",
+    "place": "Sacrameneto, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Spade Security Services, Inc.",
+    "code": "OL",
+    "description": "3% Equity ownership interest in Spade Security Services, Inc., a privately held security and protective-services corporation; no",
+    "place": "Rocklin, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Board Member",
+    "organization": "Spade Security Services, Inc."
+   },
+   {
+    "title": "Managing Member",
+    "organization": "Goldberg-Stern Associates LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077678.pdf"
+ },
+ "aisha-wahab": {
+  "race": "U.S. House, District 14",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "melissa-hernandez": {
+  "race": "U.S. House, District 14",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "kevin-mullin": {
+  "race": "U.S. House, District 15",
+  "filing": {
+   "doc": "10077398",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/14/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077398.pdf"
+ },
+ "charles-hoelter": {
+  "race": "U.S. House, District 15",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "sam-liccardo": {
+  "race": "U.S. House, District 16",
+  "filing": {
+   "doc": "10078554",
+   "type": "O",
+   "year": "2025",
+   "filed": "6/8/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078554.pdf"
+ },
+ "peter-sundin-soul": {
+  "race": "U.S. House, District 16",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "ro-khanna": {
+  "race": "U.S. House, District 17",
+  "filing": {
+   "doc": "9116272",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/10/2026"
+  },
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116272.pdf"
+ },
+ "ritesh-tandon": {
+  "race": "U.S. House, District 17",
+  "filing": {
+   "doc": "10083039",
+   "type": "C",
+   "year": "2026",
+   "filed": "10/8/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10083039.pdf"
+ },
+ "zoe-lofgren": {
+  "race": "U.S. House, District 18",
+  "filing": {
+   "doc": "10074949",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/10/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Deskworks Inc.",
+    "code": "PS",
+    "description": "Software company",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "John Marshall Collins PC",
+    "code": "OL",
+    "description": "Law firm. No transaction; Mr. Collins stopped practicing in 2024.",
+    "place": "San Jose, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074949.pdf"
+ },
+ "shane-lewis": {
+  "race": "U.S. House, District 18",
+  "filing": {
+   "doc": "10078304",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/14/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078304.pdf"
+ },
+ "jimmy-panetta": {
+  "race": "U.S. House, District 19",
+  "filing": {
+   "doc": "10074944",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Honorary Board Member",
+    "organization": "James Martin Center for Nonproliferation Studies"
+   },
+   {
+    "title": "Comments: Uncompensated",
+    "organization": "Advisory Council Member"
+   },
+   {
+    "title": "Carmel River Watershed Conservancy",
+    "organization": "Comments: Uncompensated"
+   },
+   {
+    "title": "Board Member",
+    "organization": "Veterans Transition Center Advisory Council"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074944.pdf"
+ },
+ "peter-coe-verbica": {
+  "race": "U.S. House, District 19",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "vince-fong": {
+  "race": "U.S. House, District 20",
+  "filing": {
+   "doc": "10076689",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/15/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Boschma and Sons Dairy",
+    "code": "OL",
+    "description": "Spouse's equity and portion of income in family business.",
+    "place": "Kern, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Board Member",
+    "organization": "Jim Burke Education Foundation"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076689.pdf"
+ },
+ "sandra-van-scotter": {
+  "race": "U.S. House, District 20",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "jim-costa": {
+  "race": "U.S. House, District 21",
+  "filing": {
+   "doc": "10077120",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Board Member",
+    "organization": "The Maddy Institute, CA State University, Fresno"
+   },
+   {
+    "title": "Comments: Not compensated",
+    "organization": "Advisory Council Member"
+   },
+   {
+    "title": "The Congressional Hispanic Caucus Institute",
+    "organization": "Comments: Not compensated"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077120.pdf"
+ },
+ "kyle-kirkland": {
+  "race": "U.S. House, District 21",
+  "filing": {
+   "doc": "10083017",
+   "type": "C",
+   "year": "2026",
+   "filed": "10/19/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Brick HR, Inc.",
+    "code": "OL",
+    "description": "Ownership of software development company",
+    "place": "Fresno, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Club One Casino, Inc.",
+    "code": "OL",
+    "description": "",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "GLCR, Inc.",
+    "code": "OL",
+    "description": "",
+    "place": "Fresno, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "GPP II LLC",
+    "code": "OL",
+    "description": "",
+    "place": "Fresno, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Granite Park Energy LLC",
+    "code": "OL",
+    "description": "Ownership in company formed to owned solar assets",
+    "place": "Fresno, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Granite Park Properties LLC",
+    "code": "OL",
+    "description": "Rent from property leased to Club One Casino, Inc.",
+    "place": "Fresno, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "KMGI, Inc.",
+    "code": "OL",
+    "description": "50% ownership of special interest holding company no longer in use",
+    "place": "Fresno, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Whisky Papa LLC",
+    "code": "OL",
+    "description": "Ownership of LLC formed to hold aviation assets",
+    "place": "Fresno, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "President, Shareholder, Director, Corporate",
+    "organization": "Officer"
+   },
+   {
+    "title": "GLCR, Inc.",
+    "organization": "Co-trustee"
+   },
+   {
+    "title": "Christine Kirkland Revocable Trust",
+    "organization": "Member"
+   },
+   {
+    "title": "GPP II, LLC",
+    "organization": "President, Shareholder, Director, Corporate"
+   },
+   {
+    "title": "Officer",
+    "organization": "Brick HR, Inc."
+   },
+   {
+    "title": "Shareholder",
+    "organization": "KMGI, Inc."
+   },
+   {
+    "title": "Member",
+    "organization": "Granite Park Properties, LLC"
+   },
+   {
+    "title": "Member",
+    "organization": "Whiskey Papa LLC"
+   },
+   {
+    "title": "Member",
+    "organization": "Granite Park Energy LLC"
+   },
+   {
+    "title": "President, Board member",
+    "organization": "Kirkland Foundation"
+   },
+   {
+    "title": "President/GM, Shareholder, Director,",
+    "organization": "Corporate Officer"
+   },
+   {
+    "title": "Club One Casino, Inc.",
+    "organization": "Director, Board Chair"
+   },
+   {
+    "title": "Fresno Chaffee Zoo Corporation",
+    "organization": "President, Board Member"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10083017.pdf"
+ },
+ "randy-villegas": {
+  "race": "U.S. House, District 22",
+  "filing": {
+   "doc": "10081438",
+   "type": "C",
+   "year": "2026",
+   "filed": "8/7/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Angels BMW INC",
+    "code": "OL",
+    "description": "Business income",
+    "place": "Bakersfield, United States, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Trustee Area 6",
+    "organization": "Visalia Unified School Board"
+   },
+   {
+    "title": "Board Member",
+    "organization": "Central Valley Partnership"
+   },
+   {
+    "title": "Board Member",
+    "organization": "Power California"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081438.pdf"
+ },
+ "david-g-valadao": {
+  "race": "U.S. House, District 22",
+  "filing": {
+   "doc": "10075195",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/15/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Congressional Board Member",
+    "organization": "CHLI- Congressional Hispanic Leadership Institute"
+   },
+   {
+    "title": "Employee",
+    "organization": "Valadao Dairy"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075195.pdf"
+ },
+ "jay-obernolte": {
+  "race": "U.S. House, District 23",
+  "filing": {
+   "doc": "10075438",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/9/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "FarSight Studios, Inc.",
+    "code": "OL",
+    "description": "Software developer",
+    "place": "Big Bear Lake / San Bernardino, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "FarSight Technologies, Inc.",
+    "code": "OL",
+    "description": "Software publisher",
+    "place": "Big Bear Lake / San Bernardino, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "President",
+    "organization": "FarSight Studios, Inc."
+   },
+   {
+    "title": "Director",
+    "organization": "Embraer Jet Operators Assoc Inc"
+   },
+   {
+    "title": "President",
+    "organization": "FarSight Technologies, Inc."
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075438.pdf"
+ },
+ "tessa-lynn-hodge": {
+  "race": "U.S. House, District 23",
+  "filing": {
+   "doc": "10083021",
+   "type": "C",
+   "year": "2025",
+   "filed": "10/5/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Licensed Clinical Social Worker",
+    "organization": "SAC Health"
+   },
+   {
+    "title": "Owner",
+    "organization": "A Life Less Ordinary Therapy: Tessa Lynn Hodge, Licensed Clinical Social Worker PC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10083021.pdf"
+ },
+ "salud-carbajal": {
+  "race": "U.S. House, District 24",
+  "filing": {
+   "doc": "10077955",
+   "type": "O",
+   "year": "2025",
+   "filed": "7/23/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077955.pdf"
+ },
+ "bob-smith": {
+  "race": "U.S. House, District 24",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "raul-ruiz": {
+  "race": "U.S. House, District 25",
+  "filing": {
+   "doc": "10076447",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/13/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Founder",
+    "organization": "Future Physician Leaders"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076447.pdf"
+ },
+ "joe-males": {
+  "race": "U.S. House, District 25",
+  "filing": {
+   "doc": "10077671",
+   "type": "C",
+   "year": "2026",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Mayor",
+    "organization": "City of Hemet"
+   },
+   {
+    "title": "Council Member (District 4)",
+    "organization": "City of Hemet"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077671.pdf"
+ },
+ "jacqui-irwin": {
+  "race": "U.S. House, District 26",
+  "filing": {
+   "doc": "10074581",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/1/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Centegix Holdings, LLC",
+    "code": "PS",
+    "description": "Jon Irwin ownership interest in Centegix Holdings, LLC",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Co-Trustee",
+    "organization": "Irwin Revocable Family Trust"
+   },
+   {
+    "title": "Governing Board Member",
+    "organization": "California Cradle to Career Data System"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10074581.pdf"
+ },
+ "sam-gallucci": {
+  "race": "U.S. House, District 26",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "george-whitesides": {
+  "race": "U.S. House, District 27",
+  "filing": {
+   "doc": "9116304",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/12/2026"
+  },
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116304.pdf"
+ },
+ "jason-gibbs": {
+  "race": "U.S. House, District 27",
+  "filing": {
+   "doc": "10071835",
+   "type": "C",
+   "year": "2025",
+   "filed": "7/28/2025"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "City Councilmember",
+    "organization": "City of Santa Clarita"
+   },
+   {
+    "title": "Senior Principal Engineer",
+    "organization": "GP Strategies Government Solutions"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10071835.pdf"
+ },
+ "judy-chu": {
+  "race": "U.S. House, District 28",
+  "filing": {
+   "doc": "10078299",
+   "type": "A",
+   "year": "2025",
+   "filed": "5/14/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078299.pdf"
+ },
+ "april-a-verlato": {
+  "race": "U.S. House, District 28",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "luz-maria-rivas": {
+  "race": "U.S. House, District 29",
+  "filing": {
+   "doc": "10081225",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/3/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081225.pdf"
+ },
+ "ang-lica-mar-a-due-as": {
+  "race": "U.S. House, District 29",
+  "filing": {
+   "doc": "10083036",
+   "type": "C",
+   "year": "2026",
+   "filed": "10/7/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10083036.pdf"
+ },
+ "laura-friedman": {
+  "race": "U.S. House, District 30",
+  "filing": {
+   "doc": "10076263",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/5/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Picture This Land",
+    "code": "OL",
+    "description": "Landscape Design/Build Firm.",
+    "place": "Glendale, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "PlanetGlass.net",
+    "code": "OL",
+    "description": "Retail Website",
+    "place": "Glendale, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076263.pdf"
+ },
+ "scott-alan-meyers": {
+  "race": "U.S. House, District 30",
+  "filing": {
+   "doc": "10076579",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/3/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Owner",
+    "organization": "Law Offices of Scott A. Meyers"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076579.pdf"
+ },
+ "gil-cisneros": {
+  "race": "U.S. House, District 31",
+  "filing": {
+   "doc": "10074952",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Atlantic Equity Wainscott LLC",
+    "code": "OL",
+    "description": "Operates Wainscott Inn in Sagaponic, NY.",
+    "place": "Sagaponic, NY, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "EXP 2642 Michelle PE LLC",
+    "code": "OL",
+    "description": "Company formed to conduct seismic retrofit and other improvements on office building. Outstanding capital returned to investors",
+    "place": "Tustin, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Veterans, Education Advocate",
+    "organization": "The Gilbert and Jacki Cisneros Foundation"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074952.pdf"
+ },
+ "eric-ching": {
+  "race": "U.S. House, District 31",
+  "filing": {
+   "doc": "10074535",
+   "type": "C",
+   "year": "2026",
+   "filed": "3/17/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10074535.pdf"
+ },
+ "brad-sherman": {
+  "race": "U.S. House, District 32",
+  "filing": {
+   "doc": "9116209",
+   "type": "O",
+   "year": "2025",
+   "filed": "7/10/2026"
+  },
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116209.pdf"
+ },
+ "larry-thompson": {
+  "race": "U.S. House, District 32",
+  "filing": {
+   "doc": "10075612",
+   "type": "C",
+   "year": "2026",
+   "filed": "8/10/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "LARRY A. THOMPSON ORGANIZATION",
+    "code": "OL",
+    "description": "Film Production",
+    "place": "Beverly Hills/Los Angeles, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "LARRY A. THOMPSON PRODUCTIONS",
+    "code": "OL",
+    "description": "Film Production",
+    "place": "Beverly Hills/Los Angeles, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "LARRY THOMPSON ENTERTAINMENT",
+    "code": "OL",
+    "description": "Management of Talent and Film Production",
+    "place": "Beverly Hills/Los Angeles, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "PROJECT RISE AND SHINE",
+    "code": "OL",
+    "description": "Income from sale of book: SHINE: A 4-Step Plan For Becoming A Star In Anything You Do",
+    "place": "Beverly Hills/Los Angeles, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "STARSCAPE ENTERTAINMENT",
+    "code": "OL",
+    "description": "Film Production",
+    "place": "Beverly Hills/Los Angeles, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "OWNER/PRESIDENT",
+    "organization": "LARRY A. THOMPSON ORGANIZATION"
+   },
+   {
+    "title": "OWNER/PRESIDENT",
+    "organization": "LARRY A. THOMPSON PRODUCTIONS"
+   },
+   {
+    "title": "OWNER/PRESIDENT",
+    "organization": "PROJECT RISE AND SHINE"
+   },
+   {
+    "title": "OWNER/PRESIDENT",
+    "organization": "LARRY THOMPSON ENTERTAINMENT"
+   },
+   {
+    "title": "OWNER/PRESIDENT",
+    "organization": "STARSCAPE ENTERTAINMENT"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075612.pdf"
+ },
+ "pete-aguilar": {
+  "race": "U.S. House, District 33",
+  "filing": {
+   "doc": "10076409",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076409.pdf"
+ },
+ "stephanie-m-vargas": {
+  "race": "U.S. House, District 33",
+  "filing": {
+   "doc": "10073293",
+   "type": "C",
+   "year": "2026",
+   "filed": "1/31/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Deputy City Clerk",
+    "organization": "City of Colton"
+   },
+   {
+    "title": "Chief Deputy City Clerk",
+    "organization": "City of Colton"
+   },
+   {
+    "title": "Board Member",
+    "organization": "Empire Springs Charter School"
+   },
+   {
+    "title": "Board Member",
+    "organization": "Inland Empire Springs Charter School"
+   },
+   {
+    "title": "Committee Member",
+    "organization": "League of California Cities"
+   },
+   {
+    "title": "Acting City Clerk",
+    "organization": "City of Colton"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10073293.pdf"
+ },
+ "angela-gonzales-torres": {
+  "race": "U.S. House, District 34",
+  "filing": {
+   "doc": "10083072",
+   "type": "C",
+   "year": "2026",
+   "filed": "10/21/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10083072.pdf"
+ },
+ "jimmy-gomez": {
+  "race": "U.S. House, District 34",
+  "filing": {
+   "doc": "10076526",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076526.pdf"
+ },
+ "norma-j-torres": {
+  "race": "U.S. House, District 35",
+  "filing": {
+   "doc": "10075170",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/15/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Inland Valley Strategic Partner",
+    "code": "OL",
+    "description": "Ownership of a business that provides consulting services",
+    "place": "Pomona, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Board Member (uncompensated)",
+    "organization": "Congressional Hispanic Caucus Institute"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075170.pdf"
+ },
+ "mike-cargile": {
+  "race": "U.S. House, District 35",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "ted-w-lieu": {
+  "race": "U.S. House, District 36",
+  "filing": {
+   "doc": "10078282",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078282.pdf"
+ },
+ "houston-brignano": {
+  "race": "U.S. House, District 36",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "sydney-kamlager-dove": {
+  "race": "U.S. House, District 37",
+  "filing": {
+   "doc": "10076932",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/12/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Law Office of Austin Dove",
+    "code": "OL",
+    "description": "Law",
+    "place": "Montebello, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Board Member",
+    "organization": "Planned Parenthood Los Angeles"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076932.pdf"
+ },
+ "samantha-mota": {
+  "race": "U.S. House, District 37",
+  "filing": {
+   "doc": "10071757",
+   "type": "C",
+   "year": "2025",
+   "filed": "7/10/2025"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10071757.pdf"
+ },
+ "hilda-solis": {
+  "race": "U.S. House, District 38",
+  "filing": {
+   "doc": "10082819",
+   "type": "C",
+   "year": "2026",
+   "filed": "9/9/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082819.pdf"
+ },
+ "pedro-antonio-casas": {
+  "race": "U.S. House, District 38",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "mark-takano": {
+  "race": "U.S. House, District 39",
+  "filing": {
+   "doc": "10076332",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/12/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Board Member",
+    "organization": "US-Japan Foundation"
+   },
+   {
+    "title": "Comments: Unpaid Advisory Board Member",
+    "organization": "Board Member"
+   },
+   {
+    "title": "Coders for Progress",
+    "organization": "Comments: Unpaid Board Member"
+   },
+   {
+    "title": "Board Member",
+    "organization": "Dollars for Scholars"
+   },
+   {
+    "title": "Comments: Unpaid Advisory Role",
+    "organization": "Board Member"
+   },
+   {
+    "title": "Japanese American National Museum",
+    "organization": "Board Member"
+   },
+   {
+    "title": "Equality Caucus Institute",
+    "organization": "Comments: Unpaid Advisory and Non Voting Role"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076332.pdf"
+ },
+ "steve-manos": {
+  "race": "U.S. House, District 39",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "ken-calvert": {
+  "race": "U.S. House, District 40",
+  "filing": {
+   "doc": "10075757",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/4/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Calvert Real Properties",
+    "code": "PS",
+    "description": "Stock. Real estate management company Corona, CA.",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075757.pdf"
+ },
+ "young-kim": {
+  "race": "U.S. House, District 40",
+  "filing": {
+   "doc": "10083187",
+   "type": "A",
+   "year": "2025",
+   "filed": "11/4/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10083187.pdf"
+ },
+ "linda-s-nchez": {
+  "race": "U.S. House, District 41",
+  "filing": {
+   "doc": "10077966",
+   "type": "O",
+   "year": "2025",
+   "filed": "7/23/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Chairwoman",
+    "organization": "BOLD"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077966.pdf"
+ },
+ "mitch-clemmons": {
+  "race": "U.S. House, District 41",
+  "filing": {
+   "doc": "10082925",
+   "type": "C",
+   "year": "2026",
+   "filed": "9/21/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "North Orange County, CA",
+    "code": "OL",
+    "description": "",
+    "place": "Whittier / Los Angeles County, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Ontario Inc",
+    "code": "PS",
+    "description": "$25,000 purchase price for 500,000 shares",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Westside Water Heaters",
+    "code": "OL",
+    "description": "My sole proprietorship plumbing business",
+    "place": "Santa Monica / Los Angeles County, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Owner",
+    "organization": "Mitch Clemmons DBA Westside Water Heaters"
+   },
+   {
+    "title": "Secretary",
+    "organization": "Clemmons Services Inc"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082925.pdf"
+ },
+ "robert-garcia-ushouse-42": {
+  "race": "U.S. House, District 42",
+  "filing": {
+   "doc": "10076607",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/11/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076607.pdf"
+ },
+ "brian-burley": {
+  "race": "U.S. House, District 42",
+  "filing": {
+   "doc": "10082881",
+   "type": "C",
+   "year": "2026",
+   "filed": "9/16/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Board Member",
+    "organization": "Huntington Beach City School District"
+   },
+   {
+    "title": "System Administrator",
+    "organization": "University of Southern California"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082881.pdf"
+ },
+ "maxine-waters": {
+  "race": "U.S. House, District 43",
+  "filing": {
+   "doc": "10076919",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "FOUNDER",
+    "organization": "BLACK WOMEN'S FORUM"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076919.pdf"
+ },
+ "cristian-morales": {
+  "race": "U.S. House, District 43",
+  "filing": {
+   "doc": "10083123",
+   "type": "A",
+   "year": "2026",
+   "filed": "10/23/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Founder - Chair/CEO",
+    "organization": "Northern Triangle of Central America"
+   },
+   {
+    "title": "Chair/CEO",
+    "organization": "Founder - Triark Project"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10083123.pdf"
+ },
+ "nanette-diaz-barragan": {
+  "race": "U.S. House, District 44",
+  "filing": {
+   "doc": "10081390",
+   "type": "A",
+   "year": "2025",
+   "filed": "7/27/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081390.pdf"
+ },
+ "genevieve-angel": {
+  "race": "U.S. House, District 44",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "derek-tran": {
+  "race": "U.S. House, District 45",
+  "filing": {
+   "doc": "10074943",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Nguyen Win, Inc.",
+    "code": "OL",
+    "description": "",
+    "place": "Anaheim, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "The Tran Firm, Inc.",
+    "code": "OL",
+    "description": "Law firm",
+    "place": "Huntington Beach, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Chief Executive Officer/Director",
+    "organization": "The Tran Firm, Inc."
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074943.pdf"
+ },
+ "chuong-v-vo": {
+  "race": "U.S. House, District 45",
+  "filing": {
+   "doc": "10077142",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/14/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Employee",
+    "organization": "City of Torrance"
+   },
+   {
+    "title": "Councilmember",
+    "organization": "City of Cerritos"
+   },
+   {
+    "title": "President - Elect",
+    "organization": "Optimist Club of Cerritos"
+   },
+   {
+    "title": "President",
+    "organization": "Optimist Club of Cerritos"
+   },
+   {
+    "title": "Board of Director",
+    "organization": "Optimist Club of Cerritos"
+   },
+   {
+    "title": "Executive Board Member",
+    "organization": "California JPIA"
+   },
+   {
+    "title": "Mayor Pro Tem",
+    "organization": "City of Cerritos"
+   },
+   {
+    "title": "Mayor",
+    "organization": "City of Cerritos"
+   },
+   {
+    "title": "Delegate",
+    "organization": "Southeast Water Coalition Joint Powers Authority"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077142.pdf"
+ },
+ "lou-correa": {
+  "race": "U.S. House, District 46",
+  "filing": {
+   "doc": "10077252",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/15/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077252.pdf"
+ },
+ "david-pan": {
+  "race": "U.S. House, District 46",
+  "filing": {
+   "doc": "10079847",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/25/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Editor",
+    "organization": "Telos Press"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10079847.pdf"
+ },
+ "dave-min": {
+  "race": "U.S. House, District 47",
+  "filing": {
+   "doc": "10075550",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075550.pdf"
+ },
+ "jenny-rae-le-roux": {
+  "race": "U.S. House, District 47",
+  "filing": {
+   "doc": "10078247",
+   "type": "C",
+   "year": "2026",
+   "filed": "6/2/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Management Consulted",
+    "code": "OL",
+    "description": "",
+    "place": "Redding / Shasta, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Shasta Hydro LLC",
+    "code": "OL",
+    "description": "Shasta Hydro LLC",
+    "place": "Whitmore / Shasta, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Shasta Wines LLC",
+    "code": "OL",
+    "description": "Shasta Wines LLC",
+    "place": "Redding / Shasta, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Director",
+    "organization": "Cal DOGE"
+   },
+   {
+    "title": "President",
+    "organization": "Jungle Guides, Inc."
+   },
+   {
+    "title": "Manager",
+    "organization": "Shasta Wines LLC"
+   },
+   {
+    "title": "Manager",
+    "organization": "Shasta Hydro LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078247.pdf"
+ },
+ "marni-von-wilpert": {
+  "race": "U.S. House, District 48",
+  "filing": {
+   "doc": "10077225",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/14/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Member",
+    "organization": "National League of Cities Transportation and Infrastructure Services Federal Advocacy"
+   },
+   {
+    "title": "Committee",
+    "organization": "Representative"
+   },
+   {
+    "title": "San Dieguito River Valley Regional Open Space JPA",
+    "organization": "Representative"
+   },
+   {
+    "title": "Los Penasquitos Canyon Preserve",
+    "organization": "Alternate"
+   },
+   {
+    "title": "Local Agency Formation Commission (LAFCO)",
+    "organization": "Alternate"
+   },
+   {
+    "title": "San Diego Community Power Board of Directors",
+    "organization": "Alternate"
+   },
+   {
+    "title": "San Diego Association of Governments Public Safety Committee",
+    "organization": "Alternate"
+   },
+   {
+    "title": "San Diego Association of Governments Transportation Committee",
+    "organization": "Alternate"
+   },
+   {
+    "title": "San Diego MTS Board of Directors",
+    "organization": "2nd Alternate"
+   },
+   {
+    "title": "San Diego Association of Governments Board of Directors",
+    "organization": "2nd Alternate"
+   },
+   {
+    "title": "San Diego Association of Governments Executive Committee",
+    "organization": "Board Member"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077225.pdf"
+ },
+ "jim-desmond": {
+  "race": "U.S. House, District 48",
+  "filing": {
+   "doc": "10075861",
+   "type": "C",
+   "year": "2026",
+   "filed": "7/30/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Board Member",
+    "organization": "San Diego Water Authority"
+   },
+   {
+    "title": "Board Member",
+    "organization": "Local Agency Formation Commission"
+   },
+   {
+    "title": "Board Member",
+    "organization": "North County Transit District"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075861.pdf"
+ },
+ "mike-levin": {
+  "race": "U.S. House, District 49",
+  "filing": {
+   "doc": "10075542",
+   "type": "O",
+   "year": "2025",
+   "filed": "4/16/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075542.pdf"
+ },
+ "armen-kurdian": {
+  "race": "U.S. House, District 49",
+  "filing": {
+   "doc": "10082912",
+   "type": "C",
+   "year": "2026",
+   "filed": "9/22/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Board Member",
+    "organization": "Palomar Airport Advisory Committee"
+   },
+   {
+    "title": "Board Member",
+    "organization": "Veterans Writing Group of San Diego Cty"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082912.pdf"
+ },
+ "scott-peters": {
+  "race": "U.S. House, District 50",
+  "filing": {
+   "doc": "10076386",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/12/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "GV Christi LLC",
+    "code": "OL",
+    "description": "Own/operate mobile home park",
+    "place": "Caldwell, ID, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "GV Livingston LLC",
+    "code": "OL",
+    "description": "Mobile Home Park",
+    "place": "Livingston, MT, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Multi-Pack Solutions LLC",
+    "code": "OL",
+    "description": "",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Rancho Corte Madera, Inc.",
+    "code": "OL",
+    "description": "Working Cattle Ranch",
+    "place": "Pine Valley, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Sinclair & Rush",
+    "code": "OL",
+    "description": "Manufacturing Company",
+    "place": "Arnold, MO, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Winward Academy, LLC",
+    "code": "OL",
+    "description": "Educational Training",
+    "place": "San Diego, CA, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "ABL Space Systems",
+    "code": "PS",
+    "description": "Partnership Interest",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Lynett Capital Partners III",
+    "code": "OI",
+    "description": "Pooled Investment Fund/Venture Capital",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Allocate Premier Access Fund",
+    "code": "OI",
+    "description": "Pooled Investment Fund",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Allocate Alpha Fund II LP",
+    "code": "OI",
+    "description": "Pooled Investment Fund",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Allocate Alpha Fund II LP",
+    "code": "OI",
+    "description": "Pooled Investment Fund",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Allocate Premier Access Fund",
+    "code": "OI",
+    "description": "Pooled Investment Fund",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Valo Ventures GP II, LP",
+    "code": "OI",
+    "description": "Pooled Investment Fund",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "GV Livingston LLC",
+    "code": "OL",
+    "description": "",
+    "place": "Livingston, MT, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Kent Street Group LLC",
+    "code": "OI",
+    "description": "Poole Investment Fund/Venture Capital",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076386.pdf"
+ },
+ "steve-cohen": {
+  "race": "U.S. House, District 50",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "sara-jacobs": {
+  "race": "U.S. House, District 51",
+  "filing": {
+   "doc": "10074394",
+   "type": "O",
+   "year": "2025",
+   "filed": "6/26/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Member",
+    "organization": "Essjane, LLC"
+   },
+   {
+    "title": "Founding Chair",
+    "organization": "San Diego for Every Child"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074394.pdf"
+ },
+ "ricardo-cabrera": {
+  "race": "U.S. House, District 51",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "juan-vargas": {
+  "race": "U.S. House, District 52",
+  "filing": {
+   "doc": "10077073",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/11/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077073.pdf"
+ },
+ "jeff-belle": {
+  "race": "U.S. House, District 52",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ }
+}

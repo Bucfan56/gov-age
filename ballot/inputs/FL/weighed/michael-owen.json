@@ -1,0 +1,18 @@
+{
+ "name": "Michael Owen",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item describes no conduct, because the searched foreign-tie records (FARA filings, foreign-government payments, state-owned business, foreign-agent donors) turned up nothing about Owen under criterion 2.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The item is a null finding, not a controversy. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing relevant on Owen, so no owner_sites are named. A search for ethics complaints or conflicts from his time as Hillsborough commissioner found nothing about him. I did not directly search FARA or the Florida Commission on Ethics database, or read his financial disclosures or Hillsborough County and Port Tampa Bay records. His Owen & Dunivan law practice and his campaign donors were not examined. AIPAC-related items are counted in a separate step."
+}

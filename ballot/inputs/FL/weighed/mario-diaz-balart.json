@@ -1,0 +1,35 @@
+{
+ "name": "Mario Diaz-Balart",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 2,
+   "text": "In June 2025, Spain's El País published recordings of Colombia's former foreign minister, Álvaro Leyva. He was heard discussing a plan to remove President Gustavo Petro with help from US congressmen, and named Díaz-Balart. Díaz-Balart called the claims \"falsehoods and inventions\" and \"baseless.\" Colombian prosecutors opened an investigation into the plot.",
+   "why": "Under foreign ties, the only link to him is Leyva's own account on tape, and he denies it; no payment, finding or wrongdoing by him was found.",
+   "strength": "reporting",
+   "urls": [
+    "https://colombiareports.com/petro-presses-charges-against-colombias-former-foreign-minister-over-coup-plot/",
+    "https://colombiaone.com/2025/07/06/colombia-us-crisis-diplomatic-political-petro-trump/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "Being noncommittal before voting yes on a bill (Nov 18, 2025, 427-1, with every Florida House member in favor) is an ordinary vote and stance, not conduct that bears on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.yahoo.com/news/articles/miami-congressional-delegation-vote-release-201121209.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Nothing was found on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com); the one search for them returned nothing relevant. Item 1: I could not open the AP/Gazette Xtra article (fetch failed) or El País itself. The recordings' content comes from Colombia Reports and ColombiaOne. A person should confirm whether Colombian prosecutors ever named Díaz-Balart in their investigation. Item 2: the Wikipedia claim that he voted yes only after Trump weighed in was not confirmed by any Local10 or Miami New Times piece I could open. I only saw the House Roll Call result in a search snippet and did not open it, but the Florida Politics snippet says every Florida House member voted yes. Attendance and AIPAC-related items were not weighed, per instructions."
+}

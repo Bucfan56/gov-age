@@ -1,0 +1,20 @@
+{
+ "name": "Shane Stringer",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In May 2021, Mobile County Sheriff Sam Cochran removed Stringer as a captain. The sheriff's office cited \"different political views held by his administration\" and did not name them. Stringer said Cochran told him it was because he sponsored a bill ending gun-carry permits. He said he would keep pushing it.",
+   "why": "Stringer lost his job through the sheriff's decision, not through any misconduct of his own, and permitless carry is not one of the listed platform promises, so no criterion is clearly engaged.",
+   "strength": "reporting",
+   "urls": [
+    "https://abc17news.com/news/national-world/2021/05/14/legislator-says-he-was-fired-because-of-second-amendment-stance/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The sheriff's office never named the specific political views. The only source for the bill being the reason is Stringer's own account (a news release). I couldn't open the AL.com original or the APR piece, because they were not openable links. A reviewer could check them for any further sheriff's office statement. The owner's listed sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) had nothing about Stringer in my one search. Wikipedia's 'fired for sponsoring' wording is stronger than the sheriff's own statement. If the owner counts permitless carry as part of the Second Amendment plank, this could be rescored as a minor 'for', but the cause rests on Stringer's account."
+}

@@ -1,0 +1,35 @@
+{
+ "name": "David Rouzer",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 1,
+   "text": "Rouzer said on Jan. 4, 2021 that he would object to several states' Electoral College votes. On Jan. 6 he joined 36 colleagues in a statement saying they would vote to sustain objections. They said the states changed election rules unconstitutionally and that they could not independently prove the fraud claims. State officials said they found no evidence of fraud that would change the result.",
+   "why": "This was a recorded vote and a legal position with no official finding of wrongdoing, and it has no clear bearing on the country-commitment criterion.",
+   "strength": "own_words",
+   "urls": [
+    "https://rouzer.house.gov/news/documentsingle.aspx?DocumentID=261",
+    "https://www.wect.com/2021/01/04/rep-david-rouzer-says-he-will-protest-electoral-college-votes/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is the same 2020-election challenge as item 1, and Rouzer's own statement ties the brief to his objection vote, so it is not written up twice.",
+   "strength": "own_words",
+   "urls": [
+    "https://rouzer.house.gov/news/documentsingle.aspx?DocumentID=261"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The one search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about Rouzer. Ballotpedia's page was cut off before its noteworthy-events section. I did not open the House roll calls, so the 121-303 and 138-282 counts are not in the text. Rouzer's own statement said he would vote to sustain the objections. A Reflector (Roll Call) result listed him among those voting yes on Pennsylvania, but it was a snippet I did not open. The brief itself (supremecourt.gov PDF) and the Supreme Court's standing order were seen only in search snippets, and the fetched Rolling Stone page was not usable. A WHQR interview from Jan. 13, 2021 has Rouzer saying his concerns were constitutional, but I only saw it as a snippet. No conduct tied to the criteria was found. Attendance was not weighed."
+}

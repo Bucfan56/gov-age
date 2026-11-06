@@ -1,0 +1,20 @@
+{
+ "name": "Brad Sherman",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In December 2017, McClatchy reported that eight former aides said Sherman's Washington and California offices were so uncomfortable that junior staff felt unable to raise harassment concerns about former aide Matt Dababneh. Sherman called himself \"a demanding boss\" but denied that his management style contributed to the silence about Dababneh's behavior.",
+   "why": "This is a reported workplace-culture complaint from 2017 with no official finding and no clear link to the owner's criteria on abuse of office, self-dealing or lying, so it is shown but doesn't count.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.newsweek.com/fear-la-congressmans-office-leads-silence-harassment-aides-say-752441"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I read only the Newsweek summary. I did not open the original McClatchy/Sacramento Bee report or the Los Angeles Times pieces, which the Newsweek article links to. The item says the Los Angeles Times reported the aides' claims, but the aides' account came from McClatchy and the Sacramento Bee. Search snippets (not opened) show Sherman saying he had no knowledge of Dababneh's conduct. Reports of 'toxic' management and high staff turnover are unproven. No official finding turned up. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) found nothing about Sherman. Attendance was not weighed."
+}

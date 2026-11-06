@@ -1,0 +1,90 @@
+{
+ "tommy-tuberville": {
+  "chamber": "U.S. Senate",
+  "roll_calls": 915,
+  "missed": 60,
+  "missed_pct": 6.6,
+  "longest_run": 8,
+  "run_from": "2026-04-27",
+  "run_to": "2026-04-30",
+  "through": "2026-09-30",
+  "source": "https://voteview.com/congress/senate"
+ },
+ "shomari-figures": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 13,
+  "missed_pct": 1.9,
+  "longest_run": 2,
+  "run_from": "2025-03-03",
+  "run_to": "2025-03-03",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "robert-aderholt": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 20,
+  "missed_pct": 3.0,
+  "longest_run": 6,
+  "run_from": "2026-05-20",
+  "run_to": "2026-05-20",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "barry-moore": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 19,
+  "missed_pct": 2.8,
+  "longest_run": 11,
+  "run_from": "2025-06-03",
+  "run_to": "2025-06-06",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "gary-palmer": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 8,
+  "missed_pct": 1.2,
+  "longest_run": 1,
+  "run_from": "2025-04-09",
+  "run_to": "2025-04-09",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "mike-rogers": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 21,
+  "missed_pct": 3.1,
+  "longest_run": 3,
+  "run_from": "2025-06-23",
+  "run_to": "2025-06-23",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "dale-strong": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 17,
+  "missed_pct": 2.5,
+  "longest_run": 4,
+  "run_from": "2026-03-17",
+  "run_to": "2026-03-17",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "terri-sewell": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 11,
+  "missed_pct": 1.6,
+  "longest_run": 3,
+  "run_from": "2025-06-23",
+  "run_to": "2025-06-23",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ }
+}

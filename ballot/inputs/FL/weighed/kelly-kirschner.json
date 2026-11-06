@@ -1,0 +1,18 @@
+{
+ "name": "Kelly Kirschner",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item says no foreign-government, FARA, or foreign-agent ties were found, so it describes no conduct by the candidate under the foreign-ties criterion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 1 is a null finding with no accusation, so I left it off. I ran one search pairing the candidate's name with the owner's named sites (alexjoneslive.com, infowars.com and the others). It returned only general Alex Jones and Infowars pages and nothing about Kirschner, so owner_sites is empty. A broader search for ethics or controversy found no findings against him. It did turn up a Bradenton Journal report that an opponent's AI-generated ad falsely showed him being arrested. I read that only in search results and it is not conduct by him. I didn't check FARA or FEC filings or his Sarasota-era records directly. Someone should confirm FEC data on donors and any foreign-linked contributions, since those are counted in separate steps."
+}

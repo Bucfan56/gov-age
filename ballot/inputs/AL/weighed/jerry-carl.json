@@ -1,0 +1,20 @@
+{
+ "name": "Jerry Carl",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On Jan. 6, 2021, Carl voted to object to Arizona's and Pennsylvania's electoral votes. He said he did so after research into reports of voter fraud and irregularities. Both objections were rejected. No court found grounds to overturn the results. He also voted against Trump's second impeachment.",
+   "why": "These are recorded floor votes with a stated reason, and they show no abuse of office, self-dealing or lie about his own record under criterion 6, so the platform score covers any disagreement with them.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.alreporter.com/2021/01/08/carl-doubles-down-on-vote-to-challenge-to-electoral-college-results/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Searched the owner's named sites with Carl's name and found nothing about him. The impeachment quote ('failed to reach the necessary threshold') appears only on Wikipedia, so I left it out of the text. I did not find or read a primary record of the impeachment vote or his statement on it. The roll-call pages (House votes on Jan. 6–7 and Jan. 13, 2021) were not opened. The Washington Post tracker lists Carl in a 'Did not vote 8' group alongside a quote from him. That is probably a labeling glitch from the page text, but it was not checked. Carl lost the 2024 primary and left office in January 2025, so confirm he is still a candidate."
+}

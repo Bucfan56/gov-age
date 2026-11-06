@@ -1,0 +1,23 @@
+{
+ "name": "Bobby Singleton",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In April 2008, a Country Crossing gambling project representative claimed Singleton, then chair of the Senate Tourism and Marketing Committee, agreed to hold a bill in committee for $25,000. The bill would have denied electronic bingo funds to the project. Singleton denied having any contact with the project's representatives. No court or official finding is reported.",
+   "why": "This is an unproven claim from a project representative, denied by Singleton, with no finding and no record I could read showing his own conduct, so it doesn't establish a failure of the abuse-of-office criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://ballotpedia.org/Bobby_Singleton"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2008",
+    "25,000"
+   ]
+  }
+ ],
+ "for_review": "I couldn't reach the original 2008 news report of the $25,000 claim. The Ballotpedia pages I opened cut off before their 'Noteworthy events' sections, so the item's wording rests on the item as supplied. Searches for the original turned up nothing naming Singleton in the later federal bingo-bribery case. That case's indictment and trial coverage named other senators (Smith, Preuitt, Means, Ross). I didn't open those articles, so check the federal court record to confirm he was never charged. Searching the owner's named sites for Singleton returned nothing relevant."
+}

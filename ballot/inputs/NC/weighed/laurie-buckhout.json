@@ -1,0 +1,35 @@
+{
+ "name": "Laurie Buckhout",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In August 2026, the prediction market Kalshi fined her $2,589.96 and suspended her for three years. She had bet less than $1,000 on her own House race, and Kalshi's rules bar candidates from trading on their own races. She said: \"It was a dumb mistake, and as soon as I learned there was an issue, I worked to make it right.\"",
+   "why": "This is a private exchange's rule settlement that she admitted, with no public office involved and no clear bearing on abuse-of-office or self-dealing (criterion 6).",
+   "strength": "reporting",
+   "urls": [
+    "https://www.carolinajournal.com/kalshi-suspends-nc-1-candidate-buckhout-for-trading-on-her-own-race/",
+    "https://www.wral.com/news/nccapitol/laurie-buckhout-banned-from-kalshi-prediction-market-betting-on-own-race-august-2026/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "She was charged with DUI in Richmond County, Georgia, on Aug. 8, 2017. On Oct. 8, 2019, she pleaded guilty to reckless driving and was ordered to pay a $500 fine. Two other charges were dropped. Her campaign said she \"made a mistake which she deeply regrets.\"",
+   "why": "This is a private-life misdemeanor from 2017 with no tie to any public office, so it has no clear bearing on any of his criteria.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.newsbreak.com/richmond-county-ga/3325296803028-buckhout-pleaded-guilty-to-reckless-driving-after-initial-dui-charge-reduced"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 1 is a judgment call. I rated it context because the penalty came from a private exchange, not a government or ethics body. A reviewer could treat it as a weight-1 'against' under criterion 6. The fine amount differs by source. The Kalshi notice, as reported by Carolina Journal, The Hill and WRAL, says $2,589.96. Ballotpedia says $2,500. An AP version carried by the Arkansas Democrat-Gazette-owned News Tribune says $25,000, which looks like an error. I did not open the Kalshi notice PDF itself, because it was not in the search results. The notice is dated 08.28.2026 and was published Aug. 31. Item 2: the Daily Advance page itself returned mostly page code, so I read its text through a NewsBreak copy of the same article. I did not read the Richmond County court docket or the 2017 bodycam footage. A DCCC press release and a WAVY Truth Tracker mention the bodycam, including a claim that she named a Pentagon general during the arrest. That claim comes from an opposing party and was not verified. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about her. A National File article about the DUI came up in the other searches, but it is not one of the owner's named sites. I did not search her for other issues, such as her Pentagon tenure, campaign loans, or foreign ties. I used all four searches on these two items and the owner-sites check."
+}

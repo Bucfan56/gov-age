@@ -1,0 +1,63 @@
+{
+ "name": "James Uthmeier",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "The Hope Florida Foundation gave $10 million to two nonprofit groups. They gave the money to a political committee headed by Uthmeier. A grand jury report called the money \"misappropriated\" but indicted no one. On Oct. 7, 2026, an appeals court ordered the report expunged. No charges have been filed.",
+   "why": "This is a serious self-dealing-type accusation under criterion 6 that no court or prosecutor has decided: no charges, the grand jury report expunged, and a rehearing request pending.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wlrn.org/government-politics/2026-10-08/an-appeals-court-expunges-the-hope-florida-grand-jury-report",
+    "https://www.wgcu.org/government-politics/2026-10-07/state-appeals-court-expunges-hope-florida-grand-jury-report"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "against",
+   "weight": 1,
+   "criterion": 6,
+   "text": "On June 17, 2025, a federal judge held Uthmeier in civil contempt over an April 23 letter to police. The letter said he couldn't stop arrests under a blocked immigration law. She ordered biweekly reports, with no fine or jail. He wrote: \"If being held in contempt is what it costs... so be it.\"",
+   "why": "A federal court's contempt finding for defying its order is a misuse of the office under criterion 6; it fits no weight level exactly, so it takes the nearest, minor, because the sanction was reporting only and the appeal is unresolved.",
+   "strength": "court",
+   "urls": [
+    "https://floridaphoenix.com/?p=232332"
+   ],
+   "owner_sites": [],
+   "check": [
+    "If being held in contempt is what it costs... so be it."
+   ]
+  },
+  {
+   "item": 3,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "Challenger José Javier Rodríguez, campaigning on \"crime, costs and corruption,\" has criticized no-bid contracts and conditions at the Alligator Alcatraz detention site. No court finding on the contract claims was found, and Uthmeier's own role in awarding them has not been shown.",
+   "why": "This is an opponent's allegation under criterion 6 with no finding and no shown conduct by Uthmeier in awarding contracts.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wlrn.org/government-politics/2026-09-30/jose-javier-rodriguez-florida-ag-attorney-general-uthmeier"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 4,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "Nothing was documented on foreign ties (criterion 2), so there is no conduct to weigh.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) The WGCU, WLRN (Oct 8) and WLRN (Sept 30) pages came back mostly as site menus. I relied on their headers and descriptions, so the Hope Florida text is thin. Read the full opinion and Uthmeier's response. His office called the ruling a 'complete and total victory'; I saw that only in search snippets. Also check the pending rehearing motion and the reported IRS whistleblower claim, and the Tampa Bay Times and WUSF coverage. Item 1 could arguably be 'context' instead of 'open'. 2) Contempt: I found no 11th Circuit result on his appeal of the contempt order (ACLU and WFSU say he appealed). The 11th Circuit oral argument on SB 4-C was reportedly set for October 2026, so check the current status. Weight 1 is a judgment call. 3) Alligator Alcatraz: I could not read Rodríguez's specific claims. Snippets said the state emergency-management division operates the site, and a GAO report cited operation without a contract or agreement in place. Neither shows Uthmeier steering contracts. Wikipedia mentions vendor donations to him, and a donation proves nothing. 4) The owner-sites search found nothing about Uthmeier. 5) The foreign-ties check rests on the provided notes; I ran no FARA search of my own. 6) A search snippet said Uthmeier won the Nov 2026 election; this was not verified."
+}

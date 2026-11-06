@@ -1,0 +1,23 @@
+{
+ "name": "Jeff Van Drew",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 1,
+   "text": "In December 2020 Van Drew was one of 126 House Republicans on a Supreme Court brief backing Texas's suit to void four states' 2020 results. The Court dismissed that suit for lack of standing. On Jan. 6-7, 2021 he voted to reject Arizona's and Pennsylvania's electoral votes.",
+   "why": "This is a documented political stance on the 2020 election (criterion 1), but no court or official finding of wrongdoing was made against him, so it is shown and does not count.",
+   "strength": "official",
+   "urls": [
+    "https://www.supremecourt.gov/DocketPDF/22/22O155/163550/20201211132250339_Texas%20v.%20Pennsylvania%20Amicus%20Brief%20of%20126%20Representatives%20--%20corrected.pdf",
+    "https://clerk.house.gov/Votes/202110",
+    "https://clerk.house.gov/Votes/202111"
+   ],
+   "owner_sites": [],
+   "check": [],
+   "edited": "by the seat after reading the cited pages"
+  }
+ ],
+ "for_review": "1) I read the Supreme Court amicus brief (Van Drew is on the signer list) and the 6abc report on the death threat. The Jan. 6 objection votes (Arizona and Pennsylvania) rest only on search snippets from Ballotpedia, Roll Call, the Washington Post, Fox News and a Van Drew press release. I did not open the House roll call or the Congressional Record. 2) The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Van Drew, so owner_sites is empty. 3) The death threat is background, since Van Drew was the target. The threatening columnist and the publisher both apologized. Van Drew said he was weighing charges or a lawsuit, and I did not find how that ended. 4) Several outlets (The Hill, CBS Philadelphia, the Inquirer, NJ Monitor, dated Nov. 3-5, 2026) report that Van Drew conceded the NJ-2 race to Democrat Zack Mullock. Check whether the guide should still list him as a current candidate. 5) I found no attendance, money, foreign-tie or self-dealing problems. His 10 missed votes of 676 are well under the 100-vote line. I did not research other parts of his record because only this one item was assigned."
+}

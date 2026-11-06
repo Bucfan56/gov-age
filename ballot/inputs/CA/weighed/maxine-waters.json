@@ -1,0 +1,50 @@
+{
+ "name": "Maxine Waters",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "The House Ethics Committee examined whether Waters improperly helped OneUnited Bank, where her husband held stock. On September 21, 2012, it voted 10-0 that the evidence did not establish a violation by her. It found her chief of staff acted for the bank despite her instructions to avoid the conflict, and reproved him.",
+   "why": "The conflict-of-interest charge bears on not using office for self-dealing (criterion 6), but the Committee found no violation by Waters, so there is no finding against her own conduct.",
+   "strength": "official",
+   "urls": [
+    "https://ethics.house.gov/press-releases/statement-acting-chairman-and-acting-ranking-member-committee-ethics-regarding/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On April 17, 2021, at a Minnesota protest, Waters said that if Derek Chauvin weren't convicted, protesters should \"get more confrontational.\" The trial judge denied a mistrial but called officials' failure to respect the court \"abhorrent.\" A censure resolution failed. Waters said she meant confronting the justice system and nonviolent action.",
+   "why": "The remarks are on the record in her own words and drew a judge's rebuke, but there is no finding of wrongdoing and no clear link to any criterion, such as abuse of office.",
+   "strength": "own_words",
+   "urls": [
+    "https://www.politifact.com/article/2021/apr/21/what-rep-maxine-waters-said-about-chauvin-trial-an/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "At a June 23, 2018 Los Angeles rally, Waters told supporters to \"create a crowd\" and push back on Trump Cabinet officials they met in public places. She later said she believes in peaceful protest and had not called for harm to anyone.",
+   "why": "This is rally rhetoric criticized by opponents and some Democrats, with no official finding and no conduct tied to any criterion, such as abuse of office.",
+   "strength": "own_words",
+   "urls": [
+    "https://www.politifact.com/article/2018/jun/26/have-us-rep-maxine-waters-and-president-donald-tru/"
+   ],
+   "owner_sites": [
+    "infowars.com"
+   ],
+   "check": []
+  }
+ ],
+ "for_review": "Item 1: I read the Committee's 2012 statement but not the full report or Waters' own response. I did not verify the 2010 charge date or her bias allegation from primary records. Item 2: I could not confirm the 216-210 censure vote count from a page I read. I read only PolitiFact's report that the censure failed on party lines. Item 3: Waters' rally remarks are in her own words, and PolitiFact reports that she denied calling for harm. No official action was found. The owner-site search turned up only a 2018 Infowars post about the rally remarks, which I did not rely on. Attendance and AIPAC matters were not weighed. I found no other against or open items, but I did not search for other controversies."
+}

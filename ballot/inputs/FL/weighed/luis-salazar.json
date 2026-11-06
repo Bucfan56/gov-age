@@ -1,0 +1,20 @@
+{
+ "name": "Luis Salazar",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "The Tampa Bay Times reported in August 2026 that Salazar has been convicted of three DUIs, each more than a decade ago. Asked about it, he said he was a \"different person\" then.",
+   "why": "These are old personal convictions for conduct outside any public office, with no clear bearing on real work, doing the job, or abuse of a position (criteria 4–6).",
+   "strength": "reporting",
+   "urls": [
+    "https://www.tampabay.com/news/2026/08/06/democratic-florida-house-candidate-hillsborough-has-had-3-duis/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The Florida Politics article (item 1's source) and the Florida Voice piece would not load. The Tampa Bay Times page was partly paywalled, so I could read only its headline and summary. Search snippets from the Times, Florida Politics and Florida Voice mention a 2015 Brandon stop, breath readings of 0.200 and 0.210, and a guilty plea to fleeing/eluding, DUI and driving without a valid license. I did not read those details on a full page, so they are not in the text. A reviewer should confirm the 2015 case outcome in Hillsborough Clerk records and get Salazar's full statement. The one search on the owner's named sites found nothing about this candidate."
+}

@@ -1,0 +1,18 @@
+{
+ "name": "Gerald Baldi",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item records no foreign-tie conduct by this person (criterion 2), and my searches found no FARA filing, foreign-government payment, or foreign-agent donor connected to him.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The item is a null finding, so I treated it as leave_off. The prompt calls Baldi a State Senator, but the records I found show he is a Democratic challenger for District 20. He won the Aug. 2026 primary and appears to have lost the Nov. 3 general election to Jim Boyd, 39.5% to 60.5%. I ran one search with his name and the owner's sites (alexjoneslive, stewpeters, ryandawson, infowars) and found nothing from them about him. I did not open the FARA database directly, so someone could check it by hand. I found nothing else that meets the against or open bar. Only a brief set of sources came up: Florida Division of Elections candidate page, Bradenton Times endorsements, WFLA and Manatee Chamber profiles. His campaign has little online presence, so records on him are thin."
+}

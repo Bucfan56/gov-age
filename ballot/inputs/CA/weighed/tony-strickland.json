@@ -1,0 +1,50 @@
+{
+ "name": "Tony Strickland",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 3,
+   "criterion": 6,
+   "text": "In 2016 Strickland agreed to a $40,000 penalty from California's ethics commission. It found $65,000 in 2010 controller-race donations were routed through two county Republican committees, hiding the true donors, and his campaign filed false reports. Earlier fines: $6,000 for failing to report over $116,000 in late 1999 contributions, and $3,000 over an undisclosed mailer source.",
+   "why": "Criterion 6: the FPPC's own signed stipulation, which Strickland agreed to, records laundered contributions and false campaign statements, so this takes the money-laundering level, and the older fines are minor filing violations.",
+   "strength": "official",
+   "urls": [
+    "https://lunar.fppc.ca.gov/content/dam/fppc/documents/Stipulations/2016/May/03%20Anthony%20Strickland%20-%20Stip%20and%20Exh.pdf",
+    "https://www.cbsnews.com/sacramento/news/former-california-controller-candidate-faces-80000-campaign-fine/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2008 critics said Strickland's Senate campaign literature misrepresented his business background by listing him as a vice president of Green Wave Energy Solutions, which they said had not done business in California. A June 2008 release from his campaign called GreenWave a local energy company and named him its vice president. His response to the critics was not found.",
+   "why": "Criterion 6 (lying about record): the accusation is unproven, because the only evidence of the title is the campaign's own release, and no independent record shows the firm's activity or that he misstated anything.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.noozhawk.com/061208_greenwave_energy_solutions_generates_recognition_of_its_efforts/",
+    "https://en.wikipedia.org/wiki/Tony_Strickland"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In 2023 Strickland acknowledged that a Huntington Beach condo with an affordable-housing covenant is his primary residence. Critics called it hypocritical, given his opposition to state housing mandates. He said he supports affordable housing, but not the kind that harms the city.",
+   "why": "This is a hypocrisy charge about a lawful home and a policy position, with no abuse of office, self-dealing or false statement, and the platform score already covers his housing stance.",
+   "strength": "reporting",
+   "urls": [
+    "https://voiceofoc.org/2023/03/fighting-californias-housing-goals-while-living-in-affordable-housing/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Owner-sites search (Alex Jones, Stew Peters, Ryan Dawson, Infowars) returned nothing about Strickland. Item 1: I could not confirm from a primary source his stated response, which Wikipedia reports, that he did not personally solicit the donations, so it is left out of the text. The FPPC stipulation says he 'purposefully or negligently' caused the violations, and his 2016 settlement is the basis for weight 3. A reviewer may prefer weight 1 if routing donations through party committees is judged a campaign-finance violation, not criterion-6 money laundering. I did not read the 1999 Secretary of State suit or the 2010 FPPC mailer decision directly. The $6,000 and $3,000 fines rest on a 2016 AP report. Item 2: the original critic material and his response were not found. The Wikipedia claim that Green Wave Energy Solutions never did business in California is unverified. The Noozhawk piece is a campaign-authored release and calls it a local company. Item 3: I did not read the OC Register or Daily Pilot pieces with his full response. The Voice of OC page carries an opinion/press-release template banner, though the article appears to be student news reporting. It confirms he acknowledged living there."
+}

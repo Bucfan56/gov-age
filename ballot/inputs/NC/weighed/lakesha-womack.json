@@ -1,0 +1,35 @@
+{
+ "name": "Lakesha Womack",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Deputies served Womack with a felony warrant on Oct. 11, 2026. The 2020 warrant charges her with failing to return a rental car, worth $20,000 by the warrant's value, rented in October 2019. She called it an ongoing legal matter, said her court date is after Election Day, and cited a past health issue and financial rebuilding.",
+   "why": "This is a pending felony charge over her own conduct, with no court finding yet, and it fits none of the owner's criteria directly, so it is shown but does not count.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wbtv.com/2026/10/31/felony-warrant-served-woman-running-north-carolinas-congressional-district-14/",
+    "http://womack4nc14.com"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is her own response to the same rental-car matter in item 1, so it is covered there and not repeated (criterion 6 not implicated by a pending charge).",
+   "strength": "own_words",
+   "urls": [
+    "http://womack4nc14.com"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about her. I never read a court record or the charging document, only WBTV's account of the warrant and her campaign statement. Search results from Axios and the Gateway Pundit (citing Channel 9) say she acknowledged not returning the car on time and said she owed the company money. I couldn't open the Axios pages and did not read the Gateway Pundit page, so I left those quotes out of the text. Check them. The Gateway Pundit also gave her next court date as Nov. 10, 2026, and Axios said the charge is a pending Class H felony. Check the court outcome. NC Newsline and Axios say she lives in the 12th District, not the 14th. That is not a legal bar to holding the seat, and I did not weigh it. Before the owner counts this item, check what happens on the court date, which her statement puts one week after Election Day. Wikipedia says the delay in serving her was because she was homeless. WBTV says it is not clear why she wasn't served until 2026. I did not rely on that part of Wikipedia."
+}

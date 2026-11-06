@@ -1,0 +1,20 @@
+{
+ "name": "Mai Vang",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 1,
+   "text": "In late May 2026, videos resurfaced showing Vang, a Sacramento City Council member, not saying the Pledge of Allegiance at multiple council meetings. The clips drew backlash from critics. Fox News reported it had asked her for comment. Her own explanation is not included here.",
+   "why": "She openly doesn't recite the pledge, which touches commitment to the country (criterion 1), but there is no finding of wrongdoing and it is a symbolic gesture, so it is shown without counting.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.foxnews.com/culture/california-congressional-candidate-refuses-say-pledge-allegiance-resurfaced-clips"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Fox News's page opened, but only its headline and summary loaded, not the article body. Lodi News, BizPac Review and Fox Bangor would not open. I saw Vang's 2025 Facebook explanation (resisting complacency, not tuning out the news) and her campaign manager's response only in search snippets, so I left both out of the text. I did not open the original Facebook post or the Wikipedia page. I could not check the May 20 joint city-county meeting detail or the Feb. 4, 2025 post date. The one search on the owner's named sites found nothing about Vang. Someone should read the Fox article body and the Facebook post, and confirm the meeting dates, before publishing a fuller text with her response."
+}

@@ -1,0 +1,100 @@
+{
+ "name": "David Jolly",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "A Donalds ad said Jolly lobbied to expand offshore drilling, citing $5 million in billings. PolitiFact rated it Mostly False: the $5 million was his firm's total billings. Jolly attended a 2011 client meeting on a drilling bill and listed it on a disclosure form. He said he did not lobby for it, and his campaign cites his opposition to drilling near Florida in Congress.",
+   "why": "Lobbying was his real career (criterion 4), but PolitiFact found the ad misleading and nothing shows wrongdoing, so it is shown without counting.",
+   "strength": "reporting",
+   "urls": [
+    "https://politifact.com/factchecks/2026/oct/01/byron-donalds/florida-governor-offshore-oil-drilling-lobbying/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "PolitiFact is confident Jolly never lobbied for Pakistan and the ad blamed his former employer's work, so this is guilt by association under criterion 2, not his own conduct.",
+   "strength": "reporting",
+   "urls": [
+    "https://politifact.com/factchecks/2014/jan/27/democratic-congressional-campaign-committee/democrats-say-david-jollys-old-firm-lobbied-millio/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "Declining debates is a campaign tactic, and the transgender ad is an opponent's ad that PolitiFact found deceptively edited, so this isn't his own conduct bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 4,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "Jolly openly says his abortion views changed, so this is a changed stance rather than lying about his record, and the platform score already covers abortion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 5,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "A 2015 vote on a bill, set against a later policy position, is an ordinary vote and stance change, not a criterion violation, and the platform score covers immigration.",
+   "strength": "official",
+   "urls": [
+    "https://clerk.house.gov/Votes/2015466"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 6,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 3,
+   "text": "In August 2026, Jolly's campaign emailed Republican lobbyist Sam Geduldig to request a meeting and invite him to a fundraiser. Jolly is a former lobbyist who campaigns against corruption and once called for banning lobbyist donations. His adviser said Republicans were asking for meetings. In June, he named a longtime Florida lobbyist to lead his transition team.",
+   "why": "It is true and reported, but ordinary fundraising outreach with no finding of wrongdoing and no clear bearing on criterion 3.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.notus.org/campaigns/florida-democrat-hits-up-a-maga-lobbyist-for-campaign-cash"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 7,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "This is the same matter as item 2: his former employer's Pakistan work, with no foreign-government payment to Jolly himself (criterion 2).",
+   "strength": "reporting",
+   "urls": [
+    "https://politifact.com/factchecks/2014/jan/27/democratic-congressional-campaign-committee/democrats-say-david-jollys-old-firm-lobbied-millio/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "One search on the owner's named sites returned nothing about Jolly. The congress.gov cosponsor page would not open, so the 2015 abortion record (item 4) rests on news reports (Fox News, CBS) and not on records I read. The House roll call page for item 5 was cut off before Jolly's name, so his vote is not confirmed from the page. Item 3 (debates and the transgender ad) was seen only in search snippets from PolitiFact/WLRN, WFLA and NBC, and I did not open the pages. The 2014 PolitiFact check (Mostly False) of Jolly's claim that he 'never' lobbied on offshore drilling was not read directly. It could bear on lying about his record, but he later explained that he attended the meeting and did not advocate. The transition-team lobbyist's name appears only in a link, so I left it out. NBC reports Donalds won the Nov. 3 election."
+}

@@ -1,0 +1,35 @@
+{
+ "name": "Judy Chu",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 2,
+   "criterion": 6,
+   "text": "In December 2014 the House Ethics Committee issued Chu a public letter of reproval for interfering with its investigation of campaign work by her staff. It found her two top aides had directed staff to do campaign work on official time, but found no evidence Chu knew. Chu said she regretted contacting her staff.",
+   "why": "An official House finding that Chu interfered with an investigation of her own office (criterion 6, not abusing the position) fits no weight level exactly, so it takes the middle level, since it was a formal reproval for obstruction rather than a fine and carried no finding of self-dealing.",
+   "strength": "official",
+   "urls": [
+    "https://ethics.house.gov/wp-content/uploads/2014/12/In-the-Matter-of-Allegations-Relating-to-Representative-Judy-Chu.pdf",
+    "https://rollcall.com/2014/12/11/chu-chastised-for-interfering-in-house-ethics-investigation/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "A 2020 Axios investigation, summarized by The Hill, reported that a suspected Chinese intelligence operative, Christine Fang, targeted several California politicians. She was photographed with Chu, among others. The Hill's summary does not accuse Chu of any wrongdoing.",
+   "why": "This is guilt by association under criterion 2 (foreign ties): the reporting describes Chu as a target or acquaintance, with no conduct by Chu and no finding against her.",
+   "strength": "reporting",
+   "urls": [
+    "https://thehill.com/policy/international/china/529215-swalwell-california-politicians-targeted-by-chinese-spy-report/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) The Axios original (axios.com/2020/12/08/china-spy-california-politicians) would not load, so I did not read it. Its search snippet says Chu's office reported having no records of Fang. Please check whether Axios or any official source actually says Fang volunteered for Chu's 2012 campaign. The Hill's summary only says she was photographed with Chu. 2) Item 1's weight of 2 is a judgment call. The Ethics Committee called the interference 'very serious' and noted Chu produced a relevant March 2012 email only on its third request. It made no finding of self-dealing, found no evidence Chu knew of her staff's campaign work, and did not find that she failed to supervise them. Weight 1 or 3 could also be argued. The term is 'letter of reproval', not 'reprimand'. 3) GovTrack mentions protest arrests in 2017 and 2022 with $50 fines and no ethics action. I did not research these, and they look like civil-disobedience protests rather than abuse of office. 4) The search on the owner's named sites (Alex Jones, Infowars, Stew Peters, Ryan Dawson) returned nothing about Chu."
+}

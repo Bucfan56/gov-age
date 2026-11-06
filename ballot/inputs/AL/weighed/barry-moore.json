@@ -1,0 +1,37 @@
+{
+ "name": "Barry Moore",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2014, while a state representative, Moore was charged with perjury. Prosecutors said he lied to a grand jury about telling his primary opponent to quit the race or the House Speaker would withhold money for a local project. Moore testified he told the truth. On Oct. 30, 2014, a jury found him not guilty on all four counts.",
+   "why": "The accusation touched lying about his record (criterion 6), but a jury acquitted him on every count, so there is no finding of wrongdoing to count.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wsfa.com/story/27167722/jury-finds-rep-barry-moore-not-guilty-in-perjury-trial/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On Jan. 10, 2021, days after the Capitol attack, Moore's personal Twitter account was suspended and he then deleted it. Two of his tweets about the attack had drawn criticism. One compared arrests at the Capitol with the 2020 election, which he said was \"stolen.\" His office said he left over \"the censorship of conservative voices.\"",
+   "why": "The tweets are Moore's own words and were widely reported, but they don't clearly bear on any criterion, and his Jan. 6-7 objection votes are ordinary votes that the platform score already covers (leave_off).",
+   "strength": "reporting",
+   "urls": [
+    "https://www.alreporter.com/2021/01/10/congressman-barry-moore-deletes-twitter-after-account-suspended/",
+    "https://www.wsfa.com/2021/01/10/us-rep-moore-suspended-twitter-deactivates-personal-account/"
+   ],
+   "owner_sites": [],
+   "check": [
+    "stolen."
+   ]
+  }
+ ],
+ "for_review": "Item 1: I read WSFA's report of the verdict. I did not open the court indictment or trial transcripts. The April 2014 arrest date comes only from Wikipedia and a PBS listing, so I left it out of the text. The recordings of Moore and his opponent were described in reporting but I did not read them. Item 2: I did not open an official House roll-call record for the Jan. 6-7 objection votes. The Babbitt tweet's exact wording came only from search snippets and Moore's own full statement was not on a page I could read, so neither is in the text. The Hill article on this would not load. The owner-site search (Moore with alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Moore. Attendance was not weighed."
+}

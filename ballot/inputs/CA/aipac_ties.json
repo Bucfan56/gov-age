@@ -1,0 +1,5101 @@
+{
+ "mike-mcguire": {
+  "race": "U.S. House, District 1",
+  "fec_ids": [
+   "H6CA01269"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "james-gallagher": {
+  "race": "U.S. House, District 1",
+  "fec_ids": [
+   "H6CA01285"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "jared-huffman": {
+  "race": "U.S. House, District 2",
+  "fec_ids": [
+   "H2CA06259"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Jared Huffman",
+    "sponsor": "J Street Education Fund",
+    "to": "Israel",
+    "left": "2/18/2022",
+    "back": "2/25/2022",
+    "doc": "500024113"
+   },
+   {
+    "member_or_staff": "Jared Huffman",
+    "sponsor": "J Street Education Fund",
+    "to": "Israel, Jordan",
+    "left": "2/12/2026",
+    "back": "2/19/2026",
+    "doc": "500033457"
+   }
+  ],
+  "trips_filed": 4,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "robin-littau": {
+  "race": "U.S. House, District 2",
+  "fec_ids": [],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  }
+ },
+ "ami-bera": {
+  "race": "U.S. House, District 3",
+  "fec_ids": [
+   "H0CA03078"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 0.0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "6/23/2023",
+    "back": "6/30/2023",
+    "doc": "500026629"
+   }
+  ],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "U.S Association of Former Members of Congress",
+    "to": "Seoul, South Korea",
+    "left": "7/5/2021",
+    "back": "7/11/2021",
+    "doc": "500023294"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "U.S. Associaion of Former Members of Congress",
+    "to": "Seoul, South Korea",
+    "left": "7/5/2021",
+    "back": "7/11/2021",
+    "doc": "500023302"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "The Aspen Institute Rockefeller Brothers Fund The Henry Luce Foundation Democracy Fund Carnegie Corporation of New York",
+    "to": "Geneva, Switzerland",
+    "left": "5/29/2022",
+    "back": "6/5/2022",
+    "doc": "500024775"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "United States Association of Former Members of Congress and the Korea Society",
+    "to": "Seoul, South Korea",
+    "left": "7/2/2022",
+    "back": "7/9/2022",
+    "doc": "500024993"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "Aspen Insititute, Inc., Democracy Fund, Rockefeller Brothers Fund",
+    "to": "Reykjavik, Iceland",
+    "left": "8/29/2022",
+    "back": "9/3/2022",
+    "doc": "500025294"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "United States Association of Former Members of Congress and Sasakawa Peace Foundation USA",
+    "to": "Japan",
+    "left": "2/18/2023",
+    "back": "2/25/2023",
+    "doc": "500025934"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "Aspen Institute, Inc. and Bill & Melinda Gates Foundation",
+    "to": "Kenya",
+    "left": "8/12/2023",
+    "back": "8/21/2023",
+    "doc": "500027005"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "United States Association of Former Members of Congress and the Korea Society",
+    "to": "South Korea",
+    "left": "3/23/2024",
+    "back": "3/29/2024",
+    "doc": "500028081"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "United States Asosciation of Former members of Congress and the Korea Society",
+    "to": "South Korea",
+    "left": "3/23/2024",
+    "back": "3/29/2024",
+    "doc": "500028139"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "United Nations Foundation and Eleanor Crook Foundation",
+    "to": "Fiji",
+    "left": "4/20/2024",
+    "back": "4/27/2024",
+    "doc": "500028338"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "Aspen Institute, Inc., and Carnegie Corporation of New York",
+    "to": "Ireland, United Kingdom",
+    "left": "8/8/2024",
+    "back": "8/17/2024",
+    "doc": "500029130"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "Ripon Society and the Franklin Center for Global Policy Exchange",
+    "to": "Austria",
+    "left": "11/7/2024",
+    "back": "11/12/2024",
+    "doc": "500029546"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "Former Members of Congress and the Korea Society",
+    "to": "South Korea",
+    "left": "4/12/2025",
+    "back": "4/18/2025",
+    "doc": "500031002"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "Aspen Institute, Inc., and Center for Responsible Innovation",
+    "to": "Spain",
+    "left": "5/24/2025",
+    "back": "5/31/2025",
+    "doc": "500031257"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "Aspen Institute, Inc., Bill & Melinda Gates Foundation, and Cooperative for Assistance and Relief Everywhere, Inc. (CARE)",
+    "to": "Zambia",
+    "left": "8/7/2025",
+    "back": "8/17/2025",
+    "doc": "500032993"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "United Nations Foundation and Eleanor Crook Foundation",
+    "to": "Mongolia",
+    "left": "8/22/2025",
+    "back": "8/29/2025",
+    "doc": "500033048"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "Aspen Institute, Inc., Bill & Melinda Gates Foundation, and Cooperative for Assistance and Relief Everywhere, Inc. (CARE)",
+    "to": "Zambia",
+    "left": "8/7/2025",
+    "back": "8/18/2025",
+    "doc": "500033278"
+   },
+   {
+    "member_or_staff": "Ami Bera",
+    "sponsor": "Former Members of Congress and the Korea Society",
+    "to": "South Korea",
+    "left": "3/28/2026",
+    "back": "4/3/2026",
+    "doc": "500033811"
+   }
+  ],
+  "trips_filed": 23,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 78917.5
+ },
+ "robb-tucker": {
+  "race": "U.S. House, District 3",
+  "fec_ids": [
+   "H6CA03174"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "eric-jones": {
+  "race": "U.S. House, District 4",
+  "fec_ids": [
+   "H6CA04222"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "mike-thompson": {
+  "race": "U.S. House, District 4",
+  "fec_ids": [
+   "H8CA01109"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Mike Thompson",
+    "sponsor": "J Street Education Fund",
+    "to": "Israel",
+    "left": "2/17/2023",
+    "back": "2/24/2023",
+    "doc": "500025916"
+   },
+   {
+    "member_or_staff": "Mike Thompson",
+    "sponsor": "Aspen Institute, Inc. and the Rockefeller Foundation",
+    "to": "Italy",
+    "left": "4/21/2025",
+    "back": "4/25/2025",
+    "doc": "500031116"
+   }
+  ],
+  "trips_filed": 2,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "tom-mcclintock": {
+  "race": "U.S. House, District 5",
+  "fec_ids": [
+   "H8CA04152"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 5000.0
+  },
+  "passed_through_aipac_pac_2026": 11233.55,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Tom McClintock",
+    "sponsor": "Heritage Foundation",
+    "to": "United Kingdom",
+    "left": "10/29/2023",
+    "back": "11/2/2023",
+    "doc": "500027275"
+   }
+  ],
+  "trips_filed": 3,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 11233.55,
+  "passed_through_aipac_pac_2022_2024": 26141.01
+ },
+ "michael-masuda": {
+  "race": "U.S. House, District 5",
+  "fec_ids": [
+   "H6CA05377"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "richard-pan": {
+  "race": "U.S. House, District 6",
+  "fec_ids": [
+   "H6CA03158"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "kevin-kiley": {
+  "race": "U.S. House, District 6",
+  "fec_ids": [
+   "H2CA03157"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 10000.0,
+   "2026": 5000.0
+  },
+  "passed_through_aipac_pac_2026": 33160.0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "Kevin Kiley",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "4/1/2024",
+    "back": "4/8/2024",
+    "doc": "500028185"
+   }
+  ],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Kevin Kiley",
+    "sponsor": "Ripon Society and the Franklin Center for Global Policy Exchange",
+    "to": "Switzerland",
+    "left": "8/5/2025",
+    "back": "8/9/2025",
+    "doc": "500031669"
+   }
+  ],
+  "trips_filed": 2,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 33160.0,
+  "passed_pac_report_2026": 30603.02,
+  "passed_through_aipac_pac_2022_2024": 6939.01
+ },
+ "doris-matsui": {
+  "race": "U.S. House, District 7",
+  "fec_ids": [
+   "H6CA05195"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 1,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 3404.69
+ },
+ "mai-vang": {
+  "race": "U.S. House, District 7",
+  "fec_ids": [
+   "H6CA07175"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "john-garamendi": {
+  "race": "U.S. House, District 8",
+  "fec_ids": [
+   "H0CA10149"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "John Garamendi",
+    "sponsor": "International Conservation Caucus Foundation and Conservation Council of Nations",
+    "to": "Nairobi, Kenya",
+    "left": "4/18/2022",
+    "back": "4/25/2022",
+    "doc": "500024544"
+   },
+   {
+    "member_or_staff": "John Garamendi",
+    "sponsor": "Aspen Institute, Inc., Democracy Fund, and Rockefeller Brothers Fund",
+    "to": "Reykjavik, Iceland",
+    "left": "8/29/2022",
+    "back": "9/2/2022",
+    "doc": "500025321"
+   },
+   {
+    "member_or_staff": "John Garamendi",
+    "sponsor": "Aspen Institute, Inc. and Bill & Melinda Gates Foundation",
+    "to": "Kenya",
+    "left": "8/13/2023",
+    "back": "8/19/2023",
+    "doc": "500026886"
+   },
+   {
+    "member_or_staff": "John Garamendi",
+    "sponsor": "Aspen Institute, Inc. and Bill & Melinda Gates Foundation",
+    "to": "South Africa",
+    "left": "2/17/2024",
+    "back": "2/24/2024",
+    "doc": "500027898"
+   },
+   {
+    "member_or_staff": "John Garamendi",
+    "sponsor": "Aspen Institute, Inc., Breakthrough Energy Foundation, and Climate Imperative Foundation",
+    "to": "Australia",
+    "left": "5/25/2024",
+    "back": "6/1/2024",
+    "doc": "500028483"
+   },
+   {
+    "member_or_staff": "John Garamendi",
+    "sponsor": "Aspen Institute, Inc., Bill & Melinda Gates Foundation, and Cooperative for Assistance and Relief Everywhere, Inc. (CARE)",
+    "to": "Zambia",
+    "left": "8/10/2025",
+    "back": "8/18/2025",
+    "doc": "500031776"
+   }
+  ],
+  "trips_filed": 6,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "rudy-recile": {
+  "race": "U.S. House, District 8",
+  "fec_ids": [
+   "H2CA00153"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "josh-harder": {
+  "race": "U.S. House, District 9",
+  "fec_ids": [
+   "H8CA10126"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 5000.0,
+   "2026": 5000.0
+  },
+  "passed_through_aipac_pac_2026": 30550.0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 30550.0,
+  "passed_pac_report_2026": 27246.49,
+  "passed_through_aipac_pac_2022_2024": 74342.51
+ },
+ "john-mcbride": {
+  "race": "U.S. House, District 9",
+  "fec_ids": [
+   "H4CA09101"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "mark-desaulnier": {
+  "race": "U.S. House, District 10",
+  "fec_ids": [
+   "H0CA10073"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "jeff-frese": {
+  "race": "U.S. House, District 10",
+  "fec_ids": [],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  }
+ },
+ "scott-wiener": {
+  "race": "U.S. House, District 11",
+  "fec_ids": [
+   "H8CA11116"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "connie-chan": {
+  "race": "U.S. House, District 11",
+  "fec_ids": [
+   "H6CA11268"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "lateefah-simon": {
+  "race": "U.S. House, District 12",
+  "fec_ids": [
+   "H4CA12154"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "jamie-joyce": {
+  "race": "U.S. House, District 12",
+  "fec_ids": [
+   "H6CA12209"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "adam-gray": {
+  "race": "U.S. House, District 13",
+  "fec_ids": [
+   "H2CA13115"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 5000.0
+  },
+  "passed_through_aipac_pac_2026": 41703.53,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 18256.0,
+  "passed_pac_report_2026": 41703.53,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "kevin-lincoln": {
+  "race": "U.S. House, District 13",
+  "fec_ids": [
+   "H4CA09093"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "aisha-wahab": {
+  "race": "U.S. House, District 14",
+  "fec_ids": [
+   "H0CA15213"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 1642139.53
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "melissa-hernandez": {
+  "race": "U.S. House, District 14",
+  "fec_ids": [
+   "H6CA14163"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 825292.77
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "kevin-mullin": {
+  "race": "U.S. House, District 15",
+  "fec_ids": [
+   "H2CA14162"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 588768.26,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 96434.51
+ },
+ "charles-hoelter": {
+  "race": "U.S. House, District 15",
+  "fec_ids": [],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  }
+ },
+ "sam-liccardo": {
+  "race": "U.S. House, District 16",
+  "fec_ids": [
+   "H4CA16197"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Sam Liccardo",
+    "sponsor": "Ahmadiyya Muslim Community USA",
+    "to": "United Kingdom",
+    "left": "7/24/2025",
+    "back": "7/28/2025",
+    "doc": "500031503"
+   }
+  ],
+  "trips_filed": 2,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "peter-sundin-soul": {
+  "race": "U.S. House, District 16",
+  "fec_ids": [
+   "H6CA16176"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "ro-khanna": {
+  "race": "U.S. House, District 17",
+  "fec_ids": [
+   "H4CA12055"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "ritesh-tandon": {
+  "race": "U.S. House, District 17",
+  "fec_ids": [
+   "H0CA17193"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "zoe-lofgren": {
+  "race": "U.S. House, District 18",
+  "fec_ids": [
+   "H4CA16049"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Zoe Lofgren",
+    "sponsor": "Aspen Institute, Inc., Bill & Melinda Gates Foundation",
+    "to": "Kenya",
+    "left": "8/12/2023",
+    "back": "8/19/2023",
+    "doc": "500026935"
+   },
+   {
+    "member_or_staff": "Zoe Lofgren",
+    "sponsor": "Aspen Institute, Inc., Breakthrough Energy Foundation, and Climate Imperative Foundation",
+    "to": "Australia",
+    "left": "5/25/2024",
+    "back": "6/1/2024",
+    "doc": "500028500"
+   }
+  ],
+  "trips_filed": 2,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "shane-lewis": {
+  "race": "U.S. House, District 18",
+  "fec_ids": [
+   "H6CA18172"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "jimmy-panetta": {
+  "race": "U.S. House, District 19",
+  "fec_ids": [
+   "H6CA20152"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 10000.0
+  },
+  "passed_through_aipac_pac_2026": 202703.48,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "6/23/2023",
+    "back": "6/30/2023",
+    "doc": "500026642"
+   }
+  ],
+  "aipac_staff_trips": [
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "7/1/2023",
+    "back": "7/9/2023",
+    "doc": "500026678"
+   },
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "7/29/2023",
+    "back": "8/6/2023",
+    "doc": "500026765"
+   },
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Fund",
+    "to": "Israel",
+    "left": "2/14/2026",
+    "back": "2/22/2026",
+    "doc": "500033478"
+   }
+  ],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "Ripon Society and the Franklin Center for Global Policy Exchange",
+    "to": "United Kingdom",
+    "left": "8/6/2023",
+    "back": "8/11/2023",
+    "doc": "500026818"
+   },
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "International Conservation Caucus Foundation and Natural Selection",
+    "to": "Botswana, South Africa",
+    "left": "4/21/2024",
+    "back": "4/27/2024",
+    "doc": "500028344"
+   },
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "Center Forward",
+    "to": "Portugal",
+    "left": "6/17/2024",
+    "back": "6/23/2024",
+    "doc": "500028555"
+   },
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "Center for Strategic and International Studies and the Howard G. Buffett Foundation",
+    "to": "Moldova, Ukraine, Poland",
+    "left": "8/3/2024",
+    "back": "8/9/2024",
+    "doc": "500028879"
+   },
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "Yalta European Strategy Limited and UK Office of the Victor Pinchuk Foundation",
+    "to": "Ukraine",
+    "left": "9/12/2024",
+    "back": "9/16/2024",
+    "doc": "500029300"
+   },
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "Ripon Society and the Franklin Center for Global Policy Exchange",
+    "to": "Austria",
+    "left": "11/7/2024",
+    "back": "11/12/2024",
+    "doc": "500029529"
+   },
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "Reaction Digital Media Ltd.",
+    "to": "United Kingdom",
+    "left": "5/8/2025",
+    "back": "5/10/2025",
+    "doc": "500031171"
+   },
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "Atlantic Council of the United States, Inc., and Jeffrey M. Talpins Foundation",
+    "to": "Saudi Arabia, Bahrain, United Arab Emirates, Israel",
+    "left": "6/13/2025",
+    "back": "6/20/2025",
+    "doc": "500031352"
+   },
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "Ripon Society and the Franklin Center for Global Policy Exchange",
+    "to": "Switzerland",
+    "left": "8/4/2025",
+    "back": "8/9/2025",
+    "doc": "500031551"
+   },
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "Yalta European Strategy Limited and UK Office of the Victor Pinchuk Foundation",
+    "to": "Ukraine",
+    "left": "9/11/2025",
+    "back": "9/14/2025",
+    "doc": "500033090"
+   },
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "Aspen Institute, Inc. and the Gates Foundation",
+    "to": "Kenya",
+    "left": "5/24/2026",
+    "back": "5/31/2026",
+    "doc": "500034044"
+   },
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "Center Forward",
+    "to": "Netherlands",
+    "left": "6/14/2026",
+    "back": "6/19/2026",
+    "doc": "500034245"
+   },
+   {
+    "member_or_staff": "Jimmy Panetta",
+    "sponsor": "HALO Trust (USA), Eleanor Crook Foundation, and the HALO Trust",
+    "to": "Cambodia",
+    "left": "8/22/2026",
+    "back": "8/28/2026",
+    "doc": "600009666"
+   }
+  ],
+  "trips_filed": 20,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 166124.0,
+  "passed_pac_report_2026": 202703.48,
+  "passed_through_aipac_pac_2022_2024": 345954.82
+ },
+ "peter-coe-verbica": {
+  "race": "U.S. House, District 19",
+  "fec_ids": [
+   "H6CA19154"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "vince-fong": {
+  "race": "U.S. House, District 20",
+  "fec_ids": [
+   "H4CA20181"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 10000.0,
+   "2026": 10000.0
+  },
+  "passed_through_aipac_pac_2026": 19804.34,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Vince Fong",
+    "sponsor": "Ripon Society and the Franklin Center for Global Policy Exchange",
+    "to": "Switzerland",
+    "left": "8/4/2025",
+    "back": "8/9/2025",
+    "doc": "500031718"
+   },
+   {
+    "member_or_staff": "Vince Fong",
+    "sponsor": "Center Forward",
+    "to": "Netherlands",
+    "left": "6/14/2026",
+    "back": "6/21/2026",
+    "doc": "500034131"
+   }
+  ],
+  "trips_filed": 2,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 9850.0,
+  "passed_pac_report_2026": 19804.34,
+  "passed_through_aipac_pac_2022_2024": 3301.18
+ },
+ "sandra-van-scotter": {
+  "race": "U.S. House, District 20",
+  "fec_ids": [
+   "H6CA20228"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "jim-costa": {
+  "race": "U.S. House, District 21",
+  "fec_ids": [
+   "H4CA20082"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 10000.0
+  },
+  "passed_through_aipac_pac_2026": 92566.16,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "Jim Costa",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "3/23/2024",
+    "back": "3/29/2024",
+    "doc": "500028050"
+   }
+  ],
+  "aipac_staff_trips": [
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Tel Aviv, Israel",
+    "left": "7/29/2023",
+    "back": "8/6/2023",
+    "doc": "500026735"
+   }
+  ],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Jim Costa",
+    "sponsor": "Luso-American Development Foundation",
+    "to": "Libson, Portugal",
+    "left": "5/1/2022",
+    "back": "5/4/2022",
+    "doc": "500024438"
+   },
+   {
+    "member_or_staff": "Jim Costa",
+    "sponsor": "German Marshall Fund of the United States",
+    "to": "Brussels, Belgium",
+    "left": "6/26/2022",
+    "back": "7/1/2022",
+    "doc": "500024894"
+   },
+   {
+    "member_or_staff": "Jim Costa",
+    "sponsor": "Yalta European Strategy Limited",
+    "to": "Kyiv Ukraine",
+    "left": "9/7/2022",
+    "back": "9/12/2022",
+    "doc": "500025363"
+   },
+   {
+    "member_or_staff": "Jim Costa",
+    "sponsor": "Yalta European Strategy Limited",
+    "to": "Ukraine",
+    "left": "9/6/2023",
+    "back": "9/10/2023",
+    "doc": "500027126"
+   },
+   {
+    "member_or_staff": "Jim Costa",
+    "sponsor": "Yalta European Strategy Limited",
+    "to": "Ukraine",
+    "left": "2/22/2024",
+    "back": "2/25/2024",
+    "doc": "500027836"
+   },
+   {
+    "member_or_staff": "Jim Costa",
+    "sponsor": "Luso-American Development Foundation",
+    "to": "Portugal",
+    "left": "6/15/2024",
+    "back": "6/19/2024",
+    "doc": "500028669"
+   },
+   {
+    "member_or_staff": "Jim Costa",
+    "sponsor": "Aspen Institute, Inc., and Carnegie Corporation of New York",
+    "to": "Ireland, United Kingdom",
+    "left": "8/10/2024",
+    "back": "8/16/2024",
+    "doc": "500029074"
+   },
+   {
+    "member_or_staff": "Jim Costa",
+    "sponsor": "Yalta European Strategy Limited and UK Office of the Victor Pinchuk Foundation",
+    "to": "Ukraine",
+    "left": "9/12/2024",
+    "back": "9/16/2024",
+    "doc": "500029308"
+   },
+   {
+    "member_or_staff": "Jim Costa",
+    "sponsor": "Aspen Institute, Inc. and the Rockefeller Foundation",
+    "to": "Italy",
+    "left": "4/21/2025",
+    "back": "4/27/2025",
+    "doc": "500031102"
+   },
+   {
+    "member_or_staff": "Jim Costa",
+    "sponsor": "Luso-American Development Foundation",
+    "to": "Portugal",
+    "left": "6/28/2025",
+    "back": "7/2/2025",
+    "doc": "500031442"
+   },
+   {
+    "member_or_staff": "Jim Costa",
+    "sponsor": "Luso-American Development Foundation",
+    "to": "Portugal",
+    "left": "7/5/2026",
+    "back": "7/8/2026",
+    "doc": "600009023"
+   },
+   {
+    "member_or_staff": "Jim Costa",
+    "sponsor": "Yalta European Strategy Limited and UK Office of the Victor Pinchuk Foundation",
+    "to": "Ukraine",
+    "left": "9/9/2026",
+    "back": "9/12/2026",
+    "doc": "600009714"
+   }
+  ],
+  "trips_filed": 13,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 48506.0,
+  "passed_pac_report_2026": 92566.16,
+  "passed_through_aipac_pac_2022_2024": 187074.51
+ },
+ "kyle-kirkland": {
+  "race": "U.S. House, District 21",
+  "fec_ids": [
+   "H6CA13199"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "randy-villegas": {
+  "race": "U.S. House, District 22",
+  "fec_ids": [
+   "H6CA22190"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "david-g-valadao": {
+  "race": "U.S. House, District 22",
+  "fec_ids": [
+   "H2CA20094"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10500.0,
+   "2026": 10000.0
+  },
+  "passed_through_aipac_pac_2026": 210125.84,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "David G. Valadao",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "2/18/2022",
+    "back": "2/26/2022",
+    "doc": "500024048"
+   }
+  ],
+  "aipac_staff_trips": [
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "5/24/2025",
+    "back": "6/1/2025",
+    "doc": "500031214"
+   },
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "2/14/2026",
+    "back": "2/22/2026",
+    "doc": "500033515"
+   }
+  ],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "David Valadao",
+    "sponsor": "Climate Solutions Foundation",
+    "to": "United Arab Emirates",
+    "left": "12/7/2023",
+    "back": "12/11/2023",
+    "doc": "500027902"
+   },
+   {
+    "member_or_staff": "David G. Valadao",
+    "sponsor": "Republican Main Street Partnership",
+    "to": "Italy",
+    "left": "3/22/2024",
+    "back": "3/28/2024",
+    "doc": "500028119"
+   },
+   {
+    "member_or_staff": "David G. Valadao",
+    "sponsor": "Center Forward",
+    "to": "Portugal",
+    "left": "6/14/2024",
+    "back": "6/21/2024",
+    "doc": "500028753"
+   },
+   {
+    "member_or_staff": "David G. Valadao",
+    "sponsor": "Center Forward",
+    "to": "United Kingdom",
+    "left": "6/13/2025",
+    "back": "6/19/2025",
+    "doc": "500031330"
+   },
+   {
+    "member_or_staff": "David G. Valadao",
+    "sponsor": "Luso-American Development Foundation",
+    "to": "Portugal",
+    "left": "6/28/2025",
+    "back": "7/2/2025",
+    "doc": "500031441"
+   }
+  ],
+  "trips_filed": 18,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 68500.0,
+  "passed_pac_report_2026": 210125.84,
+  "passed_through_aipac_pac_2022_2024": 86236.01
+ },
+ "jay-obernolte": {
+  "race": "U.S. House, District 23",
+  "fec_ids": [
+   "H0CA08135"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 10000.0
+  },
+  "passed_through_aipac_pac_2026": 1631.86,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "Jay Obernolte",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "2/18/2022",
+    "back": "2/26/2022",
+    "doc": "500024112"
+   }
+  ],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Jay Obernolte",
+    "sponsor": "United States Qatar Business Council",
+    "to": "Doha, Qatar",
+    "left": "10/10/2021",
+    "back": "10/16/2021",
+    "doc": "500023623"
+   },
+   {
+    "member_or_staff": "Jay Obernolte",
+    "sponsor": "Republican Main Street Partnership",
+    "to": "Jordan",
+    "left": "3/30/2023",
+    "back": "4/6/2023",
+    "doc": "500026075"
+   },
+   {
+    "member_or_staff": "Jay Obernolte",
+    "sponsor": "Ripon Society and the Franklin Center for Global Policy Exchange",
+    "to": "United Kingdom",
+    "left": "8/6/2023",
+    "back": "8/11/2023",
+    "doc": "500026817"
+   },
+   {
+    "member_or_staff": "Jay Obernolte",
+    "sponsor": "Ripon Society and the Franklin Center for Global Policy Exchange",
+    "to": "Austria",
+    "left": "11/7/2024",
+    "back": "11/12/2024",
+    "doc": "500029480"
+   },
+   {
+    "member_or_staff": "Jay Obernolte",
+    "sponsor": "Aspen Institute, Inc., and Center for Responsible Innovation",
+    "to": "Spain",
+    "left": "5/26/2025",
+    "back": "5/31/2025",
+    "doc": "500031247"
+   },
+   {
+    "member_or_staff": "Jay Obernolte",
+    "sponsor": "Ripon Society and the Franklin Center for Global Policy Exchange",
+    "to": "Switzerland",
+    "left": "8/4/2025",
+    "back": "8/8/2025",
+    "doc": "500031591"
+   },
+   {
+    "member_or_staff": "Obernolte Jay",
+    "sponsor": "Aspen Institute Congressional Program",
+    "to": "Bellagio, Italy",
+    "left": "4/3/2026",
+    "back": "4/9/2026",
+    "doc": "500033739"
+   }
+  ],
+  "trips_filed": 10,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 1000.0,
+  "passed_pac_report_2026": 1631.86,
+  "passed_through_aipac_pac_2022_2024": 12425.01
+ },
+ "tessa-lynn-hodge": {
+  "race": "U.S. House, District 23",
+  "fec_ids": [
+   "H6CA23230"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "salud-carbajal": {
+  "race": "U.S. House, District 24",
+  "fec_ids": [
+   "H6CA24303"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 2900.0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Salud Carbajal",
+    "sponsor": "J Street Education Fund",
+    "to": "Tel Aviv, Israel",
+    "left": "7/29/2022",
+    "back": "8/5/2022",
+    "doc": "500025031"
+   },
+   {
+    "member_or_staff": "Salud Carbajal",
+    "sponsor": "Climate Solutions Foundation",
+    "to": "United Arab Emirates",
+    "left": "12/7/2023",
+    "back": "12/11/2023",
+    "doc": "500027322"
+   },
+   {
+    "member_or_staff": "Salud Carbajal",
+    "sponsor": "Association of Marshall Scholars",
+    "to": "United Kingdom",
+    "left": "1/12/2024",
+    "back": "1/16/2024",
+    "doc": "500027381"
+   },
+   {
+    "member_or_staff": "Salud Carbajal",
+    "sponsor": "J Street Education Fund",
+    "to": "Israel",
+    "left": "2/17/2024",
+    "back": "2/23/2024",
+    "doc": "500027786"
+   },
+   {
+    "member_or_staff": "Salud Carbajal",
+    "sponsor": "Yalta European Strategy Limited and UK Office of the Victor Pinchuk Foundation",
+    "to": "Ukraine",
+    "left": "9/12/2024",
+    "back": "9/16/2024",
+    "doc": "500029305"
+   },
+   {
+    "member_or_staff": "Salud Carbajal",
+    "sponsor": "Climate Solutions Foundation",
+    "to": "Brazil",
+    "left": "10/1/2024",
+    "back": "10/5/2024",
+    "doc": "500029319"
+   },
+   {
+    "member_or_staff": "Salud Carbajal",
+    "sponsor": "Former Members of Congress and the Korea Society",
+    "to": "South Korea",
+    "left": "4/12/2025",
+    "back": "4/18/2025",
+    "doc": "500031027"
+   },
+   {
+    "member_or_staff": "Salud Carbajal",
+    "sponsor": "Reaction Digital Media Ltd.",
+    "to": "United Kingdom",
+    "left": "5/8/2025",
+    "back": "5/11/2025",
+    "doc": "500031166"
+   },
+   {
+    "member_or_staff": "Salud Carbajal",
+    "sponsor": "Aspen Institute, Inc., Bill & Melinda Gates Foundation, and Cooperative for Assistance and Relief Everywhere, Inc. (CARE)",
+    "to": "Zambia",
+    "left": "8/10/2025",
+    "back": "8/18/2025",
+    "doc": "500031818"
+   },
+   {
+    "member_or_staff": "Salud Carbajal",
+    "sponsor": "Aspen Institute, Inc. and the Gates Foundation",
+    "to": "Kenya",
+    "left": "5/24/2026",
+    "back": "5/31/2026",
+    "doc": "500034026"
+   },
+   {
+    "member_or_staff": "Salud Carbajal",
+    "sponsor": "Association of Marshall Scholars",
+    "to": "United Kingdom",
+    "left": "6/11/2026",
+    "back": "6/15/2026",
+    "doc": "500034160"
+   },
+   {
+    "member_or_staff": "Salud Carbajal",
+    "sponsor": "Yalta European Strategy Limited and UK Office of the Victor Pinchuk Foundation",
+    "to": "Ukraine",
+    "left": "9/9/2026",
+    "back": "9/12/2026",
+    "doc": "600009724"
+   },
+   {
+    "member_or_staff": "Salud Carbajal",
+    "sponsor": "Tequila Regulatory Council (CRT)",
+    "to": "Mexico",
+    "left": "9/17/2026",
+    "back": "9/20/2026",
+    "doc": "600009789"
+   }
+  ],
+  "trips_filed": 13,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 1100.0
+ },
+ "bob-smith": {
+  "race": "U.S. House, District 24",
+  "fec_ids": [
+   "H6CA24345"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "raul-ruiz": {
+  "race": "U.S. House, District 25",
+  "fec_ids": [
+   "H2CA36439"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 5000.0
+  },
+  "passed_through_aipac_pac_2026": 11808.47,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Raul Ruiz",
+    "sponsor": "The Council for Global Equality",
+    "to": "Tijuana, Mexico",
+    "left": "5/5/2022",
+    "back": "5/6/2022",
+    "doc": "500024421"
+   },
+   {
+    "member_or_staff": "Raul Ruiz",
+    "sponsor": "United States Association of Former Members of Congress and Sasakawa Peace Foundation",
+    "to": "Kyoto, Japan, Tokyo, Japan",
+    "left": "5/28/2022",
+    "back": "6/4/2022",
+    "doc": "500024723"
+   },
+   {
+    "member_or_staff": "Raul Ruiz",
+    "sponsor": "Equis Institute",
+    "to": "Mexico",
+    "left": "12/10/2022",
+    "back": "12/12/2022",
+    "doc": "500025746"
+   },
+   {
+    "member_or_staff": "Raul Ruiz",
+    "sponsor": "Organization of Iranian American Communities (OIAC)",
+    "to": "France",
+    "left": "6/29/2023",
+    "back": "7/3/2023",
+    "doc": "500026604"
+   },
+   {
+    "member_or_staff": "Raul Ruiz",
+    "sponsor": "Organization of Iranian American Communities (OIAC)",
+    "to": "France",
+    "left": "6/29/2023",
+    "back": "7/30/2023",
+    "doc": "500026690"
+   },
+   {
+    "member_or_staff": "Raul Ruiz",
+    "sponsor": "Unites States Association of Former Members of Congress and the Korea Society",
+    "to": "South Korea",
+    "left": "3/23/2024",
+    "back": "3/29/2024",
+    "doc": "500028075"
+   },
+   {
+    "member_or_staff": "Raul Ruiz",
+    "sponsor": "United States Association of Former Members of Congress and the Korea Society",
+    "to": "South Korea",
+    "left": "3/23/2024",
+    "back": "3/29/2024",
+    "doc": "500028218"
+   },
+   {
+    "member_or_staff": "Raul Ruiz",
+    "sponsor": "Aspen Institute, Inc., Breakthrough Energy Foundation, and Climate Imperative Foundation",
+    "to": "Australia",
+    "left": "5/25/2024",
+    "back": "6/1/2024",
+    "doc": "500028493"
+   },
+   {
+    "member_or_staff": "Raul Ruiz",
+    "sponsor": "Organization of Iranian American Communities",
+    "to": "France",
+    "left": "6/28/2024",
+    "back": "7/2/2024",
+    "doc": "500028738"
+   },
+   {
+    "member_or_staff": "Raul Ruiz",
+    "sponsor": "Organization of Iranian American Communities (OIAC)",
+    "to": "France",
+    "left": "8/17/2025",
+    "back": "8/23/2025",
+    "doc": "500033317"
+   }
+  ],
+  "trips_filed": 11,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 11750.0,
+  "passed_pac_report_2026": 11808.47,
+  "passed_through_aipac_pac_2022_2024": 20464.51
+ },
+ "joe-males": {
+  "race": "U.S. House, District 25",
+  "fec_ids": [
+   "H6CA25219"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "jacqui-irwin": {
+  "race": "U.S. House, District 26",
+  "fec_ids": [
+   "H6CA26266"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "sam-gallucci": {
+  "race": "U.S. House, District 26",
+  "fec_ids": [
+   "H6CA26241"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "george-whitesides": {
+  "race": "U.S. House, District 27",
+  "fec_ids": [
+   "H4CA27111"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 10000.0
+  },
+  "passed_through_aipac_pac_2026": 40471.87,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 40125.0,
+  "passed_pac_report_2026": 40471.87,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "jason-gibbs": {
+  "race": "U.S. House, District 27",
+  "fec_ids": [
+   "H6CA27306"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "judy-chu": {
+  "race": "U.S. House, District 28",
+  "fec_ids": [
+   "H0CA32101"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "april-a-verlato": {
+  "race": "U.S. House, District 28",
+  "fec_ids": [
+   "H4CA28127"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "luz-maria-rivas": {
+  "race": "U.S. House, District 29",
+  "fec_ids": [
+   "H4CA29141"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 10000.0,
+   "2026": 10000.0
+  },
+  "passed_through_aipac_pac_2026": 87279.87,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "Luz Rivas",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "8/6/2025",
+    "back": "8/14/2025",
+    "doc": "500031791"
+   }
+  ],
+  "aipac_staff_trips": [
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "8/16/2025",
+    "back": "8/24/2025",
+    "doc": "500032974"
+   }
+  ],
+  "other_trips_abroad": [],
+  "trips_filed": 1,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 42506.0,
+  "passed_pac_report_2026": 87279.87,
+  "passed_through_aipac_pac_2022_2024": 11109.54
+ },
+ "ang-lica-mar-a-due-as": {
+  "race": "U.S. House, District 29",
+  "fec_ids": [
+   "H8CA29100"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "laura-friedman": {
+  "race": "U.S. House, District 30",
+  "fec_ids": [
+   "H4CA30149"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 5000.0,
+   "2026": 5000.0
+  },
+  "passed_through_aipac_pac_2026": 16431.52,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Laura Friedman",
+    "sponsor": "Aspen Institute, Inc. and the Gates Foundation",
+    "to": "Kenya",
+    "left": "5/24/2026",
+    "back": "5/31/2026",
+    "doc": "500034078"
+   }
+  ],
+  "trips_filed": 1,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 16200.0,
+  "passed_pac_report_2026": 16431.52,
+  "passed_through_aipac_pac_2022_2024": 4490.57
+ },
+ "scott-alan-meyers": {
+  "race": "U.S. House, District 30",
+  "fec_ids": [
+   "H6CA30250"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "gil-cisneros": {
+  "race": "U.S. House, District 31",
+  "fec_ids": [
+   "H8CA39174"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 5000.0,
+   "2026": 10000.0
+  },
+  "passed_through_aipac_pac_2026": 53302.51,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "Gilbert Ray Cisneros, Jr.",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "8/6/2025",
+    "back": "8/14/2025",
+    "doc": "500032879"
+   }
+  ],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Gilbert Ray Cisneros, Jr.",
+    "sponsor": "Reaction Digital Media, Ltd.",
+    "to": "United Kingdom",
+    "left": "5/8/2025",
+    "back": "5/11/2025",
+    "doc": "500031167"
+   }
+  ],
+  "trips_filed": 2,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 53000.0,
+  "passed_pac_report_2026": 53302.51,
+  "passed_through_aipac_pac_2022_2024": 25080.76
+ },
+ "eric-ching": {
+  "race": "U.S. House, District 31",
+  "fec_ids": [
+   "H2CA39151"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "brad-sherman": {
+  "race": "U.S. House, District 32",
+  "fec_ids": [
+   "H6CA24113"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 10000.0
+  },
+  "passed_through_aipac_pac_2026": 662130.82,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 662130.82,
+  "passed_through_aipac_pac_2022_2024": 205584.51
+ },
+ "larry-thompson": {
+  "race": "U.S. House, District 32",
+  "fec_ids": [
+   "H4CA32137"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "pete-aguilar": {
+  "race": "U.S. House, District 33",
+  "fec_ids": [
+   "H2CA31125"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 10000.0
+  },
+  "passed_through_aipac_pac_2026": 595985.82,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "Pete Aguilar",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "2/19/2022",
+    "back": "2/25/2022",
+    "doc": "500024093"
+   },
+   {
+    "member_or_staff": "Pete Aguilar",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "8/7/2023",
+    "back": "8/13/2023",
+    "doc": "500026848"
+   },
+   {
+    "member_or_staff": "Pete Aguilar",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "8/6/2025",
+    "back": "8/14/2025",
+    "doc": "500031808"
+   }
+  ],
+  "aipac_staff_trips": [
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "7/29/2023",
+    "back": "8/6/2023",
+    "doc": "500026724"
+   },
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "8/5/2023",
+    "back": "8/13/2023",
+    "doc": "500026943"
+   },
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "5/26/2024",
+    "back": "6/3/2024",
+    "doc": "500028476"
+   },
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "8/6/2025",
+    "back": "8/14/2025",
+    "doc": "500031768"
+   },
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "8/6/2025",
+    "back": "8/14/2025",
+    "doc": "500031834"
+   },
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "8/6/2025",
+    "back": "8/14/2025",
+    "doc": "500031852"
+   }
+  ],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Pete Aguilar",
+    "sponsor": "Aspen Institute, Inc., and Center for Responsible Innovation",
+    "to": "Spain",
+    "left": "5/26/2025",
+    "back": "5/31/2025",
+    "doc": "500031283"
+   }
+  ],
+  "trips_filed": 4,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 586934.0,
+  "passed_pac_report_2026": 595985.82,
+  "passed_through_aipac_pac_2022_2024": 704624.43
+ },
+ "stephanie-m-vargas": {
+  "race": "U.S. House, District 33",
+  "fec_ids": [
+   "H6CA33114"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "angela-gonzales-torres": {
+  "race": "U.S. House, District 34",
+  "fec_ids": [
+   "H6CA34286"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "jimmy-gomez": {
+  "race": "U.S. House, District 34",
+  "fec_ids": [
+   "H8CA34266"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 5000.0
+  },
+  "passed_through_aipac_pac_2026": 213628.51,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 1723990.15,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Jimmy Gomez",
+    "sponsor": "J Street Education Fund",
+    "to": "Israel",
+    "left": "2/17/2023",
+    "back": "2/24/2023",
+    "doc": "500025877"
+   }
+  ],
+  "trips_filed": 1,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 145850.0,
+  "passed_pac_report_2026": 213628.51,
+  "passed_through_aipac_pac_2022_2024": 197500.5
+ },
+ "norma-j-torres": {
+  "race": "U.S. House, District 35",
+  "fec_ids": [
+   "H4CA35031"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 5000.0
+  },
+  "passed_through_aipac_pac_2026": 220864.48,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "Norma Torres",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "3/24/2024",
+    "back": "3/31/2024",
+    "doc": "500028074"
+   }
+  ],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Norma Torres",
+    "sponsor": "United Nations Foundation and Eleanor Crook Foundation",
+    "to": "Sudan, South Sudan",
+    "left": "7/2/2022",
+    "back": "7/10/2022",
+    "doc": "500024972"
+   },
+   {
+    "member_or_staff": "Norma Torres",
+    "sponsor": "Aspen Institute, Inc. and Rockefeller Foundation",
+    "to": "Italy",
+    "left": "4/18/2025",
+    "back": "4/26/2025",
+    "doc": "500031076"
+   },
+   {
+    "member_or_staff": "Norma Torres",
+    "sponsor": "Aspen Institute, Inc. and the Gates Foundation",
+    "to": "Kenya",
+    "left": "5/23/2026",
+    "back": "5/31/2026",
+    "doc": "500034023"
+   }
+  ],
+  "trips_filed": 4,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 138550.0,
+  "passed_pac_report_2026": 220864.48,
+  "passed_through_aipac_pac_2022_2024": 259224.51
+ },
+ "mike-cargile": {
+  "race": "U.S. House, District 35",
+  "fec_ids": [
+   "H0CA35146"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "ted-w-lieu": {
+  "race": "U.S. House, District 36",
+  "fec_ids": [
+   "H4CA33119"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 10000.0
+  },
+  "passed_through_aipac_pac_2026": 438109.83,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "5/27/2023",
+    "back": "6/4/2023",
+    "doc": "500026510"
+   }
+  ],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Ted Lieu",
+    "sponsor": "United States Association of Former Members of Congress and Sasakawa Peace Foundation USA",
+    "to": "Japan",
+    "left": "2/18/2023",
+    "back": "2/25/2023",
+    "doc": "500025921"
+   },
+   {
+    "member_or_staff": "Ted Lieu",
+    "sponsor": "Aspen Institute, Inc., and the Rockefeller Foundation",
+    "to": "Italy",
+    "left": "3/30/2024",
+    "back": "4/6/2024",
+    "doc": "500028112"
+   },
+   {
+    "member_or_staff": "Ted Lieu",
+    "sponsor": "United Nations Foundation and Eleanor Crook Foundation",
+    "to": "Fiji",
+    "left": "4/20/2024",
+    "back": "4/26/2024",
+    "doc": "500028323"
+   },
+   {
+    "member_or_staff": "Ted Lieu",
+    "sponsor": "Aspen Institute, Inc., and Center for Responsible Innovation",
+    "to": "Spain",
+    "left": "5/23/2025",
+    "back": "5/31/2025",
+    "doc": "500031250"
+   },
+   {
+    "member_or_staff": "Ted Lieu",
+    "sponsor": "Aspen Institute, Inc., Bill & Melinda Gates Foundation, and Cooperative for Assistance and Relief Everywhere, Inc. (CARE)",
+    "to": "Zambia",
+    "left": "8/8/2025",
+    "back": "8/18/2025",
+    "doc": "500031826"
+   }
+  ],
+  "trips_filed": 7,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 438109.83,
+  "passed_through_aipac_pac_2022_2024": 425416.68
+ },
+ "houston-brignano": {
+  "race": "U.S. House, District 36",
+  "fec_ids": [
+   "H6CA36208"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "sydney-kamlager-dove": {
+  "race": "U.S. House, District 37",
+  "fec_ids": [
+   "H2CA37304"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 5000.0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Sydney Kamlager-Dove",
+    "sponsor": "Cooperative for Assistance and Relief Everywhere, Inc. (CARE), Save the Children Action Network (SCAN), and Bill & Melinda Gates Foundation",
+    "to": "Kenya",
+    "left": "4/7/2023",
+    "back": "4/14/2023",
+    "doc": "500026253"
+   },
+   {
+    "member_or_staff": "Sydney Kamlager-Dove",
+    "sponsor": "United Nations Foundation and Eleanor Crook Foundation",
+    "to": "Tanzania",
+    "left": "6/25/2023",
+    "back": "6/30/2023",
+    "doc": "500026625"
+   },
+   {
+    "member_or_staff": "Sydney Kamlager-Dove",
+    "sponsor": "International Institute on Race, Equality, and Human Rights",
+    "to": "Brazil",
+    "left": "3/23/2025",
+    "back": "3/30/2025",
+    "doc": "500030958"
+   },
+   {
+    "member_or_staff": "Sydney Kamlager-Dove",
+    "sponsor": "United Nations Foundation and Eleanor Crook Foundation",
+    "to": "Nepal, Bhutan",
+    "left": "4/6/2026",
+    "back": "4/14/2026",
+    "doc": "500033932"
+   },
+   {
+    "member_or_staff": "Sydney Kamlager-Dove",
+    "sponsor": "Sustainable Energy and Environment Coalition (SEEC) Institute",
+    "to": "France, Belgium",
+    "left": "6/14/2026",
+    "back": "6/21/2026",
+    "doc": "500034195"
+   }
+  ],
+  "trips_filed": 6,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 500.0
+ },
+ "samantha-mota": {
+  "race": "U.S. House, District 37",
+  "fec_ids": [
+   "H6CA37339"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "hilda-solis": {
+  "race": "U.S. House, District 38",
+  "fec_ids": [
+   "H0CA31087",
+   "H6CA38139"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "pedro-antonio-casas": {
+  "race": "U.S. House, District 38",
+  "fec_ids": [],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  }
+ },
+ "mark-takano": {
+  "race": "U.S. House, District 39",
+  "fec_ids": [
+   "H2CA43245"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Mark Takano",
+    "sponsor": "The Council for Global Equality",
+    "to": "Tijuana, Mexico",
+    "left": "5/5/2022",
+    "back": "5/6/2022",
+    "doc": "500024361"
+   },
+   {
+    "member_or_staff": "Mark Takano",
+    "sponsor": "Maureen and Mike Mansfield Foundation and Japan Economic Foundation",
+    "to": "Japan",
+    "left": "2/14/2023",
+    "back": "2/26/2023",
+    "doc": "500025963"
+   },
+   {
+    "member_or_staff": "Mark Takano",
+    "sponsor": "J Street Education Fund",
+    "to": "Israel",
+    "left": "2/17/2024",
+    "back": "2/23/2024",
+    "doc": "500027874"
+   }
+  ],
+  "trips_filed": 3,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "steve-manos": {
+  "race": "U.S. House, District 39",
+  "fec_ids": [
+   "H6CA39145"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "ken-calvert": {
+  "race": "U.S. House, District 40",
+  "fec_ids": [
+   "H2CA37023"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 5000.0
+  },
+  "passed_through_aipac_pac_2026": 269239.21,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "7/1/2023",
+    "back": "7/9/2023",
+    "doc": "500026680"
+   }
+  ],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Ken Calvert",
+    "sponsor": "Republican Main Street Partnership",
+    "to": "Jordan",
+    "left": "3/30/2023",
+    "back": "4/6/2023",
+    "doc": "500026091"
+   }
+  ],
+  "trips_filed": 4,
+  "trips_filed_no_sponsor": 1,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 254875.0,
+  "passed_pac_report_2026": 269239.21,
+  "passed_through_aipac_pac_2022_2024": 788233.57
+ },
+ "young-kim": {
+  "race": "U.S. House, District 40",
+  "fec_ids": [
+   "H8CA39240"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 11810.0,
+   "2026": 5000.0
+  },
+  "passed_through_aipac_pac_2026": 126628.83,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "Young Kim",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "2/18/2022",
+    "back": "2/26/2022",
+    "doc": "500024083"
+   },
+   {
+    "member_or_staff": "Young Kim",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "2/18/2022",
+    "back": "2/27/2022",
+    "doc": "500024164"
+   }
+  ],
+  "aipac_staff_trips": [
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "5/27/2023",
+    "back": "6/4/2023",
+    "doc": "500026530"
+   },
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "2/16/2025",
+    "back": "2/24/2025",
+    "doc": "500029693"
+   },
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "8/16/2025",
+    "back": "8/24/2025",
+    "doc": "500032959"
+   }
+  ],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Young Kim",
+    "sponsor": "U.S Association of Former Members of Congress",
+    "to": "Seoul, South Korea",
+    "left": "7/5/2021",
+    "back": "7/11/2021",
+    "doc": "500023297"
+   },
+   {
+    "member_or_staff": "Young Kim",
+    "sponsor": "United States Association of Former Members of Congress and the Korea Society.",
+    "to": "Seoul, South Korea",
+    "left": "7/4/2022",
+    "back": "7/10/2022",
+    "doc": "500024989"
+   },
+   {
+    "member_or_staff": "Young Kim",
+    "sponsor": "United States Association of Former Members of Congress and the Korea Society",
+    "to": "South Korea",
+    "left": "3/23/2024",
+    "back": "3/29/2024",
+    "doc": "500028184"
+   },
+   {
+    "member_or_staff": "Young Kim",
+    "sponsor": "United Nations Foundation and the Eleanor Crook Foundation",
+    "to": "Ghana, Togo",
+    "left": "1/23/2026",
+    "back": "1/29/2026",
+    "doc": "500033426"
+   }
+  ],
+  "trips_filed": 11,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 108200.0,
+  "passed_pac_report_2026": 126628.83,
+  "passed_through_aipac_pac_2022_2024": 294163.0
+ },
+ "linda-s-nchez": {
+  "race": "U.S. House, District 41",
+  "fec_ids": [
+   "H2CA39078"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Linda Sanchez",
+    "sponsor": "Association of Marshall Scholars",
+    "to": "United Kingdom",
+    "left": "11/18/2021",
+    "back": "11/26/2021",
+    "doc": "500023910"
+   },
+   {
+    "member_or_staff": "Linda Sanchez",
+    "sponsor": "Ripon Society and the Franklin Center for Global Policy Exchange",
+    "to": "Spain",
+    "left": "11/9/2022",
+    "back": "11/14/2022",
+    "doc": "500025647"
+   },
+   {
+    "member_or_staff": "Linda Sanchez",
+    "sponsor": "Aspen Institute, Inc., Rockefeller Brothers Fund, and Carnegie Corporation of New York",
+    "to": "Colombia",
+    "left": "2/21/2023",
+    "back": "2/25/2023",
+    "doc": "500025953"
+   },
+   {
+    "member_or_staff": "Linda Sanchez",
+    "sponsor": "Association of Marshall Scholars",
+    "to": "United Kingdom",
+    "left": "1/12/2024",
+    "back": "1/16/2024",
+    "doc": "500027392"
+   },
+   {
+    "member_or_staff": "Linda Sanchez",
+    "sponsor": "Aspen Institute, Inc., and the Rockefeller Foundation",
+    "to": "Italy",
+    "left": "4/1/2024",
+    "back": "4/6/2024",
+    "doc": "500028173"
+   },
+   {
+    "member_or_staff": "Linda Sanchez",
+    "sponsor": "Asociacion Jalisciences Unidos por Accion",
+    "to": "Mexico",
+    "left": "3/15/2023",
+    "back": "3/19/2023",
+    "doc": "500028520"
+   },
+   {
+    "member_or_staff": "Linda Sanchez",
+    "sponsor": "Center Forward",
+    "to": "Portugal",
+    "left": "6/17/2024",
+    "back": "6/21/2024",
+    "doc": "500028704"
+   },
+   {
+    "member_or_staff": "Linda Sanchez",
+    "sponsor": "Ripon Society and the Franklin Center for Global Policy Exchange",
+    "to": "Austria",
+    "left": "11/7/2024",
+    "back": "11/12/2024",
+    "doc": "500029525"
+   },
+   {
+    "member_or_staff": "Linda Sanchez",
+    "sponsor": "Association of Marshall Scholars",
+    "to": "United Kingdom",
+    "left": "5/8/2025",
+    "back": "5/13/2025",
+    "doc": "500031160"
+   },
+   {
+    "member_or_staff": "Linda Sanchez",
+    "sponsor": "Ripon Society and the Franklin Center for Global Policy Exchange",
+    "to": "Switzerland",
+    "left": "8/4/2025",
+    "back": "8/9/2025",
+    "doc": "500031790"
+   },
+   {
+    "member_or_staff": "Linda Sanchez",
+    "sponsor": "Tequila Regulatory Council (CRT)",
+    "to": "Mexico",
+    "left": "9/17/2026",
+    "back": "9/20/2026",
+    "doc": "600009792"
+   }
+  ],
+  "trips_filed": 11,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 42607.51
+ },
+ "mitch-clemmons": {
+  "race": "U.S. House, District 41",
+  "fec_ids": [
+   "H2CA38260",
+   "H6CA41380"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "robert-garcia-ushouse-42": {
+  "race": "U.S. House, District 42",
+  "fec_ids": [
+   "H2CA47188"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "Robert Garcia",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "8/7/2023",
+    "back": "8/13/2023",
+    "doc": "500026849"
+   }
+  ],
+  "aipac_staff_trips": [
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "9/1/2024",
+    "back": "9/9/2024",
+    "doc": "500029246"
+   }
+  ],
+  "other_trips_abroad": [],
+  "trips_filed": 2,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 71106.0
+ },
+ "brian-burley": {
+  "race": "U.S. House, District 42",
+  "fec_ids": [
+   "H0CA48172"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "maxine-waters": {
+  "race": "U.S. House, District 43",
+  "fec_ids": [
+   "H4CA23011"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 2,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "cristian-morales": {
+  "race": "U.S. House, District 43",
+  "fec_ids": [
+   "H6CA43188"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "nanette-diaz-barragan": {
+  "race": "U.S. House, District 44",
+  "fec_ids": [
+   "H6CA44103"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 5000.0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Jerusalem, Tel Aviv, Israel",
+    "left": "6/25/2022",
+    "back": "7/7/2022",
+    "doc": "500024971"
+   }
+  ],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Nanette Barragan",
+    "sponsor": "Aspen Institute, Inc., Democracy Fund, and Rockefeller Brothers Fund",
+    "to": "Reykjavik, Iceland",
+    "left": "8/26/2022",
+    "back": "9/2/2022",
+    "doc": "500025334"
+   },
+   {
+    "member_or_staff": "Nanette Barragan",
+    "sponsor": "United Nations Foundation and Eleanor Crook Foundation",
+    "to": "Tanzania",
+    "left": "6/24/2023",
+    "back": "6/29/2023",
+    "doc": "500026589"
+   },
+   {
+    "member_or_staff": "Nanette Barragan",
+    "sponsor": "Aspen Institute, Inc., and the Rockefeller Foundation",
+    "to": "Italy",
+    "left": "3/29/2024",
+    "back": "4/6/2024",
+    "doc": "500028090"
+   }
+  ],
+  "trips_filed": 4,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 81503.52
+ },
+ "genevieve-angel": {
+  "race": "U.S. House, District 44",
+  "fec_ids": [
+   "H6CA44210"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "derek-tran": {
+  "race": "U.S. House, District 45",
+  "fec_ids": [
+   "H4CA45170"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Derek Tran",
+    "sponsor": "J Street Education Fund",
+    "to": "Israel, Jordan",
+    "left": "2/12/2026",
+    "back": "2/20/2026",
+    "doc": "500033456"
+   }
+  ],
+  "trips_filed": 1,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "chuong-v-vo": {
+  "race": "U.S. House, District 45",
+  "fec_ids": [
+   "H6CA45191"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "lou-correa": {
+  "race": "U.S. House, District 46",
+  "fec_ids": [
+   "H6CA46116"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 2900.0,
+   "2024": 15000.0,
+   "2026": 5000.0
+  },
+  "passed_through_aipac_pac_2026": 16747.5,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 16150.0,
+  "passed_pac_report_2026": 16747.5,
+  "passed_through_aipac_pac_2022_2024": 14018.5
+ },
+ "david-pan": {
+  "race": "U.S. House, District 46",
+  "fec_ids": [
+   "H4CA46137"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "dave-min": {
+  "race": "U.S. House, District 47",
+  "fec_ids": [
+   "H4CA47085"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 4615288.76,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Dave Min",
+    "sponsor": "Former Members of Congress and Korea Society",
+    "to": "South Korea",
+    "left": "4/12/2025",
+    "back": "4/20/2025",
+    "doc": "500030985"
+   }
+  ],
+  "trips_filed": 1,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "jenny-rae-le-roux": {
+  "race": "U.S. House, District 47",
+  "fec_ids": [
+   "H6CA47114"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "marni-von-wilpert": {
+  "race": "U.S. House, District 48",
+  "fec_ids": [
+   "H6CA48310"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "jim-desmond": {
+  "race": "U.S. House, District 48",
+  "fec_ids": [
+   "H6CA49128"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "mike-levin": {
+  "race": "U.S. House, District 49",
+  "fec_ids": [
+   "H8CA49058"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 10000.0
+  },
+  "passed_through_aipac_pac_2026": 127496.48,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "Michael Levin",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "2/19/2022",
+    "back": "2/27/2022",
+    "doc": "500024096"
+   },
+   {
+    "member_or_staff": "Michael Levine",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "4/1/2024",
+    "back": "4/5/2024",
+    "doc": "500028253"
+   }
+  ],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Mike Levin",
+    "sponsor": "J Street Education Fund",
+    "to": "Israel",
+    "left": "2/17/2023",
+    "back": "2/24/2023",
+    "doc": "500026523"
+   }
+  ],
+  "trips_filed": 3,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 126250.0,
+  "passed_pac_report_2026": 127496.48,
+  "passed_through_aipac_pac_2022_2024": 121287.51
+ },
+ "armen-kurdian": {
+  "race": "U.S. House, District 49",
+  "fec_ids": [
+   "H6CA49169"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "scott-peters": {
+  "race": "U.S. House, District 50",
+  "fec_ids": [
+   "H2CA52089"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 539.52,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Scott Peters",
+    "sponsor": "Climate Solutions Foundation",
+    "to": "Egypt",
+    "left": "11/9/2022",
+    "back": "11/13/2022",
+    "doc": "500025665"
+   },
+   {
+    "member_or_staff": "Scott Peters",
+    "sponsor": "Aspen Institute, Inc., Breakthrough Energy Foundation, and Climate Imperative",
+    "to": "Norway",
+    "left": "8/22/2023",
+    "back": "9/1/2023",
+    "doc": "500027069"
+   },
+   {
+    "member_or_staff": "Scott Peters",
+    "sponsor": "Aspen Institute, Inc. and the Rockefeller Foundation",
+    "to": "Italy",
+    "left": "4/20/2025",
+    "back": "4/26/2025",
+    "doc": "500031118"
+   }
+  ],
+  "trips_filed": 7,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 539.52,
+  "passed_through_aipac_pac_2022_2024": 12020.0
+ },
+ "steve-cohen": {
+  "race": "U.S. House, District 50",
+  "fec_ids": [
+   "H6CA50324"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "sara-jacobs": {
+  "race": "U.S. House, District 51",
+  "fec_ids": [
+   "H8CA49074"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Sara Jacobs",
+    "sponsor": "United States-Qatar Business Council",
+    "to": "Doha, Qatar",
+    "left": "3/29/2021",
+    "back": "4/3/2021",
+    "doc": "500023112"
+   },
+   {
+    "member_or_staff": "Sara Jacobs",
+    "sponsor": "The Council for Global Equality",
+    "to": "Tijuana, Mexico",
+    "left": "5/6/2022",
+    "back": "5/6/2022",
+    "doc": "500024449"
+   },
+   {
+    "member_or_staff": "Sara Jacobs",
+    "sponsor": "United Nations Foundation and Eleanor Crook Foundation",
+    "to": "Bentiu, South Sudan, El Fasher, Sudan, Juba, South Sudan, Khartoum, Sudan",
+    "left": "7/2/2022",
+    "back": "7/10/2022",
+    "doc": "500025004"
+   },
+   {
+    "member_or_staff": "Sara Jacobs",
+    "sponsor": "Cooperative for Assistance and Relief Everywhere, Inc. (CARE), Save the Children Action Network (SCAN), and Bill & Melinda Gates Foundation",
+    "to": "Kenya",
+    "left": "4/7/2023",
+    "back": "4/15/2023",
+    "doc": "500026251"
+   },
+   {
+    "member_or_staff": "Sara Jacobs",
+    "sponsor": "United Nations Foundation and Eleanor Crook Foundation",
+    "to": "Fiji",
+    "left": "4/20/2024",
+    "back": "4/25/2024",
+    "doc": "500028335"
+   },
+   {
+    "member_or_staff": "Sara Jacobs",
+    "sponsor": "Aspen Institute, Inc., and Center for Responsible Innovation",
+    "to": "Spain",
+    "left": "5/26/2025",
+    "back": "5/31/2025",
+    "doc": "500031287"
+   },
+   {
+    "member_or_staff": "Sara Jacobs",
+    "sponsor": "United Nations Foundation and Eleanor Crook Foundation",
+    "to": "Mongolia",
+    "left": "8/22/2025",
+    "back": "8/29/2025",
+    "doc": "500033071"
+   }
+  ],
+  "trips_filed": 10,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ },
+ "ricardo-cabrera": {
+  "race": "U.S. House, District 51",
+  "fec_ids": [],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  }
+ },
+ "juan-vargas": {
+  "race": "U.S. House, District 52",
+  "fec_ids": [
+   "H2CA50026"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 7900.0,
+   "2024": 10000.0,
+   "2026": 10000.0
+  },
+  "passed_through_aipac_pac_2026": 123244.48,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [
+   {
+    "member_or_staff": "Juan Vargas",
+    "sponsor": "American Israel Education Fund",
+    "to": "Israel",
+    "left": "3/23/2024",
+    "back": "3/29/2024",
+    "doc": "500028019"
+   }
+  ],
+  "aipac_staff_trips": [
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "6/25/2022",
+    "back": "7/3/2022",
+    "doc": "500025025"
+   },
+   {
+    "member_or_staff": "staff",
+    "sponsor": "American Israel Education Foundation",
+    "to": "Israel",
+    "left": "9/3/2022",
+    "back": "9/11/2022",
+    "doc": "500025329"
+   }
+  ],
+  "other_trips_abroad": [
+   {
+    "member_or_staff": "Juan Vargas",
+    "sponsor": "National Prayer Breakfast of Ukrain",
+    "to": "Ukraine",
+    "left": "9/10/2021",
+    "back": "9/15/2021",
+    "doc": "500023421"
+   },
+   {
+    "member_or_staff": "Juan Vargas",
+    "sponsor": "Israel Allies Foundation Bridges for Peace All Nations Convocation Jerusalem Progressive Vision Intl. Combat Hate Foundation Intl. Christian Embassy Jerusalem",
+    "to": "Israel",
+    "left": "3/18/2022",
+    "back": "3/22/2022",
+    "doc": "500024200"
+   },
+   {
+    "member_or_staff": "Juan Vargas",
+    "sponsor": "The Council for Global Equality",
+    "to": "Tijuana, Mexico",
+    "left": "5/5/2022",
+    "back": "5/6/2022",
+    "doc": "500024484"
+   },
+   {
+    "member_or_staff": "Juan Vargas",
+    "sponsor": "U.S. Israel Education Association (USIEA)",
+    "to": "Israel",
+    "left": "2/17/2023",
+    "back": "2/26/2023",
+    "doc": "500025979"
+   }
+  ],
+  "trips_filed": 5,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 70800.0,
+  "passed_pac_report_2026": 123244.48,
+  "passed_through_aipac_pac_2022_2024": 200415.51
+ },
+ "jeff-belle": {
+  "race": "U.S. House, District 52",
+  "fec_ids": [
+   "H6CA52163"
+  ],
+  "aipac_pac_gifts": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "passed_through_aipac_pac_2026": 0,
+  "udp_spent_for": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "udp_spent_against": {
+   "2022": 0,
+   "2024": 0,
+   "2026": 0
+  },
+  "aipac_trips": [],
+  "aipac_staff_trips": [],
+  "other_trips_abroad": [],
+  "trips_filed": 0,
+  "trips_filed_no_sponsor": 0,
+  "sources": {
+   "money": "https://www.fec.gov/data/committee/C00797670/",
+   "travel": "https://disclosures-clerk.house.gov/GiftTravelFilings"
+  },
+  "passed_campaign_report_2026": 0,
+  "passed_pac_report_2026": 0,
+  "passed_through_aipac_pac_2022_2024": 0
+ }
+}

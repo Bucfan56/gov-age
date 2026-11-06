@@ -1,0 +1,21 @@
+{
+ "name": "Ya Liu",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 1,
+   "criterion": 6,
+   "text": "In June 2021 the State Bar's hearing panel suspended Liu's law license for two years, with the suspension stayed for three years under conditions. An audit found she over-disbursed client trust funds and intentionally left her earned fees in the trust account. She says the errors came from inexperience and that she fully complied, so the suspension never took effect.",
+   "why": "An official bar finding of repeated trust-account violations in her law practice fails the criterion on not misusing a position of trust, but it has no finding of self-dealing or abuse of public office, so it takes the minor level.",
+   "strength": "reporting",
+   "urls": [
+    "https://nclawyersweekly.com/2021/07/06/durham-attorney-suspended-for-two-year-stayed/",
+    "https://www.thisweekinthetriangle.com/p/unreported-house-rep-d-wake-disciplined"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I did not open the 2021 Consent Order or the State Bar's own summary. I relied on North Carolina Lawyers Weekly and a Triangle Trumpet article that quotes the order, and the Trumpet is a partisan-adjacent Substack. Wikipedia says the suspension was stayed for two years, but both sources I read say three years, and the text follows them. Please check the original order at ncbar.gov to confirm whether any client lost money, since the sources describe negative client balances and the order's wording on that point is unread. The search on the owner's named sites returned nothing about Liu."
+}

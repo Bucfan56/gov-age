@@ -1,0 +1,21 @@
+{
+ "name": "Lateefah Simon",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In March 2022 BART declared Simon's board seat vacant, saying she had moved outside her district. She said she moved after death threats tied to her police-reform work, and that BART officials had assured her the new address was in the district. Outside counsel found staff couldn't declare a vacancy. BART reinstated her and apologized. She later moved to Emeryville, inside the district.",
+   "why": "This was a residency dispute (criterion 6) that BART's own counsel resolved without any finding of wrongdoing or self-dealing, so it is shown but doesn't count.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.sfchronicle.com/bayarea/article/BART-reinstates-only-Black-board-member-after-17023476.php",
+    "https://www.transittalent.com/articles/index.cfm?story=Lateefah_Simon_Residency_6-13-2022"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The search on the owner's named sites (with Simon's name) found nothing about this item or any other matter on Simon's record. I read the SF Chronicle report (republished by Transit Talent) and the Chronicle's reinstatement article, not BART's own statement or board records. The Chronicle says the apartment was technically just outside the district. Simon says BART officials assured her it was inside. I couldn't independently confirm what those officials said. Attendance was not weighed, as instructed."
+}

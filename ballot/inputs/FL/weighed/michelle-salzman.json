@@ -1,0 +1,48 @@
+{
+ "name": "Michelle Salzman",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On Nov. 7, 2023, Rep. Angie Nixon asked the Florida House how many dead Palestinians would be enough. A voice answered \"All of them,\" and Nixon identified it as Salzman. Salzman first told WEAR \"That's fake.\" She then said she meant Hamas terrorists, not Palestinians, and apologized for any suggestion otherwise.",
+   "why": "The remark was widely reported and she changed her account, but she says it was aimed at Hamas, and it is unclear whether her \"fake\" denial was about saying the words or about how they were read, so there is no clear finding on a criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://weartv.com/news/local/all-of-them-rep-michelle-salzman-facing-backlash-for-israel-hamas-war-comment"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "Wikipedia reports that in 2024 the Florida Department of State notified Salzman that her campaign expenditures were being audited over several thousand dollars in irregularities. No outcome or finding has been found.",
+   "why": "This is an audit notice with no finding, and only Wikipedia was readable, so it cannot count toward the criterion on abuse of office or self-dealing.",
+   "strength": "reporting",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Michelle_Salzman"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is a disputed floor remark that a colleague said he overheard and Salzman flatly denied, with no finding and no clear bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://news.yahoo.com/florida-house-republicans-vote-pass-180700392.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 2: I could only read Wikipedia for the audit. The Florida Department of State audit notice and its outcome were not found, and the source Wikipedia cites (Rick's Blog) was not opened. Check the Division of Elections record for the result. Item 1: the Yahoo/Pensacola News Journal piece on death threats and the full Wikipedia 'fake' statement were only seen in snippets. Whether her 'That's fake' denial was about saying the words or about their meaning is ambiguous. If a reviewer decides she falsely denied her own words, it could be a weight-2 'against' under criterion 6. Item 3: the Tampa Bay Times report has her flat denial. A search snippet of the Florida Bar News article seemed to attribute a 'token Black Republican' line to her, but my fetch of that page was cut off before that part. Please read the full article. The owner-site search (Alex Jones, Stew Peters, Ryan Dawson, Infowars) returned nothing about her. A Drop Site post from August 2026 resurfaced the item 1 remark, but it adds no new facts. Only the Florida House Rep (state) seat was considered. The FEC page for a 'Salzman for Congress' committee (2026 cycle) turned up in search and was not examined."
+}

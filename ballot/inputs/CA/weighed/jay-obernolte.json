@@ -1,0 +1,21 @@
+{
+ "name": "Jay Obernolte",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On Jan. 6–7, 2021, Obernolte voted to object to counting Arizona's and Pennsylvania's electoral votes. In a Jan. 5 statement he said he would back objections where election rules were changed by courts or executives without the state legislature's consent. He called this a constitutional, nonpartisan position.",
+   "why": "This is a recorded vote with a stated constitutional reason, and no official finding of wrongdoing or clear link to the criteria (commitment to country and area, abuse of office, or lying about his record).",
+   "strength": "own_words",
+   "urls": [
+    "https://obernolte.house.gov/media/press-releases/rep-obernolte-statement-electoral-count",
+    "https://www.govtrack.us/congress/members/jay_obernolte/456801"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The Jan. 6 commission vote is not in the text. I found no record I could read showing how Obernolte voted on it. Ballotpedia and Roll Call results only confirmed the House passed the bill 252-175 on May 19, 2021. The rejected House objections (121-303 Arizona, 138-282 Pennsylvania) appeared only in search results, so they are also left out of the text. The GovTrack page I opened is an older, advocacy-toned snapshot and says only 'Arizona and/or Pennsylvania'. Check the House Clerk roll calls for the exact votes. The owner-site search found nothing about Obernolte on alexjoneslive.com, stewpeters.com, ryandawson.org or infowars.com. Attendance is counted separately and was not weighed."
+}

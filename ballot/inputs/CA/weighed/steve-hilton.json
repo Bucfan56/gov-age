@@ -1,0 +1,20 @@
+{
+ "name": "Steve Hilton",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is a TV commentator's opinion on COVID's origin, not conduct in an office or business, and the PolitiFact rating (read in full) was of a WorldNetDaily article, so none of the criteria apply.",
+   "strength": "reporting",
+   "urls": [
+    "https://politifact.com/factchecks/2021/feb/08/worldnetdaily/no-dr-anthony-fauci-did-not-fund-research-tied-cov/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 1: PolitiFact's fact-check rated a WorldNetDaily article False. It cited Hilton's Fox segment as that article's source and called both reliant on unsubstantiated allegations. Its editor's note says its earlier expert claims about lab manipulation are now more widely disputed. I did not read Hilton's original January 2021 transcript, which PolitiFact linked only through an archive page I couldn't open. Wikipedia's phrase that he asserted Wuhan was the 'most likely source' came from the Wikipedia summary and a timeline site, not from a primary record. I made one search with the owner's named sites (Alex Jones, Stew Peters, Ryan Dawson, Infowars). It found nothing about Hilton on those sites. I did not search any other part of Hilton's record, so there may be more to check, including foreign ties, donors and business history from Crowdpac."
+}

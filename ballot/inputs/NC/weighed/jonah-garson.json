@@ -1,0 +1,36 @@
+{
+ "name": "Jonah Garson",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In February 2025, days before a party officer vote, an unsigned email to Democratic Party leaders claimed, without evidence, that Garson used cocaine at party events. Garson said he has never used cocaine and called the claim false and defamatory. No court or official finding was reported. He was re-elected vice chair with 59%.",
+   "why": "This is an anonymous, unproven allegation that Garson denies, and it has no clear bearing on any criterion, such as abuse of office or self-dealing.",
+   "strength": "reporting",
+   "urls": [
+    "https://thecaucus.substack.com/p/jonah-garson-ncdp",
+    "https://indyweek.com/news/not-a-risk-we-can-take-some-senate-dems-dont-want-garson-in-their-caucus/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Video of Garson being removed from a Chapel Hill bar in 2024 circulated in 2025. Garson says he confronted the bartender over alleged underage drinking. The bartender says that accusation was false. Three state senators cited the incident when raising concerns about his 2026 appointment. No official finding was reported.",
+   "why": "The incident is a disputed personal episode with no official finding, and it does not clearly bear on any criterion such as abuse of office or self-dealing.",
+   "strength": "reporting",
+   "urls": [
+    "https://thecaucus.substack.com/p/jonah-garson-ncdp",
+    "https://indyweek.com/news/not-a-risk-we-can-take-some-senate-dems-dont-want-garson-in-their-caucus/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Garson. I didn't read the bar video itself or the original anonymous email (a Google Drive link). I couldn't open the CBS17 piece, which covers drug use and 'inappropriate relationships with women' allegations resurfacing in April 2026. Those allegations are anonymous, and Garson denies them. The Feb 2025 email also alleged he falsely claimed to have personally raised nearly $1M for the state party. Nothing I read substantiates that. A reviewer could check it against party fundraising records. I found no court, ethics or official record on any of these matters."
+}

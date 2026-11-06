@@ -1,0 +1,22 @@
+{
+ "name": "Lauren Book",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On April 3, 2023, Book and Nikki Fried were arrested with nine others for trespass after warning. They stayed outside Tallahassee City Hall after sundown at a protest against a six-week abortion ban. Prosecutors dropped all charges, citing no criminal history and the group's cooperation. Book said she did not use the justice system to amplify a political agenda.",
+   "why": "A peaceful, misdemeanor protest arrest with charges dropped is a petty moment that shows no abuse of office, self-dealing or dishonesty under any criterion, and her abortion stance is already covered by the platform score.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wctv.tv/2023/04/04/nikki-fried-lauren-book-among-group-arrested-tallahassee-city-hall/",
+    "https://www.wfla.com/news/politics/charges-dropped-against-nikki-fried-lauren-book-after-florida-abortion-protest/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The owner-site search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Lauren Book. Book's quote about the dropped charges appeared only in a Yahoo/Tallahassee Democrat search snippet, which I did not open. Her statement is left out of the text above and is not cited. The state attorney's filing itself was not read; the WFLA report quotes it. No other controversies were searched. Her father Ron Book's lobbying and any campaign finance or donor questions were not reviewed.",
+ "owner_sites_note": "none"
+}

@@ -1,0 +1,63 @@
+{
+ "name": "Jimmy Patronis",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 3,
+   "text": "In 2017–18, Patronis's political committee accepted donations from Simple Health and Health Benefits One, insurers later accused of fraud. In November 2018 a spokeswoman said the campaign didn't know of the alleged fraud and would give the money to charity. In 2024 the FTC obtained a $195 million judgment against Simple Health.",
+   "why": "Donations are not proof of wrongdoing, and I found no finding of misconduct by Patronis, so this is shown for context under big-money influence (criterion 3).",
+   "strength": "reporting",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Jimmy_Patronis"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2019, fired state financial regulator Ronald Rubin sued a lobbyist, alleging a pay-to-play scheme that involved Patronis, then Florida's chief financial officer. Patronis was not a defendant. A circuit judge ruled for the lobbyist, finding the record didn't support Rubin's claim that the harassment complaints were fabricated. An appeals panel upheld that ruling. Patronis's office disputed the allegations.",
+   "why": "The abuse-of-office accusation (criterion 6) was tested in court and rejected, with no finding against Patronis, and the $150,000 settlement was of a harassment complaint against Rubin, not Patronis's own conduct.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridapolitics.com/archives/634742-court-panel-rejects-ronald-rubins-claim-he-was-wrongly-fired-orders-reasonable-attorney-fees/",
+    "https://en.wikipedia.org/wiki/Jimmy_Patronis"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "Backing a proposed bill that was withdrawn is a policy stance, not abuse of office or self-dealing under criterion 6, and the platform score already covers stances.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridapolitics.com/archives/655444-jimmy-patronis-pushes-back-against-ron-desantis-opposition-to-donald-trump-legal-defense-fund/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 4,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 1,
+   "text": "Reports say Patronis's wife and children are registered to vote in Florida's 2nd Congressional District, not the 1st, which he represents. Patronis says he lives in the 1st District.",
+   "why": "This bears on commitment to the area (criterion 1), but I could not read the original WKRG report and found no finding of wrongdoing.",
+   "strength": "reporting",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Jimmy_Patronis"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 4: I could not open the WKRG pages (fetch failed), so the residency item rests on Wikipedia's summary plus search snippets I could not read in full. Those snippets conflict with Wikipedia. WKRG's 2025 campaign coverage said he lives in Panama City (Bay County), about 15 miles outside District 1, said he recently leased property in the district, and noted the U.S. Constitution requires only state residency. Check the original WKRG January 2025 voter-registration report and Patronis's current address. Item 1: I did not search the original reporting on the Simple Health and Health Benefits One donations or the FTC judgment, so it rests only on Wikipedia. Check it against the original news reports, the FTC judgment, and campaign finance records. Item 2: I read the Florida Politics report on the appeals ruling. I did not read the inspector general finding, which a Florida Politics snippet described as finding the allegations unfounded. I also did not read the original Rubin complaint or the settlement. Item 3: Patronis said on Newsmax that the money came from candidate qualifying fees, not taxpayer dollars. Other outlets called it public campaign-matching funds. Wikipedia's claims about the Breakspear removal and the $25,000 donation were not investigated. The owner-sites search (Alex Jones Live, Stew Peters, Ryan Dawson, Infowars) returned nothing about Patronis."
+}

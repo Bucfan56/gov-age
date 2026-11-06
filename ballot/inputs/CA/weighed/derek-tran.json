@@ -1,0 +1,35 @@
+{
+ "name": "Derek Tran",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is opponents criticizing a lawyer for taking employment clients (his real work under criterion 4), with no finding or conduct by Tran that fails any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://punchbowl.news/article/election-2024/derek-tran-looks-to-flip-seat-michelle-steel/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In May 2024 Tran told Punchbowl News that Michelle Steel \"came to this country for economic gain,\" not as a refugee. In October her campaign mailed fliers linking him to Mao Zedong; he called them \"dirty tricks.\" Sixteen Asian American nonprofits asked both Orange County parties to tone down rhetoric.",
+   "why": "Tran's own words in a campaign dispute drew criticism, but no finding of wrongdoing was made and no criterion (1-6) clearly applies; the fliers and the letter are about Steel's campaign and both parties.",
+   "strength": "own_words",
+   "urls": [
+    "https://punchbowl.news/article/election-2024/derek-tran-looks-to-flip-seat-michelle-steel/",
+    "https://www.yahoo.com/news/red-baiting-accusations-fly-between-100032777.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I couldn't read the original Politico reporting on Tran's employment clients. The Fox News and Rafu Shimpo pages cut off before the relevant passages, so item 1 rests on search snippets and campaign and NRCC releases, which are partisan. Those say Tran represented a former Safeway manager fired in 2019 over a noose and a Costco employee fired in 2021 after harassment complaints. I found no court finding or official record of misconduct by Tran. I used one search on the owner's named sites with Tran's name, and it returned nothing about him. I didn't check those sites directly. Nothing on attendance was weighed, as instructed. The Yahoo page is a syndicated copy of an LA Times story, and the Steel mailers and the nonprofit letter are not Tran's own conduct."
+}

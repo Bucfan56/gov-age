@@ -1,7 +1,7 @@
 {
   "name": "Ballot Buddy",
   "short_name": "Ballot Buddy",
-  "description": "Your Florida ballot, race by race: scores, records, your picks, and a list to take into the booth.",
+  "description": "Your ballot, race by race: scores, records, your picks, and a list to take into the booth.",
   "start_url": "ballot.html",
   "scope": "./",
   "display": "standalone",

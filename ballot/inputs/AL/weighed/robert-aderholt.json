@@ -1,0 +1,22 @@
+{
+ "name": "Robert Aderholt",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On Dec. 10, 2020, Aderholt backed Texas's Supreme Court lawsuit over the 2020 election and said he had signed a supporting brief. On Jan. 6–7, 2021, he voted to object to Arizona's and Pennsylvania's electoral votes. Both objections failed. He said there were \"too many reports of serious fraud\" for the matter not to be debated.",
+   "why": "These were recorded votes and public statements with no official finding of wrongdoing, and they have no clear bearing on the criteria, since criterion 6 covers lying about one's record and no such lie is shown.",
+   "strength": "own_words",
+   "urls": [
+    "https://aderholt.house.gov/media-center/press-releases/aderholt-support-texas-attorney-generals-election-lawsuit-supreme-court",
+    "https://archive.amarkfoundation.org/the2020election/house-statements-about-the-2020-election/",
+    "https://www.magareportcards.com/blog/aderholt-2020-election-five-votes/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) The owner-sites search (Aderholt plus alexjoneslive.com, stewpeters.com, ryandawson.org and infowars.com) returned nothing about him from those sites. 2) I did not open the House Clerk roll-call pages (Roll Calls 10 and 11) or the Supreme Court brief PDF. The Yea votes are shown on GovTrack and in an advocacy site's table. His own press release says his name was left off the brief at first and was to be added later. The brief's text appeared only as a search snippet that names him as an amicus. A reviewer could confirm his name is on the filed brief. 3) The Washington Post tracker snippet was garbled and seemed to list him under 'did not vote'. This conflicts with GovTrack, so check the Clerk's roll calls. 4) Wikipedia and Ballotpedia were used only as a map. 5) I found no other conduct that meets the against or open bar."
+}

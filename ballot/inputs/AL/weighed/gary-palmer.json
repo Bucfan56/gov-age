@@ -1,0 +1,23 @@
+{
+ "name": "Gary Palmer",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In 2021 U.S. Term Limits announced a billboard saying Palmer broke a pledge to cosponsor a term-limits amendment. His campaign called that false, saying he cosponsored it three terms running. In 2023 Palmer said he had said he'd serve only five terms: \"I own that.\" He announced a run for a sixth term.",
+   "why": "Palmer admits changing a campaign statement about how long he would serve, but no official finding or undisputed record shows he lied about his record or abused his office, so it has no clear bearing on criterion 6.",
+   "strength": "own_words",
+   "urls": [
+    "https://1819news.com/news/item/u-s-rep-palmer-running-again-in-2024-claims-pledge-was-to-support-term-limit-legislation-but-acknowledges-saying-would-only-serve-five-terms",
+    "https://www.alreporter.com/2021/09/09/term-limits-group-targets-gary-palmer-for-allegedly-breaking-campaign-pledge/"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2023"
+   ]
+  }
+ ],
+ "for_review": "The owner-site search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Palmer. I did not check congress.gov cosponsor records for the 114th Congress and later, so the 2021 dispute is unresolved. USTL says he stopped cosponsoring, and his campaign says he cosponsored for three terms. I also did not read the USTL billboard press release or his signed pledge, which would settle whether the pledge was limited to one Congress. Palmer's 2023 admission is about the five-term statement, not a lie about his record. If a reviewer finds he misstated his cosponsor record, that could count as lying about his own record (weight 2)."
+}

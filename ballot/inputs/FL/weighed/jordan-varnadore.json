@@ -1,0 +1,18 @@
+{
+ "name": "Jordan Varnadore",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item records that no foreign-government payments, FARA filings, state-owned business or foreign-agent donors were found, so there is no conduct by this person to weigh under foreign ties.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 1 is a placeholder saying nothing was found, and I found nothing to contradict it. I did not search FARA or Florida Division of Elections records directly. The search on the owner's named sites returned nothing about Varnadore, so owner_sites is empty. One opinion piece (Matthew Munroe, Florida Sentinel, Jul 31 2026) lists his PAC donations and says he paid $21,150 to Three Seas Consulting LLC. It says that firm is registered to a Florida Chamber of Commerce executive and has had only one client. I read it, but it is advocacy writing with no finding of wrongdoing, and donations aren't proof of anything. It does not say the firm belongs to Varnadore or his family, so I did not add it. If someone wants to check, the campaign-finance filings and Sunbiz record for Three Seas Consulting are the places to look. He won the Nov 3, 2026 election for HD 71, so there is no voting or attendance record yet."
+}

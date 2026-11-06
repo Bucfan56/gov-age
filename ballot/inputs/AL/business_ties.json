@@ -1,0 +1,365 @@
+{
+ "shomari-figures": {
+  "race": "U.S. House, District 2",
+  "filing": {
+   "doc": "10081374",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "KDF Consulting LLC",
+    "code": "OL",
+    "description": "Consulting business",
+    "place": "Greenbelt, MD, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "CMB Holdings Group LLC",
+    "code": "OL",
+    "description": "SAK Investments LLC is fully owned by Shomari Figures. SAK Investments LLC owns 33% of CMB Holdings Group LLC, which",
+    "place": "Birmingham, AL, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081374.pdf"
+ },
+ "rhett-marques": {
+  "race": "U.S. House, District 2",
+  "filing": {
+   "doc": "10079819",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/25/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "River Bank & Trust",
+    "code": "PS",
+    "description": "1470 shares",
+    "place": "",
+    "federal_awards": [
+     {
+      "kind": "grant",
+      "recipient": "RIVER BANK & TRUST",
+      "amount": 280369.0,
+      "agency": "Department of the Treasury",
+      "started": null,
+      "award": "241BE066402-G"
+     },
+     {
+      "kind": "grant",
+      "recipient": "RIVER BANK & TRUST",
+      "amount": 434818.0,
+      "agency": "Department of the Treasury",
+      "started": null,
+      "award": "231BE063464-G"
+     },
+     {
+      "kind": "grant",
+      "recipient": "RIVER BANK & TRUST",
+      "amount": 3718258.0,
+      "agency": "Department of the Treasury",
+      "started": "2023-04-10",
+      "award": "22ERP061333-G"
+     },
+     {
+      "kind": "grant",
+      "recipient": "RIVER BANK & TRUST",
+      "amount": 170699.0,
+      "agency": "Department of the Treasury",
+      "started": null,
+      "award": "211BE023883-G"
+     }
+    ],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10079819.pdf"
+ },
+ "robert-aderholt": {
+  "race": "U.S. House, District 4",
+  "filing": {
+   "doc": "10078366",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Elko Mains LLC",
+    "code": "OL",
+    "description": "",
+    "place": "Huntsville, AL, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Greenbrier Enterprises LLC",
+    "code": "OL",
+    "description": "",
+    "place": "Madison, AL, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Greenbrier Enterprises LLC",
+    "code": "OL",
+    "description": "",
+    "place": "Madison, AL, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "President",
+    "organization": "Nailfast Inc"
+   },
+   {
+    "title": "Trustee / Executor",
+    "organization": "Estate of Julious L. Brown"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078366.pdf"
+ },
+ "amanda-pusczek": {
+  "race": "U.S. House, District 4",
+  "filing": {
+   "doc": "10082865",
+   "type": "C",
+   "year": "2026",
+   "filed": "9/15/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Founder",
+    "organization": "Maslows Meals"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082865.pdf"
+ },
+ "gary-palmer": {
+  "race": "U.S. House, District 6",
+  "filing": {
+   "doc": "10075305",
+   "type": "O",
+   "year": "2025",
+   "filed": "4/15/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075305.pdf"
+ },
+ "maurice-mercer": {
+  "race": "U.S. House, District 6",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "jerry-carl": {
+  "race": "U.S. House, District 1",
+  "filing": {
+   "doc": "10078455",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/15/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078455.pdf"
+ },
+ "clyde-jones": {
+  "race": "U.S. House, District 1",
+  "filing": {
+   "doc": "10082789",
+   "type": "C",
+   "year": "2026",
+   "filed": "9/6/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10082789.pdf"
+ },
+ "mike-rogers": {
+  "race": "U.S. House, District 3",
+  "filing": {
+   "doc": "9116167",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/14/2026"
+  },
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116167.pdf"
+ },
+ "lee-mcinnis": {
+  "race": "U.S. House, District 3",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "dale-strong": {
+  "race": "U.S. House, District 5",
+  "filing": {
+   "doc": "10074989",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/11/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Strong Family Properties, LLC",
+    "code": "OL",
+    "description": "LLC that owns several properties. Values and Income reflected in assets.",
+    "place": "Madison, AL, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Charter Member",
+    "organization": "Monrovia Parks and Recreation"
+   },
+   {
+    "title": "Capital Committee Member",
+    "organization": "Hogan Family YMCA"
+   },
+   {
+    "title": "Managing Member",
+    "organization": "AUBOYS LLC"
+   },
+   {
+    "title": "Sole Member",
+    "organization": "Strong and Strong, LLC"
+   },
+   {
+    "title": "Lifetime Member",
+    "organization": "Monrovia Volunteer Fire & Rescue"
+   },
+   {
+    "title": "Member",
+    "organization": "Strong Family Properties, LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074989.pdf"
+ },
+ "andrew-sneed": {
+  "race": "U.S. House, District 5",
+  "filing": {
+   "doc": "9116386",
+   "type": "C",
+   "year": "2026",
+   "filed": "10/13/2026"
+  },
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/9116386.pdf"
+ },
+ "terri-sewell": {
+  "race": "U.S. House, District 7",
+  "filing": {
+   "doc": "10082953",
+   "type": "A",
+   "year": "2025",
+   "filed": "9/25/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Board Member (uncompensated)",
+    "organization": "Stennis Center for Public Service"
+   },
+   {
+    "title": "Chair, Board of Directors (uncompensated)",
+    "organization": "Congressional Black Caucus Foundation"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10082953.pdf"
+ },
+ "ammie-akin": {
+  "race": "U.S. House, District 7",
+  "filing": {
+   "doc": "10081152",
+   "type": "C",
+   "year": "2026",
+   "filed": "6/30/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "CommerceOne Bank Stock (Raymond James SEP IRA)",
+    "code": "PS",
+    "description": "Bank Stock--No Distributions. Owned in SEP IRA with Raymond James",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "AP Gumption SPV Two LLC",
+    "code": "OL",
+    "description": "Gumption",
+    "place": "Jefferson County, AL, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Bank of Missouri (formerly M1 Bank)",
+    "code": "PS",
+    "description": "Bank Stock",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "MC Bancshares",
+    "code": "PS",
+    "description": "Bank Stock-Held in Akin Family Holdings, LLC",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "OS1 Holdings, Inc.",
+    "code": "PS",
+    "description": "OS1 Urgent Care Stock",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Board Member (uncompensated)-resigned",
+    "organization": "June 2026"
+   },
+   {
+    "title": "Hub in the Hills, Inc",
+    "organization": "Board Member (uncompensated)"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081152.pdf"
+ }
+}

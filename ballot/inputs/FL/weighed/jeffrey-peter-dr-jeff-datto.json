@@ -1,0 +1,32 @@
+{
+ "name": "Jeffrey Peter \"Dr. Jeff\" Datto",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "A WUSF/WLRN candidate roundup from October 22, 2026 says his Instagram has many high-energy videos of him arguing with police officers while shouting his message. The report describes no charge, complaint or official finding. He did not fill out the outlet's voter guide, so his response isn't on record.",
+   "why": "The reporting is accurate, but it describes social-media videos with no finding of wrongdoing and no clear bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://wusf.org/text/politics-issues/2026-10-22/donalds-jolly-not-only-candidates-florida-governor-rest-of-field"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "This item records that no foreign ties were found, so it describes no conduct by him under the foreign-ties criterion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I could not see the actual videos in item 1, so check them and the context of any police encounters. The WLRN page itself loaded only partly, so I read the matching WUSF text of the same story. The story also cites a Civics Scorecard note that he has been a pro se (self-represented) plaintiff in federal civil-rights and disability cases for more than 15 years. I could not open that page. Filing lawsuits is not wrongdoing, but someone should check whether any court sanctions or vexatious-litigant findings exist. The same story reports he has not voted in Florida since 2020 and self-funded about $5,500, which may bear on criteria 1 and 3. The owner-site search found nothing on him."
+}

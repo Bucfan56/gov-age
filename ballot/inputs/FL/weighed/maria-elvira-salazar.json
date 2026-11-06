@@ -1,0 +1,47 @@
+{
+ "name": "Maria Elvira Salazar",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "Business Insider reported in June 2022 that she appeared to have disclosed a Cano Health share exchange late. Her House filing lists a Feb. 14, 2022 exchange worth $250,001–$500,000 and is signed June 10, 2022. Her spokesperson called it a \"unique financial occurrence\" with no guidance, and she asked the Ethics Committee to waive any fine.",
+   "why": "This is a possible small disclosure lapse (criterion 6), but I found no Ethics Committee finding or fine, and her office says no guidance covered the transaction.",
+   "strength": "reporting",
+   "urls": [
+    "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20021096.pdf",
+    "https://www.alternet.org/2022/06/house-republican-unique-financial-occurance"
+   ],
+   "owner_sites": [],
+   "check": [
+    "250,001"
+   ]
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "Voting for the Epstein files bill is an ordinary floor vote, and a change of position is not lying about her record or abuse of office, so it fits none of the criteria.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The conduct belongs to foreign leaders who endorsed her, and an endorsement is not foreign government money, lobbying or paid travel, so this is guilt by association under the foreign-ties criterion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) Item 1: I could not open the Business Insider original (access blocked), so her response is taken from Alternet's summary of it. The official House filing shows about 116 days between the Feb. 14, 2022 exchange and the June 10, 2022 signature. The STOCK Act deadline is 45 days. I found no Ethics Committee decision or fine. If the late filing is confirmed or a fine was imposed, it could count as a weight-1 filing violation. Also check the later Cano exchange filing (Feb 2023), which I only saw in a search snippet. 2) Item 2: I found no source for her 'Democratic Hoax' quote or for the claim that Trump directed her vote. I could not read the cited Wikipedia section, and I did not weigh the Epstein item further. 3) Item 3: The Washington Post article would not open, so I did not read it. A ColombiaOne search snippet says Abelardo de la Espriella and his wife gave more than $90,000 to her past campaigns, and that she traveled to Barranquilla during Colombia's 2026 election. A Breitbart snippet says he is a U.S. citizen. I did not read any of this on a page I opened. Check FEC records and her House travel disclosures; if the travel was foreign-paid, it would matter under the foreign-ties criterion. 4) The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing relevant. 5) Attendance and AIPAC-related items were not weighed, per instructions."
+}

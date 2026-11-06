@@ -1,0 +1,35 @@
+{
+ "name": "Anna Paulina Luna",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Luna said in 2022 she was raised a Messianic Jew and is 'a small fraction Ashkenazi.' In 2023 the Washington Post reported relatives said her father was Catholic, and found no apparent Ashkenazi ancestry. Her mother said he embraced Messianic faith. Her office called the story 'comical.'",
+   "why": "This is a disputed account of her family background with no finding that she lied about her record, so it has no clear bearing on criterion 6 (and the grandfather's service is not her own conduct).",
+   "strength": "reporting",
+   "urls": [
+    "https://www.jta.org/2023/02/13/politics/rep-anna-paulina-luna-who-claimed-jewish-heritage-instead-reportedly-had-a-grandfather-who-fought-for-the-nazis",
+    "https://www.newsweek.com/anna-paulina-luna-slammed-over-report-she-lied-about-being-jewish-1780538"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In July 2026 the Wall Street Journal reported that Luna told associates in 2024 she knew Trump's running mate, and allegedly tipped influencer Rogan O'Handley, who bet on Polymarket. A source said the CFTC is investigating. Luna denied it and filed a complaint alleging false reports to the CFTC. O'Handley denied it too.",
+   "why": "This is a serious, undecided accusation of misusing nonpublic information (criterion 6), based on anonymous sources, and it has no official finding.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.mediaite.com/media/news/anna-paulina-luna-reportedly-tipped-off-maga-influencer-who-won-big-betting-on-trumps-vp-pick/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The owner-site search returned only Infowars and Stew Peters posts on other subjects, and nothing on these five items. Item 3 (Braddock injunction, 2021) and item 4 (Brown shooter misidentification, Dec 2025) were not read at all, because no search was left. Item 5 was seen only in search snippets from The Hill, Politico/Ukrainian outlets and an MS NOW opinion piece. The Hill page failed to open, so none of its facts are in the text. Check whether the Russian delegation visit involved any sanctions waiver, foreign payment or paid travel, and read the 'Claude responded' NDAA summary. For item 1, the Washington Post original wasn't opened. I relied on JTA and Newsweek summaries of it, and the Post story was reportedly corrected twice on other points. For item 2, the WSJ report is paywalled and was read only through Mediaite. Check for any CFTC statement or later developments, since the investigation was reported through unnamed sources. No attendance item was weighed."
+}

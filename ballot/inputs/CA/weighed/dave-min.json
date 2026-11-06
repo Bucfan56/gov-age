@@ -1,0 +1,21 @@
+{
+ "name": "Dave Min",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Police stopped Min in Sacramento on May 2, 2023 and arrested him on suspicion of drunk driving. In August 2023 he pleaded no contest to misdemeanor DUI. He got two days in jail, three months in a first-offender program and three years of informal probation. After the arrest he said, \"My decision to drive last night was irresponsible.\"",
+   "why": "This is a real misdemeanor conviction for personal conduct, but it involved no abuse of office, self-dealing or other conduct that bears on any of the listed criteria.",
+   "strength": "reporting",
+   "urls": [
+    "https://mynewsla.com/government/2023/08/30/state-sen-dave-min-pleads-no-contest-to-dui-charge-2/",
+    "https://californiaglobe.com/fr/senator-dave-min-sentenced-to-three-years-probation-for-drunk-driving-offense/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I read two news reports of the plea and sentence. They relay the Sacramento County DA's office and the CHP, and I did not open the court docket. Wikipedia says Min pledged to stop drinking, and I did not find that in the pages I read, so I left it out. One outlet (California Globe) says he drove a state-owned Camry, and a Republican committee spokesman called it a government car. I did not confirm this elsewhere and left it out. The search on the owner's named sites (Alex Jones/Infowars, Stew Peters, Ryan Dawson) returned nothing about Min. Attendance and AIPAC-related items are handled in separate steps."
+}

@@ -1,0 +1,50 @@
+{
+ "name": "Kimberly Daniels",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 1,
+   "criterion": 6,
+   "text": "In 2017 Daniels settled with the Florida Elections Commission over spending in her 2015 city council re-election bid. She agreed to pay $1,500. The case listed three violations, including using campaign funds for living expenses. Earlier she had said she funded her campaign herself: \"I'm being accused of stealing money from myself.\"",
+   "why": "A state elections-commission consent order with a fine shows she broke campaign-finance rules, which bears on not taking advantage of her position (criterion 6), and it is a minor ethics fine.",
+   "strength": "official",
+   "urls": [
+    "https://floridapolitics.com/archives/250407-settlement-reached-kim-daniels-campaign-finance-kerfuffle/",
+    "https://www.actionnewsjax.com/news/investigates/state-rep-kim-daniels-breaks-silence-amid-accusations-of-using-campaign-money-for-personal-expenses/578829068/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "against",
+   "weight": 1,
+   "criterion": 6,
+   "text": "In January 2019 Daniels reached a settlement with the Florida Commission on Ethics. An advocate found she left properties, time-shares and loans off her 2012–2014 financial disclosures while on the city council. The settlement recommended a finding that she broke disclosure law. She had said the properties belong to her church.",
+   "why": "Her own settlement over inaccurate financial disclosures is a smaller filing violation bearing on honesty about her own record (criterion 6), so it gets the minor level.",
+   "strength": "official",
+   "urls": [
+    "https://www.news4jax.com/news/2019/01/10/state-rep-kimberly-daniels-reaches-settlement-on-ethics-complaint/",
+    "https://www.actionnewsjax.com/news/investigates/state-rep-kim-daniels-breaks-silence-amid-accusations-of-using-campaign-money-for-personal-expenses/578829068/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2019 the state sued SCLC World Wide, which ran a youth anti-violence program Daniels had advocated for. The state said it didn't deliver. A former aide separately sued Daniels, alleging she was fired after objecting to personal tasks assigned by the group's leader, whom she called Daniels' boyfriend. Outcomes weren't found.",
+   "why": "The state's suit is against the group, not Daniels, and the aide's claims about her conduct and the contract's handling are unproven allegations, so this is shown without counting (criterion 6).",
+   "strength": "reporting",
+   "urls": [
+    "https://www.news4jax.com/news/2019/09/13/jacksonville-lawmaker-facing-potential-legal-trouble/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) Search for Daniels with the owner's named sites returned nothing relevant, so owner_sites is empty for all items. 2) Item 2: I read that the ethics settlement was to go before the commission on Jan. 25, 2019, but I did not confirm the final order, so check the Commission on Ethics records. 3) Item 3: I couldn't open the First Coast News article and found no court outcome for the Department of Juvenile Justice suit or the former aide's wrongful-firing suit. The Florida court dockets would show both outcomes. I didn't confirm how the $1 million contract was awarded or what Daniels' role in it was. 4) Item 1: her 2017 comments came before the consent order. I didn't find a response from her after the settlement."
+}

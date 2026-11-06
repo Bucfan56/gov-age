@@ -1,0 +1,74 @@
+{
+ "name": "Wilton Simpson",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 3,
+   "text": "The Florida Trib reported that in June 2026 a political committee run by Simpson took $100,000 from Siboney Ranch. It took another $100,000 the same day from the trust of Enrique Tomeu, who owns a firm at the ranch's address. A few months earlier, Simpson's department paid the ranch nearly $10 million for a conservation easement. Simpson didn't respond to questions.",
+   "why": "The report shows timing of a donation and a state payment under the big-money criterion, but no finding of wrongdoing and no evidence linking the two.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridatrib.org/2026/07/27/who-is-pouring-millions-into-the-sleepy-race-for-floridas-ag-commissioner/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "Simpson owns Simpson Farms, a large egg operation in Trilby, while leading the department that oversees agriculture. At a 2023 Economic Club of Florida talk he blamed the egg price spike on avian flu, which killed about 20% of U.S. laying birds, plus commodity pricing. He said his farm had not been hit by the flu.",
+   "why": "Owning a farm in the industry he oversees is public and disclosed, but no complaint, finding or misuse of office was found under the abuse-of-position criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridapolitics.com/archives/589950-wilton-simpson-when-bad-actors-threaten-farmers-deliver/"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2023"
+   ]
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is the same Siboney Ranch easement and donation matter as item 1, and the statement that the program protects farmland doesn't conflict with the facts reported there (criterion 6).",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 4,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "The Senate roll call confirms Simpson voted Yea on SB 7026 in 2018, but that is an ordinary vote and it doesn't contradict his later work on the 2023 financial-privacy law, so it shows no lie about his record (criterion 6).",
+   "strength": "official",
+   "urls": [
+    "https://www.flsenate.gov/Session/Bill/2018/7026/Vote/SenateVote_s07026e1018.PDF"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 5,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "No conduct is documented: the searched records show no foreign-government payments, FARA filings or foreign-agent donors, so there is nothing to weigh under the foreign-ties criterion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) Items 1 and 3: search results (not opened) say the Governor and Cabinet, not Simpson alone, approved the Siboney Ranch easement on Dec 17, 2025 (about 1,059 acres). Check the FDACS press release and the Cabinet agenda for the exact price, the date and Simpson's role. The Trib said he didn't respond. Also check whether he or the ranch has since commented. 2) Item 2: the Florida Phoenix 2023 article could not be opened, so I used a Florida Politics piece on the same topic. A Substack opinion piece, not relied on, says Simpson sold about 135 acres to Cal-Maine for about $11M in May 2023. It also notes that Cal-Maine was named in a June 2026 DOJ egg price-coordination suit. Verify with deed or news records. Nothing found accuses Simpson of wrongdoing, so I did not add it. 3) Owner sites: the one search on alexjoneslive.com, stewpeters.com, ryandawson.org and infowars.com returned nothing about Simpson. 4) The WLRN article cited in item 3 was not opened."
+}

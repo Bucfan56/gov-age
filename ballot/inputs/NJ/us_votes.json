@@ -1,0 +1,922 @@
+{
+ "nellie-pou": [
+  {
+   "bill": "H.R. 7148 (2026) Consolidated Appropriations Act, 2026 (final)",
+   "what": "Final FY2026 spending package funding most remaining federal agencies through September 30, 2026.",
+   "date": "2026-02-03",
+   "chamber": "U.S. House",
+   "result": "passed 217-214",
+   "url": "https://clerk.house.gov/Votes/2026053",
+   "vote": "Nay"
+  },
+  {
+   "bill": "S. 1071 / FY2026 National Defense Authorization Act (final)",
+   "what": "Final FY2026 defense policy and funding-authorization bill (about $900 billion), carried in the House on the vehicle S. 1071.",
+   "date": "2025-12-10",
+   "chamber": "U.S. House",
+   "result": "passed 312-112",
+   "url": "https://clerk.house.gov/Votes/2025320",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Nov. 12 final, ended the shutdown)",
+   "what": "Ended the 43-day federal shutdown: funds government through Jan. 30, 2026 and three full-year spending bills.",
+   "date": "2025-11-12",
+   "chamber": "U.S. House",
+   "result": "passed 222-209",
+   "url": "https://clerk.house.gov/Votes/2025285",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Sept. 19 House passage)",
+   "what": "House-passed stopgap funding bill to keep government open through Nov. 21, 2025; stalled in the Senate and a shutdown began Oct. 1.",
+   "date": "2025-09-19",
+   "chamber": "U.S. House",
+   "result": "passed 217-212",
+   "url": "https://clerk.house.gov/Votes/2025281",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 1 (2025) One Big Beautiful Bill Act (final passage)",
+   "what": "The 2025 reconciliation law: extends the 2017 tax cuts, adds new tax breaks, cuts Medicaid and food-assistance spending, and raises defense and border spending and the debt limit.",
+   "date": "2025-07-03",
+   "chamber": "U.S. House",
+   "result": "passed 218-214",
+   "url": "https://clerk.house.gov/Votes/2025190",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 881 (2025) DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+   "what": "Bars Homeland Security funds going to Confucius Institutes and entities tied to the Chinese government.",
+   "date": "2025-05-07",
+   "chamber": "U.S. House",
+   "result": "passed 266-153",
+   "url": "https://clerk.house.gov/Votes/2025120",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 22 (2025) SAVE Act",
+   "what": "Requires documentary proof of U.S. citizenship to register to vote in federal elections.",
+   "date": "2025-04-10",
+   "chamber": "U.S. House",
+   "result": "passed 220-208",
+   "url": "https://clerk.house.gov/Votes/2025102",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 1968 (2025) Full-Year Continuing Appropriations and Extensions Act, 2025",
+   "what": "Funds the federal government through September 30, 2025 at roughly prior-year levels (March 2025 stopgap).",
+   "date": "2025-03-11",
+   "chamber": "U.S. House",
+   "result": "passed 217-213",
+   "url": "https://clerk.house.gov/Votes/2025070",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 152 (2025) Federal Disaster Assistance Coordination Act",
+   "what": "Streamlines coordination among federal agencies delivering disaster aid (hurricane/flood recovery).",
+   "date": "2025-01-13",
+   "chamber": "U.S. House",
+   "result": "passed 405-5",
+   "url": "https://clerk.house.gov/Votes/2025009",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 29 (2025) Laken Riley Act",
+   "what": "Requires federal detention of undocumented immigrants charged with theft, burglary or assault of a police officer, and lets states sue over immigration enforcement.",
+   "date": "2025-01-07",
+   "chamber": "U.S. House",
+   "result": "passed 264-159",
+   "url": "https://clerk.house.gov/Votes/2025006",
+   "vote": "Nay"
+  }
+ ],
+ "lamonica-mciver": [
+  {
+   "bill": "H.R. 7148 (2026) Consolidated Appropriations Act, 2026 (final)",
+   "what": "Final FY2026 spending package funding most remaining federal agencies through September 30, 2026.",
+   "date": "2026-02-03",
+   "chamber": "U.S. House",
+   "result": "passed 217-214",
+   "url": "https://clerk.house.gov/Votes/2026053",
+   "vote": "Nay"
+  },
+  {
+   "bill": "S. 1071 / FY2026 National Defense Authorization Act (final)",
+   "what": "Final FY2026 defense policy and funding-authorization bill (about $900 billion), carried in the House on the vehicle S. 1071.",
+   "date": "2025-12-10",
+   "chamber": "U.S. House",
+   "result": "passed 312-112",
+   "url": "https://clerk.house.gov/Votes/2025320",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Nov. 12 final, ended the shutdown)",
+   "what": "Ended the 43-day federal shutdown: funds government through Jan. 30, 2026 and three full-year spending bills.",
+   "date": "2025-11-12",
+   "chamber": "U.S. House",
+   "result": "passed 222-209",
+   "url": "https://clerk.house.gov/Votes/2025285",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Sept. 19 House passage)",
+   "what": "House-passed stopgap funding bill to keep government open through Nov. 21, 2025; stalled in the Senate and a shutdown began Oct. 1.",
+   "date": "2025-09-19",
+   "chamber": "U.S. House",
+   "result": "passed 217-212",
+   "url": "https://clerk.house.gov/Votes/2025281",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 1 (2025) One Big Beautiful Bill Act (final passage)",
+   "what": "The 2025 reconciliation law: extends the 2017 tax cuts, adds new tax breaks, cuts Medicaid and food-assistance spending, and raises defense and border spending and the debt limit.",
+   "date": "2025-07-03",
+   "chamber": "U.S. House",
+   "result": "passed 218-214",
+   "url": "https://clerk.house.gov/Votes/2025190",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 881 (2025) DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+   "what": "Bars Homeland Security funds going to Confucius Institutes and entities tied to the Chinese government.",
+   "date": "2025-05-07",
+   "chamber": "U.S. House",
+   "result": "passed 266-153",
+   "url": "https://clerk.house.gov/Votes/2025120",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 22 (2025) SAVE Act",
+   "what": "Requires documentary proof of U.S. citizenship to register to vote in federal elections.",
+   "date": "2025-04-10",
+   "chamber": "U.S. House",
+   "result": "passed 220-208",
+   "url": "https://clerk.house.gov/Votes/2025102",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 1968 (2025) Full-Year Continuing Appropriations and Extensions Act, 2025",
+   "what": "Funds the federal government through September 30, 2025 at roughly prior-year levels (March 2025 stopgap).",
+   "date": "2025-03-11",
+   "chamber": "U.S. House",
+   "result": "passed 217-213",
+   "url": "https://clerk.house.gov/Votes/2025070",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 152 (2025) Federal Disaster Assistance Coordination Act",
+   "what": "Streamlines coordination among federal agencies delivering disaster aid (hurricane/flood recovery).",
+   "date": "2025-01-13",
+   "chamber": "U.S. House",
+   "result": "passed 405-5",
+   "url": "https://clerk.house.gov/Votes/2025009",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 29 (2025) Laken Riley Act",
+   "what": "Requires federal detention of undocumented immigrants charged with theft, burglary or assault of a police officer, and lets states sue over immigration enforcement.",
+   "date": "2025-01-07",
+   "chamber": "U.S. House",
+   "result": "passed 264-159",
+   "url": "https://clerk.house.gov/Votes/2025006",
+   "vote": "Nay"
+  }
+ ],
+ "donald-norcross": [
+  {
+   "bill": "H.R. 7148 (2026) Consolidated Appropriations Act, 2026 (final)",
+   "what": "Final FY2026 spending package funding most remaining federal agencies through September 30, 2026.",
+   "date": "2026-02-03",
+   "chamber": "U.S. House",
+   "result": "passed 217-214",
+   "url": "https://clerk.house.gov/Votes/2026053",
+   "vote": "Nay"
+  },
+  {
+   "bill": "S. 1071 / FY2026 National Defense Authorization Act (final)",
+   "what": "Final FY2026 defense policy and funding-authorization bill (about $900 billion), carried in the House on the vehicle S. 1071.",
+   "date": "2025-12-10",
+   "chamber": "U.S. House",
+   "result": "passed 312-112",
+   "url": "https://clerk.house.gov/Votes/2025320",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Nov. 12 final, ended the shutdown)",
+   "what": "Ended the 43-day federal shutdown: funds government through Jan. 30, 2026 and three full-year spending bills.",
+   "date": "2025-11-12",
+   "chamber": "U.S. House",
+   "result": "passed 222-209",
+   "url": "https://clerk.house.gov/Votes/2025285",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Sept. 19 House passage)",
+   "what": "House-passed stopgap funding bill to keep government open through Nov. 21, 2025; stalled in the Senate and a shutdown began Oct. 1.",
+   "date": "2025-09-19",
+   "chamber": "U.S. House",
+   "result": "passed 217-212",
+   "url": "https://clerk.house.gov/Votes/2025281",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 1 (2025) One Big Beautiful Bill Act (final passage)",
+   "what": "The 2025 reconciliation law: extends the 2017 tax cuts, adds new tax breaks, cuts Medicaid and food-assistance spending, and raises defense and border spending and the debt limit.",
+   "date": "2025-07-03",
+   "chamber": "U.S. House",
+   "result": "passed 218-214",
+   "url": "https://clerk.house.gov/Votes/2025190",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 881 (2025) DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+   "what": "Bars Homeland Security funds going to Confucius Institutes and entities tied to the Chinese government.",
+   "date": "2025-05-07",
+   "chamber": "U.S. House",
+   "result": "passed 266-153",
+   "url": "https://clerk.house.gov/Votes/2025120",
+   "vote": "Not voting"
+  },
+  {
+   "bill": "H.R. 22 (2025) SAVE Act",
+   "what": "Requires documentary proof of U.S. citizenship to register to vote in federal elections.",
+   "date": "2025-04-10",
+   "chamber": "U.S. House",
+   "result": "passed 220-208",
+   "url": "https://clerk.house.gov/Votes/2025102",
+   "vote": "Not voting"
+  },
+  {
+   "bill": "H.R. 1968 (2025) Full-Year Continuing Appropriations and Extensions Act, 2025",
+   "what": "Funds the federal government through September 30, 2025 at roughly prior-year levels (March 2025 stopgap).",
+   "date": "2025-03-11",
+   "chamber": "U.S. House",
+   "result": "passed 217-213",
+   "url": "https://clerk.house.gov/Votes/2025070",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 152 (2025) Federal Disaster Assistance Coordination Act",
+   "what": "Streamlines coordination among federal agencies delivering disaster aid (hurricane/flood recovery).",
+   "date": "2025-01-13",
+   "chamber": "U.S. House",
+   "result": "passed 405-5",
+   "url": "https://clerk.house.gov/Votes/2025009",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 29 (2025) Laken Riley Act",
+   "what": "Requires federal detention of undocumented immigrants charged with theft, burglary or assault of a police officer, and lets states sue over immigration enforcement.",
+   "date": "2025-01-07",
+   "chamber": "U.S. House",
+   "result": "passed 264-159",
+   "url": "https://clerk.house.gov/Votes/2025006",
+   "vote": "Nay"
+  }
+ ],
+ "chris-smith": [
+  {
+   "bill": "H.R. 7148 (2026) Consolidated Appropriations Act, 2026 (final)",
+   "what": "Final FY2026 spending package funding most remaining federal agencies through September 30, 2026.",
+   "date": "2026-02-03",
+   "chamber": "U.S. House",
+   "result": "passed 217-214",
+   "url": "https://clerk.house.gov/Votes/2026053",
+   "vote": "Yea"
+  },
+  {
+   "bill": "S. 1071 / FY2026 National Defense Authorization Act (final)",
+   "what": "Final FY2026 defense policy and funding-authorization bill (about $900 billion), carried in the House on the vehicle S. 1071.",
+   "date": "2025-12-10",
+   "chamber": "U.S. House",
+   "result": "passed 312-112",
+   "url": "https://clerk.house.gov/Votes/2025320",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Nov. 12 final, ended the shutdown)",
+   "what": "Ended the 43-day federal shutdown: funds government through Jan. 30, 2026 and three full-year spending bills.",
+   "date": "2025-11-12",
+   "chamber": "U.S. House",
+   "result": "passed 222-209",
+   "url": "https://clerk.house.gov/Votes/2025285",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Sept. 19 House passage)",
+   "what": "House-passed stopgap funding bill to keep government open through Nov. 21, 2025; stalled in the Senate and a shutdown began Oct. 1.",
+   "date": "2025-09-19",
+   "chamber": "U.S. House",
+   "result": "passed 217-212",
+   "url": "https://clerk.house.gov/Votes/2025281",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 1 (2025) One Big Beautiful Bill Act (final passage)",
+   "what": "The 2025 reconciliation law: extends the 2017 tax cuts, adds new tax breaks, cuts Medicaid and food-assistance spending, and raises defense and border spending and the debt limit.",
+   "date": "2025-07-03",
+   "chamber": "U.S. House",
+   "result": "passed 218-214",
+   "url": "https://clerk.house.gov/Votes/2025190",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 881 (2025) DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+   "what": "Bars Homeland Security funds going to Confucius Institutes and entities tied to the Chinese government.",
+   "date": "2025-05-07",
+   "chamber": "U.S. House",
+   "result": "passed 266-153",
+   "url": "https://clerk.house.gov/Votes/2025120",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 22 (2025) SAVE Act",
+   "what": "Requires documentary proof of U.S. citizenship to register to vote in federal elections.",
+   "date": "2025-04-10",
+   "chamber": "U.S. House",
+   "result": "passed 220-208",
+   "url": "https://clerk.house.gov/Votes/2025102",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 1968 (2025) Full-Year Continuing Appropriations and Extensions Act, 2025",
+   "what": "Funds the federal government through September 30, 2025 at roughly prior-year levels (March 2025 stopgap).",
+   "date": "2025-03-11",
+   "chamber": "U.S. House",
+   "result": "passed 217-213",
+   "url": "https://clerk.house.gov/Votes/2025070",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 152 (2025) Federal Disaster Assistance Coordination Act",
+   "what": "Streamlines coordination among federal agencies delivering disaster aid (hurricane/flood recovery).",
+   "date": "2025-01-13",
+   "chamber": "U.S. House",
+   "result": "passed 405-5",
+   "url": "https://clerk.house.gov/Votes/2025009",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 29 (2025) Laken Riley Act",
+   "what": "Requires federal detention of undocumented immigrants charged with theft, burglary or assault of a police officer, and lets states sue over immigration enforcement.",
+   "date": "2025-01-07",
+   "chamber": "U.S. House",
+   "result": "passed 264-159",
+   "url": "https://clerk.house.gov/Votes/2025006",
+   "vote": "Yea"
+  }
+ ],
+ "jeff-van-drew": [
+  {
+   "bill": "H.R. 7148 (2026) Consolidated Appropriations Act, 2026 (final)",
+   "what": "Final FY2026 spending package funding most remaining federal agencies through September 30, 2026.",
+   "date": "2026-02-03",
+   "chamber": "U.S. House",
+   "result": "passed 217-214",
+   "url": "https://clerk.house.gov/Votes/2026053",
+   "vote": "Yea"
+  },
+  {
+   "bill": "S. 1071 / FY2026 National Defense Authorization Act (final)",
+   "what": "Final FY2026 defense policy and funding-authorization bill (about $900 billion), carried in the House on the vehicle S. 1071.",
+   "date": "2025-12-10",
+   "chamber": "U.S. House",
+   "result": "passed 312-112",
+   "url": "https://clerk.house.gov/Votes/2025320",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Nov. 12 final, ended the shutdown)",
+   "what": "Ended the 43-day federal shutdown: funds government through Jan. 30, 2026 and three full-year spending bills.",
+   "date": "2025-11-12",
+   "chamber": "U.S. House",
+   "result": "passed 222-209",
+   "url": "https://clerk.house.gov/Votes/2025285",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Sept. 19 House passage)",
+   "what": "House-passed stopgap funding bill to keep government open through Nov. 21, 2025; stalled in the Senate and a shutdown began Oct. 1.",
+   "date": "2025-09-19",
+   "chamber": "U.S. House",
+   "result": "passed 217-212",
+   "url": "https://clerk.house.gov/Votes/2025281",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 1 (2025) One Big Beautiful Bill Act (final passage)",
+   "what": "The 2025 reconciliation law: extends the 2017 tax cuts, adds new tax breaks, cuts Medicaid and food-assistance spending, and raises defense and border spending and the debt limit.",
+   "date": "2025-07-03",
+   "chamber": "U.S. House",
+   "result": "passed 218-214",
+   "url": "https://clerk.house.gov/Votes/2025190",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 881 (2025) DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+   "what": "Bars Homeland Security funds going to Confucius Institutes and entities tied to the Chinese government.",
+   "date": "2025-05-07",
+   "chamber": "U.S. House",
+   "result": "passed 266-153",
+   "url": "https://clerk.house.gov/Votes/2025120",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 22 (2025) SAVE Act",
+   "what": "Requires documentary proof of U.S. citizenship to register to vote in federal elections.",
+   "date": "2025-04-10",
+   "chamber": "U.S. House",
+   "result": "passed 220-208",
+   "url": "https://clerk.house.gov/Votes/2025102",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 1968 (2025) Full-Year Continuing Appropriations and Extensions Act, 2025",
+   "what": "Funds the federal government through September 30, 2025 at roughly prior-year levels (March 2025 stopgap).",
+   "date": "2025-03-11",
+   "chamber": "U.S. House",
+   "result": "passed 217-213",
+   "url": "https://clerk.house.gov/Votes/2025070",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 152 (2025) Federal Disaster Assistance Coordination Act",
+   "what": "Streamlines coordination among federal agencies delivering disaster aid (hurricane/flood recovery).",
+   "date": "2025-01-13",
+   "chamber": "U.S. House",
+   "result": "passed 405-5",
+   "url": "https://clerk.house.gov/Votes/2025009",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 29 (2025) Laken Riley Act",
+   "what": "Requires federal detention of undocumented immigrants charged with theft, burglary or assault of a police officer, and lets states sue over immigration enforcement.",
+   "date": "2025-01-07",
+   "chamber": "U.S. House",
+   "result": "passed 264-159",
+   "url": "https://clerk.house.gov/Votes/2025006",
+   "vote": "Yea"
+  }
+ ],
+ "herb-conaway": [
+  {
+   "bill": "H.R. 7148 (2026) Consolidated Appropriations Act, 2026 (final)",
+   "what": "Final FY2026 spending package funding most remaining federal agencies through September 30, 2026.",
+   "date": "2026-02-03",
+   "chamber": "U.S. House",
+   "result": "passed 217-214",
+   "url": "https://clerk.house.gov/Votes/2026053",
+   "vote": "Nay"
+  },
+  {
+   "bill": "S. 1071 / FY2026 National Defense Authorization Act (final)",
+   "what": "Final FY2026 defense policy and funding-authorization bill (about $900 billion), carried in the House on the vehicle S. 1071.",
+   "date": "2025-12-10",
+   "chamber": "U.S. House",
+   "result": "passed 312-112",
+   "url": "https://clerk.house.gov/Votes/2025320",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Nov. 12 final, ended the shutdown)",
+   "what": "Ended the 43-day federal shutdown: funds government through Jan. 30, 2026 and three full-year spending bills.",
+   "date": "2025-11-12",
+   "chamber": "U.S. House",
+   "result": "passed 222-209",
+   "url": "https://clerk.house.gov/Votes/2025285",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Sept. 19 House passage)",
+   "what": "House-passed stopgap funding bill to keep government open through Nov. 21, 2025; stalled in the Senate and a shutdown began Oct. 1.",
+   "date": "2025-09-19",
+   "chamber": "U.S. House",
+   "result": "passed 217-212",
+   "url": "https://clerk.house.gov/Votes/2025281",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 1 (2025) One Big Beautiful Bill Act (final passage)",
+   "what": "The 2025 reconciliation law: extends the 2017 tax cuts, adds new tax breaks, cuts Medicaid and food-assistance spending, and raises defense and border spending and the debt limit.",
+   "date": "2025-07-03",
+   "chamber": "U.S. House",
+   "result": "passed 218-214",
+   "url": "https://clerk.house.gov/Votes/2025190",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 881 (2025) DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+   "what": "Bars Homeland Security funds going to Confucius Institutes and entities tied to the Chinese government.",
+   "date": "2025-05-07",
+   "chamber": "U.S. House",
+   "result": "passed 266-153",
+   "url": "https://clerk.house.gov/Votes/2025120",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 22 (2025) SAVE Act",
+   "what": "Requires documentary proof of U.S. citizenship to register to vote in federal elections.",
+   "date": "2025-04-10",
+   "chamber": "U.S. House",
+   "result": "passed 220-208",
+   "url": "https://clerk.house.gov/Votes/2025102",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 1968 (2025) Full-Year Continuing Appropriations and Extensions Act, 2025",
+   "what": "Funds the federal government through September 30, 2025 at roughly prior-year levels (March 2025 stopgap).",
+   "date": "2025-03-11",
+   "chamber": "U.S. House",
+   "result": "passed 217-213",
+   "url": "https://clerk.house.gov/Votes/2025070",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 152 (2025) Federal Disaster Assistance Coordination Act",
+   "what": "Streamlines coordination among federal agencies delivering disaster aid (hurricane/flood recovery).",
+   "date": "2025-01-13",
+   "chamber": "U.S. House",
+   "result": "passed 405-5",
+   "url": "https://clerk.house.gov/Votes/2025009",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 29 (2025) Laken Riley Act",
+   "what": "Requires federal detention of undocumented immigrants charged with theft, burglary or assault of a police officer, and lets states sue over immigration enforcement.",
+   "date": "2025-01-07",
+   "chamber": "U.S. House",
+   "result": "passed 264-159",
+   "url": "https://clerk.house.gov/Votes/2025006",
+   "vote": "Nay"
+  }
+ ],
+ "thomas-kean-jr": [
+  {
+   "bill": "H.R. 7148 (2026) Consolidated Appropriations Act, 2026 (final)",
+   "what": "Final FY2026 spending package funding most remaining federal agencies through September 30, 2026.",
+   "date": "2026-02-03",
+   "chamber": "U.S. House",
+   "result": "passed 217-214",
+   "url": "https://clerk.house.gov/Votes/2026053",
+   "vote": "Yea"
+  },
+  {
+   "bill": "S. 1071 / FY2026 National Defense Authorization Act (final)",
+   "what": "Final FY2026 defense policy and funding-authorization bill (about $900 billion), carried in the House on the vehicle S. 1071.",
+   "date": "2025-12-10",
+   "chamber": "U.S. House",
+   "result": "passed 312-112",
+   "url": "https://clerk.house.gov/Votes/2025320",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Nov. 12 final, ended the shutdown)",
+   "what": "Ended the 43-day federal shutdown: funds government through Jan. 30, 2026 and three full-year spending bills.",
+   "date": "2025-11-12",
+   "chamber": "U.S. House",
+   "result": "passed 222-209",
+   "url": "https://clerk.house.gov/Votes/2025285",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Sept. 19 House passage)",
+   "what": "House-passed stopgap funding bill to keep government open through Nov. 21, 2025; stalled in the Senate and a shutdown began Oct. 1.",
+   "date": "2025-09-19",
+   "chamber": "U.S. House",
+   "result": "passed 217-212",
+   "url": "https://clerk.house.gov/Votes/2025281",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 1 (2025) One Big Beautiful Bill Act (final passage)",
+   "what": "The 2025 reconciliation law: extends the 2017 tax cuts, adds new tax breaks, cuts Medicaid and food-assistance spending, and raises defense and border spending and the debt limit.",
+   "date": "2025-07-03",
+   "chamber": "U.S. House",
+   "result": "passed 218-214",
+   "url": "https://clerk.house.gov/Votes/2025190",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 881 (2025) DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+   "what": "Bars Homeland Security funds going to Confucius Institutes and entities tied to the Chinese government.",
+   "date": "2025-05-07",
+   "chamber": "U.S. House",
+   "result": "passed 266-153",
+   "url": "https://clerk.house.gov/Votes/2025120",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 22 (2025) SAVE Act",
+   "what": "Requires documentary proof of U.S. citizenship to register to vote in federal elections.",
+   "date": "2025-04-10",
+   "chamber": "U.S. House",
+   "result": "passed 220-208",
+   "url": "https://clerk.house.gov/Votes/2025102",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 1968 (2025) Full-Year Continuing Appropriations and Extensions Act, 2025",
+   "what": "Funds the federal government through September 30, 2025 at roughly prior-year levels (March 2025 stopgap).",
+   "date": "2025-03-11",
+   "chamber": "U.S. House",
+   "result": "passed 217-213",
+   "url": "https://clerk.house.gov/Votes/2025070",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 152 (2025) Federal Disaster Assistance Coordination Act",
+   "what": "Streamlines coordination among federal agencies delivering disaster aid (hurricane/flood recovery).",
+   "date": "2025-01-13",
+   "chamber": "U.S. House",
+   "result": "passed 405-5",
+   "url": "https://clerk.house.gov/Votes/2025009",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 29 (2025) Laken Riley Act",
+   "what": "Requires federal detention of undocumented immigrants charged with theft, burglary or assault of a police officer, and lets states sue over immigration enforcement.",
+   "date": "2025-01-07",
+   "chamber": "U.S. House",
+   "result": "passed 264-159",
+   "url": "https://clerk.house.gov/Votes/2025006",
+   "vote": "Yea"
+  }
+ ],
+ "josh-gottheimer": [
+  {
+   "bill": "H.R. 7148 (2026) Consolidated Appropriations Act, 2026 (final)",
+   "what": "Final FY2026 spending package funding most remaining federal agencies through September 30, 2026.",
+   "date": "2026-02-03",
+   "chamber": "U.S. House",
+   "result": "passed 217-214",
+   "url": "https://clerk.house.gov/Votes/2026053",
+   "vote": "Yea"
+  },
+  {
+   "bill": "S. 1071 / FY2026 National Defense Authorization Act (final)",
+   "what": "Final FY2026 defense policy and funding-authorization bill (about $900 billion), carried in the House on the vehicle S. 1071.",
+   "date": "2025-12-10",
+   "chamber": "U.S. House",
+   "result": "passed 312-112",
+   "url": "https://clerk.house.gov/Votes/2025320",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Nov. 12 final, ended the shutdown)",
+   "what": "Ended the 43-day federal shutdown: funds government through Jan. 30, 2026 and three full-year spending bills.",
+   "date": "2025-11-12",
+   "chamber": "U.S. House",
+   "result": "passed 222-209",
+   "url": "https://clerk.house.gov/Votes/2025285",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Sept. 19 House passage)",
+   "what": "House-passed stopgap funding bill to keep government open through Nov. 21, 2025; stalled in the Senate and a shutdown began Oct. 1.",
+   "date": "2025-09-19",
+   "chamber": "U.S. House",
+   "result": "passed 217-212",
+   "url": "https://clerk.house.gov/Votes/2025281",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 1 (2025) One Big Beautiful Bill Act (final passage)",
+   "what": "The 2025 reconciliation law: extends the 2017 tax cuts, adds new tax breaks, cuts Medicaid and food-assistance spending, and raises defense and border spending and the debt limit.",
+   "date": "2025-07-03",
+   "chamber": "U.S. House",
+   "result": "passed 218-214",
+   "url": "https://clerk.house.gov/Votes/2025190",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 881 (2025) DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+   "what": "Bars Homeland Security funds going to Confucius Institutes and entities tied to the Chinese government.",
+   "date": "2025-05-07",
+   "chamber": "U.S. House",
+   "result": "passed 266-153",
+   "url": "https://clerk.house.gov/Votes/2025120",
+   "vote": "Not voting"
+  },
+  {
+   "bill": "H.R. 22 (2025) SAVE Act",
+   "what": "Requires documentary proof of U.S. citizenship to register to vote in federal elections.",
+   "date": "2025-04-10",
+   "chamber": "U.S. House",
+   "result": "passed 220-208",
+   "url": "https://clerk.house.gov/Votes/2025102",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 1968 (2025) Full-Year Continuing Appropriations and Extensions Act, 2025",
+   "what": "Funds the federal government through September 30, 2025 at roughly prior-year levels (March 2025 stopgap).",
+   "date": "2025-03-11",
+   "chamber": "U.S. House",
+   "result": "passed 217-213",
+   "url": "https://clerk.house.gov/Votes/2025070",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 152 (2025) Federal Disaster Assistance Coordination Act",
+   "what": "Streamlines coordination among federal agencies delivering disaster aid (hurricane/flood recovery).",
+   "date": "2025-01-13",
+   "chamber": "U.S. House",
+   "result": "passed 405-5",
+   "url": "https://clerk.house.gov/Votes/2025009",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 29 (2025) Laken Riley Act",
+   "what": "Requires federal detention of undocumented immigrants charged with theft, burglary or assault of a police officer, and lets states sue over immigration enforcement.",
+   "date": "2025-01-07",
+   "chamber": "U.S. House",
+   "result": "passed 264-159",
+   "url": "https://clerk.house.gov/Votes/2025006",
+   "vote": "Not voting"
+  }
+ ],
+ "frank-pallone": [
+  {
+   "bill": "H.R. 7148 (2026) Consolidated Appropriations Act, 2026 (final)",
+   "what": "Final FY2026 spending package funding most remaining federal agencies through September 30, 2026.",
+   "date": "2026-02-03",
+   "chamber": "U.S. House",
+   "result": "passed 217-214",
+   "url": "https://clerk.house.gov/Votes/2026053",
+   "vote": "Nay"
+  },
+  {
+   "bill": "S. 1071 / FY2026 National Defense Authorization Act (final)",
+   "what": "Final FY2026 defense policy and funding-authorization bill (about $900 billion), carried in the House on the vehicle S. 1071.",
+   "date": "2025-12-10",
+   "chamber": "U.S. House",
+   "result": "passed 312-112",
+   "url": "https://clerk.house.gov/Votes/2025320",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Nov. 12 final, ended the shutdown)",
+   "what": "Ended the 43-day federal shutdown: funds government through Jan. 30, 2026 and three full-year spending bills.",
+   "date": "2025-11-12",
+   "chamber": "U.S. House",
+   "result": "passed 222-209",
+   "url": "https://clerk.house.gov/Votes/2025285",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Sept. 19 House passage)",
+   "what": "House-passed stopgap funding bill to keep government open through Nov. 21, 2025; stalled in the Senate and a shutdown began Oct. 1.",
+   "date": "2025-09-19",
+   "chamber": "U.S. House",
+   "result": "passed 217-212",
+   "url": "https://clerk.house.gov/Votes/2025281",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 1 (2025) One Big Beautiful Bill Act (final passage)",
+   "what": "The 2025 reconciliation law: extends the 2017 tax cuts, adds new tax breaks, cuts Medicaid and food-assistance spending, and raises defense and border spending and the debt limit.",
+   "date": "2025-07-03",
+   "chamber": "U.S. House",
+   "result": "passed 218-214",
+   "url": "https://clerk.house.gov/Votes/2025190",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 881 (2025) DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+   "what": "Bars Homeland Security funds going to Confucius Institutes and entities tied to the Chinese government.",
+   "date": "2025-05-07",
+   "chamber": "U.S. House",
+   "result": "passed 266-153",
+   "url": "https://clerk.house.gov/Votes/2025120",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 22 (2025) SAVE Act",
+   "what": "Requires documentary proof of U.S. citizenship to register to vote in federal elections.",
+   "date": "2025-04-10",
+   "chamber": "U.S. House",
+   "result": "passed 220-208",
+   "url": "https://clerk.house.gov/Votes/2025102",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 1968 (2025) Full-Year Continuing Appropriations and Extensions Act, 2025",
+   "what": "Funds the federal government through September 30, 2025 at roughly prior-year levels (March 2025 stopgap).",
+   "date": "2025-03-11",
+   "chamber": "U.S. House",
+   "result": "passed 217-213",
+   "url": "https://clerk.house.gov/Votes/2025070",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 152 (2025) Federal Disaster Assistance Coordination Act",
+   "what": "Streamlines coordination among federal agencies delivering disaster aid (hurricane/flood recovery).",
+   "date": "2025-01-13",
+   "chamber": "U.S. House",
+   "result": "passed 405-5",
+   "url": "https://clerk.house.gov/Votes/2025009",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 29 (2025) Laken Riley Act",
+   "what": "Requires federal detention of undocumented immigrants charged with theft, burglary or assault of a police officer, and lets states sue over immigration enforcement.",
+   "date": "2025-01-07",
+   "chamber": "U.S. House",
+   "result": "passed 264-159",
+   "url": "https://clerk.house.gov/Votes/2025006",
+   "vote": "Nay"
+  }
+ ],
+ "rob-menendez": [
+  {
+   "bill": "H.R. 7148 (2026) Consolidated Appropriations Act, 2026 (final)",
+   "what": "Final FY2026 spending package funding most remaining federal agencies through September 30, 2026.",
+   "date": "2026-02-03",
+   "chamber": "U.S. House",
+   "result": "passed 217-214",
+   "url": "https://clerk.house.gov/Votes/2026053",
+   "vote": "Nay"
+  },
+  {
+   "bill": "S. 1071 / FY2026 National Defense Authorization Act (final)",
+   "what": "Final FY2026 defense policy and funding-authorization bill (about $900 billion), carried in the House on the vehicle S. 1071.",
+   "date": "2025-12-10",
+   "chamber": "U.S. House",
+   "result": "passed 312-112",
+   "url": "https://clerk.house.gov/Votes/2025320",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Nov. 12 final, ended the shutdown)",
+   "what": "Ended the 43-day federal shutdown: funds government through Jan. 30, 2026 and three full-year spending bills.",
+   "date": "2025-11-12",
+   "chamber": "U.S. House",
+   "result": "passed 222-209",
+   "url": "https://clerk.house.gov/Votes/2025285",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 5371 (2025) Continuing Appropriations and Extensions Act, 2026 (Sept. 19 House passage)",
+   "what": "House-passed stopgap funding bill to keep government open through Nov. 21, 2025; stalled in the Senate and a shutdown began Oct. 1.",
+   "date": "2025-09-19",
+   "chamber": "U.S. House",
+   "result": "passed 217-212",
+   "url": "https://clerk.house.gov/Votes/2025281",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 1 (2025) One Big Beautiful Bill Act (final passage)",
+   "what": "The 2025 reconciliation law: extends the 2017 tax cuts, adds new tax breaks, cuts Medicaid and food-assistance spending, and raises defense and border spending and the debt limit.",
+   "date": "2025-07-03",
+   "chamber": "U.S. House",
+   "result": "passed 218-214",
+   "url": "https://clerk.house.gov/Votes/2025190",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 881 (2025) DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+   "what": "Bars Homeland Security funds going to Confucius Institutes and entities tied to the Chinese government.",
+   "date": "2025-05-07",
+   "chamber": "U.S. House",
+   "result": "passed 266-153",
+   "url": "https://clerk.house.gov/Votes/2025120",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 22 (2025) SAVE Act",
+   "what": "Requires documentary proof of U.S. citizenship to register to vote in federal elections.",
+   "date": "2025-04-10",
+   "chamber": "U.S. House",
+   "result": "passed 220-208",
+   "url": "https://clerk.house.gov/Votes/2025102",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 1968 (2025) Full-Year Continuing Appropriations and Extensions Act, 2025",
+   "what": "Funds the federal government through September 30, 2025 at roughly prior-year levels (March 2025 stopgap).",
+   "date": "2025-03-11",
+   "chamber": "U.S. House",
+   "result": "passed 217-213",
+   "url": "https://clerk.house.gov/Votes/2025070",
+   "vote": "Nay"
+  },
+  {
+   "bill": "H.R. 152 (2025) Federal Disaster Assistance Coordination Act",
+   "what": "Streamlines coordination among federal agencies delivering disaster aid (hurricane/flood recovery).",
+   "date": "2025-01-13",
+   "chamber": "U.S. House",
+   "result": "passed 405-5",
+   "url": "https://clerk.house.gov/Votes/2025009",
+   "vote": "Yea"
+  },
+  {
+   "bill": "H.R. 29 (2025) Laken Riley Act",
+   "what": "Requires federal detention of undocumented immigrants charged with theft, burglary or assault of a police officer, and lets states sue over immigration enforcement.",
+   "date": "2025-01-07",
+   "chamber": "U.S. House",
+   "result": "passed 264-159",
+   "url": "https://clerk.house.gov/Votes/2025006",
+   "vote": "Nay"
+  }
+ ]
+}

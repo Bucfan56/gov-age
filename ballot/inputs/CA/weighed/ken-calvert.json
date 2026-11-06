@@ -1,0 +1,37 @@
+{
+ "name": "Ken Calvert",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In December 2020 Calvert joined 125 other House members on a court brief backing Texas's suit over four states' election rules. The Supreme Court denied the suit on Dec. 11 for lack of standing. In January 2021 he voted to object to Arizona's and Pennsylvania's electoral votes. He said states' voting rules should be set by legislatures.",
+   "why": "His own documented conduct, but it is a legal position and a vote with no official finding of wrongdoing and no clear bearing on a criterion, so it is shown without counting.",
+   "strength": "court",
+   "urls": [
+    "https://www.supremecourt.gov/DocketPDF/22/22O155/163550/20201211132250339_Texas%20v.%20Pennsylvania%20Amicus%20Brief%20of%20126%20Representatives%20--%20corrected.pdf",
+    "https://www.scotusblog.com/cases/case-files/texas-v-pennsylvania/",
+    "https://calvert.house.gov/media/press-releases/rep-calvert-statement-counting-electoral-college-votes",
+    "https://calmatters.org/politics/2021/01/california-republicans-reject-biden-election/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In November 1993, Corona police officers found Calvert in a parked car with a woman who was a convicted prostitute. He told them, \"We're just talking.\" No arrest was made. After the Riverside Press-Enterprise went to court for the police report, Calvert publicly called his behavior \"inappropriate.\"",
+   "why": "This is a private incident from 1993 with no charge or finding, and it does not involve his public office, so it has no clear bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.realclearpolitics.com/lists/politicians_and_prostitutes/ken_calvert.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) The one owner-sites search (Calvert with alexjoneslive, stewpeters, ryandawson and infowars) returned nothing relevant to Calvert, so owner_sites is empty for both items. 2) Item 2: I did not read the 1993 Corona police report or the original Press-Enterprise and LA Times coverage (the 1994 LA Times piece 'Two years have brought Calvert crises, lessons'). The claims that he admitted sex after the report was released, and the ThinkProgress claim that he publicly denied the incident for about a year and tried to drive away, rest only on Wikipedia and an advocacy page. Those claims should be checked in the original reports before any stronger verdict. 3) Item 1: I did not open the official House roll-call records for the Jan. 2021 votes. I relied on CalMatters, Calvert's own statement and the Supreme Court docket. The Supreme Court docket lists the Johnson-led members' brief as 'not accepted for filing', so the text says he joined or signed it, not that it was filed. 4) I did not search for other matters such as earmarks, land deals or other ethics reviews, because only four searches were allowed. A person should check these."
+}

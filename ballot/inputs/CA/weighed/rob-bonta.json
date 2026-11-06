@@ -1,0 +1,49 @@
+{
+ "name": "Rob Bonta",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In June 2022, a state Justice Department firearms dashboard briefly exposed personal data of people who applied for concealed-carry permits between 2011 and 2021, including names, addresses and, in some cases, driver's license numbers. The data was online under 24 hours. Bonta called it \"unacceptable\" and said he was \"deeply disturbed and angered.\" Lawsuits followed.",
+   "why": "The breach was a failure at the office Bonta leads, and he condemned it and ordered an investigation, but I found no finding of misconduct by him and it doesn't clearly fit criterion 5 or 6.",
+   "strength": "reporting",
+   "urls": [
+    "https://ktvl.com/news/local/california-concealed-carry-weapons-permit-data-firearms-dashboard-portal-breach-leak-department-of-justice-siskiyou-county-jeremiah-larue-rob-bonta",
+    "https://insider.govtech.com/california/news/ag-bonta-sued-over-concealed-weapon-database-leak"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "CalMatters reported that, while in the Assembly, Bonta paid $25,000 from his foundation to the nonprofit where his wife worked. It also reported he helped her employers raise over $560,000, largely from companies that lobby the Legislature. The practice is legal, though ethics experts called it inappropriate. His spokesman said the foundation now bars funds going to any group employing either Bonta.",
+   "why": "This is Bonta's own conduct and touches criterion 6 (self-dealing) and criterion 3, but the payments were legal and disclosed, and I found no official finding of wrongdoing.",
+   "strength": "reporting",
+   "urls": [
+    "https://calmatters.org/politics/2021/07/california-nonprofits-politicians-disclose/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "A recall effort by residents who opposed his council votes (the Measure A override and the dismissal of the interim city manager) never reached a ballot, which is opponents criticizing ordinary votes and not conduct under any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://ballotpedia.org/Rob_Bonta_recall,_Alameda,_California_(2012)"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Search with the owner's named sites returned nothing relevant to Bonta, so owner_sites is empty. Item 1: I found no outcome for the 2022 lawsuits (Hannemann suit, NAGR class action) or for the DOJ investigation, so check for later rulings or findings. Item 2: the original CalMatters investigation (2020) couldn't be opened, so the figures rely on CalMatters' own July 2021 follow-up. The FPPC proposed disclosure rules in 2021, and a person should check whether any FPPC action touched Bonta. Item 3: the Ballotpedia recall page was only partly retrieved. It also lists an accusation that he backed a sales tax measure to reward donors, and I found no finding on it. The advocacy site bontafiles.com and a social-media timeline make wider claims, including an FBI inquiry, 'money laundering' and a 'corrupt machine'. I read neither as evidence, and I found no official record supporting them."
+}

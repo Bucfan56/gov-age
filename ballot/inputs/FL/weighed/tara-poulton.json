@@ -1,0 +1,33 @@
+{
+ "name": "Tara Poulton",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 3,
+   "text": "At an April 2026 candidate forum, Poulton said she hasn't taken developer money and doesn't plan to. An opponent noted a $1,000 gift from the Grimes Galvano law firm, which often represents developers. Poulton confirmed it and called Bill Galvano a longtime friend. She also took $400 from an architecture firm.",
+   "why": "The reporting confirms a maximum gift from a law firm that represents developers, but no donor is shown to be a developer and no finding shows her statement was false, so it doesn't clearly bear on lying about her record or on big-money influence (criteria 3 and 6).",
+   "strength": "reporting",
+   "urls": [
+    "https://www.yourobserver.com/news/2026/apr/19/manatee-commission-candidates-face-off/",
+    "https://thebradentontimes.com/stories/at-large-candidate-poulton-leads-d6-field-in-fundraising-positioning-herself-among-the-top-earners,203696"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "No foreign-government, foreign-parent, lobbying or paid-travel conduct by this person was found for criterion 2, so there is nothing to weigh.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I could not find or open the Florida campaign finance records for the Gulf Coast Builders Exchange PAC and McClure Properties/Holdings gifts named in item 1. The Observer and Bradenton Times articles I read don't mention them. The Bradenton Times says the only PAC gift came from Knowledge Is Power, and Poulton told a forum her donors included 'one PAC'. Check her Manatee Supervisor of Elections filings (voterfocus) to confirm donors and amounts. The searches on the owner's named sites returned nothing about Poulton. I found no other against-level or open-level items. A guest column on the Bradenton Journal substack called her a 'developer candidate'. That is opinion, so I did not rely on it."
+}

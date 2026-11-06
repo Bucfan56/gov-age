@@ -1,0 +1,20 @@
+{
+ "name": "Imtiaz Mohammad",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 1,
+   "text": "In a December 2018 panel talk, Mohammad said America is \"run on hate\" and called Americans \"the most uneducated nation in the world.\" He told Florida Politics in 2024 that he stands by it. He often says online he is \"proud to be an American.\"",
+   "why": "These are his own words about the country (criterion 1), but they are a statement of opinion with no finding of wrongdoing, and he has lived and run a business here for decades, so the evidence doesn't show a failure of commitment.",
+   "strength": "own_words",
+   "urls": [
+    "https://floridapolitics.com/archives/705472-jason-pizzo-delivers-overwhelming-victory-in-sd-37/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The Florida Politics article for item 1 (Oct 3, 2026) wouldn't open for me. I only saw search-result excerpts, including his text reply \"I clearly stand by my statement.\" I couldn't read his explanation that he meant divisions among communities, so it is not in the voter text. I read the 2024 Florida Politics piece, which confirms the quote and that he stands by it. The one owner-sites search turned up nothing about this candidate. Most other coverage of the quote comes from advocacy outlets such as Investigative Project on Terrorism, FrontPage Mag and RAIR. I treated those as opinion and didn't rely on them. Those outlets raise other claims, for example about associations with Muslim groups. Those look like guilt by association and I did not review them. The Broward GOP reportedly told voters to leave this race blank. I did not verify that or what drove it."
+}

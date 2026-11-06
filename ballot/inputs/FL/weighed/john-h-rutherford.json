@@ -1,0 +1,22 @@
+{
+ "name": "John H. Rutherford",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 1,
+   "criterion": 6,
+   "text": "A congressional ethics office found Rutherford filed 157 stock-trade reports late between 2017 and 2021. He paid $800 in fines. His lawyer called it an inadvertent oversight. In August 2022 the House Ethics Committee dismissed the referral, finding no clear evidence the errors were knowing or willful.",
+   "why": "The late filings and the $800 fine are documented in official records and in Roll Call's reporting of the Office of Congressional Ethics (OCE) report. It is a minor filing violation, so it takes weight 1 under criterion 6 (not taking advantage of the position), the nearest fit. The Ethics Committee later dismissed the referral.",
+   "strength": "official",
+   "urls": [
+    "https://conduct.house.gov/investigation/21-7423",
+    "https://ethics.house.gov/?p=6427",
+    "https://rollcall.com/2022/05/31/substantial-reason-to-believe-reps-fallon-and-rutherford-violated-stock-act-ethics-office-finds/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The item's note that the final outcome was not found is out of date. The House Ethics Committee unanimously dismissed the referral on Aug 24, 2022, as the official pages show. I did not open the full OCE report PDF or the committee's 2022 release of it. I could not confirm that the $800 fine was paid in Nov 2021. Roll Call only says he gave the OCE a receipt for $800 in ethics fees, so the text omits that date. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Rutherford. The House's own record notes that his lawyer denied that he failed to cooperate with the OCE, while the OCE report says he declined to be interviewed. Attendance was not weighed, as instructed."
+}

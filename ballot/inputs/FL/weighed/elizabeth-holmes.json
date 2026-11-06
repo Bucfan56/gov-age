@@ -1,0 +1,58 @@
+{
+ "name": "Elizabeth Holmes",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "A 2008 Palm Beach County Sheriff's report says Holmes, then 24 and going by Elizabeth Thompson, threw a soda on a man at a mall. It says she then texted him a threat and an anti-gay slur, and told a deputy she sent it. The man declined to prosecute, so no charges were filed.",
+   "why": "This is her own conduct and is documented, but it happened 18 years ago, led to no charges or finding, and does not clearly bear on any criterion such as abuse of office or lying about her record.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridapolitics.com/archives/823800-hd-94-democrat-elizabeth-holmes-threw-a-soda-at-a-man-then-texted-him-an-anti-gay-slur-sheriffs-report-shows/"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2008",
+    "24"
+   ]
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Mailers from an outside group cite Sheriff's Office case files from 2003, 2007 and 2008, when she went by Elizabeth Thompson. A booking sheet shows a Nov. 4, 2007 arrest at age 24 on two misdemeanor counts, battery and resisting an officer without violence. Florida Politics did not report how that case ended.",
+   "why": "The 2007 arrest is documented but the outcome is unknown, and the other claims come from an opposing group's mailers, so there is no finding that bears on a criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridapolitics.com/archives/827107-direct-mail-round-up-elizabeth-holmes-criminal-case-file-lands-in-hd-94-mailboxes/"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2003",
+    "2007",
+    "2008",
+    "24",
+    "4"
+   ]
+  },
+  {
+   "item": 3,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In a June video, Holmes, a public school teacher, told students they could earn community service hours by sharing her campaign's Facebook posts. The school district's Office of Professional Standards opened a file and closed it without finding a violation.",
+   "why": "This is her own conduct, but the district found no violation, so there is no finding of abuse of office under criterion 6.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridapolitics.com/archives/823061-elizabeth-holmes-dangled-easy-service-hours-in-front-of-students-to-boost-her-state-house-campaign/",
+    "https://floridapolitics.com/archives/827107-direct-mail-round-up-elizabeth-holmes-criminal-case-file-lands-in-hd-94-mailboxes/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I could not open any of the pages. Every fetch of the Florida Politics articles failed, so all three items rest on excerpts from search results, not full page reads. I did not see the original sheriff's reports, the 2007 court disposition, the district's case file, or any response from Holmes. Check the Palm Beach County Clerk of Court for how the Nov. 4, 2007 battery and resisting case ended. Also check Holmes's own responses. The mailers also cite a 2003 stolen-credit-card complaint by her mother and a claim of destroyed evidence, and I read no source for either beyond the mailer descriptions. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing relevant to this candidate. Searches for the name also surface the unrelated Theranos founder Elizabeth Holmes, who is not this candidate."
+}

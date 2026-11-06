@@ -1,0 +1,20 @@
+{
+ "name": "Lois Frankel",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 3,
+   "text": "Frankel was criticized over a $20,000 contribution to her 2012 congressional campaign from Digital Domain Media Group. It came about five months after the company won a downtown West Palm Beach project that included city incentives. Wikipedia says she responded by vowing to give the money to charity. No finding of wrongdoing was located.",
+   "why": "A single large campaign gift raises a big-money question (criterion 3), but no official finding or record shows wrongdoing, and I could not read the original reporting.",
+   "strength": "reporting",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Lois_Frankel"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I only reached Wikipedia for item 1. I could not open the original news report it cites, so the timing, the response and whether the $20,000 went to charity are unverified. Check FEC 2012 filings for the Digital Domain Media Group contribution and any refund or disbursement, plus the Palm Beach Post coverage. A related search found that Digital Domain later went bankrupt and that West Palm Beach had given the company $2 million (The Real Deal, 2012). I did not tie that to Frankel, and it is not part of the item. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Frankel, so there is nothing to attribute. I did not weigh attendance, which is counted separately."
+}

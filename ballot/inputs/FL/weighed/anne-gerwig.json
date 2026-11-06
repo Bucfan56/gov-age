@@ -1,0 +1,38 @@
+{
+ "name": "Anne Gerwig",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2017, a voter's complaint to the Florida Elections Commission led to 12 alleged election-code counts over errors in her 2014 council campaign finance reports. The commission dropped all the charges that May. She said she didn't mind scrutiny but the complaints felt like harassment. This was the fourth unsuccessful complaint from the same voter.",
+   "why": "The state commission dropped all 12 minor reporting counts, so there is no finding of wrongdoing on the filing-violation side of criterion 6.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wptv.com/news/region-c-palm-beach-county/wellington/wellington-mayor-anne-gerwig-cleared-of-state-agency-probe",
+    "https://www.wptv.com/news/region-c-palm-beach-county/wellington/wellington-mayor-anne-gerwig-under-investigation-for-possible-election-code-violations"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2014"
+   ]
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is an ordinary council vote on a development approval that opponents criticized, with no allegation of self-dealing or abuse of office, and the platform score already covers the land-use stance (criteria 1 and 7).",
+   "strength": "reporting",
+   "urls": [
+    "https://www.yahoo.com/news/bellissimo-deal-done-wellington-oks-183126863.html",
+    "https://www.wlrn.org/transportation-development/2024-01-23/wellington-equestrian-preserve-development-recall-mayor-council-nexus"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The owner-site search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Gerwig. The WPTV pages loaded only partly when I fetched them, so the 2017 details (12 counts, charges dropped, her harassment quote) come from the search-result text of those same pages. Please confirm them against the full articles or the Florida Elections Commission record. I did not read the commission's own order or minutes. The Bellissimo item rests on Palm Beach Post (via Yahoo), WLRN, and Real Deal reporting. I found no allegation that she gained personally from the vote. I did not check developer campaign donations to her. Wikipedia's claim that she voted on first reading is consistent with WLRN, but I did not verify the recall's outcome beyond term-limit reporting."
+}

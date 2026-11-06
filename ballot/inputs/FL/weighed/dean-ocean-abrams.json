@@ -1,0 +1,18 @@
+{
+ "name": "Dean Ocean Abrams",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item says no foreign-government, foreign-agent or foreign-parent ties were found, so it describes no conduct by him under the foreign-ties criterion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 1 is a null finding, so I treated it as leave_off. The searches turned up no foreign-tie, FARA or other wrongdoing reports about Abrams. I did not open the Florida campaign-finance records, so his donors and contributions are unchecked. One search covering the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) found nothing about him. Profile pages disagree on his work: his campaign says he was a technology and management consultant, while another listing calls him a Sarasota real estate agent. I did not verify either claim. Nothing found suggests an abuse-of-office or self-dealing issue."
+}

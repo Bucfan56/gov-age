@@ -1,0 +1,21 @@
+{
+ "name": "Angela Gonzales-Torres",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In 2024 she joined the pro-Palestinian encampment at UCLA. In July 2025 the Justice Department found UCLA was deliberately indifferent to harassment of Jewish and Israeli students by encampment members. The finding is against the university, and it does not name her or accuse her of harassing anyone.",
+   "why": "The Justice Department finding is against UCLA and describes the conduct of encampment members in general, so this is guilt by association with no conduct by her bearing on any criterion.",
+   "strength": "official",
+   "urls": [
+    "https://www.justice.gov/crt/media/1409416/dl",
+    "https://www.newarab.com/news/gonzales-torres-daughter-deportee-la-runs-us-congress"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The Wikipedia text I fetched did not contain the DOJ sentence quoted in the item. The DOJ's 7/29/2025 notice of findings is addressed to UC and does not name her. I found nothing showing she personally harassed anyone or was disciplined, charged or cited. The New Arab article body did not load beyond its page description, so her own account of the encampment is unread. The search that included the owner's named sites returned nothing from those sites. Separately, a CityWatchLA piece raises disputes over her Highland Park neighborhood council leadership. I did not read it, and it is not among the items I was given."
+}

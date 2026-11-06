@@ -1,0 +1,35 @@
+{
+ "name": "Donnie Loftis",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Loftis went to Washington for the Jan. 6, 2021 rally. He wrote on Facebook that he \"got gassed three times and was at the entrance when they breached the door.\" In October 2021 he said he peacefully exercised his rights, had \"zero involvement in the rioting\" and condemned the storming. WRAL reported no charge against him.",
+   "why": "His own words place him at the Capitol entrance, but no charge or finding exists and no evidence contradicts his denial of involvement, so it has no clear bearing on a criterion.",
+   "strength": "own_words",
+   "urls": [
+    "https://www.wral.com/archive/19938994/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "He resigned an unpaid board chair seat (which doesn't count as real work under criterion 4) after Facebook posts calling the stay-at-home order \"tyranny\", which is a political opinion and not abuse of office or any other failing on the criteria.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wnct.com/news/north-carolina/health-system-board-chair-resigns-over-social-media-comments/",
+    "https://www.wral.com/archive/19938994/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Searched the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) with Loftis's name and found nothing about him. Did not open the original Charlotte Observer story on the resignation (it appeared only as a link). Did not open the NC Newsline report on the House Democrats' walkout. The FBI declined to say whether anyone is under investigation (WSOC), and the Gaston GOP chair argued that the absence of charges shows no wrongdoing. Neither is an official finding. Search results from Nov. 2026 indicate Loftis lost his Nov. 3, 2026 re-election race to Democrat Mark Carver (unofficial results). Confirm his candidacy status before publishing."
+}

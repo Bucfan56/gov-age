@@ -1,0 +1,18 @@
+{
+ "name": "Jose Javier Rodriguez",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item records no conduct, and my search of news coverage found no foreign-government money, lobbying or paid travel (criterion 2) for this candidate.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I ran one search on foreign ties and one combining his name with the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com). Neither returned any item about foreign ties or any page from those sites. I did not search FARA filings or FEC records directly, so the 'none documented' claim rests on news coverage and the item as given. Coverage of his record centers on the 2020 'ghost candidate' scheme that cost him his Senate seat. He was the victim of that scheme, so it is not his own conduct. He lost the 2026 AG race to James Uthmeier."
+}

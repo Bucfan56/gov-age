@@ -1,0 +1,21 @@
+{
+ "name": "Bruno Barreiro",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2012 Barreiro, then a Miami-Dade commissioner, voted to award a $25 million Metrorail test-track contract to Munilla Construction. The Miami New Times, citing the Miami Herald, reported that four Munilla family members had given him maximum donations. It also reported that he rented office space from the family and called them close friends. The track was two years late by August 2016.",
+   "why": "The reporting is undisputed, but no official finding of wrongdoing was found, the firm is not his own or his family's, and $500 donations are not big money, so this is shown without counting under criterion 6.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.miaminewtimes.com/news/munilla-family-firm-behind-collapsed-fiu-bridge-are-major-miami-political-players-10176950/",
+    "https://www.miamitodaynews.com/2016/08/16/test-track-two-years-late-132-metrorail-cars/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I could not open the original Miami Herald story, so the rent-from-Munilla claim rests on the New Times summary of it. I did not confirm Wikipedia's wording that the rent was 'subsidized', or that the track was 'never completed'. The Miami Today piece only shows it about two years late in August 2016, with $21M paid as of Nov 2015. I found no official ethics finding on the Munilla vote and no Barreiro response beyond his acknowledging he was close friends with the family. I did not read anything on the Marlins Park criticism, so a person should check it. A separate 2014 county ethics review (K14-012) of his office lease from his parents and a loan collateral matter closed with no violation, and it is not the Munilla matter. The owner-site search found nothing about Barreiro. A Florida Politics piece, which I did not open, says he lost the HD 113 race to Gloria Romero Roses, so confirm his current candidacy status. That piece also repeats a 2007 New Times review of his attendance on the County Commission. I did not read the review itself, and it may need a separate look under criterion 5."
+}

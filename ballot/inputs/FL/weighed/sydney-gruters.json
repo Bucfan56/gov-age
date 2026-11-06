@@ -1,0 +1,33 @@
+{
+ "name": "Sydney Gruters",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In 2025, two former New College Foundation finance officers said they were ousted in 2023 for objecting to donor-restricted money going toward the president's pay. Former board members sent Gruters, the foundation's executive director, and the president a demand letter seeking an audit. The college cited a clean state audit. A scholarship family has sued the foundation.",
+   "why": "The allegations are about how the foundation and college used restricted funds (criterion 6), but no court or regulator has made a finding, and the pages I read don't tie Gruters personally to any specific misuse.",
+   "strength": "reporting",
+   "urls": [
+    "https://suncoastsearchlight.org/new-college-unraveling-financial-oversight/",
+    "https://wusf.org/text/politics-issues/2025-07-15/family-sues-new-college-foundation-alleging-they-failed-to-give-out-scholarship"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The search found no foreign-government payments, foreign-agent filings or foreign-linked donors, so there is no conduct to weigh under foreign ties.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I couldn't read the full Suncoast Searchlight page. It cut off partway through, before the college's internal audit and the section on the May draft complaint. I didn't open Gruters's own Sarasota Herald-Tribune op-ed responding to the Lentini suit, or the Auditor General 'clean audit' report. A DCCC page quotes the draft complaint as saying Corcoran and Gruters 'may have used' over $1M against donors' wishes. That page is a partisan source and I did not use it. A search snippet from Inside Higher Ed (Nov 2024) says a college internal audit found the foundation had at times tapped restricted funds and run deficits. I didn't open it. Please check whether the demand-letter threat of a lawsuit, or the Lentini case, has had any court ruling since. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about her. Her work as a congressional district director and USDA state director is background only, and Wikipedia was used just as a map."
+}

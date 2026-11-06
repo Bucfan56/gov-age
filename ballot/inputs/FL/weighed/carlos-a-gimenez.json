@@ -1,0 +1,30 @@
+{
+ "name": "Carlos A. Gimenez",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "His 2016 support for Clinton and later change of mind is a past political stance he has acknowledged, with no abuse of office or false statement about his record (criteria 5 and 6 aren't engaged).",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "The 'over the Epstein case' remark is an opinion about voter priorities, and he later voted for the bill, which is an ordinary vote that the platform score covers rather than misconduct or a lie about his record.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I used 3 of 4 searches. The Fox News page I opened loaded only its navigation, so I didn't read the article body. I saw the 'made a mistake' quote only in search snippets from Fox News and RSBN, so no facts from it appear in any text field. The Florida Politics article loaded in search results but failed when I tried to open it. I saw the House Clerk roll call 289 only as a search result. It lists Gimenez as Aye on the Nov 18, 2025 Epstein bill. I did not read the original CNN interview for the Epstein remark. Florida Politics says that in the same interview he said he supported releasing the records but thought voters cared more about affordability. The searches for the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about Gimenez. Florida Politics also mentions a Florida Bulldog report from March. It says a developer gave $150,000 to Gimenez's joint fundraising committee while he sought federal money for the developer's Sweetwater project, and he got a $6M appropriation. I didn't read the original report. A donation alone isn't a finding, so I did not add it as an item. A person could read the Florida Bulldog piece and any response from Gimenez."
+}

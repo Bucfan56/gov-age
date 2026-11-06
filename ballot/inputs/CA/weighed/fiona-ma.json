@@ -1,0 +1,21 @@
+{
+ "name": "Fiona Ma",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "A former staffer, Judith Blackwell, sued in 2021 alleging Ma exposed herself and climbed into her bed when they shared rooms on work stays. A judge let the harassment claims go to trial. In 2024 the state agreed to pay $350,000. Ma denied it, called the suit frivolous, and called the settlement vindication.",
+   "why": "This is a serious accusation of misuse of her position over a subordinate (criterion 6) that ended in a settlement with no court or official finding, so it is shown but doesn't count.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.cbsnews.com/sacramento/news/california-settles-sexual-harassment-claims-against-state-treasurer-fiona-ma",
+    "https://sfist.com/2026/05/13/fiona-mas-sex-scandal-from-five-years-ago-has-of-course-come-up-in-the-race-for-lieutenant-governor/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) I could not open the SF Chronicle or Yahoo copies of the May 2026 story, and the Politico piece was not reachable. In search snippets, Ma is quoted telling Politico the civil complaints were 'dropped without payment'. The SF Chronicle says the settlement agreement shows her office agreed to pay $350,000. SFist (read) also says she has mischaracterized the settlement. This could be a weight-2 'lying about own record' item. I did not mark it against her because I could not read the primary text and her statement may partly refer to the personal claims against her being dropped. Please check the Chronicle and Politico originals and the settlement agreement. 2) The Blackwell lawyer's response and the 'no admission of liability' wording came only from search snippets, so I left them out. 3) I did not read the court filings or the complaint. 4) SFist (read) mentions a separate Politico story, April 2026, about Ma visiting Pegasus California School in Qingdao, China. That school is the subject of a Riverside County audit. Ma says the visit was on a personally funded family trip. This is worth checking against criterion 2 and was not examined. 5) The search for the owner's named sites returned nothing relevant to Ma."
+}

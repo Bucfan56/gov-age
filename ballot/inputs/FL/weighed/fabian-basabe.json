@@ -1,0 +1,44 @@
+{
+ "name": "Fabian Basabe",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 3,
+   "criterion": 6,
+   "text": "On July 15, 2026, a Leon County jury found Basabe liable for sexual harassment, battery and defamation of a former aide and a former intern, awarding $450,000 in total. A judge later denied his post-trial motions and entered final judgment. He represented himself at trial and continues to deny the allegations.",
+   "why": "A civil jury verdict, followed by a final judgment, found he harassed and battered staff who worked for him in his legislative office, which fails the criterion on not misusing the position; it fits no listed level, so it takes the nearest, the most serious.",
+   "strength": "court",
+   "urls": [
+    "https://floridapolitics.com/archives/816207-fabian-basabe-strikes-out-on-post-trial-motions-as-appeal-clock-starts/",
+    "https://www.lawyerherald.com/articles/64091/20260722/florida-state-rep-fabian-basabe-ordered-pay-450k-damages-sexually-harrassing-two-male-staffers.htm",
+    "https://floridapolitics.com/archives/809167-he-should-resign-after-jury-verdict-3-officials-rescind-endorsements-of-fabian-basabe/"
+   ],
+   "owner_sites": [],
+   "check": [
+    "15",
+    "2026",
+    "450,000"
+   ]
+  },
+  {
+   "item": 2,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In October 2026, records showed taxpayers pay $2,662.50 a month for Basabe's Little Haiti legislative office, with the money going to a company he had listed as an income source. Reporters found the office locked during business hours. Basabe said a staffer had resigned and the lease followed House guidance. Records cited did not establish an ethics violation.",
+   "why": "The lease raises a possible self-dealing question under the criterion on not taking advantage of the position, but no violation has been established; the commissioners' resignation calls and the other men's denied, uncharged accusations are not weighed here.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridapolitics.com/archives/828396-lucia-baez-geller-evicts-scandal-laden-fabian-basabe-in-hd-106/",
+    "https://www.miaminewtimes.com/news/did-taxpayers-buy-a-miami-ghost-office-for-jury-affirmed-sex-pest-fabian-basabe-40591896/"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2,662.50",
+    "2026"
+   ]
+  }
+ ],
+ "for_review": "My page-open calls failed (the site errors, then a per-turn limit), so I read only search-result excerpts of the Florida Politics, Miami New Times, Lawyer Herald, Yahoo/Miami Herald and WLRN pieces. I never opened the full articles, the court docket, the Florida Politics article linked in the item, or Basabe's own statements. Please check the facts in both items against those pages. Also check whether the appeal has been filed, and the exact lease terms and the House rule on leasing from a member's income source. Basabe lost the Nov. 3, 2026 general election to Lucia Báez-Geller, so he is leaving the seat. The owner-site search found nothing about him. WLRN says at least five men have accused him of sexual misconduct. Los Angeles prosecutors closed their review of one man's 2003 rape allegation, and he has not been charged. I did not weigh those accusations as separate items."
+}

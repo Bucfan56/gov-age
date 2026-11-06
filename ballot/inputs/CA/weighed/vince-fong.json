@@ -1,0 +1,22 @@
+{
+ "name": "Vince Fong",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In December 2023 the Secretary of State's office said Fong couldn't be on the 2024 congressional ballot because he had already filed for Assembly re-election. Fong sued. A Sacramento judge ruled for him that month, and a state appeals court agreed in April 2024. Fong said voters' choice was upheld. The Secretary said she disagreed.",
+   "why": "Courts found he could lawfully appear on both ballots, so there is no finding of wrongdoing and no clear bearing on any criterion.",
+   "strength": "court",
+   "urls": [
+    "https://gvwire.com/2024/04/09/appeal-court-rules-fong-can-stay-on-ca-20-congressional-ballot/",
+    "https://www.sos.ca.gov/administration/news-releases-and-advisories/2023-news-releases-and-advisories/secretary-state-responds-decision-fong-congressional-candidacy-case",
+    "https://www.sos.ca.gov/administration/news-releases-and-advisories/2024-news-releases-and-advisories/california-secretary-state-responds-decision-fong-congressional-candidacy-case"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I read the court outcomes only through news reports and Secretary of State releases. I did not read the Superior Court or Court of Appeal opinions themselves. The Ballotpedia page was cut off before its 'Court reverses decision' and 'Candidate filing ruled invalid' sections, and those headings need a check. I could not open The Hill page, so I left out Fong's 'unprecedented interference' quote. It appears in search snippets from several outlets and in a Fong campaign statement. The search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Fong. No attendance or AIPAC matters came up. I searched for no other conduct beyond this item, and I added no new items."
+}

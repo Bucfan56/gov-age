@@ -1,0 +1,20 @@
+{
+ "name": "Becky Carney",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On July 2, 2012, Carney's vote made the 72-47 count needed to override the governor's veto of a fracking bill. She said she pressed the wrong button late at night. She said she tried to change it but House rules barred a change that would alter the outcome. She said she took responsibility for her vote.",
+   "why": "This was a single mistaken floor vote with no finding of wrongdoing, so it doesn't show a lack of commitment, self-dealing or lying about her record under any criterion, and fracking isn't in the platform.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wral.com/news/state/nccapitol/blogpost/11274640/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The owner-site search (Carney with alexjoneslive.com, stewpeters.com, ryandawson.org and infowars.com) returned nothing about her, so owner_sites is empty. I read only the 2012 WRAL report in full. Other 2012 coverage seen only in search snippets (WFAE, Fox/WSJ, NPR StateImpact, Grist) agrees that the vote was accidental. I used Wikipedia only to find leads. I did no wider search of her record, so nothing else was checked for against or open items."
+}

@@ -1,0 +1,20 @@
+{
+ "name": "Linda Sánchez",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In June 2010 Sánchez criticized Arizona's SB 1070. In a statement on June 4, 2010, she said she had never said everyone who supports the law is a racist or white supremacist. She said she stood behind her statements about the law's authors.",
+   "why": "This is a 2010 political remark about the people behind a law, with no finding and no bearing on foreign ties, big money, real work, doing the job, or abuse of office (criteria 1–6).",
+   "strength": "own_words",
+   "urls": [
+    "https://lindasanchez.house.gov/media-center/press-releases/s-nchez-statement-racial-profiling-law"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Sánchez. I couldn't open the original Whittier Daily News story, because the Daily Titan reprint failed to load. I only saw the Fox News and Daily Titan snippets in search results, and they match the quotes in the item. Sánchez said she based the remark on online stories, and I have not checked whether her claim about the law's drafters holds up. I did not weigh attendance."
+}

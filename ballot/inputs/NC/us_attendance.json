@@ -1,0 +1,145 @@
+{
+ "don-davis": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 12,
+  "missed_pct": 1.8,
+  "longest_run": 9,
+  "run_from": "2026-07-15",
+  "run_to": "2026-07-16",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "deborah-k-ross": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 0,
+  "missed_pct": 0.0,
+  "longest_run": 0,
+  "run_from": null,
+  "run_to": null,
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "greg-murphy": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 87,
+  "missed_pct": 12.9,
+  "longest_run": 61,
+  "run_from": "2025-12-15",
+  "run_to": "2026-01-20",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "valerie-p-foushee": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 13,
+  "missed_pct": 1.9,
+  "longest_run": 7,
+  "run_from": "2026-04-22",
+  "run_to": "2026-04-22",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "virginia-foxx": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 3,
+  "missed_pct": 0.4,
+  "longest_run": 3,
+  "run_from": "2025-01-03",
+  "run_to": "2025-01-03",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "addison-mcdowell": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 8,
+  "missed_pct": 1.2,
+  "longest_run": 3,
+  "run_from": "2026-09-02",
+  "run_to": "2026-09-03",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "david-rouzer": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 10,
+  "missed_pct": 1.5,
+  "longest_run": 2,
+  "run_from": "2026-04-27",
+  "run_to": "2026-04-27",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "mark-harris": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 0,
+  "missed_pct": 0.0,
+  "longest_run": 0,
+  "run_from": null,
+  "run_to": null,
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "richard-hudson": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 8,
+  "missed_pct": 1.2,
+  "longest_run": 4,
+  "run_from": "2025-06-10",
+  "run_to": "2025-06-10",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "pat-harrigan": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 12,
+  "missed_pct": 1.8,
+  "longest_run": 4,
+  "run_from": "2025-06-10",
+  "run_to": "2025-06-10",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "alma-s-adams": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 0,
+  "missed_pct": 0.0,
+  "longest_run": 0,
+  "run_from": null,
+  "run_to": null,
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "brad-knott": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 11,
+  "missed_pct": 1.6,
+  "longest_run": 2,
+  "run_from": "2026-07-20",
+  "run_to": "2026-07-20",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ },
+ "tim-moore": {
+  "chamber": "U.S. House",
+  "roll_calls": 676,
+  "missed": 2,
+  "missed_pct": 0.3,
+  "longest_run": 1,
+  "run_from": "2025-03-11",
+  "run_to": "2025-03-11",
+  "through": "2026-09-16",
+  "source": "https://clerk.house.gov/Votes"
+ }
+}

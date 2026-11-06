@@ -1,0 +1,42 @@
+{
+ "name": "Greg Murphy",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is an ordinary floor vote and a statement of his legal reasoning about state election law, with no finding of wrongdoing and no conduct tied to any of the criteria, so it is not a controversy.",
+   "strength": "own_words",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This was a single deleted social-media reply that was widely criticized, which is a petty moment with no abuse of office or other conduct under the criteria.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is an unsupported campaign-season opinion about an opponent's health, not conduct in office or a misstatement of his own record, so it does not bear on any criterion.",
+   "strength": "own_words",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Reviewed: Murphy's Jan. 5, 2021 press release (murphy.house.gov) and WRAL's April 2021 report, which quotes the deleted tweet and says he didn't respond to a request for comment. I did not open the House roll call for the Jan. 6-7 Pennsylvania vote. Wikipedia and one KDKA search snippet are the only places I saw his vote, and neither is a roll call. The Biden-dementia claim: I could only read a repost of a News & Observer article, hosted on a partisan site I did not use as a source. The original N&O article (newsobserver.com, article245043195) is unread. The owner-sites search returned nothing about this candidate. I did not look for other conduct (finances, business, foreign ties, contracts) because the searches went to the three items. Nothing at the against or open level surfaced."
+}

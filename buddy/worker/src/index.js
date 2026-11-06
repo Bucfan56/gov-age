@@ -8,7 +8,7 @@ const CODE_TTL = 600, SESSION_TTL = 90 * 86400, MAX_TRIES = 5;
 import {resultsApi, refresh} from "./results.js";
 
 const ORIGINS = ["https://bucfan56.github.io", "https://ballotbuddy.appolis.app", "https://ballotbuddy.app", "http://localhost:8010"];
-const CTX_KEYS = ["cd", "sd", "hd", "county", "city", "zip", "cc", "sb", "ward", "specials", "how"];
+const CTX_KEYS = ["st", "cd", "sd", "hd", "county", "city", "zip", "cc", "sb", "ward", "specials", "how"];
 
 const hex = buf => [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, "0")).join("");
 const sha = async s => hex(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s)));

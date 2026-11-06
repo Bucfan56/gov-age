@@ -1,0 +1,22 @@
+{
+ "name": "Jared Moskowitz",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 1,
+   "criterion": 6,
+   "text": "In August 2024 Moskowitz's office filed two late reports covering more than 80 stock trades from 2023–24, past the 45-day deadline. His office blamed a technical error and said the required fine was paid. In April 2025 he bought stock in 20 companies; his office said a third-party adviser manages his investments.",
+   "why": "Late stock-trade disclosures are a smaller filing violation under the STOCK Act and the nearest fit is criterion 6, so this takes weight 1, and no insider-trading finding appears anywhere I read.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.newsweek.com/stock-act-congress-violations-trading-shares-1947459",
+    "https://www.rawstory.com/raw-investigates/stock-act-violations-2669093178/",
+    "https://floridapolitics.com/archives/738166-nrcc-bashes-jared-moskowitz-for-stock-trades-amid-tariff-turmoil/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) I could not open the original NYT report on the March 10, 2023 Seacoast sale (the Yahoo and Seattle Times copies failed). So the SVB-day sale is not in `text`. Check the NYT piece and the disclosure filing. A search-result snippet of the NYT piece says Moskowitz stated the briefing happened after the shares were sold. I did not read that page, so I did not use it. I found no ethics finding or insider-trading finding on that sale. If verified, it is context only. 2) The late-filing verdict rests on Newsweek and Raw Story, which cite his August 2024 filings and his office's statements. I did not open the House Clerk filings or ethics records, so the fine amount and any waiver are unconfirmed beyond his spokesperson's statement. 3) The owner-sites search returned nothing relevant on this person. 4) The 2025 purchases and a 2026 Broadcom trade (reported by a partisan outlet, flvoicenews) are allegations of conflict with no finding, and I did not weigh them. 5) Attendance is excluded as instructed. I did not check AIPAC-related items."
+}

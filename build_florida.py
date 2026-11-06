@@ -618,6 +618,24 @@ def finalize(races):
         r["cands"] = ranked
 
 
+def owner_rules(races):
+    """The owner's score rules, after the base scores are final (buddy/research/rules.py). The people come from ballot/inputs/FL/roster.json, written by florida.py extract."""
+    sys.path.insert(0, str(ROOT / "buddy" / "research"))
+    import rules as R
+    from make_prompt import person_file, roster
+    inputs = ROOT / "ballot" / "inputs" / "FL"
+    people = {(p["race"], p["name"]): p for p in roster("FL")}
+    for r in races:
+        if r.get("kind") != "race":
+            continue
+        for c in r["cands"]:
+            R.apply(c, *R.read(inputs, person_file(people[(r["title"], c["name"])])))
+        ranked = sorted(r["cands"], key=lambda c: (-(c["score"].get("indep") is not None), -(c["score"]["overall"] if c["score"]["overall"] is not None else -1)))
+        for i, c in enumerate(ranked):
+            c["rank"] = i + 1 if c["score"]["overall"] is not None else None
+        r["cands"] = ranked
+
+
 # ---------------- assemble ----------------
 def main():
     d = json.loads((ROOT / "ballot-34221.json").read_text(encoding="utf-8"))
@@ -669,6 +687,7 @@ def main():
     notes.append(f"manatee.json: {len(extra)} new county/city items")
 
     finalize(races)
+    owner_rules(races)
     # picks for judges and ballot questions, read against the owner's platform (research3/recommendations.json)
     recs = (load(S / "research3" / "recommendations.json", {}) or {}).get("items", {})
     for r in races:
@@ -703,7 +722,7 @@ def main():
             "rules": {"min": B.MIN_RAISED, "pac": B.FOREIGN_PAC_PENALTY, "foreign": [{"pts": p, "text": t} for _, p, t in B.FOREIGN_RULES]}}
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     tpl = (ROOT / "ballot" / "app_template.html").read_text(encoding="utf-8")
-    page = tpl.replace("__TITLE__", data["title"]).replace("__DESC__", "Type your address and see every race on your Florida ballot, scored on local roots, foreign ties and big money.").replace("__DATA__", blob)
+    page = tpl.replace("__TITLE__", "Ballot Buddy").replace("__DESC__", "Type your address and see every race on your ballot, scored on local roots, foreign ties and big money.").replace("__DATA__", blob)
     (ROOT / "ballot.html").write_text(page, encoding="utf-8")
     (ROOT / "ballot" / "photos.json").write_text(json.dumps(photo_map, ensure_ascii=False, indent=1), encoding="utf-8")
     n = sum(len(r.get("cands", [])) for r in races)

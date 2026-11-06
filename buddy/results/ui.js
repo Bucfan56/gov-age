@@ -87,6 +87,7 @@ function resSeatBar(title, t, view) {
 // ---------- the voter's own ballot against the results ----------
 function resContestFor(r, file, ji) {
   const by = k => file.contests.find(c => c.key === k), W = r.where || {};
+  if (r.reskey) return by(r.reskey);
   const fixed = {senate: "ussen", governor: "gov", ag: "ag", cfo: "cfo", agriculture: "agcomm"}[r.id];
   if (fixed) return by(fixed);
   if (r.kind === "judges") return r.judges[ji] ? by("ret-" + resLast(r.judges[ji].name)) : null;
@@ -138,7 +139,7 @@ function resMineBox(file) {
   if (!rows.length) return `<div class="rmine"><b>📝 How your picks did</b><p>${ctx ? "You haven't made any picks yet. Make some on the My ballot tab and they'll be scored here." : "Add your address on the Ballot tab and your own races show up here."}</p></div>`;
   const n = s => rows.filter(x => x.state === s).length, won = n("won"), lost = n("lost"), open = n("open"), other = rows.length - won - lost - open;
   return `<div class="rmine"><b>📝 How your picks did</b><div class="rm-s"><span class="g"><b>${won}</b>won</span><span class="b"><b>${lost}</b>lost</span><span class="o"><b>${open}</b>still counting</span></div>
-    <details><summary>See each of your ${rows.length} picks</summary><div class="rm-l">${rows.map(x => `<button class="mrow" ${x.c ? `data-res="FL~${esc(x.c.id)}"` : `data-go="${esc(x.r.id)}"`}><span class="mq">${esc(x.q)}</span><span class="ma ${x.state}">${x.state === "won" ? "✓" : x.state === "lost" ? "✗" : "…"} ${esc(x.pick)}${x.outcome ? ` · ${esc(x.outcome)}` : ""}</span></button>`).join("")}</div>${other ? `<p class="mini muted">${other} couldn't be matched to a result yet, so ${other === 1 ? "it isn't" : "they aren't"} counted above.</p>` : ""}</details></div>`;
+    <details><summary>See each of your ${rows.length} picks</summary><div class="rm-l">${rows.map(x => `<button class="mrow" ${x.c ? `data-res="${D.st}~${esc(x.c.id)}"` : `data-go="${esc(x.r.id)}"`}><span class="mq">${esc(x.q)}</span><span class="ma ${x.state}">${x.state === "won" ? "✓" : x.state === "lost" ? "✗" : "…"} ${esc(x.pick)}${x.outcome ? ` · ${esc(x.outcome)}` : ""}</span></button>`).join("")}</div>${other ? `<p class="mini muted">${other} couldn't be matched to a result yet, so ${other === 1 ? "it isn't" : "they aren't"} counted above.</p>` : ""}</details></div>`;
 }
 
 // ---------- data ----------
@@ -160,7 +161,7 @@ function resChips() {
 }
 function resultsPage() {
   document.title = "Results · " + D.title;
-  if (!RES.st) RES.st = "FL";
+  if (!RES.st) RES.st = D.st;
   $("#app").innerHTML = `<header class="appbar"><div class="ab-l">🏁 Results</div>${whoBtn()}</header>${resChips()}<div id="resBody"></div>`;
   resFill();
   clearInterval(RES.timer);
@@ -204,7 +205,7 @@ function resListHtml(d, st, inView, q) {
     const arr = inView(RES.view);
     return `<div class="rcards">${arr.slice(0, RES.shown).map(c => resCard(c, st)).join("")}</div>${resMoreBtn(arr.length)}`;
   }
-  let h = st === "FL" && typeof PICKS !== "undefined" ? resMineBox(d) : "";
+  let h = st === D.st && typeof PICKS !== "undefined" ? resMineBox(d) : "";
   const top = inView("top"), house = C.filter(c => c.lvl === "fed" && c.key !== "ussen"), sen = C.filter(c => /^stsen-/.test(c.key)), asm = C.filter(c => /^sthouse-/.test(c.key)), ms = C.filter(c => c.lvl === "measure");
   if (top.length) h += `<h2 class="grp">🏛️ Statewide</h2><div class="rcards">${top.map(c => resCard(c, st)).join("")}</div>`;
   if (house.length || sen.length || asm.length) {
@@ -322,19 +323,19 @@ async function resMap(c, st) {
 async function resRaceBanner(r) {
   const lead = $("#app .lead") || $("#app .bar");
   if (!lead) return;
-  let j; try { j = await resLoad("FL"); } catch (e) { return; }
+  let j; try { j = await resLoad(D.st); } catch (e) { return; }
   if (!$("#app .bar") || !lead.isConnected) return; // they moved on while the result was loading
   const cs = r.kind === "judges" ? r.judges.map((_, i) => resContestFor(r, j.data, i)).filter(Boolean) : [resContestFor(r, j.data)].filter(Boolean);
   if (document.querySelector("#app .rbanner")) return;
   if (!cs.length) { if (r.cands && r.cands.length === 1) lead.insertAdjacentHTML("beforebegin", `<div class="rbanner"><b>🏁 Result</b><div class="rbanner-r"><span>${esc(r.cands[0].name)} ran unopposed</span><span class="rst won">Unopposed</span></div></div>`); return; }
   const line = c => {
     const [cls, txt] = resStatus(c), w = resWinners(c);
-    return `<button class="rbanner-r" data-res="FL~${esc(c.id)}"><span>${c.m ? esc(c.t.replace(/^Keep (.*)\?$/, "$1").replace(/ - .*/, "")) : w.length ? esc(w.map(x => x.n).join(", ")) : esc(c.c[0] ? c.c[0].n + " leads" : c.t)}${w.length && !c.m ? ` won with ${w[0].pc}%` : c.m && c.c[0] ? ` · Yes ${(c.c.find(k => /^yes$/i.test(k.n)) || {pc: 0}).pc}%` : ""}</span><span class="rst ${cls}">${esc(txt)}</span></button>`;
+    return `<button class="rbanner-r" data-res="${D.st}~${esc(c.id)}"><span>${c.m ? esc(c.t.replace(/^Keep (.*)\?$/, "$1").replace(/ - .*/, "")) : w.length ? esc(w.map(x => x.n).join(", ")) : esc(c.c[0] ? c.c[0].n + " leads" : c.t)}${w.length && !c.m ? ` won with ${w[0].pc}%` : c.m && c.c[0] ? ` · Yes ${(c.c.find(k => /^yes$/i.test(k.n)) || {pc: 0}).pc}%` : ""}</span><span class="rst ${cls}">${esc(txt)}</span></button>`;
   };
   lead.insertAdjacentHTML(lead.classList.contains("bar") ? "afterend" : "beforebegin", `<div class="rbanner"><b>🏁 Result</b>${cs.map(line).join("")}</div>`);
 }
 async function resDecorateMine() {
-  let j; try { j = await resLoad("FL"); } catch (e) { return; }
+  let j; try { j = await resLoad(D.st); } catch (e) { return; }
   document.querySelectorAll("#app .mrow[data-go]").forEach(el => {
     const k = el.dataset.k, r = el.dataset.go && raceById(el.dataset.go);
     if (!k || !r || !PICKS[k] || el.querySelector(".rchip")) return;
@@ -346,6 +347,8 @@ const resHomeRow = () => bbMoveRow() + `<div class="rlist" style="margin:0 0 10p
 
 document.addEventListener("click", e => {
   const t = e.target;
+  const pickSt = t.closest("[data-bbstate]");
+  if (pickSt) { useState(pickSt.dataset.bbstate).then(() => { shownPage = null; route(); }).catch(err => alert(err.message)); return; }
   if (t.closest("[data-bbmove]")) { location.href = bbMoveLink(); return; }
   const open = t.closest("[data-res]");
   if (open) { e.preventDefault(); location.hash = "results/x" + open.dataset.res; return; }

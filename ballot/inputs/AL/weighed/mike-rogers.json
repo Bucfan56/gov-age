@@ -1,0 +1,34 @@
+{
+ "name": "Mike Rogers",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On Jan. 6, 2023, after the 14th failed vote for House speaker, Rogers angrily approached Rep. Matt Gaetz and was pulled back by Rep. Richard Hudson. Two days later Rogers apologized, saying he briefly lost his temper. Fox News reported the two made amends.",
+   "why": "A widely reported loss of temper that Rogers apologized for, with no finding of wrongdoing and no clear bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.foxnews.com/politics/rep-mike-rogers-apologizes-gaetz-tense-confrontation-house-floor-i-briefly-lost-temper"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "At an Aug. 10, 2017 town hall in Oxford, a constituent asked about contributions from Mike Hubbard's committee to Rogers' wife's 2010 judicial campaign. Rogers called Hubbard a close friend and said, \"keep my wife out of this and be a man or we'll take it outside.\" The man said he filed a police complaint.",
+   "why": "A heated remark to a constituent, with no official finding on the complaint or the donations and no clear bearing on a criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://insurancenewsnet.com/oarticle/congressman-gets-earful-from-constituents-at-oxford-town-hall-event-2"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The one search on the owner's named sites returned nothing relevant to either item, so owner_sites is empty. Item 1: the Fox page body was cut off when I opened it. The text relies on its headline and the same article's search snippet. The Gaetz-forgave claim rests only on the Fox description that the two made amends. Gaetz's own words were not read. A 2026 book by a McCarthy aide (Leganski) reportedly quotes Rogers shouting at Gaetz. I saw it only in secondary summaries and did not use it. Item 2: no police or Ethics Commission outcome was found. The Anniston Star story was read through a syndicated copy, and the Wikipedia claim that no official finding was reported is unverified. Rogers' own response to the police complaint was not found. Attendance and AIPAC-related matters are handled in separate steps and were not weighed."
+}

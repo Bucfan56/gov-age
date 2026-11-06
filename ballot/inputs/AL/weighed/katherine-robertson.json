@@ -1,0 +1,35 @@
+{
+ "name": "Katherine Robertson",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 3,
+   "text": "In 2025 First Principles Action, a nonprofit with a Nashville address, gave Robertson's attorney general campaign $1 million, then $100,000 more. Opponent Jay Mitchell called it dark money. Alabama Daily News reported that Alabama law allows accepting the money. No violation has been reported.",
+   "why": "Large donations bear on the big-money criterion, but they were legal and no finding or conduct beyond accepting them was shown, so this is shown without counting.",
+   "strength": "reporting",
+   "urls": [
+    "https://aldailynews.com/sources-say-ag-candidate-mitchell-sought-funding-he-now-calls-dark-money/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In July 2023 a Corrections Department lawyer told a legislative committee the attorney general's office had blocked settling federal prison lawsuits. Robertson, then chief counsel, wrote that this was false and the state was willing to resume settlement talks. Corrections said its lawyer meant the office's stance against a consent decree. No finding was reported.",
+   "why": "This is a disputed account between two state agencies about settlement posture, with no finding that Robertson misstated her record, so it doesn't count under the not-abusing-office criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.alreporter.com/2023/07/20/ag-letter-adoc-attorney-lied-has-failed-to-correct-the-record/",
+    "https://aldailynews.com/attorney-general-disputes-claim-that-his-office-prohibited-corrections-from-settling-lawsuit/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The one search on the owner's named sites found nothing about Robertson from them. For item 1, I couldn't open AL.com (access denied) or the 1819 News piece, so Robertson's own responses (that Mitchell sought the same donors, and her statement that most money came from the Republican Attorneys General Association) rest on search snippets and aren't in the text. Alabama campaign finance filings would show the exact donation amounts and dates. Mitchell later cited about $3 million in similar group money, which I didn't verify. For item 2, the underlying settlement history in the DOJ prison case wasn't checked. Robertson won the November 2026 general election and will replace Steve Marshall as attorney general."
+}

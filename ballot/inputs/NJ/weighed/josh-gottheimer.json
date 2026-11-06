@@ -1,0 +1,23 @@
+{
+ "name": "Josh Gottheimer",
+ "items": [
+  {
+   "item": null,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 5,
+   "text": "This Congress, Gottheimer missed 85 of 676 House votes (12.6%) through Sept. 16, 2026, including 16 in a row from June 4 to 11, 2025. He ran for governor in 2025.",
+   "why": "Under the owner's line of more than 100 missed votes, so it is shown and doesn't count.",
+   "strength": "official",
+   "urls": [
+    "https://clerk.house.gov/Votes",
+    "https://www.lcv.org/moc/josh-gottheimer/",
+    "https://newjerseymonitor.com/2025/01/09/governor-hopefuls-take-easy-political-aim-at-house-dems-not-voting-on-immigration-bill/"
+   ],
+   "owner_sites": [],
+   "check": [],
+   "edited": true
+  }
+ ],
+ "for_review": "The 85-of-676 figure and the 16-vote run come from the owner's brief. The Clerk's Votes page I opened is only a search form, so I couldn't check them myself. Check them against the member's roll-call record before publishing. The 'against' verdict rests on that count, and I set weight 1 because 85 is below the owner's 100-vote line. The reasons for the June 2025 run weren't confirmed. Press and LCV tie earlier misses to his governor campaign, but I didn't read a specific explanation from him for this Congress. The one owner-sites search turned up nothing about him on alexjoneslive.com, stewpeters.com, ryandawson.org or infowars.com. Not weighed, because I found only weak or old material: a 2018 watchdog ethics complaint over a House email used for campaign fundraising (outcome not found); an unofficial site's claims about a late STOCK Act filing and stock trades (not confirmed from official records); a 2011 LightSquared/FCC pay-for-play claim from a partisan blog, which quotes an FCC ethics review finding no concern. Foreign-tie, donor-money and platform-position items were not researched, and they may be worth a separate check, for example AIPAC-related money and travel."
+}

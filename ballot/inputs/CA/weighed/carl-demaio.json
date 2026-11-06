@@ -1,0 +1,35 @@
+{
+ "name": "Carl DeMaio",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In 2014, two former campaign staffers accused DeMaio of sexual misconduct. He denied it. The San Diego DA declined to file charges, saying there was not enough evidence. In 2015 accuser Todd Bosnich pleaded guilty to obstruction for lying to the FBI about a threatening email. Prosecutors did not decide whether the harassment claims were true.",
+   "why": "No charge or finding of wrongdoing was ever made against DeMaio, and an alleged private-conduct matter from 2014 has no clear bearing on the office-conduct criteria.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.nbcsandiego.com/news/local/carl-demaio-sexual-harassment-headquarters-break-in-no-charges/1986567/",
+    "https://www.cnn.com/2015/06/15/politics/carl-demaio-aide-lying-fbi"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In October 2024, Rancho Bernardo neighbors Mohammad and Roya Zamanian sought a restraining order against DeMaio and his husband, alleging harassment over their landscaping. On Nov. 19, 2024, a judge denied the request in its entirety after a hearing. A DeMaio spokeswoman said he lives in Fallbrook, inside the 75th District.",
+   "why": "A court denied the restraining order and no official finding on residency was found, so there is no established wrongdoing bearing on commitment to the area or on honesty about his record.",
+   "strength": "reporting",
+   "urls": [
+    "https://timesofsandiego.com/politics/2025/05/20/carl-demaio-selling-his-rancho-bernardo-home-leaving-rented-75th-district-unit/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) Owner-site search (DeMaio plus alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing relevant, so owner_sites is empty. 2) Item 2 residency: I couldn't read the KPBS piece past its page header, and I only read the top of the Voice of San Diego piece. I found no outcome from any DA or official inquiry into whether DeMaio met the district residency rule. Search snippets say KPBS found he moved his voter registration to an Escondido rental days before filing, and a Times of San Diego snippet said he does meet the state residency requirement. A May 2025 Times of San Diego report said he was listing the Rancho Bernardo home for sale and leaving the rental. Someone should check for a DA, FPPC or court finding on residency. If one exists and shows he misrepresented his residence, the item could be re-weighed under criterion 6 (lying about his record). 3) Not weighed: search results mention FPPC complaints from 2024 about contribution and spending limits, and a May 2026 state GOP reprimand over a voter guide. I didn't read these or find outcomes. Check whether the FPPC ruled; a fine would be weight 1. 4) I didn't read the Bosnich plea agreement or the DOJ release directly, only the CNN and NBC reports of them."
+}

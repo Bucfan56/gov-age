@@ -1,0 +1,24 @@
+{
+ "name": "Bruce Antone",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 1,
+   "text": "A 2024 Fresh Take Florida review found his voter registration and campaign filings listed a Shenna Court home in House District 40, outside the district he represents. He changed his address after a reporter asked. He said he forgot to update his records. He also said opponents have \"never proven\" he lives outside the district.",
+   "why": "This bears loosely on commitment to the area, but no court, House or ethics body has found wrongdoing, and he disputes that he lives outside the district.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wuft.org/fresh-take-florida/2024-04-23/florida-lawmakers-must-live-in-their-districts-this-democratic-rep-hasnt-always-reported-living-there",
+    "https://www.orlandoweekly.com/news/florida-lawmakers-must-live-in-their-districts-this-orlando-democrat-hasnt-always-reported-living-there-36702485/",
+    "https://www.wintergardenvox.com/articles/antone-addresses-opponents-residency-allegations"
+   ],
+   "owner_sites": [],
+   "check": [
+    "never proven"
+   ]
+  }
+ ],
+ "for_review": "The WUSF and WUFT pages loaded only their navigation text through the page-read tool, so I relied on the article text that came back in search results from the same pages, plus the Orlando Weekly republication and the Winter Garden Vox. I did not read the full original article in one piece. I found no House ruling and no result from the 2024 Florida Commission on Ethics complaint his primary opponent filed over residency. Someone should check both. The owner-sites search returned nothing about Antone, so owner_sites is empty. The WUSF page says he stopped answering questions and did not answer nine written questions. I left that out because the article's reporting there is about his response. The item as given says he changed his address in Jan. 2024. The article text I could read shows only that the change came the day after the reporter presented evidence, so that date still needs checking."
+}

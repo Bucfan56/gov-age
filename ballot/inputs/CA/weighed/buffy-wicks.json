@@ -1,0 +1,23 @@
+{
+ "name": "Buffy Wicks",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In 2022, anti-abortion groups said AB 2223 would \"legalize infanticide.\" FactCheck.org called that false. An early draft said \"perinatal death\" without limits. It was amended to cover only deaths from pregnancy-related causes. Wicks called the claim \"absurd and disingenuous.\" Authorities could still investigate evidence of foul play.",
+   "why": "This is a disagreement over how to read a bill she sponsored, with no finding of wrongdoing, so it doesn't bear on any conduct criterion, and her abortion stance is already scored under the platform.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.factcheck.org/2022/04/california-not-poised-to-legalize-infanticide/",
+    "https://sjud.senate.ca.gov/sites/sjud.senate.ca.gov/files/ab_2223_wicks_sjud_analysis_updated.pdf"
+   ],
+   "owner_sites": [],
+   "check": [
+    "absurd and disingenuous."
+   ]
+  }
+ ],
+ "for_review": "I searched the owner's sites once with her name and found no pages about her, so owner_sites is empty. I read FactCheck.org and the Senate Judiciary Committee analysis (May 2022 version). I did not open her own tweet or the final enacted text of AB 2223. I also did not check whether the bill passed or was signed. The Senate analysis says the bill deletes the coroner's duty to inquire into deaths following suspected self-induced or criminal abortion. It also says coroner findings on fetal deaths could not be used to support a prosecution. It suggested the author clarify that this doesn't block prosecution when the death wasn't consented to by the mother. A reviewer may want to check whether that clarification was made. I did not look for other controversies about her."
+}

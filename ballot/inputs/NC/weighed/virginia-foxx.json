@@ -1,0 +1,46 @@
+{
+ "name": "Virginia Foxx",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In April 2009, during House debate on the Matthew Shepard hate crimes bill, Foxx said Shepard was killed in a robbery, not because he was gay. She called the bill's use of his case a \"hoax.\" She later said \"hoax\" was a poor choice of words and his death was a tragedy. She said she relied on two news reports.",
+   "why": "This was a floor remark on a bill that she partly walked back, with no finding of wrongdoing and no clear bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.washingtonexaminer.com/politics/2025579/rep-virginia-foxx-matthew-shepard-incident-was-a-hoax/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "After the Jan. 6 Capitol attack, a Capitol Police report said Foxx set off a House chamber metal detector, threw her bag under a table and went in to vote despite two officers trying to stop her. She was fined $5,000. She wrote that she disputed the facts. The House Ethics Committee dropped the fine.",
+   "why": "The fine was dropped on appeal, so no official finding of an ethics violation stands, and the screening rule is a minor security matter under the abuse-of-position criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://thehill.com/homenews/house/561177-ethics-panel-dismisses-gop-lawmakers-5000-metal-detector-fine/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "Shouting \"shut up\" and \"go away\" at a reporter at a press conference is a petty moment of temper, not conduct bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 3: the Washington Times and The Hill pages would not open, so I judged it from search-result excerpts only (Washington Times, The Hill, Fox59, Guardian, Fox News). Those excerpts agree she said 'shut up' and 'go away'. Item 2: the Forbes page returned only navigation, and I did not read the House Ethics Committee notice or the Capitol Police report directly. I also did not confirm the exact dates of the fine and the dismissal; The Hill page gives no year. The Hill and other coverage say the Ethics Committee dropped the fine because she disputed the facts. Item 1: the 2009 remark is her own words and was widely criticized, and she retracted only the word 'hoax'. She did not retract the claim that the killing was a robbery. I rated it context because it has no clear bearing on any criterion. A reviewer could treat it as leave_off instead. The owner-site search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Foxx. No other items were found that meet the against or open bar. I did not search for AIPAC or foreign-travel records, since a separate step covers them. Attendance was not weighed."
+}

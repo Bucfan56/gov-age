@@ -1,0 +1,62 @@
+{
+ "name": "Daphne Campbell",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 2,
+   "criterion": 6,
+   "text": "In 2012 the Miami Herald asked Campbell about $145,000 in IRS liens against her. She replied \"I don't have no tax liens,\" though the paper had federal documents showing otherwise. The state Democratic Party then asked her to resign. Former business partners also accused the Campbells of scamming them, and she denied wrongdoing.",
+   "why": "Her own recorded words denied tax liens that federal documents showed existed, which counts as misstating her own record (criterion 6); the scam claims were disputed and are not counted.",
+   "strength": "own_words",
+   "urls": [
+    "https://www.miaminewtimes.com/news/state-senate-candidate-daphne-campbell-has-had-ten-foreclosures-filed-against-her-properties-8653648/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In 2006 the state ended its contract with Professional Group Homes, the company Campbell ran with her husband, closing all ten group homes. Four residents died within a year, and inspectors found rodent droppings and dead roaches. Campbell denied wrongdoing and declined to discuss the deaths (Miami New Times, 2010).",
+   "why": "The state acted against her business, but I found no finding that she personally abused office or profited improperly, so it has no clear bearing on a criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.miaminewtimes.com/news/daphne-campbell-big-debts-shady-dealings-6378753/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In 2018, while running for state Senate, Campbell's campaign sent a flyer claiming Aventura Commissioner Robert Shelley's endorsement, though he backed her opponent. After Florida Politics reported it, her campaign apologized in a letter to Shelley and blamed a staff mix-up. Shelley accepted the apology.",
+   "why": "The campaign admitted the false claim, but it was blamed on staff, no penalty was found, and it does not clearly fit a criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridapolitics.com/archives/271425-campbell-apology-endorsement/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": null,
+   "verdict": "against",
+   "weight": 2,
+   "criterion": 6,
+   "text": "In a June 2020 Sun-Sentinel candidate questionnaire, Campbell answered \"Never\" when asked if she had been a party to a civil lawsuit, including foreclosure. Florida Politics found court records naming her in 10 cases, nine as defendant, including at least seven foreclosures.",
+   "why": "Her written answer misstated her own legal record (criterion 6), shown by her own words against county court records.",
+   "strength": "own_words",
+   "urls": [
+    "https://floridapolitics.com/archives/348585-campbell-never-party-civil-lawsuit/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) The Tampa Bay Times/Miami Herald 2012 article was paywalled; the liens and her denial were confirmed through the Miami New Times, which cites the Herald. The Herald's report that she said she knew nothing of the IRS case, and its reporting on federal agents tracing money through family businesses, was seen only in a search snippet and left out. She may not have known about the liens when asked. 2) The outcome of the IRS and Medicaid fraud probes into her and her family businesses was not found, so they are not shown as open items. Her son Gregory was reported convicted of Medicaid fraud in 2013, which is his conduct, not hers. 3) The Wikipedia line says three patients died; the New Times says four died, and the death after the rape was attributed to natural causes. The New Times gives both September and October 2006 for the contract end. 4) A Miami Times piece says she is known for using office for personal gain, residency issues, bookkeeping violations and conflicts of interest. A 2018 Miami New Times report on FPL power restoration after Hurricane Irma was also seen only in snippets. Read the originals before judging. 5) Her 2026 campaign shows about $472,000 in candidate loans (Transparency USA), which is self-funding, not donor money; check it. 6) A 2020 fake Obama robocall was not shown to be hers, and she denied knowing of it, so it was left out. 7) The owner-sites search returned nothing about her. 8) Confirm this is the same Daphne Campbell as the 2026 HD 108 nominee; Ballotpedia and Florida Politics indicate it is."
+}

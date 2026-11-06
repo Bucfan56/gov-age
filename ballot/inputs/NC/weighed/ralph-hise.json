@@ -1,0 +1,36 @@
+{
+ "name": "Ralph Hise",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 1,
+   "criterion": 6,
+   "text": "In 2017 an activist complained to the State Board of Elections that Hise's campaign repaid him about $10,000 more than he had loaned it. In November 2018 the board settled the matter. His campaign paid a $500 fine and $4,000 for investigation costs. His lawyer said the cause was bookkeeping and reporting errors, not improper payments.",
+   "why": "The elections board settled with a $500 fine on his campaign over faulty finance reports (criterion 6), which is a minor filing violation, and the settlement made no finding of self-dealing.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.wral.com/hise-gets-fine-in-long-running-campaign-finance-complaint/18023866/",
+    "https://ncnewsline.com/2017/06/22/campaign-finance-investigation-senate-elections-committee-chair-continues/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "The forfeiture was ordered because Pfizer's PAC gave on prohibited days, and Pfizer, not the legislators, paid the civil penalty, so it shows no wrongdoing by Hise under the donor-money criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://ncpolicywatch.com/2018/05/23/nc-officials-order-dozens-of-campaigns-to-forfeit-illegal-pac-contributions-from-pharma-giant/",
+    "https://ncnewsline.com/briefs/pfizer-to-pay-40000-civil-penalty-for-campaign-contribution-violations/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I could not open an original report naming Hise in the Pfizer forfeiture (the McDowellNews piece). His quote about it appears only on Wikipedia/Wikiwand. I did not read the NC Supreme Court's Jan 26, 2018 ruling on Senate Bill 68. I also did not read the PolitiFact page, because the link failed to open. I did not weigh the SB 68 recusal question, because it is a legislative action and the ruling covered the bill, not his conduct. Whether the 2018 settlement is described elsewhere as an admission of the underlying reporting errors should be checked. The board's settlement text did not state its findings, and Hise's lawyer called it bookkeeping errors. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about Hise."
+}

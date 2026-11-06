@@ -1,0 +1,51 @@
+{
+ "name": "Zoe Lofgren",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In December 2021, news reports said Lofgren, a leading Democratic opponent of big-tech antitrust bills, has a daughter who is corporate counsel at Google. Lofgren said every decision she makes is for her district, not anyone else. She said her daughter works on contracts and is not involved in Google's antitrust fights.",
+   "why": "A family tie to a company affected by her votes is reported, but no finding or conduct showing misuse of office was found (criterion 6).",
+   "strength": "reporting",
+   "urls": [
+    "https://dailycaller.com/2021/12/08/zoe-lofgren-google-big-tech-antitrust-democrat/",
+    "https://theintercept.com/2022/02/07/big-tech-reform-zoe-lofgren-silicon-valley/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "A 2007 watchdog report found her campaign paid her husband's two firms about $350,000 over six years for compliance, event and office services. Federal rules allow paying relatives at fair market value for real work. Lofgren said the work was legal and proper, and that her husband closed his firm in 2006.",
+   "why": "These were campaign payments to a family firm, not government contracts, and the reporting shows no finding of self-dealing (criterion 6).",
+   "strength": "reporting",
+   "urls": [
+    "https://www.sfgate.com/politics/article/Watchdog-lists-64-in-the-House-paying-kin-out-2555377.php"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2006"
+   ]
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In May 2016, Lofgren called House Judiciary witness Gail Heriot an \"ignorant bigot\" over her testimony on transgender students. Rep. Steve King tried to rule her out of order. Lofgren said she could not let that kind of bigotry into the record unchallenged.",
+   "why": "This is a heated remark in a hearing and a petty moment, with no bearing on abuse of office or any other criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.out.com/news-opinion/2016/5/27/rep-zoe-lofgren-calls-out-witness-transgender-bigotry"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The one search on the owner's named sites returned nothing about Lofgren, so owner_sites is empty for every item. Item 1: the NY Post original and the Wikipedia claim that Khanna and Eshoo defended her were not read. The Daily Caller and Intercept pieces describe her daughter's role; the Intercept page itself calls her corporate counsel. Some other sites call her General Counsel, which is unverified. Item 2: Wikipedia dates the payments to the 2004, 2006 and 2008 elections, but the 2007 SFGate report covers the prior six years, so the cycles do not match. FEC filings were not opened, and the exact payees and amounts should be checked there. Item 3: the claim that she was 'publicly reprimanded' comes from Wikipedia. Out says King tried to call her out of order, and the hearing record was not read. No AIPAC, foreign-tie, or attendance items were weighed."
+}

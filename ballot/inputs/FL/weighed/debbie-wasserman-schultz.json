@@ -1,0 +1,46 @@
+{
+ "name": "Debbie Wasserman Schultz",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In July 2016, after leaked emails suggested Democratic National Committee staff favored Hillary Clinton over Bernie Sanders in the primary, she announced she would step down as party chair after the convention. In her statement she said electing Clinton was critical for America's future.",
+   "why": "This is a well-reported party controversy, but no official finding of wrongdoing by her personally was read, so it has no clear bearing on a criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.cnbc.com/2016/07/24/wikileaks-saga-blows-back-on-wasserman-may-be-denied-role-at-convention-reports.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "Imran Awan, an IT aide who worked for her and other House Democrats, pleaded guilty in 2018 to lying on a home loan application. Prosecutors said a thorough investigation found no evidence he illegally took House data or equipment. Her spokesman said she was pleased the theories were publicly rejected.",
+   "why": "The court record shows a guilty plea only for the aide's bank-loan lie, and prosecutors found no evidence of illegal conduct involving House systems, so there is no finding against her under the abuse-of-office criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.nbcnews.com/politics/white-house/prosecutors-debunk-trump-fueled-conspiracy-theory-about-former-wasserman-schultz-n888641"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "Where a sitting member chooses to run after a redistricting is a lawful political decision, and the criticism comes from party rivals and groups who disagree with it, so it is not conduct on any criterion (the platform score covers positions).",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) The Wikipedia item gives July 28, 2016 as the resignation date. CNBC reports she announced on July 24 that she would step down after the convention, so the exact effective date was not confirmed. 2) Reporting from Fox News and others (seen only in search snippets) says she kept Awan on staff months after most members fired him, until his July 2017 arrest. The Fox page did not load, so that fact is not in the text. A reviewer could check how she explained this decision. A House inspector general finding about falsified procurement records (seen only in a Sunshine State News snippet) also concerns the aides, and I did not read it. 3) For item 3, my fetch of the WLRN August 19 article returned only its header, so I did not read the criticism there. The criticism comes from search snippets of CBS Miami, NBC News, WLRN (May 26), The Hill and the Inquirer. The MS NOW page did not load, so I did not read her full response, which I only saw as a snippet. 4) The owner-sites search returned no pages from alexjoneslive.com, stewpeters.com, ryandawson.org or infowars.com. A Newsweek snippet mentions that Alex Jones posted a video questioning whether she obstructed the Awan investigation. I did not read the video or that article, so no verdict rests on it. 5) AIPAC-related matters and attendance were not weighed, as instructed."
+}

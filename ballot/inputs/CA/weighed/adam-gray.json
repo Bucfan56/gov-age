@@ -1,0 +1,20 @@
+{
+ "name": "Adam Gray",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "The Los Angeles Times reported in August 2024 that a company in which Gray holds a minority stake bought Castle Air Force Base apartments in 2022. The state gave the site nearly $50 million the next year. Experts said no law appeared broken. Gray's campaign called the allegations false and said he has made no profit.",
+   "why": "Criterion 6 (self-dealing) is raised by the timing, but the reporting says no law appeared broken, there is no official finding, and the county sale was a public vote with no other bids.",
+   "strength": "reporting",
+   "urls": [
+    "https://ca.news.yahoo.com/key-congressional-race-republicans-criticize-100035651.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I read the LA Times story (Yahoo copy), which reports no law appeared broken and no investigation. The original latimes.com page was not opened. I found no FPPC or House Ethics action in the results, so a check of those records would help. Gray's federal disclosure after 2022 omitted the LLC stake. His campaign says he reported the parent company and that the LLC had no revenue to report. I did not read the filings themselves. His stake in the apartments is also a minority one. The search of the owner's named sites turned up nothing about Gray. Attendance was not weighed."
+}

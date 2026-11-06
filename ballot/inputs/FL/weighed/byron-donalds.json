@@ -1,0 +1,143 @@
+{
+ "name": "Byron Donalds",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 3,
+   "text": "A video posted on X on April 28, 2026 shows the host of a private Donalds event telling donors they should be \"investors\" and \"shareholders\" who get time with the \"CEO\" and help steer the state. Donalds stood beside the host. These were the host's words, not Donalds's.",
+   "why": "The words are the host's, and nothing shows any dealing by Donalds, so it is shown but doesn't count under big-money influence.",
+   "strength": "reporting",
+   "urls": [
+    "https://x.com/EvanAKilgore/status/2049254969254019186"
+   ],
+   "owner_sites": [],
+   "check": [
+    "investors",
+    "shareholders"
+   ]
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Donalds's record shows a 1997 marijuana possession case, resolved through pretrial diversion with a $150 fine. It also shows a 2000 no-contest plea to felony theft over a bad check. That record was sealed and expunged.",
+   "why": "These are decades-old, sealed matters with no bearing on his conduct in office, and I could only reach Wikipedia on them.",
+   "strength": "reporting",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Byron_Donalds"
+   ],
+   "owner_sites": [],
+   "check": [
+    "1997"
+   ]
+  },
+  {
+   "item": 3,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In September 2024 the Campaign Legal Center asked House ethics investigators to look into Donalds. It said he and his wife made 108 stock trades in 2022-2023, worth up to $1.6 million, without filing the required 45-day reports. The outcome hasn't been made public. His office did not respond to that report.",
+   "why": "This is an undecided complaint that he broke stock-trade disclosure rules, which bears on not taking advantage of his position, so it is shown but doesn't count yet.",
+   "strength": "reporting",
+   "urls": [
+    "https://campaignlegal.org/press-releases/rep-byron-donalds-florida-fails-disclose-16-million-stock-trades-campaign-legal",
+    "https://www.floridabulldog.org/2024/09/republican-rep-byron-donalds-failed-timely-report-stock-trades/",
+    "https://www.floridabulldog.org/2026/10/u-s-rep-donalds-significantly-inaccurate-financial-disclosure-forms-entire-time-in-congress/"
+   ],
+   "owner_sites": [],
+   "check": [
+    "1.6",
+    "108"
+   ]
+  },
+  {
+   "item": 4,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In July 2026 Collier County school board member Kelly Mason filed a civil lawsuit. It alleges Donalds confronted her in a Naples grocery store in 2022 and threatened to \"crush\" her. His campaign calls it baseless and politically motivated. No ruling has been reported.",
+   "why": "This is a pending civil claim about a personal confrontation, with no finding and no clear bearing on the owner's criteria.",
+   "strength": "reporting",
+   "urls": [
+    "https://news.wfsu.org/wfsu-local-news/2026-07-13/byron-donalds-takes-his-campaign-to-north-florida-amid-swirling-lawsuit-allegations",
+    "https://www.wptv.com/news/politics/byron-donalds-camp-blasts-assault-lawsuit-as-politically-motivated"
+   ],
+   "owner_sites": [],
+   "check": [
+    "crush"
+   ]
+  },
+  {
+   "item": 5,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In August 2026 rival James Fishback claimed Donalds was under federal investigation. The Justice Department said the claim was not true and that Donalds is not under investigation. Donalds's campaign called it \"completely false.\"",
+   "why": "This is an unfounded accusation by a rival that the DOJ refuted, so it shows no conduct by Donalds under any criterion.",
+   "strength": "official",
+   "urls": [
+    "https://clickorlando.com/news/politics/2026/08/08/completely-false-doj-refutes-allegation-against-florida-gov-candidate-byron-donalds"
+   ],
+   "owner_sites": [
+    "alexjoneslive.com"
+   ],
+   "check": []
+  },
+  {
+   "item": 7,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 2,
+   "text": "The Washington Examiner reported in January 2026 that Donalds's governor campaign accepted $450,000 from a refrigerant importer partly owned by a Chinese state-controlled enterprise. The paper noted this came despite his public criticism of China's trade practices. The article gave no response from Donalds.",
+   "why": "The money came from a Florida company with partial foreign state ownership, and no court or official finding of wrongdoing was found, so it is shown but doesn't count.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.washingtonexaminer.com/news/investigations/4416749/byron-donalds-took-large-donations-ccp-linked-firm-despite-china-criticism/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 8,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "This item is about the AIPAC-affiliated foundation's trip and AIPAC PAC gifts, which are counted in a separate step, plus ordinary foreign-policy stances (Israel, Cuba).",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 9,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 3,
+   "text": "The Miami New Times reported that donor Jeff Yass, whose fortune is tied to TikTok's parent company ByteDance, is a major financial backer of Donalds. That is a private donor's wealth, not a payment from a foreign government.",
+   "why": "A big donor's own business ties are not Donalds's conduct, and I could not read the article, so it counts under no criterion.",
+   "strength": "opinion",
+   "urls": [
+    "https://www.miaminewtimes.com/news/the-tiktok-billionaire-bankrolling-byron-donalds-40558946/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 10,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 1,
+   "text": "",
+   "why": "Voting against Ukraine funding is an ordinary vote the platform score already covers, and no record on foreign land ownership was found.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Attendance: the miss record (68 of 676) was not weighed, as instructed. Unreadable pages: the X video (item 1) was blocked, so the quote comes from the item description and needs checking. The Wikipedia page (item 2), the CREW/Washington Examiner Bitcoin article (item 6) and the Miami New Times Yass article (item 9) were not read. The WFSU page (item 4) loaded without its body text, and the WPTV page was seen only in search results. The Campaign Legal Center and Florida Bulldog pages (item 3) were also seen only in search results. Item 7: the Examiner article's text did not show the June 2025 donation dates. The date and the iGas name came from the search snippet, and no response from Donalds was found. Florida Bulldog (Oct 5, 2026) ran a story headlined that Donalds filed significantly inaccurate financial disclosure forms throughout his time in Congress. A search snippet says he amended the reports and that the House ethics outcome is not public. The snippet also raised possible state campaign-law issues and his wife's charter-school companies. I could not read that article's body. It is worth reading for possible self-dealing or false-filing findings, and the original disclosure filings should be checked. Item 3 is open because no official outcome has been published. Item 5: Fishback's Oct 29 retraction was not confirmed. Owner sites: alexjoneslive.com carried Fishback's claim (item 5), and nothing was found on the other named sites."
+}

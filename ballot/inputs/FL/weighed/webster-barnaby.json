@@ -1,0 +1,21 @@
+{
+ "name": "Webster Barnaby",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On April 10, 2023, at a House committee hearing on a bathroom bill, Barnaby said it was like \"mutants living among us\" and called transgender people \"demons and imps.\" Later in the hearing he apologized for calling them \"demons.\" He also tweeted that he stood by his entire statement, including the apologies.",
+   "why": "His own words were widely reported and he apologized for part of them, but they involve no abuse of office, self-dealing, or false statement about his record, so they don't clearly bear on any of the criteria.",
+   "strength": "reporting",
+   "urls": [
+    "https://abcnews.com/US/florida-republican-apologizes-anti-transgender-demons-mutants-comments/story?id=98500770",
+    "https://www.cbsnews.com/miami/news/florida-gop-lawmaker-apologized-for-calling-trans-people-demons-and-mutants/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The one search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Barnaby, so owner_sites is empty. I read the ABC News and CBS Miami/News Service of Florida reports, not the hearing video or the official House transcript. Sources disagree on the bill number: the CBS text says HB 1521 and the PinkNews search snippet says HB1421. The item text avoids the number. Nothing else was researched on Barnaby (finances, foreign ties, business record, contracts, ethics complaints), so a reviewer may want to check those separately."
+}

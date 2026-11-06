@@ -1,0 +1,34 @@
+{
+ "name": "Adam Hamawy",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "against",
+   "weight": 2,
+   "criterion": 6,
+   "text": "In 1995 Hamawy testified under oath for the defense at Omar Abdel-Rahman's terrorism trial. He said he saw the cleric at mosques and in his home, shared a room with him on a 1991 trip and translated for him in 1993. Of jihad he said, \"Of course. That's what he always talked about.\" In 2026 the New Jersey Monitor reported that he \"maintains he had no relationship.\" A claim that he lied under oath is unproven: we found no court or official finding. His campaign called the coverage \"bad-faith, guilt-by-association attacks.\"",
+   "why": "Owner's pick on form note_9428: his 2026 account doesn't match his own sworn testimony (criterion 6). The claim that he lied in 1995 and the association itself don't count.",
+   "strength": "court",
+   "urls": [
+    "https://www.investigativeproject.org/case_docs/us-v-rahman-et-al/3058/1993-wtc-trial-transcript-6-of-8.pdf",
+    "https://newjerseymonitor.com/2026/05/27/adam-hamawy-blind-sheikh-12th-district-primary/",
+    "https://nj1015.com/adam-hamawy-political-scrutiny/"
+   ],
+   "owner_sites": [
+    "alexjoneslive.com"
+   ],
+   "check": [],
+   "edited": "by the seat after reading the transcript, pages 15058-15090",
+   "matter": "testimony-mismatch"
+  }
+ ],
+ "for_review": "I could not read the 1995 trial transcript, the Mukasey WSJ column (paywalled), the Free Beacon original, or Politico's reporting. Only search excerpts and secondary pages were available, and the Jewish Insider page loaded without its article text. The claim that Hamawy testified untruthfully comes from opinion and advocacy pieces (Steven Emerson/IPT, FrontPage, JNS). I found no court or official finding on it, and he was never charged. Someone should compare the transcript with that claim and read his campaign's full statements. Jewish Insider and the Blaze also report that he volunteered in Bosnia with Benevolence International Foundation, a group later shuttered as an Al-Qaida front. I did not examine this separately, so check it against primary records. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing relevant to Hamawy. He won the November 2026 general election with about 71-74% of the vote, so there is no House voting record yet.",
+ "owner_items": [
+  {
+   "title": "New Jersey Democrats Nominate Army Vet Who Testified In Defense Of Sheikh Tied To 1993 World Trade Center Bombing",
+   "url": "https://www.alexjoneslive.com/2026/06/03/new-jersey-democrats-nominate-army-vet-who-testified-in-defense-of-sheikh-tied-to-1993-world-trade-center-bombing/",
+   "says": "Reports his primary win and his 1995 testimony for the cleric.",
+   "date": "2026-06-03"
+  }
+ ]
+}

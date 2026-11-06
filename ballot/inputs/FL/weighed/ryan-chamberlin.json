@@ -1,0 +1,22 @@
+{
+ "name": "Ryan Chamberlin",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In 2023, losing primary candidate Jose Juarez sued a political committee and a consultant over attack mailers. He settled for a letter of apology and legal fees. Chamberlin was not a defendant. He denied funding or publishing negative materials and blamed PAC involvement.",
+   "why": "The defendants were a PAC and a consultant, not Chamberlin, and no finding ties him to the mailers, so this is guilt by association rather than his own conduct under criterion 6.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.ocalagazette.com/juarez-settles-defamation-suit-with-pac-and-chamberlins-campaign-manager/",
+    "https://www.clickorlando.com/news/politics/2023/04/19/ex-florida-house-candidate-sues-pac-gop-consultant-for-defamation-conspiracy/",
+    "https://www.wcjb.com/2023/03/01/republican-candidate-ryan-chamberlain-responds-opponents-cease-and-desist-letter/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The suit's defendants were the PAC Floridians for Ethics and Truth in Politics, consultant Brett Doster and his firm Front Line Agency. Doster was Chamberlin's campaign manager. The Ocala Gazette (Sept. 2023) reported that campaign funds passed through a PAC with the same treasurer as Chamberlin's campaign (the treasurer is Doster's brother) to the sued PAC. It also reported that Chamberlin paid Front Line Agency about $67,000 and declined to say whether he coordinated with Doster. It noted that coordination on electioneering communications is not illegal. No court or official finding links Chamberlin to the mailers. I did not read the court docket or the full settlement text. The Wikipedia page was not opened, and I did not verify its 'public apology' wording beyond the Gazette's quote of the defendants' joint statement. The one search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about Chamberlin. Unrelated: I did not check Chamberlin's wider record for other conduct."
+}

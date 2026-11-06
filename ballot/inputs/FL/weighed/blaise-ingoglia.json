@@ -1,0 +1,60 @@
+{
+ "name": "Blaise Ingoglia",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In August 2026, Florida Bulldog reported that Ingoglia's financial disclosure, filed May 29, 2026, did not list the addresses of 112 properties, worth over $10 million. Companies he controls own them. The form does list the companies themselves. His spokeswoman says the form was filled out accurately and an attorney reviewed it. The Ethics Commission has made no finding.",
+   "why": "This is an undecided accusation about his own disclosure filing (criterion 6), and the Ethics Commission has made no finding, so it is shown but does not count.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.rnews.news/story/2026/08/17/news/blaise-ingoglia-faces-questions-over-millions-in-real-estate-missing-from-financial-disclosure/1341.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In March 2026, Florida Bulldog reported that $342 million in contracts from Ingoglia's Department of Financial Services remained hidden from the public. The outlet says the contracts lack public documentation the Transparency Florida Act requires.",
+   "why": "The reporting concerns missing public paperwork at his agency rather than money steered to his own or family firms (criterion 6), and I found no official finding or record of wrongdoing by him.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.floridabulldog.org/2026/03/florida-cfo-ingoglia-talks-transparency-accountability-fails-deliver-342-million-contracts-hidden/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Local officials from both parties disputed the spending audits his office ran on their counties. Seminole County said his model ignored more than $120 million in state-mandated costs. Broward's Steven Geller called the numbers false. His office called critics \"big government apologists.\"",
+   "why": "This is a political and methodology dispute over audit figures, with no finding of abuse of office, self-dealing or lying about his own record under criterion 6.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridaphoenix.com/2025/11/23/county-leaders-get-candid-in-discussing-getting-doged-by-cfos-office/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 4,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "No foreign-tie conduct by this person was found, so there is nothing to weigh under criterion 2.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) The Florida Bulldog pages for items 1 and 2 loaded only as navigation and metadata, so I did not read the full articles. For item 1 I relied on the R News summary of the Bulldog story. A check of the full Bulldog text and of any sworn Ethics Commission complaint is worthwhile. 2) For item 2, the March story's body and the agency's response were unread. A search snippet had spokeswoman Sydney Booker saying the example was a purchase order, which she said is different from a contract. A Florida Politics snippet said the documentation failures began before his appointment and concerned missing records, not missing money. I could not open either page, so neither is in the text. The item stays context until someone reads them. 3) The owner-sites search (Alex Jones, Stew Peters, Ryan Dawson, Infowars) returned nothing about Ingoglia. 4) A search snippet from an opinion piece, which I did not read, says he hired a former aide tied to the Hope Florida matter as his chief of staff. That would be guilt by association unless there is conduct by him. 5) Possible weight if item 1 is later found to be a violation: 1, minor filing violation. A snippet said a similar omission by another official led to a $1,500 fine."
+}

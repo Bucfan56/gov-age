@@ -1,0 +1,20 @@
+{
+ "name": "Jessie Lopez",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "A recall election against Lopez, then a Santa Ana councilmember, was held on Nov. 14, 2023. The police officers' union and real estate groups backed it, citing her votes for rent control and on police issues. Lopez called them special interests that harm working-class people. Early results showed her avoiding recall.",
+   "why": "The recall was driven by opponents objecting to her ordinary policy votes, with no allegation or finding of misconduct bearing on any criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://laist.com/brief/news/politics/santa-ana-recall-jessie-lopez-early-results"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The Ballotpedia recall page and the OC Independent piece (which lists the recall notice's stated grounds) appeared only as search snippets and weren't opened. I read only the LAist piece in full, and it matches the snippets. The one search on the owner's named sites returned nothing about Lopez. Because those results were irrelevant, no site is named in owner_sites. I did not search for other controversies, such as ethics complaints, her Assembly record or campaign finance. A reviewer may want to check those."
+}

@@ -1,0 +1,68 @@
+{
+ "name": "Randy Fine",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Fine's statements about Muslims and Palestinians have drawn repeated criticism. In 2025 he wrote on X that the Palestinian movement \"must be put down by any means necessary,\" comparing it to the atomic bombings of Japan. In August 2026 he called New York Mayor Zohran Mamdani a \"Jihadi.\"",
+   "why": "These are Fine's own documented words and widely criticized, but no finding of wrongdoing was found and they don't clearly bear on any of the owner's criteria.",
+   "strength": "own_words",
+   "urls": [
+    "https://cbs12.com/news/local/us-rep-randy-fine-caught-snooping-inside-homes-mailbox-tmz-video-no-federal-charges-ring-camera-video-front-porch-ormond-beach-postal-service-mail-gop-primary-battle"
+   ],
+   "owner_sites": [
+    "ryandawson.org (Jul 26, 2026 podcast post attacking Fine; no evidence offered)",
+    "alexjoneslive.com (Sept 2, 2026 post calling Fine an 'Israeli operative' over remarks about Thomas Massie; no evidence offered)"
+   ],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On Aug. 16, 2026, a homeowner's Ring camera in Ormond Beach recorded Fine, in campaign gear, opening a porch mailbox and flipping through letters. He took nothing and left nothing. His office confirmed it was him. The homeowner reportedly declined to press charges, and no federal charges were reported.",
+   "why": "The video is undisputed, but no charge or official finding exists and it does not show abuse of office or self-dealing under the owner's criteria.",
+   "strength": "reporting",
+   "urls": [
+    "https://cbs12.com/news/local/us-rep-randy-fine-caught-snooping-inside-homes-mailbox-tmz-video-no-federal-charges-ring-camera-video-front-porch-ormond-beach-postal-service-mail-gop-primary-battle"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In April 2023 the Florida Commission on Ethics found probable cause that Fine threatened state funding over a personal feud. He called it a \"kangaroo court.\" The commission dismissed the case in July 2024 without ruling on the facts. In October 2024 a judge held him in contempt for obscene gestures in a video hearing and ordered anger-management class. He vowed to appeal.",
+   "why": "The ethics matter was dismissed with no finding on the facts, and the contempt finding was for courtroom conduct, so neither is an established abuse-of-office finding under the owner's criteria.",
+   "strength": "official",
+   "urls": [
+    "https://ballotpedia.org/Randy_Fine",
+    "https://mynews13.com/fl/orlando/news/2024/10/01/judge-holds-rep--randy-fine-in-contempt--ordered-to-complete-anger-management-course-for-actions-during-video-hearing"
+   ],
+   "owner_sites": [],
+   "check": [
+    "kangaroo court."
+   ]
+  },
+  {
+   "item": null,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "On Sept. 2, 2026, WKMG reported that an ethics commission found probable cause against Fine. He is accused of accepting gifts he was not allowed to take from a donor. No final decision was reported there, and Fine's response was not included.",
+   "why": "This is a serious accusation about his own conduct in office (criterion 6) that appears undecided, so it is shown but does not count yet.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.clickorlando.com/video/news/2026/09/03/florida-congressman-randy-fine-under-fire-as-ethics-probe-finds-probable-cause/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "1) The Sept 2026 gifts/ethics probable-cause item is only a short WKMG video blurb. Check which commission (state or House), who the donor is, what the gifts were, the timeline, Fine's response, and the outcome. If a violation is found, it could be weight 1 to 3. 2) Item 1: I did not read originals for the July 2025 'starve away' post, the Omar attack, the Feb 2026 'dogs vs Muslims' post, or the Armenian remarks, and I did not read the AJC or Democratic condemnations. Only the 2025 Gaza 'put down' post and the Mamdani post were seen, via the Orlando Sentinel. 3) Item 3: the Ballotpedia page fetch cut off before its ethics section. The July 2026-era dismissal wording (July 26, 2024, lack of legal sufficiency) comes from the Ballotpedia search excerpt, so confirm it on the Florida Commission on Ethics record. Floridabulldog reporting says the commission reversed course at Fine's lawyer's request. The contempt fine amount ($250, per Fox 35) was not on a page I opened. 4) Item 2: Fine's own response was not found, and the TMZ original was not read. 5) Neither Alex Jones Live nor Ryan Dawson offered evidence; nothing was found on stewpeters.com or infowars.com. Attendance and AIPAC-related items were not weighed."
+}

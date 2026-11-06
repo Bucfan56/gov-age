@@ -1,0 +1,20 @@
+{
+ "name": "Steve Padilla",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "While Chula Vista's mayor, Padilla had a personal bodyguard paid by the city, at a base pay of $10,000 a month. Critics objected during his 2006 re-election bid, which he lost. In 2014 he said he hired the bodyguard after anonymous threats. He said it was cheaper than using police, and he called it a mistake.",
+   "why": "Padilla admits using city money for a bodyguard, but I found no official finding of abuse of office or self-dealing (criterion 6), so it is shown without counting.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.thestarnews.com/coming-back-to-council-2/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I could not read the original 2006 San Diego Union-Tribune or Chula Vista Star-News reporting. The Star-News archive page was blocked. The only 2006-era coverage I found was a partisan blog (flashreport.org) that mentions a requested fraud investigation and the council reinstating the contract. I did not use it. Someone should check whether any investigation or finding followed. Also check whether the paycheck advances the 2014 Star News mentioned (10 advances, 2 of them double) were reported or reviewed by officials. Padilla said they broke no rules. The owner-sites search found nothing relevant to Padilla."
+}

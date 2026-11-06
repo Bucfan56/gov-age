@@ -1,0 +1,21 @@
+{
+ "name": "Jacqui Irwin",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In September 2019, Politico reported that Irwin carried a bill (AB 873) to narrow the state privacy law while her husband was Ring's chief operating officer. She had disclosed his job, and the state ethics agency said it had received no complaints. She said her role is independent of his job.",
+   "why": "The reporting bears on not taking advantage of her position (criterion 6), but no finding of wrongdoing was reported, so it is shown without counting.",
+   "strength": "reporting",
+   "urls": [
+    "https://news.yahoo.com/california-lawmaker-trying-weaken-privacy-105802098.html",
+    "https://www.theepochtimes.com/us/lawmakers-possible-conflict-of-interest-prompts-concern-3090874"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The Wikipedia line that Irwin consults the Assembly ethics officer on conflicts was not confirmed in the Politico or Epoch Times articles I read, so I left it out of the text. Politico quotes the Assembly ethics counsel on a 'public generally' exception, but no one ruled on Irwin's case. I did not find an FPPC or Assembly ethics decision on her. The owner-site search returned nothing about her. The Politico article was read through Yahoo's copy of it."
+}

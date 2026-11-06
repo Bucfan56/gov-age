@@ -1,0 +1,32 @@
+{
+ "name": "Elizabeth \"Liz\" Arnold",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 6,
+   "text": "Before the August 2026 primary, PAC texts and signs said Liz Arnold and her husband were under animal-abuse investigation. The claims came from a February 2025 incident when he fired a shot at loose dogs attacking their poodle. A county animal-welfare case opened Aug. 3 was closed Aug. 13 with no violation substantiated.",
+   "why": "The charge is about her husband's handling of a dog attack, and the county found no violation, so there is no conduct of hers that bears on criterion 6.",
+   "strength": "reporting",
+   "urls": [
+    "https://thebradentontimes.com/stories/deceit-in-district-1-familiar-political-players-reemerge-as-the-county-remains-silent,209220"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "No foreign-government payments, foreign-agent filings or foreign-linked donors were found for Arnold.",
+   "why": "Nothing was documented under criterion 2, so there is no conduct to weigh.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The Bradenton Times endorsed Arnold, and its reporting is the main source on the animal-welfare matter. I couldn't open the original sheriff's report or the county animal-welfare file. The Observer article (yourobserver.com, Aug. 26, 2026) wouldn't load when I fetched it. A search snippet from it matches the account of the dog attack, but I didn't use it as a source. The first Bradenton Times URL on the item list also failed to load, so I used a companion article by the same reporter. The one search on the owner's named sites, run with her name, returned nothing from those sites. I did not run a separate check for other issues, such as campaign finance, her business record or ethics complaints. She was elected Nov. 3, 2026, so there is no attendance record yet."
+}

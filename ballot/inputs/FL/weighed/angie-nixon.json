@@ -1,0 +1,46 @@
+{
+ "name": "Angie Nixon",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In May 2026 Nixon was arrested at the Capitol after about five hours seeking a meeting with the governor's office over the new congressional maps. In September she agreed to pay $250 and do 15 hours of community service, and the charges will be dismissed with no plea. She said she did nothing wrong.",
+   "why": "The arrest came from a political protest and ended with no plea or finding of wrongdoing, and it has no clear bearing on abuse of office, self-dealing or any other criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.actionnewsjax.com/news/local/state-representative-angie-nixon-reaches-agreement-resolve-capitol-arrest-avoids-plea/L7INQGFKQNCKHKLPDS2YIJKYLE/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On May 14, 2026, a Florida House committee reprimanded Nixon for repeatedly using a bullhorn on the House floor during the April 29 redistricting vote. It was the Legislature's first official reprimand in over 20 years. Two Democrats accidentally voted for the map during the disturbance. Nixon said she didn't care about the reprimand.",
+   "why": "The committee found she broke House decorum rules, but the matter concerns floor conduct in a protest, not abuse of office, self-dealing or lying, so it doesn't clearly fail a criterion.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridaphoenix.com/2026/05/14/ethics-panel-delivers-first-reprimand-in-20-years-over-angie-nixons-bullhorn/"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "No foreign government, foreign-parent, lobbying or paid-travel conduct was documented for this candidate (criterion 2), and my searches found none.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The one search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about Nixon, so owner_sites is empty. I could not read the WLRN article cited for item 2 beyond its page header. The reprimand facts come from the Florida Phoenix report, and I did not read the written reprimand itself. Item 2 is a judgment call: it is an official committee reprimand for a rules violation, and I treated it as context because it isn't abuse of office or self-dealing. Reviewers may want to reconsider whether it deserves weight 1. Other points to check: I found court reports that the arrest charges were trespassing and resisting an officer without violence (WCTV, First Coast News), but I didn't open them. Nixon lost the Nov. 3, 2026 general election to Ashley Moody, 48% to 50.9% per WLRN.The first-coast and WCTV arrest reports were seen only in search results."
+}

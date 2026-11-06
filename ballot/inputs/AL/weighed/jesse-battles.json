@@ -1,0 +1,36 @@
+{
+ "name": "Jesse Battles",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In February 2026 the Alabama Republican Party's steering committee removed Battles from the Republican primary ballot. A challenge said he broke party rules by doing paid political work in 2018 for an independent who ran against a Republican. Battles says the party misapplied its own six-year rule. He then qualified as an Independent.",
+   "why": "This is a private party's ballot rule dispute, not an official finding of misconduct, and it doesn't clearly bear on any of the criteria.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.alabamagazette.com/story/2026/02/01/news/gop-steering-committee-removes-jessie-battles-from-senate-district-10-race/10043.html",
+    "https://gadsdenmessenger.com/battles-to-run-as-independent-in-district-10-race/",
+    "https://jessebattles.com"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "This is the same ballot-removal matter as item 1, and Ballotpedia's withdrawn-or-disqualified listing gives no reason or separate conduct.",
+   "strength": "reporting",
+   "urls": [
+    "https://ballotpedia.org/Jesse_Battles"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The owner-site search (Battles with alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Battles. I did not read the original ballot challenge or the party's written decision, only news reports. The Alabama Gazette dateline says Feb. 15 but its URL says Feb. 1; other outlets say mid-February. An opponent-run site (realjessebattles.com) claims he paid a lawyer $5,000 and overstated his role with JSU College Republicans. I did not open it and didn't verify either claim. The Nov. 2026 general election is extremely close (Battles led by about 52 votes in unofficial returns, and a recount is possible), so check the result. I also did not check his campaign finance filings or his business record."
+}

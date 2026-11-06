@@ -1,0 +1,18 @@
+{
+ "name": "Ocean Fitts",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item says no foreign-government, FARA or foreign-agent ties were found, so it describes no conduct by this person that bears on the foreign-ties criterion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 1 is an absence-of-findings note, not a controversy, so I marked it leave_off. The owner-site search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Fitts. A general search found no controversy, charges or findings. Search results show Fitts is a Democrat who ran for House District 71 and lost the Nov. 3, 2026 general election to Republican Jordan Varnadore, about 44% to 54%. He is not a sitting State Representative. Reports describe him as 27 and a Palmetto resident. I didn't verify his work history, campaign finance reports or FARA records directly. A reviewer could check the Florida Division of Elections finance filings and his employment history."
+}

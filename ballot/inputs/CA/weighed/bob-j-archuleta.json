@@ -1,0 +1,21 @@
+{
+ "name": "Bob J. Archuleta",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "open",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In March 2021, a former district director sued Sen. Archuleta, the state Senate and others in Los Angeles court. She alleged unwanted comments and advances in 2019, and retaliation after she refused them. He called the allegations \"completely and categorically false.\" No court finding has been reported.",
+   "why": "This is an undecided, serious accusation about his own conduct toward a staffer, which bears on abuse of office (criterion 6), and it doesn't count until it is decided.",
+   "strength": "reporting",
+   "urls": [
+    "https://news.yahoo.com/former-legislative-staffer-sued-state-002015947.html",
+    "https://www.thedowneypatriot.com/articles/archuleta-accused-of-sexual-harassment-by-former-employee"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "I found no ruling, settlement or dismissal for the lawsuit. The newest coverage I saw was from November 2023, and I did not open it; it showed the case still pending, with the Workplace Conduct Unit asking to be dropped as a defendant. Check the Los Angeles Superior Court docket for the current status. The LA Times piece (mid-2022) reports that the Senate offered the plaintiff her job back and $250,000 to settle without admitting liability. She did not respond to the offer, and the Senate's lawyers said she refused to cooperate with the Workplace Conduct Unit's investigation, which her attorney denied. I left these details out of the voter text for space. The Ballotpedia page said the harassment included attempts to hold her hand in public. I could not confirm that detail in the articles I opened, so I left it out. I used one search on the owner's named sites with Archuleta's name. It returned nothing about him, so owner_sites is empty. The Ballotpedia page also gives his work history as reserve police officer and city council member. I did not weigh those, since no item raised them."
+}

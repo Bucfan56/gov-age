@@ -1,0 +1,20 @@
+{
+ "name": "Chase Tramont",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "In a July 2022 candidate debate, reported by the Daytona Beach News-Journal, Tramont said the separation of church and state does not appear in the Constitution or founding documents. He said he strongly supports religious liberty.",
+   "why": "This is a statement of constitutional opinion, not conduct bearing on any criterion, and the platform score covers his stances.",
+   "strength": "own_words",
+   "urls": [
+    "https://www.yahoo.com/news/chase-tramont-robyn-hattaway-race-093012152.html"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The owner-site search (Tramont with alexjoneslive.com, stewpeters.com, ryandawson.org and infowars.com) found nothing about him. I did not search for other controversies, such as finances, contracts or ethics complaints, because the 4-search limit went to the listed item and the owner-site search. The 2022 News-Journal article is the original source of the quote. It describes his work as a marketing manager at DME Delivers, which a reviewer could check for the 'real work' criterion."
+}

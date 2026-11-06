@@ -1,0 +1,21 @@
+{
+ "name": "Ash Kalra",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "San Jose Councilman Ash Kalra was arrested for drunken driving on May 7, 2011, after a stop for a broken taillight. He called it a \"terrible error in judgment\" and apologized to his council colleagues. In June 2011 he pleaded guilty to a misdemeanor. His sentence included three years of probation, a fine, a DUI class and community service.",
+   "why": "This is a real 2011 misdemeanor conviction, but it was a personal offense with no abuse of office or self-dealing, so it fits none of the criteria (6 included) and is shown without counting.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.cbsnews.com/sanfrancisco/news/san-jose-city-councilman-arrested-for-dui",
+    "https://cbsnews.com/sanfrancisco/news/san-jose-councilman-pleads-guilty-to-dui"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Wikipedia says Kalra pleaded no contest. The CBS/AP report (attorney confirmed) and the SFGate sentencing story (not readable here) both say he pleaded guilty, so the text says guilty. The sentencing details come from the CBS report and use its wording (about $1,900 fine, five days of community service). SFGate gives a $2,000 fine and a jail work-detail program, which I couldn't open to check. I did not read the court record itself. The one search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) turned up nothing about Kalra. I found no other matters that meet the against or open bar."
+}

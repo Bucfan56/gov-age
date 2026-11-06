@@ -1,0 +1,49 @@
+{
+ "name": "Xavier Becerra",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "The California State Auditor's January 2021 findings of slow fraud prevention and about $10.4 billion in possibly fraudulent payments are about the Employment Development Department's own conduct, and no finding or record of Becerra's own conduct bearing on a criterion was found.",
+   "strength": "official",
+   "urls": [
+    "https://information.auditor.ca.gov/pdfs/reports/2020-628.2.pdf"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In January 2019, Attorney General Becerra's office told two UC Berkeley reporters that possessing a list of convicted police officers was a misdemeanor, and demanded they destroy it. The First Amendment Coalition called a threat of charges groundless. His office said the data was confidential. The reporters refused to comply.",
+   "why": "The letter is documented, but no court or official finding says it was an abuse of office, so it bears on not misusing the position (criterion 6) without meeting the bar for a weighted mark.",
+   "strength": "reporting",
+   "urls": [
+    "https://freedom.press/issues/brewing-first-amendment-fight-californias-attorney-general-threatens-journalists-possessing-public-records-document/",
+    "https://www.kqed.org/news/12084594/what-ag-xavier-becerra-reveals-about-a-possible-gov-becerra"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 5,
+   "text": "In May 2026, KQED reported that Becerra's time as U.S. health secretary had drawn new scrutiny from journalists and opponents, including over the migrant child crisis. His own response is not covered here.",
+   "why": "This is widely reported and bears on doing the job (criterion 5), but I could not read the original New York Times reporting, any inspector general report, or Becerra's own answers, so no verdict rests on it yet.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.kqed.org/news/12084594/what-ag-xavier-becerra-reveals-about-a-possible-gov-becerra"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 3 is the one that most needs a human check, and I could not read its primary sources. I did not open the NYT reporting (Hannah Dreier, Feb 2023, and a May 2026 piece), HHS OIG or DHS OIG reports, the Grassley letters, or the 2023 hearing transcripts. Search snippets show Becerra saying the children were 'not lost', saying he was unfamiliar with the 85,000 figure, and saying the follow-up calls were not required of HHS. His campaign spokesperson also said no children were 'lost'. A leaked-audio claim that he pressed staff to move children faster (campaign and opinion-outlet sourcing) and the 65,000 unanswered hotline calls were not verified from original records. The Washington Examiner page was paywalled. Items 3's 'against' potential rests on whether an official finding or Becerra's own words establish loosened protections; verify from the NYT and OIG records. Item 1: I only saw the LA Times quote (Dec 2020) about district attorneys faulting state officials, including Becerra, through a social-media excerpt and never read the article. The state audit does not name Becerra and says the Attorney General authorized sharing prison data with EDD in early December 2020. Item 2: Becerra's own statement to Freedom of the Press Foundation was cut off on the page, and a KQED report says he defended his handling of the police records law more generally. A separate matter, not an item here: a court ordered him to release police misconduct records after the First Amendment Coalition and KQED sued. The owner-sites search (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing about Becerra, so owner_sites is empty."
+}

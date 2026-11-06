@@ -1,0 +1,21 @@
+{
+ "name": "Mia Bonta",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 3,
+   "text": "In June 2021, while Mia Bonta ran in the special election for her husband's Assembly seat, rival Janani Ramachandran said gaming-industry donations to her campaign might be meant to influence her husband, Attorney General Rob Bonta. The San Francisco Chronicle reported no finding of wrongdoing.",
+   "why": "The claim is a rival's campaign allegation about gaming-industry donations (big money, criterion 3), and I found no official finding or evidence of any improper act by her.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.sfchronicle.com/politics/article/Assembly-rival-says-Mia-Bonta-gets-contributions-16266425.php"
+   ],
+   "owner_sites": [],
+   "check": [],
+   "edited": true
+  }
+ ],
+ "for_review": "I read only the SF Chronicle pages, and they were truncated. I did not read in full the line that Rob Bonta called the accusations sexist, so I left it out of the text. Mia Bonta's own response and the Secretary of State filings were not read. The owner-sites search found nothing about her. Search results included advocacy and opposition sites (bontafiles.com, thecurrentreport.com) that allege straw donors tied to Andy Duong and a Viridis Fuels address connection. I did not read these or any court records, and they allege nothing proven against her. Someone should check the court and FPPC records on the Duong case to see whether she is named at all."
+}

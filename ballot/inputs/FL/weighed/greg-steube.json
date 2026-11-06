@@ -1,0 +1,48 @@
+{
+ "name": "Greg Steube",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In late February 2021, Steube was among Republicans who wrote the House clerk to have colleagues vote for him by proxy while he was set to speak at a conservative conference in Orlando. Letters cited the public health emergency. A watchdog group asked the House Ethics Committee to investigate. No investigation of him is reported.",
+   "why": "The accusation is that he misused proxy-voting rules (criteria 5 and 6), but no official finding exists and the votes were cast by proxy, so they aren't counted as missed.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.washingtonexaminer.com/news/1362142/house-republicans-use-proxy-voting-gop-once-reviled-ahead-of-cpac-appearances/",
+    "https://www.cnn.com/2021/03/10/politics/house-committee-ethics-watchdog-republicans-proxy-voting-cpac/index.html",
+    "https://en.wikipedia.org/wiki/Greg_Steube"
+   ],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 2,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "",
+   "why": "These were ordinary floor votes (certification and impeachment), which are a matter of platform disagreement and not conduct that bears on criteria 1–6.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  },
+  {
+   "item": 3,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 0,
+   "text": "During the COVID-19 pandemic, Steube argued that the \"deep state\" at the FDA was preventing the use of hydroxychloroquine to treat COVID-19. Medical experts note the drug neither treats nor prevents the infection.",
+   "why": "This is a public statement on a medical policy question with no finding of wrongdoing and no clear bearing on any criterion, and the original source of his statement was not read.",
+   "strength": "opinion",
+   "urls": [
+    "https://en.wikipedia.org/wiki/Greg_Steube"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Item 3: I could not read Steube's original remarks. Wikipedia cites The Ledger, which I could not open, so check his exact words and date. Item 1: the CNN page I read does not name Steube. The Washington Examiner page names him among those who sent proxy letters. The watchdog's own release (Campaign for Accountability, March 10, 2021) lists him but was seen only in search results. His own explanation was only in a search snippet, so I left it out. One Yahoo/Business Insider piece says he signed the GOP anti-proxy lawsuit pledge, but it was garbled, since it calls him a Texas congressman, so verify before using. The one search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) found nothing about Steube. Attendance and AIPAC matters were not weighed here."
+}

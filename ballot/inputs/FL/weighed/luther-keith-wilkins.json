@@ -1,0 +1,18 @@
+{
+ "name": "Luther Keith Wilkins",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 2,
+   "text": "",
+   "why": "The item says the records searched (FARA filings, foreign-government payments, state-owned business, foreign-agent donors) showed nothing, so there is no conduct by this person bearing on the foreign-ties criterion.",
+   "strength": "reporting",
+   "urls": [],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The item is a null finding, and I found nothing to contradict it. I did not open the FARA database or the campaign-finance filings myself. The single search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) with his name returned nothing from any of them. The record shows Wilkins is a challenger, not a sitting State Representative. He lost to Michael Owen in 2024 and was running against him again in 2026. County results on Nov 3, 2026 showed Owen ahead, about 61% to 39%. The Ballot Buddy header should be checked. His career is a mix of insurance sales, logistics work, Army service and a newspaper publisher role, which matters for the real-work criterion. I did not weigh it here."
+}

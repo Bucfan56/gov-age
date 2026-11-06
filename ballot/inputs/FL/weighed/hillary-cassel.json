@@ -1,0 +1,22 @@
+{
+ "name": "Hillary Cassel",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "Cassel switched from Democrat to Republican in December 2024. Delmay and other Democrats accused her of betraying voters. She said she has stayed consistent, citing her support for LGBTQ rights and abortion access.",
+   "why": "Switching parties is a lawful political choice, and the item is opponents' criticism with no finding of misconduct or lying about her record, so it bears on none of the criteria.",
+   "strength": "reporting",
+   "urls": [
+    "https://floridapolitics.com/archives/826243-up-against-todd-delmay-in-hd-101-hillary-cassel-is-set-to-face-voters-for-first-time-since-switching-parties/"
+   ],
+   "owner_sites": [],
+   "check": [
+    "2024"
+   ]
+  }
+ ],
+ "for_review": "The Florida Politics page could not be opened directly, so I read it only as a search-result excerpt. I also read excerpts from the Florida Phoenix and Miami Herald/Yahoo coverage. The search on the owner's named sites (alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) found nothing about Cassel. I did not check her voting record on LGBTQ or abortion bills against her claim of consistency. A reviewer could check that if they want to test whether she has been consistent. Results reported on Nov 4–5, 2026 say Cassel lost the general election to Delmay, 44% to 56%."
+}

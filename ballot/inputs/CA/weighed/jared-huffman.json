@@ -1,0 +1,21 @@
+{
+ "name": "Jared Huffman",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "leave_off",
+   "weight": 0,
+   "criterion": 0,
+   "text": "On Nov. 2, 2023, Huffman voted against a House resolution condemning support of Hamas and other terror groups at colleges. He said the measure had factual errors. Within days he apologized, writing \"I should have voted the other way\" and \"I screwed up folks.\"",
+   "why": "This is one ordinary floor vote that he publicly reversed, with no abuse of office, self-dealing or foreign-money conduct, so it bears on no criterion.",
+   "strength": "own_words",
+   "urls": [
+    "https://huffman.house.gov/media-center/newsletter/update-on-congressional-action-regarding-middle-east-conflict-a-message-from-rep-huffman",
+    "https://www.pressdemocrat.com/2023/11/06/rep-jared-huffman-backtracks-on-vote-concerning-campus-antisemitism/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "Only item 1 was given, and I read it from Huffman's own statement and the Press Democrat. I made no attempt to find other controversies and added none. The one search on the owner's named sites returned nothing about Huffman. The two sources give different counts of 'no' votes: 22 on Wikipedia and 23 elsewhere. Attendance was not weighed, as instructed. A reviewer may still want to decide whether a vote on a Hamas/antisemitism resolution deserves a 'context' label instead of leave_off."
+}

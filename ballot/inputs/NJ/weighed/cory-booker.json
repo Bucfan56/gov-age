@@ -1,0 +1,20 @@
+{
+ "name": "Cory Booker",
+ "items": [
+  {
+   "item": 1,
+   "verdict": "context",
+   "weight": 0,
+   "criterion": 6,
+   "text": "In a February 2012 radio interview, Mayor Booker said Newark's unemployment rate fell 2 points in the past year. His office backed this with real federal data comparing January to December 2011, which were not seasonally adjusted. PolitiFact rated it False because the December-to-December drop was 0.7 points. His office called the statement accurate.",
+   "why": "This is a disputed way of presenting his record as mayor (criterion 6), but the figures were real and nothing shows he meant to deceive.",
+   "strength": "reporting",
+   "urls": [
+    "https://www.politifact.com/factchecks/2012/mar/01/cory-booker/cory-booker-claims-jobless-rate-fell-two-percentag/"
+   ],
+   "owner_sites": [],
+   "check": []
+  }
+ ],
+ "for_review": "The owner-sites search (Booker plus alexjoneslive.com, stewpeters.com, ryandawson.org, infowars.com) returned nothing relevant to this item. I read only the PolitiFact ruling, not the original WBGO interview or the BLS tables. The verdict is context because the figures were real and nothing shows intent to deceive. A reviewer who treats a PolitiFact 'False' as enough for criterion 6 could make it a weight-1 'against' instead. Attendance (40 of 915 missed, well under the 100-vote line) raised no concern. I looked for no other items."
+}

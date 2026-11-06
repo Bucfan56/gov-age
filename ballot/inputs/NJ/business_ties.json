@@ -1,0 +1,587 @@
+{
+ "analilia-mejia": {
+  "race": "U.S. House, District 11",
+  "filing": {
+   "doc": "10081605",
+   "type": "C",
+   "year": "2026",
+   "filed": "8/12/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081605.pdf"
+ },
+ "joe-hathaway": {
+  "race": "U.S. House, District 11",
+  "filing": {
+   "doc": "10078583",
+   "type": "C",
+   "year": "2026",
+   "filed": "9/17/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Councilman",
+    "organization": "Randolph Township"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078583.pdf"
+ },
+ "nellie-pou": {
+  "race": "U.S. House, District 9",
+  "filing": {
+   "doc": "10077198",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/15/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Partner",
+    "organization": "7 Marshall LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077198.pdf"
+ },
+ "rosie-pino": {
+  "race": "U.S. House, District 9",
+  "filing": {
+   "doc": "10083016",
+   "type": "C",
+   "year": "2026",
+   "filed": "10/8/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Providing Individuals New Opportunities Inc.",
+    "code": "OL",
+    "description": "Community engagement business",
+    "place": "Clifton, NJ, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Securing Equality and Transparency Consulting Firm",
+    "code": "OL",
+    "description": "Consulting business",
+    "place": "Clifton, NJ, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Director",
+    "organization": "Providing Individuals New Opportunities Inc."
+   },
+   {
+    "title": "Trustee/Director",
+    "organization": "Latino Leaders of Clifton"
+   },
+   {
+    "title": "Councilwoman",
+    "organization": "Clifton City Council"
+   },
+   {
+    "title": "Director",
+    "organization": "Securing Equality and Transparency Consulting Firm"
+   },
+   {
+    "title": "Trustee/Director",
+    "organization": "Educated Communities Help Other"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10083016.pdf"
+ },
+ "lamonica-mciver": {
+  "race": "U.S. House, District 10",
+  "filing": {
+   "doc": "10076045",
+   "type": "O",
+   "year": "2025",
+   "filed": "6/18/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076045.pdf"
+ },
+ "carmen-bucco": {
+  "race": "U.S. House, District 10",
+  "filing": {
+   "doc": "10073010",
+   "type": "C",
+   "year": "2025",
+   "filed": "12/12/2025"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10073010.pdf"
+ },
+ "donald-norcross": {
+  "race": "U.S. House, District 1",
+  "filing": {
+   "doc": "10075122",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/11/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075122.pdf"
+ },
+ "damon-galdo": {
+  "race": "U.S. House, District 1",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "chris-smith": {
+  "race": "U.S. House, District 4",
+  "filing": {
+   "doc": "10077869",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/13/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077869.pdf"
+ },
+ "rachel-peace": {
+  "race": "U.S. House, District 4",
+  "filing": {
+   "doc": "10076357",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/1/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Hyperfocused Communications, LLC",
+    "code": "OL",
+    "description": "Sole-member LLC that generates revenue through my personal services",
+    "place": "Long Branch, NJ, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Consultant",
+    "organization": "Black Girl Environmentalist"
+   },
+   {
+    "title": "Consultant",
+    "organization": "Climate Revolution Action Network"
+   },
+   {
+    "title": "Proprietor",
+    "organization": "Hyperfocused Communications, LLC"
+   },
+   {
+    "title": "Consultant",
+    "organization": "Sustainable Ocean Alliance, Inc."
+   },
+   {
+    "title": "Consultant",
+    "organization": "Nursing Legacy Insitute"
+   },
+   {
+    "title": "Consultant",
+    "organization": "ONET Global Inc."
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076357.pdf"
+ },
+ "zack-mullock": {
+  "race": "U.S. House, District 2",
+  "filing": {
+   "doc": "10074520",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/9/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Mayor",
+    "organization": "City of Cape May"
+   },
+   {
+    "title": "Vice President",
+    "organization": "Cape May National Golf Club"
+   },
+   {
+    "title": "Director",
+    "organization": "Atlantic Cape Community College Foundation Board"
+   },
+   {
+    "title": "Director",
+    "organization": "Cape May Point Arts & Science Center"
+   },
+   {
+    "title": "Director",
+    "organization": "Harriett Tubman Museum"
+   },
+   {
+    "title": "Director",
+    "organization": "Coast Guard Community Foundation"
+   },
+   {
+    "title": "Director",
+    "organization": "Convent Arts Board"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10074520.pdf"
+ },
+ "jeff-van-drew": {
+  "race": "U.S. House, District 2",
+  "filing": {
+   "doc": "9116169",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/14/2026"
+  },
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116169.pdf"
+ },
+ "herb-conaway": {
+  "race": "U.S. House, District 3",
+  "filing": {
+   "doc": "10081464",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Medical Research Trials LLC",
+    "code": "OL",
+    "description": "Medical Trials testing",
+    "place": "Delran, NJ, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Premier Research Inc.",
+    "code": "OL",
+    "description": "Medical Research",
+    "place": "Trenton, NJ, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "President",
+    "organization": "HCHCJR LLC"
+   },
+   {
+    "title": "President",
+    "organization": "Medical Research Trials LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081464.pdf"
+ },
+ "michael-mcguire": {
+  "race": "U.S. House, District 3",
+  "filing": {
+   "doc": "10073136",
+   "type": "C",
+   "year": "2025",
+   "filed": "1/19/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Paymaster",
+    "organization": "Marine Corps league-CPL Phillip A. Reynolds Detachment"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10073136.pdf"
+ },
+ "adam-hamawy": {
+  "race": "U.S. House, District 12",
+  "filing": {
+   "doc": "10076830",
+   "type": "A",
+   "year": "2026",
+   "filed": "5/6/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "North East Medical Aesthetic Institute LLC",
+    "code": "OL",
+    "description": "Provides Aesthetic Medical Education",
+    "place": "Princeton, NJ, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Princeton Plastic Surgeons PC",
+    "code": "OL",
+    "description": "Medical Practice",
+    "place": "Princeton, NJ, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "President and Owner",
+    "organization": "Princeton Plastic Surgeons PC"
+   },
+   {
+    "title": "Medical Director",
+    "organization": "Orange Twist Princeton"
+   },
+   {
+    "title": "Senator",
+    "organization": "Rutgers University Senate"
+   },
+   {
+    "title": "Board of Directors",
+    "organization": "New Jersey Society of Plastic Surgeons"
+   },
+   {
+    "title": "Sole Member",
+    "organization": "Hamawy Consults LLC"
+   },
+   {
+    "title": "Member",
+    "organization": "Dragonstone Citrous Holdings LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076830.pdf"
+ },
+ "gregg-mele": {
+  "race": "U.S. House, District 12",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "rebecca-bennett": {
+  "race": "U.S. House, District 7",
+  "filing": {
+   "doc": "10076779",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/15/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Midi Health Inc.",
+    "code": "PS",
+    "description": "Exercised incentive stock options that are non tradable/non public.",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076779.pdf"
+ },
+ "thomas-kean-jr": {
+  "race": "U.S. House, District 7",
+  "filing": {
+   "doc": "10075136",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/13/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "DoForms Inc",
+    "code": "PS",
+    "description": "Corporation. Cranford, NJ.",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Greener By Design, LLC",
+    "code": "OL",
+    "description": "",
+    "place": "Elizabeth, NJ, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "LLC MEMBER",
+    "organization": "SHARON ARMS ASSOCIATES LLC"
+   },
+   {
+    "title": "PARTNER",
+    "organization": "KEAN FAMILY PARTNERSHIP LP"
+   },
+   {
+    "title": "VICE PRESIDENT/TRUSTEE",
+    "organization": "THE KEAN FOUNDATION INC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075136.pdf"
+ },
+ "josh-gottheimer": {
+  "race": "U.S. House, District 5",
+  "filing": {
+   "doc": "10074410",
+   "type": "O",
+   "year": "2025",
+   "filed": "8/10/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "QPG Ambassador Investors LLC",
+    "code": "OL",
+    "description": "Real Estate",
+    "place": "New York, NY, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Tusk Venture Partners I GP, LLC",
+    "code": "OL",
+    "description": "",
+    "place": "New York, NY, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Tusk Venture Partners II GP, LLC",
+    "code": "OL",
+    "description": "Technology company",
+    "place": "New York, NY, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   },
+   {
+    "name": "Tusk Venture Partners III GP LLC",
+    "code": "OL",
+    "description": "Technology company",
+    "place": "New York, NY, US",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Trustee",
+    "organization": "Pembroke College Foundation"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074410.pdf"
+ },
+ "sean-kirrane": {
+  "race": "U.S. House, District 5",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ },
+ "frank-pallone": {
+  "race": "U.S. House, District 6",
+  "filing": {
+   "doc": "10075741",
+   "type": "O",
+   "year": "2025",
+   "filed": "5/15/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Officer, Director",
+    "organization": "F&J Pallone Realty, LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075741.pdf"
+ },
+ "hillary-herzig": {
+  "race": "U.S. House, District 6",
+  "filing": {
+   "doc": "10078221",
+   "type": "C",
+   "year": "2026",
+   "filed": "5/14/2026"
+  },
+  "readable": true,
+  "companies": [],
+  "positions": [
+   {
+    "title": "Owner",
+    "organization": "Fairytale Face Arts LLC"
+   },
+   {
+    "title": "Owner, Author, Publisher",
+    "organization": "Little Light Press LLC"
+   },
+   {
+    "title": "Owner",
+    "organization": "Arc of Allegiance Welding LLC"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078221.pdf"
+ },
+ "rob-menendez": {
+  "race": "U.S. House, District 8",
+  "filing": {
+   "doc": "10074390",
+   "type": "O",
+   "year": "2025",
+   "filed": "7/13/2026"
+  },
+  "readable": true,
+  "companies": [
+   {
+    "name": "Art.sy, Inc.",
+    "code": "PS",
+    "description": "Private shares in former employer.",
+    "place": "",
+    "federal_awards": [],
+    "doge_cancelled": []
+   }
+  ],
+  "positions": [
+   {
+    "title": "Board Member",
+    "organization": "Congressional Hispanic Leadership Institute"
+   }
+  ],
+  "source": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074390.pdf"
+ },
+ "craig-honts": {
+  "race": "U.S. House, District 8",
+  "filing": null,
+  "readable": false,
+  "companies": [],
+  "positions": [],
+  "source": null
+ }
+}
